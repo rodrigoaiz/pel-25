@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bluemain-own: rgb(31, 138, 112);
+  --color-orange-own: rgb(252, 115, 0);
+  --color-green-own: rgb(129, 178, 20);
+  --color-yellow-own: rgb(255, 204, 41);
+  --color-beigelight-own: rgb(254, 249, 225);
+  --color-red-own: rgb(230, 57, 70);
+  --color-white-own: rgb(242, 250, 239);
+  --color-darkestblue-own: rgb(8, 20, 36);
+  --color-pink-own: rgb(252, 207, 190);
+  --color-purple-own: rgb(110, 63, 106);
+  --color-blue-own: rgb(0, 66, 90);
+  --font-titulos: 'Roboto Serif Variable', serif;
+  --font-cuerpo: 'Inter Variable', sans-serif;
+}
