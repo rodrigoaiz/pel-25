@@ -23,7 +23,7 @@ $currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
   <?php renderMenuMoodle(); ?>
   <main>
     <section>
-      <h1 class="text-3xl text-orangeown ">asdPrograma de Regularización e Iniciación a la Docencia</h1>
+      <h1 class="text-3xl text-orange-own ">asdPrograma de Regularización e Iniciación a la Docencia</h1>
       <p>Para el Colegio de Ciencias y Humanidades (CCH) es fundamental contar con una planta docente comprometida con el aprendizaje de las y los estudiantes, y que posea una sólida formación disciplinaria, pedagógica y didáctica.</p>
       <p>Por ello, pone a disposición de la comunidad docente de reciente ingreso el Programa de Regularización e Iniciación a la Docencia (PRID), el cual tiene como objetivo comprender el Modelo Educativo del CCH y, a partir de sus postulados, fortalecer la reflexión sobre el quehacer docente, la adquisición de conocimientos, habilidades disciplinarias, didácticas, pedagógicas y principios éticos para impartir alguna de las materias del Plan de Estudios vigente de las Áreas y Departamentos Académicos del CCH.</p>
       <h3 class="text-2xl">El Programa está conformado por cuatro módulos de trabajo:</h3>
