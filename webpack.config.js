@@ -41,7 +41,7 @@ module.exports = {
           },
         },
         {
-          from: 'src/**/assets/data/**/*.json', // Copia todos los archivos JSON desde todas las asignaturas
+          from: 'src/**/*.json', // Copia todos los archivos JSON
           to: ({ context, absoluteFilename }) => {
             const relativePath = path.relative(context, absoluteFilename);
             return relativePath.replace('src/', ''); // Elimina 'src/' del path
