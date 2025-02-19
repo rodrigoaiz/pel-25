@@ -1,70 +1,4 @@
 {
- "curso" : "12",
- "actividades": {
-    "foro" : 229,
-    "b1act1": 231,
-    "b1act2": 232,
-    "b1act3": 248,
-    "b2act1": 234,
-    "b2act2": 249,
-    "b2act3": 235,
-    "b2act4": 236
-  },
-  "menu": {
-    "Módulo 1": {
-      "url": "/modulo-1",
-      "publicado": true,
-      "target": "_self",
-      "nombre": "Módulo 1. El inicio del cch",
-      "paginas": [
-        {"nombre": "Módulo 1", "url": "/modulo-1", "id": 0},
-        {"nombre": "El CCH en el contexto universitario y nacional", "url": "/modulo-1/1.php", "id": 1},
-        {"nombre": "Historia del CCH", "url": "/modulo-1/2.php", "id": 2},
-        {"nombre": "El modelo Educativo del CCH", "url": "/modulo-1/3.php", "id": 3},
-        {"nombre": "El ejercicio de la docencia en el contexto actual", "url": "/modulo-1/4.php", "id": 4 },
-        {"nombre": "La docencia en el CCH", "url": "/modulo-1/5.php", "id": 5},
-        {"nombre": "Ética y marco normativo de la docencia en la UNAM", "url": "/modulo-1/6.php", "id": 6},
-        {"nombre": "Fuentes de consulta ", "url": "/modulo-1/7.php", "id": 7}
-      ]
-    },
-    "Módulo 2": {
-      "url": "/modulo-2",
-      "publicado": true,
-      "target": "_self",
-      "nombre": "Módulo 2. La metodología didáctica en las áreas del Colegio",
-      "paginas": [
-        {"nombre": "Módulo 2", "url": "/modulo-2", "id": 8},
-        {"nombre": "Presentación", "url": "/modulo-2/1.php", "id": 9},
-        {"nombre": "Plan de Estudios", "url": "/modulo-2/2.php", "id": 10},
-        {"nombre": "La cultura básica", "url": "/modulo-2/3.php", "id": 11},
-        {"nombre": "Formación extracurricular", "url": "/modulo-2/4.php", "id": 12},
-        {"nombre": "Programas de estudio", "url": "/modulo-2/5.php", "id": 13},
-        {"nombre": "El enfoque constructivista en la educación y el Modelo Educativo del CCH", "url": "/modulo-2/6.php", "id": 14},
-        {"nombre": "Planeación didáctica general de una unidad del programa ", "url": "/modulo-2/7.php", "id": 15},
-        {"nombre": "Fuentes de Consulta", "url": "/modulo-2/8.php", "id": 16}
-      ]
-    },
-    "Módulo 3": {
-      "url": "/modulo-3",
-      "publicado": false,
-      "target": "_self"
-    },
-    "Módulo 4": {
-      "url": "/modulo-4",
-      "publicado": false,
-      "target": "_self"
-    },
-    "Cronograma": {
-      "url": "/assets/docs/cronograma-modulo-2-25.pdf",
-      "publicado": true,
-      "target": "_blank"
-    },
-    "Lineamientos": {
-      "url": "/assets/docs/acreditacion-programa-25.pdf",
-      "publicado": true,
-      "target": "_blank"
-    }
-  },
   "footer": {
     "aviso": {
       "nombre": "Aviso",
@@ -112,6 +46,10 @@
   },
   "legal": {
     "texto": "Escuela Nacional Colegio de Ciencias y Humanidades | Hecho en México | © Todos los derechos reservados. Esta página electrónica puede ser reproducida, sin objeto comercial, siempre y cuando su contenido no se mutile o altere, se cite la fuente completa y la dirección Web de conformidad con el artículo 148 de la Ley Federal del Derecho de Autor, de otra forma, se requerirá permiso previo y por escrito de la UNAM."
+  },
+  "papit":{
+    "nombre": "Este sitio web es resultado del proyecto PAPIIT IV300420 'Alianza B@UNAM, CCH & ENP ante la pandemia: un estudio de impacto en docentes y estudiantes'. Agradecemos el apoyo brindado por el programa PAPIIT para la realización de este trabajo.",
+    "url": "https://www.cch.unam.mx/papiit"
   },
   "social": {
     "facebook": {

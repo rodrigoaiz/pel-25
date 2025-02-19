@@ -1,27 +1,19 @@
 <?php
-
-
 include_once BASE_PATH . '/config.php';
+include BASE_PATH . '/include/header1.php';
+
 
 ?>
-<title><?php echo htmlspecialchars($titulo); ?></title>
+<title>234</title>
 </head>
-<?php
-include BASE_PATH . '/include/menu.php';
-?>
+
 
 <body>
-  <?php
+  <?php renderMenu($menu); ?>
 
-
-  ob_start();
-
-  include_once BASE_PATH . '/include/MenuUnidades.php';
-  renderMenuUnidades($menuAsignaturaData);
-  ?>
   <main>
     <section>
-
+      <h1>123</h1>
     </section>
     <?php echo $content; ?>
   </main>

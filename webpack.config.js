@@ -41,8 +41,11 @@ module.exports = {
           },
         },
         {
-          from: 'src/menu.json', // Copia el archivo menu.json
-          to: '[path][name][ext]', // Mantiene la ubicación relativa
+          from: 'src/**/assets/data/**/*.json', // Copia todos los archivos JSON desde todas las asignaturas
+          to: ({ context, absoluteFilename }) => {
+            const relativePath = path.relative(context, absoluteFilename);
+            return relativePath.replace('src/', ''); // Elimina 'src/' del path
+          },
         },
         {
           from: 'src/assets/img/**/*.{jpg,jpeg,png,gif,svg,webp}', // Copia todas las imágenes

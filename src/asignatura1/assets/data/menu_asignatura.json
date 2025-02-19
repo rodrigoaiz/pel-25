@@ -1,0 +1,30 @@
+{
+  "nombreAsignatura": "Nombre Asignatura",
+  "asignatura": {
+    "Unidad 1": {
+      "url": "/asignatura1/unidad1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 1",
+      "temas": [
+        {"nombre": "Tema 1", "url": "/t1", "paginas": 1},
+        {"nombre": "Tema 2", "url": "/t2", "paginas": 2},
+        {"nombre": "Tema 3", "url": "/t3", "paginas": 3}
+      ]
+    },
+    "Unidad 2": {
+      "url": "/asignatura1/unidad2/1.php",
+      "publicado": true,
+      "nombre": "Unidad 2",
+      "temas": [
+        {"nombre": "Tema 1", "url": "/t1", "paginas": 1},
+        {"nombre": "Tema 2", "url": "/t2", "paginas": 2},
+        {"nombre": "Tema 3", "url": "/t3", "paginas": 3}
+      ]
+    }
+  },
+  "actividades": {
+    "actividad1": {
+       "idHTML": "u1a0", "url": "course/view.php?id=", "id": "14&section=1"
+    }
+  }
+}
