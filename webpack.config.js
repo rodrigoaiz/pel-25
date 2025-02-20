@@ -29,7 +29,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(), // Limpia el directorio `dist` antes de cada compilación
     new MiniCssExtractPlugin({
-      filename: 'assets/styles.css', // Salida del CSS compilado
+      filename: 'assets/css/styles.css', // Salida del CSS compilado
     }),
     new CopyPlugin({
       patterns: [
