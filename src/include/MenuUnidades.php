@@ -44,7 +44,9 @@ function renderMenuUnidades($menuAsignaturaPath)
     }
   }
 
-  echo '<nav class="bg-orange-own">';
+  echo '<header >';
+
+  echo '<nav>';
 
   // Renderizar la lista de unidades
   echo '<ul>';
@@ -53,17 +55,29 @@ function renderMenuUnidades($menuAsignaturaPath)
     $unidadUrl = BASE_URL . $detalles['url'];
     // Comparar la URL actual con la URL de la unidad
     $activeClass = ($unidadUrl === $currentUrl) ? ' class="active"' : '';
-    echo '<li><a href="' . $unidadUrl . '"' . $activeClass . '>' . htmlspecialchars($detalles['nombre']) . '</a></li>';
+    echo '<li><a class="font-titulos uppercase" href="' . $unidadUrl . '"' . $activeClass . '>' . htmlspecialchars($detalles['nombre']) . '</a></li>';
   }
   echo '</ul>';
 
   // Incluir el archivo menumoodle.php
   include dirname(__DIR__) . '/include/menuMoodle.php';
 
+  // Renderizar la lista de temas de la unidad actual
+  foreach ($menuAsignaturaData['asignatura'] as $unidad => $detalles) {
+    if (strpos($currentUrl, $detalles['url']) !== false) {
+      echo '<ul>';
+      foreach ($detalles['temas'] as $tema) {
+        $temaUrl = BASE_URL . $tema['url'];
+        $activeTemaClass = (strpos($currentUrl, $tema['url']) !== false) ? ' class="active"' : '';
+        echo '<li><a href="' . $temaUrl . '"' . $activeTemaClass . '>' . htmlspecialchars($tema['nombre']) . '</a></li>';
+      }
+      echo '</ul>';
+    }
+  }
+
   // Renderizar la lista de pantallas del tema actual
   foreach ($menuAsignaturaData['asignatura'] as $unidad => $detalles) {
     foreach ($detalles['temas'] as $tema) {
-      $temaUrl = BASE_URL . $tema['url'];
       if (strpos($currentUrl, $tema['url']) !== false) {
         echo '<ul>';
         for ($i = 1; $i <= $tema['paginas']; $i++) {
@@ -77,4 +91,6 @@ function renderMenuUnidades($menuAsignaturaPath)
   }
 
   echo '</nav>';
+
+  echo '</header>';
 }

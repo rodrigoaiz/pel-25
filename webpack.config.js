@@ -24,6 +24,13 @@ module.exports = {
         test: /\.php$/, // Maneja archivos PHP como recursos estáticos
         type: 'asset/resource',
       },
+      {
+        test: /\.(woff(2)?|ttf|eot|otf|svg)$/, // Maneja archivos de fuentes
+        type: 'asset/resource',
+        generator: {
+          filename: 'assets/fonts/[name][ext]', // Carpeta de destino en `dist`
+        },
+      },
     ],
   },
   plugins: [
@@ -61,6 +68,14 @@ module.exports = {
         {
           from: 'src/assets/docs/**/*.{doc,docx,pdf,xls}', // Copia todos los documentos
           to: 'assets/docs/[name][ext]', // Carpeta de destino en `dist`
+        },
+        {
+          from: 'node_modules/@fontsource-variable/roboto-condensed/files/*', // Copia las fuentes de Roboto Serif
+          to: 'assets/fonts/[name][ext]', // Carpeta de destino en `dist`
+        },
+        {
+          from: 'node_modules/@fontsource-variable/open-sans/files/*', // Copia las fuentes de Open Sans
+          to: 'assets/fonts/[name][ext]', // Carpeta de destino en `dist`
         },
       ],
     }),
