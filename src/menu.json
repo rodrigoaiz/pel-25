@@ -21,7 +21,7 @@
     "moodle": {
       "nombre": "Moodle",
       "icon": "moodle.svg",
-      "url": "https://moodle.portalacademico.cch.unam.mx/modelo-educativo/course/view.php?id=12&theme=boost"
+      "url": "https://pel.cch.unam.mx/?theme=moove"
     },
     "calificaciones": {
       "nombre": "Calificaciones",
@@ -41,14 +41,14 @@
     "salir": {
       "nombre": "Salir",
       "icon": "ban.svg",
-      "url": "https://moodle.portalacademico.cch.unam.mx/modelo-educativo/login/logout.php?sesskey=acdpwASwF9&alt=logout"
+      "url": "https://pel.cch.unam.mx/login/logout.php?sesskey=acdpwASwF9&alt=logout"
     }
   },
   "legal": {
-    "texto": "Escuela Nacional Colegio de Ciencias y Humanidades | Hecho en México | © Todos los derechos reservados. Esta página electrónica puede ser reproducida, sin objeto comercial, siempre y cuando su contenido no se mutile o altere, se cite la fuente completa y la dirección Web de conformidad con el artículo 148 de la Ley Federal del Derecho de Autor, de otra forma, se requerirá permiso previo y por escrito de la UNAM."
+    "texto": "Escuela Nacional Colegio de Ciencias y Humanidades | Hecho en México | © Todos los derechos reservados. <br/>Esta página electrónica puede ser reproducida, sin objeto comercial, siempre y cuando su contenido no se mutile o altere, se cite la fuente completa y la dirección Web de conformidad con el artículo 148 de la Ley Federal del Derecho de Autor, de otra forma, se requerirá permiso previo y por escrito de la UNAM."
   },
   "papit":{
-    "nombre": "Este sitio web es resultado del proyecto PAPIIT IV300420 'Alianza B@UNAM, CCH & ENP ante la pandemia: un estudio de impacto en docentes y estudiantes'. Agradecemos el apoyo brindado por el programa PAPIIT para la realización de este trabajo.",
+    "nombre": "Este sitio web es resultado del proyecto PAPIIT IV300420 'Alianza B@UNAM, CCH & ENP ante la pandemia: un estudio de impacto en docentes y estudiantes'.<br/> Agradecemos el apoyo brindado por el programa PAPIIT para la realización de este trabajo.",
     "url": "https://www.cch.unam.mx/papiit"
   },
   "social": {

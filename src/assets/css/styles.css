@@ -130,6 +130,9 @@
       }
     }
   }
+  #footer{
+    @apply bg-darkgrey-own text-white text-sm;
+  }
 }
 /*
 **************************************************
