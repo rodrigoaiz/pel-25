@@ -95,19 +95,21 @@
       div{
         @apply max-w-6xl mx-auto;
       }
+      .active-pagina{
+        @apply text-darkgrey-own font-bold;
+      }
       ul {
         @apply flex justify-end items-center;
         li{
           @apply text-white bg-bluemain-own/80 size-6 flex items-center justify-center;
           a{
-            @apply !no-underline font-semibold;
+            @apply !no-underline font-light relative;
           }
         }
       }
       span {
           @apply text-gray-600 text-right;
         }
-
     }
     .header__flechas{
       @apply !bg-bluemain-own;
@@ -129,13 +131,15 @@ Header
   position: absolute;
   left: 0;
   top: 0;
-
+}
+.active-pagina::after {
+  content:'👇';
+  position: absolute;
+  left: -0.5rem;
+  top: -1rem;
 }
 
-.temasUnidad li::marker {
-  font-weight: 700;
-  font-size: 1.1rem;
-}
+
 
 
 

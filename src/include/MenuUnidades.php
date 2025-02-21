@@ -133,7 +133,7 @@ function renderMenuUnidades($menuAsignaturaPath)
     }
 
     if ($paginaAnteriorUrl !== null) {
-      echo '<li class="bg-none"><a href="' . $paginaAnteriorUrl . '"><img src="' . ASSET_URL . 'icons/chevron-compact-left.svg" alt="Anterior" class=""></a></li>';
+      echo '<li class="header__flechas"><a href="' . $paginaAnteriorUrl . '"><img src="' . ASSET_URL . 'icons/chevron-compact-left.svg" alt="Anterior" class=""></a></li>';
     }
 
     // Lista de páginas
