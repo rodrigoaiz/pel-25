@@ -55,9 +55,9 @@
         }
       }
       ul{
-        @apply flex justify-end;
+        @apply flex justify-end gap-x-2;
         li{
-          @apply text-white pl-3 relative;
+          @apply text-white relative;
           .active-unidad {
               @apply !bg-bluemain-own;
             }
@@ -82,7 +82,7 @@
           @apply pb-1 marker:font-extrabold w-full border-b border-gray-300;
 
           a{
-            @apply text-gray-600 !no-underline text-sm !text-link;
+            @apply !no-underline text-sm !text-link;
           }
         }
         .active-tema{
@@ -91,7 +91,7 @@
       }
     }
     #header__pantalla{
-      @apply min-w-full bg-gray-100 py-1;
+      @apply min-w-full bg-gray-100 py-1 px-2 text-right sticky;
       div{
         @apply max-w-6xl mx-auto;
       }
@@ -99,7 +99,7 @@
         @apply text-darkgrey-own font-bold;
       }
       ul {
-        @apply flex justify-end items-center;
+        @apply flex justify-end items-center mt-2;
         li{
           @apply text-white bg-bluemain-own/80 size-6 flex items-center justify-center;
           a{
@@ -117,6 +117,18 @@
   }
   #nav-moodle{
     @apply min-w-full bg-orange-own text-sm items-center justify-between flex px-2 text-darkgrey-own;
+  }
+  #breadcrumb{
+    @apply min-w-full px-2 py-2;
+    ul {
+      @apply flex flex-row gap-x-1 text-sm max-w-6xl mx-auto ;
+      li:not(:last-child) {
+          @apply after:content-['/'];
+      }
+      a {
+        @apply underline-offset-2
+      }
+    }
   }
 }
 /*

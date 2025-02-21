@@ -5,7 +5,7 @@ $footerMenu = $menuData['footer'];
 $socialMenu = $menuData['social'];
 $legalText = $menuData['legal'];
 ?>
-<footer id="footer" class="text-white">
+<footer id="footer">
     <div class="container mx-auto text-darkblue">
         <div class="grid grid-cols-1 gap-4 md:gap-0 md:grid-cols-4 py-10">
             <div class="text-center md:mb-0 md:text-left flex justify-center items-center">

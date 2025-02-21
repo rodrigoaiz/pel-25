@@ -197,6 +197,21 @@ function renderMenuUnidades($menuAsignaturaPath)
   echo '</nav>';
 
   echo '</header>';
+
+  // Agregar breadcrumbs
+  echo '<nav id="breadcrumb" aria-label="breadcrumb">';
+  echo '<ul class="breadcrumb">';
+  if ($unidadActiva !== null) {
+    echo '<li class="breadcrumb-item"><a href="' . BASE_URL . $menuAsignaturaData['asignatura'][$unidadActiva]['url'] . '">' . htmlspecialchars($menuAsignaturaData['asignatura'][$unidadActiva]['nombre']) . '</a></li>';
+    if ($temaActivo !== null) {
+      echo '<li class="breadcrumb-item"><a href="' . BASE_URL . $temaActivo['url'] . '/1.php">' . htmlspecialchars($temaActivo['nombre']) . '</a></li>';
+      if ($paginaActiva !== null) {
+        echo '<li class="breadcrumb-item active" aria-current="page">Página ' . $paginaActiva . '</li>';
+      }
+    }
+  }
+  echo '</ul>';
+  echo '</nav>';
   // Agregar JavaScript para la navegación con teclado
   echo '<script>
     document.addEventListener("keydown", function(event) {
