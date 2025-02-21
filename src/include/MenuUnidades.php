@@ -133,7 +133,7 @@ function renderMenuUnidades($menuAsignaturaPath)
     }
 
     if ($paginaAnteriorUrl !== null) {
-      echo '<li class="header__flechas"><a href="' . $paginaAnteriorUrl . '"><img src="' . ASSET_URL . 'icons/chevron-compact-left.svg" alt="Anterior" class=""></a></li>';
+      echo '<li class="header__flechas"><a id="paginaAnterior" href="' . $paginaAnteriorUrl . '"><img src="' . ASSET_URL . 'icons/chevron-compact-left.svg" alt="Anterior" class=""></a></li>';
     }
 
     // Lista de páginas
@@ -172,7 +172,7 @@ function renderMenuUnidades($menuAsignaturaPath)
     }
 
     if ($paginaSiguienteUrl !== null) {
-      echo '<li class="header__flechas"><a href="' . $paginaSiguienteUrl . '"><img src="' . ASSET_URL . 'icons/chevron-compact-right.svg" alt="Siguiente" class=""></a></li>';
+      echo '<li class="header__flechas"><a id="paginaSiguiente" href="' . $paginaSiguienteUrl . '"><img src="' . ASSET_URL . 'icons/chevron-compact-right.svg" alt="Siguiente" class=""></a></li>';
     }
 
     echo '</ul>';
@@ -183,4 +183,20 @@ function renderMenuUnidades($menuAsignaturaPath)
   echo '</nav>';
 
   echo '</header>';
+  // Agregar JavaScript para la navegación con teclado
+  echo '<script>
+    document.addEventListener("keydown", function(event) {
+      if (event.key === "ArrowLeft") {
+        var paginaAnterior = document.getElementById("paginaAnterior");
+        if (paginaAnterior) {
+          window.location.href = paginaAnterior.href;
+        }
+      } else if (event.key === "ArrowRight") {
+        var paginaSiguiente = document.getElementById("paginaSiguiente");
+        if (paginaSiguiente) {
+          window.location.href = paginaSiguiente.href;
+        }
+      }
+    });
+  </script>';
 }
