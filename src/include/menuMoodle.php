@@ -17,17 +17,19 @@ $menuData = json_decode(file_get_contents($menuPath), true);
 $menuMoodle = $menuData['menuMoodle'];
 ?>
 <nav id="nav-moodle">
-  <div>
-    ¡Hola <span class="font-bold">
-      <?php echo $saludo; ?>
-    </span>!
+  <article>
+    <div>
+      ¡Hola <span class="font-bold">
+        <?php echo $saludo; ?>
+      </span>!
 
-  </div>
-  <div class="flex flex-cols justify-end gap-3 py-1">
-    <?php foreach ($menuMoodle as $menuItem): ?>
-      <a href="<?php echo $menuItem['url']; ?>">
-        <img class="h-5" src="<?php echo PATH_ICONS . $menuItem['icon']; ?>" alt="<?php echo $menuItem['nombre']; ?>">
-      </a>
-    <?php endforeach; ?>
-  </div>
+    </div>
+    <div class="flex flex-cols justify-end gap-3 py-1">
+      <?php foreach ($menuMoodle as $menuItem): ?>
+        <a href="<?php echo $menuItem['url']; ?>">
+          <img class="h-5" src="<?php echo PATH_ICONS . $menuItem['icon']; ?>" alt="<?php echo $menuItem['nombre']; ?>">
+        </a>
+      <?php endforeach; ?>
+    </div>
+  </article>
 </nav>

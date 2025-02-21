@@ -9,7 +9,7 @@ function renderTemplatePage($menuAsignaturaPath, $content)
   renderMenuUnidades($menuAsignaturaPath);
 ?>
   <main>
-    <?php echo $content; ?>
+    <section><?php echo $content; ?></section>
   </main>
 <?php
   // Función para eliminar BOM
