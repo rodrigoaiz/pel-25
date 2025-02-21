@@ -51,12 +51,31 @@ function renderMenuUnidades($menuAsignaturaPath)
   // Renderizar la lista de unidades
   echo '<div class="header__container">';
   echo '<div><img src="' . ASSET_URL . 'img/logo.svg" alt="Logo" class="header__logo"><span>Programas de estudio en línea</span></div>';
+  // Determinar la unidad y el tema activo
+  $unidadActiva = null;
+  $temaActivo = null;
+  $paginaActiva = null;
+
+  foreach ($menuAsignaturaData['asignatura'] as $unidad => $detalles) {
+    foreach ($detalles['temas'] as $tema) {
+      for ($i = 1; $i <= $tema['paginas']; $i++) {
+        $paginaUrl = BASE_URL . $tema['url'] . '/' . $i . '.php';
+        if ($paginaUrl === $currentUrl) {
+          $unidadActiva = $unidad;
+          $temaActivo = $tema;
+          $paginaActiva = $i;
+          break 3; // Rompe los tres bucles
+        }
+      }
+    }
+  }
+
   echo '<ul>';
   foreach ($menuAsignaturaData['asignatura'] as $unidad => $detalles) {
     // Construir la URL completa de la unidad
     $unidadUrl = BASE_URL . $detalles['url'];
     // Comparar la URL actual con la URL de la unidad
-    $activeClass = ($unidadUrl === $currentUrl) ? ' class="active-unidad"' : '';
+    $activeClass = ($unidad === $unidadActiva) ? ' class="active-unidad"' : '';
     echo '<li><a href="' . $unidadUrl . '"' . $activeClass . '>' . htmlspecialchars($detalles['nombre']) . '</a></li>';
   }
   echo '</ul>';
@@ -64,11 +83,6 @@ function renderMenuUnidades($menuAsignaturaPath)
   echo '</div>';
   // Incluir el archivo menumoodle.php
   include dirname(__DIR__) . '/include/menuMoodle.php';
-
-  // Determinar la unidad y el tema activo
-  $unidadActiva = null;
-  $temaActivo = null;
-  $paginaActiva = null;
 
   foreach ($menuAsignaturaData['asignatura'] as $unidad => $detalles) {
     foreach ($detalles['temas'] as $tema) {
