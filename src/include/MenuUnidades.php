@@ -86,18 +86,24 @@ function renderMenuUnidades($menuAsignaturaPath)
 
   // Renderizar la lista de temas de la unidad actual
   if ($unidadActiva !== null) {
-    echo '<ul>';
+    echo '<div id="header__temas">';
+    echo '<span>Temas en la unidad</span>';
+    echo '<ol>';
     foreach ($menuAsignaturaData['asignatura'][$unidadActiva]['temas'] as $tema) {
       // Construir la URL del tema (siempre apuntando a la primera página)
       $temaUrl = BASE_URL . $tema['url'] . '/1.php';
       $activeTemaClass = (strpos($currentUrl, $tema['url']) !== false) ? ' class="active-tema"' : '';
       echo '<li><a href="' . $temaUrl . '"' . $activeTemaClass . '>' . htmlspecialchars($tema['nombre']) . '</a></li>';
     }
-    echo '</ul>';
+    echo '</ol>';
+    echo '</div>';
   }
 
   // Renderizar la lista de páginas del tema actual con navegación secuencial
   if ($unidadActiva !== null && $temaActivo !== null) {
+    echo '<div id="header__pantalla">';
+    echo '<div>';
+    echo '<span>Pantallas de este tema</span>';
     echo '<ul>';
 
     // Botón "Anterior"
@@ -127,7 +133,7 @@ function renderMenuUnidades($menuAsignaturaPath)
     }
 
     if ($paginaAnteriorUrl !== null) {
-      echo '<li><a href="' . $paginaAnteriorUrl . '">Anterior</a></li>';
+      echo '<li class="bg-none"><a href="' . $paginaAnteriorUrl . '"><img src="' . ASSET_URL . 'icons/chevron-compact-left.svg" alt="Anterior" class=""></a></li>';
     }
 
     // Lista de páginas
@@ -135,7 +141,7 @@ function renderMenuUnidades($menuAsignaturaPath)
     for ($i = 1; $i <= $tema['paginas']; $i++) {
       $paginaUrl = BASE_URL . $tema['url'] . '/' . $i . '.php';
       $activePaginaClass = ($paginaUrl === $currentUrl) ? ' class="active-pagina"' : '';
-      echo '<li><a href="' . $paginaUrl . '"' . $activePaginaClass . '>Pantalla ' . $i . '</a></li>';
+      echo '<li><a href="' . $paginaUrl . '"' . $activePaginaClass . '>' . $i . '</a></li>';
     }
 
     // Botón "Siguiente"
@@ -166,10 +172,12 @@ function renderMenuUnidades($menuAsignaturaPath)
     }
 
     if ($paginaSiguienteUrl !== null) {
-      echo '<li><a href="' . $paginaSiguienteUrl . '">Siguiente</a></li>';
+      echo '<li class="header__flechas"><a href="' . $paginaSiguienteUrl . '"><img src="' . ASSET_URL . 'icons/chevron-compact-right.svg" alt="Siguiente" class=""></a></li>';
     }
 
     echo '</ul>';
+    echo '</div>';
+    echo '</div>';
   }
 
   echo '</nav>';

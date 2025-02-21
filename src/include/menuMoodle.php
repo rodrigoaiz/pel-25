@@ -16,11 +16,12 @@ $menuData = json_decode(file_get_contents($menuPath), true);
 // Obtener el array de menuMoodle
 $menuMoodle = $menuData['menuMoodle'];
 ?>
-<nav id="nav-moodle" class="w-100 justify-between flex px-2">
+<nav id="nav-moodle">
   <div>
     ¡Hola <span class="font-bold">
       <?php echo $saludo; ?>
     </span>!
+
   </div>
   <div class="flex flex-cols justify-end gap-3 py-1">
     <?php foreach ($menuMoodle as $menuItem): ?>
