@@ -3,9 +3,10 @@
 include_once dirname(__DIR__) . '/config.php';
 
 // Función para establecer el título de la página
-function setPageTitle($title)
+function setPageTitle($title, $nombreAsignatura, $numeroPantalla)
 {
-  echo '<script>document.title = "' . htmlspecialchars($title) . '";</script>';
+  $fullTitle = $title . ' - ' . $nombreAsignatura . ' - Pantalla ' . $numeroPantalla;
+  echo '<script>document.title = "' . htmlspecialchars($fullTitle) . '";</script>';
 }
 
 // Función para renderizar el menú dinámico
@@ -20,6 +21,7 @@ function renderMenuUnidades($menuAsignaturaPath)
   // Leer y decodificar el archivo JSON
   $jsonContent = file_get_contents($menuAsignaturaPath);
   $menuAsignaturaData = json_decode($jsonContent, true);
+  $nombreAsignatura = $menuAsignaturaData['nombreAsignatura'];
 
   // Verificar si el archivo JSON se cargó correctamente
   if ($menuAsignaturaData === null) {
@@ -34,12 +36,15 @@ function renderMenuUnidades($menuAsignaturaPath)
   foreach ($menuAsignaturaData['asignatura'] as $unidad => $detalles) {
     $unidadUrl = BASE_URL . $detalles['url'];
     if ($unidadUrl === $currentUrl) {
-      setPageTitle($detalles['nombre']);
+      setPageTitle($detalles['nombre'], $nombreAsignatura, 1);
     }
     foreach ($detalles['temas'] as $tema) {
       $temaUrl = BASE_URL . $tema['url'];
       if (strpos($currentUrl, $tema['url']) !== false) {
-        setPageTitle($tema['nombre']);
+        // Obtener el número de pantalla de la URL
+        preg_match('/\/(\d+)\.php$/', $currentUrl, $matches);
+        $numeroPantalla = isset($matches[1]) ? $matches[1] : 1;
+        setPageTitle($tema['nombre'], $nombreAsignatura, $numeroPantalla);
       }
     }
   }
@@ -84,6 +89,9 @@ function renderMenuUnidades($menuAsignaturaPath)
   // Incluir el archivo menumoodle.php
   include dirname(__DIR__) . '/include/menuMoodle.php';
 
+  echo '<div id="nombre-asignatura"><h1>' . htmlspecialchars($nombreAsignatura) . '</h1></div>';
+
+  // Renderizar la lista de temas de la unidad actual
   foreach ($menuAsignaturaData['asignatura'] as $unidad => $detalles) {
     foreach ($detalles['temas'] as $tema) {
       for ($i = 1; $i <= $tema['paginas']; $i++) {

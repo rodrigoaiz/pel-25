@@ -1,5 +1,5 @@
 <?php
-include '../config.php';
+include_once dirname(__DIR__) . '/config.php';
 include PATH_INCLUDE . 'header1.php';
 include PATH_INCLUDE . 'MenuUnidades.php';
 

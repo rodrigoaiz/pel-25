@@ -105,6 +105,12 @@
         }
       }
     }
+    #nombre-asignatura{
+      @apply w-full bg-bluemain-own text-white py-1 px-6 lg:px-0;
+      h1{
+        @apply text-lg font-bold text-center;
+      }
+    }
     #header__pantalla{
       @apply min-w-full bg-gray-100 py-1 px-6 lg:px-0 text-right sticky;
       div{

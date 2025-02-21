@@ -1,5 +1,5 @@
 {
-  "nombreAsignatura": "Nombre Asignatura",
+  "nombreAsignatura": "El nombre de la asignatura",
   "asignatura": {
     "Unidad 1": {
       "url": "/asignatura1/unidad1/t1/1.php",
