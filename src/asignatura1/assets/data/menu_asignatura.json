@@ -6,9 +6,10 @@
       "publicado": true,
       "nombre": "Unidad 1",
       "temas": [
-        {"nombre": "Tema 1", "url": "/asignatura1/unidad1/t1", "paginas": 3},
+        {"nombre": "Tema 1", "url": "/asignatura1/unidad1/t1", "paginas": 1},
         {"nombre": "Tema 2", "url": "/asignatura1/unidad1/t2", "paginas": 2},
-        {"nombre": "Tema 3", "url": "/asignatura1/unidad1/t3", "paginas": 3}
+        {"nombre": "Tema 3", "url": "/asignatura1/unidad1/t3", "paginas": 4},
+        {"nombre": "Tema 4", "url": "/asignatura1/unidad1/t4", "paginas": 7}
       ]
     },
     "Unidad 2": {

@@ -62,33 +62,33 @@ function renderMenuUnidades($menuAsignaturaPath)
   // Incluir el archivo menumoodle.php
   include dirname(__DIR__) . '/include/menuMoodle.php';
 
-  // Renderizar la lista de temas de la unidad actual
+  // Determinar la unidad y el tema activo
+  $unidadActiva = null;
+  $temaActivo = null;
   foreach ($menuAsignaturaData['asignatura'] as $unidad => $detalles) {
-    if (strpos($currentUrl, $detalles['url']) !== false) {
-      echo '<ul>';
-      foreach ($detalles['temas'] as $tema) {
-        // Cambiar la URL del tema para que apunte a la primera pantalla (1.php)
-        $temaUrl = BASE_URL . $tema['url'] . '/1.php';
-        $activeTemaClass = (strpos($currentUrl, $tema['url']) !== false) ? ' class="active"' : '';
-        echo '<li><a href="' . $temaUrl . '"' . $activeTemaClass . '>' . htmlspecialchars($tema['nombre']) . '</a></li>';
+    foreach ($detalles['temas'] as $tema) {
+      $temaUrl = BASE_URL . $tema['url'] . '/1.php'; // URL completa del tema
+      if ($temaUrl === $currentUrl) {
+        $unidadActiva = $unidad;
+        $temaActivo = $tema;
+        break 2; // Rompe ambos bucles
       }
-      echo '</ul>';
     }
   }
 
-  // Renderizar la lista de pantallas del tema actual
-  foreach ($menuAsignaturaData['asignatura'] as $unidad => $detalles) {
-    if (strpos($currentUrl, $detalles['url']) !== false) {
-      echo '<ul>';
-      foreach ($detalles['temas'] as $tema) {
-        // Cambiar la URL del tema para que apunte a la primera pantalla (1.php)
-        $temaUrl = BASE_URL . $tema['url'] . '/1.php';
-        $activeTemaClass = (strpos($currentUrl, $tema['url']) !== false) ? ' class="active"' : '';
-        echo '<li><a href="' . $temaUrl . '"' . $activeTemaClass . '>' . htmlspecialchars($tema['nombre']) . '</a></li>';
-      }
-      echo '</ul>';
+  // Renderizar la lista de temas de la unidad actual
+  if ($unidadActiva !== null) {
+    echo '<ul>';
+    foreach ($menuAsignaturaData['asignatura'][$unidadActiva]['temas'] as $tema) {
+      // Cambiar la URL del tema para que apunte a la primera pantalla (1.php)
+      $temaUrl = BASE_URL . $tema['url'] . '/1.php';
+      // Compara la URL completa del tema con la URL actual
+      $activeTemaClass = ($temaUrl === $currentUrl) ? ' class="active"' : '';
+      echo '<li><a href="' . $temaUrl . '"' . $activeTemaClass . '>' . htmlspecialchars($tema['nombre']) . '</a></li>';
     }
+    echo '</ul>';
   }
+
   echo '</nav>';
 
   echo '</header>';
