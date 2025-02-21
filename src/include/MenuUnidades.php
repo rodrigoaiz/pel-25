@@ -80,11 +80,22 @@ function renderMenuUnidades($menuAsignaturaPath)
   if ($unidadActiva !== null) {
     echo '<ul>';
     foreach ($menuAsignaturaData['asignatura'][$unidadActiva]['temas'] as $tema) {
-      // Cambiar la URL del tema para que apunte a la primera pantalla (1.php)
+      // Construir la URL del tema (siempre apuntando a la primera página)
       $temaUrl = BASE_URL . $tema['url'] . '/1.php';
-      // Compara la URL completa del tema con la URL actual
-      $activeTemaClass = ($temaUrl === $currentUrl) ? ' class="active"' : '';
+      $activeTemaClass = (strpos($currentUrl, $tema['url']) !== false) ? ' class="active"' : '';
       echo '<li><a href="' . $temaUrl . '"' . $activeTemaClass . '>' . htmlspecialchars($tema['nombre']) . '</a></li>';
+    }
+    echo '</ul>';
+  }
+
+  // Renderizar la lista de páginas del tema actual
+  if ($unidadActiva !== null && $temaActivo !== null) {
+    echo '<ul>';
+    $tema = $temaActivo;
+    for ($i = 1; $i <= $tema['paginas']; $i++) {
+      $paginaUrl = BASE_URL . $tema['url'] . '/' . $i . '.php';
+      $activePaginaClass = ($paginaUrl === $currentUrl) ? ' class="active"' : '';
+      echo '<li><a href="' . $paginaUrl . '"' . $activePaginaClass . '>Pantalla ' . $i . '</a></li>';
     }
     echo '</ul>';
   }
