@@ -38,14 +38,14 @@
 
 :root {
   --transition-smooth: ease-in-out 0.5s all;
+  --icon-url: url('../icons/manita.svg');
+  --icon-size: 20px;
+  --icon-pos-left: -0.5rem;
 }
 
 @layer components {
   main {
       @apply leading-relaxed;
-
-
-
       p>a,
       li>a {
         @apply text-blue-700 underline underline-offset-4 hover:text-orange-own transition-all ease-in-out;
@@ -62,15 +62,15 @@
       @apply bg-darkgrey-own;
     }
     .header__container{
-      @apply max-w-7xl mx-auto px-6 lg:px-0 py-2 grid grid-cols-2 items-center;
+      @apply max-w-7xl mx-auto px-6 lg:px-0 py-2 grid grid-cols-3 md:grid-cols-2 items-center;
       div{
-        @apply flex items-center;
+        @apply flex items-center col-span-1;
         span{
           @apply text-white uppercase font-bold font-titulos ml-2 hidden lg:block;
         }
       }
       ul{
-        @apply flex justify-end gap-x-2;
+        @apply flex justify-end gap-x-2 col-span-2 md:col-span-1;
         li{
           @apply text-white relative;
           .active-unidad {
@@ -94,14 +94,14 @@
       ol{
         @apply list-decimal list-inside;
         li{
-          @apply pb-1 marker:font-extrabold w-full border-b border-gray-300;
+          @apply pb-1 marker:font-extrabold w-full border-b border-gray-300 relative;
 
           a{
             @apply !no-underline text-sm !text-link;
           }
         }
         .active-tema{
-          @apply !text-darkestblue-own after:content-['👈'] font-semibold;
+          @apply !text-darkestblue-own font-semibold;
         }
       }
     }
@@ -165,19 +165,33 @@ Header
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 **************************************************
 */
-.active-unidad::after {
-  content:'👉';
+.active-unidad::after,
+.active-pagina::after,
+.active-tema::after {
+  content: '';
   position: absolute;
-  left: -0.5rem;
-  top: 0;
-}
-.active-pagina::after {
-  content:'👇';
-  position: absolute;
-  left: -0.5rem;
-  top: -1rem;
+  background: var(--icon-url) no-repeat center center;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  background-size: contain;
 }
 
+.active-unidad::after {
+  left: var(--icon-pos-left);
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.active-pagina::after {
+  left: var(--icon-pos-left);
+  top: -0.9rem;
+  transform: rotate(180deg);
+}
+
+.active-tema::after {
+  display: inline-block;
+  transform: rotate(-90deg) scaleX(-1);
+}
 
 body {
   font-family: var(--font-texto), sans-serif;
