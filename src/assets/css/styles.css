@@ -53,7 +53,7 @@
 
 
       section {
-        @apply mt-1 xl:mt-5 mb-2 xl:mb-10 mx-auto px-6 lg:px-0 max-w-7xl;
+        @apply mt-1 xl:mt-5 mb-2 xl:mb-10 mx-auto px-3 xl:px-0 max-w-7xl;
       }
   }
   #header__nav{
@@ -62,22 +62,22 @@
       @apply bg-darkgrey-own;
     }
     .header__container{
-      @apply max-w-7xl mx-auto px-6 lg:px-0 py-2 grid grid-cols-3 md:grid-cols-2 items-center;
+      @apply max-w-7xl mx-auto px-3 xl:px-0 py-2 grid grid-cols-3 md:grid-cols-2 items-center;
       div{
-        @apply flex items-center col-span-1;
+        @apply sm:flex items-center col-span-1 hidden;
         span{
-          @apply text-white uppercase font-bold font-titulos ml-2 hidden lg:block;
+          @apply text-white uppercase font-bold font-titulos ml-2 hidden md:block;
         }
       }
       ul{
-        @apply flex justify-end gap-x-2 col-span-2 md:col-span-1;
+        @apply flex flex-nowrap lg:justify-end gap-x-2 col-span-2 md:col-span-1;
         li{
           @apply text-white relative;
           .active-unidad {
               @apply !bg-bluemain-own;
             }
           a{
-            @apply px-4 py-1 !no-underline bg-orange-own uppercase font-bold font-texto text-sm;
+            @apply px-2 md:px-4 py-1 !no-underline bg-orange-own uppercase font-bold font-texto text-sm block;
           }
 
         }
@@ -87,7 +87,7 @@
       @apply size-10
     }
     #header__temas{
-      @apply max-w-7xl mx-auto px-6 lg:px-0 py-2;
+      @apply max-w-7xl mx-auto px-3 xl:px-0 py-2;
       span {
         @apply text-gray-600;
       }
@@ -106,13 +106,13 @@
       }
     }
     #nombre-asignatura{
-      @apply w-full bg-bluemain-own text-white py-1 px-6 lg:px-0;
+      @apply w-full bg-bluemain-own text-white py-1 px-3 xl:px-0;
       h1{
         @apply text-lg font-bold text-center;
       }
     }
     #header__pantalla{
-      @apply min-w-full bg-gray-100 py-1 px-6 lg:px-0 text-right sticky;
+      @apply min-w-full bg-gray-100 py-1 px-3 xl:px-0 text-right sticky;
       div{
         @apply max-w-7xl mx-auto;
       }
@@ -139,11 +139,11 @@
   #nav-moodle{
     @apply min-w-full bg-orange-own;
     article{
-      @apply max-w-7xl mx-auto text-sm items-center justify-between flex px-6 lg:px-0 text-darkgrey-own;
+      @apply max-w-7xl mx-auto text-sm items-center justify-between flex px-3 xl:px-0 text-darkgrey-own;
     }
   }
   #breadcrumb{
-    @apply min-w-full px-6 lg:px-0 py-2;
+    @apply min-w-full px-3 xl:px-0 py-2;
     ul {
       @apply flex flex-row gap-x-1 text-sm max-w-7xl mx-auto ;
       li:not(:last-child) {
