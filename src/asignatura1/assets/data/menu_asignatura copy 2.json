@@ -1,15 +1,15 @@
 {
-  "nombreAsignatura": "Matemáticas Bachillerato 3er Año",
+  "nombreAsignatura": "Nombre asignatura",
   "asignatura": {
     "Unidad 1": {
       "url": "/asignatura1/unidad1/t1/1.php",
       "publicado": true,
       "nombre": "Unidad 1",
       "temas": [
-        {"nombre": "Resolución de Ecuaciones Lineales Simples y Complejas", "url": "/asignatura1/unidad1/t1", "paginas": 3},
-        {"nombre": "Métodos para Resolver Sistemas de Ecuaciones Lineales", "url": "/asignatura1/unidad1/t2", "paginas": 4},
-        {"nombre": "Introducción y Operaciones con Polinomios", "url": "/asignatura1/unidad1/t3", "paginas": 5},
-        {"nombre": "Técnicas de Factorización de Polinomios", "url": "/asignatura1/unidad1/t4", "paginas": 6}
+        {"nombre": "Tema 1", "url": "/asignatura1/unidad1/t1", "paginas": 3},
+        {"nombre": "Tema 2", "url": "/asignatura1/unidad1/t2", "paginas": 4},
+        {"nombre": "Tema 3", "url": "/asignatura1/unidad1/t3", "paginas": 5},
+        {"nombre": "Tema 4", "url": "/asignatura1/unidad1/t4", "paginas": 6}
       ]
     },
     "Unidad 2": {
@@ -17,9 +17,9 @@
       "publicado": true,
       "nombre": "Unidad 2",
       "temas": [
-        {"nombre": "Propiedades y Clasificación de Ángulos y Triángulos", "url": "/asignatura1/unidad2/t1", "paginas": 2},
-        {"nombre": "Características y Tipos de Cuadriláteros", "url": "/asignatura1/unidad2/t2", "paginas": 3},
-        {"nombre": "Propiedades de los Círculos y sus Aplicaciones", "url": "/asignatura1/unidad2/t3", "paginas": 4}
+        {"nombre": "Tema 1", "url": "/asignatura1/unidad2/t1", "paginas": 2},
+        {"nombre": "Tema 2", "url": "/asignatura1/unidad2/t2", "paginas": 3},
+        {"nombre": "Tema 3", "url": "/asignatura1/unidad2/t3", "paginas": 4}
       ]
     },
     "Unidad 3": {
@@ -27,9 +27,9 @@
       "publicado": true,
       "nombre": "Unidad 3",
       "temas": [
-        {"nombre": "Definición y Aplicación de Funciones Trigonométricas", "url": "/asignatura1/unidad3/t1", "paginas": 3},
-        {"nombre": "Demostración y Uso de Identidades Trigonométricas", "url": "/asignatura1/unidad3/t2", "paginas": 4},
-        {"nombre": "Resolución de Ecuaciones Trigonométricas Complejas", "url": "/asignatura1/unidad3/t3", "paginas": 5}
+        {"nombre": "Tema 1", "url": "/asignatura1/unidad3/t1", "paginas": 3},
+        {"nombre": "Tema 2", "url": "/asignatura1/unidad3/t2", "paginas": 4},
+        {"nombre": "Tema 3", "url": "/asignatura1/unidad3/t3", "paginas": 5}
       ]
     },
     "Unidad 4": {
@@ -37,9 +37,9 @@
       "publicado": true,
       "nombre": "Unidad 4",
       "temas": [
-        {"nombre": "Cálculo y Aplicación de Medidas de Tendencia Central", "url": "/asignatura1/unidad4/t1", "paginas": 2},
-        {"nombre": "Análisis y Interpretación de Medidas de Dispersión", "url": "/asignatura1/unidad4/t2", "paginas": 3},
-        {"nombre": "Estudio de Distribuciones de Probabilidad y sus Usos", "url": "/asignatura1/unidad4/t3", "paginas": 4}
+        {"nombre": "Tema 1", "url": "/asignatura1/unidad4/t1", "paginas": 2},
+        {"nombre": "Tema 2", "url": "/asignatura1/unidad4/t2", "paginas": 3},
+        {"nombre": "Tema 3", "url": "/asignatura1/unidad4/t3", "paginas": 4}
       ]
     }
   },

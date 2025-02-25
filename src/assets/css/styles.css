@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @theme {
   --font-titulos: 'Roboto Condensed Variable', sans-serif;
@@ -46,6 +47,9 @@
 @layer components {
   main {
       @apply leading-relaxed;
+      p {
+        @apply text-base prose text-darkestblue-own;
+      }
       p>a,
       li>a {
         @apply text-blue-700 underline underline-offset-4 hover:text-orange-own transition-all ease-in-out;
@@ -70,9 +74,9 @@
         }
       }
       ul{
-        @apply flex flex-nowrap lg:justify-end gap-x-2 col-span-2 md:col-span-1;
+        @apply grid grid-cols-2 lg:grid-cols-4 lg:justify-end gap-x-2 gap-y-1 col-span-3 md:col-span-1 ;
         li{
-          @apply text-white relative;
+          @apply text-white relative text-center;
           .active-unidad {
               @apply !bg-bluemain-own;
             }
@@ -112,7 +116,7 @@
       }
     }
     #header__pantalla{
-      @apply min-w-full bg-gray-100 py-1 px-3 xl:px-0 text-right sticky;
+      @apply max-w-full bg-gray-100 py-2 px-3 xl:px-0 text-right sticky;
       div{
         @apply max-w-7xl mx-auto;
       }
@@ -120,9 +124,9 @@
         @apply text-darkgrey-own font-bold;
       }
       ul {
-        @apply flex justify-end items-center mt-2;
+        @apply flex flex-wrap justify-end items-center mt-2 gap-[0.15rem];
         li{
-          @apply text-white bg-bluemain-own/80 size-6 flex items-center justify-center;
+          @apply text-white bg-bluemain-own/80 aspect-square size-6 flex items-center justify-center;
           a{
             @apply !no-underline font-light relative;
           }
@@ -145,7 +149,10 @@
   #breadcrumb{
     @apply min-w-full px-3 xl:px-0 py-2;
     ul {
-      @apply flex flex-row gap-x-1 text-sm max-w-7xl mx-auto ;
+      @apply flex flex-row gap-x-1 text-sm max-w-7xl mx-auto;
+      li {
+        @apply max-w-[20ch] truncate md:max-w-[30ch] lg:max-w-[40ch] xl:max-w-[50ch];
+      }
       li:not(:last-child) {
           @apply after:content-['/'];
       }
