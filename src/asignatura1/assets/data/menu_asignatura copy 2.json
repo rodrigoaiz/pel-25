@@ -6,7 +6,7 @@
       "publicado": true,
       "nombre": "Unidad 1",
       "temas": [
-        {"nombre": "Resolución de Ecuaciones Lineales Simples y Complejas", "url": "/asignatura1/unidad1/t1", "paginas": 15},
+        {"nombre": "Resolución de Ecuaciones Lineales Simples y Complejas", "url": "/asignatura1/unidad1/t1", "paginas": 3},
         {"nombre": "Métodos para Resolver Sistemas de Ecuaciones Lineales", "url": "/asignatura1/unidad1/t2", "paginas": 4},
         {"nombre": "Introducción y Operaciones con Polinomios", "url": "/asignatura1/unidad1/t3", "paginas": 5},
         {"nombre": "Técnicas de Factorización de Polinomios", "url": "/asignatura1/unidad1/t4", "paginas": 6}
