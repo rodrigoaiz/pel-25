@@ -125,8 +125,8 @@ function renderMenuUnidades($menuAsignaturaPath)
   if ($unidadActiva !== null && $temaActivo !== null) {
     echo '<div id="header__pantalla">';
     echo '<div>';
-    echo '<span>Pantallas de este tema</span>';
-    echo '<ul>';
+    echo '<span id="titulo-temas">Pantallas de este tema</span>';
+    echo '<ol>';
 
     // Botón "Anterior"
     $paginaAnteriorUrl = null;
@@ -197,7 +197,7 @@ function renderMenuUnidades($menuAsignaturaPath)
       echo '<li class="header__flechas"><a id="paginaSiguiente" href="' . $paginaSiguienteUrl . '"><img src="' . ASSET_URL . 'icons/chevron-compact-right.svg" alt="Siguiente" class=""></a></li>';
     }
 
-    echo '</ul>';
+    echo '</ol>';
     echo '</div>';
     echo '</div>';
   }

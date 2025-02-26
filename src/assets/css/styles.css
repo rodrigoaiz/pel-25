@@ -47,7 +47,7 @@
 @layer components {
   main {
     section {
-      @apply mt-1 xl:mt-5 mb-2 xl:mb-10 mx-auto px-3 xl:px-0 max-w-5xl prose prose-base lg:prose-lg prose-slate prose-a:text-blue-600 prose-a:hover:text-blue-500 prose-p:max-w-[75ch] prose-p:mx-auto prose-p:leading-relaxed prose-p:text-darkestblue-own;
+      @apply mt-1 xl:mt-5 mb-2 xl:mb-10 mx-auto px-3 xl:px-0 max-w-5xl prose prose-base lg:prose-lg prose-slate prose-a:text-blue-600 prose-a:hover:text-blue-500 prose-p:max-w-[75ch] prose-p:mx-auto prose-p:leading-relaxed prose-p:text-darkestblue-own relative;
     }
     li > a {
       @apply text-blue-700 underline underline-offset-4 hover:text-orange-own transition-all ease-in-out;
@@ -109,15 +109,15 @@
       }
     }
     #header__pantalla{
-      @apply max-w-full bg-gray-300 py-2 px-3 xl:px-0 text-right sticky;
+      @apply max-w-full bg-gray-300 py-2 px-3 xl:px-0 text-right relative;
       div{
-        @apply max-w-5xl mx-auto;
+        @apply max-w-5xl mx-auto sticky top-0 z-10;
       }
       .active-pagina{
         @apply text-darkgrey-own font-bold;
       }
-      ul {
-        @apply flex flex-wrap justify-end items-center mt-2 gap-[0.15rem];
+      ol {
+        @apply flex flex-wrap justify-end items-center mt-2 gap-[0.15rem] relative z-50;
         li{
           @apply text-white bg-bluemain-own/80 aspect-square size-6 flex items-center justify-center hover:text-darkestblue-own transition-all ease-in-out hover:-translate-y-0.5;
           a{
@@ -165,6 +165,20 @@ Header
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 **************************************************
 */
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 51;
+  max-height: fit-content;
+  ol{
+    padding-top: 1.5rem;
+  }
+}
+.breadcrumb-fixed {
+  z-index: 52;
+  bottom: 0;
+}
 .active-unidad::after,
 .active-pagina::after,
 .active-tema::after {
