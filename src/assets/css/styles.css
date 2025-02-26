@@ -49,7 +49,7 @@
     section {
       @apply mt-1 xl:mt-5 mb-2 xl:mb-10 mx-auto px-3 xl:px-0 max-w-5xl prose prose-base lg:prose-lg prose-slate prose-a:text-blue-600 prose-a:hover:text-blue-500 prose-p:max-w-[75ch] prose-p:mx-auto prose-p:leading-relaxed prose-p:text-darkestblue-own;
     }
-    li>a {
+    li > a {
       @apply text-blue-700 underline underline-offset-4 hover:text-orange-own transition-all ease-in-out;
     }
   }
@@ -74,7 +74,7 @@
               @apply !bg-bluemain-own;
             }
           a{
-            @apply px-2 md:px-4 py-1 !no-underline bg-orange-own uppercase font-bold font-texto text-sm block;
+            @apply px-2 md:px-4 py-1 !no-underline bg-orange-own uppercase font-bold font-texto text-sm block hover:bg-blue-own transition-all ease-in-out hover:translate-y-0.5;
           }
 
         }
@@ -94,7 +94,7 @@
           @apply pb-1 marker:font-extrabold w-full border-b border-gray-300 relative;
 
           a{
-            @apply !no-underline text-sm !text-link;
+            @apply !no-underline text-sm text-link hover:text-orange-own transition-all ease-in-out;
           }
         }
         .active-tema{
@@ -119,7 +119,7 @@
       ul {
         @apply flex flex-wrap justify-end items-center mt-2 gap-[0.15rem];
         li{
-          @apply text-white bg-bluemain-own/80 aspect-square size-6 flex items-center justify-center;
+          @apply text-white bg-bluemain-own/80 aspect-square size-6 flex items-center justify-center hover:text-darkestblue-own transition-all ease-in-out hover:-translate-y-0.5;
           a{
             @apply !no-underline font-light relative;
           }
@@ -140,7 +140,7 @@
     }
   }
   #breadcrumb{
-    @apply min-w-full px-3 xl:px-0 pt-3 pb-2;
+    @apply min-w-full px-3 xl:px-0 pt-3 pb-2 font-titulos;
     ul {
       @apply flex flex-row gap-x-1 text-sm max-w-5xl mx-auto;
       li {
@@ -150,7 +150,7 @@
           @apply after:content-['/'];
       }
       a {
-        @apply underline-offset-2
+        @apply underline-offset-2 hover:text-orange-own transition-all ease-in-out;
       }
     }
   }

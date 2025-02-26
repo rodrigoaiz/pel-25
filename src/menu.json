@@ -18,30 +18,11 @@
     }
   },
   "menuMoodle": {
-    "moodle": {
-      "nombre": "Moodle",
-      "icon": "moodle.svg",
-      "url": "https://pel.cch.unam.mx/?theme=moove"
-    },
-    "calificaciones": {
-      "nombre": "Calificaciones",
-      "icon": "check2-circle.svg",
-      "url": "https://moodle.portalacademico.cch.unam.mx/modelo-educativo/dist/calificaciones.php"
-    },
-    "foros": {
-      "nombre": "Foros",
-      "icon": "people.svg",
-      "url": "https://moodle.portalacademico.cch.unam.mx/modelo-educativo/dist/foros.php"
-    },
-    "mensajes": {
-      "nombre": "Mensajes",
-      "icon": "menu-up.svg",
-      "url": "https://moodle.portalacademico.cch.unam.mx/modelo-educativo/dist/mensajero.php"
-    },
     "salir": {
       "nombre": "Salir",
       "icon": "ban.svg",
-      "url": "https://pel.cch.unam.mx/login/logout.php?sesskey=acdpwASwF9&alt=logout"
+      "url": "https://pel.cch.unam.mx/login/logout.php?sesskey=acdpwASwF9&alt=logout",
+      "alt" : "Salir de la plataforma"
     }
   },
   "legal": {

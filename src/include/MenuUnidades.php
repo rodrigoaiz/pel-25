@@ -209,7 +209,7 @@ function renderMenuUnidades($menuAsignaturaPath)
   // Agregar breadcrumbs
   echo '<nav id="breadcrumb" aria-label="breadcrumb">';
   echo '<ul class="breadcrumb">';
-  echo '<li class="breadcrumb-item"><a href="' . BASE_URL . '">Moodle</a></li>';
+  echo '<li class="breadcrumb-item"><a href="' . BASE_URL . '?theme=moove">Mis cursos</a></li>';
   if ($unidadActiva !== null) {
     echo '<li class="breadcrumb-item"><a href="' . BASE_URL . $menuAsignaturaData['asignatura'][$unidadActiva]['url'] . '">' . htmlspecialchars($menuAsignaturaData['asignatura'][$unidadActiva]['nombre']) . '</a></li>';
     if ($temaActivo !== null) {

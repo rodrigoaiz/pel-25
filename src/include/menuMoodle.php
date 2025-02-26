@@ -1,4 +1,5 @@
 <?php
+dirname(__DIR__) . '/config.php';
 $ruta = dirname(__FILE__) . '/../../config.php';
 $saludo = "Invitado";
 if (file_exists($ruta)) {
@@ -19,15 +20,17 @@ $menuMoodle = $menuData['menuMoodle'];
 <nav id="nav-moodle">
   <article>
     <div>
-      ¡Hola <span class="font-bold">
-        <?php echo $saludo; ?>
-      </span>!
-
+      <a class="text-sm flex flex-row items-center gap-x-1 group hover:underline hover:text-blue-own hover:gap-x-2 transition-all" href="<?php echo BASE_URL . '?theme=moove'; ?>"><img class="size-4" src="<?php echo PATH_ICONS . 'left-back.svg'; ?>">Volver a mis cursos</a>
     </div>
     <div class="flex flex-cols justify-end gap-3 py-1">
+      <div>
+        ¡Hola <span class="font-bold">
+          <?php echo $saludo; ?>
+        </span>!
+      </div>
       <?php foreach ($menuMoodle as $menuItem): ?>
         <a href="<?php echo $menuItem['url']; ?>">
-          <img class="h-5" src="<?php echo PATH_ICONS . $menuItem['icon']; ?>" alt="<?php echo $menuItem['nombre']; ?>">
+          <img class="h-5" src="<?php echo PATH_ICONS . $menuItem['icon']; ?>" alt="<?php echo $menuItem['alt']; ?>">
         </a>
       <?php endforeach; ?>
     </div>
