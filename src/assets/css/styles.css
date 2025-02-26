@@ -46,19 +46,12 @@
 
 @layer components {
   main {
-      @apply leading-relaxed;
-      p {
-        @apply text-base prose text-darkestblue-own;
-      }
-      p>a,
-      li>a {
-        @apply text-blue-700 underline underline-offset-4 hover:text-orange-own transition-all ease-in-out;
-      }
-
-
-      section {
-        @apply mt-1 xl:mt-5 mb-2 xl:mb-10 mx-auto px-3 xl:px-0 max-w-7xl;
-      }
+    section {
+      @apply mt-1 xl:mt-5 mb-2 xl:mb-10 mx-auto px-3 xl:px-0 max-w-5xl prose prose-base lg:prose-lg prose-slate prose-a:text-blue-600 prose-a:hover:text-blue-500 prose-p:max-w-[75ch] prose-p:mx-auto prose-p:leading-relaxed prose-p:text-darkestblue-own;
+    }
+    li>a {
+      @apply text-blue-700 underline underline-offset-4 hover:text-orange-own transition-all ease-in-out;
+    }
   }
   #header__nav{
     @apply min-w-full bg-slate-200;
@@ -66,7 +59,7 @@
       @apply bg-darkgrey-own;
     }
     .header__container{
-      @apply max-w-7xl mx-auto px-3 xl:px-0 py-2 grid grid-cols-3 md:grid-cols-2 items-center;
+      @apply max-w-5xl mx-auto px-3 xl:px-0 py-2 grid grid-cols-3 md:grid-cols-2 items-center;
       div{
         @apply sm:flex items-center col-span-1 hidden;
         span{
@@ -91,7 +84,7 @@
       @apply size-10
     }
     #header__temas{
-      @apply max-w-7xl mx-auto px-3 xl:px-0 py-2;
+      @apply max-w-5xl mx-auto px-3 xl:px-0 py-2;
       span {
         @apply text-gray-600;
       }
@@ -116,9 +109,9 @@
       }
     }
     #header__pantalla{
-      @apply max-w-full bg-gray-100 py-2 px-3 xl:px-0 text-right sticky;
+      @apply max-w-full bg-gray-300 py-2 px-3 xl:px-0 text-right sticky;
       div{
-        @apply max-w-7xl mx-auto;
+        @apply max-w-5xl mx-auto;
       }
       .active-pagina{
         @apply text-darkgrey-own font-bold;
@@ -143,13 +136,13 @@
   #nav-moodle{
     @apply min-w-full bg-orange-own;
     article{
-      @apply max-w-7xl mx-auto text-sm items-center justify-between flex px-3 xl:px-0 text-darkgrey-own;
+      @apply max-w-5xl mx-auto text-sm items-center justify-between flex px-3 xl:px-0 text-darkgrey-own;
     }
   }
   #breadcrumb{
-    @apply min-w-full px-3 xl:px-0 py-2;
+    @apply min-w-full px-3 xl:px-0 pt-3 pb-2;
     ul {
-      @apply flex flex-row gap-x-1 text-sm max-w-7xl mx-auto;
+      @apply flex flex-row gap-x-1 text-sm max-w-5xl mx-auto;
       li {
         @apply max-w-[20ch] truncate md:max-w-[30ch] lg:max-w-[40ch] xl:max-w-[50ch];
       }
@@ -200,7 +193,7 @@ Header
   transform: rotate(-90deg) scaleX(-1);
 }
 
-body {
+/* body {
   font-family: var(--font-texto), sans-serif;
   font-size: clamp(1.15rem, 1vw, 1em);
   color: #111111;
@@ -224,7 +217,7 @@ p {
 p:not(:last-child) {
   margin-bottom: 2rem;
 }
-
+ */
 
 
 
