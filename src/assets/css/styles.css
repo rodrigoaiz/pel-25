@@ -138,6 +138,9 @@
     article{
       @apply max-w-5xl mx-auto text-sm items-center justify-between flex px-3 xl:px-0 text-darkgrey-own;
     }
+    .truncado{
+      @apply max-w-[18ch] md:max-w-[20ch] lg:max-w-[25ch] truncate;
+    }
   }
   #breadcrumb{
     @apply min-w-full px-3 xl:px-0 pt-3 pb-2 font-titulos;

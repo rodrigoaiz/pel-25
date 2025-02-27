@@ -1,7 +1,7 @@
 <?php
 dirname(__DIR__) . '/config.php';
 $ruta = dirname(__FILE__) . '/../../config.php';
-$saludo = "Invitado";
+$saludo = "Invitado Con Un buen De Apellidos";
 if (file_exists($ruta)) {
   require_once($ruta);
   require_login();
@@ -20,10 +20,10 @@ $menuMoodle = $menuData['menuMoodle'];
 <nav id="nav-moodle">
   <article>
     <div>
-      <a class="text-sm flex flex-row items-center gap-x-1 group hover:underline hover:text-blue-own hover:gap-x-2 transition-all" href="<?php echo BASE_URL . '?theme=moove'; ?>"><img class="size-4" src="<?php echo PATH_ICONS . 'left-back.svg'; ?>">Volver a mis cursos</a>
+      <a class="text-sm flex flex-row items-center gap-x-1 group hover:underline hover:text-blue-own hover:gap-x-2 transition-all" href="<?php echo BASE_URL . '?theme=moove'; ?>"><img class="size-4" src="<?php echo PATH_ICONS . 'left-back.svg'; ?>"><span class="truncado">Volver a mis cursos</span></a>
     </div>
     <div class="flex flex-cols justify-end gap-3 py-1">
-      <div>
+      <div class="truncado">
         ¡Hola <span class="font-bold">
           <?php echo $saludo; ?>
         </span>!
