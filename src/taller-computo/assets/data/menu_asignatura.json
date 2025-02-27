@@ -1,0 +1,51 @@
+{
+  "nombreAsignatura": "Taller de Cómputo",
+  "asignatura": {
+    "Unidad 1": {
+      "url": "/taller-computo/unidad1/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 1",
+      "temas": [
+        {"nombre": "Bienvenida", "url": "/taller-computo/unidad1/t1", "paginas": 6},
+        {"nombre": "Navegador web", "url": "/taller-computo/unidad1/t2", "paginas": 4},
+        {"nombre": "Búsqueda de información en Internet", "url": "/taller-computo/unidad1/t3", "paginas": 10},
+        {"nombre": "Evaluación y administración de información", "url": "/taller-computo/unidad1/t4", "paginas": 10}
+      ]
+    },
+    "Unidad 2": {
+      "url": "/taller-computo/unidad2/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 2",
+      "temas": [
+        {"nombre": "Tema 1", "url": "/taller-computo/unidad2/t1", "paginas": 2},
+        {"nombre": "Tema 2", "url": "/taller-computo/unidad2/t2", "paginas": 3},
+        {"nombre": "Tema 3", "url": "/taller-computo/unidad2/t3", "paginas": 4}
+      ]
+    },
+    "Unidad 3": {
+      "url": "/taller-computo/unidad3/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 3",
+      "temas": [
+        {"nombre": "Tema 1", "url": "/taller-computo/unidad3/t1", "paginas": 3},
+        {"nombre": "Tema 2", "url": "/taller-computo/unidad3/t2", "paginas": 4},
+        {"nombre": "Tema 3", "url": "/taller-computo/unidad3/t3", "paginas": 5}
+      ]
+    },
+    "Unidad 4": {
+      "url": "/taller-computo/unidad4/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 4",
+      "temas": [
+        {"nombre": "Tema 1", "url": "/taller-computo/unidad4/t1", "paginas": 2},
+        {"nombre": "Tema 2", "url": "/taller-computo/unidad4/t2", "paginas": 3},
+        {"nombre": "Tema 3", "url": "/taller-computo/unidad4/t3", "paginas": 4}
+      ]
+    }
+  },
+  "actividades": {
+    "actividad1": {
+       "idHTML": "u1a0", "url": "course/view.php?id=", "id": "14&section=1"
+    }
+  }
+}

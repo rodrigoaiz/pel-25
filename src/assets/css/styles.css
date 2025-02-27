@@ -47,7 +47,13 @@
 @layer components {
   main {
     section {
-      @apply mt-1 xl:mt-5 mb-2 xl:mb-10 mx-auto px-3 xl:px-0 max-w-5xl prose prose-base lg:prose-lg prose-slate prose-a:text-blue-600 prose-a:hover:text-blue-500 prose-p:max-w-[75ch] prose-p:mx-auto prose-p:leading-relaxed prose-p:text-darkestblue-own relative;
+      @apply mt-1 xl:mt-5 mb-2 xl:mb-10 mx-auto px-3 xl:px-0 max-w-5xl prose prose-base lg:prose-lg prose-slate prose-a:text-blue-600 prose-a:hover:text-blue-500 prose-p:max-w-[75ch] prose-p:mx-auto prose-p:leading-relaxed prose-p:text-darkestblue-own prose-h2:my-3;
+    }
+    h2, h3, h4, h5{
+      @apply font-titulos;
+    }
+    h3{
+      @apply text-secondary;
     }
     li > a {
       @apply text-blue-700 underline underline-offset-4 hover:text-orange-own transition-all ease-in-out;
@@ -160,6 +166,9 @@
   #footer{
     @apply bg-darkgrey-own text-white text-sm;
   }
+  .mjx-math {
+    @apply text-2xl;
+  }
 }
 /*
 **************************************************
@@ -210,39 +219,85 @@ Header
   transform: rotate(-90deg) scaleX(-1);
 }
 
-/* body {
-  font-family: var(--font-texto), sans-serif;
-  font-size: clamp(1.15rem, 1vw, 1em);
-  color: #111111;
+.ol-alpha,
+.ol-number,
+.ul-disc {
+  list-style: none;
+  counter-reset: item;
+  padding-left: 0;
+  >li {
+    position: relative;
+    counter-increment: item;
+    margin-bottom: 1.3rem;
+    align-items: center;
+    padding-left: 2rem;
+  }
+
+  >li:before {
+    position: absolute;
+    left: 0.1rem;
+    background: var(--color-orange-own);
+    border-radius: 100%;
+    color: var(--color-white-own);
+    min-width: 2rem;
+    min-height: 2rem;
+    text-align: center;
+    font-weight: 900;
+    line-height: 2rem;
+    font-size: 1rem;
+
+  }
 }
 
-em {
-  font-style: italic;
+.ol-alpha {
+  >li:before {
+    margin-right: 1rem;
+    content: counter(item, lower-alpha);
+  }
 }
 
-a {
-  text-decoration: underline;
-  transition: all 0.5s ease;
+.ol-number {
+  >li:before {
+    content: counter(item);
+  }
 }
 
+.ul-disc {
+  >li {
+    padding-left: 1.6rem;
 
-p {
-  font-size: clamp(1rem, 1.05vw, 1.1rem);
-  line-height: clamp(1.5rem, 1.6vw, 1.7rem);
+    ul {
+      list-style: disc;
+      margin-top: 0.5rem;
+      margin-left: 1rem;
+
+      li {
+        padding-bottom: 1rem;
+      }
+
+      li:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  >li:before {
+    top: 0.5rem;
+    content: "";
+    max-width: 0.8rem;
+    min-width: 0.8rem;
+    min-height: 0.8rem;
+    max-height: 0.8rem;
+  }
 }
 
-p:not(:last-child) {
-  margin-bottom: 2rem;
-}
- */
-
-
-
-
-.mjx-math {
-  font-size: var(--size-lg);
+.ul {
+  list-style: disc;
 }
 
+.ol-letra {
+  list-style: lower-alpha;
+}
 
 .text-colorfoot {
   padding-top: 0.5rem;
