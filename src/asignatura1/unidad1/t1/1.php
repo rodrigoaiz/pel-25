@@ -2,9 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-$pathSegments = explode('/', trim($urlPath, '/'));
-$asignaturaName = $pathSegments[1];
-$menuAsignaturaPath = BASE_PATH . '/' . $asignaturaName . '/assets/data/menu_asignatura.json';
+$menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <p>Lorem ipsum dolor sit amet, <a href="#" target="_blank">consectetur adipiscing elit</a>. Phasellus eget condimentum neque. In elementum nec leo quis sagittis. Cras sit amet mi ornare, placerat urna id, aliquam felis. Sed vel quam neque. Aliquam auctor leo sem, in semper lorem cursus eget. Vestibulum at quam tellus. Lorem ipsum dolor sit amet, <a href="#" target="_blank">consectetur adipiscing elit</a>. Nunc a gravida tortor. Quisque laoreet euismod nunc in venenatis. Ut vel eros est. Nam consectetur tortor quis vulputate pellentesque.</p>
