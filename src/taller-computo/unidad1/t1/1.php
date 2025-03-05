@@ -1,9 +1,11 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
+include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ActividadIframe.php';
+
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
-include PATH_INCLUDE . 'Videos.php';
 ob_start();
 ?>
 <h2>Bienvenida a la materia de Taller de Cómputo</h2>
@@ -24,6 +26,15 @@ ob_start();
 <h3>Criterios generales de evaluación y acreditación</h3>
 <p>Es importante distinguir la forma de acreditación y los diversos aspectos que hay que evaluar, además de los momentos de evaluación a lo largo de la materia, ya que, al ser una modalidad en línea, eres tú el responsable de organizar tus tiempos de aprendizaje de entrega de actividades, permitiéndote el cumplir con las actividades que se te solicitan y subirlas en tiempo y forma en la fecha que se te indica, la plataforma tiene el cierre de algunas actividades que ya no alcanzarás a realizar.</p>
 <p class="text-center text-2xl my-2 font-semibold">¡Así!, que organiza tu tiempo e iniciamos</p>
+
+<?php ob_start(); ?>
+<ol class="ol-number">
+  <li>ola</li>
+</ol>
+<?php
+$ActividadContent = ob_get_clean();
+renderActividad('u1a1', "Actividad 1 : Mapa conceptual sobre estrategias de enseñanza");
+?>
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);

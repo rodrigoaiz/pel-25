@@ -44,8 +44,8 @@
     }
   },
   "actividades": {
-    "actividad1": {
-       "idHTML": "u1a0", "url": "course/view.php?id=", "id": "14&section=1"
-    }
+    "u1a1": { "id": "3764", "moduleName": "quiz" },
+    "u1a2": { "id": "3765", "moduleName": "hvp" },
+    "u1a3": { "id": "3766", "moduleName": "hvp" }
   }
 }
