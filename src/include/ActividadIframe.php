@@ -40,13 +40,13 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
 
   if ($actividad) {
 ?>
-    <div class="w-full mt-10 border-t-4 border-dashed border-t-slate-300">
-      <div class="max-w-screen-lg mx-auto py-5 text-darkown px-5 md:px-2">
-        <h3 class="uppercase font-bold mb-5 flex justify-start items-center gap-3">
+    <div class="w-full mt-5 lg:mt-10 border-t-2 border-dashed border-t-slate-300">
+      <div class="mx-auto text-darkown">
+        <h3 class="uppercase font-bold flex justify-start items-center gap-3">
           <img class="h-10 bg-greenown p-2 rounded-xl" src="<?php echo $iconPath; ?>" alt="Icono Actividad">
           <?php echo htmlspecialchars($ActividadTitulo); ?>
         </h3>
-        <iframe class="w-full actividadmoodle" id="actividad<?php echo $actividad['idHTML']; ?>" src="<?php echo PATH_ACTIVITIES; ?>mod/<?php echo htmlspecialchars($moduleName); ?>/view.php?id=<?php echo $actividad['id']; ?>&amp;theme=photo"></iframe>
+        <iframe class="w-full actividadmoodle" src="<?php echo PATH_ACTIVITIES; ?>mod/<?php echo htmlspecialchars($moduleName); ?>/view.php?id=<?php echo $actividad['id']; ?>&amp;theme=photo"></iframe>
       </div>
     </div>
 <?php
