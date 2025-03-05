@@ -33,7 +33,7 @@ ob_start();
 </ol>
 <?php
 $ActividadContent = ob_get_clean();
-renderActividad('u1a2', "Actividad 1 : Mapa conceptual sobre estrategias de enseñanza");
+renderActividad('u1a2', "Actividad 1 : Mapa conceptual sobre estrategias de enseñanza", $ActividadContent);
 ?>
 <?php
 $content = ob_get_clean();

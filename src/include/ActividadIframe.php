@@ -1,6 +1,6 @@
 <?php
 
-function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más")
+function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más", $ActividadContent = "")
 {
   // Obtener la ruta del archivo JSON basado en la URL actual
   $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -40,14 +40,13 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
 
   if ($actividad) {
 ?>
-    <div class="w-full mt-5 lg:mt-10 border-t-2 border-dashed border-t-slate-300">
-      <div class="mx-auto text-darkown">
-        <h3 class="uppercase font-bold flex justify-start items-center gap-3">
-          <img class="h-10 bg-greenown p-2 rounded-xl" src="<?php echo $iconPath; ?>" alt="Icono Actividad">
-          <?php echo htmlspecialchars($ActividadTitulo); ?>
-        </h3>
-        <iframe class="w-full actividadmoodle" src="<?php echo PATH_ACTIVITIES; ?>mod/<?php echo htmlspecialchars($moduleName); ?>/view.php?id=<?php echo $actividad['id']; ?>&amp;theme=photo"></iframe>
-      </div>
+    <div class="w-full mt-10 border-t-4 border-dashed border-t-slate-300">
+      <h3 class="uppercase font-bold mb-5 flex justify-start items-center gap-3">
+        <img class="h-10 bg-greenown p-2 rounded-xl" src="<?php echo $iconPath; ?>" alt="Icono Actividad">
+        <?php echo htmlspecialchars($ActividadTitulo); ?>
+      </h3>
+      <?php echo $ActividadContent; ?>
+      <iframe class="w-full actividadmoodle" src="<?php echo PATH_ACTIVITIES; ?>mod/<?php echo htmlspecialchars($moduleName); ?>/view.php?id=<?php echo $actividad['id']; ?>&amp;theme=photo"></iframe>
     </div>
 <?php
   } else {
