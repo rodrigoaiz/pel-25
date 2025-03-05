@@ -33,6 +33,7 @@
   "dependencies": {
     "@fontsource-variable/open-sans": "^5.1.1",
     "@fontsource-variable/roboto-condensed": "^5.1.1",
+    "@justinribeiro/lite-youtube": "^1.7.1",
     "bootstrap-icons": "^1.11.3",
     "path": "^0.12.7",
     "postcss": "^8.5.2",

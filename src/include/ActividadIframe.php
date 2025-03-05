@@ -8,7 +8,7 @@ function renderActividadIframe($actividadKey, $moduleName = 'assign')
 
   if ($actividadId) {
 ?>
-    <iframe class="w-full actividadmoodle" id="actividad<?php echo $actividadId; ?>" src="https://moodle.portalacademico.cch.unam.mx/modelo-educativo/mod/<?php echo htmlspecialchars($moduleName); ?>/view.php?id=<?php echo $actividadId; ?>&amp;theme=photo"></iframe>
+    <iframe class="w-full actividadmoodle" id="actividad<?php echo $actividadId; ?>" src="<?php echo PATH_ACTIVITIES; ?>/mod/<?php echo htmlspecialchars($moduleName); ?>/view.php?id=<?php echo $actividadId; ?>&amp;theme=photo"></iframe>
 
 <?php
   } else {

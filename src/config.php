@@ -6,4 +6,5 @@
   define('ASSET_URL', BASE_URL . '/assets/');
   define('PATH_ICONS', BASE_URL . '/assets/icons/');
   define('PATH_INCLUDE', BASE_PATH . '/include/');
+  define('PATH_ACTIVITIES', 'https://pel.cch.unam.mx/');
 ?>
