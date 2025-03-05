@@ -28,12 +28,10 @@ ob_start();
 <p class="text-center text-2xl my-2 font-semibold">¡Así!, que organiza tu tiempo e iniciamos</p>
 
 <?php ob_start(); ?>
-<ol class="ol-number">
-  <li>ola</li>
-</ol>
+<p>Realiza el siguiente ejercicio que te permite autoevaluarte, así puedes saber cómo andan tus conocimientos sobre la asignatura en general</p>
 <?php
 $ActividadContent = ob_get_clean();
-renderActividad('u1a2', "Actividad 1 : Mapa conceptual sobre estrategias de enseñanza", $ActividadContent);
+renderActividad('u1a2', "Cuestionario diagnóstico autoevaluación de la unidad 1", $ActividadContent);
 ?>
 <?php
 $content = ob_get_clean();
