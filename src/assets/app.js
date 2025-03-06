@@ -2,6 +2,7 @@ import './css/styles.css';
 import '@fontsource-variable/roboto-condensed';
 import '@fontsource-variable/open-sans';
 import '@justinribeiro/lite-youtube';
+import 'flowbite';
 
 console.log('App cargada');
 document.addEventListener('DOMContentLoaded', function() {
