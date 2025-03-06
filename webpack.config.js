@@ -55,7 +55,7 @@ module.exports = {
           },
         },
         {
-          from: 'src/assets/img/**/*.{jpg,jpeg,png,gif,svg,webp}', // Copia todas las imágenes
+          from: 'src/**/*.{jpg,jpeg,png,gif,svg,webp}', // Copia todas las imágenes desde cualquier subdirectorio
           to: ({ context, absoluteFilename }) => {
             const relativePath = path.relative(context, absoluteFilename);
             return relativePath.replace('src/', ''); // Elimina 'src/' del path
