@@ -1,10 +1,10 @@
 <?php
-function renderAccordion($items)
+function renderAccordion($items, $prefix = '')
 {
-  echo '<div id="accordion-collapse" data-accordion="collapse">';
+  echo '<div id="' . $prefix . 'accordion-collapse" data-accordion="collapse">';
   foreach ($items as $index => $item) {
-    $headingId = "accordion-collapse-heading-" . ($index + 1);
-    $bodyId = "accordion-collapse-body-" . ($index + 1);
+    $headingId = $prefix . "accordion-collapse-heading-" . ($index + 1);
+    $bodyId = $prefix . "accordion-collapse-body-" . ($index + 1);
     $ariaExpanded = $index === 0 ? 'true' : 'false';
     $bodyClass = $index === 0 ? '' : 'hidden';
     echo '
