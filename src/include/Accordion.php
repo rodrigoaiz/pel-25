@@ -1,7 +1,7 @@
 <?php
 function renderAccordion($items, $prefix = '')
 {
-  echo '<div id="' . $prefix . 'accordion-collapse" data-accordion="collapse">';
+  echo '<div class="mt-10" id="' . $prefix . 'accordion-collapse" data-accordion="collapse">';
   $lastIndex = count($items) - 1;
   foreach ($items as $index => $item) {
     $headingId = $prefix . "accordion-collapse-heading-" . ($index + 1);

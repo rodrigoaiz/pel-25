@@ -3,7 +3,8 @@ include_once dirname(__DIR__) . '/config.php';
 include PATH_INCLUDE . 'header1.php';
 include PATH_INCLUDE . 'MenuUnidades.php';
 
-function getMenuAsignaturaPath($urlPath) {
+function getMenuAsignaturaPath($urlPath)
+{
   $pathSegments = explode('/', trim($urlPath, '/'));
   $asignaturaName = $pathSegments[1];
   return BASE_PATH . '/' . $asignaturaName . '/assets/data/menu_asignatura.json';
@@ -14,8 +15,8 @@ function renderTemplatePage($menuAsignaturaPath, $content)
   // Renderizar el menú
   renderMenuUnidades($menuAsignaturaPath);
 ?>
-  <main>
-    <section id="main-section"><?php echo $content; ?></section>
+  <main id="main-section">
+    <?php echo $content; ?>
   </main>
 <?php
   // Función para eliminar BOM

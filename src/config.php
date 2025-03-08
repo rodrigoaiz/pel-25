@@ -8,4 +8,5 @@
   define('PATH_INCLUDE', BASE_PATH . '/include/');
   define('PATH_ACTIVITIES', 'https://pel.cch.unam.mx/');
   define('PATH_IMAGES', '../../assets/img/');
+  define('PATH_DOCS', '../../assets/docs/');
 ?>

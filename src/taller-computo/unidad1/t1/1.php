@@ -8,6 +8,8 @@ $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
+<section>
+
 <h2>Bienvenida a la materia de Taller de Cómputo</h2>
 <h3>Presentación</h3>
 <p>En Taller de Cómputo desarrollarás el conocimiento y habilidades en una cultura informática básica, la cual apoya algunas de las actividades que realizamos en otras asignaturas.</p>
@@ -33,6 +35,7 @@ ob_start();
 $ActividadContent = ob_get_clean();
 renderActividad('u1a2', "Cuestionario diagnóstico autoevaluación de la unidad 1", $ActividadContent);
 ?>
+</section>
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);

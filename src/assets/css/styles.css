@@ -183,6 +183,9 @@
       @apply text-secondary;
     }
   }
+  #biblio li {
+    @apply text-ellipsis overflow-hidden;
+  }
 }
 /*
 **************************************************
@@ -245,6 +248,9 @@ Header
     margin-bottom: 1.3rem;
     align-items: center;
     padding-left: 2rem;
+    p {
+      max-width: 75ch;
+    }
   }
 
   >li:before {

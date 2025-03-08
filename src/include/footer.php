@@ -8,7 +8,7 @@ $legalText = $menuData['legal'];
 $papitText = $menuData['papit'];
 ?>
 <script src="<?php echo BASE_URL; ?>/js/bundle.js"></script>
-<footer id="footer" class="mt-3 pt-3">
+<footer id="footer" class="pt-3">
   <div class="text-center text-darkgrey-own bg-orange-own">
     <div class="max-w-6xl mx-auto py-4"><?php echo $papitText['nombre']; ?></div>
   </div>
