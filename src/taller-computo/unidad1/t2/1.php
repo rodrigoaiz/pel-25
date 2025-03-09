@@ -21,6 +21,12 @@ ob_start();
   <?php
   renderImageComponent('u1_t2_browsers.webp', 'justify-center', 'Imagen de isroma', 'https://pixabay.com/es/illustrations/navegadores-internet-dise%C3%B1o-web-1265309/', 'Pixabay');
   ?>
+  <?php ob_start(); ?>
+  <p>En este foro diagnóstico, es importante saber organizar la información de las páginas web que visitamos o saber el historial que se deja al visitar páginas en internet, por lo tanto es importante tu reflexión al respecto.</p>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividad('u1a6', "Importancia del historial, marcadores o favoritos", $ActividadContent);
+  ?>
 
 </section>
 <?php

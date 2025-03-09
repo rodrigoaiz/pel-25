@@ -70,6 +70,13 @@ module.exports = {
           to: 'assets/docs/[name][ext]', // Carpeta de destino en `dist`
         },
         {
+          from: 'src/**/assets/docs/**/*.{doc,docx,pdf,xls}', // Copia todos los documentos desde cualquier subdirectorio
+          to: ({ context, absoluteFilename }) => {
+            const relativePath = path.relative(context, absoluteFilename);
+            return relativePath.replace('src/', ''); // Mantiene la estructura de directorios
+          },
+        },
+        {
           from: 'node_modules/@fontsource-variable/roboto-condensed/files/*', // Copia las fuentes de Roboto Serif
           to: 'assets/fonts/[name][ext]', // Carpeta de destino en `dist`
         },

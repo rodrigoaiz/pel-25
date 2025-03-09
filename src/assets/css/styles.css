@@ -277,6 +277,9 @@ Header
 }
 
 .ol-number {
+  >li {
+      padding-left: 3rem;
+  }
   >li:before {
     content: counter(item);
   }
