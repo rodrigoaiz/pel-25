@@ -85,6 +85,9 @@
           .active-unidad {
               @apply !bg-bluemain-own;
             }
+            .unpublished {
+              @apply !bg-gray-400 cursor-not-allowed;
+            }
           a{
             @apply px-2 md:px-4 py-1 !no-underline bg-orange-own uppercase font-bold font-texto text-sm block hover:bg-blue-own transition-all ease-in-out hover:translate-y-0.5;
           }

@@ -89,5 +89,5 @@ module.exports = {
       ],
     }),
   ],
-  watch: true, // Activa observación para cambios en los archivos
+  watch: mode === 'development', // Activa observación solo en modo desarrollo
 };

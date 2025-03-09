@@ -40,7 +40,7 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
 
   if ($actividad) {
 ?>
-    <div class="actividad ">
+    <div class="actividad">
       <div class="flex justify-start items-center gap-x-3 pt-5">
         <img class="w-10 max-h-5 my-0" src="<?php echo $iconPath; ?>" alt="Icono Actividad">
         <span><?php echo htmlspecialchars($ActividadTitulo); ?></span>

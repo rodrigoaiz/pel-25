@@ -27,3 +27,25 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+
+// Ajustar la altura de los iframes con la clase "actividadmoodle"
+document.addEventListener('DOMContentLoaded', function() {
+    var iframes = document.querySelectorAll(".actividadmoodle");
+
+    iframes.forEach(function(iframe) {
+        iframe.onload = function() {
+            var body = iframe.contentWindow.document.body;
+            body.style.margin = "0";
+            body.style.padding = "0";
+            body.style.border = "none";
+            iframe.style.height = body.scrollHeight + 'px';
+        };
+
+        // Ajustar el tamaño del iframe cada 500 milisegundos
+        setInterval(function() {
+            var body = iframe.contentWindow.document.body;
+            iframe.style.height = body.scrollHeight + 'px';
+        }, 500);
+    });
+});

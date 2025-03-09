@@ -81,7 +81,12 @@ function renderMenuUnidades($menuAsignaturaPath)
     $unidadUrl = BASE_URL . $detalles['url'];
     // Comparar la URL actual con la URL de la unidad
     $activeClass = ($unidad === $unidadActiva) ? ' class="active-unidad"' : '';
-    echo '<li><a href="' . $unidadUrl . '"' . $activeClass . '>' . htmlspecialchars($detalles['nombre']) . '</a></li>';
+    // Verificar si la unidad está publicada
+    if ($detalles['publicado']) {
+      echo '<li><a href="' . $unidadUrl . '"' . $activeClass . '>' . htmlspecialchars($detalles['nombre']) . '</a></li>';
+    } else {
+      echo '<li><a class="unpublished">' . htmlspecialchars($detalles['nombre']) . '</a></li>';
+    }
   }
   echo '</ul>';
   echo '</div>';
