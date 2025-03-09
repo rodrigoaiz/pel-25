@@ -3,8 +3,10 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
+const mode = process.env.NODE_ENV || 'development';
+
 module.exports = {
-  mode: 'development', // O 'production' si estás compilando para producción
+  mode: mode, // Utiliza la variable de entorno para establecer el modo
   entry: './src/assets/app.js', // Punto de entrada JavaScript
   output: {
     path: path.resolve(__dirname, 'dist'),
