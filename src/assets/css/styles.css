@@ -58,6 +58,9 @@
     h3{
       @apply text-secondary mb-3;
     }
+    h4{
+      @apply text-[1.4rem] mb-2;
+    }
     li > a {
       @apply text-blue-700 underline underline-offset-4 hover:text-orange-own transition-all ease-in-out;
     }

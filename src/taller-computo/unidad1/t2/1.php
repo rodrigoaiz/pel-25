@@ -9,7 +9,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h3>Introducción</h3>:
+  <h3>Introducción</h3>
   <p>La navegación en Internet se ha convertido en una actividad cotidiana para la mayoría de las personas en la actualidad. Sin embargo, es común que al explorar diferentes sitios web, los usuarios se pierdan o tengan dificultades para recordar la ubicación de una página que les resulte de interés, es en este contexto donde los <strong>marcadores y favoritos de navegación</strong> cobran una gran importancia. </p>
   <p><strong>Los marcadores y favoritos</strong> son herramientas que permiten a los usuarios guardar enlaces de páginas web que han visitado y que les resultan interesantes para poder acceder a ellas de manera rápida y sencilla. Esto significa que, en lugar de tener que buscar nuevamente el sitio web o escribir la dirección en la barra de búsqueda, los usuarios pueden acceder a la página deseada en un solo clic.</p>
   <p>Estas funciones son especialmente útiles para los estudiantes, que pueden emplearlos para organizar y guardar las páginas web que han encontrado para sus investigaciones, proyectos o estudios, de esta manera, pueden acceder a la información relevante de manera rápida y eficiente, sin tener que volver a realizar búsquedas exhaustivas.</p>
