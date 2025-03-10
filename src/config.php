@@ -9,4 +9,5 @@
   define('PATH_ACTIVITIES', 'https://pel.cch.unam.mx/');
   define('PATH_IMAGES', '../../assets/img/');
   define('PATH_DOCS', '../../assets/docs/');
+  define('PATH_SITE', 'https://pel.cch.unam.mx/');
 ?>
