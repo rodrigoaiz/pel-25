@@ -1,8 +1,21 @@
-import './css/styles.css';
 import '@fontsource-variable/roboto-condensed';
 import '@fontsource-variable/open-sans';
+import './css/styles.css';
 import '@justinribeiro/lite-youtube';
 import 'flowbite';
+import FontFaceObserver from 'fontfaceobserver';
+// Cargar las fuentes de forma asíncrona
+const robotoCondensed = new FontFaceObserver('Roboto Condensed Variable');
+const openSans = new FontFaceObserver('Open Sans Variable');
+
+Promise.all([robotoCondensed.load(), openSans.load()])
+  .then(() => {
+    document.documentElement.classList.add('fonts-loaded');
+  })
+  .catch(() => {
+    console.warn('Las fuentes no se cargaron correctamente.');
+  });
+
 
 console.log('App cargada');
 document.addEventListener('DOMContentLoaded', function() {

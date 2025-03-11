@@ -79,12 +79,12 @@ module.exports = {
           },
         },
         {
-          from: 'node_modules/@fontsource-variable/roboto-condensed/files/*', // Copia las fuentes de Roboto Serif
-          to: 'assets/fonts/[name][ext]', // Carpeta de destino en `dist`
+          from: 'node_modules/@fontsource-variable/open-sans/files/open-sans-latin*', // Copia solo fuentes latinas de Open Sans
+          to: 'assets/fonts/[name][ext]',
         },
         {
-          from: 'node_modules/@fontsource-variable/open-sans/files/*', // Copia las fuentes de Open Sans
-          to: 'assets/fonts/[name][ext]', // Carpeta de destino en `dist`
+          from: 'node_modules/@fontsource-variable/roboto-condensed/files/roboto-condensed-latin*', // Copia solo fuentes latinas de Roboto Condensed
+          to: 'assets/fonts/[name][ext]',
         },
       ],
     }),

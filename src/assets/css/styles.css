@@ -47,6 +47,27 @@
   --icon-pos-left: -0.5rem;
 }
 
+/* Estilos por defecto (fuente de respaldo) */
+body {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: sans-serif;
+}
+
+/* Estilos cuando las fuentes están cargadas */
+.fonts-loaded body {
+  font-family: 'Open Sans Variable', sans-serif;
+}
+
+.fonts-loaded h1,
+.fonts-loaded h2,
+.fonts-loaded h3 {
+  font-family: 'Roboto Condensed Variable', sans-serif;
+}
 @layer components {
   main {
     section {
