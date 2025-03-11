@@ -85,7 +85,8 @@ ob_start();
           <img src="<?php echo PATH_IMAGES . 'u1_t4_articulo1.webp' ?>" alt="">
         </div>
         <p><strong>Referencia bibliográfica:</strong></p>
-        <p>Altuve, H., Márquez, J., Rodríguez, A., Serrano, F., González, D., Moret, Y., y González, J. (2010). Síndrome del túnel carpiano. <em>Acta Odontológica Venezolana</em>, 48(3), pp. 43-44. Recuperado de http://saber.ucv.ve/ojs/index.php/rev_aov/article/view/7890</p>
+        <p>Altuve, H., Márquez, J., Rodríguez, A., Serrano, F., González, D., Moret, Y., y González, J. (2010). Síndrome del túnel carpiano. <em>Acta Odontológica Venezolana</em>, 48(3), pp. 43-44. Recuperado de</p>
+        <p class="truncate">http://saber.ucv.ve/ojs/index.php/rev_aov/article/view/7890</p>
         <p><strong>Cita entre paréntesis</strong></p>
         <p>(Altuve et al., 2010)</p>
         <p><strong>Cita narrativa</strong></p>
@@ -105,7 +106,9 @@ ob_start();
           <p class="url_foot"> <a href="" target="_blank"></a></p>
         </div>
         <strong>Referencia bibliográfica:</strong>
-        <p>González, N. (2021). <em>Ciencia para hacer frente a los huracanes</em>. Recuperado 10 de abril de 2023, de https://ciencia.nasa.gov/ciencia-para-hacer-frente-los-huracanes.</p><strong>Cita entre paréntesis</strong>
+        <p>González, N. (2021). <em>Ciencia para hacer frente a los huracanes</em>. Recuperado 10 de abril de 2023, de </p>
+        <p class="truncate">https://ciencia.nasa.gov/ciencia-para-hacer-frente-los-huracanes.</p>
+      </p><strong>Cita entre paréntesis</strong>
         <p>(González, 2021)</p><strong>Cita narrativa</strong>
         <p>González (2021)</p>
       </div>
@@ -166,7 +169,9 @@ ob_start();
           </tbody>
         </table>
         <strong>Referencia bibliográfica:</strong>
-        <p>Fusi, J. (2015). <em>El efecto Hitler: Una breve historia de la segunda guerra mundial</em> [EBook]. Barcelona: Espasa. Recuperado de https://www.planetadelibros.com/libros_contenido_extra/30/29366_El_efecto_Hitler.pdf</p><strong>Cita entre paréntesis</strong>
+        <Recuperado>Fusi, J. (2015). <em>El efecto Hitler: Una breve historia de la segunda guerra mundial</em> [EBook]. Barcelona: Espasa. Recuperado de</p>
+        <p class="truncate">https://www.planetadelibros.com/libros_contenido_extra/30/29366_El_efecto_Hitler.pdf</p>
+        <p><strong>Cita entre paréntesis</strong></p>
         <p>(Fusi., 2015)</p><strong>Cita entre narrativa</strong>
         <p>Fusi (2015)</p>
       </div>
