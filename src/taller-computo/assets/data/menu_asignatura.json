@@ -14,7 +14,7 @@
     },
     "Unidad 2": {
       "url": "/taller-computo/unidad2/t1/1.php",
-      "publicado": false,
+      "publicado": true,
       "nombre": "Unidad 2",
       "temas": [
         {"nombre": "Evolución y tipos de computadoras", "url": "/taller-computo/unidad2/t1", "paginas": 9},

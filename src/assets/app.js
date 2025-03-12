@@ -77,3 +77,17 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 500);
     });
 });
+
+document.addEventListener("keydown", function(event) {
+  if (event.key === "ArrowLeft") {
+    var paginaAnterior = document.getElementById("paginaAnterior");
+    if (paginaAnterior) {
+      window.location.href = paginaAnterior.href;
+    }
+  } else if (event.key === "ArrowRight") {
+    var paginaSiguiente = document.getElementById("paginaSiguiente");
+    if (paginaSiguiente) {
+      window.location.href = paginaSiguiente.href;
+    }
+  }
+});
