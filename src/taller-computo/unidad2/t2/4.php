@@ -31,7 +31,7 @@ ob_start();
   <p>Realiza la siguiente actividad.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a9', "Hardware de microcomputadoras ", $ActividadContent);
+  renderActividad('u2a9', "Hardware de microcomputadoras", $ActividadContent);
   ?>
 </section>
 <?php
