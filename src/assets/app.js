@@ -52,13 +52,28 @@ document.addEventListener('DOMContentLoaded', function() {
             body.style.margin = "0";
             body.style.padding = "0";
             body.style.border = "none";
+            body.style.width = "100%"; // Forzar el ancho del contenido del iframe
             iframe.style.height = body.scrollHeight + 'px';
+            iframe.style.width = "100%"; // Forzar el ancho del iframe
+
+            // Suprimir el margin-right del contenedor específico
+            var container = iframe.contentWindow.document.querySelector('#page.drawers.show-drawer-right');
+            if (container) {
+                container.style.marginRight = "0";
+            }
         };
 
         // Ajustar el tamaño del iframe cada 500 milisegundos
         setInterval(function() {
             var body = iframe.contentWindow.document.body;
             iframe.style.height = body.scrollHeight + 'px';
+            iframe.style.width = "100%"; // Forzar el ancho del iframe
+
+            // Suprimir el margin-right del contenedor específico
+            var container = iframe.contentWindow.document.querySelector('#page.drawers.show-drawer-right');
+            if (container) {
+                container.style.marginRight = "0";
+            }
         }, 500);
     });
 });

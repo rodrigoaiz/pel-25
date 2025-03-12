@@ -234,6 +234,7 @@ Header
 .breadcrumb-fixed {
   z-index: 52;
   bottom: 0;
+  max-height: 1.5rem;
 }
 .active-unidad::after,
 .active-pagina::after,

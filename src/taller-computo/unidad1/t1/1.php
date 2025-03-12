@@ -37,7 +37,7 @@ ob_start();
   renderActividad('u1a1', "Cuestionario diagnóstico autoevaluación de la unidad 1", $ActividadContent);
   ?>
 </section>
-<?php renderModalIndex('<strong>IMPORTANTE 2:</strong> Sólo encontrarás disponible el contenido de la Unidad 1, en breve podrás acceder a las siguientes unidades'); ?>
+<?php renderModalIndex('<strong>IMPORTANTE 2:</strong> Sólo encontrarás disponible el contenido de la Unidad 1 y 2, en breve podrás acceder a las siguientes unidades'); ?>
 
 <?php
 $content = ob_get_clean();

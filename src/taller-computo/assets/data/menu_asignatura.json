@@ -17,9 +17,12 @@
       "publicado": false,
       "nombre": "Unidad 2",
       "temas": [
-        {"nombre": "Tema 1", "url": "/taller-computo/unidad2/t1", "paginas": 2},
-        {"nombre": "Tema 2", "url": "/taller-computo/unidad2/t2", "paginas": 3},
-        {"nombre": "Tema 3", "url": "/taller-computo/unidad2/t3", "paginas": 4}
+        {"nombre": "Evolución y tipos de computadoras", "url": "/taller-computo/unidad2/t1", "paginas": 9},
+        {"nombre": "Hardware de las microcomputadoras", "url": "/taller-computo/unidad2/t2", "paginas": 7},
+        {"nombre": "Representación de la información", "url": "/taller-computo/unidad2/t3", "paginas": 9},
+        {"nombre": "Sistema operativo", "url": "/taller-computo/unidad2/t4", "paginas": 8},
+        {"nombre": "Características y riesgos del uso de software", "url": "/taller-computo/unidad2/t5", "paginas": 10}
+
       ]
     },
     "Unidad 3": {
