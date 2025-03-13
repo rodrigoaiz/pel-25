@@ -68,7 +68,7 @@ ob_start();
   <p>Primero trabajaremos en equipos haciendo la reflexión e intercambio de información y opiniones acerca de la codificación y decodificación en la comunicación de la información.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a10', "Codificación y decodificación en la comunicación de la información", $ActividadContent);
+  renderActividad('u2a12', "Codificación y decodificación en la comunicación de la información", $ActividadContent);
   ?>
   <p>Piensa acerca de la pregunta ¿Cómo escribes @? sin presionar Alt Gr – Q o Ctrl - Alt – Q y sin copiar el carácter @ de una página web.</p>
   <h3>Los sistemas de numeración</h3>
@@ -79,6 +79,15 @@ ob_start();
     <li><strong>Semi-posicionales (híbridos)</strong>. En estos, el valor de un símbolo es fijo en la mayoría de las ocasiones, sin embargo, se puede modificar cuando una letra se agrega atrás o adelante de estas, el valor disminuye o aumenta. Ejemplo, el sistema romano.</li>
     <li><strong>Posicionales</strong>. Se caracterizan porque el valor de sus símbolos se determina por su expresión, pero también por el lugar que ocupan dentro de una cifra, es decir, el valor posicional. Ejemplos los sistemas de numeración decimal, binario, octal, hexadecimal entre otros .</li>
   </ul>
+  <?php ob_start(); ?>
+  <p>Descarga este <a href="<?php echo PATH_DOCS . 'u2_t3_practica_representacion_informacion.docx' ?>" target="_blank">documento de la práctica</a>. Lee con atención y contesta las preguntas de la <strong>actividad 1</strong>.</p>
+  <p>Mantén abierta la práctica para realizar el resto de los ejercicios, conforme se te vaya solicitando.</p>
+  <p class="font-bold">Una vez que hayas concluido todas las actividades, guarda el documento siguiendo el formato: Apellidos_Nombre_U2Ap4. Ejemplo: SanchezLopez_JoseLuis_U2Ap4.</p>
+  <p>Consulta los <a href="<?php echo PATH_DOCS . 'u2_t3_rubrica_practica_representacion_informacion.pdf' ?> target="_blank">Criterios de evaluación</a> de la actividad. Más adelante te diremos dónde enviar tu trabajo.</p>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividad('u2a11', "Práctica: La representación de la información", $ActividadContent);
+  ?>
 </section>
 <?php
 $content = ob_get_clean();

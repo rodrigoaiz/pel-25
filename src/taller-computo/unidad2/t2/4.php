@@ -28,7 +28,7 @@ ob_start();
     <?php renderImage('u2_t2_3_wiki.webp', 'Nota: Imagen principal que muestra instrucciones y palabras a editar. ') ?>
   </div>
   <?php ob_start(); ?>
-  <p>Realiza la siguiente actividad.</p>
+  <p>Particia en el siguiente wiki.</p>
   <?php
   $ActividadContent = ob_get_clean();
   renderActividad('u2a9', "Hardware de microcomputadoras", $ActividadContent);
