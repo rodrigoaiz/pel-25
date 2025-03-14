@@ -1,5 +1,5 @@
 <?php
-function renderModalIndex($ModalContent2)
+function renderModalIndex($ModalContent2 = null)
 {
   $ModalTittle = "Por favor, lee lo siguiente:";
   $ModalContent1 = '<strong>IMPORTANTE 1:</strong> Para regresar a la plataforma MOODLE utiliza el enlace "Volver a mis cursos" en el menú principal. Si has terminado de revisar el contenido, por favor, utiliza el botón "Salir" en el mismo menú.';
