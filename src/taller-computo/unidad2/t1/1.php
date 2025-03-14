@@ -10,7 +10,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h2>Bienvenida a la Unidad 22</h2>
+  <h2>Bienvenida a la Unidad 2</h2>
   <h3>Hardware y Software</h3>
   <p>En la Unidad II. “Hardware y Software” describirías la evolución de las computadoras a partir del hardware y software, determinando las características de las generaciones de computadoras incluyendo el modelo de Jhon Von Neuman y las tendencias. Además de, identificar los riesgos en el uso de las computadoras y cómo prevenirlas.</p>
   <div class="max-w-2xl mx-auto">
