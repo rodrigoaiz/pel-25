@@ -46,21 +46,21 @@ module.exports = {
           from: 'src/**/*.php', // Copia todos los archivos PHP
           to: ({ context, absoluteFilename }) => {
             const relativePath = path.relative(context, absoluteFilename);
-            return relativePath.replace('src/', ''); // Elimina 'src/' del path
+            return relativePath.replace(/^src[\\/]/, ''); // Elimina 'src/' del path
           },
         },
         {
           from: 'src/**/*.json', // Copia todos los archivos JSON
           to: ({ context, absoluteFilename }) => {
             const relativePath = path.relative(context, absoluteFilename);
-            return relativePath.replace('src/', ''); // Elimina 'src/' del path
+            return relativePath.replace(/^src[\\/]/, ''); // Elimina 'src/' del path
           },
         },
         {
           from: 'src/**/*.{jpg,jpeg,png,gif,svg,webp}', // Copia todas las imágenes desde cualquier subdirectorio
           to: ({ context, absoluteFilename }) => {
             const relativePath = path.relative(context, absoluteFilename);
-            return relativePath.replace('src/', ''); // Elimina 'src/' del path
+            return relativePath.replace(/^src[\\/]/, ''); // Elimina 'src/' del path
           },
         },
         {
@@ -75,7 +75,7 @@ module.exports = {
           from: 'src/**/assets/docs/**/*.{doc,docx,pdf,xls}', // Copia todos los documentos desde cualquier subdirectorio
           to: ({ context, absoluteFilename }) => {
             const relativePath = path.relative(context, absoluteFilename);
-            return relativePath.replace('src/', ''); // Mantiene la estructura de directorios
+            return relativePath.replace(/^src[\\/]/, ''); // Mantiene la estructura de directorios
           },
         },
         {
