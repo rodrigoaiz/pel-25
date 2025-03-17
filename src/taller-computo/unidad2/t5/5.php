@@ -44,7 +44,7 @@ ob_start();
     <p>Realiza la actividad que se muestra a continuación.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a22', "Virus y malware", $ActividadContent);
+  renderActividad('u2a24', "Virus y malware", $ActividadContent);
   ?>
 </section>
 <?php

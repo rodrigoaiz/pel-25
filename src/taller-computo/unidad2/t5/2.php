@@ -38,7 +38,7 @@ ob_start();
   <?php ob_start(); ?>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a20', "Tipos de licencias de software", $ActividadContent);
+  renderActividad('u2a22', "Tipos de licencias de software", $ActividadContent);
   ?>
 </section>
 <?php

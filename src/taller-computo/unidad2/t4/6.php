@@ -15,7 +15,7 @@ ob_start();
   <p>Veamos los siguientes elementos que componen el escritorio de Windows.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a16', "Elementos principales de Windows", $ActividadContent);
+  renderActividad('u2a18', "Elementos principales de Windows", $ActividadContent);
   ?>
   <h4>Sistema Operativo Linux</h4>
   <p>Es un Sistema Operativo de código abierto y gratuito basado en el núcleo Linux, se caracteriza por su flexibilidad y personalización, permitiendo a los usuarios adaptar el sistema a sus necesidades específicas.</p>
@@ -33,7 +33,7 @@ ob_start();
   <p>Veamos los siguientes elementos que componen el escritorio de Ubuntu.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a17', "Elementos principales de Ubuntu", $ActividadContent);
+  renderActividad('u2a19', "Elementos principales de Ubuntu", $ActividadContent);
   ?>
   <h4>Sistema Operativo Mac OS</h4>
   <p>Es el software principal que controla las computadoras Mac de Apple, ofrece una interfaz amigable y fluida, además de características exclusivas para potenciar la creatividad y la productividad, es conocido por su diseño elegante, seguridad robusta y optimización para hardware de Apple.</p>
@@ -41,7 +41,7 @@ ob_start();
   <p>Veamos los siguientes elementos que componen el escritorio de Mac Os..</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a18', "Elementos principales de Mac Os", $ActividadContent);
+  renderActividad('u2a20', "Elementos principales de Mac Os", $ActividadContent);
   ?>
   <h4>Sistema Operativo Android</h4>
   <p>Es un Sistema Operativo móvil desarrollado por Google, se utiliza en teléfonos inteligentes y tabletas. Ofrece una variedad de aplicaciones, personalización y acceso a servicios en línea.</p>
@@ -50,7 +50,7 @@ ob_start();
   <p>Veamos los siguientes elementos que componen el escritorio de Android.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a19', "Elementos principales de Android", $ActividadContent);
+  renderActividad('u2a21', "Elementos principales de Android", $ActividadContent);
   ?>
 </section>
 <?php

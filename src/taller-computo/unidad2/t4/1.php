@@ -24,7 +24,7 @@ ob_start();
   <p>Tu participación es de gran importancia para enriquecer tu aprendizaje.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a12', "Tipos de software", $ActividadContent);
+  renderActividad('u2a14', "Tipos de software", $ActividadContent);
   ?>
 </section>
 <?php

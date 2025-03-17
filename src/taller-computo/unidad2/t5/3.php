@@ -22,7 +22,7 @@ ob_start();
   <?php ob_start(); ?>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a21', "Propiedad, distribución y libertad de uso del software", $ActividadContent);
+  renderActividad('u2a23', "Propiedad, distribución y libertad de uso del software", $ActividadContent);
   ?>
   <h3>Conclusión</h3>
   <p>Las características de propiedad, distribución y libertad de uso del software son elementos fundamentales que definen la naturaleza y el alcance de cómo interactuamos con los programas informáticos en el mundo digital. La relación entre estas características juega un papel crucial en determinar la forma en que los usuarios, los creadores y la sociedad en general se benefician y participan en el mundo del software.</p>

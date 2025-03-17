@@ -1,7 +1,6 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -26,12 +25,6 @@ ob_start();
       <p>En sistemas operativos como Windows, las carpetas se representan visualmente con íconos que se asemejan a carpetas de archivo en la vida real, en sistemas basados en Unix y Linux, las carpetas se llaman "directorios" y están estructuradas en una jerarquía que parte desde el directorio raíz.</p>
     </div>
   </div>
-  <?php ob_start(); ?>
-  <p>Por eso, vale la pena plantearse las siguientes preguntas.</p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u2a15', "Sistema operativo, archivos y carpetas", $ActividadContent);
-  ?>
 </section>
 <?php
 $content = ob_get_clean();

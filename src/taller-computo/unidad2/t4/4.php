@@ -32,7 +32,7 @@ ob_start();
   <p>Por eso, vale la pena plantearse las siguientes preguntas.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a15', "Sistema operativo, archivos y carpetas", $ActividadContent);
+  renderActividad('u2a17', "Sistema operativo, archivos y carpetas", $ActividadContent);
   ?>
 </section>
 <?php

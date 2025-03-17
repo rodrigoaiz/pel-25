@@ -38,13 +38,13 @@ ob_start();
   <p>Pon a prueba lo que has aprendido hasta el momento acerca de daños en la salud por el uso de hardware con el siguiente ejercicio.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a23', "Daños por el uso de hardware y toxicidad", $ActividadContent);
+  renderActividad('u2a25', "Daños por el uso de hardware y toxicidad", $ActividadContent);
   ?>
   <?php ob_start(); ?>
   <p>Realiza el siguiente cuestionario de autoevaluación para que conozcas tu desempeño en esta unidad 2 “Hardware y software” ¡Éxito!</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a24', "Cuestionario final unidad 2", $ActividadContent);
+  renderActividad('u2a26', "Cuestionario final unidad 2", $ActividadContent);
   ?>
 </section>
 <?php
