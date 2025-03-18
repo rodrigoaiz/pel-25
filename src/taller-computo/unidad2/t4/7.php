@@ -12,7 +12,7 @@ ob_start();
   <h4>Almacenamiento Local</h4>
   <p>Se refiere a los archivos y carpetas que se encuentran en la memoria física del dispositivo, como el disco duro y las memorias USB.</p>
   <p>Los administradores de archivos locales facilitan la creación, copia, movimiento y eliminación de archivos y carpetas.</p>
-  <div class="grid md:grid-cols-2 md:gap-x-4">
+  <div class="grid md:grid-cols-2 md:gap-x-4 gap-y-2">
     <div class="bg-secondary/20 px-4 py-2 rounded-lg max-w-5xl mx-auto">
       <p><strong>Ventaja</strong></p>
       <ul class="ul-disc">
@@ -34,7 +34,7 @@ ob_start();
     <p>Se refiere a la capacidad de almacenar archivos en servidores remotos a través de Internet.</p>
     <p>Los administradores de archivos en la nube permiten subir, descargar y gestionar archivos desde cualquier lugar con conexión a Internet.</p>
     <p>Ejemplos populares de servicios en la nube incluyen Google Drive, Dropbox y OneDrive.</p>
-    <div class="grid md:grid-cols-2 md:gap-x-4">
+    <div class="grid md:grid-cols-2 md:gap-x-4 gap-y-2">
       <div class="bg-secondary/20 px-4 py-2 rounded-lg max-w-5xl mx-auto">
         <p><strong>Ventaja</strong></p>
         <ul class="ul-disc">

@@ -20,7 +20,7 @@ ob_start();
     <li>UNAM. (2016). <em>¿Qué es el Hardware y Software?</em>. YouTube UNAM Sepacomputo canal. <a href="https://www.youtube.com/watch?v=PhGkt3R0LkY&amp;t=1s" target="_blank">https://www.youtube.com/watch?v=PhGkt3R0LkY&amp;t=1s</a></li>
     <li>Wikipedia. (2023). <em>Hardware</em>. Wikipedia. <a href="https://es.wikipedia.org/wiki/Hardware" target="_blank">https://es.wikipedia.org/wiki/Hardware</a></li>
   </ul>
-  <div class="my-5 mx-40 border border-primary p-5">
+  <div class="my-5 mx-auto border border-primary p-5">
     <p class="text-center"> <strong>¡¡¡Felicidades!!!</strong></p>
     <p class="text-center"> <strong>Llegamos al final del aprendizaje, espero que lo hayas disfrutado.</strong></p>
     <p class="text-center"> <strong>Te invito a que continuemos con el siguiente aprendizaje.</strong></p>

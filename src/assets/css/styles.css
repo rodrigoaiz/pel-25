@@ -54,7 +54,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: sans-serif;
 }
 
@@ -65,7 +66,8 @@ h3 {
 
 .fonts-loaded h1,
 .fonts-loaded h2,
-.fonts-loaded h3 {
+.fonts-loaded h3,
+.fonts-loaded h4 {
   font-family: 'Roboto Condensed Variable', sans-serif;
 }
 @layer components {
@@ -76,8 +78,11 @@ h3 {
     h2, h3, h4, h5{
       @apply font-titulos;
     }
+    h2 {
+      @apply text-darkestblue-own text-[1.6rem] mb-3 mt-2;
+    }
     h3{
-      @apply text-secondary mb-3;
+      @apply text-secondary text-[1.5rem] mb-3 mt-2;
     }
     h4{
       @apply text-[1.4rem] mb-2;
@@ -203,7 +208,7 @@ h3 {
     @apply w-full mt-10 border-t-2 border-dashed border-t-slate-300;
 
     span {
-      @apply text-secondary uppercase font-titulos font-bold text-2xl before:content-['|'] before:mr-2;
+      @apply text-secondary uppercase font-titulos font-semibold text-[1.3rem] md:before:content-['|'] md:before:mr-2 text-pretty leading-tight;
     }
 
     p {

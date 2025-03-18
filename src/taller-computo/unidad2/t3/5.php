@@ -14,9 +14,9 @@ ob_start();
   <h3>La memoria RAM</h3>
   <ul>
     <li>Emplea direcciones de memoria donde almacena los ceros y unos.</li>
-    <table class="table-matrix">
-      <tbody class="text-center">
-        <tr>
+    <table class="table-matrix flex mx-auto !shadow-none">
+      <tbody class="text-center mx-auto">
+        <tr class="flex flex-wrap mx-auto">
           <td>1</td>
           <td>0</td>
           <td>1</td>

@@ -38,7 +38,7 @@ $papitText = $menuData['papit'];
           <?php foreach ($socialMenu as $socialItem): ?>
             <li>
               <a class="transition-all" href="<?php echo $socialItem['link']; ?>" target="_blank" rel="noopener noreferrer">
-                <img class="invert" src="<?php echo PATH_ICONS . '/' . $socialItem['icon']; ?>" alt="<?php echo $socialItem['icon']; ?>" />
+                <img class="invert" src="<?php echo PATH_ICONS . $socialItem['icon']; ?>" alt="<?php echo $socialItem['icon']; ?>" />
               </a>
             </li>
           <?php endforeach; ?>

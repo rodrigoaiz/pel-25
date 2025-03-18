@@ -15,7 +15,7 @@ ob_start();
     <?php renderImage('u2_t1_estacion_trabajo.webp', 'Estación de trabajo. Imagen creada con generador de imágenes Bing con tecnología de DALL·E Ubicación.') ?>
   </div>
   <p>Espero que las actividades que realices sean agradables y logres el aprendizaje de esta lección. Para ello a continuación te presento la temática que utilizaremos para llevar a cabo tu aprendizaje.</p>
-  <div class="my-5 mx-40 border border-primary px-5 py-2">
+  <div class="my-5 mx-auto border border-primary px-5 py-2">
     <h4 class="my-0">Temática</h4>
     <p><strong>Tipos de computadoras y sus características:</strong></p>
     <ul class="ul-disc">
