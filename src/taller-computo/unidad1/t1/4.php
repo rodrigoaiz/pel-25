@@ -7,7 +7,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h3>Referencias</h3>
+  <h2>Referencias</h2>
   <ul id="biblio" class="ul-disc">
     <li>NIC México. (s.f.). <em>Historia de NIC México</em>. NIC México. <a href="https://www.nicmexico.mx/es-nicmx-historia/" target="_blank"><i class="ri-cloud-line inline"></i> https://www.nicmexico.mx/es-nicmx-historia/</a></li>
     <li>NITRD. (1995). <em>Definition of "Internet". Archived Material</em>. NITRD. <a href="https://www.nitrd.gov/historical/fnc/internet_res.pdf" target="_blank"><i class="ri-cloud-line inline"></i> https://www.nitrd.gov/historical/fnc/internet_res.pdf</a></li>

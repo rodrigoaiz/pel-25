@@ -7,7 +7,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h3>Referencias</h3>
+  <h2>Referencias</h2>
   <ul id="biblio" class="ul-disc">
     <li>Álvarez L. et al. (2020). <em>Creación y gestión de carpetas y archivos</em> [Página Web]. <a href="https://www.educa.jcyl.es/educacyl/cm/gallery/CCD/Area_1/A2.1_Entorno_Windows_I/2_creacin_y_gestin_de_carpetas_y_archivos.html" target="_blank">https://www.educa.jcyl.es/educacyl/cm/gallery/CCD/Area_1/A2.1_Entorno_Windows_I/2_creacin_y_gestin_de_carpetas_y_archivos.html</a></li>
     <li>Apple Inc. (2022). <em>Sistema Operativo Mac-Os</em> [Captura de pantalla de la barra de herramientas en macOS Monterey]. <a href="https://support.apple.com/library/content/dam/edam/applecare/images/es_MX/macos/monterey/macos-monterey-mba-screenshot-toolbar.jpg" target="_blank">https://support.apple.com/library/content/dam/edam/applecare/images/es_MX/macos/monterey/macos-monterey-mba-screenshot-toolbar.jpg</a></li>

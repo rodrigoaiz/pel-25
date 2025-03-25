@@ -31,7 +31,7 @@
       "nombre": "Unidad 3",
       "temas": [
         {"nombre": "Ambiente de trabajo", "url": "/taller-computo/unidad3/t1", "paginas": 6},
-        {"nombre": "Series Numéricas", "url": "/taller-computo/unidad3/t2", "paginas": 4},
+        {"nombre": "Series Numéricas", "url": "/taller-computo/unidad3/t2", "paginas": 2},
         {"nombre": "Fórmulas con referencias", "url": "/taller-computo/unidad3/t3", "paginas": 5},
         {"nombre": "Gráficas de barras y circulares", "url": "/taller-computo/unidad3/t4", "paginas": 5},
         {"nombre": "Gráficas de dispersión", "url": "/taller-computo/unidad3/t5", "paginas": 6},

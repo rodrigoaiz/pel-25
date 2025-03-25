@@ -7,7 +7,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h3>Referencias</h3>
+  <h2>Referencias</h2>
   <ul id="biblio" class="ul-disc">
     <li>Eset. (s./f) Malware. Obtenido de: <a href="https://www.eset.com/es/caracteristicas/malware/" target="_blank">https://www.eset.com/es/caracteristicas/malware/</a></li>
     <li>Kaspersky. (s/f). ¿Cómo afecta la tecnología a tu salud física? Obtenido de : <a href="https://latam.kaspersky.com/resource-center/preemptive-safety/impacts-of-technology-on-health" target="_blank">https://latam.kaspersky.com/resource-center/preemptive-safety/impacts-of-technology-on-health</a></li>

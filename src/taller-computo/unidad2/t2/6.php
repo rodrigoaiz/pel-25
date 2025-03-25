@@ -7,7 +7,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h3>Referencias</h3>
+  <h2>Referencias</h2>
   <ul id="biblio" class="ul-disc">
     <li>CISCO. (2016). Capítulo 1: <em>Introducción al hardware de computadoras personales</em>. Facultad de Ingeniería. UNAM. <a href="https://aulavirtual.fio.unam.edu.ar/pluginfile.php/278766/mod_resource/content/1/Unidad%201%20Hardware.pdf" target="_blank">https://aulavirtual.fio.unam.edu.ar/pluginfile.php/278766/mod_resource/content/1/Unidad%201%20Hardware.pdf</a></li>
     <li>Dembowski, K. (2003). <em>El Gran Libro de Hardware</em>. Google Libros <a href="https://books.google.com.mx/books?id=piWqr_ZhqpwC&amp;pg=PA7&amp;hl=es&amp;source=gbs_selected_pages&amp;cad=2#v=onepage&amp;q&amp;f=false" target="_blank">https://books.google.com.mx/books?id=piWqr_ZhqpwC&amp;pg=PA7&amp;hl=es&amp;source=gbs_selected_pages&amp;cad=2#v=onepage&amp;q&amp;f=false</a></li>

@@ -7,7 +7,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h3>Referencias</h3>
+  <h2>Referencias</h2>
   <ul id="biblio" class="ul-disc">
     <li>Cedano, M., & Cedano, A., & Rubio, J., & Vega, A. (2014). <i>Fundamentos de Computación para ingenieros</i>. México. Grupo Editorial Patria. pp. 6-26.</li>
     <li>Fundación UNAM. (2019). Conoce a Miztli, la supercomputadora. <i>Sitio Web Fundación UNAM</i>. <a target="_blank" href="https://www.fundacionunam.org.mx/vanguardia-unam/conoce-a-miztli-la-supercomputadora/">https://www.fundacionunam.org.mx/vanguardia-unam/conoce-a-miztli-la-supercomputadora/</a></li>

@@ -7,7 +7,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h3>Referencias</h3>
+  <h2>Referencias</h2>
   <ul id="biblio" class="ul-disc">
     <li>Ibañez, P. (2018). Informática I. <a href="https://elibro-net.pbidi.unam.mx:2443/es/ereader/unamdgb/85098" target="_blank">https://elibro-net.pbidi.unam.mx:2443/es/ereader/unamdgb/85098</a></li>
     <li>Llena, S. (2020). Aprender Excel 365/2019: con 100 ejercicios prácticos. <a href="https://fac-ing-unam-bibliotecasdigitales-com.pbidi.unam.mx:2443/read/9786075386768/index" target="_blank">https://fac-ing-unam-bibliotecasdigitales-com.pbidi.unam.mx:2443/read/9786075386768/index</a></li>
