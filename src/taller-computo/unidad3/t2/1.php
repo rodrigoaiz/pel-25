@@ -4,6 +4,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'GeniallyIframe.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -16,7 +17,10 @@ ob_start();
     <?php renderImage('u3_t2_series_numericas.gif', 'Generaciones series automáticas.'); ?>
   </div>
   <h4>Tipos de Series</h4>
-  <p>Para conocer la diferencia entre los tipos de series, revisa la <a href="https://view.genially.com/650d2b58b85e11001129621b/interactive-content-tipos-de-series" target="_blank">infografía</a> que a continuación se presenta, en donde se describen las series y cómo funcionan dependiendo el incremento que se utilice.</p>
+  <p>Para conocer la diferencia entre los tipos de series, revisa la infografía que a continuación se presenta, en donde se describen las series y cómo funcionan dependiendo el incremento que se utilice.</p>
+
+  <?php renderGenially('650d2b58b85e11001129621b') ?>
+
   <h4>Autorrellenar</h4>
   <p>El autorrellena una serie permite que el generarlas sea sencillo, por lo tanto, este proceso se puede llevar a cabo de dos maneras:</p>
   <div class="grid grid-cols-2 gap-4 my-5">

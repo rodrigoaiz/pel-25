@@ -4,6 +4,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'ModalIndex.php';
+include PATH_INCLUDE . 'GeniallyIframe.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -19,8 +20,9 @@ ob_start();
     ?>
   </div>
   <div class="text-center">
-    <a href="https://view.genially.com/64f211f9c0cb900018cbd4ab/interactive-content-aprendizaje-y-tematicas" target="_blank" class="text-2xl">Conoce los aprendizajes de esta unidad</a>
+    <h3>Conoce los aprendizajes de esta unidad</h3>
   </div>
+  <?php renderGenially('64f211f9c0cb900018cbd4ab', 'Conoce los aprendizajes de esta unidad') ?>
   <?php ob_start(); ?>
   <p>Una vez que has revisado el video de bienvenida, la presentación y los aprendizajes, así cómo las temáticas que se incluyen en la unidad II. Hardware y Software, te invitamos a medir tus conocimientos básicos en el tema, cómo una autoevaluación, con el objetivo de apoyarte a enfatizar en aquellos aprendizajes que consideres que requieren más atención. Así que, <strong>¡Comencemos!</strong></p>
   <?php
