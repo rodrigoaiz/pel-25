@@ -7,7 +7,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h3>Referencias</h3>
+  <h2>Referencias</h2>
   <ul id="biblio" class="ul-disc">
     <li>Biblioteca de la UNAM (2016). Estrategia de Búsqueda. Blog de a Biblioteca de la UNAM. Recuperado de: <a href="https://blogbibliounam.blogspot.com/p/estrategias-de-busqueda.html " target="_blank"><i class="ri-cloud-line inline"></i> https://blogbibliounam.blogspot.com/p/estrategias-de-busqueda.html </a></li>
     <li>Universidad EAFIT (2021). Búsqueda de información en la WEB. Centro Cultural Biblioteca Luis Echavarría Villegas. Recuperado de: <a href="https://repository.eafit.edu.co/bitstream/handle/10784/12970/Busqueda_de_informacion_en_la_Web_2021.pdf?sequence=2&amp;isAllowed=y " target="_blank"><i class="ri-cloud-line inline"></i> https://repository.eafit.edu.co/bitstream/handle/10784/12970/Busqueda_de_informacion_en_la_Web_2021.pdf?sequence=2&amp;isAllowed=y </a></li>

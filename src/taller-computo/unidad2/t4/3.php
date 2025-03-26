@@ -94,6 +94,7 @@ ob_start();
   </ul>
   <div class="max-w-1/2 mx-auto">
     <?php renderImage("u2_t4_phone.webp", "Imagen de StockSnap.", "https://pixabay.com/photos/android-smartphone-mobile-phone-691178/", 'Pixabay'); ?>
+  </div>
 </div>
 
 <section>
@@ -101,13 +102,13 @@ ob_start();
   <p>Es momento de comprobar tu aprendizaje con el siguiente reto.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a13', "SO más populares", $ActividadContent);
+  renderActividad('u2a15', "SO más populares", $ActividadContent);
   ?>
   <?php ob_start(); ?>
   <p>Con el fin de finalizar la discusión sobre el tema de los Tipos de Sistemas Operativos, es imprescindible elaborar un cuestionario que nos permita evaluar los conocimientos adquiridos en este tema, por lo tanto, te animamos a responderlo.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a14', "Tipos de Sistemas Operativos", $ActividadContent);
+  renderActividad('u2a16', "Tipos de Sistemas Operativos", $ActividadContent);
   ?>
 </section>
 <?php

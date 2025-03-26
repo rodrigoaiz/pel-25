@@ -7,7 +7,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h3>Referencias</h3>
+  <h2>Referencias</h2>
   <ul id="biblio" class="ul-disc">
     <li>Altuve, H., Márquez, J., Rodríguez, A., Serrano, F., González, D., Moret, Y., y González, J. (2010). Síndrome del túnel carpiano. <em>Acta Odontológica Venezolana</em>, 48(3), pp. 43-44.</li>
     <li>Benchimol, D. (coord.). (2010). <em>Redes CISCO</em>. Buenos Aires, Argentina: Gradi.</li>

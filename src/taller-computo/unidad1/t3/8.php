@@ -2,6 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenFullPleca.php';
+include PATH_INCLUDE . 'GeniallyIframe.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -20,7 +21,8 @@ ob_start();
     <li><strong>Operadores de exactitud:</strong> especifica la proximidad o cercanía de los términos seleccionados en la búsqueda de información (Universidad EAFIT, 2021).</li>
     <li><strong>Operadores de truncamiento:</strong> sustituyen un carácter o varios, a la derecha de un término. Así como para reemplazar prefijos, sufijos o variantes ortográficas, etc. (Universidad de Alcalá, s.f)</li>
   </ul>
-  <p>Revisa el siguiente <a href="https://view.genially.com/6458533a9303340019118076/interactive-content-operadores" target="_blank">enlace</a> para que aprendas más de los operadores de búsqueda.</p>
+  <p>Revisa el siguiente recurso para que aprendas más de los operadores de búsqueda.</p>
+  <?php renderGenially('6458533a9303340019118076') ?>
 </section>
 <?php
 $content = ob_get_clean();

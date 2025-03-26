@@ -14,7 +14,7 @@ function renderImageComponent($imageSrc, $justifyClass, $piedefoto, $link = '#',
           <?php echo $piedefoto; ?>
           <?php if ($link && $textolink): ?>
             <a href="<?php echo $link; ?>" target="_blank" rel="noreferrer"><?php echo $textolink; ?></a>
-          <?php endif; ?>.
+          <?php endif; ?>
         </p>
       </div>
     </div>

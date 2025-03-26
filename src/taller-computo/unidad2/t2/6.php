@@ -7,7 +7,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h3>Referencias</h3>
+  <h2>Referencias</h2>
   <ul id="biblio" class="ul-disc">
     <li>CISCO. (2016). Capítulo 1: <em>Introducción al hardware de computadoras personales</em>. Facultad de Ingeniería. UNAM. <a href="https://aulavirtual.fio.unam.edu.ar/pluginfile.php/278766/mod_resource/content/1/Unidad%201%20Hardware.pdf" target="_blank">https://aulavirtual.fio.unam.edu.ar/pluginfile.php/278766/mod_resource/content/1/Unidad%201%20Hardware.pdf</a></li>
     <li>Dembowski, K. (2003). <em>El Gran Libro de Hardware</em>. Google Libros <a href="https://books.google.com.mx/books?id=piWqr_ZhqpwC&amp;pg=PA7&amp;hl=es&amp;source=gbs_selected_pages&amp;cad=2#v=onepage&amp;q&amp;f=false" target="_blank">https://books.google.com.mx/books?id=piWqr_ZhqpwC&amp;pg=PA7&amp;hl=es&amp;source=gbs_selected_pages&amp;cad=2#v=onepage&amp;q&amp;f=false</a></li>
@@ -20,7 +20,7 @@ ob_start();
     <li>UNAM. (2016). <em>¿Qué es el Hardware y Software?</em>. YouTube UNAM Sepacomputo canal. <a href="https://www.youtube.com/watch?v=PhGkt3R0LkY&amp;t=1s" target="_blank">https://www.youtube.com/watch?v=PhGkt3R0LkY&amp;t=1s</a></li>
     <li>Wikipedia. (2023). <em>Hardware</em>. Wikipedia. <a href="https://es.wikipedia.org/wiki/Hardware" target="_blank">https://es.wikipedia.org/wiki/Hardware</a></li>
   </ul>
-  <div class="my-5 mx-40 border border-primary p-5">
+  <div class="my-5 mx-auto border border-primary p-5">
     <p class="text-center"> <strong>¡¡¡Felicidades!!!</strong></p>
     <p class="text-center"> <strong>Llegamos al final del aprendizaje, espero que lo hayas disfrutado.</strong></p>
     <p class="text-center"> <strong>Te invito a que continuemos con el siguiente aprendizaje.</strong></p>

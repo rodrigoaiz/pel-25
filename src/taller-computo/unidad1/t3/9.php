@@ -4,6 +4,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenFullPleca.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'GeniallyIframe.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -16,7 +17,8 @@ ob_start();
   renderVideoIframe('nitwywhiva0', 'Sistema de recuperación de información.', 'max-w-2xl mx-auto');
   ?>
   <h3>Catálogos Bibliográficos UNAM</h3>
-  <p>Cuenta con un amplio registro de fuentes bibliográficas que puedes encontrar en la <a href="https://view.genially.com/6458935c46cbcb00198e3246/interactive-content-catalogos-unam" target="_blank">Biblioteca digital de la UNAM</a>.</p>
+  <p>Cuenta con un amplio registro de fuentes bibliográficas que puedes encontrar en la Biblioteca digital de la UNAM.</p>
+  <?php renderGenially('6458935c46cbcb00198e3246') ?>
   <?php
   renderImageComponent('u1_t3_library_freepik.webp', 'justify-center', 'Imagen de 200degrees.', 'https://pixabay.com/es/vectors/navegador-internet-web-b%C3%BAsqueda-1666982/', 'Freepik');
   ?>

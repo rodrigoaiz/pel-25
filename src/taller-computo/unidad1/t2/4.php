@@ -7,7 +7,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h3>Referencias</h3>
+  <h2>Referencias</h2>
   <ul id="biblio" class="ul-disc">
     <li>Ayuntamiento de Mérida. (s.f.). <em>Guía de usuario de Google Chrome</em>. Recuperado en marzo de 2023, de <a class="text-primary transition duration-0 whitespace-normal break-words hover:text-secondary hover:duration-150" href="https://merida.gob.mx/cad/content/documents/ebooks/Google-Chrome.pdf" target="_blank"><i class="ri-cloud-line inline"></i> https://merida.gob.mx/cad/content/documents/ebooks/Google-Chrome.pdf</a></li>
     <li>Google. (s. f.). <em>Administrar cookies y datos de sitios</em>. Google Chrome Ayuda. <a class="text-primary transition duration-0 whitespace-normal break-words hover:text-secondary hover:duration-150" href="https://support.google.com/chrome/answer/165139?hl=es-419&amp;co=GENIE.Platform%3DDesktop" target="_blank"><i class="ri-cloud-line inline"></i> https://support.google.com/chrome/answer/165139?hl=es-419&amp;co=GENIE.Platform%3DDesktop</a></li>

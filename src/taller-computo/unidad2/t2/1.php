@@ -15,7 +15,7 @@ ob_start();
   </div>
   <p>Esperamos que disfrutes de las actividades y que estas de alguna forma logren tu aprendizaje.</p>
   <p>Para ello a continuación te presento la temática/contenido que utilizaremos para llevar a cabo tu aprendizaje.</p>
-  <div class="my-5 mx-40 border border-primary px-5 py-2">
+  <div class="my-5 mx-auto border border-primary px-5 py-2">
     <h4 class="my-0">Temática</h4>
     <h4>Hardware de las microcomputadoras:</h4>
     <ul class="disc">

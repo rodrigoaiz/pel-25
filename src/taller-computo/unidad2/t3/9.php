@@ -7,7 +7,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h3>Referencias</h3>
+  <h2>Referencias</h2>
   <ul id="biblio" class="ul-disc">
     <li>Cruz, A. L. (2023). <em>Representación y Comunicación de la Información - ENiUN</em>. Recuperado de <a href="https://www.eniun.com/representacion-comunicacion-informacion/#1_Representacion_de_la_informacion" target="_blank">https://www.eniun.com/representacion-comunicacion-informacion/#1_Representacion_de_la_informacion</a></li>
     <li>Educar Portal. (11 de julio de 2019). <em>Microaprendizaje: ¿Cómo se representa la información?</em> [Vídeo]. Recuperado de <a href="https://www.youtube.com/watch?v=7s8UqW8xk1A" target="_blank">https://www.youtube.com/watch?v=7s8UqW8xk1A</a></li>

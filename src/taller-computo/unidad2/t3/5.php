@@ -14,9 +14,9 @@ ob_start();
   <h3>La memoria RAM</h3>
   <ul>
     <li>Emplea direcciones de memoria donde almacena los ceros y unos.</li>
-    <table class="table-matrix">
-      <tbody class="text-center">
-        <tr>
+    <table class="table-matrix flex mx-auto !shadow-none">
+      <tbody class="text-center mx-auto">
+        <tr class="flex flex-wrap mx-auto">
           <td>1</td>
           <td>0</td>
           <td>1</td>
@@ -160,7 +160,7 @@ ob_start();
   <p>Consulta los <a href="<?php echo PATH_DOCS . 'u2_t3_rubrica_practica_representacion_informacion.pdf' ?> target=" _blank">Criterios de evaluación</a> de la actividad. Más adelante te diremos dónde enviar tu trabajo.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a11', "Práctica: La representación de la información", $ActividadContent);
+  renderActividad('u2a13', "Práctica: La representación de la información", $ActividadContent);
   ?>
 </section>
 <style>
