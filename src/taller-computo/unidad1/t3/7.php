@@ -21,7 +21,7 @@ ob_start();
   ?>
   <h4>Definición y tipos de buscador</h4>
   <?php
-  renderImageComponent('u1_t3_motor_busqueda.webp', 'justify-center', 'Imagen de mamewmy.', 'https://www.freepik.es/foto-gratis/motor-busqueda-web-busqueda-barra-blanca-sobre-fondo-azul-representacion-3d_25972451.htm#query=buscadores&position=16&from_view=search&track=sph&uuid=676fbea1-f07c-446d-a68f-98479efbf116', 'Freepik');
+  renderImagePleca('u1_t3_motor_busqueda.webp', 'Imagen de mamewmy.', 'https://www.freepik.es/foto-gratis/motor-busqueda-web-busqueda-barra-blanca-sobre-fondo-azul-representacion-3d_25972451.htm#query=buscadores&position=16&from_view=search&track=sph&uuid=676fbea1-f07c-446d-a68f-98479efbf116', 'Freepik', 'justify-center');
   ?>
   <p>Los buscadores son páginas web que dan acceso a una base de datos donde están almacenadas miles de páginas que son clasificadas por su contenido.</p>
   <h4>Tipos</h4>

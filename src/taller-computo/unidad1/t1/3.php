@@ -68,7 +68,7 @@ ob_start();
   ?>
   <p>Con base en lo anterior y apoyándote de las características y elementos de una infografía, así como de la lista de cotejo realiza la Infografía “Conceptos de Red y Servicios de Internet”.</p>
   <p>En el siguiente enlace se describe brevemente lo que es una <a href="https://www.revista.unam.mx/2021v22n6/infografia_la_mirada_creativa_de_la_informacion/" target="_blank">infografía</a>.</p>
-  <p>Para ver los elementos de una infografía, revisa la página 5 del siguiente <a href="<?php echo PATH_DOCS . 'u1_t1_infografia.pdf'; ?>">documento</a>.</p>
+  <p>Para ver los elementos de una infografía, revisa la página 5 del siguiente <a href="<?php echo PATH_DOCS . 'u1_t1_infografia.pdf'; ?>" target="_blank">documento</a>.</p>
   <?php ob_start(); ?>
   <p>Ahora que ya sabemos que es una infografía y los elementos que se deben de integrar a ella, te invito a retomar tus notas de las actividades interactivas Conceptos de Red, Servicios de Internet, así como busques información relacionada al tema, para entregar la siguiente actividad.</p>
   <?php

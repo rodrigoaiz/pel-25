@@ -19,7 +19,7 @@ ob_start();
   <p>Otra opción muy útil son los marcadores o favoritos, que permiten guardar los sitios web que se visitan con mayor frecuencia. De esta manera, se puede acceder a ellos rápidamente sin tener que buscarlos nuevamente en el historial, además, los navegadores web ofrecen la posibilidad de organizar los marcadores o favoritos en carpetas, para tener una mejor organización y acceso a los sitios visitados.</p>
   <p>Por último, pero no menos importante, la configuración del navegador web permite personalizar diversos aspectos de la navegación, como la página de inicio, la apariencia del navegador, la gestión de cookies, la privacidad y seguridad, entre otros aspectos.</p>
   <?php
-  renderImageComponent('u1_t2_browsers.webp', 'justify-center', 'Imagen de isroma', 'https://pixabay.com/es/illustrations/navegadores-internet-dise%C3%B1o-web-1265309/', 'Pixabay');
+  renderImagePleca('u1_t2_browsers.webp', 'Imagen de isroma', 'https://pixabay.com/es/illustrations/navegadores-internet-dise%C3%B1o-web-1265309/', 'Pixabay', 'justify-center');
   ?>
   <?php ob_start(); ?>
   <p>En este foro diagnóstico, es importante saber organizar la información de las páginas web que visitamos o saber el historial que se deja al visitar páginas en internet, por lo tanto es importante tu reflexión al respecto.</p>

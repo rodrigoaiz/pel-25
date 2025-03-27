@@ -30,7 +30,7 @@ ob_start();
       <p>El término "copyleft" se utiliza para describir una estrategia legal que utiliza el copyright para permitir la redistribución y modificación de software, siempre y cuando las mismas libertades se mantengan en las versiones modificadas. En lugar de restringir los derechos del usuario, como hace el copyright tradicional, el copyleft garantiza la libertad de uso, modificación y distribución del software.</p>
     </li>
   </ol>
-  <?php renderImageComponent('u2_t5_collage_html.webp', 'justify-center', 'Imagen de freepik.', 'https://www.freepik.es/foto-gratis/concepto-collage-html-css-persona_36295462.htm#query=ingeniero%20en%20sistemas&position=18&from_view=search&track=ais&uuid=2bfcf215-5d36-4d8c-aa3c-89ed14728e4e', 'Freepik.') ?>
+  <?php renderImagePleca('u2_t5_collage_html.webp', 'Imagen de freepik.', 'https://www.freepik.es/foto-gratis/concepto-collage-html-css-persona_36295462.htm#query=ingeniero%20en%20sistemas&position=18&from_view=search&track=ais&uuid=2bfcf215-5d36-4d8c-aa3c-89ed14728e4e', 'Freepik.', 'justify-center') ?>
   <p>En la siguiente actividad observa el video con atención y con base en la información que se proporciona en él responde a las preguntas, puedes tomar notas para tener un resumen de los diferentes tipos de licencias de software.</p>
   <div class="max-w-2xl mx-auto">
     <?php renderVideoIframe('gBztZYlk378', 'Tipos de licencias de software') ?>
