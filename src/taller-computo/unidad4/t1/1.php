@@ -11,21 +11,29 @@ ob_start();
 ?>
 <section>
     <h2>Bienvenida a la Unidad 4</h2>
-    <h3>Hardware y Software</h3>
-    <p>En la Unidad II. “Hardware y Software” describirías la evolución de las computadoras a partir del hardware y software, determinando las características de las generaciones de computadoras incluyendo el modelo de Jhon Von Neuman y las tendencias. Además de, identificar los riesgos en el uso de las computadoras y cómo prevenirlas.</p>
+    <h3>Multimedia</h3>
+    <p>Para que aprendas más acerca de lo que verás en esta unidad observa el siguiente video.</p>
     <div class="max-w-2xl mx-auto">
         <?php
-        renderVideoIframe('-IZdVEdcEqM', 'Presentación de la Unidad II “Hardware y Software”');
+        renderVideoIframe('-IZdVEdcEqM', 'Presentación de la Unidad 4');
         ?>
     </div>
-    <div class="text-center">
-        <a href="https://view.genially.com/64f211f9c0cb900018cbd4ab/interactive-content-aprendizaje-y-tematicas" target="_blank" class="text-2xl">Conoce los aprendizajes de esta unidad</a>
-    </div>
+    <h3>Presentación a los alumnos</h3>
+    <p>Bienvenidos a la unidad 4 titulada "Multimedia". A lo largo de esta unidad, explicaremos las herramientas y técnicas necesarias para modificar digitalmente imágenes, audio y video. Nuestro objetivo principal es equiparte con las habilidades esenciales para integrar elementos multimedia en tus actividades académicas y cotidianas.</p>
+    <p>A medida que avanzamos en esta unidad, aprenderás a utilizar aplicaciones de edición específicas que te permitirán crear, transformar y mejorar contenido multimedia. Estas habilidades son cada vez más relevantes en el mundo actual, donde la comunicación digital juega un papel fundamental en nuestra sociedad.</p>
+    <p>Al finalizar la unidad, podrás aplicar sus conocimientos para:</p>
+    <ul>
+        <li>Modificar y mejorar imágenes, permitiendo comunicar visualmente tus ideas de manera efectiva.</li>
+        <li>Editar y crear archivos de audio, lo que te brindará la capacidad de compartir mensajes de audio personalizados o mejorar sus proyectos académicos.</li>
+        <li>Editar videos para crear contenido atractivo y educativo, lo que puede ser invaluable en presentaciones y proyectos escolares.</li>
+        <li>La multimedia es una herramienta poderosa en la educación y en la comunicación en general, y creemos que este curso te proporcionará una base sólida para utilizarla de manera efectiva en tu vida académica y más allá.</li>
+    </ul>
+
     <?php ob_start(); ?>
-    <p>Una vez que has revisado el video de bienvenida, la presentación y los aprendizajes, así cómo las temáticas que se incluyen en la unidad II. Hardware y Software, te invitamos a medir tus conocimientos básicos en el tema, cómo una autoevaluación, con el objetivo de apoyarte a enfatizar en aquellos aprendizajes que consideres que requieren más atención. Así que, <strong>¡Comencemos!</strong></p>
+    <p>¡Bienvenidas y bienvenidos!</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2a1', "Cuestionario diagnóstico unidad 2", $ActividadContent);
+    renderActividad('u4a1', "Cuestionario diagnóstico unidad 4", $ActividadContent);
     ?>
 </section>
 <?php renderModalIndex(); ?>
