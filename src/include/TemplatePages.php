@@ -1,7 +1,11 @@
 <?php
 include_once dirname(__DIR__) . '/config.php';
+if (!isset($include_latex)) {
+  $include_latex = false;
+}
 include PATH_INCLUDE . 'header1.php';
 include PATH_INCLUDE . 'MenuUnidades.php';
+
 
 function getMenuAsignaturaPath($urlPath)
 {

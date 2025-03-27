@@ -1,6 +1,7 @@
 <?php
 //  require_once('/sites/moodles/html/modeloeducativo/config.php');
 //  require_login(10);
+
 ?>
 <!doctype html>
 <html lang="es">
@@ -17,3 +18,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Estilos -->
   <link rel="stylesheet" href="<?php echo ASSET_URL; ?>css/styles.css">
+  <?php if ($include_latex): ?>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <?php endif; ?>
