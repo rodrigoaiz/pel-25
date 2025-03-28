@@ -18,31 +18,31 @@ ob_start();
     <p>En el siguiente video aprenderás a utilizar las herramientas de pinturas básicas de GIMP 2.10.</p>
     <div class="max-w-2xl mx-auto">
         <?php
-        renderVideoIframe('kxDL4UmxG5c', 'GIMP 2.10 Curso BÁSICO ▶▶ 2. Abrir, guardar y exportar imágenes');
+        renderVideoIframe('O4Eo8QGV9To', 'GIMP 2.10 Curso BÁSICO ▶▶ 3. Herramientas de pintura básicas');
         ?>
     </div>
     <p>En el siguiente video aprenderás a utilizar las herramientas de selección básicas.</p>
     <div class="max-w-2xl mx-auto">
         <?php
-        renderVideoIframe('kxDL4UmxG5c', 'GIMP 2.10 Curso BÁSICO ▶▶ 2. Abrir, guardar y exportar imágenes');
+        renderVideoIframe('MTDNVwKuItw', 'GIMP 2.10 Curso BÁSICO ▶▶  4. Herramientas de selección básicas');
         ?>
     </div>
     <p>En el siguiente video veremos las herramientas de transformación.</p>
     <div class="max-w-2xl mx-auto">
         <?php
-        renderVideoIframe('kxDL4UmxG5c', 'GIMP 2.10 Curso BÁSICO ▶▶ 2. Abrir, guardar y exportar imágenes');
+        renderVideoIframe('ZQ55mmekkYQ', 'GIMP 2.10 Curso BÁSICO ▶▶ 5. Herramientas de transformación');
         ?>
     </div>
     <p>En el siguiente video aprenderás a manipular texto de forma básica en una imagen.</p>
     <div class="max-w-2xl mx-auto">
         <?php
-        renderVideoIframe('kxDL4UmxG5c', 'GIMP 2.10 Curso BÁSICO ▶▶ 2. Abrir, guardar y exportar imágenes');
+        renderVideoIframe('UchTWJTGFXM', 'GIMP 2.10 Curso BÁSICO ▶▶ 6. Herramienta de texto');
         ?>
     </div>
-    <p>n el siguiente video aprenderás a manejar las herramientas de color básicas dentro de una imagen.</p>
+    <p>En el siguiente video aprenderás a manejar las herramientas de color básicas dentro de una imagen.</p>
     <div class="max-w-2xl mx-auto">
         <?php
-        renderVideoIframe('kxDL4UmxG5c', 'GIMP 2.10 Curso BÁSICO ▶▶ 2. Abrir, guardar y exportar imágenes');
+        renderVideoIframe('aLHV_cBtP0A', 'GIMP 2.10 Curso BÁSICO ▶▶ 7. Herramientas de color básicas');
         ?>
     </div>
 </section>
