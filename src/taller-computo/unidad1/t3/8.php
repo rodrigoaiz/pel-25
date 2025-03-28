@@ -11,7 +11,7 @@ ob_start();
   <h3>Estrategias de búsqueda</h3>
   <p>En esta lección se abordará el quinto aprendizaje “Realiza búsqueda y obtiene información por medio de los sistemas de recuperación de información de la biblioteca digital de la UNAM”, de la unidad I.</p>
   <?php
-  renderImageComponent('u1_t3_browser.webp', 'justify-center', 'Imagen de 200degrees.', 'https://pixabay.com/es/vectors/navegador-internet-web-b%C3%BAsqueda-1666982/', 'Freepik');
+  renderImagePleca('u1_t3_browser.webp', 'Imagen de 200degrees.', 'https://pixabay.com/es/vectors/navegador-internet-web-b%C3%BAsqueda-1666982/', 'Freepik', 'justify-center');
   ?>
   <p>Las estrategias son procedimientos previos a la búsqueda de información, en donde se tiene un tema, del cual se desprenden palabras clave que se unen usando operadores lógicos de exactitud o truncamiento.</p>
   <p>Elementos de la estrategia de búsqueda:</p>

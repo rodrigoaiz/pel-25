@@ -22,7 +22,7 @@ ob_start();
     <li><strong>Descargar de fuentes confiables</strong>: Evitar descargar software y archivos de sitios web no verificados o sospechosos.</li>
     <li><strong>Evitar el phishing</strong>: No hacer clic en enlaces sospechosos en correos electrónicos o mensajes y no proporcionar información personal a sitios dudosos.</li>
   </ul>
-  <?php renderImageComponent('u2_t5_screen_post.webp', 'justify-center', 'Imagen de Pxhere.', 'https://pxhere.com/es/photo/989227', 'Pxhere.') ?>
+  <?php renderImagePleca('u2_t5_screen_post.webp', 'Imagen de Pxhere.', 'https://pxhere.com/es/photo/989227', 'Pxhere.', 'justify-center') ?>
   <h4>Eliminación de Malware</h4>
   <ul class="ul-disc">
     <li><strong>Identificación:</strong> Reconocer los signos de infección, como ralentización del sistema, ventanas emergentes y archivos desconocidos.</li>

@@ -32,7 +32,7 @@ ob_start();
     <li><strong>Iluminación adecuada</strong>: Asegurarse de que la iluminación del entorno sea adecuada y evitar reflejos en la pantalla.</li>
     <li><strong>Descanso visual</strong>: Aplicar la regla "20-20-20": cada 20 minutos, mirar a 20 pies de distancia durante al menos 20 segundos.</li>
   </ul>
-  <?php renderImageComponent('u2_t5_streatching.webp', 'justify-center', 'Estiramientos. Imagen DCStudio.', 'https://www.freepik.es/foto-gratis/mujer-cansada-trabajando-casa-streatching-despues-escribir-computadora-portatil-altas-horas-noche-empleado-enfocado-ocupado-utilizando-tecnologia-inalambrica-red-tecnologia-moderna-haciendo-horas-extraordinarias-trabajo-lectura-escritura-busqueda_18115979.htm#query=estiramientos%20computadora&position=0&from_view=search&track=ais&uuid=ba031203-5d20-4122-83e3-264829c67a7b', 'Freepik.') ?>
+  <?php renderImagePleca('u2_t5_streatching.webp', 'Estiramientos. Imagen DCStudio.', 'https://www.freepik.es/foto-gratis/mujer-cansada-trabajando-casa-streatching-despues-escribir-computadora-portatil-altas-horas-noche-empleado-enfocado-ocupado-utilizando-tecnologia-inalambrica-red-tecnologia-moderna-haciendo-horas-extraordinarias-trabajo-lectura-escritura-busqueda_18115979.htm#query=estiramientos%20computadora&position=0&from_view=search&track=ais&uuid=ba031203-5d20-4122-83e3-264829c67a7b', 'Freepik.', 'justify-center') ?>
 </section>
 <?php
 $content = ob_get_clean();

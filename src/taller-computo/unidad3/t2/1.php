@@ -44,10 +44,10 @@ ob_start();
     ?>
   </div>
   <?php ob_start(); ?>
-  <p>Para comenzar la unidad responde el siguiente <strong>cuestionario diagnóstico</strong> para conocer tus capacidades y determinar al final de la unidad si se cumplen las metas de tu aprendizaje.</p>
+  <p>Practica lo aprendido con la siguiente actividad.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3a4', "Cuestionario diagnóstico unidad 3", $ActividadContent);
+  renderActividad('u3a4', "Series numéricas", $ActividadContent);
   ?>
   <p>Revisa el siguiente video en el que se explica cómo se construyen las series numéricas en Excel.</p>
   <div class="max-w-2xl mx-auto">

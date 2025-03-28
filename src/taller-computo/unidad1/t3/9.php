@@ -20,7 +20,7 @@ ob_start();
   <p>Cuenta con un amplio registro de fuentes bibliográficas que puedes encontrar en la Biblioteca digital de la UNAM.</p>
   <?php renderGenially('6458935c46cbcb00198e3246') ?>
   <?php
-  renderImageComponent('u1_t3_library_freepik.webp', 'justify-center', 'Imagen de 200degrees.', 'https://pixabay.com/es/vectors/navegador-internet-web-b%C3%BAsqueda-1666982/', 'Freepik');
+  renderImagePleca('u1_t3_library_freepik.webp', 'Imagen de 200degrees.', 'https://pixabay.com/es/vectors/navegador-internet-web-b%C3%BAsqueda-1666982/', 'Freepik', 'justify-center');
   ?>
   <?php ob_start(); ?>
   <p>Realiza el siguiente cuestionario de autoevaluación para que conozcas tu desempeño en el aprendizaje “realiza búsquedas y obtén información por medio de los sistemas de recuperación de información de la biblioteca digital de la UNAM” ¡Éxito!</p>

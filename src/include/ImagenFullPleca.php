@@ -1,5 +1,5 @@
 <?php
-function renderImageComponent($imageSrc, $justifyClass, $piedefoto, $link = '#', $textolink = '')
+function renderImagePleca($imageSrc, $piedefoto = '', $link = '#', $textolink = '', $justifyClass = 'justify-center')
 {
   $mdJustifyClass = 'justify-center ' . 'md:' . $justifyClass;
 ?>
