@@ -10,7 +10,7 @@ ob_start();
 ?>
 <section>
   <h4>Gráfico de dispersión</h4>
-  <p>Visualiza el video ¿Qué es Diagrama de Dispersión?</p>
+  <p>Observa el siguiente video:</p>
   <?php renderVideoIframe('pb_bONkyIaU', '¿Qué es Diagrama de Dispersión?', 'max-w-xl mx-auto my-5') ?>
   <?php ob_start(); ?>
   <p class="font-black">A lo largo de las siguientes pantallas desarrollarás la siguiente actividad, sube tu archivo hasta que hayas terminado todos los pasos.</p>
