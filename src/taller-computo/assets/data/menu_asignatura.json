@@ -36,8 +36,8 @@
         {"nombre": "Gráficas de barras y circulares", "url": "/taller-computo/unidad3/t4", "paginas": 5},
         {"nombre": "Gráficas de dispersión", "url": "/taller-computo/unidad3/t5", "paginas": 5},
         {"nombre": "Funciones matemáticas y trigonométricas", "url": "/taller-computo/unidad3/t6", "paginas": 7},
-        {"nombre": "Funciones Estadísticas", "url": "/taller-computo/unidad3/t7", "paginas": 8},
-        {"nombre": "Funciones lógicas y de texto", "url": "/taller-computo/unidad3/t8", "paginas": 9}
+        {"nombre": "Funciones Estadísticas", "url": "/taller-computo/unidad3/t7", "paginas": 7},
+        {"nombre": "Funciones lógicas y de texto", "url": "/taller-computo/unidad3/t8", "paginas": 8}
 
       ]
     },

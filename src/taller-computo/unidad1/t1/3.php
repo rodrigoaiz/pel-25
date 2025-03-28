@@ -29,7 +29,6 @@ ob_start();
   </div>
 
   <?php
-  // Define the first accordion items
   $accordionItems1 = [
     [
       'title' => '¿Cómo funciona Internet?',
