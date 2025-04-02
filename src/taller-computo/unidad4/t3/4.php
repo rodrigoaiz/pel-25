@@ -13,7 +13,7 @@ ob_start();
     <h3>Formatos de video</h3>
     <p>A continuación se abordará el aprendizaje: "Explica las características de los formatos de video y los aplica" de la unidad 4. Multimedia.</strong></p>
     <?php
-    renderImagePleca('u4_t3_pelicula.jpg', 'Imagen de starline.', 'https://www.freepik.es/vector-gratis/tira-pelicula-3d-fondo-luz-brillante_28234250.htm#page=4&query=pelicula%20de%20pelicula&position=1&from_view=search&track=ais&uuid=7eb86026-4934-45f3-9f10-512e0d62012c', 'Freepik.', 'justify-center');
+    renderImagePleca('u4_t3_pelicula.webp', 'Imagen de starline.', 'https://www.freepik.es/vector-gratis/tira-pelicula-3d-fondo-luz-brillante_28234250.htm#page=4&query=pelicula%20de%20pelicula&position=1&from_view=search&track=ais&uuid=7eb86026-4934-45f3-9f10-512e0d62012c', 'Freepik.', 'justify-center');
     ?>
     <p>Los formatos de video son estándares que determinan cómo se codifica y almacena la información de video en un archivo digital, con sus propias características y extensiones. Cada formato de video define la estructura, la compresión, la resolución y otros aspectos técnicos que influyen en la calidad y el tamaño del archivo de video. Estos formatos permiten la reproducción y el intercambio de videos en dispositivos y plataformas diferentes. A continuación se presentan las características de los formatos de video: AVI, WMV, FLV, MPG2 y MP4.</p>
     <?php

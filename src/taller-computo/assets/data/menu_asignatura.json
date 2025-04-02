@@ -43,13 +43,13 @@
     },
     "Unidad 4": {
       "url": "/taller-computo/unidad4/t1/1.php",
-      "publicado": false,
+      "publicado": true,
       "nombre": "Unidad 4",
       "temas": [
         {"nombre": "Edición y formatos de imagen", "url": "/taller-computo/unidad4/t1", "paginas": 7},
         {"nombre": "Edición y formatos de audio", "url": "/taller-computo/unidad4/t2", "paginas": 6},
         {"nombre": "Edición y formatos de video", "url": "/taller-computo/unidad4/t3", "paginas": 6},
-        {"nombre": "Publicación de archivos Multimedia", "url": "/taller-computo/unidad4/t4", "paginas": 8}
+        {"nombre": "Publicación de archivos Multimedia", "url": "/taller-computo/unidad4/t4", "paginas": 7}
       ]
     }
   },

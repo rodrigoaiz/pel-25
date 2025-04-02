@@ -12,7 +12,7 @@ ob_start();
     <h3>Formatos de video</h3>
     <p>A continuación se abordará el aprendizaje: "Explica las características de los formatos de video y los aplica" de la unidad 4. Multimedia.</strong></p>
     <?php
-    renderImagePleca('u4_t3_fotografia.PNG', 'Imagen de wanico.', 'https://www.flaticon.es/icono-gratis/fotografia_2201603?term=video&page=1&position=15&origin=search&related_id=2201603', 'Flaticon.', 'justify-center');
+    renderImagePleca('u4_t3_fotografia.webp', 'Imagen de wanico.', 'https://www.flaticon.es/icono-gratis/fotografia_2201603?term=video&page=1&position=15&origin=search&related_id=2201603', 'Flaticon.', 'justify-center');
     ?>
     <p>Los convertidores de video son programas que permiten cambiar el formato de un archivo de video de un tipo a otro. Estas herramientas son útiles para diversos propósitos, como la conversión de videos para que sean compatibles con diferentes dispositivos o aplicaciones, la compresión para reducir su tamaño de archivo, la edición y la adaptación de videos a distintos estándares de codificación.</p>
     <?php ob_start(); ?>
