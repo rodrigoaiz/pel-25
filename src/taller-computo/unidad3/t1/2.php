@@ -10,7 +10,6 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-
   <h2>Ambiente de trabajo</h2>
   <h3>Propósitos:</h3>
   <p>Al finalizar la unidad el alumno:</p>

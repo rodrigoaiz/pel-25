@@ -124,10 +124,15 @@ ob_start();
         educativo efectivo, ayuda a garantizar que el video sea claro, coherente y cumpla con los objetivos de
         aprendizaje previstos, y también facilita el proceso de producción y postproducción del video.</p>
     <div class="lg:grid grid-cols-2 gap-3">
-        <p>Ahora, descarga y revisa un <a href="<?php echo PATH_DOCS . 'u4_t3_ejemplo_guion_video.pdf'; ?>" target="_blank">Ejemplo de guion educativo</a>, esto
-            te permitirá revisar una muestra concreta de un guión educativo a modo de referencia.</p>
-        <p>A continuación, descarga y revisa otro <a href="<?php echo PATH_DOCS . 'u4_t3_formato_guion_video.pdf'; ?>" target="_blank">Ejemplo formato de guion educativo</a>, que puedes utilizar como referencia para ver un caso práctico de un guión.</p>
+        <div class="rounded-md bg-sky-500/30 p-6 text-blue-own">
+            <p class="text-center">Ahora, descarga y revisa un <a href="<?php echo PATH_DOCS . 'u4_t3_ejemplo_guion_video_educativo.pdf'; ?>" target="_blank">Ejemplo de guion educativo</a>, esto
+                te permitirá revisar una muestra concreta de un guión educativo a modo de referencia.</p>
+        </div>
+        <div class="rounded-md bg-sky-500/30 p-6 text-blue-own">
+            <p class="text-center">A continuación, descarga y revisa otro <a href="<?php echo PATH_DOCS . 'u4_t3_formato_guion_video_educativo.pdf'; ?>" target="_blank">Ejemplo formato de guion educativo</a>, que puedes utilizar como referencia para ver un caso práctico de un guión.</p>
+        </div>
     </div>
+    <p class="text-pink-600 font-bold mt-8">Con cualquiera de los dos ejemplos anteriores de guiones de video, podrás crear el tuyo, teniendo en cuenta los elementos multimedia necesarios para su desarrollo, dependerá de tu creatividad la elaboración de tu propio guión.</p>
 </section>
 <?php
 $content = ob_get_clean();
