@@ -10,7 +10,6 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-
   <h2>Bienvenida a la unidad</h2>
   <p>Revisa los siguientes videos donde se te da la bienvenida oficial al curso y a la Unidad 1:</p>
   <div class="lg:grid grid-cols-2 gap-5">
