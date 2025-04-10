@@ -24,8 +24,7 @@ ob_start();
             <tr>
                 <td>
                     <ul class="ul-list">
-                        <li>Se forman de carbono e hidrógeno, y otros elementos como nitrógeno, oxígeno y azufre
-                            denominados C, H, O, N, S.</li>
+                        <li>Se forman de carbono e hidrógeno, y otros elementos como nitrógeno, oxígeno y azufre denominados C, H, O, N, S.</li>
                         <li>Componen a las biomoléculas como los carbohidratos, proteínas y grasas.</li>
                         <li>Son poco solubles en agua.</li>
                         <li>No conducen la corriente eléctrica.</li>
@@ -49,7 +48,7 @@ ob_start();
             </tr>
         </tbody>
     </table>
-    <p>Consulta las explicaciones del siguiente video con la finalidad de aclarar cuales son las características de los compuestos orgánicos y cuáles de los compuestos inorgánicos. </p>
+    <p>Consulta las explicaciones del siguiente video con la finalidad de aclarar cuales son las características de los compuestos orgánicos y cuáles de los compuestos inorgánicos.</p>
     <div class="max-w-xl mx-auto">
         <?php
         renderVideoIframe('abf-NRboUyM', 'El impacto de la quimica para la producción de alimentos y medicamentos.');
