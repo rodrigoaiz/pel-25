@@ -20,7 +20,7 @@ ob_start();
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center mb-4">
     <div class="m-auto">
       <?php
-      renderImage('u1_t2_Karl_Ferdinand.webp', 'Imagen de Chetvorno.', 'https://commons.wikimedia.org/wiki/File:British_patent_22,020-Karl_Ferdinand_Braun-filed_3_November_1899-fig._2.png', 'Wikimedia Commons.');
+      renderImage('u1_t2_Karl_Ferdinand.webp', 'Imagen de Chetvorno.', 'https://commons.wikimedia.org/wiki/File:British_patent_22,020-Karl_Ferdinand_Braun-filed_3_November_1899-fig._2.png', 'Wikimedia Commons.', true);
       ?>
     </div>
     <p>Cuando la ecuación cuadrática completa tiene un coeficiente de \(a \neq 1\) , el procedimiento más sencillo para factorizarlo es: <em>descomponer el término \(bx\) en una suma de dos términos; de esta forma buscamos dos números \(r\) y \(s\) tales que su suma sea \(b\) y su producto sea igual al producto de \(ac\); es decir:</em>

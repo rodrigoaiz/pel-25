@@ -20,7 +20,7 @@ ob_start();
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center mb-4">
     <div class="m-auto">
       <?php
-      renderImage('u1_t2_Pyreliophorus.webp', 'Imagen de Joao.pimentel.ferreira.', 'https://commons.wikimedia.org/wiki/File:Pyreliophorus_03.jpg', 'Wikimedia Commons.');
+      renderImage('u1_t2_Pyreliophorus.webp', 'Imagen de Joao.pimentel.ferreira.', 'https://commons.wikimedia.org/wiki/File:Pyreliophorus_03.jpg', 'Wikimedia Commons.', true);
       ?>
     </div>
     <p>Primero debes de entender que <b>Factorizar</b> una expresión algebraica, es un proceso que consiste en expresar una suma o diferencia de términos como el producto de dos o más factores. Te invitamos a revisar la siguiente video-lección sobre el tema de factorización.</p>

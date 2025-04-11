@@ -53,7 +53,7 @@ ob_start();
             </tbody>
         </table>
     </div>
-        <div class="m-auto"><?php renderImage("u1_t4_proporcion.webp", "Imagen de Chiswick Chap.", "https://commons.wikimedia.org/wiki/File:Pacioli_De_Divina_Proportione_Head_Equilateral_Triangle_1509.jpg", "Wikimedia Commons."); ?>
+        <div class="m-auto"><?php renderImage("u1_t4_proporcion.webp", "Imagen de Chiswick Chap.", "https://commons.wikimedia.org/wiki/File:Pacioli_De_Divina_Proportione_Head_Equilateral_Triangle_1509.jpg", "Wikimedia Commons.", true); ?>
         </div>
     </div>
 

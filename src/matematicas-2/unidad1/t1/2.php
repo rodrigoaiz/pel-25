@@ -25,14 +25,14 @@ ob_start();
                 lineal y \(c\) es el término independiente.</p>
     <p>Las ecuaciones cuadráticas se pueden clasificar de la siguiente forma:</p>
 
-    <div class="m-auto"><?php renderImage("u1_t2_ecuaciones.webp", "Imagen de elaboración propia"); ?></div>
+    <div class="m-auto"><?php renderImage("u1_t2_ecuaciones.webp", "Imagen de elaboración propia", "", "", true); ?></div>
 
     <p>Como podemos notar, la ecuación completa tiene el término cuadrático, el término lineal y el independiente y en el caso de las incompletas faltaría uno de estos términos, ya sea el lineal o el independiente.</p>
     <p>Cuando nosotros damos solución a una ecuación cuadrática, estas pueden tener dos soluciones, a las cuales también se les conoce con el nombre de raíces.</p>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
         <p>Revisa el siguiente video para complementar la introducción a este tema.</p>
-        <div class="m-auto"><?php renderImage("u1_t2_raices.webp", "Imagen de Vikfret.", "https://commons.wikimedia.org/wiki/File:Cat_math_pythagorean_theorem.png", "Wikimedia Commons.", 'h-auto, max-w-full'); ?>
+        <div class="m-auto"><?php renderImage("u1_t2_raices.webp", "Imagen de Vikfret.", "https://commons.wikimedia.org/wiki/File:Cat_math_pythagorean_theorem.png", "Wikimedia Commons.", true, "p-4",); ?>
         </div>
     </div>
 

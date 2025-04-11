@@ -45,7 +45,7 @@ ob_start();
         </div>
         <div class="m-auto">
         <?php
-        renderImage('u1_t2_Catapult.webp', 'Imagen de Sindala.', 'https://commons.wikimedia.org/wiki/File:Leonardo_Da_Vinci_Sling_Catapult.PNG', 'Wikimedia Commons.');
+        renderImage('u1_t2_Catapult.webp', 'Imagen de Sindala.', 'https://commons.wikimedia.org/wiki/File:Leonardo_Da_Vinci_Sling_Catapult.PNG', 'Wikimedia Commons.', true);
         ?>
         </div>
   </div>
@@ -143,7 +143,7 @@ ob_start();
         </table>
     </div>
 
-    <div class="m-auto my-4"><?php renderImage("u1_t2_Trinomio_Cuadrado_Perfecto.webp", "Imagen de Gohmath.", "https://commons.wikimedia.org/wiki/File:Trinomio_Cuadrado_Perfecto.png", "Wikimedia Commons."); ?></div>
+    <div class="m-auto my-4"><?php renderImage("u1_t2_Trinomio_Cuadrado_Perfecto.webp", "Imagen de Gohmath.", "https://commons.wikimedia.org/wiki/File:Trinomio_Cuadrado_Perfecto.png", "Wikimedia Commons.", true); ?></div>
 
     <h4>Ejemplo 2:</h4>
 
