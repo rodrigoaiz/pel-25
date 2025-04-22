@@ -2,6 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
+include PATH_INCLUDE . 'Videos.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -13,16 +14,22 @@ ob_start();
         presente en la fórmula, se nombra de derecha a izquierda.</p>
     <p>Los prefijos que se utilizan son: mono (1), di (2), tri (3), tetra (4), penta (5), hexa (6), hepta (7), …
         (El prefijo mono puede omitirse).</p>
-    <div class="max-w-2xl mx-auto">
+    <div class="w-md mx-auto">
         <?php
-        renderImage('u1_t2_nomenclatura_sistematica_inorg.webp', 'Imagen de Hirowumi.', 'https://pixabay.com/es/photos/ciencia-molecular-museo-neto-1480284/', 'Pixabay');
+        renderImage('u1_t2_tabla_prefijos.webp', 'Tabla de Prefijos');
         ?>
     </div>
-    <p><strong><em>Compuestos binarios:</em></strong> son aquellos que se componen únicamente de dos elementos
-        químicos. Entre ellos podemos encontrar los óxidos, sales binarias y los ácidos binarios o hidrácidos.
-    </p>
-    <p><strong><em>Compuestos ternarios:</em></strong> son compuestos en los que se involucran tres elementos
-        químicos. Entre ellos podemos mencionar a los hidróxidos, oxiácidos y sales ternarias.</p>
+    <div class="max-w-2xl mx-auto mt-10">
+        <?php
+        renderImage('u1_t2_nomenclatura_sistematica_inorg.webp', 'Ejemplos nomenclatura sistemática');
+        ?>
+    </div>
+    <p>Revisa el siguiente video para aprender más sobre la nomenclatura sistemática de los compuestos inorgánicos:</p>
+    <div class="max-w-xl mx-auto">
+        <?php
+        renderVideoIframe('qQuzUVfnJ1M', 'Nomenclatura sistemática de óxidos no metálicos');
+        ?>
+    </div>
 </section>
 <?php
 $content = ob_get_clean();
