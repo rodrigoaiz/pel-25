@@ -14,9 +14,9 @@ ob_start();
 
 <h2>Bienvenida a la Unidad 3</h2>
 <div class="lg:grid">
-      <a href="https://www.youtube.com/watch?v=wV-PY5SE87A" target="_blank">
+      <a href="https://www.youtube.com/watch?v=0VbNtwuRCbo&feature=youtu.be" target="_blank">
                 <?php
-                renderImage('u2t5_banner_ejemplo_cuadratico.webp', '', '', '');
+                renderImage('u3t1_banner_video_bienvenida.webp', '', '', '');
                 ?>
       </a>
 </div>
