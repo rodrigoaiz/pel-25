@@ -25,43 +25,52 @@ ob_start();
     </ol>
     <p><strong>Del modelo de Bohr podemos destacar las siguientes características:</strong></p>
     <div class="p-8 bg-yellow-100">
-        <div class="w-full">
-            <ul class="list-disc ml-10">
-                <li>Los electrones giran alrededor del núcleo en órbitas circulares.</li>
-                <li>Los electrones orbitan el núcleo en órbitas que tienen un tamaño y energía establecidos. No hay un estado intermedio entre las órbitas.</li>
-                <li>Cada órbita tiene una energía que se relaciona con su tamaño, así la órbita de menor tamaño tendrá la menor energía, si es una órbita más alejada del núcleo tendrá mayor energía.</li>
-                <li>La absorción y emisión de luz por los átomos se explica por la transición del electrón entre dos de los estados energéticos permitidos.</li>
-                <li>Existe un estado de mínima energía llamado estado basal.</li>
-            </ul>
-        </div>
-        <div class="grid grid-cols-3 gap-4 h-96 mt-12">
-            <div class="h-full max-h-40 rounded-md">
-                <?php
-                renderImage('u1t3_electrones.webp', 'Electrones Imagen de OpenClipart-Vectors,', 'https://pixabay.com/es/vectors/n%C3%BAcleo-del-%C3%A1tomo-nuclear-%C3%A1tomo-153152/', 'Pixabay');
-                ?>
+        <div class="grid grid-cols-3 gap-4">
+            <div class=" col-span-2">
+                <ul class="ul-disc ml-10">
+                    <li>Los electrones giran alrededor del núcleo en órbitas circulares.</li>
+                    <li>Los electrones orbitan el núcleo en órbitas que tienen un tamaño y energía establecidos. No hay un estado intermedio entre las órbitas.</li>
+                    <li>Cada órbita tiene una energía que se relaciona con su tamaño, así la órbita de menor tamaño tendrá la menor energía, si es una órbita más alejada del núcleo tendrá mayor energía.</li>
+                    <li>La absorción y emisión de luz por los átomos se explica por la transición del electrón entre dos de los estados energéticos permitidos.</li>
+                    <li>Existe un estado de mínima energía llamado estado basal.</li>
+                </ul>
             </div>
-            <div class="h-full max-h-40 rounded-md">
+            <div>
+                <div class="rounded-md">
+                    <?php
+                    renderImage('u1t3_electrones.webp', 'Electrones Imagen de OpenClipart-Vectors,', 'https://pixabay.com/es/vectors/n%C3%BAcleo-del-%C3%A1tomo-nuclear-%C3%A1tomo-153152/', 'Pixabay');
+                    ?>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 gap-6">
+            <div class=" rounded-md">
                 <?php
                 renderImage('u1t3_horno_microondas.webp', 'Absorción Imagen de jeanvdmeulen,', 'https://pixabay.com/es/photos/aparato-cocinero-cocinando-5144884/', 'Pixabay');
                 ?>
             </div>
-            <div class="h-full max-h-40 rounded-md">
+            <div class="rounded-md">
                 <?php
                 renderImage('u1t3_cohete.webp', 'Emisión Imagen de Wikilmages,', 'https://pixabay.com/es/photos/lanzamiento-de-cohete-cohete-l%c3%a1rgate-67643/', 'Pixabay');
                 ?>
             </div>
         </div>
     </div>
-
-
-
-
+    <p>De acuerdo con los números atómicos de los gases nobles Bohr propuso que en cada órbita se permiten:</p>
+    <ul class="ul-disc ml-10">
+        <li>En la primera órbita hay <strong>2 electrones.</strong></li>
+        <li>En la segunda órbita hay <strong>8 electrones.</strong></li>
+        <li>En la tercera órbita hay <strong>18 electrones.</strong> </li>
+        <li>En la cuarta órbita hay <strong>32 electrones.</strong></li>
+    </ul>
+    <p>A estas órbitas o niveles de energía se les etiquetó con las letras <strong>K, L, M, N, O, P y
+            Q,</strong> donde en cada uno caben <strong>2, 8, 18, 32, 32, 18 y 8</strong> electrones.</p>
+    <p>Ahora revisa el siguiente video para corroborar lo aprendido.</p>
     <div class="max-w-xl mx-auto">
         <?php
-        renderVideoIframe('VnCwTNaaaCA', 'Bienvenida a la lección 3.');
+        renderVideoIframe('FDU4bgxCV_s', 'Modelo de Bohr');
         ?>
     </div>
-    <p>En esta lección revisarás los aprendizajes relacionados con conceptos de estructura de la materia al estudiar el modelo atómico de Bohr y la representación de un átomo neutro, de cationes y aniones mediante el modelo de Bohr. Lo cual te servirá para comprender que la formación de un catión implica pérdida de electrones y la formación de un anión ganancia de electrones. Lo cual te servirá para entender la presencia de iones monoatómicos y poliatómicos en el suelo.</p>
     <?php
     $content = ob_get_clean();
     renderTemplatePage($menuAsignaturaPath, $content);
