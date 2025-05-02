@@ -39,6 +39,7 @@ ob_start();
           renderImage('u3t2_diagrama_1-1.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-3 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -50,6 +51,7 @@ ob_start();
           renderImage('u3t2_diagrama_1-1.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-3 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -62,6 +64,7 @@ ob_start();
           renderImage('u3t2_diagrama_1-3.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
   </div>
 </div>
@@ -86,6 +89,7 @@ ob_start();
           renderImage('u3t2_diagrama_2-1.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -98,6 +102,7 @@ ob_start();
           renderImage('u3t2_diagrama_2-2.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -111,6 +116,7 @@ ob_start();
           renderImage('u3t2_diagrama_2-3.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -124,6 +130,7 @@ ob_start();
           renderImage('u3t2_diagrama_2-4.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -136,6 +143,7 @@ ob_start();
           renderImage('u3t2_diagrama_2-5.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
   </div>
 </div>
@@ -160,6 +168,7 @@ ob_start();
           renderImage('u3t2_diagrama_3-1.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -172,6 +181,7 @@ ob_start();
           renderImage('u3t2_diagrama_3-2.webp', '', '', '');
           ?>
         </footer>
+      </div> 
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -185,6 +195,7 @@ ob_start();
           renderImage('u3t2_diagrama_3-3.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -198,6 +209,7 @@ ob_start();
           renderImage('u3t2_diagrama_3-4.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
 
   </div>
@@ -221,6 +233,7 @@ ob_start();
           renderImage('u3t2_diagrama_1-1.webp', '', '', '');
           ?>
         </footer>
+      </div>  
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -232,6 +245,7 @@ ob_start();
           renderImage('u3t2_diagrama_4-2.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -245,6 +259,7 @@ ob_start();
           renderImage('u3t2_diagrama_4-3.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -259,6 +274,7 @@ ob_start();
           renderImage('u3t2_diagrama_4-4.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
 
   </div>
@@ -282,6 +298,7 @@ ob_start();
           renderImage('u3t2_diagrama_5-1.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -294,6 +311,7 @@ ob_start();
           renderImage('u3t2_diagrama_5-2.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -306,6 +324,7 @@ ob_start();
           renderImage('u3t2_diagrama_5-3.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -319,6 +338,7 @@ ob_start();
           renderImage('u3t2_diagrama_5-4.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -331,6 +351,7 @@ ob_start();
           renderImage('u3t2_diagrama_5-5.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
   </div>
 </div>
@@ -354,6 +375,7 @@ ob_start();
           renderImage('u3t2_diagrama_6-1.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -366,6 +388,7 @@ ob_start();
           renderImage('u3t2_diagrama_6-2.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -379,6 +402,7 @@ ob_start();
           renderImage('u3t2_diagrama_6-3.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -392,6 +416,7 @@ ob_start();
           renderImage('u3t2_diagrama_6-4.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
     <article class="bg-white px-4 py-4 col-span-5 md:col-span-2 lg:col-span-1">
       <div class="flex flex-col justify-between min-h-full">
@@ -406,6 +431,7 @@ ob_start();
           renderImage('u3t2_diagrama_6-5.webp', '', '', '');
           ?>
         </footer>
+      </div>
     </article>
   </div>
 </div>
