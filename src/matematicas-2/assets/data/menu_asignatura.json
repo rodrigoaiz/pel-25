@@ -38,15 +38,16 @@
       ]
     },
     "Unidad 4": {
-      "url": "/taller-computo/unidad4/t1/1.php",
+      "url": "/matematicas-2/unidad4/t1/1.php",
       "publicado": true,
       "nombre": "Unidad 4",
       "temas": [
-        {"nombre": "Congruencia", "url": "/taller-computo/unidad4/t1", "paginas": 17},
-        {"nombre": "Semejanza y teorema de Pitágoras", "url": "/taller-computo/unidad4/t2", "paginas": 18}
+        {"nombre": "Congruencia", "url": "/matematicas-2/unidad4/t1", "paginas": 17},
+        {"nombre": "Semejanza y teorema de Pitágoras", "url": "/matematicas-2/unidad4/t2", "paginas": 18}
       ]
     }
   },
+  
   "actividades": {
     "u1a1": { "id": "4564", "moduleName": "quiz" },
     "u1a2": { "id": "4565", "moduleName": "forum" },
