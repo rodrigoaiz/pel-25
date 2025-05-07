@@ -35,7 +35,7 @@ ob_start();
               </div>
               <div>
                     <?php
-          renderImage('correspondencia_elementos.webp', 'Correspondencia de elementos. Observación', '', '');
+          renderImage('correspondencia_elementos_observacion.webp', 'Correspondencia de elementos. Observación', '', '');
           ?>
           </div>
  </div>

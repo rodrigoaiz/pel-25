@@ -47,13 +47,13 @@ ob_start();
 
       <div class="max-w-3xl mx-auto">
               <?php
-              $accordionItems1 = [
+              $accordionItems2 = [
                 [
                   'title' => 'Respuesta',
                   'content' => '<p>Rectángulo, triángulos y rombos.</p>'
                 ]
               ];
-              renderAccordion($accordionItems1, 'segundo-');
+              renderAccordion($accordionItems2, 'segundo-');
               ?>
       </div>
 
@@ -97,7 +97,7 @@ ob_start();
 
 <div class="max-w-3xl mx-auto">
               <?php
-              $accordionItems1 = [
+              $accordionItems3 = [
                 [
                   'title' => 'Respuesta',
                   'content' => '<ol class="ol-number">
@@ -108,7 +108,7 @@ ob_start();
                             </ol>'
                 ]
               ];
-              renderAccordion($accordionItems1, 'primero-');
+              renderAccordion($accordionItems3, 'primero-');
               ?>
   </div>
 
