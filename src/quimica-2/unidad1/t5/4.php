@@ -1,7 +1,6 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -16,8 +15,9 @@ ob_start();
         y qué elemento se reduce, así como reconocer al agente reductor y al agente oxidante.</p>
     <p>Los números de oxidación de un átomo en un ion o en una molécula se definen como las cargas que tienen
         los átomos, convencionalmente las cargas de los iones se escriben número y signo, por ejemplo, el catión
-        Mg2+, y los <strong>números de oxidación se escriben como signo y número</strong>, así el número de
-        oxidación del ion <span class="font-serif italic">Mg2+</span> es <span class="font-serif italic">+2</span>. </p>
+        <span class="font-serif italic">Mg2+</span>, y los <strong>números de oxidación se escriben como signo y número</strong>, así el número de
+            oxidación del ion <span class="font-serif italic">Mg2+</span> es <span class="font-serif italic">+2</span>.
+    </p>
     <p><strong>¿Cómo calcular el número de oxidación de un compuesto?</strong> Para eso necesitas conocer las
         reglas para asignar números de oxidación:</p>
     <ol>
