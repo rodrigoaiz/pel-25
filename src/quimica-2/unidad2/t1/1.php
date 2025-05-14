@@ -4,33 +4,29 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'ModalIndex.php';
-include PATH_INCLUDE . 'GeniallyIframe.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h2>Bienvenida a la Unidad 2</h2>
-  <h3>Hardware y Software</h3>
-  <p>En la Unidad II. “Hardware y Software” describirías la evolución de las computadoras a partir del hardware y software, determinando las características de las generaciones de computadoras incluyendo el modelo de Jhon Von Neuman y las tendencias. Además de, identificar los riesgos en el uso de las computadoras y cómo prevenirlas.</p>
-  <div class="max-w-2xl mx-auto">
+  <h2>Bienvenida a la unidad 2 y a la lección 1</h2>
+  <p>Bienvenidos, antes de comenzar la unidad observa el siguiente video.</p>
+  <div class="max-w-xl mx-auto">
     <?php
-    renderVideoIframe('-IZdVEdcEqM', 'Presentación de la Unidad II “Hardware y Software”');
+    renderVideoIframe('_3oF7Qucnrw', 'Bienvenida a la unidad 2.');
     ?>
   </div>
-  <div class="text-center">
-    <h3>Conoce los aprendizajes de esta unidad</h3>
-  </div>
-  <?php renderGenially('64f211f9c0cb900018cbd4ab', 'Conoce los aprendizajes de esta unidad') ?>
+  <h3>¿Cuánto sabes?</h3>
   <?php ob_start(); ?>
-  <p>Una vez que has revisado el video de bienvenida, la presentación y los aprendizajes, así cómo las temáticas que se incluyen en la unidad II. Hardware y Software, te invitamos a medir tus conocimientos básicos en el tema, cómo una autoevaluación, con el objetivo de apoyarte a enfatizar en aquellos aprendizajes que consideres que requieren más atención. Así que, <strong>¡Comencemos!</strong></p>
+  <p>Antes de comenzar con la unidad, nos gustaría que vieras qué tanto sabes acerca de los temas a tratar, por lo que te pedimos que realices el siguiente cuestionario diagnóstico. Recuerda que es solo para tener una idea de los conceptos previos que posees, por lo cual es de suma importancia que contestes de manera honesta. Este cuestionario no influye en tu evaluación del curso.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a1', "Cuestionario diagnóstico unidad 2", $ActividadContent);
+  renderActividad('u2a1', "Cuestionario diagnóstico de unidad 2", $ActividadContent);
   ?>
 </section>
-<?php renderModalIndex(); ?>
+<?php renderModalIndex('<strong>IMPORTANTE 2:</strong> Sólo encontrarás disponible el contenido de la Unidad 1 y 2, en breve podrás acceder a las siguientes unidades'); ?>
+
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);
