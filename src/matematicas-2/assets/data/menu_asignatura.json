@@ -43,7 +43,7 @@
       "nombre": "Unidad 4",
       "temas": [
         {"nombre": "Congruencia", "url": "/matematicas-2/unidad4/t1", "paginas": 17},
-        {"nombre": "Semejanza y teorema de Pitágoras", "url": "/matematicas-2/unidad4/t2", "paginas": 18}
+        {"nombre": "Semejanza y teorema de Pitágoras", "url": "/matematicas-2/unidad4/t2", "paginas": 17}
       ]
     }
   },
