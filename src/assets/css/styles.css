@@ -361,3 +361,9 @@ Header
   font-size: clamp(0.8rem, 1vw, 1.01rem);
   line-height: clamp(1.5rem, 1.6vw, 1.7rem);
 }
+
+.clase{
+  @apply bg-bluemain-own text-white text-sm font-bold uppercase px-2 py-1 rounded-md;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
