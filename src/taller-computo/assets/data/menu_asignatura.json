@@ -35,7 +35,7 @@
         {"nombre": "Fórmulas con referencias", "url": "/taller-computo/unidad3/t3", "paginas": 3},
         {"nombre": "Gráficas de barras y circulares", "url": "/taller-computo/unidad3/t4", "paginas": 5},
         {"nombre": "Gráficas de dispersión", "url": "/taller-computo/unidad3/t5", "paginas": 5},
-        {"nombre": "Funciones matemáticas y trigonométricas", "url": "/taller-computo/unidad3/t6", "paginas": 7},
+        {"nombre": "Funciones matemáticas y trigonométricas", "url": "/taller-computo/unidad3/t6", "paginas": 5},
         {"nombre": "Funciones Estadísticas", "url": "/taller-computo/unidad3/t7", "paginas": 7},
         {"nombre": "Funciones lógicas y de texto", "url": "/taller-computo/unidad3/t8", "paginas": 8}
 
@@ -43,13 +43,13 @@
     },
     "Unidad 4": {
       "url": "/taller-computo/unidad4/t1/1.php",
-      "publicado": false,
+      "publicado": true,
       "nombre": "Unidad 4",
       "temas": [
         {"nombre": "Edición y formatos de imagen", "url": "/taller-computo/unidad4/t1", "paginas": 7},
         {"nombre": "Edición y formatos de audio", "url": "/taller-computo/unidad4/t2", "paginas": 6},
         {"nombre": "Edición y formatos de video", "url": "/taller-computo/unidad4/t3", "paginas": 6},
-        {"nombre": "Publicación de archivos Multimedia", "url": "/taller-computo/unidad4/t4", "paginas": 8}
+        {"nombre": "Publicación de archivos Multimedia", "url": "/taller-computo/unidad4/t4", "paginas": 7}
       ]
     }
   },

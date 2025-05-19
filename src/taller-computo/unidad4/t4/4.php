@@ -13,7 +13,7 @@ ob_start();
         <li><span class="text-pink-600 font-bold">Banco de archivos en línea</span> es un servicio web que permite almacenar y compartir archivos digitales de forma remota, a través de una conexión a internet. Los usuarios pueden subir, descargar, organizar y compartir sus archivos con otros usuarios o con el público en general, según los permisos que establezcan. Algunos ejemplos de bancos de archivos en línea son Dropbox, Googledrive, OneDrive, etc.</li>
         <li><span class="text-pink-600 font-bold">Repositorio</span> es un espacio centralizado donde se almacena, organiza, mantiene y difunde información digital, habitualmente archivos informáticos, que pueden contener trabajos científicos, conjuntos de datos o software. Los repositorios tienen un propósito académico, cultural o patrimonial, y suelen estar vinculados a una institución o un área temática específica. Los repositorios garantizan el acceso abierto a sus documentos y datos, facilitando la preservación y la visibilidad de la producción intelectual. Algunos ejemplos de repositorios son RiuNet, Repositorio (contenido digital), Archivoz, etc.
             <div class="max-w-2xl mx-auto my-4">
-                <?php renderImage('u4_t4_illustration.jpg', 'Imagen de Storyset.', 'https://www.freepik.com/free-vector/content-concept-illustration_7171429.htm#query=sitios%20de%20publicacion&position=46&from_view=search&track=ais', 'Freepik.', 'justify-center') ?>
+                <?php renderImage('u4_t4_illustration.webp', 'Imagen de Storyset.', 'https://www.freepik.com/free-vector/content-concept-illustration_7171429.htm#query=sitios%20de%20publicacion&position=46&from_view=search&track=ais', 'Freepik.', 'justify-center') ?>
             </div>
         </li>
         <li><span class="text-pink-600 font-bold">Blog</span> es un sitio web que incluye, a modo de diario personal de su autor o autores, contenidos de su interés, actualizados con frecuencia y a menudo comentados por los lectores. Pueden mostrar una lista de enlaces a otros blogs u otras páginas para ampliar información, citar fuentes o hacer notar que se continúa con un tema que empezó otro blog. Ejemplos de este Blogger, WordPress, etc.</li>
@@ -21,7 +21,7 @@ ob_start();
     </ul>
     <p>Estos ejemplos son solo una muestra de los numerosos sitios de publicación disponibles en línea. Cada uno tiene sus propias características y ventajas, y la elección depende de los objetivos y preferencias del usuario.</p>
     <div class="max-w-2xl mx-auto my-4">
-        <?php renderImage('u4_t4_homepage.jpg', 'Herramientas de publicación. Imagen de freepik.', 'https://www.freepik.com/free-vector/abstract-creative-homepage-illustration_21743681.htm', 'Freepik.', 'justify-center') ?>
+        <?php renderImage('u4_t4_homepage.webp', 'Herramientas de publicación. Imagen de freepik.', 'https://www.freepik.com/free-vector/abstract-creative-homepage-illustration_21743681.htm', 'Freepik.', 'justify-center') ?>
     </div>
     <p>De las siguientes herramientas, explora algunas de ellas e identifica sus características.</p>
     <ol class="ol-number">
@@ -45,7 +45,7 @@ ob_start();
         </ul>
     </ol>
     <div class="max-w-2xl mx-auto my-4">
-        <?php renderImage('u4_t4_cloud.jpg', 'Bancos de archivos. Imagen de macrovector.', 'https://www.freepik.com/free-vector/cloud-technology-remote-computing_1529243.htm#page=3&query=bancoa%20de%20archivos%20multimedia&position=1&from_view=search&track=ais', 'Freepik.', 'justify-center') ?>
+        <?php renderImage('u4_t4_cloud.webp', 'Bancos de archivos. Imagen de macrovector.', 'https://www.freepik.com/free-vector/cloud-technology-remote-computing_1529243.htm#page=3&query=bancoa%20de%20archivos%20multimedia&position=1&from_view=search&track=ais', 'Freepik.', 'justify-center') ?>
     </div>
     <p class="text-center mt-10">Te invito a que explores e identifiques las características de las plataformas de tu interés, así como sus usos, no necesariamente las que te menciono, puede ser alguna otra.</p>
 </section>

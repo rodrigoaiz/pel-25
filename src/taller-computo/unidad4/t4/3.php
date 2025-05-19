@@ -15,7 +15,7 @@ ob_start();
             <li><span class="text-pink-600 font-bold">Alcance Global:</span> Internet permite llegar a una audiencia global en cuestión de segundos, lo que brinda la oportunidad de compartir ideas, creaciones y conocimientos con personas de todo el mundo.</li>
             <li><span class="text-pink-600 font-bold">Comunicación Visual y Atractiva:</span> Los archivos multimedia, como imágenes, videos y audios, son más atractivos y efectivos para transmitir información y emociones en comparación con el texto plano.
                 <div class="max-w-2xl mx-auto my-4">
-                    <?php renderImage('u4_t4_news.jpg', '<em>Importancia de difundir</em>. Imagen de Vectorjuice.', 'https://www.freepik.com/free-vector/social-media-news-tips-abstract-concept-illustration-social-media-marketing-algorithm-news-promote-profile-engagement-tips-latest-updates-content-advice_10783951.htm#page=3&query=multimedia%20importante&position=0&from_view=search&track=ais', 'Freepik.', 'justify-center') ?>
+                    <?php renderImage('u4_t4_news.webp', '<em>Importancia de difundir</em>. Imagen de Vectorjuice.', 'https://www.freepik.com/free-vector/social-media-news-tips-abstract-concept-illustration-social-media-marketing-algorithm-news-promote-profile-engagement-tips-latest-updates-content-advice_10783951.htm#page=3&query=multimedia%20importante&position=0&from_view=search&track=ais', 'Freepik.', 'justify-center') ?>
                 </div>
             </li>
             <li><span class="text-pink-600 font-bold">Promoción y Marca Personal:</span> La difusión de contenido multimedia en línea puede servir para promocionar productos, servicios o habilidades personales, y construir una marca personal sólida.</li>
