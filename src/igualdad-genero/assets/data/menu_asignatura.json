@@ -1,0 +1,31 @@
+{
+  "nombreAsignatura": "Igualdad de Género",
+  "asignatura": {
+    "Unidad 1": {
+      "url": "/igualdad-genero/unidad1/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 1",
+      "temas": [
+        {"nombre": "Perspectiva de género y cultura de igualdad", "url": "/igualdad-genero/unidad1/t1", "paginas": 6},
+        {"nombre": "La categoría de perspectiva de género como herramienta para estudiar la desigualdad", "url": "/igualdad-genero/unidad1/t2", "paginas": 8},
+        {"nombre": "Análisis de las relaciones de poder y campos de dominación desde la desigualdad de género", "url": "/igualdad-genero/unidad1/t3", "paginas": 8},
+        {"nombre": "Identificación y cuestionamiento de los presupuestos de la masculinidad tradicional ", "url": "/igualdad-genero/unidad1/t4", "paginas": 9},
+        {"nombre": "La importancia de construir una cultura de la igualdad ", "url": "/igualdad-genero/unidad1/t5", "paginas": 6},
+        {"nombre": "La noción de persona como fundamento de los derechos humanos ", "url": "/igualdad-genero/unidad1/t6", "paginas": 9}
+      ]
+    },
+    "Unidad 2": {
+      "url": "/igualdad-genero/unidad2/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 2",
+      "temas": [
+        {"nombre": "Violencia de género, sus características, ámbitos y forma de ejercerla como un problema de salud pública y de bienestar social", "url": "/igualdad-genero/unidad2/t1", "paginas": 12},
+        {"nombre": "Identificación de las concepciones y prácticas sociales dañinas asociadas al amor romántico para cuestionar y proponer alternativas", "url": "/igualdad-genero/unidad2/t2", "paginas": 5}
+      ]
+    }
+  },
+  "actividades": {
+    "u1a1": { "id": "00", "moduleName": "quiz" },
+    "u2a1": { "id": "00", "moduleName": "hvp" }
+  }
+}
