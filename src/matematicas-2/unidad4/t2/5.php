@@ -154,7 +154,7 @@ ob_start();
     <p>Para terminar este tema, realiza el siguiente ejercicio.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a13', "Criterios de semejanza de triángulos", $ActividadContent);
+    renderActividad('u4a14', "Criterios de semejanza de triángulos", $ActividadContent);
 ?>
 
 </section>

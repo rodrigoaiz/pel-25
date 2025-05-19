@@ -108,7 +108,7 @@ ob_start();
     <p>Para practicar, realiza el siguiente ejercicio.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a14', "Áreas y perímetros de triángulos semejantes", $ActividadContent);
+    renderActividad('u4a15', "Áreas y perímetros de triángulos semejantes", $ActividadContent);
 ?>
 
 </section>

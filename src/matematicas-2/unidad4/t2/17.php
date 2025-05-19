@@ -120,7 +120,7 @@ ob_start();
     <p>Lee atentamente cada uno de los siguientes problemas. A continuación, identifica dónde puedes construir un triángulo rectángulo y cuáles serían sus catetos y su hipotenusa, es recomendable que enlistes los datos, lo que pide el problema y dibujes un diagrama en tu cuaderno. Después, resuelve los problemas y señala la respuesta correcta. Toma en cuenta que los valores decimales se redondean a dos cifras.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a18', "Problemas que involucran teorema de Pitágoras", $ActividadContent);
+    renderActividad('u4a19', "Problemas que involucran teorema de Pitágoras", $ActividadContent);
 ?>
 
 <?php ob_start(); ?>
@@ -128,7 +128,7 @@ ob_start();
                     realizarás la siguiente evaluación.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a19', "Cuestionario final unidad 4", $ActividadContent);
+    renderActividad('u4a20', "Cuestionario final unidad 4", $ActividadContent);
 ?>
 
 </section>

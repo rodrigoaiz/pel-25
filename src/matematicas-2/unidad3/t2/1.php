@@ -441,7 +441,7 @@ ob_start();
       <p>Finalmente pudiste construir rectas paralelas que son aquellas rectas que tiene una misma distancia entre ellas y nunca se van a intersectar , ya que tienen el mismo ángulo de inclinación pero son equidistantes.</p>
       <?php
       $ActividadContent = ob_get_clean();
-      renderActividad('u3a5', "Construcción de polígonos regulares", $ActividadContent);
+      renderActividad('u3a6', "Construcción de polígonos regulares", $ActividadContent);
   ?>
 
   <p>Muy bien ya realizaste construcciones, ahora empecemos a trabajar con ejercicios ya con medidas, aplicando claro está las definiciones que comprendiste en este aprendizaje.</p>

@@ -27,7 +27,7 @@ ob_start();
   <p>Ahora que hemos revisado las generalidades del triángulo isósceles realicemos un sencillo ejercicio que te permita autoevaluarte, así puedes saber cómo andan tus conocimientos sobre este aprendizaje.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3a9', "Propiedades del triángulo isósceles", $ActividadContent);
+  renderActividad('u3a14', "Propiedades del triángulo isósceles", $ActividadContent);
 ?>
 
 <p>Muy bien ya comprendes y aplicas las propiedades del triángulo isósceles sigamos adelante.</p>

@@ -170,7 +170,7 @@ ob_start();
     <p>Practica un poco la construcción anterior.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a16', "División de un segmento", $ActividadContent);
+    renderActividad('u4a17', "División de un segmento", $ActividadContent);
 ?>
 
 </section>

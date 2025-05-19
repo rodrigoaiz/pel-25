@@ -55,7 +55,7 @@ ob_start();
     <p>Es hora de que practiques un poco realizando el siguiente ejercicio, basándote en las preguntas que se indican.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a9', "Congruencia", $ActividadContent);
+    renderActividad('u4a10', "Congruencia", $ActividadContent);
 ?>
               
 </section>

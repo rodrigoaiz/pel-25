@@ -76,7 +76,7 @@ ob_start();
         <p>¡Has llegado al final de esta unidad! Para concluir y comprobar todo lo que has aprendido, realiza el siguiente cuestionario.</p>
         <?php
         $ActividadContent = ob_get_clean();
-        renderActividad('u2a17', "Cuestionario final unidad 2", $ActividadContent);
+        renderActividad('u2a18', "Cuestionario final unidad 2", $ActividadContent);
       ?>
 
 </section>

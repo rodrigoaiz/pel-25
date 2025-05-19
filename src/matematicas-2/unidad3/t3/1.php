@@ -34,13 +34,13 @@ ob_start();
   <p>A partir de lo que revisaste realiza las siguientes actividades complementarán tu aprendizaje.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3a5', "Definiciones de ángulo", $ActividadContent);
+  renderActividad('u3a7', "Definiciones de ángulo", $ActividadContent);
   ?>
 
 <?php ob_start(); ?>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3a6', "Ángulos alternos interno y externos", $ActividadContent);
+  renderActividad('u3a8', "Ángulos alternos interno y externos", $ActividadContent);
   ?>
 
   <p>Seguramente recordaste la clasificación de ángulos y aprendiste otros, además de practicar con las actividades, continuemos ahora con nuevos ángulos formados por dos rectas paralelas y una transversal.</p>

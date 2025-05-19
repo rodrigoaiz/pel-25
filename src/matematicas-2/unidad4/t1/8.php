@@ -109,7 +109,7 @@ ob_start();
 <p>Ahora es tu turno de practicar, realizando el siguiente ejercicio.</p>
 <?php
 $ActividadContent = ob_get_clean();
-renderActividad('u4a5', "Notación de congruencia", $ActividadContent);
+renderActividad('u4a6', "Notación de congruencia", $ActividadContent);
 ?>
 
 </section>

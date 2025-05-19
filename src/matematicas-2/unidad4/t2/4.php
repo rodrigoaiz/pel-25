@@ -126,7 +126,7 @@ ob_start();
     <p>Para terminar, realiza el siguiente ejercicio.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a12', "Semejanza de triángulos", $ActividadContent);
+    renderActividad('u4a13', "Semejanza de triángulos", $ActividadContent);
 ?>
 
 </section>

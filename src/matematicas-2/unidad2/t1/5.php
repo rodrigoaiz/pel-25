@@ -161,14 +161,14 @@ ob_start();
         <p>Para repasar lo aprendido en este aprendizaje realiza la siguiente actividad.</p>
         <?php
         $ActividadContent = ob_get_clean();
-        renderActividad('u2a3', "Gráfica del problema del gallinero", $ActividadContent);
+        renderActividad('u2a4', "Gráfica del problema del gallinero", $ActividadContent);
         ?>
 
     <?php ob_start(); ?>
         <p>Finalmente completa la siguiente actividad con esto último definirá perfectamente cuando la situación estará modelada con una función lineal y cuando con una función cuadrática.</p>
         <?php
         $ActividadContent = ob_get_clean();
-        renderActividad('u2a4', "Diferencias finitas", $ActividadContent);
+        renderActividad('u2a5', "Diferencias finitas", $ActividadContent);
         ?>
 
 </section>

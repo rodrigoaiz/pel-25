@@ -44,7 +44,7 @@ ob_start();
         <p>Realiza la siguiente actividad podrás practicar lo aprendido.</p>
         <?php
         $ActividadContent = ob_get_clean();
-        renderActividad('u2a11', "Concavidad de la parábola", $ActividadContent);
+        renderActividad('u2a12', "Concavidad de la parábola", $ActividadContent);
         ?>
 
 <p> Siguiente ejercicio \(y= (x+4)^2\)</p>

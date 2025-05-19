@@ -179,14 +179,14 @@ ob_start();
         <p>Después de haber revisado y realizado las actividades del aprendizaje uno participa en el foro de discusión.</p>
         <?php
         $ActividadContent = ob_get_clean();
-        renderActividad('u2a1', "Situaciones que se pueden modelar con funciones cuadráticas", $ActividadContent);
+        renderActividad('u2a2', "Situaciones que se pueden modelar con funciones cuadráticas", $ActividadContent);
         ?>
 
     <?php ob_start(); ?>
         <p>Para finalizar este aprendizaje te invitamos a que resuelvas el siguiente ejercicio.</p>
         <?php
         $ActividadContent = ob_get_clean();
-        renderActividad('u2a2', "Funciones cuadráticas", $ActividadContent);
+        renderActividad('u2a3', "Funciones cuadráticas", $ActividadContent);
         ?>
 
 </section>

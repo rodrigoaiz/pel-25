@@ -15,7 +15,7 @@ ob_start();
         <p>Realizar la siguiente actividad te apoyará en seguir construyendo tus aprendizajes.</p>
         <?php
         $ActividadContent = ob_get_clean();
-        renderActividad('u2a7', "Eje de simetría de la función cuadrática", $ActividadContent);
+        renderActividad('u2a8', "Eje de simetría de la función cuadrática", $ActividadContent);
     ?>
     <p>¿Las raíces de la función cuadrática cuya gráfica es la siguiente son reales o complejas?</p>
 
@@ -41,7 +41,7 @@ ob_start();
         <p>Realiza la siguiente actividad para consolidar el aprendizaje sobre raíces en el conjunto de los números reales y cuando son complejas estás mismas.</p>
         <?php
         $ActividadContent = ob_get_clean();
-        renderActividad('u2a8', "Discriminante", $ActividadContent);
+        renderActividad('u2a9', "Discriminante", $ActividadContent);
     ?>
 
     <p>En este momento ya sabes identificar cuando trabajas con raíces en el conjunto de los números reales o en el conjunto de los números complejos, ahora trabajemos con la forma estándar de la función.</p>

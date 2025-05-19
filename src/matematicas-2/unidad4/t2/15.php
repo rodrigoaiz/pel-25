@@ -64,7 +64,7 @@ ob_start();
     <p>Para finalizar, realiza el siguiente ejercicio, donde identificarás triángulos rectángulos a partir de las medidas de sus lados, utilizando el Teorema de Pitágoras.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a17', "Teorema de Pitágoras", $ActividadContent);
+    renderActividad('u4a18', "Teorema de Pitágoras", $ActividadContent);
 ?>
 
 </section>

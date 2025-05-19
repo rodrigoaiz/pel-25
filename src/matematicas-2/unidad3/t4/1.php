@@ -37,7 +37,7 @@ ob_start();
   <p>Realiza la siguiente actividad.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3a8', "Clasificación de triángulos", $ActividadContent);
+  renderActividad('u3a10', "Clasificación de triángulos", $ActividadContent);
 ?>
 
 <div class="md:grid grid-cols-2 gap-3 items-center mt-5">

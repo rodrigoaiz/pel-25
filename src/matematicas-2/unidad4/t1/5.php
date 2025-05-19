@@ -159,7 +159,7 @@ ob_start();
 <p>Para finalizar, de preferencia en una hoja blanca, pon en práctica lo visto hasta el momento y realiza las siguientes construcciones, utilizando regla sin graduar y compás.</p>
 <?php
 $ActividadContent = ob_get_clean();
-renderActividad('u4a3', "Ejercicio de construcciones", $ActividadContent);
+renderActividad('u4a4', "Ejercicio de construcciones", $ActividadContent);
 ?>
 </section>
 

@@ -85,7 +85,7 @@ ob_start();
 <p>Realiza la siguiente actividad.</p>
 <?php
 $ActividadContent = ob_get_clean();
-renderActividad('u4a4', "Correspondencia de elementos", $ActividadContent);
+renderActividad('u4a5', "Correspondencia de elementos", $ActividadContent);
 ?>
 
 </section>

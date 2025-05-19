@@ -46,7 +46,7 @@ ob_start();
   <p>Ahora realiza la siguiente actividad.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3a7', "Rectas paralelas y una transversal", $ActividadContent);
+  renderActividad('u3a9', "Rectas paralelas y una transversal", $ActividadContent);
   ?>
 
   <p>Terminamos el estudio de los ángulos ahora pasemos al estudio y comprensión de los triángulos.</p>

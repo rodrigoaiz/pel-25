@@ -127,7 +127,7 @@ ob_start();
     <p>Para comentar más sobre lo anterior, te invitamos a participar en el foro de discusión sobre las aplicaciones de la semejanza de triángulos.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a15', "Aplicaciones de la semejanza", $ActividadContent);
+    renderActividad('u4a16', "Aplicaciones de la semejanza", $ActividadContent);
 ?>
 
 </section>

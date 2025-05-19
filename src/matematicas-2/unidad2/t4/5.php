@@ -147,7 +147,7 @@ ob_start();
         <p>Revisa las siguientes tarjetas para reafirmar tus conocimientos.</p>
         <?php
         $ActividadContent = ob_get_clean();
-        renderActividad('u2a12', "Vértice, eje de simetría, raíces", $ActividadContent);
+        renderActividad('u2a13', "Vértice, eje de simetría, raíces", $ActividadContent);
     ?>
 
 <p>Ahora estudiamos el parámetro h de \(y= a(x-h)^2 +k, a \neq 0\).</p>

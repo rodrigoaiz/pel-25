@@ -39,14 +39,14 @@ ob_start();
   <p>Realiza la actividad para reforzar tu aprendizaje.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3a10', "Polígonos regulares e irregulares", $ActividadContent);
+  renderActividad('u3a15', "Polígonos regulares e irregulares", $ActividadContent);
   ?>
 
 <?php ob_start(); ?>
 <p>Dejemos por un momento los polígonos y recordemos las rectas notables de la circunferencia con la siguiente actividad.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3a11', "Rectas notables de la circunferencia", $ActividadContent);
+  renderActividad('u3a16', "Rectas notables de la circunferencia", $ActividadContent);
   ?>
 
 </section>

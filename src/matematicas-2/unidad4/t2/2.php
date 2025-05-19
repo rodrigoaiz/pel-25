@@ -58,7 +58,7 @@ ob_start();
     <p>Para finalizar, realiza el siguiente ejercicio, donde practicarás la notación de semejanza.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a10', "Notación Semejanza", $ActividadContent);
+    renderActividad('u4a11', "Notación Semejanza", $ActividadContent);
 ?>
 
 

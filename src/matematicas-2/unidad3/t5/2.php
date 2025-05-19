@@ -25,7 +25,7 @@ ob_start();
 <p>Muy bien manos a la obra, pongamos en práctica lo estudiado.</p>
 <?php
 $ActividadContent = ob_get_clean();
-renderActividad('u3a12', "Ángulos interiores de un polígono", $ActividadContent);
+renderActividad('u3a17', "Ángulos interiores de un polígono", $ActividadContent);
 ?>
 
 <p>¿Qué te parece?, interesante verdad, sigamos trabajando con los polígonos, pasemos al siguiente aprendizaje donde estudiaremos más sobre el tema.</p>

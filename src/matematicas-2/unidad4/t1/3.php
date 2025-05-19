@@ -26,7 +26,7 @@ ob_start();
 <p>Te toca practicar con el siguiente ejercicio, verificando si realmente hay figuras congruentes. ¡No olvides que las medidas son iguales!</p>
 <?php
 $ActividadContent = ob_get_clean();
-renderActividad('u4a2', "Ejercicio notación", $ActividadContent);
+renderActividad('u4a3', "Ejercicio notación", $ActividadContent);
 ?>
 
 </section>

@@ -115,7 +115,7 @@ ob_start();
   <p>Ahora resuelve la siguiente actividad ya pudiste revisar cómo se resuelven estos problemas.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3a7', "Resolución de triángulos con teoremas", $ActividadContent);
+  renderActividad('u3a11', "Resolución de triángulos con teoremas", $ActividadContent);
   ?>
 
   <p>Como pudiste comprender es muy importante la aplicación de los teoremas que estudiamos en la resolución de problemas, son de gran apoyo.</p>

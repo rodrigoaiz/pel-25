@@ -28,7 +28,7 @@ ob_start();
   <p>Realiza la siguiente actividad , así puedes saber cómo están tus conocimientos sobre este aprendizaje en particular.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3a9', "Distancia de un punto a una recta", $ActividadContent);
+  renderActividad('u3a13', "Distancia de un punto a una recta", $ActividadContent);
 ?>
 
 <p>Muy bien, esperamos que hayas construido tu aprendizaje de manera significativa. Ten presente que lo aprendido hasta el momento lo aplicarás en Matemáticas III.</p>

@@ -331,7 +331,7 @@ ob_start();
         <p>Realiza la siguiente actividad te servirá para llegar a conclusiones y consolidar aprendizajes.</p>
         <?php
         $ActividadContent = ob_get_clean();
-        renderActividad('u2a5', "Gráfica de una función", $ActividadContent);
+        renderActividad('u2a6', "Gráfica de una función", $ActividadContent);
         ?>
 
                     <p>Si \(c>0\)</p>

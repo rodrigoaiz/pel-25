@@ -154,7 +154,7 @@ ob_start();
   <p>Participa en el siguiente foro.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3a8', "Rectas y puntos notables de un triángulo", $ActividadContent);
+  renderActividad('u3a12', "Rectas y puntos notables de un triángulo", $ActividadContent);
   ?>
 
   <p>Como pudiste constatar hay muchas aplicaciones de la Geometría en nuestro entorno, puedes revisar la importancia de estas rectas y puntos notables de los triángulos.</p>

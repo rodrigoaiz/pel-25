@@ -91,7 +91,7 @@ ob_start();
         <p>Revisa las siguientes tarjetas para consolidar tus aprendizajes.</p>
         <?php
         $ActividadContent = ob_get_clean();
-        renderActividad('u2a6', "Raíces", $ActividadContent);
+        renderActividad('u2a7', "Raíces", $ActividadContent);
         ?>
 
 <p>Como pudiste observar hay tres tipos de raíces en una función cuadrática</p>

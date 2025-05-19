@@ -52,7 +52,7 @@ ob_start();
     <p>Para la congruencia de triángulos, existen tres postulados que se derivan de los elementos necesarios para poder construir triángulos, es decir, de los tres casos para poder construir un triángulo. Puede verlo a detalle a continuación.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a6', "Postulados de congruencia", $ActividadContent);
+    renderActividad('u4a7', "Postulados de congruencia", $ActividadContent);
     ?>
 
 <p>¿Cómo saber cuál aplicar? Esto depende de los datos con los que cuentes, por ejemplo, si para un
@@ -78,7 +78,7 @@ ob_start();
     <p>Ahora es tu turno de utilizar los postulados con el siguiente ejercicio.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a7', "Postulados de congruencia", $ActividadContent);
+    renderActividad('u4a8', "Postulados de congruencia", $ActividadContent);
 ?>
 
 </section>

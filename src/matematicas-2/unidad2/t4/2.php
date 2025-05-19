@@ -47,7 +47,7 @@ ob_start();
         <?php ob_start(); ?>
         <?php
         $ActividadContent = ob_get_clean();
-        renderActividad('u2a9', "Eje de simetría", $ActividadContent);
+        renderActividad('u2a10', "Eje de simetría", $ActividadContent);
         ?>
 
                     <p>Siguiente ejemplo</p>
@@ -85,7 +85,7 @@ ob_start();
         <p>Práctica todo lo aprendido en la siguiente actividad.</p>
         <?php
         $ActividadContent = ob_get_clean();
-        renderActividad('u2a10', "Relación de funciones cuadráticas", $ActividadContent);
+        renderActividad('u2a11', "Relación de funciones cuadráticas", $ActividadContent);
       ?>
 
       <p>Determina a partir de la siguiente gráfica la concavidad positiva o negativa, el vértice es un punto máximo o mínimo y su eje de simetría.</p>

@@ -37,7 +37,7 @@ ob_start();
     <p>Es tu turno de practicar realizando lo siguiente.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a11', "Semejanza", $ActividadContent);
+    renderActividad('u4a12', "Semejanza", $ActividadContent);
 ?>
 
 </section>
