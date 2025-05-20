@@ -54,7 +54,7 @@ ob_start();
     <p>Aquí sube el trabajo realizado.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1a6', "Olas del feminismo y el feminismo en México", $ActividadContent);
+    renderActividad('u1t1a6', "Olas del feminismo y el feminismo en México", $ActividadContent);
     ?>
 </section>
 

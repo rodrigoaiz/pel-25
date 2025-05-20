@@ -31,7 +31,7 @@ ob_start();
     <div class="w-4/5 mx-auto mt-6 bg-fuchsia-900 p-2 leading-none text-md">
         <span class="text-white">NOTA IMPORTANTE:</span>
         <ul>
-            <li class="text-white">Pueden utilizar herramientas digitales gratuitas como <a class="text-purple-50" href="https://miro.com/es/" target="_blank">Miró</ahref>, <a class="text-purple-50" href="https://www.lucidchart.com/pages/es" target="_blank">Lucidchart</a> o <a class="text-purple-50" href="https://www.canva.com/es_mx/" target="_blank">Canva</a>.</li>
+            <li class="text-white">Pueden utilizar herramientas digitales gratuitas como <a class="text-purple-50" href="https://miro.com/es/" target="_blank">Miró</a>, <a class="text-purple-50" href="https://www.lucidchart.com/pages/es" target="_blank">Lucidchart</a> o <a class="text-purple-50" href="https://www.canva.com/es_mx/" target="_blank">Canva</a>.</li>
         </ul>
     </div>
     <p>Puedes revisar el siguiente video para realizar tu mapa.</p>
@@ -44,9 +44,8 @@ ob_start();
     <p>Aquí sube el trabajo realizado.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1a7', "Mapa Mental: Perspectiva de Género.", $ActividadContent);
+    renderActividad('u1t1a7', "Mapa Mental: Perspectiva de Género.", $ActividadContent);
     ?>
-
 </section>
 
 <?php
