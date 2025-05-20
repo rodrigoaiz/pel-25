@@ -10,7 +10,7 @@ ob_start();
 <section>
     <h2>Perspectiva de género y cultura de igualdad</h2>
     <div class="max-w-2xl mx-auto">
-        <?php
+        <?php-
         renderImage('iga1-img01.webp');
         ?>
     </div>
