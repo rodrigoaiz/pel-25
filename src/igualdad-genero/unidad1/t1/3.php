@@ -14,7 +14,7 @@ ob_start();
     <p>Elige la opción que consideres responde mejor a cada pregunta u oración.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1a2', "Evaluación diagnóstica de aprendizaje 1", $ActividadContent);
+    renderActividad('u1t1a2', "Evaluación diagnóstica de aprendizaje 1", $ActividadContent);
     ?>
 </section>
 

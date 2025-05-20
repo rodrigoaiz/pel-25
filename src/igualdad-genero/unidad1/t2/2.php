@@ -14,7 +14,7 @@ ob_start();
     <p>Lee cuidadosamente cada una de las afirmaciones que se presentan y marca si son verdaderas (V) o falsas (F)), desde tu punto de vista, según lo que tú sabes o has escuchado.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1a4', "Evaluación diagnóstica de aprendizaje 2", $ActividadContent);
+    renderActividad('u1t1a4', "Evaluación diagnóstica de aprendizaje 2", $ActividadContent);
     ?>
 </section>
 
