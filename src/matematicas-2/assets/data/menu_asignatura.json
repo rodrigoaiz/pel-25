@@ -1,0 +1,122 @@
+{
+  "nombreAsignatura": "Matemáticas II",
+  "asignatura": {
+    "Unidad 1": {
+      "url": "/matematicas-2/unidad1/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 1",
+      "temas": [
+        {"nombre": "Ecuaciones cuadráticas con una incógnita", "url": "/matematicas-2/unidad1/t1", "paginas": 5},
+        {"nombre": "Fórmula general, métodos de solución y naturaleza de las raíces", "url": "/matematicas-2/unidad1/t2", "paginas": 7}
+      ]
+    },
+    "Unidad 2": {
+      "url": "/matematicas-2/unidad2/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 2",
+      "temas": [
+        {"nombre": "Situaciones que involucran cambio y que dan origen a funciones cuadráticas", "url": "/matematicas-2/unidad2/t1", "paginas": 5},
+        {"nombre": "Estudio gráfico, analítico y contextual de la función y=ax2 + bx +c", "url": "/matematicas-2/unidad2/t2", "paginas": 3},
+        {"nombre": "Funciones cuadráticas y aplicaciones", "url": "/matematicas-2/unidad2/t3", "paginas": 2},
+        {"nombre": "Función y=ax2 + bx +c en la forma estándar", "url": "/matematicas-2/unidad2/t4", "paginas": 6},
+        {"nombre": "Problemas de aplicación", "url": "/matematicas-2/unidad2/t5", "paginas": 2}
+
+      ]
+    },
+    "Unidad 3": {
+      "url": "/matematicas-2/unidad3/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 3",
+      "temas": [
+        {"nombre": "Origen y bases de la Geometría plana", "url": "/matematicas-2/unidad3/t1", "paginas": 3},
+        {"nombre": "Construcciones con regla y compás", "url": "/matematicas-2/unidad3/t2", "paginas": 1},
+        {"nombre": "Ángulos", "url": "/matematicas-2/unidad3/t3", "paginas": 2},
+        {"nombre": "Geometría del triángulo", "url": "/matematicas-2/unidad3/t4", "paginas": 5},
+        {"nombre": "Polígonos", "url": "/matematicas-2/unidad3/t5", "paginas": 3},
+        {"nombre": "Círculo y circunferencia", "url": "/matematicas-2/unidad3/t6", "paginas": 2}
+
+      ]
+    },
+    "Unidad 4": {
+      "url": "/matematicas-2/unidad4/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 4",
+      "temas": [
+        {"nombre": "Congruencia", "url": "/matematicas-2/unidad4/t1", "paginas": 17},
+        {"nombre": "Semejanza y teorema de Pitágoras", "url": "/matematicas-2/unidad4/t2", "paginas": 17}
+      ]
+    }
+  },
+  
+  "actividades": {
+    "u1a1": { "id": "4564", "moduleName": "quiz" },
+    "u1a2": { "id": "4565", "moduleName": "forum" },
+    "u1a3": { "id": "4566", "moduleName": "hvp" },
+    "u1a4": { "id": "4567", "moduleName": "hvp" },
+    "u1a5": { "id": "4568", "moduleName": "assign" },
+    "u1a6": { "id": "4570", "moduleName": "hvp" },
+    "u1a7": { "id": "4571", "moduleName": "hvp" },
+    "u1a8": { "id": "4572", "moduleName": "quiz" },
+    "u2a1": { "id": "4574", "moduleName": "forum" },
+    "u2a2": { "id": "4575", "moduleName": "hvp" },
+    "u2a3": { "id": "4576", "moduleName": "forum" },
+    "u2a4": { "id": "4577", "moduleName": "hvp" },
+    "u2a5": { "id": "4578", "moduleName": "assign" },
+    "u2a6": { "id": "4580", "moduleName": "hvp" },
+    "u2a7": { "id": "4582", "moduleName": "hvp" },
+    "u2a8": { "id": "4583", "moduleName": "hvp" },
+    "u2a9": { "id": "4584", "moduleName": "hvp" },
+    "u2a10": { "id": "4586", "moduleName": "hvp" },
+    "u2a11": { "id": "4587", "moduleName": "hvp" },
+    "u2a12": { "id": "4588", "moduleName": "hvp" },
+    "u2a13": { "id": "4589", "moduleName": "hvp" },
+    "u2a14": { "id": "4590", "moduleName": "forum" },
+    "u2a15": { "id": "4592", "moduleName": "assign" },
+    "u2a16": { "id": "4593", "moduleName": "forum" },
+    "u2a17": { "id": "4594", "moduleName": "hvp" },
+    "u2a18": { "id": "4595", "moduleName": "quiz" },
+    "u3a1": { "id": "4597", "moduleName": "quiz" },
+    "u3a2": { "id": "4598", "moduleName": "hvp" },
+    "u3a3": { "id": "4599", "moduleName": "hvp" },
+    "u3a4": { "id": "4600", "moduleName": "assign" },
+    "u3a5": { "id": "4602", "moduleName": "hvp" },
+    "u3a6": { "id": "4603", "moduleName": "hvp" },
+    "u3a7": { "id": "4605", "moduleName": "hvp" },
+    "u3a8": { "id": "4606", "moduleName": "forum" },
+    "u3a9": { "id": "4607", "moduleName": "hvp" },
+    "u3a10": { "id": "4609", "moduleName": "hvp" },
+    "u3a11": { "id": "4610", "moduleName": "hvp" },
+    "u3a12": { "id": "4611", "moduleName": "hvp" },
+    "u3a13": { "id": "4612", "moduleName": "hvp" },
+    "u3a14": { "id": "4613", "moduleName": "hvp" },
+    "u3a15": { "id": "4615", "moduleName": "hvp" },
+    "u3a16": { "id": "4616", "moduleName": "hvp" },
+    "u3a17": { "id": "4617", "moduleName": "hvp" },
+    "u3a18": { "id": "4618", "moduleName": "hvp" },
+    "u3a19": { "id": "4619", "moduleName": "hvp" },
+    "u3a20": { "id": "4620", "moduleName": "hvp" },
+    "u3a21": { "id": "4622", "moduleName": "hvp" },
+    "u3a22": { "id": "4623", "moduleName": "assign" },
+    "u3a23": { "id": "4624", "moduleName": "quiz" },
+    "u4a1": { "id": "4626", "moduleName": "quiz" },
+    "u4a2": { "id": "4627", "moduleName": "hvp" },
+    "u4a3": { "id": "4628", "moduleName": "assign" },
+    "u4a4": { "id": "4629", "moduleName": "hvp" },
+    "u4a5": { "id": "4630", "moduleName": "hvp" },
+    "u4a6": { "id": "4631", "moduleName": "hvp" },
+    "u4a7": { "id": "4632", "moduleName": "hvp" },
+    "u4a8": { "id": "4633", "moduleName": "hvp" },
+    "u4a9": { "id": "4634", "moduleName": "hvp" },
+    "u4a10": { "id": "4635", "moduleName": "hvp" },
+    "u4a11": { "id": "4637", "moduleName": "assign" },
+    "u4a12": { "id": "4638", "moduleName": "hvp" },
+    "u4a13": { "id": "4639", "moduleName": "hvp" },
+    "u4a14": { "id": "4640", "moduleName": "hvp" },
+    "u4a15": { "id": "4641", "moduleName": "forum" },
+    "u4a16": { "id": "4642", "moduleName": "assign" },
+    "u4a17": { "id": "4643", "moduleName": "assign" },
+    "u4a18": { "id": "4644", "moduleName": "hvp" },
+    "u4a19": { "id": "4645", "moduleName": "hvp" },
+    "u4a20": { "id": "4646", "moduleName": "quiz" }
+  }
+}
