@@ -74,8 +74,43 @@ ob_start();
     </ul>
     <p>Un aspecto que también ha cobrado relevancia desde una perspectiva de género feminista es el derecho al tiempo propio de las mujeres, que refiere al derecho humano que garantiza la libertad en el uso del tiempo para atender necesidades, e intereses de las mujeres, tanto en el ámbito público como privado. Este derecho debe ser reconocido en instrumentos jurídicos nacionales e internacionales, ya que está basado en una crítica al patriarcado.</p>
     <p>Para saber más te invitamos a que revises lo siguiente:</p>
+
+    <div class="md:grid grid-cols-2 gap-3">
+      <div class="max-2xl mx-auto">
+        <?php
+        renderImage('u1t3-micromachismos-ig1.webp');
+        ?>
+      </div>  
+      <div class="max-2xl mx-auto">
+        <?php
+        renderImage('u1t3-micromachismos-ig2.webp');
+        ?>
+      </div>
+      <div class="max-2xl mx-auto">
+        <?php
+        renderImage('u1t3-micromachismos-ig3.webp');
+        ?>
+      </div>
+      <div class="max-2xl mx-auto">
+        <?php
+        renderImage('u1t3-micromachismos-ig4.webp');
+        ?>
+      </div>
+            <div class="max-2xl mx-auto">
+        <?php
+        renderImage('u1t3-micromachismos-ig5.webp');
+        ?>
+      </div>
+      <div class="max-2xl mx-auto">
+        <?php
+        renderImage('u1t3-micromachismos-ig6.webp');
+        ?>
+      </div>
+    </div>
+
     <p>También es importante que revises algunos conceptos que te ayudarán a comprender mejor el tema <a href="https://coordinaciongenero.unam.mx/avada_portfolio/que-son-los-micromachismos/#" target="_blank">https://coordinaciongenero.unam.mx/avada_portfolio/que-son-los-micromachismos/#</a></p>
 </section>
+
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);
