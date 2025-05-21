@@ -82,27 +82,27 @@ ob_start();
         <li>Hay hombres que están al borde de la caja, porque tienen algunas de las características.</li>
         <li>Y hay hombres que están fuera de la caja, porque no tienen o casi no tienen las características de la masculinidad tradicional.</li>
     </ul>
-    <div class="w-lg mx-auto">
+    <div class="w-xl mx-auto">
         <?php
         renderImage('iga4-img05.webp');
         ?>
     </div>
     <p>Originalmente, la caja de la masculinidad se propuso con <strong>7 pilares (o mandatos)</strong>, que son: autosuficiencia, ser fuerte, agresión y control, atractivo físico, heterosexualidad y homofobia, roles masculinos rígidos e hipersexualidad.</p>
     <p>Sin embargo, en los estudios de género se pueden incluir o proponer otros mandatos dependiendo de la cultura, la edad, el grupo social, entre otras variables de la población que será estudiada. Los resultados estadísticos de estos estudios permiten identificar los mandatos que predominan, y así interpretar los porcentajes de la población que están dentro, al borde, o fuera de la caja de la masculinidad. Es decir, lo que define a la masculinidad hegemónica de ese grupo.</p>
-    <p>A continuación, se presentan algunos mandatos de la masculinidad. Los mandatos que aparecen en color azul se retoman en la caja de la masculinidad.</p>
+    <p>A continuación, se presentan algunos mandatos de la masculinidad. Los mandatos que aparecen en color <span class="font-bold text-fuchsia-900">violeta</span> se retoman en la caja de la masculinidad.</p>
     <p class="font-bold text-center text-fuchsia-900 mt-4">Mandatos de la masculinidad</p>
     <div class="grid grid-cols-3 gap-2">
-        <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-sky-800">Agresión y control</div>
+        <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none font-bold text-fuchsia-900">Agresión y control</div>
         <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Conductas temerarias y violentas</div>
-        <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Roles masculinos rígidos</div>
+        <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none font-bold text-fuchsia-900">Roles masculinos rígidos</div>
         <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Ambición de poder</div>
         <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Evitar el autocuidado</div>
         <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Ser fuerte</div>
-        <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Atractivo físico</div>
-        <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Heterosexualidad obligatoria y homofobia</div>
+        <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none font-bold text-fuchsia-900">Atractivo físico</div>
+        <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none font-bold text-fuchsia-900">Heterosexualidad obligatoria y homofobia</div>
         <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Ser importante</div>
-        <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Autosuficiencia</div>
-        <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Hipersexualidad</div>
+        <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none font-bold text-fuchsia-900">Autosuficiencia</div>
+        <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none font-bold text-fuchsia-900">Hipersexualidad</div>
         <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Ser procreador</div>
         <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Censurar a los grupos subordinados</div>
         <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Inteligencia racional</div>
@@ -111,47 +111,66 @@ ob_start();
         <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Restricción emocional</div>
         <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Ser proveedor</div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <p>Para que reflexiones sobre este tema, te invitamos a realizar la siguiente actividad.</p>
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-    <p>Identificarás las características de los hombres que admiras.</p>
+    <p>Identificar los distintos tipos de masculinidad (tradicional, en transición, o alternativa) con base en el análisis de frases que representan la postura de distintos hombres ante algunos de los mandatos de la masculinidad.</p>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number ml-32">
-        <li>Trabajarán en equipos de 4 ó 5 estudiantes en el orden que indique tu profesor o profesora.</li>
-        <li>Colaboren para escribir dos listas de palabras. En una lista anoten 10 características de personalidad (estereotipos) y en la otra lista anoten 10 actividades (roles) que realizan los hombres que admiran.</li>
-        <li>Utilicen las dos listas para elaborar dos nubes de palabras. Se sugiere utilizar la página de internet <a class="text-purple-50" href="https://www.freewordcloudgenerator.com/generatewordcloud" target="_blank">Nube de palabras</a>.
-            <p class="text-center">Este es un ejemplo de una nube de palabras.</p>
-            <div class="w-md mx-auto">
-                <?php
-                renderImage('iga4-img02.webp');
-                ?>
-            </div>
+        <li>Trabajen en equipos de 4 ó 5 estudiantes.</li>
+        <li>Analicen la frase asignada por su docente en equipos para identificar lo siguiente:
+            <ul class="ul-disc ml-10">
+                <li class="leading-6">¿A cuál masculinidad corresponde la frase? ¿A una masculinidad tradicional (dentro de la caja), una masculinidad en transición (al borde de la caja), o una masculinidad alternativa (fuera de la caja)?</li>
+                <li class="leading-6">¿A cuál pilar o mandato de la masculinidad corresponde?</li>
+            </ul>
         </li>
-        <li>Cuando terminen, integren sus dos nubes de palabras en un solo archivo. Nombren el archivo con su grupo, número de equipo, y la palabra nube. Ejemplo, <em>Grupo201Equipo1Nube.doc</em></li>
-        <li>No olviden revisar el comentario de retroalimentación que les dará su docente.</li>
+        <li>Anoten en un documento colaborativo los resultados de su análisis.</li>
+        <li>Cuando terminen, un integrante del equipo entregará el archivo. Nombren el archivo con su grupo, número de equipo y la palabra Masculinidad. Ejemplo, <em>Grupo201Equipo1Masculinidad.doc</em></li>
     </ol>
+    <div class="grid grid-cols-3 gap-6">
+        <div>
+            <div class="bg-emerald-200 rounded-lg p-1 text-gray-600 text-center font-bold">Frase 1</div>
+            <?php
+            renderImage('iga4-frase1.webp');
+            ?>
+
+        </div>
+        <div>
+            <div class="bg-emerald-200 rounded-lg p-1 text-gray-600 text-center font-bold">Frase 2</div><?php
+                                                                                                        renderImage('iga4-frase2.webp');
+                                                                                                        ?>
+        </div>
+        <div>
+            <div class="bg-emerald-200 rounded-lg p-1 text-gray-600 text-center font-bold">Frase 3</div><?php
+                                                                                                        renderImage('iga4-frase3.webp');
+                                                                                                        ?>
+        </div>
+        <div>
+            <div class="bg-emerald-200 rounded-lg p-1 text-gray-600 text-center font-bold">Frase 4</div><?php
+                                                                                                        renderImage('iga4-frase4.webp');
+                                                                                                        ?>
+        </div>
+        <div>
+            <div class="bg-emerald-200 rounded-lg p-1 text-gray-600 text-center font-bold">Frase 5</div><?php
+                                                                                                        renderImage('iga4-frase5.webp');
+                                                                                                        ?>
+        </div>
+        <div>
+            <div class="bg-emerald-200 rounded-lg p-1 text-gray-600 text-center font-bold">Frase 6</div><?php
+                                                                                                        renderImage('iga4-frase6.webp');
+                                                                                                        ?>
+        </div>
+    </div>
     <div class="w-2/3 mx-auto mt-6 bg-fuchsia-900 p-2 leading-none text-md">
         <span class="text-white">NOTA:</span>
         <ul>
-            <li class="text-white">Revisa la <a class="text-white" href="<?php echo PATH_DOCS . 'u1t4-rubrica_DiagnosticoYoAdmiroA.pdf'; ?>" target="_blank">rúbrica</a> con los criterios de evaluación diagnóstica.</li>
+            <li class="text-white">Revisa la <a class="text-white" href="<?php echo PATH_DOCS . 'u1t4-listaDeCotejoAnalisisDeFrases.pdf'; ?>" target="_blank">lista de cotejo</a> con los criterios de evaluación diagnóstica.</li>
         </ul>
     </div>
     <?php ob_start(); ?>
     <p>Aquí sube el trabajo realizado.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t1a7', "Mapa Mental: Perspectiva de Género.", $ActividadContent);
+    renderActividad('u1t1a8', "Mandatos de la masculinidad.", $ActividadContent);
     ?>
 </section>
 
