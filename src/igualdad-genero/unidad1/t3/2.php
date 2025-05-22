@@ -3,6 +3,7 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ActividadIframe.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -16,6 +17,13 @@ ob_start();
   <h3>Instrucciones:</h3>
   <ol class="ol-number">
     <li>Contesta el cuestionario que tiene la finalidad de explorar tus conocimientos previos sobre el tema y detonar la reflexión crítica en torno a las relaciones de poder y su relación con la desigualdad de género. Contesta según tu criterio.</li>
+
+    <?php ob_start(); ?>
+      <?php
+      $ActividadContent = ob_get_clean();
+      renderActividad('u1t3a1', "Diagnóstico: Relaciones de poder en la vida cotidiana.", $ActividadContent);
+      ?>
+
     <li>Observa los siguientes videos que hablan acerca del poder y sobre cómo se construyen las relaciones donde éste se ejerce.</li>
     <div class="md:grid grid-cols-2 gap-3">
       <div>
