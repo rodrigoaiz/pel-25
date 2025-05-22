@@ -2,7 +2,6 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -28,10 +27,68 @@ ob_start();
       <li>¿Se podrían añadir otras formas de malos tratos?</li>
       <li>¿Hay personas más vulnerables y necesitadas de protección que otros?</li>
     </ul>
-  </ol>
   <p>Es importante que este ejercicio lo consideres dentro de tu circunstancia como estudiante del CCH y <strong>fundamentes tu respuesta</strong>.</p>
   <li>Lee, con atención, las participaciones y comenta la publicación de, al menos, dos participantes.</li>
-  <li>Revisa la <a href="<?php echo PATH_DOCS . 'u1t6-Lectura_TextoPersona_Act.6.4.pdf'; ?>" target="_blank">lista de cotejo</a> porque establece los criterios para evaluar tu participación en este foro.</li>
+  <li>Revisa la lista de cotejo porque establece los criterios para evaluar tu participación en este foro.</li>
+  </ol>
+
+      <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+        <table class="table-none md:table-fixed text-gray-500 my-0">
+          <thead class="text-gray-700 uppercase bg-gray-50">
+            <tr>
+                <th scope="col" colspan="2" class="px-6 py-3 text-center">
+                Lista de cotejo
+                </th>
+            </tr>
+        </thead>
+        <thead class="text-gray-700 bg-gray-50">
+            <tr>
+                <th scope="col" class="px-6 py-3 text-center">
+                Criterio
+                </th>
+                <th scope="col" class="px-6 py-3 text-center">
+                Puntaje
+                </th>
+            </tr>
+        </thead>
+            <tbody class="text-center">
+                <tr class="bg-white border-b border-gray-200">
+                    <th scope="row" class="px-6 py-2 font-medium text-gray-900 text-lg text-center">
+                  Escribe respuestas claras y argumentadas a las preguntas planteadas. Su aportación enriquece la discusión del foro. 
+                    </th>
+                    <td class="px-6 py-2 font-medium text-gray-900 text-lg text-center">
+                   4 
+                    </td>
+                </tr>
+                <tr class="bg-white border-b border-gray-200">
+                    <th scope="row" class="px-6 py-2 font-medium text-gray-900 text-lg text-center">
+                  Comenta de manera clara, respetuosa y argumentada, la opinión de al menos dos de sus pares. 
+                    </th>
+                    <td class="px-6 py-2 font-medium text-gray-900 text-lg text-center">
+                   4 
+                    </td>
+                </tr>
+                <tr class="bg-white border-b border-gray-200">
+                    <th scope="row" class="px-6 py-2 font-medium text-gray-900 text-lg text-center">
+                  Se expresa utilizando adecuadamente el lenguaje y siguiendo las reglas ortográficas, gramáticas y sintaxis del idioma español.
+                    </th>
+                    <td class="px-6 py-2 font-medium text-gray-900 text-lg text-center">
+                   2 
+                    </td>
+                </tr>
+                <tr class="bg-white border-b border-gray-200">
+                    <th scope="row" class="px-6 py-2 font-medium text-gray-900 text-lg text-center">
+                  Total
+                    </th>
+                    <td class="px-6 py-2 font-medium text-gray-900 text-lg text-center">
+                   
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
   <p><strong>Nota:</strong> La revisión y valoración sobre la Cartilla de los Derechos Humanos también se puede realizar en plenaria durante la videollamada en Teams.</p>
 
   <?php ob_start(); ?>
