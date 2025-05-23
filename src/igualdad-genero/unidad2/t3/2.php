@@ -2,6 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
+include PATH_INCLUDE . 'ActividadIframe.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -33,7 +34,14 @@ ob_start();
       <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_IngridySuAsesinoTeníanUnaRelación‘Extraña’Vecinos_Act.9.1.pdf'; ?>" target="_blank">Ingrid y su asesino tenían una relación ´extraña´ vecinos</a></li>
     </ul>
 
-  <p><strong>Nota:</strong> Para el logro del objetivo planteado para esta actividad, puede adaptarse la exposición o entrega de un tipo textual distinto a la nota periodística, en tanto que permita la revisión del caso del feminicidio de Ingrid Escamilla y el reconocimiento de los tipos de violencia de género presentes en la relación entre la víctima y el agresor. </p>
+  <p><strong>Nota:</strong> Para el logro del objetivo planteado para esta actividad, puede adaptarse la exposición o entrega de un tipo textual distinto a la nota periodística, en tanto que permita la revisión del caso del feminicidio de Ingrid Escamilla y el reconocimiento de los tipos de violencia de género presentes en la relación entre la víctima y el agresor.</p>
+
+    <?php ob_start(); ?>
+      <?php
+      $ActividadContent = ob_get_clean();
+      renderActividad('u2t9a1', "Antecedentes del caso Ingrid Escamilla", $ActividadContent);
+    ?>
+
 </section>
 <?php
 $content = ob_get_clean();
