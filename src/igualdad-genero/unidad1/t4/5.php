@@ -1,7 +1,6 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 
 
@@ -169,30 +168,151 @@ ob_start();
             </span>
         </button>
     </div>
+    <h3>Triada de la violencia</h3>
+    <p>Existe una desigualdad en la forma en que los hombres se relacionan con las mujeres. Históricamente, estas desigualdades están sustentadas por la carencia de derechos. Por ejemplo, antes del Siglo XIX, las mujeres no tenían derecho a estudiar, a ejercer una profesión, a votar, o a ser propietarias de una casa o negocio. A pesar de los cambios en los derechos de las mujeres, Kaufman (1994) detectó que los hombres siguen ejerciendo relaciones de desigualdad mediante lo que él llamó <strong>la tríada de la violencia masculina.</strong></p>
+    <p class="font-bold">Esta tríada se divide en la violencia que un hombre ejerce sobre sí mismo, sobre otros hombres, y sobre mujeres e infancias. En esta representación, hemos sustituido mujeres e infancias por personas vulnerables para incluir la violencia sobre diversidades sexo-genéricas.</p>
 
-
-
-
-
-
-
-
-    <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-    <p>El respeto a la diversidad de ideas y estilos de vida es fundamental para las relaciones humanas. Por ello, te proponemos cerrar la primera sesión con la lectura del tríptico "Un asunto de hombres: las masculinidades" elaborado por la Comisión Nacional de los Derechos Humanos. En este texto se ejemplifican algunas de las conductas y prácticas de las masculinidades dominantes que son contrarias a la equidad y la igualdad sustantiva entre las personas.
-        Ten presente que la igualdad de género no implica que las personas tengan comportamientos y formas de ser idénticas. La igualdad significa poder gozar y ejercer nuestros derechos humanos y libertades fundamentales, además de tener acceso a oportunidades y recursos que nos permitan desarrollarnos plenamente, independientemente de nuestra identidad de género.</p>
-    <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-    <p>Reconocer algunas propuestas para construir ambientes de respeto y armonía ante las diversas formas de ser hombre.</p>
-    <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
-        <li>Lee el tríptico <a href="<?php echo PATH_DOCS . 'u1t4-lectura_UnAsuntoDeHombresLasMasculinidades.pdf'; ?>" target="_blank">"Un asunto de hombres: las masculinidades"</a> de la Comisión Nacional de los Derechos Humanos.</li>
-        <li>Posteriormente, responde el cuestionario sobre la lectura.</li>
-    </ol>
-    <?php ob_start(); ?>
-    <p>Aquí sube el trabajo realizado.</p>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividad('u1t1a10', "¿Cómo se relacionan los hombres?", $ActividadContent);
-    ?>
+    <div id="indicators-carousel" class="relative w-full bg-emerald-100 rounded-xl" data-carousel="static">
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+            <!-- Item 1 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="pt-8 pl-4">
+                        <?php
+                        renderImage('iga4-img13.webp');
+                        ?></div>
+                    <div class="col-span-2 text-sm leading-6">
+                        <p class="font-bold text-purple-900 text-lg text-center leading-6">Violencia sobre sí mismo</p>
+                        <p>Los hombres ejercen violencia contra sí mismos cuando ponen en riesgo su integridad física y emocional. Algunas de las formas en que ocurre esta violencia son:</p>
+                        <p class="ml-20 leading-none">a) Usar la violencia física o verbal ante un conflicto;
+                        <p class="ml-20 leading-none">b) Actuar compulsivamente;</p>
+                        <p class="ml-20 leading-none">c) Practicar deportes extremos de manera imprudente;</p>
+                        <p class="ml-20 leading-none">d) Consumir sustancias nocivas (tabaco, alcohol, drogas);</p>
+                        <p class="ml-20 leading-none">e) No demostrar sus sentimientos;</p>
+                        <p class="ml-20 leading-none">f) No pedir ayuda cuando tienen problemas;</p>
+                        <p class="ml-20 leading-none">g) No acudir al médico de manera preventiva, o cuando están enfermos;</p>
+                        <p class="ml-20 leading-none">h) No cuidar de su alimentación;</p>
+                        <p class="ml-20 leading-none">i) Usar sustancias para desarrollar musculatura, sin importar las consecuencias a largo plazo.</p>
+                        <p class="font-bold">El resultado más grave de la violencia del hombre contra sí mismo es que las tazas de suicidio de los hombres son más altas que las de las mujeres.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="pt-8 pl-4">
+                        <?php
+                        renderImage('iga4-img13.webp');
+                        ?></div>
+                    <div class="col-span-2 text-sm leading-6">
+                        <p class="font-bold text-purple-900 text-lg text-center leading-6">Violencia contra otros hombres</p>
+                        <p>Los hombres ejercen violencia contra otros hombres para demostrar su hombría y mantener su estatus, jerarquía y dominación, por ejemplo, cuando:</p>
+                        <p class="ml-20 leading-none">a) Retan a otros hombres en competencias;</p>
+                        <p class="ml-20 leading-none">b) Forzan a otros hombres a encajar con su idea de lo que es la hombría;</p>
+                        <p class="ml-20 leading-none">c) Usan la presión de grupo para obligar a otro hombre a actuar o comportarse de cierta manera, o a consumir alguna sustancia nociva;</p>
+                        <p class="ml-20 leading-none">d) Humillan o se burlan de otro hombre por comportarse o actuar de manera distinta al grupo;</p>
+                        <p class="ml-20 leading-none">e) Humillan o se burlan de otro hombre por tener una condición física o intelectual considerada como débil;</p>
+                        <p class="ml-20 leading-none">f) Humillan o se burlan de otro hombre por tener una situación económica, laboral o de pareja distinta o considerada inferior por el agresor;</p>
+                        <p class="font-bold">Esta violencia es la forma en que los hombres se socializan entre ellos para adoptar comportamientos machistas, en ocasiones en contra de su voluntad y de manera inconsciente, lo que afecta la forma en que se relacionan con otras personas de su entorno.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="pt-8 pl-4">
+                        <?php
+                        renderImage('iga4-img14.webp');
+                        ?></div>
+                    <div class="col-span-2 text-sm leading-6">
+                        <p class="font-bold text-purple-900 text-lg text-center leading-6">Violencia contra las mujeres</p>
+                        <p>La violencia que ejercen los hombres hacia las mujeres no se reduce al ámbito familiar o sentimental, también se ejerce de manera sistemática, estructural y simbólica en los ámbitos laboral, académico, social, político, cultural, etc. Existen muchas formas en que los hombres ejercen la violencia contra las mujeres.</p>
+                        <p>Algunas formas de violencia contra las mujeres son:</p>
+                        <p class="ml-20 leading-none">a) Los machismos cotidianos;</p>
+                        <p class="ml-20 leading-none">b) La cosificación de las mujeres, es decir, tratarlas como objetos que se pueden desear, utilizar y desechar;</p>
+                        <p class="ml-20 leading-none">c) La creencia de que un no significa sí, y por lo tanto, no aceptar el rechazo de una mujer;</p>
+                        <p class="ml-20 leading-none">d) El hostigamiento, acoso, o abuso sexual para intimidar a las mujeres en su vida privada o pública;</p>
+                        <p class="ml-20 leading-none">e) Los piropos callejeros, los tocamientos, roces o acercamientos al cuerpo sin autorización de las mujeres;</p>
+                        <p class="ml-20 leading-none">f) El consumo de la pornografía y la prostitución;</p>
+                        <p class="ml-20 leading-none">g) Las acciones, comportamientos o discursos que se utilizan para dominar el cuerpo de las mujeres;</p>
+                        <p class="ml-20 leading-none">h) Las acciones, comportamientos o discursos que impiden o intimidan a las mujeres para que no participen en la toma de decisiones en el ámbito familiar, escolar, laboral, económico, político, cultural, etc.;</p>
+                        <p class="ml-20 leading-none">i) La violencia digital, emocional, económica, física, patrimonial, psicológica, sexual o verbal en contra de una mujer.</p>
+                        <p class="font-bold">Todas las formas de violencia contra las mujeres impiden que las mujeres ejerzan sus derechos, especialmente, el derecho a una vida libre de violencia. Estas violencias afectan el crecimiento, desarrollo, participación, productividad, la toma de decisiones, el acceso a bienes, servicios y recursos que impactan la vida familiar, social, cultural, económica y política de las mujeres (ONU Mujeres, 2002; INMUJERES, 2002).</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="pt-8 pl-4">
+                        <?php
+                        renderImage('iga4-img15.webp');
+                        ?></div>
+                    <div class="col-span-2 text-sm leading-6">
+                        <p class="font-bold text-purple-900 text-lg text-center leading-6">Violencia contra las infancias</p>
+                        <p>La violencia o la amenaza de violencia que utilizan los hombres contra las infancias es un mecanismo para heredar, transmitir, e interiorizar el orden jerárquico, el dominio y los privilegios de los hombres.</p>
+                        <p>Estas conductas heredadas a las infancias incluyen:</p>
+                        <p class="ml-20 leading-none">a) Establecer roles y estereotipos sobre lo que es lo femenino y lo masculino;</p>
+                        <p class="ml-20 leading-none">b) Transmitir la creencia de que los hombres son más fuertes y poderosos que las demás personas;</p>
+                        <p class="ml-20 leading-none">c) Transmitir la creencia de que lo femenino, lo emocional y el autocuidado se deben rechazar por ser rasgos de debilidad y vulnerabilidad;</p>
+                        <p class="ml-20 leading-none">d) Poner modelos o ejemplos sobre las formas en que se demuestra la hombría;</p>
+                        <p class="ml-20 leading-none">e) Inculcar la ira, la agresión, el temor y otras formas de violencia como medio para enfrentar conflictos, la frustración, o la falta de poder;</p>
+                        <p class="ml-20 leading-none">f) Inculcar la inseguridad, la insatisfacción, el autocastigo, el autorrepudio, la autorepresión, y otras formas de violencia contra sí mismo,</p>
+                        <p class="ml-20 leading-none">g) Reprimir sentimientos de temor, dolor, llanto, enojo, o cualquier otra forma de expresar su inconformidad;</p>
+                        <p class="ml-20 leading-none">h) Inculcar la falta de empatía y solidaridad hacia los sentimientos y necesidades de otras personas.</p>
+                        <p class="font-bold">Mediante la conducta de los padres, los niños y las niñas aprenden a utilizar y a aceptar, de manera selectiva y sistemática, los comportamientos, acciones y discursos violentos hacia las infancias, las mujeres, las diversidades sexo-genéricas, y los otros hombres.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 5 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="pt-8 pl-4">
+                        <?php
+                        renderImage('iga4-img16.webp');
+                        ?></div>
+                    <div class="col-span-2 text-sm leading-6">
+                        <p class="font-bold text-purple-900 text-lg text-center leading-6">Violencia contra las diversidades sexo-genéricas</p>
+                        <p>Los hombres utilizan la homofobia, la homohisteria y la violencia contra las diversidades sexo-genéricas como un mecanismo para reafirmar su virilidad y para protegerse a sí mismos de las burlas, humillaciones y violencia de parte de otros hombres.</p>
+                        <p>El rechazo, intolerancia y discriminación social hacia la homosexualidad puede orillar a que las personas de la diversidad sexo-genérica se vuelvan homofóbicos. Es decir, que odien y repriman sus preferencias, sus afectos, sus gustos, sus emociones, sus sentimientos, y su estilo de vida.</p>
+                        <p>La aversión hacia la homosexualidad es una forma irracional de otorgarle un carácter de superioridad moral a la heterosexualidad, y así justificar que a las personas de las diversidades sexo-genéricas se les nieguen sus derechos humanos, un trato digno, o el acceso a recursos, bienes y servicios.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Slider indicators -->
+        <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+        </div>
+        <!-- Slider controls -->
+        <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
+                </svg>
+                <span class="sr-only">Anterior</span>
+            </span>
+        </button>
+        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+                </svg>
+                <span class="sr-only">Siguiente</span>
+            </span>
+        </button>
+    </div>
+    <h3>Desafíos de la masculinidad</h3>
+    <p>En esta sección te dejamos una serie de preguntas para analizar y reflexionar:</p>
+    <p class="ml-20 leading-5">a) ¿Crees que la violencia es natural en los hombres, o es un comportamiento que se puede cambiar?</p>
+    <p class="ml-20 leading-5">b) ¿Cuáles conductas o acciones propones para contrarrestar los machismos cotidianos?</p>
+    <p class="ml-20 leading-5">c) ¿Cuáles conductas o acciones propones para que los hombres dejen de ejercer violencia contra sí mismos? ¿Y contra otros hombres? ¿Y contra personas vulnerables (mujeres, infancias y diversidades sexo genéricas)</p>
+    <p class="ml-20 leading-5">d) ¿De qué manera pueden contribuir los hombres para mejorar la convivencia e interacción con otros hombres, mujeres, infancias y diversidades sexo genéricas?</p>
 </section>
 <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
 <?php
