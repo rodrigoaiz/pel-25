@@ -9,12 +9,15 @@ ob_start();
 ?>
 <section>
   <h2>Antecedentes del caso Ingrid Escamilla</h2>
-  <div class="max-2xl mx-auto">
-    <?php
-    renderImage('iga3-img01.webp');
-    ?>
-  </div>
-  <p>Comprender la violencia feminicida como la manifestación más brutal y final de un continuo de violencia de género es crucial para desentrañar las raíces profundas de este problema social. Al reconocerla no como un hecho aislado, sino como un eslabón final de una cadena de agresiones, invisibilizaciones y discriminaciones, se abre la puerta a cuestionar las estructuras patriarcales que la sustentan y a imaginar alternativas de prevención, justicia y reparación más efectivas y transformadoras. A continuación, conocerás el caso de Ingrid Escamilla, el cual nos confronta directamente con esta realidad, y realizarás una actividad que permita comprender las causas y proponer caminos hacia un futuro libre violencia para todas las mujeres.</p>
+
+    <div class="md:grid grid-cols-2 gap-3 items-center">
+        <div class="max-2xl mx-auto">
+        <?php
+        renderImage('iga3-img01.webp');
+        ?>
+        </div>
+        <p>Comprender la violencia feminicida como la manifestación más brutal y final de un continuo de violencia de género es crucial para desentrañar las raíces profundas de este problema social. Al reconocerla no como un hecho aislado, sino como un eslabón final de una cadena de agresiones, invisibilizaciones y discriminaciones, se abre la puerta a cuestionar las estructuras patriarcales que la sustentan y a imaginar alternativas de prevención, justicia y reparación más efectivas y transformadoras. A continuación, conocerás el caso de Ingrid Escamilla, el cual nos confronta directamente con esta realidad, y realizarás una actividad que permita comprender las causas y proponer caminos hacia un futuro libre violencia para todas las mujeres.</p>
+    </div>
   <h3>Propósito</h3>
   <p>Conocer un caso de feminicidio que ilustre los tipos y manifestaciones de violencia de género presentes en la violencia feminicida.</p>
   <h3>Instrucciones:</h3>

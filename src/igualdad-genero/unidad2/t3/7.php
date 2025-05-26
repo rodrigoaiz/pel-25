@@ -10,13 +10,15 @@ ob_start();
 <section>
   <h2>Los aliados de la violencia feminicida</h2>
 
+  <div class="md:grid grid-cols-2 gap-3 items-center">
+
+  <p>El texto que leerán a continuación explora cómo ciertas acciones, o más bien, omisiones, por parte de quienes deberían protegernos, así como la forma en que algunos medios de comunicación abordan los feminicidios, pueden convertirse en aliados inesperados de esta violencia. Es crucial que, como jóvenes informados y conscientes, analicen críticamente estas dinámicas para entender mejor cómo podemos construir un futuro donde la seguridad y la justicia para todas las mujeres sean una realidad. Este ensayo les invita a reflexionar sobre la responsabilidad colectiva que tenemos para erradicar la violencia de género en todas sus formas.</p>
     <div class="max-2xl mx-auto">
     <?php
     renderImage('iga3-img01.webp');
     ?>
     </div>
-
-  <p>El texto que leerán a continuación explora cómo ciertas acciones, o más bien, omisiones, por parte de quienes deberían protegernos, así como la forma en que algunos medios de comunicación abordan los feminicidios, pueden convertirse en aliados inesperados de esta violencia. Es crucial que, como jóvenes informados y conscientes, analicen críticamente estas dinámicas para entender mejor cómo podemos construir un futuro donde la seguridad y la justicia para todas las mujeres sean una realidad. Este ensayo les invita a reflexionar sobre la responsabilidad colectiva que tenemos para erradicar la violencia de género en todas sus formas.</p>
+  </div>
 
   <p>En plenaria:</p>
 
