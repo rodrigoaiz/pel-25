@@ -10,12 +10,15 @@ ob_start();
 ?>
 <section>
   <h2>Glosario de términos ilustrado</h2>
+
+<div class="md:grid grid-cols-2 gap-3 items-center">
   <p>La noción de persona es fundamental para los derechos humanos y como has revisado anteriormente, estos son concebidos como inherentes a todo ser humano por el simple hecho de serlo, dotándole de dignidad intrínseca que debe ser respetada y protegida. Es importante mencionar que estos derechos humanos emanan de esta calidad de persona, son universales y buscan garantizar una vida digna y el pleno desarrollo de cada individuo.</p>
   <div class="max-2xl mx-auto">
     <?php
-    renderImage('iga3-img01.webp');
+    renderImage('u1t6-iga6-img2.webp');
     ?>
   </div>
+</div>
 
   <p>Para conocer más sobre el concepto de persona y su relevancia para los derechos humanos te invitamos a realizar la siguiente actividad. </p>
 

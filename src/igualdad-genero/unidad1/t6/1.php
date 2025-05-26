@@ -12,7 +12,7 @@ ob_start();
   <h2>¡Te damos la bienvenida al aprendizaje 6!</h2>
   <div class="max-2xl mx-auto">
     <?php
-    renderImage('iga3-img01.webp');
+    renderImage('u1t6-iga6-img1.webp');
     ?>
   </div>
   <h3>Propósito</h3>

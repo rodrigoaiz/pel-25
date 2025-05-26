@@ -11,12 +11,13 @@ ob_start();
 <section>
   <h2>Cartografía individual</h2>
 
-  <p>Los mapas son representaciones gráficas de un territorio. En este caso, consideramos a la persona un territorio, cuya descripción, además de física, puede ser en el ámbito sensible y emocional. A continuación, te invitamos a realizar la siguiente actividad relacionada con tu cartografía.</p>
-
-  <div class="max-2xl mx-auto">
-    <?php
-    renderImage('u1t6-cartografia-individual.webp');
-    ?>
+  <div class="md:grid grid-cols-2 gap-3 items-center">
+    <div class="max-2xl mx-auto">
+      <?php
+      renderImage('u1t6-iga6-img4.webp');
+      ?>
+    </div>
+      <p>Los mapas son representaciones gráficas de un territorio. En este caso, consideramos a la persona un territorio, cuya descripción, además de física, puede ser en el ámbito sensible y emocional. A continuación, te invitamos a realizar la siguiente actividad relacionada con tu cartografía.</p>
   </div>
 
   <h3>Propósitos</h3>

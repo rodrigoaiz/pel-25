@@ -13,7 +13,7 @@ ob_start();
   <p>Como ya revisaste en pantallas anteriores, la <strong>Declaración Universal de los Derechos Humanos</strong> es un documento esencial, nacido tras un periodo oscuro de la historia, que establece los <strong>derechos fundamentales inherentes a toda persona</strong>, sin distinción alguna. Piensa en ella como un <strong>pacto global por la dignidad humana</strong>, que abarca desde la libertad y la justicia hasta la educación y el trabajo. Hoy, explorarás estos 30 artículos para comprender su trascendencia y cómo impactan en la vida de cada uno de nosotros.</p>
   <div class="max-2xl mx-auto">
     <?php
-    renderImage('iga3-img01.webp');
+    renderImage('u1t6-iga6-img3.webp');
     ?>
   </div>
   <h3>Propósito</h3>
