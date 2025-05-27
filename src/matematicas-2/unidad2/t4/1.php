@@ -68,7 +68,7 @@ ob_start();
             [
               'title' => 'Respuesta',
               'content' => '<ul class="ul-disc">
-                               <li>Determina los ceros o raíces de la función <strong>\(y=-(x-rac{5}{2})^2 -rac{25}{4}\)</strong></li>
+                               <li>Determina los ceros o raíces de la función <strong>\(y=-(x-rac{5}{2})^2 -rac{25}{4}\)</strong></li>
                                <p>Son raíces complejas</p>
                             </ul>'
             ]

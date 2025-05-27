@@ -69,10 +69,10 @@ ob_start();
 </div>
 
 <?php ob_start(); ?>
-    <p>Observa atentamente la imagen del paso 3 para poder resolver el siguiente ejercicio.</p>
+    <!-- <p>Observa atentamente la imagen del paso 3 para poder resolver el siguiente ejercicio.</p> -->
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a9', "Bisectriz", $ActividadContent);
+    renderActividad('u4a9', "Correspondencia de elementos", $ActividadContent);
 ?>
 
 </section>
