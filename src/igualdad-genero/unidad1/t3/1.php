@@ -9,6 +9,11 @@ ob_start();
 ?>
 <section>
   <h2>¡Te damos la bienvenida al aprendizaje 3!</h2>
+  <div class="max-2xl mx-auto">
+    <?php
+    renderImage('iga3-img01.webp');
+    ?>
+  </div>
   <p>En este apartado exploraremos las relaciones de poder y buscaremos formas de fomentar la igualdad de género. También abordaremos conceptos clave como el machismo y el mansplaining; y analizaremos casos para desarrollar habilidades críticas y propositivas hacia la igualdad de género.</p>
   <h3>Propósito</h3>
   <p>Comprenderás 	las relaciones de poder al identificar la diversidad de campos de denominación desde la desigualdad de género para proponer soluciones igualitarias e inclusivas.</p>
