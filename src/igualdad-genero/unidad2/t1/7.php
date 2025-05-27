@@ -30,11 +30,11 @@ ob_start();
         <li>Una vez que concluyas, continúa con la siguiente actividad.</li>
     </ol>
 </section>
-<div class="grid grid-cols-2 gap-6">
-    <div><?php
-            renderVideoIframe('j0-iWpNAT0M', 'Violencia de género un problema de salud publica y social');
-            ?></div>
-    <div>
+<div class="grid grid-cols-6 gap-4">
+    <div class="col-span-2 col-start-2"><?php
+                                        renderVideoIframe('j0-iWpNAT0M', 'Violencia de género un problema de salud publica y social');
+                                        ?></div>
+    <div class="col-span-2">
         <?php
         renderVideoIframe('NAlY-1KI6ts', 'OMS: Fortalecer la función del sistema de salud para abordar la violencia contra las mujeres');
         ?> </div>

@@ -2,6 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -10,10 +11,17 @@ ob_start();
 ?>
 <section>
     <h2>Actividad: La violencia de género es un tema de salud pública</h2>
-    <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-    <p>Reconocer las consecuencias de la violencia de género como un problema de salud pública, y su impacto en el bienestar de las mujeres y niñas.</p>
-    <p><strong>Instrucciones:</strong></p>
-    <p>Identifica en algún portal de noticias un caso en violencia de género que haya ocurrido en México y con base en él, elabora una infografía que contesta las siguientes preguntas:</p>
+    <div class="grid grid-cols-3 gap-4">
+        <div><?php
+                renderImage('iga7-img05.webp');
+                ?></div>
+        <div class="col-span-2">
+            <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
+            <p>Reconocer las consecuencias de la violencia de género como un problema de salud pública, y su impacto en el bienestar de las mujeres y niñas.</p>
+            <p><strong>Instrucciones:</strong></p>
+            <p>Identifica en algún portal de noticias un caso en violencia de género que haya ocurrido en México y con base en él, elabora una infografía que contesta las siguientes preguntas:</p>
+        </div>
+    </div>
     <ol class="ol-number ml-32">
         <li>Explica brevemente la noticia.</li>
         <li>¿Qué tipo de violencia identificas? Explica tu respuesta.</li>
