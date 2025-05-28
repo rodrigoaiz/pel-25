@@ -11,14 +11,14 @@ ob_start();
   <h2>Manifiesto en contra del feminicidio</h2>
 
     <div class="md:grid grid-cols-2 gap-3 items-center">
-      <div class="max-2xl mx-auto">
-        <?php
-        renderImage('iga3-img01.webp');
-        ?>
-      </div>
       <div>
         <h3>Propósito</h3>
         <p>Elaboración de un manifiesto que permita visibilizar una postura en contra del feminicidio para mediante una manifestación artística.</p>
+      </div>
+      <div class="max-2xl mx-auto">
+        <?php
+        renderImage('u2t3-iga9-img09.webp');
+        ?>
       </div>
     </div>
 

@@ -10,7 +10,7 @@ ob_start();
   <h2>¡Te damos la bienvenida al aprendizaje 9!</h2>
   <div class="max-2xl mx-auto">
     <?php
-    renderImage('iga3-img01.webp');
+    renderImage('u2t3-iga9-img01.webp');
     ?>
   </div>
   <p>Las actividades que realizarás abordan el feminicidio con perspectiva de género para reconocerlo como la expresión de violencia de género más extrema. Es importante que tomes en cuenta todo lo que has revisado hasta el momento para reconocer los tipos de violencia presentes en el feminicidio, como resultado de la violencia estructural.</p>

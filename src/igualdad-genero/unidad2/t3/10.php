@@ -11,15 +11,15 @@ ob_start();
   <h2>Otra narrativa para apropiar nuestros cuerpos</h2>
 
     <div class="md:grid grid-cols-2 gap-3 items-center">
+        <div class="max-2xl mx-auto">
+        <?php
+        renderImage('u2t3-iga9-img08.webp');
+        ?>
+        </div>
       <div>
         <h3>Propósito</h3>
         <p>Tomar conciencia de la importancia de la organización social y colectiva, a través de diversas manifestaciones, para incidir en la aprobación de leyes que castiguen los feminicidios. </p>
       </div>
-        <div class="max-2xl mx-auto">
-        <?php
-        renderImage('iga3-img01.webp');
-        ?>
-        </div>
     </div>
 
     <ol class="ol-number">

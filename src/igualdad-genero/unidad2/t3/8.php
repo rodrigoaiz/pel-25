@@ -8,15 +8,15 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h2>Manifestaciones artísticas que denuncian el feminicidio</h2>
+  <h2>¿A qué llamamos feminicidio?</h2>
 
     <div class="md:grid grid-cols-2 gap-3 items-center">
-    <div class="max-2xl mx-auto">
-    <?php
-    renderImage('iga3-img01.webp');
-    ?>
-    </div>
       <p>El feminicidio, la pérdida irreparable de una vida por el simple hecho de ser mujer, es un concepto que nos confronta con la forma más extrema de violencia de género. Pero, ¿a qué nos referimos exactamente cuando hablamos de feminicidio? Va más allá de un homicidio; implica un espiral de violencia y discriminación arraigada en estructuras sociales patriarcales que perpetúan la desigualdad y el control sobre los cuerpos y las vidas de las mujeres. Te invitamos a realizar la siguiente actividad para reflexionar más sobre este tema.</p>
+      <div class="max-2xl mx-auto">
+      <?php
+      renderImage('u2t3-iga9-img07.webp');
+      ?>
+      </div>
     </div>
 
   <h3>Propósito</h3>
