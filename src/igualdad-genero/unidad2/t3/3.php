@@ -9,7 +9,14 @@ ob_start();
 ?>
 <section>
   <h2>Tipos de violencia de género en casos de feminicidio</h2>
-  <p>Como ya se mencionó, la comprensión de la complejidad del feminicidio implica reconocer que no se trata de un acto aislado, sino del punto culminante de un continuum de violencia de género. Antes del desenlace fatal, las víctimas suelen enfrentar diversas manifestaciones de violencia, que pueden ser física, psicológica, sexual, económica o patrimonial. Identificar estas formas de violencia previas es crucial para entender cómo se intensifican las agresiones y cómo la misoginia y el machismo estructural pueden conducir a la pérdida irreparable de vidas. Al analizar casos como el de Ingrid Escamilla, podremos identificar cómo estas distintas formas de violencia se entrelazan y contribuyen al trágico feminicidio.</p>
+      <div class="md:grid grid-cols-2 gap-3 items-center">
+        <p>Como ya se mencionó, la comprensión de la complejidad del feminicidio implica reconocer que no se trata de un acto aislado, sino del punto culminante de un continuum de violencia de género. Antes del desenlace fatal, las víctimas suelen enfrentar diversas manifestaciones de violencia, que pueden ser física, psicológica, sexual, económica o patrimonial. Identificar estas formas de violencia previas es crucial para entender cómo se intensifican las agresiones y cómo la misoginia y el machismo estructural pueden conducir a la pérdida irreparable de vidas. Al analizar casos como el de Ingrid Escamilla, podremos identificar cómo estas distintas formas de violencia se entrelazan y contribuyen al trágico feminicidio.</p>
+        <div class="max-2xl mx-auto">
+          <?php
+          renderImage('u2t3-iga9-img03.webp');
+          ?>
+        </div>
+    </div>
   <h3>Propósito</h3>
   <p>Reconocer tipos y manifestaciones de violencia de género contenidas en la violencia feminicida.</p>
   <h3>Instrucciones</h3>

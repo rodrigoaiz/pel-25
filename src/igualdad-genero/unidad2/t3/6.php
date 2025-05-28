@@ -10,7 +10,14 @@ ob_start();
 <section>
   <h2>Infografía: Feminicidio vs Homicidio</h2>
 
-  <p>A menudo escuchamos las palabras "homicidio" y "feminicidio", y aunque ambos términos se refieren a la privación de la vida de una persona, existen diferencias fundamentales que debemos comprender. Estas diferencias no son solo una cuestión de palabras, sino que reflejan las causas, los contextos y las motivaciones detrás de estos actos de violencia. En el apartado anterior revisaste documentos que pueden ayudarte a ir reflexionando a las características que tiene el delito de feminicidio y esta nueva actividad podrás plasmar lo que has ido comprendiendo del tema.</p>
+    <div class="md:grid grid-cols-2 gap-3 items-center">
+        <div class="max-2xl mx-auto">
+          <?php
+          renderImage('u2t3-iga9-img05.webp');
+          ?>
+        </div>
+      <p>A menudo escuchamos las palabras "homicidio" y "feminicidio", y aunque ambos términos se refieren a la privación de la vida de una persona, existen diferencias fundamentales que debemos comprender. Estas diferencias no son solo una cuestión de palabras, sino que reflejan las causas, los contextos y las motivaciones detrás de estos actos de violencia. En el apartado anterior revisaste documentos que pueden ayudarte a ir reflexionando a las características que tiene el delito de feminicidio y esta nueva actividad podrás plasmar lo que has ido comprendiendo del tema.</p>
+    </div>
 
   <h3>Propósito</h3>
   <p>Sintetizar la comprensión del feminicidio como delito en un organizador gráfico digital.</p>
