@@ -7,7 +7,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Referencias</h2>
+    <h2>Bibliografía</h2>
     <ul id="biblio" class="ul-disc">
         <li>CIGU, s/f. <em>Glosario para la Igualdad.</em> Glosario de Políticas Universitarias para la Igualdad de Género, UNAM. <a href="https://drive.google.com/file/d/</li>1NAbuv77iGc9JCU6lotvyXF9d8mGFCouo/view" target="_blank">https://drive.google.com/file/d/1NAbuv77iGc9JCU6lotvyXF9d8mGFCouo/view</a>
         <li>CONAPRED, 2016. <em>Glosario de la diversidad sexual, de género y características sexuales.</em> <a href="https://www.gob.mx/cms/uploads/attachment/file/471748/Glosario_TDSyG_WEB.pdf" target="_blank">https://www.gob.mx/cms/uploads/attachment/file/471748/Glosario_TDSyG_WEB.pdf</a></li>
