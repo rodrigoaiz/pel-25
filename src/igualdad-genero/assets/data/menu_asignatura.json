@@ -20,8 +20,8 @@
       "nombre": "Unidad 2",
       "temas": [
         {"nombre": "Violencia de género, sus características, ámbitos y forma de ejercerla como un problema de salud pública y de bienestar social", "url": "/igualdad-genero/unidad2/t1", "paginas": 12},
-        {"nombre": "Identificación de las concepciones y prácticas sociales dañinas asociadas al amor romántico para cuestionar y proponer alternativas", "url": "/igualdad-genero/unidad2/t2", "paginas": 6}
-        ,
+        {"nombre": "Identificación de las concepciones y prácticas sociales dañinas asociadas al amor romántico para cuestionar y proponer alternativas", "url": "/igualdad-genero/unidad2/t2", "paginas": 6},
+        {"nombre": "Reconoce la violencia feminicida como la forma de expresión más extrema de la violencia de género para cuestionar y proponer alternativas", "url": "/igualdad-genero/unidad2/t3", "paginas": 12},
         {"nombre": "Fortalecer actitudes y valores de responsabilidad, respeto y convivencia con los demás", "url": "/igualdad-genero/unidad2/t4", "paginas": 7}
       ]
     }
