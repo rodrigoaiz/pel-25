@@ -12,7 +12,7 @@ ob_start();
 
   <div class="max-2xl mx-auto">
     <?php
-    renderImage('u2t3-Iga9-img04.webp');
+    renderImage('u2t3-iga9-img04.webp');
     ?>
   </div>
 
