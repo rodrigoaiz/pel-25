@@ -35,7 +35,7 @@ ob_start();
     <?php ob_start(); ?>
       <?php
       $ActividadContent = ob_get_clean();
-      renderActividad('u1t3a3', "Reflexión en torno a las relaciones de poder.", $ActividadContent);
+      renderActividad('u1t3a4', "Reflexión en torno a las relaciones de poder.", $ActividadContent);
     ?>
 
 </section>

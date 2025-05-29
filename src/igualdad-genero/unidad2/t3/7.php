@@ -35,7 +35,7 @@ ob_start();
     <?php ob_start(); ?>
       <?php
       $ActividadContent = ob_get_clean();
-      renderActividad('u2t9a6', "Los aliados de la violencia feminicida", $ActividadContent);
+      renderActividad('u2t9a5', "Diferencias entre feminicidio y homicidio", $ActividadContent);
     ?>
 
 </section>

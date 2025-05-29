@@ -24,7 +24,7 @@ ob_start();
     <?php ob_start(); ?>
       <?php
       $ActividadContent = ob_get_clean();
-      renderActividad('u1t3a5', "Cuestionario final del aprendizaje 3 Relaciones de poder", $ActividadContent);
+      renderActividad('u1t3a6', "Cuestionario final del aprendizaje 3 Relaciones de poder", $ActividadContent);
   ?>
 </section>
 <?php

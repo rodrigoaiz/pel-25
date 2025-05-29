@@ -42,7 +42,7 @@ ob_start();
     <?php ob_start(); ?>
       <?php
       $ActividadContent = ob_get_clean();
-      renderActividad('u2t9a9', "Otra narrativa para apropiar nuestros cuerpos", $ActividadContent);
+      renderActividad('u2t9a7', "Otra narrativa para apropiar nuestros cuerpos", $ActividadContent);
     ?>
 
 </section>
