@@ -45,12 +45,6 @@ ob_start();
       </div>
     </div>
 
-    <?php ob_start(); ?>
-      <?php
-      $ActividadContent = ob_get_clean();
-      renderActividad('u2t9a8', "Manifestaciones artísticas que denuncian el feminicidio", $ActividadContent);
-    ?>
-
 </section>
 <?php
 $content = ob_get_clean();

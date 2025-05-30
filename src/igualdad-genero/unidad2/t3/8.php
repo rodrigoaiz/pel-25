@@ -38,7 +38,7 @@ ob_start();
     <?php ob_start(); ?>
       <?php
       $ActividadContent = ob_get_clean();
-      renderActividad('u2t9a7', "¿A qué llamamos feminicidio?", $ActividadContent);
+      renderActividad('u2t9a6', "¿A qué llamamos feminicidio?", $ActividadContent);
     ?>
 
 </section>

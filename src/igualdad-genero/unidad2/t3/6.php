@@ -40,7 +40,7 @@ ob_start();
     <?php ob_start(); ?>
       <?php
       $ActividadContent = ob_get_clean();
-      renderActividad('u2t9a5', "Infografía: Feminicidio vs Homicidio ", $ActividadContent);
+      renderActividad('u2t9a4', "Infografía: Feminicidio vs Homicidio", $ActividadContent);
     ?>
 
 </section>

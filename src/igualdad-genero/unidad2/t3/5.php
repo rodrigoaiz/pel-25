@@ -29,12 +29,6 @@ ob_start();
 
   <p><strong>Nota:</strong> Recuerda que la información que recuperes te servirá para actividades posteriores. </p>
 
-    <?php ob_start(); ?>
-      <?php
-      $ActividadContent = ob_get_clean();
-      renderActividad('u2t9a4', "Protocolos de atención a casos de feminicidios", $ActividadContent);
-    ?>
-
 </section>
 <?php
 $content = ob_get_clean();

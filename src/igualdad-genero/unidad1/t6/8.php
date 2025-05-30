@@ -40,7 +40,7 @@ ob_start();
   <?php ob_start(); ?>
       <?php
       $ActividadContent = ob_get_clean();
-      renderActividad('u1t6a8', "Uve de Gowin ", $ActividadContent);
+      renderActividad('u1t6a8', "Uve de Gowin", $ActividadContent);
   ?>
 
 </section>
