@@ -2,6 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -10,6 +11,11 @@ ob_start();
 ?>
 <section>
     <h2>Mapa conceptual "Sororidad"</h2>
+    <div class="max-w-2xl mx-auto">
+        <?php
+        renderImage('iga10-img03.webp');
+        ?>
+    </div>
     <p>La <strong>sororidad</strong> es un concepto que ha cobrado gran relevancia en los últimos años, refiriéndose a la solidaridad, el apoyo mutuo y la construcción de alianzas entre mujeres. Más allá de una simple amistad, la sororidad implica reconocer la opresión compartida y trabajar juntas para erradicar las desigualdades. Pero, ¿cómo se conecta esto con la <strong>sana convivencia</strong>? Te invitamos a realizar la siguiente actividad para explorar esta relación y cómo la sororidad puede enriquecer nuestras interacciones diarias.</p>
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Enfatizar el conocimiento de la sororidad como alternativa a una sana convivencia con los demás.</p>

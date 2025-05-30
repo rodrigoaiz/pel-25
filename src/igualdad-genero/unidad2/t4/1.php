@@ -11,7 +11,7 @@ ob_start();
   <h2>Fortalecimiento de actitudes y valores de responsabilidad, respeto y convivencia con los demás</h2>
   <div class="max-w-2xl mx-auto">
     <?php
-    renderImage('iga8-img01.webp');
+    renderImage('iga10-img01.webp');
     ?>
   </div>
   <h3>¡Te damos la bienvenida al aprendizaje 10!</h3>
