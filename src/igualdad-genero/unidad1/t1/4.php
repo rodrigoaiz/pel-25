@@ -26,11 +26,23 @@ ob_start();
     </div>
     <p>Ahora que terminaste de ver la serie, consulta los siguientes documentos para aclarar dudas y conocer los "Conceptos básicos". Si consideras necesario, toma nota en tu cuaderno de las definiciones que te ayudarán a resolver la <em>Ruleta de palabras</em> que se presenta más adelante.</p>
     <div class="md:grid grid-cols-3 gap-4">
-        <div class="bg-purple-300 text-center text-lg leading-6 p-2 rounded-lg"><a class=" text-purple-950" href="<?php echo PATH_DOCS . 'u1t1-abc-perspectiva-genero-cndh.pdf'; ?>" target="_blank"><img class="size-24 mx-auto" src="/src/assets/icons/filetype-pdf.svg" />
-                ABC de la perspectiva de género.</a>
+        <div class="bg-purple-300 text-center text-lg leading-6 p-2 rounded-lg">
+          <a class=" text-purple-950" href="<?php echo PATH_DOCS . 'u1t1-abc-perspectiva-genero-cndh.pdf'; ?>" target="_blank">
+            <img class="size-24 mx-auto" src="<?php echo PATH_ICONS . 'filetype-pdf.svg'; ?>" />
+                ABC de la perspectiva de género.
+            </a>
         </div>
-        <div class="bg-purple-300 text-center text-lg leading-6 p-2 rounded-lg"><a class=" text-purple-950" href="<?php echo PATH_DOCS . 'u1t1-cigu-glosario-politicas-universitarias.pdf'; ?>" target="_blank"><img class="size-24 mx-auto" src="/src/assets/icons/filetype-pdf.svg" />Glosario. Políticas Universitarias para la Igualdad de Género</a></div>
-        <div class="bg-purple-300 text-center text-lg leading-6 p-2 rounded-lg"><a class=" text-purple-950" href="<?php echo PATH_DOCS . 'u1t1-glosario-diversidad-sexual-conapred-b.pdf'; ?>" target="_blank"><img class="size-24 mx-auto" src="/src/assets/icons/filetype-pdf.svg" />Glosario de la diversidad sexual, de género y características sexuales</a></div>
+        <div class="bg-purple-300 text-center text-lg leading-6 p-2 rounded-lg">
+          <a class=" text-purple-950" href="<?php echo PATH_DOCS . 'u1t1-cigu-glosario-politicas-universitarias.pdf'; ?>" target="_blank">
+            <img class="size-24 mx-auto" src="<?php echo PATH_ICONS . 'filetype-pdf.svg'; ?>" />Glosario. Políticas Universitarias para la Igualdad de Género
+          </a>
+        </div>
+        <div class="bg-purple-300 text-center text-lg leading-6 p-2 rounded-lg">
+          <a class=" text-purple-950" href="<?php echo PATH_DOCS . 'u1t1-glosario-diversidad-sexual-conapred-b.pdf'; ?>" target="_blank">
+            <img class="size-24 mx-auto" src="<?php echo PATH_ICONS . 'filetype-pdf.svg'; ?>" />
+            Glosario de la diversidad sexual, de género y características sexuales
+          </a>
+        </div>
     </div>
     <p class="mt-8">También te compartimos el documento <a href="<?php echo PATH_DOCS . 'u1t1-aprendizaje 1-conceptos-basicos.pdf'; ?>" target="_blank">Aprendizaje 1. Conceptos básicos</a> donde encontrarás el glosario completo con las definiciones enriquecidas, enlaces a videos interesantes y otras fuentes de consulta que te ayudarán a comprender mejor los conceptos revisados. Te sugerimos tener a la mano estos documentos ya que te podrán ser de utilidad a lo largo de la asignatura.</p>
     <p>Para finalizar te invitamos a reafirmar tus conocimientos con la <strong>"Ruleta de palabras de la Igualdad de Género".</strong></p>
