@@ -2,6 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -15,13 +16,20 @@ ob_start();
     <p><strong>Instrucciones:</strong></p>
     <ol class=" ol-number ml-32">
         <li>A partir de los aprendizajes desarrollados a lo largo del curso, elabora una propuesta o línea de acción, para generar una sana convivencia con integrantes de tu comunidad educativa, explica brevemente en qué consiste. Ésta debe incluir los siguientes apartados:
-            <ul class="ul-disc ml-10">
-                <li>Objetivo</li>
-                <li>Población a quien va dirigido</li>
-                <li>Descripción de las actividades</li>
-                <li>Relación de tu propuesta con sororidad, masculinidad o comunidad LGBTIQ+</li>
-                <li>Alcances o limitantes que puede tener tu propuesta para generar una sana convivencia.</li>
-            </ul>
+            <div class="grid grid-cols-2 gap-2">
+                <div><?php
+                        renderImage('iga10-img06.webp');
+                        ?></div>
+                <div>
+                    <ul class="ul-disc">
+                        <li>Objetivo</li>
+                        <li>Población a quien va dirigido</li>
+                        <li>Descripción de las actividades</li>
+                        <li>Relación de tu propuesta con sororidad, masculinidad o comunidad LGBTIQ+</li>
+                        <li>Alcances o limitantes que puede tener tu propuesta para generar una sana convivencia.</li>
+                    </ul>
+                </div>
+            </div>
         </li>
         <li>Antes de enviar tu actividad, revisa la <a href="<?php echo PATH_DOCS . 'u2t10-listaDeCotejo_PropuestaParaLaSanaConvivencia.pdf'; ?>" target="_blank">lista de cotejo</a> con la que se evaluará tu propuesta.</li>
         <li>Sube tu propuesta en formato .PDF, nombrado de la siguiente manera: <em>Nombre_Apellido_propuesta</em>.</li>

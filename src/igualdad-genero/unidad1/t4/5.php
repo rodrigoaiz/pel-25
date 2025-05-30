@@ -2,6 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
+include PATH_INCLUDE . 'Tabs.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -19,34 +20,34 @@ ob_start();
     <p>Aunque muchos hombres consideran que no son machistas porque no ejercen la violencia física o verbal, existen otras prácticas, comportamientos y discursos que utilizan – de manera consciente o inconsciente – para tratar a las mujeres como seres inferiores, incapaces de ser autónomas e independientes.</p>
     <p>Como ya viste en el aprendizaje 3, Bonino (2008) utilizó el término <strong>micromachismos</strong> para referirse a esas prácticas, comportamientos y discursos. Sin embargo, este término ha sido criticado porque no se trata acciones pequeñas, ya que son un abuso de poder o una forma de imponer el dominio de los hombres sobre las mujeres. Claudia De la Garza y Eréndira Derbez (2021) las renombran como <strong>machismos cotidianos debido a que ocurren de manera sistemática, sutil, reiterada, constante y persistente</strong>.</p>
     <p>A continuación, te mostramos algunos machismos cotidianos:</p>
-    <div id="controls-carousel" class="relative w-full bg-purple-200 rounded-xl" data-carousel="static">
-        <!-- Carousel wrapper -->
-        <div class="relative h-56 overflow-hidden rounded-xl md:h-96">
-            <!-- Item 1 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid grid-cols-3 gap-4">
+    <?= TabsComponent([
+        'tabs' => [
+            [
+                'id' => 'despatarre',
+                'label' => 'Manspreading',
+                'content' =>
+                '<div class="grid grid-cols-3 gap-4">
                     <div class="pt-8 pl-4">
-                        <?php
-                        renderImage('iga4-img06.webp');
-                        ?></div>
+                <img class="mx-auto" src="../../assets/img/iga4-img06.webp" />
+                </div>
                     <div class="col-span-2 text-sm leading-6">
                         <p class="font-bold text-emerald-800 text-lg text-center leading-6">Machodespatarre o Manspreading</p>
                         <p>El machodespatarre o male spreading ocurre cuando un hombre sentado con las piernas bien abiertas, ocupa un espacio excesivo, especialmente en áreas públicas. Esto invade el espacio circundante, causando incomodidad y forzando a las mujeres a tomar una postura cerrada, como cruzar las piernas o sentarse de lado. Al expandir sus piernas, el hombre demuestra que tiene dominio sobre el espacio de las mujeres.</p>
                         <p>En oposición al manspreading está el shebagging que ocurre cuando las mujeres que invaden espacios contiguos con sus pertenencias, evitando que alguien se siente a su lado. En ocasiones, el shebagging es una estrategia para evitar el hostigamiento y acoso de los hombres en lugares públicos porque permite a las mujeres seleccionar quien se sienta a su lado, en caso de tener que ceder el asiento.</p>
                         <p class="font-bold">Sin embargo, el manspreading y el shebagging son actos contrarios a la civilidad y respeto hacia el espacio de otras personas.</p>
                     </div>
-                </div>
-            </div>
-            <!-- Item 2 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                </div>'
+            ],
+            [
+                'id' => 'manipulacion',
+                'label' => 'Gaslighting',
+                'content' =>
+                '<p class="font-bold text-emerald-800 text-lg text-center leading-6">Machomanipulación o gaslighting</p>
+                <p>La machomanipulación o gaslighting es una forma de violencia emocional en la cual un hombre le hace creer a una mujer que su percepción, sus recuerdos, o su propio juicio están equivocados.</p>
                 <div class="grid grid-cols-3 gap-4">
                     <div class="pt-8 pl-4">
-                        <?php
-                        renderImage('iga4-img07.webp');
-                        ?></div>
+                    <img class="mx-auto" src="../../assets/img/iga4-img07.webp" /></div>
                     <div class="col-span-2 text-sm leading-6">
-                        <p class="font-bold text-emerald-800 text-lg text-center leading-6">Machomanipulación o gaslighting</p>
-                        <p>La machomanipulación o gaslighting es una forma de violencia emocional en la cual un hombre le hace creer a una mujer que su percepción, sus recuerdos, o su propio juicio están equivocados.</p>
                         <p>Algunas de las intenciones de la machomanipulación son hacer que la mujer:</p>
                         <p class="ml-20 leading-6">a) dude de sí misma;</p>
                         <p class="ml-20 leading-6">b) se sienta culpable, sin que el hombre asuma su responsabilidad;</p>
@@ -57,15 +58,10 @@ ob_start();
                         <p class="ml-20 leading-6">g) piense que sus opiniones no cuentan o están equivocadas.</p>
                         <p class="font-bold">El hombre utiliza la machomanipulación para convencer a la mujer de que, lo que ella cree, no es verdad a pesar de las evidencias.</p>
                     </div>
-                </div>
-            </div>
-            <!-- Item 3 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid grid-cols-3 gap-4">
-                    <div class="pt-8 pl-4">
-                        <?php
-                        renderImage('iga4-img08.webp');
-                        ?></div>
+                </div>'
+            ],
+            ['id' => 'mansplaining', 'label' => 'Mansplaining', 'content' => '<div class="grid grid-cols-3 gap-4">
+                    <div class="pt-8 pl-4"><img class="mx-auto" src="../../assets/img/iga4-img08.webp" /></div>
                     <div class="col-span-2 text-sm leading-6">
                         <p class="font-bold text-emerald-800 text-lg text-center leading-6">Machoexplicación o mansplaining</p>
                         <p>La machoexplicación o mansplaining es la necesidad que siente un hombre de explicar un tema a una mujer. </p>
@@ -75,19 +71,13 @@ ob_start();
                         <p class="ml-20 leading-6">c) cree que la mujer no conoce el tema o debe ser "corregida" en sus ideas.</p>
                         <p class="font-bold">Solnit (2014) explica que la machoexplicación evita que las mujeres expresen lo que piensan, las hace sentir inseguras, limita su participación en una conversación, o las obliga a mantenerse en silencio.</p>
                     </div>
-                </div>
-            </div>
-            <!-- Item 4 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid grid-cols-3 gap-4">
-                    <div class="pt-8 pl-4">
-                        <?php
-                        renderImage('iga4-img09.webp');
-                        ?></div>
-                    <div class="col-span-2 text-sm leading-6">
+                </div>'],
+            ['id' => 'bombardeo', 'label' => 'Bombardeo', 'content' => '
                         <p class="font-bold text-emerald-800 text-lg text-center leading-6">Bombardeo amoroso o love bombing</p>
                         <p>El bombardeo amoroso o love bombing es la necesidad que siente un hombre de hacerle creer a una mujer que está enamorado de ella para manipularla. Aunque no se conozcan bien, el hombre expresa desde el inicio de la relación que la mujer es su alma gemela, que es perfecta para él, y que tienen un futuro juntos.</p>
-                        <p>El hombre crea una imagen idealizada de la mujer -sin conocerla-, que resulta en:</p>
+                        <div class="grid grid-cols-3 gap-4">
+                    <div class="pt-2 pl-4"><img class="mx-auto" src="../../assets/img/iga4-img09.webp" /></div>
+                    <div class="col-span-2 text-sm leading-6"><p>El hombre crea una imagen idealizada de la mujer -sin conocerla-, que resulta en:</p>
                         <p class="ml-20 leading-6">a) recordatorios constantes de que nadie la amará igual que él, y que son la pareja perfecta.</p>
                         <p class="ml-20 leading-6">b) reclamos cuando ella no actúa de acuerdo a lo que él espera;</p>
                         <p class="ml-20 leading-6">c) presión para que ella cumpla las demandas para que él se sienta bien;</p>
@@ -95,49 +85,31 @@ ob_start();
                         <p class="ml-20 leading-6">e) control de las acciones, comportamientos y relaciones de la mujer mediante los celos, la inseguridad y la devaluación.</p>
                         <p class="font-bold">El bombardeo amoroso es una violencia emocional que utilizan los hombres para lograr el afecto, admiración y reconocimiento de las mujeres, y así manipularlas para tener control sobre ellas.</p>
                     </div>
-                </div>
-            </div>
-            <!-- Item 5 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid grid-cols-3 gap-4">
-                    <div class="pt-8 pl-4">
-                        <?php
-                        renderImage('iga4-img10.webp');
-                        ?></div>
-                    <div class="col-span-2 text-sm leading-6">
+                </div>'],
+            ['id' => 'impuesto', 'label' => 'Impuesto', 'content' => '
                         <p class="font-bold text-emerald-800 text-lg text-center leading-6">Impuesto rosa o pink tax</p>
                         <p>El impuesto rosa o pink tax utiliza los estereotipos de género para presionar a las mujeres a consumir productos que prometen hacerlas atractivas y femeninas, a la par que se usan empaques rosas, llamativos y vistosos para subir el precio del producto; mientras que los hombres consumen menos productos a un menor precio. </p>
-                        <p>Las violencias contra las mujeres que se esconden tras el impuesto rosa son:</p>
+                        <div class="grid grid-cols-3 gap-4">
+                    <div class="pt-1 pl-4"><img class="mx-auto" src="../../assets/img/iga4-img10.webp" /></div>
+                    <div class="col-span-2 text-sm leading-6"><p>Las violencias contra las mujeres que se esconden tras el impuesto rosa son:</p>
                         <p class="ml-20 leading-6">a) Generar inseguridad sobre el cuerpo femeninos con estándares de belleza imposibles de lograr, que fomentan el consumo de más productos;</p>
                         <p class="ml-20 leading-6">b) Permitir que los hombres cosifiquen a las mujeres, es decir que las traten como objetos y no como personas;</p>
                         <p class="ml-20 leading-6">c) Mermar la economía de las mujeres, y reducir su aportación económica al hogar;</p>
                         <p class="ml-20 leading-6">d) Forzar a las mujeres a depender de un hombre, especialmente si no perciben un salario.</p>
                         <p class="font-bold">La tasa rosa o pink tax es una forma de violencia económica en contra de las mujeres. </p>
                     </div>
-                </div>
-            </div>
-            <!-- Item 6 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid grid-cols-3 gap-4">
-                    <div class="pt-8 pl-4">
-                        <?php
-                        renderImage('iga4-img11.webp');
-                        ?></div>
+                </div>'],
+            ['id' => 'interrupting', 'label' => 'Manterrupting', 'content' => '<div class="grid grid-cols-3 gap-4">
+                    <div class="pt-8 pl-4"><img class="mx-auto" src="../../assets/img/iga4-img11.webp" /></div>
                     <div class="col-span-2 text-sm leading-6">
                         <p class="font-bold text-emerald-800 text-lg text-center leading-6">Machointerrupción o Manterrupting</p>
                         <p>La machointerrupción, o manterrupting, es la necesidad que siente un hombre de interrumpir a una mujer cuando ella está hablando. El hombre demuestra que tiene el control y dominio de la conversación y de las explicaciones.</p>
                         <p>La diferencia entre un hombre maleducado y un acto de machointerrupción, es que el hombre maleducado interrumpe a todas las personas, y un hombre que practica la machointerrupción lo hace únicamente con las mujeres, pues escucha con atención a otros hombres.</p>
                         <p class="font-bold">Mediante las machointerrupciones los hombres imponen su voz, sus ideas, y se adueñan de la información, el conocimiento y la inteligencia. Estas interrupciones son una forma de menospreciar a las mujeres y negarles el derecho a ser escuchadas.</p>
                     </div>
-                </div>
-            </div>
-            <!-- Item 7 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid grid-cols-3 gap-4">
-                    <div class="pt-8 pl-4">
-                        <?php
-                        renderImage('iga4-img12.webp');
-                        ?></div>
+                </div>'],
+            ['id' => 'apropiacion', 'label' => 'Bropriating', 'content' => '<div class="grid grid-cols-3 gap-4">
+                    <div class="pt-8 pl-4"><img class="mx-auto" src="../../assets/img/iga4-img12.webp" /></div>
                     <div class="col-span-2 text-sm leading-6">
                         <p class="font-bold text-emerald-800 text-lg text-center leading-6">Machoapropiación o Bropriating</p>
                         <p>La machoapropiación de ideas o bropriating ocurre cuando un hombre se atribuye la autoría de ideas originalmente propuestas por una mujer sin darle el debido crédito. Abundan los casos en la historia en que los hombres se apropiaban de la obra intelectual de mujeres, especialmente de sus esposas, porque en los siglos XVIII y XIX las mujeres no tenían derecho a publicar (Montero, 2019).</p>
@@ -147,41 +119,21 @@ ob_start();
                         <p class="ml-20 leading-6">c) Recibe el beneficio económico resultado del trabajo intelectual de una mujer.</p>
                         <p class="font-bold">Desafortunadamente, la machoapropiación sigue ocurriendo en la actualidad, invisibilizando las aportaciones de la mujer.</p>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- Slider controls -->
-        <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-emerald-800/30 group-hover:bg-white/50 dark:group-hover:bg-emerald-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-emerald-600/70 group-focus:outline-none">
-                <svg class="w-4 h-4 text-white dark:text-emerald-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
-                </svg>
-                <span class="sr-only">Anterior</span>
-            </span>
-        </button>
-        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-emerald-800/30 group-hover:bg-white/50 dark:group-hover:bg-emerald-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-emerald-600/70 group-focus:outline-none">
-                <svg class="w-4 h-4 text-white dark:text-emerald-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
-                </svg>
-                <span class="sr-only">Siguiente</span>
-            </span>
-        </button>
-    </div>
+                </div>'],
+        ],
+    ]) ?>
+
     <h3>Triada de la violencia</h3>
     <p>Existe una desigualdad en la forma en que los hombres se relacionan con las mujeres. Históricamente, estas desigualdades están sustentadas por la carencia de derechos. Por ejemplo, antes del Siglo XIX, las mujeres no tenían derecho a estudiar, a ejercer una profesión, a votar, o a ser propietarias de una casa o negocio. A pesar de los cambios en los derechos de las mujeres, Kaufman (1994) detectó que los hombres siguen ejerciendo relaciones de desigualdad mediante lo que él llamó <strong>la tríada de la violencia masculina.</strong></p>
     <p class="font-bold">Esta tríada se divide en la violencia que un hombre ejerce sobre sí mismo, sobre otros hombres, y sobre mujeres e infancias. En esta representación, hemos sustituido mujeres e infancias por personas vulnerables para incluir la violencia sobre diversidades sexo-genéricas.</p>
-
-    <div id="indicators-carousel" class="relative w-full bg-emerald-100 rounded-xl" data-carousel="static">
-        <!-- Carousel wrapper -->
-        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-            <!-- Item 1 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                <div class="grid grid-cols-3 gap-4">
-                    <div class="pt-8 pl-4">
-                        <?php
-                        renderImage('iga4-img13.webp');
-                        ?></div>
+    <?= TabsComponent([
+        'tabs' => [
+            [
+                'id' => 'simismo',
+                'label' => 'Sí mismo',
+                'content' =>
+                '<div class="grid grid-cols-3 gap-4">
+                    <div class="pt-8 pl-4"><img class="mx-auto" src="../../assets/img/iga4-img13.webp" /></div>
                     <div class="col-span-2 text-sm leading-6">
                         <p class="font-bold text-purple-900 text-lg text-center leading-6">Violencia sobre sí mismo</p>
                         <p>Los hombres ejercen violencia contra sí mismos cuando ponen en riesgo su integridad física y emocional. Algunas de las formas en que ocurre esta violencia son:</p>
@@ -196,15 +148,14 @@ ob_start();
                         <p class="ml-20 leading-none">i) Usar sustancias para desarrollar musculatura, sin importar las consecuencias a largo plazo.</p>
                         <p class="font-bold">El resultado más grave de la violencia del hombre contra sí mismo es que las tazas de suicidio de los hombres son más altas que las de las mujeres.</p>
                     </div>
-                </div>
-            </div>
-            <!-- Item 2 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid grid-cols-3 gap-4">
-                    <div class="pt-8 pl-4">
-                        <?php
-                        renderImage('iga4-img13.webp');
-                        ?></div>
+                </div>'
+            ],
+            [
+                'id' => 'otrosHombres',
+                'label' => 'Otros hombres',
+                'content' =>
+                '<div class="grid grid-cols-3 gap-4">
+                    <div class="pt-8 pl-4"><img class="mx-auto" src="../../assets/img/iga4-img13.webp" /></div>
                     <div class="col-span-2 text-sm leading-6">
                         <p class="font-bold text-purple-900 text-lg text-center leading-6">Violencia contra otros hombres</p>
                         <p>Los hombres ejercen violencia contra otros hombres para demostrar su hombría y mantener su estatus, jerarquía y dominación, por ejemplo, cuando:</p>
@@ -216,18 +167,14 @@ ob_start();
                         <p class="ml-20 leading-none">f) Humillan o se burlan de otro hombre por tener una situación económica, laboral o de pareja distinta o considerada inferior por el agresor;</p>
                         <p class="font-bold">Esta violencia es la forma en que los hombres se socializan entre ellos para adoptar comportamientos machistas, en ocasiones en contra de su voluntad y de manera inconsciente, lo que afecta la forma en que se relacionan con otras personas de su entorno.</p>
                     </div>
-                </div>
-            </div>
-            <!-- Item 3 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid grid-cols-3 gap-4">
-                    <div class="pt-8 pl-4">
-                        <?php
-                        renderImage('iga4-img14.webp');
-                        ?></div>
-                    <div class="col-span-2 text-sm leading-6">
-                        <p class="font-bold text-purple-900 text-lg text-center leading-6">Violencia contra las mujeres</p>
+                </div>'
+            ],
+            ['id' => 'mujeres', 'label' => 'Mujeres', 'content' =>
+            '<p class="font-bold text-purple-900 text-lg text-center leading-6">Violencia contra las mujeres</p>
                         <p>La violencia que ejercen los hombres hacia las mujeres no se reduce al ámbito familiar o sentimental, también se ejerce de manera sistemática, estructural y simbólica en los ámbitos laboral, académico, social, político, cultural, etc. Existen muchas formas en que los hombres ejercen la violencia contra las mujeres.</p>
+                        <div class="grid grid-cols-3 gap-4">
+            <div class="pt-2"><img class="mx-auto" src="../../assets/img/iga4-img14.webp" /></div>
+                    <div class="col-span-2 text-sm leading-6">
                         <p>Algunas formas de violencia contra las mujeres son:</p>
                         <p class="ml-20 leading-none">a) Los machismos cotidianos;</p>
                         <p class="ml-20 leading-none">b) La cosificación de las mujeres, es decir, tratarlas como objetos que se pueden desear, utilizar y desechar;</p>
@@ -238,20 +185,16 @@ ob_start();
                         <p class="ml-20 leading-none">g) Las acciones, comportamientos o discursos que se utilizan para dominar el cuerpo de las mujeres;</p>
                         <p class="ml-20 leading-none">h) Las acciones, comportamientos o discursos que impiden o intimidan a las mujeres para que no participen en la toma de decisiones en el ámbito familiar, escolar, laboral, económico, político, cultural, etc.;</p>
                         <p class="ml-20 leading-none">i) La violencia digital, emocional, económica, física, patrimonial, psicológica, sexual o verbal en contra de una mujer.</p>
-                        <p class="font-bold">Todas las formas de violencia contra las mujeres impiden que las mujeres ejerzan sus derechos, especialmente, el derecho a una vida libre de violencia. Estas violencias afectan el crecimiento, desarrollo, participación, productividad, la toma de decisiones, el acceso a bienes, servicios y recursos que impactan la vida familiar, social, cultural, económica y política de las mujeres (ONU Mujeres, 2002; INMUJERES, 2002).</p>
+                        
                     </div>
                 </div>
-            </div>
-            <!-- Item 4 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid grid-cols-3 gap-4">
-                    <div class="pt-8 pl-4">
-                        <?php
-                        renderImage('iga4-img15.webp');
-                        ?></div>
-                    <div class="col-span-2 text-sm leading-6">
+                <p class="font-bold">Todas las formas de violencia contra las mujeres impiden que las mujeres ejerzan sus derechos, especialmente, el derecho a una vida libre de violencia. Estas violencias afectan el crecimiento, desarrollo, participación, productividad, la toma de decisiones, el acceso a bienes, servicios y recursos que impactan la vida familiar, social, cultural, económica y política de las mujeres (ONU Mujeres, 2002; INMUJERES, 2002).</p>'],
+            ['id' => 'infancias', 'label' => 'Infancias', 'content' => '
                         <p class="font-bold text-purple-900 text-lg text-center leading-6">Violencia contra las infancias</p>
                         <p>La violencia o la amenaza de violencia que utilizan los hombres contra las infancias es un mecanismo para heredar, transmitir, e interiorizar el orden jerárquico, el dominio y los privilegios de los hombres.</p>
+                        <div class="grid grid-cols-3 gap-4">
+                    <div class="pt-8 pl-4"><img class="mx-auto" src="../../assets/img/iga4-img15.webp" /></div>
+                    <div class="col-span-2 text-sm leading-6">
                         <p>Estas conductas heredadas a las infancias incluyen:</p>
                         <p class="ml-20 leading-none">a) Establecer roles y estereotipos sobre lo que es lo femenino y lo masculino;</p>
                         <p class="ml-20 leading-none">b) Transmitir la creencia de que los hombres son más fuertes y poderosos que las demás personas;</p>
@@ -261,52 +204,23 @@ ob_start();
                         <p class="ml-20 leading-none">f) Inculcar la inseguridad, la insatisfacción, el autocastigo, el autorrepudio, la autorepresión, y otras formas de violencia contra sí mismo,</p>
                         <p class="ml-20 leading-none">g) Reprimir sentimientos de temor, dolor, llanto, enojo, o cualquier otra forma de expresar su inconformidad;</p>
                         <p class="ml-20 leading-none">h) Inculcar la falta de empatía y solidaridad hacia los sentimientos y necesidades de otras personas.</p>
-                        <p class="font-bold">Mediante la conducta de los padres, los niños y las niñas aprenden a utilizar y a aceptar, de manera selectiva y sistemática, los comportamientos, acciones y discursos violentos hacia las infancias, las mujeres, las diversidades sexo-genéricas, y los otros hombres.</p>
                     </div>
                 </div>
-            </div>
-            <!-- Item 5 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                
+                        <p class="font-bold">Mediante la conducta de los padres, los niños y las niñas aprenden a utilizar y a aceptar, de manera selectiva y sistemática, los comportamientos, acciones y discursos violentos hacia las infancias, las mujeres, las diversidades sexo-genéricas, y los otros hombres.</p>'],
+            ['id' => 'diversidades', 'label' => 'Diversidades', 'content' => '
                 <div class="grid grid-cols-3 gap-4">
-                    <div class="pt-8 pl-4">
-                        <?php
-                        renderImage('iga4-img16.webp');
-                        ?></div>
+                    <div class="pt-8 pl-4"><img class="mx-auto" src="../../assets/img/iga4-img16.webp" /></div>
                     <div class="col-span-2 text-sm leading-6">
                         <p class="font-bold text-purple-900 text-lg text-center leading-6">Violencia contra las diversidades sexo-genéricas</p>
                         <p>Los hombres utilizan la homofobia, la homohisteria y la violencia contra las diversidades sexo-genéricas como un mecanismo para reafirmar su virilidad y para protegerse a sí mismos de las burlas, humillaciones y violencia de parte de otros hombres.</p>
                         <p>El rechazo, intolerancia y discriminación social hacia la homosexualidad puede orillar a que las personas de la diversidad sexo-genérica se vuelvan homofóbicos. Es decir, que odien y repriman sus preferencias, sus afectos, sus gustos, sus emociones, sus sentimientos, y su estilo de vida.</p>
                         <p>La aversión hacia la homosexualidad es una forma irracional de otorgarle un carácter de superioridad moral a la heterosexualidad, y así justificar que a las personas de las diversidades sexo-genéricas se les nieguen sus derechos humanos, un trato digno, o el acceso a recursos, bienes y servicios.</p>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- Slider indicators -->
-        <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-        </div>
-        <!-- Slider controls -->
-        <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
-                </svg>
-                <span class="sr-only">Anterior</span>
-            </span>
-        </button>
-        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
-                </svg>
-                <span class="sr-only">Siguiente</span>
-            </span>
-        </button>
-    </div>
+                </div>'],
+        ],
+    ]) ?>
+
     <h3>Desafíos de la masculinidad</h3>
     <p>En esta sección te dejamos una serie de preguntas para analizar y reflexionar:</p>
     <p class="ml-20 leading-5">a) ¿Crees que la violencia es natural en los hombres, o es un comportamiento que se puede cambiar?</p>
