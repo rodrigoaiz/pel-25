@@ -23,7 +23,7 @@ ob_start();
         <p>Contesta las siguientes preguntas eligiendo la respuesta que consideres correcta. </p>
         <?php
         $ActividadContent = ob_get_clean();
-        renderActividad('u2t1a1', "Diagnóstico aprendizaje 7", $ActividadContent);
+        renderActividad('u2t7a1', "Diagnóstico aprendizaje 7", $ActividadContent);
         ?>
 </section>
 

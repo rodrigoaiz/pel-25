@@ -21,7 +21,7 @@ ob_start();
     <p>Contesta las siguientes preguntas eligiendo la respuesta que consideres correcta. </p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t1a3', "Tipos de violencia", $ActividadContent);
+    renderActividad('u2t7a3', "Tipos de violencia", $ActividadContent);
     ?>
 </section>
 

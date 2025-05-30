@@ -41,7 +41,7 @@ ob_start();
     <p>Aquí sube el trabajo realizado.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t4a1', "Mapa Mental: Perspectiva de Género.", $ActividadContent);
+    renderActividad('u1t4a1', "Diagnóstico: Yo admiro a...", $ActividadContent);
     ?>
 </section>
 

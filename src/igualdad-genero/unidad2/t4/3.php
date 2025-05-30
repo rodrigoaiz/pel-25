@@ -38,7 +38,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t4a2', "Infografía elementos de la sana convivencia", $ActividadContent);
+    renderActividad('u2t10a2', "Infografía elementos de la sana convivencia", $ActividadContent);
     ?>
 </section>
 

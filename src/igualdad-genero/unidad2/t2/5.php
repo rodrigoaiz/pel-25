@@ -25,7 +25,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t2a4', "Los mitos del amor romántico", $ActividadContent);
+    renderActividad('u2t8a4', "Cuestionario de evaluación de los mitos del amor romántico", $ActividadContent);
     ?>
 </section>
 

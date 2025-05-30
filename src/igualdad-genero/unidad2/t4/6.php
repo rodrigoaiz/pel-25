@@ -62,7 +62,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t4a5', "Foro: Cartilla LGBTIQ+", $ActividadContent);
+    renderActividad('u2t10a5', "Foro: Cartilla LGBTIQ+", $ActividadContent);
     ?>
 </section>
 

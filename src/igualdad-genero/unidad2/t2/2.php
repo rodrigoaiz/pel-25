@@ -28,7 +28,7 @@ ob_start();
     <p>Sube aquí tu archivo</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t2a1', "Diagnóstico aprendizaje 8", $ActividadContent);
+    renderActividad('u2t8a1', "Diagnóstico aprendizaje 8", $ActividadContent);
     ?>
 </section>
 

@@ -26,11 +26,12 @@ ob_start();
         <li>Observa con atención el siguiente video y toma notas en tu cuaderno.</li>
         <li>En la grabación aparecerán preguntas que tienen como finalidad ayudarte a verificar que comprendes los conceptos y aspectos principales de la información que se te presenta, así que responde con cuidado cada una de ellas.</li>
     </ol>
+    
     <?php ob_start(); ?>
     <p>Una vez que concluyas con este apartado, continúa con la siguiente actividad.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t1a2', "Violencia de género y tipos", $ActividadContent);
+    renderActividad('u2t7a2', "Violencia de género y tipos", $ActividadContent);
     ?>
 </section>
 <?php

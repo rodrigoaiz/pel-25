@@ -14,7 +14,7 @@ ob_start();
     <p>1. Relaciona las columnas colocando el número que corresponde a cada oración.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t1a3', "Evaluación sumativa del Aprendizaje 1", $ActividadContent);
+    renderActividad('u1t1a4', "Evaluación sumativa del Aprendizaje 1", $ActividadContent);
     ?>
 </section>
 

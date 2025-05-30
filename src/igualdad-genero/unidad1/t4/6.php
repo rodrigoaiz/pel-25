@@ -2,6 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'EducaplayIframe.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -20,12 +21,7 @@ ob_start();
         <li>Selecciona una o varias respuestas dependiendo de tu propia experiencia. (Revisa la retroalimentación que aparece con cada pregunta).</li>
         <li>Comenten en plenaria qué piensan o cómo se sienten respecto a una de estas frases.</li>
     </ol>
-    <?php ob_start(); ?>
-    <p>Mira aquí el video interactivo.</p>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividad('u1t4a4', "Video-Cuestionario", $ActividadContent);
-    ?>
+    <?php renderEducaplay('19245989-hazlo_como_hombre.html'); ?>
 </section>
 
 <?php
