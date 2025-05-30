@@ -27,8 +27,11 @@
     }
   },
   "actividades": {
-    "u1a1": { "id": "00", "moduleName": "quiz" },
-    "u2a1": { "id": "00", "moduleName": "hvp" },
+    "u1t1a1": { "id": "4176", "moduleName": "quiz" },
+    "u1t1a2": { "id": "00", "moduleName": "quiz" },
+
+
+    
     "u1t3a1": { "id": "4188", "moduleName": "quiz" },
     "u1t3a2": { "id": "4189", "moduleName": "forum" },
     "u1t3a3": { "id": "4190", "moduleName": "assign" },
