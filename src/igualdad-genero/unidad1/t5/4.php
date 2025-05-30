@@ -2,6 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
+include PATH_INCLUDE . 'ActividadIframe.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -30,6 +31,13 @@ ob_start();
         renderImage('u1t5-redes.webp', 'Guion gráfico de desigualdades');
         ?>
     </div>
+
+    <?php ob_start(); ?>
+    <p>Sube aquí tu archivo.</p>
+    <?php
+    $ActividadContent = ob_get_clean();
+    renderActividad('u1t5a3', "Detección de necesidades de la cultura de la igualdad", $ActividadContent);
+    ?>
 </section>
 
 <?php

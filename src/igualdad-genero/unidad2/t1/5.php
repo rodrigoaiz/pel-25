@@ -28,7 +28,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t1a4', "Crucigrama - Modalidades de la violencia de género", $ActividadContent);
+    renderActividad('u2t7a4', "Crucigrama - Modalidades de la violencia de género", $ActividadContent);
     ?>
 </section>
 

@@ -32,7 +32,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t4a4', "Foro de nueva masculinidad", $ActividadContent);
+    renderActividad('u2t10a4', "Foro de nueva masculinidad", $ActividadContent);
     ?>
 </section>
 

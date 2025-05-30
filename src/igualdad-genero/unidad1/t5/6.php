@@ -33,7 +33,7 @@ ob_start();
     <p>Sube aquí tu carta compromiso.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t5a4', "Carta compromiso", $ActividadContent);
+    renderActividad('u1t5a5', "Carta compromiso", $ActividadContent);
     ?>
 </section>
 

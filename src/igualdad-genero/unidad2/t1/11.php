@@ -20,7 +20,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t1a9', "Foro final de aprendizaje", $ActividadContent);
+    renderActividad('u2t7a10', "Foro final de aprendizaje", $ActividadContent);
     ?>
 </section>
 

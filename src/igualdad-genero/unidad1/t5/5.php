@@ -45,7 +45,7 @@ ob_start();
     <p>Sube aquí tu archivo.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t5a3', "WordArt", $ActividadContent);
+    renderActividad('u1t5a4', "WordArt", $ActividadContent);
     ?>
 </section>
 

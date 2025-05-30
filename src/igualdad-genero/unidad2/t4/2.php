@@ -33,7 +33,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t4a1', "Foro: Reconociendo acciones", $ActividadContent);
+    renderActividad('u2t10a1', "Foro: Reconociendo acciones", $ActividadContent);
     ?>
 </section>
 

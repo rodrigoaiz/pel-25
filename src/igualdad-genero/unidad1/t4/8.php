@@ -27,7 +27,7 @@ ob_start();
     <p>Participa aquí en el foro.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t4a5', "Foro - Dibujando mis sentires", $ActividadContent);
+    renderActividad('u1t4a4', "Foro - Dibujando mis sentires", $ActividadContent);
     ?>
 </section>
 

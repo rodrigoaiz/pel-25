@@ -19,7 +19,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t1a9', "Legislación para proteger los Derechos Humanos y erradicar la violencia de género", $ActividadContent);
+    renderActividad('u2t7a9', "Legislación para proteger los Derechos Humanos y erradicar la violencia de género", $ActividadContent);
     ?>
 </section>
 

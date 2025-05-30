@@ -222,11 +222,11 @@ ob_start();
     ]) ?>
 
     <h3>Desafíos de la masculinidad</h3>
-    <p>En esta sección te dejamos una serie de preguntas para analizar y reflexionar:</p>
-    <p class="ml-20 leading-5">a) ¿Crees que la violencia es natural en los hombres, o es un comportamiento que se puede cambiar?</p>
-    <p class="ml-20 leading-5">b) ¿Cuáles conductas o acciones propones para contrarrestar los machismos cotidianos?</p>
-    <p class="ml-20 leading-5">c) ¿Cuáles conductas o acciones propones para que los hombres dejen de ejercer violencia contra sí mismos? ¿Y contra otros hombres? ¿Y contra personas vulnerables (mujeres, infancias y diversidades sexo genéricas)</p>
-    <p class="ml-20 leading-5">d) ¿De qué manera pueden contribuir los hombres para mejorar la convivencia e interacción con otros hombres, mujeres, infancias y diversidades sexo genéricas?</p>
+    <p>En esta sección te dejamos una serie de preguntas para <strong>analizar y reflexionar:</strong></p>
+    <p class="ml-20 leading-6 text-pink-800 text-center">¿Crees que la violencia es natural en los hombres, o es un comportamiento que se puede cambiar?</p>
+    <p class="ml-20 leading-6 text-pink-800 text-center">¿Cuáles conductas o acciones propones para contrarrestar los machismos cotidianos?</p>
+    <p class="ml-20 leading-6 text-pink-800 text-center">¿Cuáles conductas o acciones propones para que los hombres dejen de ejercer violencia contra sí mismos? ¿Y contra otros hombres? ¿Y contra personas vulnerables (mujeres, infancias y diversidades sexo genéricas)</p>
+    <p class="ml-20 leading-6 text-pink-800 text-center">¿De qué manera pueden contribuir los hombres para mejorar la convivencia e interacción con otros hombres, mujeres, infancias y diversidades sexo genéricas?</p>
 </section>
 <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
 <?php

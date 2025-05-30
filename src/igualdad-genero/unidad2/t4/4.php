@@ -31,7 +31,7 @@ ob_start();
     <p>Aquí sube el trabajo realizado.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t4a3', "Mapa Mental: Sororidad.", $ActividadContent);
+    renderActividad('u2t10a3', "Mapa Mental: Sororidad.", $ActividadContent);
     ?>
 </section>
 

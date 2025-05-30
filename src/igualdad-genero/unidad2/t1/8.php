@@ -33,7 +33,7 @@ ob_start();
     <p>Adjunta tu archivo en este apartado. Nombra el archivo de la siguiente manera: Nombre_Apellido_Infografia_SaludPublica</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t1a7', "La violencia de género es un tema de salud pública", $ActividadContent);
+    renderActividad('u2t7a7', "La violencia de género es un tema de salud pública", $ActividadContent);
     ?>
 </section>
 

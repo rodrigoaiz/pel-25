@@ -28,7 +28,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t1a8', "Legislación Nacional e Internacional | Igualdad de género", $ActividadContent);
+    renderActividad('u2t7a8', "Legislación Nacional e Internacional | Igualdad de género", $ActividadContent);
     ?>
 </section>
 <?php
