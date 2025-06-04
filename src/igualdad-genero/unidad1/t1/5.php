@@ -3,6 +3,7 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ImagenPie.php';
+include PATH_INCLUDE . 'ActividadIframe.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -159,6 +160,11 @@ ob_start();
             <li class="text-white">Este material tiene fines didácticos y no debe ser compartido públicamente.</li>
         </ul>
     </div>
+    <?php ob_start(); ?>
+    <?php
+    $ActividadContent = ob_get_clean();
+    renderActividad('u1t1a3', "Sube aquí tu nota de voz", $ActividadContent);
+    ?>
 </section>
 
 <?php

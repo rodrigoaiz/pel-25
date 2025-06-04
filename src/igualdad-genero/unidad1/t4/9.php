@@ -32,7 +32,7 @@ ob_start();
     <p>Participa aquí en el foro.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t4a6', "Foro - Representaciones culturales de la masculinidad", $ActividadContent);
+    renderActividad('u1t4a5', "Foro - Representaciones culturales de la masculinidad", $ActividadContent);
     ?>
 </section>
 

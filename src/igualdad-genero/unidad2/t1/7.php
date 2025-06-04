@@ -44,7 +44,7 @@ ob_start();
     <p>¡Mucho éxito!</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t1a6', "La violencia de género es un tema de salud pública", $ActividadContent);
+    renderActividad('u2t7a6', "La violencia de género es un tema de salud pública", $ActividadContent);
     ?>
 </section>
 

@@ -11,16 +11,14 @@ ob_start();
 ?>
 <section>
     <h2>Reconociendo acciones</h2>
-    <div class="grid grid-cols-3 gap-4">
-        <div><?php
-                renderImage('iga7-img05.webp');
-                ?></div>
-        <div class="col-span-2">
-            <p>La convivencia escolar es un pilar fundamental para el desarrollo integral de nuestra comunidad en el CCH. Un entorno donde prevalece el <strong>respeto</strong>, la <strong>empatía</strong> y la <strong>colaboración</strong> no solo facilita el aprendizaje, sino que también nos prepara para ser ciudadanos responsables y comprometidos. En el siguiente foro, te invitamos a reflexionar sobre cómo, día a día, construimos juntos una sana convivencia y qué acciones e instancias en nuestra escuela contribuyen a fortalecerla.</p>
-            <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-            <p>Identificar las acciones que promueven la sana convivencia del entorno escolar.</p>
-        </div>
+    <p>La convivencia escolar es un pilar fundamental para el desarrollo integral de nuestra comunidad en el CCH. Un entorno donde prevalece el <strong>respeto</strong>, la <strong>empatía</strong> y la <strong>colaboración</strong> no solo facilita el aprendizaje, sino que también nos prepara para ser ciudadanos responsables y comprometidos. En el siguiente foro, te invitamos a reflexionar sobre cómo, día a día, construimos juntos una sana convivencia y qué acciones e instancias en nuestra escuela contribuyen a fortalecerla.</p>
+    <div class="max-w-2xl mx-auto">
+        <?php
+        renderImage('iga10-img02.webp');
+        ?>
     </div>
+    <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
+    <p>Identificar las acciones que promueven la sana convivencia del entorno escolar.</p>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number ml-32">
         <li>En el siguiente foro, contesta las siguientes preguntas:
@@ -35,7 +33,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t4a1', "Foro: Reconociendo acciones", $ActividadContent);
+    renderActividad('u2t10a1', "Foro: Reconociendo acciones", $ActividadContent);
     ?>
 </section>
 

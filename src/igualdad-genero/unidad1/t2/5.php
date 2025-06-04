@@ -2,6 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ActividadIframe.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -33,7 +34,12 @@ ob_start();
         <li>Posteriormente presentarán al grupo su infografía o la compartirán a través de alguna herramienta digital colaborativa.</li>
     </ol>
     <p class="mt-8">No olvides revisar la <a href="<?php echo PATH_DOCS . 'u1t2-lista-cotejo-que-es-la-perspectiva-de-genero.pdf'; ?>" target="_blank">lista de cotejo</a>, para que conozcas los criterios con los que se evaluará la actividad.</p>
-
+    <?php ob_start(); ?>
+    <p>Aquí sube la infografía realizada.</p>
+    <?php
+    $ActividadContent = ob_get_clean();
+    renderActividad('u1t2a4', "Perspectiva de género", $ActividadContent);
+    ?>
 </section>
 
 <?php
