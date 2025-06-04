@@ -46,7 +46,7 @@ ob_start();
                                   </ul>'
             ]
           ];
-          renderAccordion($accordionItems1, 'primero-');
+          renderAccordion($accordionItems1, 'primero-', false);
           ?>
         </div>
 
@@ -76,7 +76,7 @@ ob_start();
                                   </ul>'
             ]
           ];
-          renderAccordion($accordionItems2, 'primero-');
+          renderAccordion($accordionItems2, 'segundo-', false);
           ?>
         </div>
 
@@ -146,17 +146,20 @@ ob_start();
         <p>Tenemos</p>
         <p>\(y=x(40-x)\)</p>
         <p>\(y=-x^2 +40x\)</p>
+      </div>
+      <div>
         <p>La anterior expresión matemática representa una función cuadrática, como ya pudiste revisar en las AUAPAS.</p>
         <p>¿Quién es la variable independiente? Claro dimos valor a x, por lo tanto, el largo.</p>
         <p>¿Quién es la variable dependiente? La superficie o área.</p>
-      </div>
-      <div>
         <p>Contesta las siguientes preguntas.</p>
             <ol class="ol-number">
                 <li>¿Cuál es el valor de X para que el gallinero tenga la menor superficie?</li>
                 <li>¿Cuál es el valor de X para que el gallinero tenga la mayor superficie?</li>
             </ol>
-            <div class="max-w-3xl mx-auto">
+      </div>
+    </div>
+
+        <div class=" mx-auto">
           <?php
           $accordionItems3 = [
             [
@@ -169,11 +172,9 @@ ob_start();
                                   </ul>'
             ]
           ];
-          renderAccordion($accordionItems3, 'primero-');
+          renderAccordion($accordionItems3, 'tercero-', false);
           ?>
         </div>
-      </div>
-    </div>
 
     <?php ob_start(); ?>
         <p>Después de haber revisado y realizado las actividades del aprendizaje uno participa en el foro de discusión.</p>

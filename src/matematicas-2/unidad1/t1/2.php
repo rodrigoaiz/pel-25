@@ -5,6 +5,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenFullPleca.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'ImagenPie.php';
+include PATH_INCLUDE . 'Videos.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -29,9 +30,14 @@ ob_start();
 
     <p>Como podemos notar, la ecuación completa tiene el término cuadrático, el término lineal y el independiente y en el caso de las incompletas faltaría uno de estos términos, ya sea el lineal o el independiente.</p>
     <p>Cuando nosotros damos solución a una ecuación cuadrática, estas pueden tener dos soluciones, a las cuales también se les conoce con el nombre de raíces.</p>
+    <p>Revisa el siguiente video para complementar la introducción a este tema.</p>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
-        <p>Revisa el siguiente video para complementar la introducción a este tema.</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 items-center">
+        <div class="lg:grid">
+            <?php
+            renderVideoIframe('rNXGInc0Hds', '');
+            ?>
+        </div>
         <div class="m-auto"><?php renderImage("u1_t2_raices.webp", "Imagen de Vikfret.", "https://commons.wikimedia.org/wiki/File:Cat_math_pythagorean_theorem.png", "Wikimedia Commons.", true, "p-4",); ?>
         </div>
     </div>

@@ -17,11 +17,12 @@ ob_start();
         $ActividadContent = ob_get_clean();
         renderActividad('u2a8', "Eje de simetría de la función cuadrática", $ActividadContent);
     ?>
-    <p>¿Las raíces de la función cuadrática cuya gráfica es la siguiente son reales o complejas?</p>
 
     <?php
     renderImage('u2t3_img_grafica_3.webp', '', '', '', true);
     ?>
+
+    <p>¿Las raíces de la función cuadrática cuya gráfica es la siguiente son reales o complejas?</p>
     
     <div class="max-w-3xl mx-auto">
           <?php
@@ -33,7 +34,7 @@ ob_start();
                             </ul>'
             ]
           ];
-          renderAccordion($accordionItems1, 'primero-');
+          renderAccordion($accordionItems1, 'primero-', false);
           ?>
     </div>
 

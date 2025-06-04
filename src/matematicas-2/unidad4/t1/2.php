@@ -86,7 +86,7 @@ lo que se muestra a continuación, <strong>¿qué semejanzas y diferencias encue
                   '
                 ]
               ];
-              renderAccordion($accordionItems1, 'primero-');
+              renderAccordion($accordionItems1, 'primero-', false);
   ?>
 
 <div class="md:grid grid-cols-2 gap-3 items-center">

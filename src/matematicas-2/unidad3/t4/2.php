@@ -27,18 +27,25 @@ ob_start();
 <p>Realiza la suma de las medidas de los ángulos interiores de cada triángulo e investiga el teorema de la suma de los ángulos interiores de un triángulo y contesta lo siguiente:</p>
 <p>La suma de los ángulos interiores de todo triángulo es igual a:</p>
 
+<div class="md:grid grid-cols-1 mt-5 mb-5">
 <?php
               $accordionItems1 = [
                 [
                   'title' => 'Respuesta',
-                  'content' => '<p>La suma de los ángulos interiores de todo triángulo es igual a 180°</p>
+                  'content' => '<p>La suma de los ángulos interiores de todo triángulo es igual a <strong>180°</strong></p>
                   '
                 ]
               ];
-              renderAccordion($accordionItems1, 'primero-');
+              renderAccordion($accordionItems1, 'primero-', false);
   ?>
+  </div>
 
-<div class="md:grid grid-cols-2 gap-3 items-center mt-5 mb-5">
+<div class="md:grid grid-cols-1 mt-5 mb-5">
+        <div>
+                <?php
+                renderImage('u3t4_img_triangulos_angulos.webp', '', '', '', true);
+                ?>
+        </div>
         <div>
         <?php
               $accordionItems2 = [
@@ -49,13 +56,8 @@ ob_start();
                   '
                 ]
               ];
-              renderAccordion($accordionItems2, 'segundo-');
+              renderAccordion($accordionItems2, 'segundo-', false);
               ?>
-        </div>
-        <div>
-                <?php
-                renderImage('u3t4_img_triangulos_angulos.webp', '', '', '', true);
-                ?>
         </div>
 </div>
 
@@ -66,25 +68,26 @@ ob_start();
 
 <p>Realiza la medición con el transportador de los tres ángulos exteriores. ¿Qué sucede cuando los sumamos?</p>
 
-<div class="md:grid grid-cols-2 gap-3 items-center mt-5 mb-5">
-        <div>
-        <?php
-              $accordionItems3 = [
-                [
-                  'title' => 'Respuesta',
-                  'content' => '<p>La suma de los ángulos externos de todo triángulo es igual a 360°</p>
-                  '
-                ]
-              ];
-              renderAccordion($accordionItems3, 'tercero-');
-              ?>
-        </div>
+<div class="md:grid grid-cols-1 mt-5 mb-5">
         <div>
                 <?php
                 renderImage('u3t4_img_triangulos_angulos2.webp', '', '', '', true);
                 ?>
         </div>
 </div>
+
+        <div>
+        <?php
+              $accordionItems3 = [
+                [
+                  'title' => 'Respuesta',
+                  'content' => '<p>La suma de los ángulos externos de todo triángulo es igual a <strong>360°</strong></p>
+                  '
+                ]
+              ];
+              renderAccordion($accordionItems3, 'tercero-', false);
+              ?>
+        </div>
 
 <div class="md:grid grid-cols-2 gap-3 items-center mt-5 mb-5">
         <div>

@@ -28,7 +28,7 @@ ob_start();
                                 </ul>'
                 ]
               ];
-              renderAccordion($accordionItems1, 'primero-');
+              renderAccordion($accordionItems1, 'primero-', false);
               ?>
     </div>
 

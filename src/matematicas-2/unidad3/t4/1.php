@@ -63,7 +63,7 @@ ob_start();
                   '
                 ]
               ];
-              renderAccordion($accordionItems1, 'primero-');
+              renderAccordion($accordionItems1, 'primero-', false);
               ?>
         </div>
         <div>
@@ -118,7 +118,7 @@ ob_start();
                   '
                 ]
               ];
-              renderAccordion($accordionItems1b, 'primerob-');
+              renderAccordion($accordionItems1b, 'primerob-', false);
     ?>
     <p>Determina si es que es posible formar un triángulo con tres segmentos que tienen las longitudes 13 unidades, 5 unidades y 7 unidades.</p>
 
@@ -134,7 +134,7 @@ ob_start();
                   '
                 ]
               ];
-              renderAccordion($accordionItems2, 'segundo-');
+              renderAccordion($accordionItems2, 'segundo-', false);
     ?>
     <p>si es que es posible formar un triángulo con tres segmentos que tienen las longitudes 13 unidades, 10 unidades y 7 unidades.</p>
 
@@ -150,7 +150,7 @@ ob_start();
                   '
                 ]
               ];
-              renderAccordion($accordionItems3, 'tercero-');
+              renderAccordion($accordionItems3, 'tercero-', false);
     ?>
     <p>Excelente hemos conocido a lo largo de de este aprendizaje características, definiciones y teoremas de los triángulos, continuemos con los siguientes aprendizajes.</p>
 

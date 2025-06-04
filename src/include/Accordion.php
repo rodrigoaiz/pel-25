@@ -1,13 +1,13 @@
 <?php
-function renderAccordion($items, $prefix = '')
+function renderAccordion($items, $prefix = '', $openFirst = true)
 {
   echo '<div class="mt-10" id="' . $prefix . 'accordion-collapse" data-accordion="collapse">';
   $lastIndex = count($items) - 1;
   foreach ($items as $index => $item) {
     $headingId = $prefix . "accordion-collapse-heading-" . ($index + 1);
     $bodyId = $prefix . "accordion-collapse-body-" . ($index + 1);
-    $ariaExpanded = $index === 0 ? 'true' : 'false';
-    $bodyClass = $index === 0 ? '' : 'hidden';
+    $ariaExpanded = ($index === 0 && $openFirst) ? 'true' : 'false';
+    $bodyClass = ($index === 0 && $openFirst) ? '' : 'hidden';
     $roundedClass = $index === 0 ? 'rounded-t-md' : ($index === $lastIndex ? 'rounded-b-md' : '');
     $borderClass = $index === $lastIndex ? 'border-b' : 'border-b-0';
     echo '
