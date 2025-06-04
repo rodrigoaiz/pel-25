@@ -45,7 +45,7 @@ ob_start();
                                     máximo.</strong></p>'
                 ]
               ];
-              renderAccordion($accordionItems1, 'primero-');
+              renderAccordion($accordionItems1, 'primero-', false);
               ?>
             </div>
 
@@ -60,7 +60,7 @@ ob_start();
                   'content' => '<p>A los 4 segundos</p>'
                 ]
               ];
-              renderAccordion($accordionItems1, 'segundo-');
+              renderAccordion($accordionItems1, 'segundo-', false);
               ?>
             </div>
 
@@ -94,7 +94,7 @@ ob_start();
                   'content' => '<p>A los 2 segundos alcanza su máxima altura</p>'
                 ]
               ];
-              renderAccordion($accordionItems1, 'tercero-');
+              renderAccordion($accordionItems1, 'tercero-', false);
               ?>
         </div>
 
@@ -108,7 +108,7 @@ ob_start();
                   'content' => '<p>La altura máxima de acuerdo al vértice es 8 metros.</p>'
                 ]
               ];
-              renderAccordion($accordionItems1, 'cuarto-');
+              renderAccordion($accordionItems1, 'cuarto-', false);
               ?>
         </div>
 

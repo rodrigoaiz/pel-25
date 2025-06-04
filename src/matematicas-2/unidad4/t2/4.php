@@ -98,7 +98,12 @@ ob_start();
             <p>Con el apoyo de los ejemplos anteriores, verifica si la pareja de triángulos del inciso c son
                     semejantes, después puedes verificar la solución con el botón.</p>
 
-<div class="md:grid grid-cols-2 gap-3 items-center">
+<div class="md:grid grid-cols-1">
+        <div>
+                <?php
+                renderImage('u4t2/ejercicio_triangulos_semejantes_c.webp', 'Ejercicio triángulos semejantes c)', '', '', true);
+                ?>
+        </div>
         <div class="mb-10">
         <?php
               $accordionItems1 = [
@@ -112,13 +117,8 @@ ob_start();
                   '
                 ]
               ];
-              renderAccordion($accordionItems1, 'primero-');
+              renderAccordion($accordionItems1, 'primero-', false);
               ?>
-        </div>
-        <div>
-                <?php
-                renderImage('u4t2/ejercicio_triangulos_semejantes_c.webp', 'Ejercicio triángulos semejantes c)', '', '', true);
-                ?>
         </div>
 </div>
 

@@ -127,14 +127,14 @@ ob_start();
 
     <div class="md:grid grid-cols-2 gap-3">
         <div>
-            <a href="https://uapas1.bunam.unam.mx/matematicas/iden_variables/" target="_blank">
+            <a href="https://youtu.be/mZASWSo_92c?si=I5r09Zd6pi5Qm-e-" target="_blank">
                 <?php
                 renderImage('u2t4_banner_parabola.webp', '', '', '');
                 ?>
             </a>
         </div>
         <div>
-        <a href="https://uapas1.bunam.unam.mx/matematicas/iden_variables/" target="_blank">
+        <a href="https://youtu.be/fBqp5VjntKY?si=D3xH9pSJ4_ZslcC8" target="_blank">
             <?php
             renderImage('banner_video_vertices_eje_de_simetria_y_raices.webp', '', '', '');
             ?>

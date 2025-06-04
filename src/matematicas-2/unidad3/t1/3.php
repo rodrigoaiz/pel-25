@@ -37,7 +37,7 @@ ob_start();
                   'content' => '<p>Triángulos, líneas, círculos, rombos y rectángulos.</p>'
                 ]
               ];
-              renderAccordion($accordionItems1, 'primero-');
+              renderAccordion($accordionItems1, 'primero-', false);
               ?>
       </div>
 
@@ -53,7 +53,7 @@ ob_start();
                   'content' => '<p>Rectángulo, triángulos y rombos.</p>'
                 ]
               ];
-              renderAccordion($accordionItems2, 'segundo-');
+              renderAccordion($accordionItems2, 'segundo-', false);
               ?>
       </div>
 
@@ -108,7 +108,7 @@ ob_start();
                             </ol>'
                 ]
               ];
-              renderAccordion($accordionItems3, 'primero-');
+              renderAccordion($accordionItems3, 'tercero-', false);
               ?>
   </div>
 
