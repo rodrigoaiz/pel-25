@@ -26,7 +26,7 @@ ob_start();
       </ul>
     </li>
   </ol>
-  <p><strong>Nota:</strong> Revisa el documento <a href="<?php echo PATH_DOCS . 'u1t3-Rubrica-evaluación-infografias.pdf'; ?>" target="_blank">“Instructivo para realizar una infografía”</a> que te ayudará a realizar mejor esta actividad. También revisa la rúbrica para que sepas cuáles son los criterios con los que se evaluará tu infografía.  </p>
+  <p><strong>Nota:</strong> Revisa el documento <a href="<?php echo PATH_DOCS . 'u1t3-InstructivoParaRealizarUnaInfografía.pdf'; ?>" target="_blank">“Instructivo para realizar una infografía”</a> que te ayudará a realizar mejor esta actividad. También revisa la <a href="<?php echo PATH_DOCS . 'u1t3-Rubrica-evaluación-infografias.pdf'; ?>" target="_blank">"rúbrica</a> para que sepas cuáles son los criterios con los que se evaluará tu infografía.  </p>
 
     <?php ob_start(); ?>
     <?php

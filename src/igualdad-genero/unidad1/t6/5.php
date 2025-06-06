@@ -29,10 +29,10 @@ ob_start();
     </ul>
   <p>Es importante que este ejercicio lo consideres dentro de tu circunstancia como estudiante del CCH y <strong>fundamentes tu respuesta</strong>.</p>
   <li>Lee, con atención, las participaciones y comenta la publicación de, al menos, dos participantes.</li>
-  <li>Revisa la lista de cotejo porque establece los criterios para evaluar tu participación en este foro.</li>
+  <li>Revisa la <a href="<?php echo PATH_DOCS . 'u1t6-Lista-de-cotejo-Foro.pdf'; ?>" target="_blank">lista de cotejo</a> porque establece los criterios para evaluar tu participación en este foro.</li>
   </ol>
 
-      <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+      <!-- <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
         <table class="table-none md:table-fixed text-gray-500 my-0">
           <thead class="text-gray-700 uppercase bg-gray-50">
             <tr>
@@ -86,7 +86,7 @@ ob_start();
                 </tr>
             </tbody>
         </table>
-    </div>
+    </div> -->
 
 
   <p><strong>Nota:</strong> La revisión y valoración sobre la Cartilla de los Derechos Humanos también se puede realizar en plenaria durante la videollamada en Teams.</p>
