@@ -4,14 +4,20 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Tabs.php';
+include PATH_INCLUDE . 'Videos.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h3>Grupos Funcionales</h3>
-    <p>El carbono además de formar compuestos alifáticos y aromáticos, también puede unirse a otros grupos de átomos como el oxígeno, nitrógeno, azufre o fósforo para formar cientos de miles de compuestos. A la unión de átomos como en N, O, o S en las cadenas hidrocarbonadas se les conoce como <strong>grupos funcionales</strong>, los cuales determinan muchas de las propiedades de los compuestos, como pueden ser su estructura, solubilidad y reactividad.</p>
+    <h3>Isómeros</h3>
+    <p>El carbono es capaz de producir una gran variedad de compuestos, cuyas propiedades físicas y químicas están directamente relacionadas con su geometría molecular. Sin embargo, en algunas ocasiones nos podemos encontrar dos o más compuestos con la misma cantidad de átomos (fórmula condensada), pero con diferente acomodo; estas moléculas son llamadas <strong>isómeros</strong>. Para entender más de este concepto, revisa el siguiente video. </p>
+    <div class="max-w-xl mx-auto">
+        <?php
+        renderVideoIframe('_3oF7Qucnrw', 'Bienvenida a la unidad 2.');
+        ?>
+    </div>
     <div class="w-md mx-auto">
         <?php
         renderImage('u2t2_img_molecula_organica.webp', 'Molécula orgánica que muestra distintos grupos funcionales marcados en color. Imagen de WikimedialImages, Pixabay');
@@ -176,7 +182,7 @@ ob_start();
     renderActividad('u2a12', "Memorama Grupos Funcionales", $ActividadContent);
     ?>
 </section>
-
+<link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);
