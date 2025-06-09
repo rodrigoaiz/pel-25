@@ -64,8 +64,9 @@
     "u2a10": { "id": "4691", "moduleName": "hvp" },
     "u2a11": { "id": "4692", "moduleName": "hvp" },
     "u2a12": { "id": "4687", "moduleName": "scorm" },
+    "u2a13": { "id": "4688", "moduleName": "assign" },
 
-    "u2a13": { "id": "4692", "moduleName": "hvp" },
+
     "u2a14": { "id": "4694", "moduleName": "assign" },
     "u2a15": { "id": "4696", "moduleName": "hvp" },
     "u2a16": { "id": "4697", "moduleName": "hvp" },

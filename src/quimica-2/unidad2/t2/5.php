@@ -5,6 +5,7 @@ include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Tabs.php';
 include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ParaSaber.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -15,153 +16,140 @@ ob_start();
     <p>El carbono es capaz de producir una gran variedad de compuestos, cuyas propiedades físicas y químicas están directamente relacionadas con su geometría molecular. Sin embargo, en algunas ocasiones nos podemos encontrar dos o más compuestos con la misma cantidad de átomos (fórmula condensada), pero con diferente acomodo; estas moléculas son llamadas <strong>isómeros</strong>. Para entender más de este concepto, revisa el siguiente video. </p>
     <div class="max-w-xl mx-auto">
         <?php
-        renderVideoIframe('_3oF7Qucnrw', 'Bienvenida a la unidad 2.');
+        renderVideoIframe('RF6ZxmaHnF8', '¿Qué son los isómeros?');
         ?>
     </div>
-    <div class="w-md mx-auto">
+    <p>Hay dos clases principales de isómeros: isómeros estructurales y estereoisómeros, y a su vez estos se pueden dividir en otros grupos:</p>
+    <div class="w-lg mx-auto">
         <?php
-        renderImage('u2t2_img_molecula_organica.webp', 'Molécula orgánica que muestra distintos grupos funcionales marcados en color. Imagen de WikimedialImages, Pixabay');
+        renderImage('u2t2_img_isomeros_clasificacion.webp', 'Clasificación de los Isómeros. Imagen de Morales Félix,', 'https://commons.wikimedia.org/wiki/File:Is%C3%B3meros_clasificaci%C3%B3n.jpg', 'Wikimedia commons');
         ?>
     </div>
-    <p>A continuación, se muestran algunos de los grupos funcionales más importantes en moléculas biológicas.</p>
+    <p>A continuación, se muestran algunos de las clases y grupos de isómeros:</p>
 </section>
 <div class="grid grid-cols-6 gap-4">
     <div class="col-span-4 col-start-2">
         <?= TabsComponent([
             'tabs' => [
                 [
-                    'id' => 'alcoholes',
-                    'label' => 'Alcoholes',
+                    'id' => 'estructurales',
+                    'label' => 'Isómeros estructurales',
                     'content' =>
                     '<div class="grid grid-cols-3 gap-4">
                     <div class="pt-8 pl-4">
-                <img class="mx-auto" src="../../assets/img/u2t2_img_metano_metanol.webp" />
+                <img class="mx-auto" src="../../assets/img/u2t2_img_isomeros.webp" />
                 </div>
                     <div class="col-span-2 pt-16 leading-6">
-                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Alcoholes</p>
-                        <p>Los alcoholes resultan de sustituir uno o varios hidrógenos de los hidrocarburos no aromáticos por el grupo funcional hidroxilo u se representan mediante <span class="font-serif">R-OH</span>. El siguiente diagrama ilustra la relación del alcano más simple, el metano, con el alcohol más simple, el metanol.</p>
-                        <p class="pt-6">Un alcohol se puede representar como <span class="font-serif">ROH</span>, entonces el alcohol metílico (alcohol de madera) se representa <span class="font-serif">CH<sub>3</sub>OH</span>, y el alcohol etílico o etanol (de grano) se representa como <span class="font-serif">CH<sub>3</sub>CH<sub>2</sub>OH</span>. La presencia del grupo <span class="font-serif">–OH</span> (hidroxilo) hace del compuesto un alcohol.</p>
+                        <p class="font-bold text-rose-500 text-lg text-center pb-8">Isómeros estructurales</p>
+                        <p>Los átomos en cada isómero están conectados, o enlazados, de diferentes maneras, tal es el caso del pentano y el 2 metil-butano, que son isómeros entre sí, o del 2 pentanol y el 3 pentanol.</p>
                     </div>
                 </div>'
                 ],
                 [
-                    'id' => 'carbonilo',
-                    'label' => 'Carbonilo',
-                    'content' =>
-                    '<p class="font-bold text-emerald-500 text-lg text-center pb-8">Grupo Carbonilo</p>
-                <p>El grupo carbonilo es un grupo funcional orgánico que consiste en un átomo de carbono y un átomo de oxígeno unidos por un doble enlace. Los compuestos que contienen el grupo carbonilo se llaman compuestos carbonílicos. Los <strong>aldehídos</strong> y las <strong>cetonas</strong> son los tipos más simples de compuestos que contienen el grupo carbonilo. En los aldehídos, el grupo carbonilo se une a un átomo de hidrógeno y a un radical alquilo, con excepción del formaldehído o metanal. En las cetonas, el grupo carbonilo se une a dos radicales alquilo o arilo.</p>
-                    </div>
-                </div>'
-                ],
-                [
-                    'id' => 'aldehidos',
-                    'label' => 'Aldehídos',
+                    'id' => 'cadena',
+                    'label' => 'Cadena',
                     'content' =>
                     '<div class="grid grid-cols-3 gap-4">
                     <div class="pt-8 pl-4">
-                <img class="mx-auto" src="../../assets/img/u2t2_img_aldehido.webp" />
+                <img class="mx-auto" src="../../assets/img/u2t2_img_isomeros_cadena.webp" />
                 </div>
                     <div class="col-span-2 pt-16 leading-6">
-                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Aldehídos</p>
-                        <p>En el caso de que se forme un doble enlace entre un átomo de carbono y el oxígeno denominado grupo carbonilo, puede aparecer en los siguientes tipos de compuestos:</p>
-                        <p class="pt-6">Son aldehídos: el metanal o formaldehído <span class="font-serif">(HCHO)</span> y el etanal o acetaldehído (<span class="font-serif">CH<sub>3</sub>-CHO</span>).</p>
+                        <p class="font-bold text-rose-500 text-lg text-center pb-8">Isómeros estructurales de cadena</p>
+                        <p>Son isómeros cuyas fórmulas difieren únicamente en la posición de los átomos de carbono.</p>
                     </div>
                 </div>'
                 ],
                 [
-                    'id' => 'cetonas',
-                    'label' => 'Cetonas',
+                    'id' => 'posicion',
+                    'label' => 'Posición',
                     'content' =>
                     '<div class="grid grid-cols-3 gap-4">
                     <div class="pt-8 pl-4">
-                <img class="mx-auto" src="../../assets/img/u2t2_img_cetona.webp" />
+                <img class="mx-auto" src="../../assets/img/u2t2_img_isomeros_posicion.webp" />
                 </div>
                     <div class="col-span-2 pt-16 leading-6">
-                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Cetonas</p>
-                        <p>Poseen el grupo carbonilo unido a otros dos átomos de carbono de una cadena y responden a la fórmula tipo: <span class="font-serif">R-CO-R</span>. La cetona más típica es la propanona o acetona de fórmula <span class="font-serif">CH<sub>3</sub>-CO-CH<sub>3</sub></span>.</p>
+                        <p class="font-bold text-rose-500 text-lg text-center pb-8">Isómeros estructurales de posición</p>
+                        <p>Es la que presentan moléculas cuyas estructuras se diferencian en la posición de su grupo funcional.</p>
                     </div>
                 </div>'
                 ],
                 [
-                    'id' => 'carboxilo',
-                    'label' => 'Carboxilo',
+                    'id' => 'funcion',
+                    'label' => 'Función',
                     'content' =>
                     '<div class="grid grid-cols-3 gap-4">
                     <div class="pt-8 pl-4">
-                <img class="mx-auto" src="../../assets/img/u2t2_img_cetona.webp" />
+                <img class="mx-auto" src="../../assets/img/u2t2_img_isomeros_funcion.webp" />
                 </div>
                     <div class="col-span-2 pt-16 leading-6">
-                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Cetonas</p>
-                        <p>Poseen el grupo carbonilo unido a otros dos átomos de carbono de una cadena y responden a la fórmula tipo: <span class="font-serif">R-CO-R</span>. La cetona más típica es la propanona o acetona de fórmula <span class="font-serif">CH<sub>3</sub>-CO-CH<sub>3</sub></span>.</p>
+                        <p class="font-bold text-rose-500 text-lg text-center pb-8">Isómeros estructurales de función</p>
+                        <p>Son aquellos en las que las moléculas difieren en el tipo de grupo funcional.</p>
                     </div>
                 </div>'
                 ],
                 [
-                    'id' => 'acidos',
-                    'label' => 'Carboxílicos',
+                    'id' => 'estereoisomeros',
+                    'label' => 'Estereoisómeros',
+                    'content' =>
+                    '<div class="grid grid-cols-2 gap-4">
+                    <div class="pt-8 pl-4">
+                <img class="mx-auto" src="../../assets/img/u2t2_img_aminoacidos_enantiomeros.webp" />
+                </div>
+                    <div class="pt-16 leading-6">
+                        <p class="font-bold text-rose-500 text-lg text-center pb-8">Estereoisómeros</p>
+                        <p>A diferencia de los Isómeros estructurales, donde los átomos en cada isómero están conectados, o enlazados, de diferentes maneras, en los <strong>estereoisómeros</strong>, los átomos en cada uno de ellos, están conectados de la misma manera pero difieren en cómo se orientan en el espacio. Los estereoisómeros pueden clasificarse como: enantiómeros o diastereómeros.</p>
+                    </div>
+                </div>'
+                ],
+                [
+                    'id' => 'enantiomeros',
+                    'label' => 'Enantiómeros',
+                    'content' =>
+                    '<div class="grid grid-cols-2 gap-4">
+                    <div class="pt-8 pl-4">
+                <img class="mx-auto" src="../../assets/img/u2t2_img_aminoacidos_enantiomeros.webp" />
+                </div>
+                    <div class="pt-12 leading-6">
+                        <p class="font-bold text-rose-500 text-lg text-center pb-8">Enantiómeros</p>
+                        <p>Son imágenes especulares no superponibles, esto significa que las dos moléculas no pueden estar perfectamente alineadas una encima de la otra en el espacio. Los enantiómeros se suelen comparar con las manos derecha e izquierda de una persona, que también son imágenes especulares que no pueden superponerse.</p>
+                    <p>Un ejemplo de ellos es el caso de la L-alanina y la D-alanina (amino)</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-4 gap-4">
+                    <div class="pt-16 col-span-3 leading-6">
+                        <p>La diferencia entre un par de enantiómeros puede parecer muy pequeña, sin embargo, dos enantiómeros pueden tener efectos biológicos muy diferentes, los cuales en algunos casos pueden ser inofensivos, como en el caso de la asparagina saber dulce y amargo) y en otros casos afectar a la salud, como en el caso del ácido 2-etilhexanoico, donde uno de los enantiómeros es teratogénico (causa malformaciones en el feto).</p>
+                    </div>
+                    <div class="pl-1">
+                <img class="mx-auto" src="../../assets/img/u2t2_img_enentiomeros.webp" />
+                </div>
+                </div>'
+                ],
+                [
+                    'id' => 'diasteroisomeros',
+                    'label' => 'Diasteroisómeros',
                     'content' =>
                     '<div class="grid grid-cols-3 gap-4">
                     <div class="pt-8 pl-4">
-                <img class="mx-auto" src="../../assets/img/u2t2_img_cetona.webp" />
+                <img class="mx-auto" src="../../assets/img/u2t2_img_diasteroisomeros.webp" />
                 </div>
                     <div class="col-span-2 pt-16 leading-6">
-                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Cetonas</p>
-                        <p>Poseen el grupo carbonilo unido a otros dos átomos de carbono de una cadena y responden a la fórmula tipo: <span class="font-serif">R-CO-R</span>. La cetona más típica es la propanona o acetona de fórmula <span class="font-serif">CH<sub>3</sub>-CO-CH<sub>3</sub></span>.</p>
+                        <p class="font-bold text-rose-500 text-lg text-center pb-8">Diasteroisómeros</p>
+                        <p>Son moléculas que se diferencian por la disposición espacial de los grupos, pero que no son imágenes especulares, como en el caso de la glucosa y la manosa (carbohidratos), donde solo cambia la orientación de un alcohol.</p>
+                        <p class="font-bold text-fuchsia-950">Un caso particular de diastereómero se da en los isómeros cis-trans.</p>
                     </div>
                 </div>'
                 ],
                 [
-                    'id' => 'esteres',
-                    'label' => 'Ésteres',
+                    'id' => 'cistrans',
+                    'label' => 'Cis-trans',
                     'content' =>
                     '<div class="grid grid-cols-3 gap-4">
                     <div class="pt-8 pl-4">
-                <img class="mx-auto" src="../../assets/img/u2t2_img_cetona.webp" />
+                <img class="mx-auto" src="../../assets/img/u2t2_img_buteno.webp" />
                 </div>
                     <div class="col-span-2 pt-16 leading-6">
-                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Cetonas</p>
-                        <p>Poseen el grupo carbonilo unido a otros dos átomos de carbono de una cadena y responden a la fórmula tipo: <span class="font-serif">R-CO-R</span>. La cetona más típica es la propanona o acetona de fórmula <span class="font-serif">CH<sub>3</sub>-CO-CH<sub>3</sub></span>.</p>
-                    </div>
-                </div>'
-                ],
-                [
-                    'id' => 'eteres',
-                    'label' => 'Éteres',
-                    'content' =>
-                    '<div class="grid grid-cols-3 gap-4">
-                    <div class="pt-8 pl-4">
-                <img class="mx-auto" src="../../assets/img/u2t2_img_cetona.webp" />
-                </div>
-                    <div class="col-span-2 pt-16 leading-6">
-                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Cetonas</p>
-                        <p>Poseen el grupo carbonilo unido a otros dos átomos de carbono de una cadena y responden a la fórmula tipo: <span class="font-serif">R-CO-R</span>. La cetona más típica es la propanona o acetona de fórmula <span class="font-serif">CH<sub>3</sub>-CO-CH<sub>3</sub></span>.</p>
-                    </div>
-                </div>'
-                ],
-                [
-                    'id' => 'aminas',
-                    'label' => 'Aminas',
-                    'content' =>
-                    '<div class="grid grid-cols-3 gap-4">
-                    <div class="pt-8 pl-4">
-                <img class="mx-auto" src="../../assets/img/u2t2_img_cetona.webp" />
-                </div>
-                    <div class="col-span-2 pt-16 leading-6">
-                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Cetonas</p>
-                        <p>Poseen el grupo carbonilo unido a otros dos átomos de carbono de una cadena y responden a la fórmula tipo: <span class="font-serif">R-CO-R</span>. La cetona más típica es la propanona o acetona de fórmula <span class="font-serif">CH<sub>3</sub>-CO-CH<sub>3</sub></span>.</p>
-                    </div>
-                </div>'
-                ],
-                [
-                    'id' => 'amidas',
-                    'label' => 'Amidas',
-                    'content' => '<div class="grid grid-cols-3 gap-4">
-                    <div class="pt-8 pl-4">
-                <img class="mx-auto" src="../../assets/img/u2t2_img_cetona.webp" />
-                </div>
-                    <div class="col-span-2 pt-16 leading-6">
-                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Cetonas</p>
-                        <p>Poseen el grupo carbonilo unido a otros dos átomos de carbono de una cadena y responden a la fórmula tipo: <span class="font-serif">R-CO-R</span>. La cetona más típica es la propanona o acetona de fórmula <span class="font-serif">CH<sub>3</sub>-CO-CH<sub>3</sub></span>.</p>
+                        <p class="font-bold text-rose-500 text-lg text-center pb-8">Isómeros cis-trans</p>
+                        <p>Ocurre cuando los átomos o grupos funcionales están situados en cualquier extremo de un doble enlace carbono carbono. Nos referimos a un isómero cis cuando los sustituyentes están en el mismo lado del doble enlace, mientras que en los isómeros trans los sustituyentes están en el lado contrario.</p>
                     </div>
                 </div>'
                 ],
@@ -170,19 +158,29 @@ ob_start();
     </div>
 </div>
 
+
+<?php ob_start(); ?>
 <section>
-    <p>Ahora que ya viste los conceptos fundamentales de los grupos funcionales, revisa el siguiente material:</p>
+    <p>Ahora que ya sabes lo que son los isómeros, revisa el artículo "El enantiómero bueno, el malo y el feo", de David Palomas, para que te des cuenta de la importancia que tiene la isomería en los seres vivos:</p>
     <div class="max-w-2xl mx-auto m-10">
-        <p class="text-center rounded-lg shadow-md p-2 bg-emerald-700"><a class=" text-gray-50" href="http://objetos.unam.mx/quimica/compuestosDelCarbono/grupos-funcionales/index.html" target="_blank">Grupos funcionales</a></p>
+        <p class="text-center rounded-lg shadow-md p-2 bg-emerald-700"><a class=" text-gray-50" href="https://www.dciencia.es/el-enantiomero-bueno-el-feo-y-el-malo/" target="_blank">El enantiómero bueno, el feo y el malo</a></p>
     </div>
-    <?php ob_start(); ?>
-    <p>Ahora que ya has revisado las estructuras de los grupos funcionales más comunes, anímate a resolver el siguiente memorama.</p>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividad('u2a12', "Memorama Grupos Funcionales", $ActividadContent);
-    ?>
 </section>
-<link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+<?php
+$SaberContent = ob_get_clean();
+renderSaberContent($SaberContent, "Para saber más");
+?>
+<style>
+    .ul-disc {
+        h3 {
+            margin-top: 0;
+        }
+
+        li {
+            margin-top: 0;
+        }
+    }
+</style>
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);
