@@ -23,7 +23,7 @@
         {"nombre": "Propiedades generales del carbono", "url": "/quimica-2/unidad2/t2", "paginas": 6},
         {"nombre": "Fórmulas estructurales de macronutrimentos", "url": "/quimica-2/unidad2/t3", "paginas": 6},
         {"nombre": "Enlaces y reacciones de los macronutrimentos", "url": "/quimica-2/unidad2/t4", "paginas": 6},
-        {"nombre": "Relación estructura-función de los macronutrimentos", "url": "/quimica-2/unidad2/t5", "paginas": 9},
+        {"nombre": "Relación estructura-función de los macronutrimentos", "url": "/quimica-2/unidad2/t5", "paginas": 6},
         {"nombre": "Alimentos como fuente de energía", "url": "/quimica-2/unidad2/t6", "paginas": 4},
         {"nombre": "Medicamentos", "url": "/quimica-2/unidad2/t7", "paginas": 7}
       ]
@@ -65,15 +65,15 @@
     "u2a11": { "id": "4692", "moduleName": "hvp" },
     "u2a12": { "id": "4687", "moduleName": "scorm" },
     "u2a13": { "id": "4688", "moduleName": "assign" },
-    "u2a14": { "id": "4694", "moduleName": "assign" },
-
-    
+    "u2a14": { "id": "4694", "moduleName": "assign" },    
     "u2a15": { "id": "4696", "moduleName": "hvp" },
     "u2a16": { "id": "4697", "moduleName": "hvp" },
     "u2a17": { "id": "4698", "moduleName": "assign" },
-    "u2a18": { "id": "4699", "moduleName": "assign" },
-    "u2a19": { "id": "4700", "moduleName": "hvp" },
+    "u2a18": { "id": "4700", "moduleName": "hvp" },
+    "u2a19": { "id": "4699", "moduleName": "assign" },
     "u2a20": { "id": "4702", "moduleName": "hvp" },
+
+
     "u2a21": { "id": "4704", "moduleName": "assign" },
     "u2a22": { "id": "4706", "moduleName": "assign" },
     "u2a23": { "id": "4707", "moduleName": "hvp" },    
