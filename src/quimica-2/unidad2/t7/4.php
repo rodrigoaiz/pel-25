@@ -14,7 +14,7 @@ ob_start();
     <p>Una de las primeras fuentes de las que se extraen los fármacos son los productos naturales (ya sean
                 organismos o minerales). Generalmente, su estudio surge a raíz de alguna observación de la medicina
                 popular sobre las plantas medicinales. Algunos ejemplos de fármacos de origen natural son:</p>
-            <ul class="list-disc">
+            <ul class="ul-disc">
                 <li><strong>Origen vegetal:</strong> taxol empleado para el tratamiento del cáncer y la morfina usada
                     como analgésico.</li>
                 <li><strong>Origen animal:</strong> insulina para el tratamiento de la diabetes.</li>
@@ -64,7 +64,7 @@ ob_start();
                     'content' =>
                     '<div class="grid grid-cols-2 gap-4">
                     <div class="pt-8 pl-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/grIwO8qymac?si=b7TrHcYR32XzYH0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6OaByDQqVCI?si=BxROz6E5bIxScsAt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                     <div class="pt-10 leading-6">
                         <p class="font-bold text-purple-500 text-lg text-center pb-8">Extracción soxhlet</p>

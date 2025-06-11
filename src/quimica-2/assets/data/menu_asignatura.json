@@ -73,9 +73,7 @@
     "u2a19": { "id": "4699", "moduleName": "assign" },
     "u2a20": { "id": "4702", "moduleName": "hvp" },
     "u2a21": { "id": "4704", "moduleName": "assign" },
-    "u2a22": { "id": "4706", "moduleName": "assign" },
-
-    
+    "u2a22": { "id": "4706", "moduleName": "assign" },    
     "u2a23": { "id": "4707", "moduleName": "hvp" },    
     "u2a24": { "id": "4708", "moduleName": "assign" },
     "u2a25": { "id": "4709", "moduleName": "forum" },
