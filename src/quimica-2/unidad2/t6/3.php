@@ -31,9 +31,6 @@ ob_start();
         renderVideoIframe('CYGh1pEaO4o', 'Reacciones de oxidación y aporte calórico de alimentos.');
         ?>
     </div>
-
-
-
 </section>
 
 <?php
