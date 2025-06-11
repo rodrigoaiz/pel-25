@@ -21,27 +21,27 @@ ob_start();
     </div>
     <div class="w-md mx-auto m-10">
         <p class="text-center rounded-lg shadow-md p-2 bg-orange-500">
-            <a class=" text-gray-50" href="../../assets/docs/enlacecovalente.pptx" target="_blank">Enlace químico y enlace covalente</a>
+            <a class=" text-gray-50" href="<?php echo PATH_DOCS . 'enlacecovalente.pdf'; ?>" target="_blank">Enlace químico y enlace covalente</a>
         </p>
     </div>
-        <p>Un enlace covalente puede ser sencillo, doble o triple, dependiendo del número de electrones que se comparten. Los primeros dos enlaces se presentan en los macronutrimentos, el triple enlace lo podemos observar en los hidrocarburos, que son los compuestos más simples que el carbono forma.</p>
-        <div class="w-lg mx-auto">
-            <?php
-            renderImage('u2t2_img_enlace_sencillo_doble_triple.webp', 'Enlace sencillo, doble o triple.');
-            ?>
-        </div>
-        <p>En la siguiente figura ejemplificamos los enlaces covalentes sencillo y doble en tres estructuras de macronutrimentos:</p>
-        <div class="w-md-2 mx-auto">
-            <?php
-            renderImage('u2t2_img_proteina.webp', 'Proteína.');
-            ?>
-        </div>
-        <?php ob_start(); ?>
-        <p>Es momento de participar en la siguiente actividad.</p>
+    <p>Un enlace covalente puede ser sencillo, doble o triple, dependiendo del número de electrones que se comparten. Los primeros dos enlaces se presentan en los macronutrimentos, el triple enlace lo podemos observar en los hidrocarburos, que son los compuestos más simples que el carbono forma.</p>
+    <div class="w-lg mx-auto">
         <?php
-        $ActividadContent = ob_get_clean();
-        renderActividad('u2a13', "Química del carbono", $ActividadContent);
+        renderImage('u2t2_img_enlace_sencillo_doble_triple.webp', 'Enlace sencillo, doble o triple.');
         ?>
+    </div>
+    <p>En la siguiente figura ejemplificamos los enlaces covalentes sencillo y doble en tres estructuras de macronutrimentos:</p>
+    <div class="w-md-2 mx-auto">
+        <?php
+        renderImage('u2t2_img_proteina.webp', 'Proteína.');
+        ?>
+    </div>
+    <?php ob_start(); ?>
+    <p>Es momento de participar en la siguiente actividad.</p>
+    <?php
+    $ActividadContent = ob_get_clean();
+    renderActividad('u2a13', "Química del carbono", $ActividadContent);
+    ?>
 </section>
 
 <?php
