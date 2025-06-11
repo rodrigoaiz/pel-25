@@ -2,8 +2,8 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Tabs.php';
+include PATH_INCLUDE . 'ParaSaber.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -38,14 +38,14 @@ ob_start();
             'tabs' => [
                 [
                     'id' => 'arrastre',
-                    'label' => 'Alcoholes',
+                    'label' => 'Arrastre',
                     'content' =>
-                    '<div class="grid grid-cols-3 gap-4">
+                    '<div class="grid grid-cols-2 gap-4">
                     <div class="pt-8 pl-4">
-                <img class="mx-auto" src="../../assets/img/u2t2_img_metano_metanol.webp" />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/grIwO8qymac?si=b7TrHcYR32XzYH0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                    <div class="col-span-2 pt-16 leading-6">
-                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Extracción por arrastre de vapor</p>
+                    <div class="pt-10 leading-6">
+                        <p class="font-bold text-purple-500 text-lg text-center pb-8">Extracción por arrastre de vapor</p>
                         <p>La destilación por arrastre de vapor es una técnica de destilación que permite la
                                 separación de sustancias insolubles en H2O y ligeramente volátiles de otros productos no
                                 volátiles.</p>
@@ -59,112 +59,104 @@ ob_start();
                 </div>'
                 ],
                 [
-                    'id' => 'carbonilo',
-                    'label' => 'Carbonilo',
+                    'id' => 'soxhlet',
+                    'label' => 'Soxhlet',
                     'content' =>
-                    '<div class="pt-8 pl-4">
-                    <p class="font-bold text-emerald-500 text-lg text-center pb-8">Grupo Carbonilo</p>
-                <p>El grupo carbonilo es un grupo funcional orgánico que consiste en un átomo de carbono y un átomo de oxígeno unidos por un doble enlace. Los compuestos que contienen el grupo carbonilo se llaman compuestos carbonílicos. Los <strong>aldehídos</strong> y las <strong>cetonas</strong> son los tipos más simples de compuestos que contienen el grupo carbonilo. En los aldehídos, el grupo carbonilo se une a un átomo de hidrógeno y a un radical alquilo, con excepción del formaldehído o metanal. En las cetonas, el grupo carbonilo se une a dos radicales alquilo o arilo.</p>
-                    </div>'
-                ],
-                [
-                    'id' => 'aldehidos',
-                    'label' => 'Aldehídos',
-                    'content' =>
-                    '<div class="grid grid-cols-3 gap-4">
+                    '<div class="grid grid-cols-2 gap-4">
                     <div class="pt-8 pl-4">
-                <img class="mx-auto" src="../../assets/img/u2t2_img_aldehido.webp" />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/grIwO8qymac?si=b7TrHcYR32XzYH0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                    <div class="col-span-2 pt-16 leading-6">
-                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Aldehídos</p>
-                        <p>En el caso de que se forme un doble enlace entre un átomo de carbono y el oxígeno denominado grupo carbonilo, puede aparecer en los siguientes tipos de compuestos:</p>
-                        <p class="pt-6">Son aldehídos: el metanal o formaldehído <span class="font-serif">(HCHO)</span> y el etanal o acetaldehído (<span class="font-serif">CH<sub>3</sub>-CHO</span>).</p>
+                    <div class="pt-10 leading-6">
+                        <p class="font-bold text-purple-500 text-lg text-center pb-8">Extracción soxhlet</p>
+                        <p>Consiste en el lavado sucesivo de una mezcla sólida con un determinado disolvente, dentro
+                                de los más comunes se encuentran el etanol, metanol, diclorometano y hexano. Se emplea
+                                un aparato llamado <strong>soxhlet</strong>, que permite que por medio de la evaporación
+                                y condensación del disolvente se genere un lavado sucesivo que va extrayendo del
+                                material vegetal los componentes más solubles en él. Este proceso aumenta
+                                considerablemente la cantidad de extracto obtenido debido al efecto acumulado de los
+                                múltiples lavados. Consulta el siguiente video en el que se muestra la extracción
+                                soxhlet del estafiate:</p>
                     </div>
                 </div>'
                 ],
                 [
-                    'id' => 'cetonas',
-                    'label' => 'Cetonas',
+                    'id' => 'destilacion',
+                    'label' => 'Destilación',
                     'content' =>
-                    '<div class="grid grid-cols-3 gap-4">
+                    '<div class="grid grid-cols-2 gap-4">
                     <div class="pt-8 pl-4">
-                <img class="mx-auto" src="../../assets/img/u2t2_img_cetona.webp" />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ywP5WymgiPY?si=uV57XGIKfc72YvWl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                    <div class="col-span-2 pt-10 leading-6">
-                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Cetonas</p>
-                        <p>Poseen el grupo carbonilo unido a otros dos átomos de carbono de una cadena y responden a la fórmula tipo: <span class="font-serif">R-CO-R</span>. La cetona más típica es la propanona o acetona de fórmula <span class="font-serif">CH<sub>3</sub>-CO-CH<sub>3</sub></span>.</p>
+                    <div class="pt-10 leading-6">
+                        <p class="font-bold text-purple-500 text-lg text-center pb-8">Destilación a presión reducida</p>
+                        <p>En este proceso, se disminuye la presión en el sistema con la finalidad de provocar una
+                                disminución del punto de ebullición del componente que se pretende destilar. Se utiliza
+                                fundamentalmente cuando el punto de ebullición del compuesto a destilar es superior a la
+                                temperatura de descomposición química del producto de interés. Revisa el siguiente video
+                                donde se observa el funcionamiento de dicho proceso empleando un rotavapor: </p>
                     </div>
                 </div>'
                 ],
                 [
-                    'id' => 'carboxilo',
-                    'label' => 'Carboxilo',
+                    'id' => 'filtracion',
+                    'label' => 'Filtración',
                     'content' =>
-                    '<div class="pt-10 pl-4">
-                    <p class="font-bold text-emerald-500 text-lg text-center pb-8">Grupo Carboxilo</p>
-                <p>El grupo carboxilo <span class="font-serif">-COOH</span>, está formado por la unión (en el mismo átomo de carbono) del grupo carbonilo y el grupo hidroxilo <span class="font-serif">-OH</span>.</p>
+                    '<div class="py-8 pl-4">
+                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Filtración</p>
+                        <p>Es un método que permite separar sólidos no disueltos de líquidos, haciendo pasar la mezcla a través de un material poroso (filtro). En el caso de la purificación de compuestos a partir de extractos de plantas es muy común emplear una variante llamada filtración a presión reducida.</p>
                     </div>'
                 ],
                 [
-                    'id' => 'acidos',
-                    'label' => 'Carboxílicos',
+                    'id' => 'filtracion_reducida',
+                    'label' => 'Filtración a presión reducida',
                     'content' =>
-                    '<div class="grid grid-cols-3 gap-4">
-                    <div class="pt-16 pl-4">
-                <img class="mx-auto" src="../../assets/img/u2t2_img_acido_propanoico.webp" />
+                    '<div class="grid grid-cols-2 gap-4">
+                    <div class="pt-8 pl-4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qyBKuMpmGIc?si=IN6On19ZRjt0wIql" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                    <div class="col-span-2 pt-2 leading-6">
-                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Ácidos carboxílicos</p>
-                        <p>El grupo carboxilo tiene un marcado carácter ácido, por lo que cuando se une a un radical forman los ácidos carboxílicos. Ejemplos de este tipo de compuestos son el ácido metanoico <span class="font-serif">HCOOH</span>, el ácido etanoico o acético <span class="font-serif">CH<sub>3</sub>-COOH</span> y el ácido propanóico <span class="font-serif">CH<sub>3</sub>-CH2-COOH</span></p>
-                        <p class="pt-6">Las propiedades de un ácido orgánico se deben a la presencia en una molécula del grupo funcional llamado ácido carboxílico que comúnmente se escribe como <span class="font-serif">-COOH</span>. En disolución acuosa se libera el hidrógeno como ión <span class="font-serif">H+</span>. Entonces podemos representar un ácido orgánico con la fórmula general <span class="font-serif">RCOOH</span>. En el ácido acético (el ácido presente en el vinagre),<span class="font-serif">R</span> es <span class="font-serif">-CH<sub>3</sub></span> un grupo metil, por lo que su fórmula es <span class="font-serif">CH<sub>3</sub>-COOH</span>.</p>
+                    <div class="pt-10 leading-6">
+                        <p class="font-bold text-purple-500 text-lg text-center pb-8">Filtración a presión reducida</p>
+                        <p>Este tipo de filtración se utiliza cuando nos interesa el sólido o cuando la filtración
+                                por gravedad se ralentiza mucho, requiere de un mecanismo que logre generar un vacío
+                                moderado en el interior de un recipiente, para lo que se suele conectar una bomba de
+                                vacío a un embudo tipo Büchner, el cual es un embudo fabricado en cerámica, cerrado por
+                                el fondo y agujereado por el centro, con la finalidad de dejar pasar el líquido que
+                                queramos filtrar. El fondo del embudo se cubre con un papel de filtro, donde quedará
+                                retenido el sólido.</p>
+                            <p>En el siguiente video podrás observar este proceso:</p>
                     </div>
                 </div>'
                 ],
                 [
-                    'id' => 'esteres',
-                    'label' => 'Ésteres',
+                    'id' => 'cromatografia',
+                    'label' => 'Cromatografía',
                     'content' =>
-                    '<div class="pt-16 pl-4">
-                    <p class="font-bold text-emerald-500 text-lg text-center pb-8">Ésteres</p>
-                <p>Son sales de los ácidos carboxílicos que resultan de la combinación de un ácido carboxílico con un alcohol.</p>
-                <img class="mx-auto mt-8" src="../../assets/img/u2t2_img_esteres.webp" />
-                    </div>'
-                ],
-                [
-                    'id' => 'eteres',
-                    'label' => 'Éteres',
-                    'content' =>
-                    '<div class="pt-10 pl-4">
-                    <p class="font-bold text-emerald-500 text-lg text-center pb-8">Éteres</p>
-                <p>Se obtienen por combinación de dos moléculas de alcohol y con formación de una molécula de agua como subproducto. El agua se origina por la unión del (<span class="font-serif">OH</span>) de un alcohol con el átomo de hidrógeno del (<span class="font-serif">OH</span>) del otro alcohol.</p>
-                <p class="pt-6">Podemos encontrar dos tipos de éteres: simples como éter-etil-etílico (<span class="font-serif">CH<sub>3</sub>CH<sub>2</sub>-O-CH<sub>2</sub>CH<sub>3</sub></span>) o mixto como éter-etil-propílico (<span class="font-serif">CH<sub>3</sub>CH<sub>2</sub>-O-CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>)</p>
-                <img class="mx-auto mt-8" src="../../assets/img/u2t2_img_reaccion_eter.webp" />
-                    </div>'
-                ],
-                [
-                    'id' => 'aminas',
-                    'label' => 'Aminas',
-                    'content' =>
-                    '<div class="grid grid-cols-3 gap-4">
-                    <div class="pt-8 pl-4">
-                <img class="mx-auto" src="../../assets/img/u2t2_img_etilmetilamina.webp" />
+                    '<div class="grid grid-cols-2 gap-4">
+                    <div class="...">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4IyGp6tqFqA?si=6GwPB2_HAd0C0hep" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rHeH3cOm_nI?si=kuYmQ3kJraZxBJ9F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                    <div class="col-span-2 pt-4 leading-6">
-                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Aminas (grupo amino)</p>
-                        <p>Son compuestos orgánicos que contienen nitrógeno. Se pueden considerar como derivados del amoníaco <span class="font-serif">NH3</span> en donde se sustituye uno, dos o los tres átomos de hidrógeno por una cadena de hidrocarburo. La metilamina <span class="font-serif">CH<sub>3</sub>-NH<sub>2</sub></span> o la etilmetilamina <span class="font-serif">CH<sub>3</sub>-CH<sub>2</sub>-NH-CH<sub>3</sub></span> son ejemplos de este tipo de compuestos.</p>
-                    </div>
-                </div>'
-                ],
-                [
-                    'id' => 'amidas',
-                    'label' => 'Amidas',
-                    'content' => '<div class="grid grid-cols-3 gap-4">
-                    <div class="pt-8 pl-4">
-                <img class="mx-auto" src="../../assets/img/u2t2_img_urea.webp" />
-                </div>
-                    <div class="col-span-2 pt-10 leading-6">
-                        <p class="font-bold text-emerald-500 text-lg text-center pb-8">Amidas</p>
-                        <p>Se considera que derivan de la sustitución de un grupo hidroxilo (<span class="font-serif">-OH</span>) de un ácido carboxílico por el grupo (<span class="font-serif">-NH<sub>2</sub></span>), por tanto responde a la fórmula <span class="font-serif">R-CO-NH<sub>2</sub></span>. Una amida muy importante es la diamida (dos grupos de <span class="font-serif">-NH<sub>2</sub></span>) del ácido carbónico (<span class="font-serif">H<sub>2</sub>CO<sub>3</sub></span>). Se le conoce como urea y se encuentra en la orina de los mamíferos.</p>
+                    <div class="pt-10 leading-6">
+                    <p class="font-bold text-purple-500 text-lg text-center pb-8">Cromatografía</p>
+                        <p>Es un método físico de separación en el que los componentes que se han de separar se
+                                distribuyen entre dos fases, una de las cuales está en reposo (fase estacionaria),
+                                mientras que la otra (fase móvil) se mueve en una dirección definida. De manera general
+                                podemos dividir este proceso en dos tipos:</p>
+                            <ul class="ul-disc mt-8">
+                                <li><strong>Cromatografía en capa fina:</strong> la fase estacionaria se encuentra
+                                    recubriendo algún soporte plano como puede ser vidrio, aluminio o papel. Dicho
+                                    soporte se pone en contacto con un disolvente (fase móvil) que subirá a través de la
+                                    fase estacionaria por capilaridad arrastrando consigo a los diferentes compuestos y
+                                    separándolos de acuerdo a la afinidad que existe entre las moléculas orgánicas y
+                                    ambas fases. Es decir aquellos componentes que sean más afines con la fase móvil, se
+                                    desplazarán a la parte superior, mientras que aquellos más afines a la fase
+                                    estacionaria se quedarán en la parte inferior.</li>
+                                <li><strong>Cromatografía en columna:</strong> en este tipo de cromatografía la fase
+                                    estacionaria se coloca dentro de una columna que puede ser de vidrio o acero
+                                    inoxidable. La muestra se coloca en el extremo superior de la columna y se deja
+                                    descender con la fase móvil utilizando la gravedad. El siguiente video muestra cómo
+                                    se lleva a cabo este proceso:</li>
+                            </ul>
                     </div>
                 </div>'
                 ],
@@ -173,18 +165,28 @@ ob_start();
     </div>
 </div>
 
+<?php ob_start(); ?>
 <section>
-    <p>Ahora que ya viste los conceptos fundamentales de los grupos funcionales, revisa el siguiente material:</p>
+    <p>De manera opcional, se recomienda leer el artículo "Natural no necesariamente significa seguro o mejor":</p>
     <div class="max-w-2xl mx-auto m-10">
-        <p class="text-center rounded-lg shadow-md p-2 bg-emerald-700"><a class=" text-gray-50" href="http://objetos.unam.mx/quimica/compuestosDelCarbono/grupos-funcionales/index.html" target="_blank">Grupos funcionales</a></p>
+        <p class="text-center rounded-lg shadow-md p-2 bg-emerald-700"><a class=" text-gray-50" href="https://www.nccih.nih.gov/health/espanol/conozca-la-ciencia/natural-no-necesariamente-significa-seguro-o-mejor" target="_blank">Natural no necesariamente significa seguro o mejor</a></p>
     </div>
-    <?php ob_start(); ?>
-    <p>Ahora que ya has revisado las estructuras de los grupos funcionales más comunes, anímate a resolver el siguiente memorama.</p>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividad('u2a12', "Memorama Grupos Funcionales", $ActividadContent);
-    ?>
 </section>
+<?php
+$SaberContent = ob_get_clean();
+renderSaberContent($SaberContent, "Para saber más");
+?>
+<style>
+    .ul-disc {
+        h3 {
+            margin-top: 0;
+        }
+
+        li {
+            margin-top: 0;
+        }
+    }
+</style>
 
 <?php
 $content = ob_get_clean();
