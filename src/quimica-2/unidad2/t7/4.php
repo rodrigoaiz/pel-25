@@ -10,21 +10,34 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h3>Grupos Funcionales</h3>
-    <p>El carbono además de formar compuestos alifáticos y aromáticos, también puede unirse a otros grupos de átomos como el oxígeno, nitrógeno, azufre o fósforo para formar cientos de miles de compuestos. A la unión de átomos como en N, O, o S en las cadenas hidrocarbonadas se les conoce como <strong>grupos funcionales</strong>, los cuales determinan muchas de las propiedades de los compuestos, como pueden ser su estructura, solubilidad y reactividad.</p>
-    <div class="w-md mx-auto">
+    <h3>Obtención de principios activos a partir de productos naturales</h3>
+    <p>Una de las primeras fuentes de las que se extraen los fármacos son los productos naturales (ya sean
+                organismos o minerales). Generalmente, su estudio surge a raíz de alguna observación de la medicina
+                popular sobre las plantas medicinales. Algunos ejemplos de fármacos de origen natural son:</p>
+            <ul class="list-disc">
+                <li><strong>Origen vegetal:</strong> taxol empleado para el tratamiento del cáncer y la morfina usada
+                    como analgésico.</li>
+                <li><strong>Origen animal:</strong> insulina para el tratamiento de la diabetes.</li>
+                <li><strong>Aislado de microorganismos:</strong> penicilina, usada como antibiótico.</li>
+                <li><strong>Origen mineral:</strong> yodo, sales de calcio, sales de magnesio. </li>
+            </ul>
+    <div class="w-xl mx-auto">
         <?php
-        renderImage('u2t2_img_molecula_organica.webp', 'Molécula orgánica que muestra distintos grupos funcionales marcados en color. Imagen de WikimedialImages, Pixabay');
+        renderImage('u2t7_taxol_morfina.webp', 'Imagen que muestra la estructura de dos fármacos naturales, así como la planta de la cual se aísla.');
         ?>
     </div>
-    <p>A continuación, se muestran algunos de los grupos funcionales más importantes en moléculas biológicas.</p>
+    <p>Recordemos que en las plantas existe un gran número de moléculas orgánicas llamadas metabolitos
+                secundarios. Dichas moléculas se encuentran presentes como mezclas complejas, por lo que es
+                indispensable su separación y purificación. A continuación se muestran algunos de los métodos de
+                extracción y purificación más empleados:</p>
+
 </section>
 <div class="grid grid-cols-6 gap-4">
     <div class="col-span-4 col-start-2">
         <?= TabsComponent([
             'tabs' => [
                 [
-                    'id' => 'alcoholes',
+                    'id' => 'arrastre',
                     'label' => 'Alcoholes',
                     'content' =>
                     '<div class="grid grid-cols-3 gap-4">
@@ -32,9 +45,16 @@ ob_start();
                 <img class="mx-auto" src="../../assets/img/u2t2_img_metano_metanol.webp" />
                 </div>
                     <div class="col-span-2 pt-16 leading-6">
-                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Alcoholes</p>
-                        <p>Los alcoholes resultan de sustituir uno o varios hidrógenos de los hidrocarburos no aromáticos por el grupo funcional hidroxilo u se representan mediante <span class="font-serif">R-OH</span>. El siguiente diagrama ilustra la relación del alcano más simple, el metano, con el alcohol más simple, el metanol.</p>
-                        <p class="pt-6">Un alcohol se puede representar como <span class="font-serif">ROH</span>, entonces el alcohol metílico (alcohol de madera) se representa <span class="font-serif">CH<sub>3</sub>OH</span>, y el alcohol etílico o etanol (de grano) se representa como <span class="font-serif">CH<sub>3</sub>CH<sub>2</sub>OH</span>. La presencia del grupo <span class="font-serif">–OH</span> (hidroxilo) hace del compuesto un alcohol.</p>
+                        <p class="font-bold text-indigo-500 text-lg text-center pb-8">Extracción por arrastre de vapor</p>
+                        <p>La destilación por arrastre de vapor es una técnica de destilación que permite la
+                                separación de sustancias insolubles en H2O y ligeramente volátiles de otros productos no
+                                volátiles.</p>
+                            <p>Consiste en hacer fluir vapor de agua a través del material vegetal, provocando que los
+                                compuestos volátiles (con bajo punto de ebullición) se separen del material vegetal en
+                                forma de vapor. Posteriormente, el vapor se condensa con ayuda de un refrigerante,
+                                obteniéndose así los compuestos de interés. En el siguiente video se muestra el proceso
+                                de destilación por arrastre de vapor en la obtención de <em>cinamaldehído</em> a partir
+                                de la Canela (ver hasta el minuto 3:18).</p>
                     </div>
                 </div>'
                 ],
