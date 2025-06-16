@@ -72,7 +72,7 @@ module.exports = {
           to: 'assets/docs/[name][ext]', // Carpeta de destino en `dist`
         },
         {
-          from: 'src/**/assets/docs/**/*.{doc,docx,pdf,xls,xlsx}', // Copia todos los documentos desde cualquier subdirectorio
+          from: 'src/**/assets/docs/**/*.{doc,docx,pdf,xls,xlsx,pptx,ppt}', // Copia todos los documentos desde cualquier subdirectorio
           to: ({ context, absoluteFilename }) => {
             const relativePath = path.relative(context, absoluteFilename);
             return relativePath.replace(/^src[\\/]/, ''); // Mantiene la estructura de directorios
