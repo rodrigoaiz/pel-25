@@ -22,7 +22,7 @@ ob_start();
           ?>
         </div>
       </div>
-  <p>En esta sección podrás aprender a identificar los <i>machismos cotidianos</i> (antes denominados <i>micromachismos</i>), para ello te pedimos que realices la lectura de <a href="<?php echo PATH_DOCS . 'u1t3-Lectura_MirandoConLupaFeministaLosMicromachismosEnTrabajoDeCuidadosYDoméstico_Act.3.5.pdf'; ?>" target="_blank">"Mirando con lupa feminista los micromachismos en el trabajo de cuidados y doméstico"</a> y al terminar revises el contenido que se presenta.</p>
+  <p>En esta sección podrás aprender a identificar los <i>machismos cotidianos</i> (antes denominados <i>micromachismos</i>), para ello te pedimos que realices la lectura de <a href="<?php echo PATH_DOCS . 'u1t3-Lectura_MirandoConLupa_Act.3.5.pdf'; ?>" target="_blank">"Mirando con lupa feminista los micromachismos en el trabajo de cuidados y doméstico"</a> y al terminar revises el contenido que se presenta.</p>
   <p>El material disponible tiene la finalidad de ayudarte a proponer soluciones a casos específicos donde están presentes conductas machistas, promoviendo la reflexión crítica y la búsqueda de igualdad en las dinámicas de poder cotidianas.</p>
   <h3>Micromachismos: En realidad son machismos cotidianos</h3>
   <p>El artículo "Mirando con lupa feminista los micromachismos en el trabajo de cuidados y doméstico" de Pilar Alberti ofrece un análisis profundo y revelador sobre las sutilezas del machismo en el ámbito privado. A continuación, se destacan los puntos más importantes de su investigación.</p>
@@ -80,7 +80,7 @@ ob_start();
         <?php
         renderImage('u1t3-micromachismos-ig1.webp');
         ?>
-      </div>  
+      </div>
       <div class="max-2xl mx-auto">
         <?php
         renderImage('u1t3-micromachismos-ig2.webp');

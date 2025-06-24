@@ -22,8 +22,8 @@ ob_start();
   <ol class="ol-number">
     <li> A partir de los siguientes artículos, reflexiona acerca de los orígenes de la disparidad de condiciones sociales entre hombre y mujeres, desde el origen de la propiedad privada y la repartición primitiva del trabajo.</li>
     <ul class="ul-disc">
-      <li><a href="<?php echo PATH_DOCS . 'u1t3-Lectura_QuéEsElPatriarcado_Act.3.2.pdf'; ?>" target="_blank">¿Qué es el patriarcado?</a></li>
-      <li><a href="<?php echo PATH_DOCS . 'u1t3-Lectura_CómoComenzóElPatriarcado_Act.3.2.pdf'; ?>" target="_blank">Cómo comenzó el patriarcado (y cuán posible es que la evolución se deshaga de él)</a></li>
+      <li><a href="<?php echo PATH_DOCS . 'u1t3-Lectura_QueEsElPatriarcado_Act.3.2.pdf'; ?>" target="_blank">¿Qué es el patriarcado?</a></li>
+      <li><a href="<?php echo PATH_DOCS . 'u1t3-Lectura_ComoComenzoElPatriarcado_Act.3.2.pdf'; ?>" target="_blank">Cómo comenzó el patriarcado (y cuán posible es que la evolución se deshaga de él)</a></li>
     </ul>
     <li>Escribe un texto donde expliques los siguientes puntos:</li>
       <ul class="ul-disc">
