@@ -20,7 +20,7 @@ ob_start();
   <p>Socializar las perspectivas que se han revisado a lo largo de las actividades acerca de los derechos humanos.</p>
   <p>Instrucciones:</p>
   <ol class="ol-number">
-    <li>Realiza una lectura cuidadosa de los treinta artículos que contiene <a href="<?php echo PATH_DOCS . 'u1t6-Lectura_TextoPersona_Act.6.4.pdf'; ?>" target="_blank">La Declaración Universal de los Derechos Humanos</a>.</li>
+    <li>Realiza una lectura cuidadosa de los treinta artículos que contiene <a href="<?php echo PATH_DOCS . 'u1t6-Declaracion-Universal-DH.pdf'; ?>" target="_blank">La Declaración Universal de los Derechos Humanos</a>.</li>
     <li>Localiza los artículos que ofrecen protección a las personas y las circunstancias y formas concretas de malos tratos y explotación.</li>
     <li><strong>Accede al foro “Derechos Humanos”</strong>. Recuerda que este foro tiene como intención el intercambio de perspectivas acerca de los derechos humanos que has consultado. Las siguientes preguntas te servirán como guía para redactar tu participación:</li>
     <ul class="ul-disc">
@@ -54,18 +54,18 @@ ob_start();
             <tbody class="text-center">
                 <tr class="bg-white border-b border-gray-200">
                     <th scope="row" class="px-6 py-2 font-medium text-gray-900 text-lg text-center">
-                  Escribe respuestas claras y argumentadas a las preguntas planteadas. Su aportación enriquece la discusión del foro. 
+                  Escribe respuestas claras y argumentadas a las preguntas planteadas. Su aportación enriquece la discusión del foro.
                     </th>
                     <td class="px-6 py-2 font-medium text-gray-900 text-lg text-center">
-                   4 
+                   4
                     </td>
                 </tr>
                 <tr class="bg-white border-b border-gray-200">
                     <th scope="row" class="px-6 py-2 font-medium text-gray-900 text-lg text-center">
-                  Comenta de manera clara, respetuosa y argumentada, la opinión de al menos dos de sus pares. 
+                  Comenta de manera clara, respetuosa y argumentada, la opinión de al menos dos de sus pares.
                     </th>
                     <td class="px-6 py-2 font-medium text-gray-900 text-lg text-center">
-                   4 
+                   4
                     </td>
                 </tr>
                 <tr class="bg-white border-b border-gray-200">
@@ -73,7 +73,7 @@ ob_start();
                   Se expresa utilizando adecuadamente el lenguaje y siguiendo las reglas ortográficas, gramáticas y sintaxis del idioma español.
                     </th>
                     <td class="px-6 py-2 font-medium text-gray-900 text-lg text-center">
-                   2 
+                   2
                     </td>
                 </tr>
                 <tr class="bg-white border-b border-gray-200">
@@ -81,7 +81,7 @@ ob_start();
                   Total
                     </th>
                     <td class="px-6 py-2 font-medium text-gray-900 text-lg text-center">
-                   
+
                     </td>
                 </tr>
             </tbody>

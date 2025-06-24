@@ -26,15 +26,15 @@ ob_start();
     <li>A partir de la información que encuentres en ellos, elabora una nota periodística que presente, con perspectiva de género, las ideas principales del caso (nombres, fechas, lugares y acontecimientos, a partir de las preguntas <em>¿qué? ¿cuándo? ¿dónde? ¿por qué? ¿quién?</em></li>
     <li>Agrega a esta nota periodística, a partir de tus conocimientos previos sobre el tema, una definición propia del concepto feminicidio.</li>
     <li>Coloca en este espacio tu trabajo en formato Word o PDF, con una extensión mínima de una cuartilla y máxima de cuartilla y media. Nombra el archivo de la siguiente manera: Nombre_Apellido_NotaPeriodistica_Ingrid</li>
-    <li>Para elaborar tu trabajo, puedes consultar el fragmento de <a href="<?php echo PATH_DOCS . 'u2t9-Lectura_UnManualUrgenteParaLaCoberturaDeViolenciaContraLasMujeresyFeminicidiosEnMéxico_Act.9.1.pdf'; ?>" target="_blank"><em>Un manual urgente para la cobertura de violencia contra las mujeres y feminicidios en México</em></a> (ONU Mujeres, 2021).</li>
+    <li>Para elaborar tu trabajo, puedes consultar el fragmento de <a href="<?php echo PATH_DOCS . 'u2t9-Lectura_UnManualUrgenteParaLaCoberturaDeViolencia_Act.9.1.pdf'; ?>" target="_blank"><em>Un manual urgente para la cobertura de violencia contra las mujeres y feminicidios en México</em></a> (ONU Mujeres, 2021).</li>
   </ol>
 
     <ul class="ul-disc">
-      <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_AUnAñoDelFeminicidioDeIngridEscamilla_Act.9.1.pdf'; ?>" target="_blank">A un año del feminicidio de Ingrid Escamilla</a></li>
-      <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_FeminicidioDeIngridEscamilla_PorQuéElAsesinatoDeLaJovenHaProvocadoProtestasEnMéxico_Act.9.1.pdf'; ?>" target="_blank">Feminicidio de Ingrid Escamilla: Por qué el asesinato de la joven ha provocado protestas en México</a></li>
-      <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_IngridEscamillaHabíaDenunciadoASuParejaPorViolenciaSePediráPenaMáxima_Act.9.1.pdf'; ?>" target="_blank">Ingrid Escamilla había denunciado a su pareja por violencia. Se pedirá la pena máxima</a></li>
+      <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_AUnAnoDelFeminicidioDeIngridEscamilla_Act.9.1.pdf'; ?>" target="_blank">A un año del feminicidio de Ingrid Escamilla</a></li>
+      <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_FeminicidioDeIngridEscamilla_Act.9.1.pdf'; ?>" target="_blank">Feminicidio de Ingrid Escamilla: Por qué el asesinato de la joven ha provocado protestas en México</a></li>
+      <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_IngridEscamillaHabiaDenunciado_Act.9.1.pdf'; ?>" target="_blank">Ingrid Escamilla había denunciado a su pareja por violencia. Se pedirá la pena máxima</a></li>
       <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_IngridEscamillaErickFranciscoRobledoElFeminicida_Act.9.1.pdf'; ?>" target="_blank">¿Quién es Erick Francisco Robledo? Todo sobre el feminicida de Ingrid Escamilla</a></li>
-      <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_IngridySuAsesinoTeníanUnaRelación‘Extraña’Vecinos_Act.9.1.pdf'; ?>" target="_blank">Ingrid y su asesino tenían una relación ´extraña´ vecinos</a></li>
+      <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_IngridySuAsesino_Act.9.1.pdf'; ?>" target="_blank">Ingrid y su asesino tenían una relación ´extraña´ vecinos</a></li>
     </ul>
 
   <p><strong>Nota:</strong> Para el logro del objetivo planteado para esta actividad, puede adaptarse la exposición o entrega de un tipo textual distinto a la nota periodística, en tanto que permita la revisión del caso del feminicidio de Ingrid Escamilla y el reconocimiento de los tipos de violencia de género presentes en la relación entre la víctima y el agresor.</p>

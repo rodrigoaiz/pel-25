@@ -37,7 +37,7 @@ ob_start();
       <li>Dignidad</li>
     </ul>
     <li>Recuerda que los conceptos que agregues en tu glosario deberás ilustrarlos con imágenes, fotografías o dibujos.</li>
-    <li>Revisa la <a href="<?php echo PATH_DOCS . 'u1t6-Rubrica_GlosarioDeTérminosIlustrado_Act.6.4.pdf'; ?>" target="_blank">rúbrica</a> para verificar qué elementos se tomarán en cuenta para evaluar tu trabajo.</li>
+    <li>Revisa la <a href="<?php echo PATH_DOCS . 'u1t6-Rubrica_GlosarioDeTerminosIlustrado_Act.6.4.pdf'; ?>" target="_blank">rúbrica</a> para verificar qué elementos se tomarán en cuenta para evaluar tu trabajo.</li>
     <li>Sube tu archivo del glosario en PDF y nómbralo de la siguiente forma: Nombre_Apellido_Glosario</li>
     <p><strong>Nota:</strong> Puedes compartir en clase tu glosario de términos ilustrado y observa con atención el trabajo de tus compañeras y compañeros.</p>
   </ol>

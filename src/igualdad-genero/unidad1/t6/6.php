@@ -27,12 +27,12 @@ ob_start();
   <ol class="ol-number">
     <li>Realiza <strong>una cartografía sobre tu personalidad para reconocer tu ser en el mundo y cómo te estás desarrollando</strong>. En clave de <strong>Derechos Humanos, reflexiona si hay o no obstáculos que te impidan el desarrollo de tu personalidad</strong>. La sugerencia es que, al hacer esta representación, te ubiques existencialmente en tu condición de <strong>estudiante del CCH</strong> e identifiques aspectos que vulneren tus derechos humanos.
       <br><br>
-    Para hacer esta cartografía, te pedimos que dibujes, usa colores de madera o plumones, pero trata de construir tus propios símbolos que estarán albergados en esta representación. La representación gráfica debe ir acompañada de uno o dos párrafos que la expliquen.  
+    Para hacer esta cartografía, te pedimos que dibujes, usa colores de madera o plumones, pero trata de construir tus propios símbolos que estarán albergados en esta representación. La representación gráfica debe ir acompañada de uno o dos párrafos que la expliquen. 
     </li>
-    <li>Revisa la <a href="<?php echo PATH_DOCS . 'u1t6-ListaDeCotejo_CartografíaIndividual_Act.6.6.pdf'; ?>" target="_blank">lista de cotejo</a> que se te proporciona para verificar que tu trabajo cumple satisfactoriamente con lo solicitado.</li>
+    <li>Revisa la <a href="<?php echo PATH_DOCS . 'u1t6-ListaDeCotejo_CartografiaIndividual_Act.6.6.pdf'; ?>" target="_blank">lista de cotejo</a> que se te proporciona para verificar que tu trabajo cumple satisfactoriamente con lo solicitado.</li>
     <li>Al finalizar, <strong>toma una fotografía de tu cartografía</strong>.</li>
     <li>Sube el archivo en esta tarea. El archivo (en formato JPG, PNG o PDF) debe ser nombrado de la siguiente forma: Nombre_Apellido_Cartografía_individual.</li>
-    <p>Nota: Te compartimos <a href="<?php echo PATH_DOCS . 'u1t6-EjemplosDeCartografías_Act.6.6.pdf'; ?>" target="_blank">dos ejemplos</a> de cartografías para que te inspires a realizar la tuya. Resultará muy valioso compartir en clase tu cartografía, así como observar el trabajo de tus compañeras, compañeros y compañeres. Recuerda que la actividad debe desarrollarse en un ambiente de respeto y tolerancia. </p>
+    <p>Nota: Te compartimos <a href="<?php echo PATH_DOCS . 'u1t6-EjemplosDeCartografias_Act.6.6.pdf'; ?>" target="_blank">dos ejemplos</a> de cartografías para que te inspires a realizar la tuya. Resultará muy valioso compartir en clase tu cartografía, así como observar el trabajo de tus compañeras, compañeros y compañeres. Recuerda que la actividad debe desarrollarse en un ambiente de respeto y tolerancia. </p>
   </ol>
 
   <?php ob_start(); ?>

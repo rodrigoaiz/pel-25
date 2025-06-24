@@ -18,7 +18,7 @@ ob_start();
   <h3>Instrucciones</h3>
 
   <ol class="ol-number">
-    <li>A continuación, te compartimos fragmentos dos documentos: un fragmento del <a href="<?php echo PATH_DOCS . 'u2t9-Lectura_CodigoPenalArtículos302y325_Act.9.4.pdf'; ?>" target="_blank">Código Penal Federal</a> y <a href="<?php echo PATH_DOCS . 'u2t9-Lectura_ProtocoloNacionalParaLaActuaciónPolicialAnteCasosDeViolenciaContraLasMujeresYFeminicidio_Act.9.4.pdf'; ?>" target="_blank">el Protocolo Nacional para la actualización policial ante casos de violencia.</a> Con ambos documentos, las autoridades (policías de investigación, jueces, magistrados) atienden, con perspectiva de género, los casos de feminicidio en México.</li>
+    <li>A continuación, te compartimos fragmentos dos documentos: un fragmento del <a href="<?php echo PATH_DOCS . 'u2t9-Lectura_CodigoPenalArticulos302y325_Act.9.4.pdf'; ?>" target="_blank">Código Penal Federal</a> y <a href="<?php echo PATH_DOCS . 'u2t9-Lectura_ProtocoloNacionalParaLaActuacionPolicial_Act.9.4.pdf'; ?>" target="_blank">el Protocolo Nacional para la actualización policial ante casos de violencia.</a> Con ambos documentos, las autoridades (policías de investigación, jueces, magistrados) atienden, con perspectiva de género, los casos de feminicidio en México.</li>
     <li>Realiza la lectura de estos textos y recupera de ellos (subraya o toma notas en tu cuaderno) las ideas que consideres esenciales de los mismos, teniendo como guía las siguientes preguntas:</li>
     <ul class="ul-disc">
       <li>¿Cuáles son algunos de los instrumentos normativos nacionales e internacionales en los que se sustentan dichos documentos?</li>

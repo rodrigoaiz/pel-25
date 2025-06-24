@@ -34,7 +34,7 @@ ob_start();
         <li><a href="https://www.canva.com/es_mx/" target="_blank">Canva</a></li>
       </ul>
     </li>
-    <li>Revisa la <a href="<?php echo PATH_DOCS . 'u2t9-Rubrica_InfografíaFeminicidiovsHomicidio_Act.9.5.pdf'; ?>" target="_blank">rúbrica</a> para que conozcas cuáles son los criterios con los que se evaluará tu infografía.</li>
+    <li>Revisa la <a href="<?php echo PATH_DOCS . 'u2t9-Rubrica_InfografiaFeminicidiovsHomicidio_Act.9.5.pdf'; ?>" target="_blank">rúbrica</a> para que conozcas cuáles son los criterios con los que se evaluará tu infografía.</li>
   </ol>
 
     <?php ob_start(); ?>

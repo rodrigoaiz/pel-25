@@ -23,7 +23,7 @@ ob_start();
   <ol class="ol-number">
     <li>A partir de la revisión de los antecedentes y datos generales del caso de Ingrid Escamilla, elabora un cuadro <a href="<?php echo PATH_DOCS . 'u2t9-violencia-de-genero-en-caso de-feminicidio.docx'; ?>" target="_blank">(organizador gráfico de tres columnas adjunto a esta publicación)</a> que clasifique, defina y ejemplifique los tipos de violencia de género, vistos en aprendizajes anteriores, y en el cual se observe la violencia de género presente en la relación de la joven con su agresor.</li>
     <li>Coloca en este espacio tu trabajo en formato PDF. Nombra el archivo de la siguiente manera: Nombre_Apellido_OrganizadorGrafico_Ingrid</li>
-    <li>Revisa la <a href="<?php echo PATH_DOCS . 'u2t9-Rubrica_CuadroTiposDeViolenciaDeGéneroEncasosDeFeminicidio_Act.9.2.pdf'; ?>" target="_blank">rúbrica</a> para que conozcas los criterios de evaluación de tu organizador.</li>
+    <li>Revisa la <a href="<?php echo PATH_DOCS . 'u2t9-Rubrica_CuadroTiposDeViolenciaDeGeneroEncasosDeFeminicidio_Act.9.2.pdf'; ?>" target="_blank">rúbrica</a> para que conozcas los criterios de evaluación de tu organizador.</li>
   </ol>
 
     <?php ob_start(); ?>
