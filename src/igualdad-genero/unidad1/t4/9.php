@@ -25,8 +25,8 @@ ob_start();
         <li>Incluyan en sus conclusiones su opinión sobre la masculinidad del personaje analizado.</li>
         <li>Socialicen su collage con el grupo durante la sesión sincrónica de TEAMS.</li>
         <li>Participen en la coevaluación del collage de otro equipo, que les será asignado por su docente.</li>
-        <li>Descarguen el archivo adjunto que contiene la rúbrica para valorar la calidad del trabajo de sus compañer*s.</li>
-        <li>Cuando terminen de coevaluar a sus pares, uno de ustedes publicará el archivo de la rúbrica como respuesta a sus compañer*s en este foro.</li>
+        <li>Descarguen el archivo adjunto que contiene la <a href="<?php echo PATH_DOCS . 'u1t4-Lista-de-Cotejo-Collage-texto-reflexivo_A4_8.docx'; ?>" target="_blank">lista de cotejo</a> para valorar la calidad del trabajo de sus compañer*s.</li>
+        <li>Cuando terminen de coevaluar a sus pares, uno de ustedes publicará el archivo de la lista de cotejo como respuesta a sus compañer*s en este foro.</li>
     </ol>
     <?php ob_start(); ?>
     <p>Participa aquí en el foro.</p>

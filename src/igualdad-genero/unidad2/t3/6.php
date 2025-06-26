@@ -16,7 +16,7 @@ ob_start();
           renderImage('u2t3-iga9-img05.webp');
           ?>
         </div>
-      <p>A menudo escuchamos las palabras "homicidio" y "feminicidio", y aunque ambos términos se refieren a la privación de la vida de una persona, existen diferencias fundamentales que debemos comprender. Estas diferencias no son solo una cuestión de palabras, sino que reflejan las causas, los contextos y las motivaciones detrás de estos actos de violencia. En el apartado anterior revisaste documentos que pueden ayudarte a ir reflexionando a las características que tiene el delito de feminicidio y esta nueva actividad podrás plasmar lo que has ido comprendiendo del tema.</p>
+      <p>Es común escuchar las palabras "homicidio" y "feminicidio" y, aunque ambos términos se refieren a la privación de la vida de una persona, existen diferencias fundamentales que debemos comprender. Su distinción refleja las causas, los contextos y las motivaciones detrás de estos actos de violencia. En el apartado anterior, revisaste documentos que pueden ayudarte a reflexionar sobre las características que tiene el delito de feminicidio. Ahora, en esta actividad, podrás plasmar lo que has ido comprendiendo del tema para establecer una diferenciación clara entre ambos delitos y reconocer, de manera más asertiva, el fenómeno del feminicidio.</p>
     </div>
 
   <h3>Propósito</h3>

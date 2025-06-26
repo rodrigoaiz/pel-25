@@ -29,7 +29,7 @@ ob_start();
       <li>Retomen las lecturas previas:
         <ul class="ul-disc">
           <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_FeminicidioMarcelaLagarde_Act.9.11.pdf'; ?>" target="_blank">¿A qué llamamos feminicidio?</a> de Marcela Lagarde.</li>
-          <li>“Sus contrapúblicos. Otra narrativa para apropiar nuestros cuerpos” en <a href="<?php echo PATH_DOCS . 'u2t9-Lectura_NarrarElCuerpoDeLasVictimasDeFeminicidio_Act.9.11.pdf'; ?>" target="_blank">Narrar el cuerpo de las víctimas de feminicidio: el crimen de Francisco Robledo, sus públicos y contrapúblicos.</a></li>
+          <li>“<a href="<?php echo PATH_DOCS . 'u2t9-Lectura_NarrarElCuerpoDeLasVictimasDeFeminicidio_Act.9.11.pdf'; ?>" target="_blank">Sus contrapúblicos. Otra narrativa para apropiar nuestros cuerpos</a>” en Narrar el cuerpo de las víctimas de feminicidio: el crimen de Francisco Robledo, sus públicos y contrapúblicos.</li>
           <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_LeyIngrid_Act.9.10.pdf'; ?>" target="_blank">“Ley Ingrid, avalan cárcel a quien difunda o filtre imágenes de víctimas de feminicidios”</a>.</li>
         </ul>
       </li>

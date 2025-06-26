@@ -16,7 +16,7 @@ ob_start();
     ?>
   </div>
 
-  <p>Reconocer los tipos y manifestaciones de violencia de género como antecedentes a la violencia feminicida.</p>
+  <p>Propósito: Reconocer los tipos y manifestaciones de violencia de género como antecedentes a la violencia feminicida.</p>
 
   <h3>Instrucciones:</h3>
 
