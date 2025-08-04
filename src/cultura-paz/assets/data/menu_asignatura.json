@@ -6,12 +6,10 @@
       "publicado": true,
       "nombre": "Unidad 1",
       "temas": [
-        {"nombre": "Perspectiva de género y cultura de igualdad", "url": "/cultura-paz/unidad1/t1", "paginas": 7},
-        {"nombre": "La categoría de perspectiva de género como herramienta para estudiar la desigualdad", "url": "/cultura-paz/unidad1/t2", "paginas": 8},
-        {"nombre": "Análisis de las relaciones de poder y campos de dominación desde la desigualdad de género", "url": "/cultura-paz/unidad1/t3", "paginas": 8},
-        {"nombre": "Identificación y cuestionamiento de los presupuestos de la masculinidad tradicional ", "url": "/cultura-paz/unidad1/t4", "paginas": 10},
-        {"nombre": "La importancia de construir una cultura de la igualdad ", "url": "/cultura-paz/unidad1/t5", "paginas": 7},
-        {"nombre": "La noción de persona como fundamento de los derechos humanos ", "url": "/cultura-paz/unidad1/t6", "paginas": 9}
+        {"nombre": "Autoconocimiento", "url": "/cultura-paz/unidad1/t1", "paginas": 3},
+        {"nombre": "Revisión de contenidos", "url": "/cultura-paz/unidad1/t2", "paginas": 3},
+        {"nombre": "Empatía, escucha activa y comunicación asertiva", "url": "/cultura-paz/unidad1/t3", "paginas": 1},
+        {"nombre": "Límites y consentimiento en la convivencia", "url": "/cultura-paz/unidad1/t4", "paginas": 1}
       ]
     },
     "Unidad 2": {
