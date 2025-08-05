@@ -7,8 +7,8 @@ function renderActividadH5P($htmlFileName, $h5pTitulo = "Actividad H5P", $h5pCon
   $pathSegmentsH5P = explode('/', trim($urlPathH5P, '/'));
   $asignaturaNameH5P = $pathSegmentsH5P[1]; // Obtener el nombre de la asignatura
   
-  // Construir la ruta del archivo HTML en assets/h5p/
-  $htmlPathH5P = BASE_PATH . '/' . $asignaturaNameH5P . '/assets/h5p/' . $htmlFileName . '.html';
+  // Construir la ruta del archivo HTML en assets/h5p/ (compatible con Windows y Unix)
+  $htmlPathH5P = BASE_PATH . DIRECTORY_SEPARATOR . $asignaturaNameH5P . DIRECTORY_SEPARATOR . 'assets' . DIRECTORY_SEPARATOR . 'h5p' . DIRECTORY_SEPARATOR . $htmlFileName . '.html';
   
   // Icono fijo para H5P
   $iconPathH5P = PATH_ICONS . 'h5pactivity.svg';
