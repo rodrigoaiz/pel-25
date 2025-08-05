@@ -22,7 +22,7 @@ ob_start();
     <p>Sube aquí tu trabajo.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t1a3', "Cuadro de trabajo: Emociones, límites y consentimiento en la convivencia.", $ActividadContent);
+    renderActividad('u1t1a2', "Cuadro de trabajo: Emociones, límites y consentimiento en la convivencia.", $ActividadContent);
     ?>
 </section>
 

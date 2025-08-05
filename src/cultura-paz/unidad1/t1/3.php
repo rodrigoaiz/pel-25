@@ -25,7 +25,7 @@ ob_start();
   ?>
   <p>A continuación, te pedimos que leas el siguiente texto, el cual incluye todos los conceptos que se revisarán en la unidad.</p>
   <div class="w-4/5 mx-auto mt-6 bg-orange-300 rounded-xl p-1">
-    <p class="text-white text-center"><a class="text-orange-700" href="https://gamma.app/docs/Identidad-y-empatia-claves-para-el-desarrollo-personal-y-la-convi-up729z7unzksfhx?mode=doc" target="_blank">Identidad y empatía: claves para el desarrollo personal y la convivencia.</a></p>
+    <p class="text-white text-center"><a class="text-orange-700" href="https://gamma.app/docs/Identidad-y-empatia-claves-para-el-desarrollo-personal-y-la-convi-up729z7unzksfhx?mode=present#card-u0bboohguoxme2l" target="_blank">Identidad y empatía: claves para el desarrollo personal y la convivencia.</a></p>
   </div>
 </section>
 
