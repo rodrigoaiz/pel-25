@@ -22,8 +22,15 @@ ob_start();
         <li><span class="text-emerald-600 font-bold">A nivel relacional</span>, la cultura de la paz se traduce en la habilidad para construir vínculos saludables y respetuosos a través de una comunicación efectiva y asertiva.</li>
         <li><span class="text-emerald-600 font-bold">En el ámbito social</span>, la cultura de la paz se expande para abarcar la promoción de estructuras justas e inclusivas. Esto significa fomentar la equidad y el respeto a los derechos humanos.</li>
     </ul>
-    <?php ob_start(); ?>
     <p>A continuación, para cerrar esta unidad, realiza la siguiente actividad.</p>
+    <p><strong>Instrucciones:</strong></p>
+    <ol class="ol-number ml-32">
+        <li>Descarga el formato: <a href="<?php echo PATH_DOCS . 'act-1-cuadro-trabajo-conociendome-mejor.docx'; ?>" target="_blank">act-1-cuadro-trabajo-conociendome-mejor</a>.</li>
+        <li>Responde las preguntas de la tabla.</li>
+        <li>Guarda tu archivo y súbelo.</li>
+    </ol>
+    <?php ob_start(); ?>
+    <p>Sube aquí tu trabajo.</p>
     <?php
     $ActividadContent = ob_get_clean();
     renderActividad('u2t3a4', "¿Cómo puedo contribuir a la construcción de la cultura de paz?", $ActividadContent);

@@ -18,6 +18,12 @@ ob_start();
         ?>
     </div>
     <p class="mt-2">Para concluir con esta unidad pon en práctica lo aprendido realizando la siguiente actividad:</p>
+    <p><strong>Instrucciones:</strong></p>
+    <ol class="ol-number ml-32">
+        <li>Descarga el formato: <a href="<?php echo PATH_DOCS . 'act-2-cuadro-trabajo-situaciones-comparativas.docx'; ?>" target="_blank">act-2-cuadro-trabajo-situaciones-comparativas</a>.</li>
+        <li>Responde las preguntas de la tabla.</li>
+        <li>Guarda tu archivo y súbelo.</li>
+    </ol>
     <?php ob_start(); ?>
     <p>Sube aquí tu trabajo.</p>
     <?php

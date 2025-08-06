@@ -27,9 +27,9 @@
       "publicado": true,
       "nombre": "Unidad 3",
       "temas": [
-        {"nombre": "Paz positiva vs. paz negativa", "url": "/cultura-paz/unidad3/t1", "paginas": 3},
-        {"nombre": "Violencia directa, estructural y cultural", "url": "/cultura-paz/unidad3/t2", "paginas": 1},
-        {"nombre": "Cultura de la paz en lo personal, relacional y social", "url": "/cultura-paz/unidad3/t3", "paginas": 1}
+        {"nombre": "Tipos de conflicto: personales, escolares y sociales", "url": "/cultura-paz/unidad3/t1", "paginas": 3},
+        {"nombre": "Estrategias de resolución: negociacion, mediacion y dialogo", "url": "/cultura-paz/unidad3/t2", "paginas": 1},
+        {"nombre": "Pensamiento crítico y toma de decisiones éticas", "url": "/cultura-paz/unidad3/t3", "paginas": 2}
       ]
     },
     "Unidad 4": {
@@ -54,13 +54,13 @@
     }
   },
   "actividades": {
-    "u1t1a1": { "id": "251", "moduleName": "assign" },
-    "u1t1a2": { "id": "253", "moduleName": "assign" },
+    "u1t1a1": { "id": "5030", "moduleName": "assign" },
+    "u1t1a2": { "id": "5031", "moduleName": "assign" },
 
-    "u2t1a1": { "id": "262", "moduleName": "forum" },
-    "u2t1a2": { "id": "257", "moduleName": "assign" },
-    "u2t2a3": { "id": "257", "moduleName": "assign" },
-    "u2t3a4": { "id": "257", "moduleName": "assign" },
+    "u2t1a1": { "id": "5032", "moduleName": "forum" },
+    "u2t1a2": { "id": "5033", "moduleName": "assign" },
+    "u2t2a3": { "id": "5034", "moduleName": "quiz" },
+    "u2t3a4": { "id": "5035", "moduleName": "assign" },
 
     "u3t1a1": { "id": "258", "moduleName": "assign" },
     "u3t2a2": { "id": "259", "moduleName": "assign" },
