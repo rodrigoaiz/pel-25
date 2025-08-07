@@ -2,102 +2,122 @@
   "nombreAsignatura": "Historia Universal 2",
   "asignatura": {
     "Unidad 1": {
-      "url": "/historia-/unidad1/t1/1.php",
+      "url": "/historia-universal-2/unidad1/t1/1.php",
       "publicado": true,
       "nombre": "Unidad 1",
       "temas": [
-        {"nombre": "Perspectiva de género y cultura de igualdad", "url": "/historia-/unidad1/t1", "paginas": 7},
-        {"nombre": "La categoría de perspectiva de género como herramienta para estudiar la desigualdad", "url": "/historia-/unidad1/t2", "paginas": 8},
-        {"nombre": "Análisis de las relaciones de poder y campos de dominación desde la desigualdad de género", "url": "/historia-/unidad1/t3", "paginas": 8},
-        {"nombre": "Identificación y cuestionamiento de los presupuestos de la masculinidad tradicional ", "url": "/historia-/unidad1/t4", "paginas": 10},
-        {"nombre": "La importancia de construir una cultura de la igualdad ", "url": "/historia-/unidad1/t5", "paginas": 7},
-        {"nombre": "La noción de persona como fundamento de los derechos humanos ", "url": "/historia-/unidad1/t6", "paginas": 9}
+        {"nombre": "La crisis de 1873 y el capitalismo imperialista.", "url": "/historia-universal-2/unidad1/t1", "paginas": 3},
+        {"nombre": "El nuevo colonialismo", "url": "/historia-universal-2/unidad1/t2", "paginas": 1},
+        {"nombre": "La Primera Guerra Mundial", "url": "/historia-universal-2/unidad1/t3", "paginas": 3},
+        {"nombre": "Formas de vida socio-cultural en el inicio de la sociedad de masas: ciudad-campo, metrópoli-colonia", "url": "/historia-universal-2/unidad1/t4", "paginas": 5}
       ]
     },
     "Unidad 2": {
-      "url": "/historia-/unidad2/t1/1.php",
+      "url": "/historia-universal-2/unidad2/t1/1.php",
       "publicado": true,
       "nombre": "Unidad 2",
       "temas": [
-        {"nombre": "Violencia de género, sus características, ámbitos y forma de ejercerla como un problema de salud pública y de bienestar social", "url": "/historia-/unidad2/t1", "paginas": 12},
-        {"nombre": "Identificación de las concepciones y prácticas sociales dañinas asociadas al amor romántico para cuestionar y proponer alternativas", "url": "/historia-/unidad2/t2", "paginas": 6},
-        {"nombre": "Reconoce la violencia feminicida como la forma de expresión más extrema de la violencia de género para cuestionar y proponer alternativas", "url": "/historia-/unidad2/t3", "paginas": 12},
-        {"nombre": "Fortalecer actitudes y valores de responsabilidad, respeto y convivencia con los demás", "url": "/historia-/unidad2/t4", "paginas": 8}
+        {"nombre": "Origen y desarrollo de la Revolución rusa como nuevo sistema político y económico", "url": "/historia-universal-2/unidad2/t1", "paginas": 2},
+        {"nombre": "Entreguerras: crisis capitalista, fascismo, new deal", "url": "/historia-universal-2/unidad2/t1", "paginas": 2},
+        {"nombre": "La Segunda Guerra Mundial: Desarrollo y consecuencias", "url": "/historia-universal-2/unidad2/t1", "paginas": 3},
+        {"nombre": "Características económicas, políticas y sociales de América Latina en la primera mitad del siglo XX y el intervencionismo de los Estados Unidos en esa región", "url": "/historia-universal-2/unidad2/t1", "paginas": 3},
+        {"nombre": "Vanguardias Artísticas del Siglo XX: Explorando la Revolución Creativa", "url": "/historia-universal-2/unidad2/t1", "paginas": 4}
+      ]
+    },
+    "Unidad 3": {
+      "url": "/historia-universal-2/unidad3/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 3",
+      "temas": [
+        {"nombre": "Formación del mundo bipolar", "url": "/historia-universal-2/unidad3/t1", "paginas": 5},
+        {"nombre": "Proceso de descolonización en Asia y África", "url": "/historia-universal-2/unidad3/t2", "paginas": 5},
+        {"nombre": "Principales conflictos de la guerra fría", "url": "/historia-universal-2/unidad3/t3", "paginas": 2},
+        {"nombre": "Política de los Estados Unidos para América Latina", "url": "/historia-universal-2/unidad3/t4", "paginas": 3},
+        {"nombre": "Crisis del Estado benefactor", "url": "/historia-universal-2/unidad3/t5", "paginas": 4},
+        {"nombre": "La contracultura y los movimientos sociales en oposición a los sistemas capitalista y socialista", "url": "/historia-universal-2/unidad3/t6", "paginas": 7}
+      ]
+    },
+    "Unidad 4": {
+      "url": "/historia-universal-2/unidad4/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 4",
+      "temas": [
+        {"nombre": "El capitalismo actual: globalización, neoliberalismo y crisis", "url": "/historia-universal-2/unidad4/t1", "paginas": 4},
+        {"nombre": "Nuevo sistema multipolar y su relación con algunos proyectos nacionales", "url": "/historia-universal-2/unidad4/t2", "paginas": 4},
+        {"nombre": "Cultura, posmodernidad o pensamiento crítico", "url": "/historia-universal-2/unidad4/t3", "paginas": 4}
       ]
     }
   },
   "actividades": {
-    "u1t1a1": { "id": "251", "moduleName": "quiz" },
-    "u1t1a2": { "id": "253", "moduleName": "quiz" },
-    "u1t1a3": { "id": "254", "moduleName": "assign" },
-    "u1t1a4": { "id": "255", "moduleName": "quiz" },
+    "u1t1a1": { "id": "5050", "moduleName": "quiz" },
+    "u1t1a2": { "id": "5051", "moduleName": "h5p" },
+    "u1t1a3": { "id": "5052", "moduleName": "h5p" },
+    "u1t1a4": { "id": "5053", "moduleName": "assign" },
 
-    "u1t2a1": { "id": "262", "moduleName": "quiz" },
-    "u1t2a2": { "id": "257", "moduleName": "quiz" },
-    "u1t2a3": { "id": "258", "moduleName": "assign" },
-    "u1t2a4": { "id": "259", "moduleName": "assign" },
-    "u1t2a5": { "id": "260", "moduleName": "assign" },
-    "u1t2a6": { "id": "261", "moduleName": "assign" },
+    "u1t2a1": { "id": "5055", "moduleName": "h5p" },
+    "u1t2a2": { "id": "5056", "moduleName": "h5p" },
+    "u1t2a3": { "id": "5057", "moduleName": "forum" },
 
-    "u1t3a1": { "id": "263", "moduleName": "quiz" },
-    "u1t3a2": { "id": "264", "moduleName": "forum" },
-    "u1t3a3": { "id": "265", "moduleName": "assign" },
-    "u1t3a4": { "id": "266", "moduleName": "forum" },
-    "u1t3a5": { "id": "267", "moduleName": "forum" },
-    "u1t3a6": { "id": "268", "moduleName": "quiz" },
+    "u1t3a1": { "id": "5059", "moduleName": "h5p" },
+    "u1t3a2": { "id": "5060", "moduleName": "h5p" },
 
-    "u1t4a1": { "id": "269", "moduleName": "assign" },
-    "u1t4a2": { "id": "270", "moduleName": "assign" },
-    "u1t4a3": { "id": "271", "moduleName": "quiz" },
-    "u1t4a4": { "id": "272", "moduleName": "forum" },
-    "u1t4a5": { "id": "273", "moduleName": "forum" },
+    "u1t4a1": { "id": "5062", "moduleName": "h5p" },
+    "u1t4a2": { "id": "5063", "moduleName": "assign" },
+    "u1t4a3": { "id": "5064", "moduleName": "h5p" },
+    "u1t4a4": { "id": "5065", "moduleName": "quiz" },
 
-    "u1t5a1": { "id": "278", "moduleName": "quiz" },
-    "u1t5a2": { "id": "274", "moduleName": "assign" },
-    "u1t5a3": { "id": "275", "moduleName": "assign" },
-    "u1t5a4": { "id": "276", "moduleName": "assign" },
-    "u1t5a5": { "id": "277", "moduleName": "assign" },
+    "u2t1a1": { "id": "5067", "moduleName": "quiz" },
+    "u2t1a2": { "id": "5068", "moduleName": "h5p" },
+    "u2t1a3": { "id": "5069", "moduleName": "h5p" },
 
-    "u1t6a1": { "id": "279", "moduleName": "quiz" },
-    "u1t6a2": { "id": "280", "moduleName": "assign" },
-    "u1t6a3": { "id": "281", "moduleName": "assign" },
-    "u1t6a4": { "id": "282", "moduleName": "assign" },
-    "u1t6a5": { "id": "283", "moduleName": "forum" },
-    "u1t6a6": { "id": "284", "moduleName": "assign" },
-    "u1t6a7": { "id": "285", "moduleName": "assign" },
-    "u1t6a8": { "id": "286", "moduleName": "assign" },
+    "u2t2a1": { "id": "5071", "moduleName": "h5p" },
+    "u2t2a2": { "id": "5072", "moduleName": "h5p" },
 
-    "u2t7a1": { "id": "287", "moduleName": "quiz" },
-    "u2t7a2": { "id": "288", "moduleName": "hvp" },
-    "u2t7a3": { "id": "289", "moduleName": "h5pactivity" },
-    "u2t7a4": { "id": "290", "moduleName": "hvp" },
-    "u2t7a5": { "id": "291", "moduleName": "h5pactivity" },
-    "u2t7a6": { "id": "292", "moduleName": "hvp" },
-    "u2t7a7": { "id": "293", "moduleName": "assign" },
-    "u2t7a8": { "id": "294", "moduleName": "hvp" },
-    "u2t7a9": { "id": "295", "moduleName": "hvp" },
-    "u2t7a10": { "id": "296", "moduleName": "forum" },
+    "u2t3a1": { "id": "5074", "moduleName": "h5p" },
+    "u2t3a2": { "id": "5075", "moduleName": "h5p" },
+    "u2t3a3": { "id": "5076", "moduleName": "forum" },
+    "u2t3a4": { "id": "5077", "moduleName": "assign" },
 
-    "u2t8a1": { "id": "297", "moduleName": "assign" },
-    "u2t8a2": { "id": "298", "moduleName": "glossary" },
-    "u2t8a3": { "id": "299", "moduleName": "assign" },
-    "u2t8a4": { "id": "300", "moduleName": "quiz" },
+    "u2t4a1": { "id": "5079", "moduleName": "h5p" },
+    "u2t4a2": { "id": "5080", "moduleName": "h5p" },
 
-    "u2t9a1": { "id": "301", "moduleName": "assign" },
-    "u2t9a2": { "id": "302", "moduleName": "assign" },
-    "u2t9a3": { "id": "303", "moduleName": "forum" },
-    "u2t9a4": { "id": "304", "moduleName": "assign" },
-    "u2t9a5": { "id": "305", "moduleName": "forum" },
-    "u2t9a6": { "id": "306", "moduleName": "assign" },
-    "u2t9a7": { "id": "307", "moduleName": "assign" },
-    "u2t9a8": { "id": "308", "moduleName": "assign" },
+    "u2t5a1": { "id": "5082", "moduleName": "h5p" },
+    "u2t5a2": { "id": "5083", "moduleName": "h5p" },
+    "u2t5a3": { "id": "5084", "moduleName": "quiz" },
 
-    "u2t10a1": { "id": "309", "moduleName": "forum" },
-    "u2t10a2": { "id": "310", "moduleName": "assign" },
-    "u2t10a3": { "id": "311", "moduleName": "assign" },
-    "u2t10a4": { "id": "312", "moduleName": "forum" },
-    "u2t10a5": { "id": "313", "moduleName": "forum" },
-    "u2t10a6": { "id": "314", "moduleName": "assign" },
-    "u2t10a7": { "id": "315", "moduleName": "quiz" }
+    "u3t1a1": { "id": "5086", "moduleName": "quiz" },
+    "u3t1a2": { "id": "5087", "moduleName": "h5p" },
+    "u3t1a3": { "id": "5088", "moduleName": "h5p" },
+
+    "u3t2a1": { "id": "5090", "moduleName": "h5p" },
+    "u3t2a2": { "id": "5091", "moduleName": "h5p" },
+    "u3t2a3": { "id": "5092", "moduleName": "assign" },
+
+    "u3t3a1": { "id": "5094", "moduleName": "h5p" },
+    "u3t3a2": { "id": "5095", "moduleName": "h5p" },
+
+    "u3t4a1": { "id": "5097", "moduleName": "h5p" },
+    "u3t4a2": { "id": "5098", "moduleName": "forum" },
+    "u3t4a3": { "id": "5099", "moduleName": "h5p" },
+
+    "u3t5a1": { "id": "5101", "moduleName": "h5p" },
+    "u3t5a2": { "id": "5102", "moduleName": "h5p" },
+
+    "u3t6a1": { "id": "5104", "moduleName": "h5p" },
+    "u3t6a2": { "id": "5105", "moduleName": "h5p" },
+    "u3t6a3": { "id": "5106", "moduleName": "quiz" },
+
+    "u4t1a1": { "id": "5108", "moduleName": "quiz" },
+    "u4t1a2": { "id": "5109", "moduleName": "h5p" },
+    "u4t1a3": { "id": "5110", "moduleName": "h5p" },
+    "u4t1a4": { "id": "5111", "moduleName": "forum" },
+
+    "u4t2a1": { "id": "5113", "moduleName": "h5p" },
+    "u4t2a2": { "id": "5114", "moduleName": "h5p" },
+    "u4t2a3": { "id": "5115", "moduleName": "assign" },
+
+    "u4t3a1": { "id": "5117", "moduleName": "h5p" },
+    "u4t3a2": { "id": "5118", "moduleName": "h5p" },
+    "u4t3a3": { "id": "5119", "moduleName": "quiz" }
   }
 }
