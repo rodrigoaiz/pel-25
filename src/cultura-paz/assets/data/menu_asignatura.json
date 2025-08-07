@@ -37,9 +37,9 @@
       "publicado": true,
       "nombre": "Unidad 4",
       "temas": [
-        {"nombre": "Paz positiva vs. paz negativa", "url": "/cultura-paz/unidad4/t1", "paginas": 3},
-        {"nombre": "Violencia directa, estructural y cultural", "url": "/cultura-paz/unidad4/t2", "paginas": 1},
-        {"nombre": "Cultura de la paz en lo personal, relacional y social", "url": "/cultura-paz/unidad4/t3", "paginas": 1}
+        {"nombre": "Principios de derechos humanos y no violencia", "url": "/cultura-paz/unidad4/t1", "paginas": 1},
+        {"nombre": "Lecturas indispensables", "url": "/cultura-paz/unidad4/t2", "paginas": 2},
+        {"nombre": "Actividad de cierre", "url": "/cultura-paz/unidad4/t3", "paginas": 1}
       ]
     },
     "Unidad 5": {
@@ -62,10 +62,15 @@
     "u2t2a3": { "id": "5034", "moduleName": "quiz" },
     "u2t3a4": { "id": "5035", "moduleName": "assign" },
 
-    "u3t1a1": { "id": "258", "moduleName": "assign" },
-    "u3t2a2": { "id": "259", "moduleName": "assign" },
-    "u3t2a3": { "id": "260", "moduleName": "assign" },
-    "u3t2a4": { "id": "261", "moduleName": "assign" }
+    "u3t1a1": { "id": "5036", "moduleName": "feedback" },
+    "u3t3a2": { "id": "5037", "moduleName": "assign" },
+    "u3t3a3": { "id": "5038", "moduleName": "assign" },
+
+    "u4t1a1": { "id": "5039", "moduleName": "forum" },
+
+    "u4t3a2": { "id": "5037", "moduleName": "assign" },
+    "u4t3a3": { "id": "260", "moduleName": "assign" },
+    "u4t2a4": { "id": "261", "moduleName": "assign" }
 
   }
 }
