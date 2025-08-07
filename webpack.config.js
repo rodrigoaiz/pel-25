@@ -50,6 +50,13 @@ module.exports = {
           },
         },
         {
+          from: 'src/**/*.html', // Copia todos los archivos H5P
+          to: ({ context, absoluteFilename }) => {
+            const relativePath = path.relative(context, absoluteFilename);
+            return relativePath.replace(/^src[\\/]/, ''); // Elimina 'src/' del path
+          },
+        },
+        {
           from: 'src/**/*.json', // Copia todos los archivos JSON
           to: ({ context, absoluteFilename }) => {
             const relativePath = path.relative(context, absoluteFilename);

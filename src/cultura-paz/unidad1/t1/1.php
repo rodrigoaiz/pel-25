@@ -1,35 +1,37 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
-include PATH_INCLUDE . 'GeniallyIframe.php';
-
+include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Bienvenidas y bienvenidos al curso Cultura de la Paz</h2>
-    </section>
-      <article class="mx-auto">
-        <div class="aspect-video h-0 py-0 relative" style="padding-bottom: 56.25%;">
-          <iframe
-            frameborder="0"
-            width="100%"
-            height="100%"
-            class="absolute top-0 left-0 w-full h-full"
-            src="<?php echo PATH_DOCS . 'impresionistas/index.html'; ?>"
-            type="text/html"
-            allowscriptaccess="always"
-            allowfullscreen="true"
-            scrolling="yes"
-            allownetworking="all">
-          </iframe>
-        </div>
-      </article>
-    <section>
+  <h2>Bienvenida al curso</h2>
+  <div class="grid grid-cols-3 gap-4 content-center">
+    <div class="col-span-2">
+      <p class="font-bold text-xl text-orange-500">¡Bienvenidos y bienvenidas, ccheros y ccheras!</p>
+      <p>Es un gusto recibirlos en este curso de <strong>Cultura por la Paz</strong>, donde juntos aprenderemos a convivir con <strong>respeto, empatía y solidaridad</strong>. Aquí reflexionaremos, compartiremos ideas y fortaleceremos valores que nos ayudarán a <strong>construir un entorno más pacífico.</strong></p>
+      <p class="text-xl text-center text-violet-700">¡Disfruten este viaje y sigamos siendo agentes de cambio para una cultura de paz!</p>
+    </div>
+
+    <div class="...">
+      <?php
+      renderImage('cultura_x_paz_logo.webp');
+      ?>
+    </div>
+  </div>
+
+  <p>Antes de comenzar, veremos el siguiente video para arrancar con el curso.</p>
+  <div class="max-w-xl mx-auto">
+    <?php
+    renderVideoIframe('51-h2Q2vfc0', 'Bienvenida al curso');
+    ?>
+  </div>
 </section>
+
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);
