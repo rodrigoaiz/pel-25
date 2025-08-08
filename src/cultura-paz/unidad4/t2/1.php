@@ -23,14 +23,25 @@ ob_start();
             <?php
             renderImage('lectura1.webp');
             ?>
-            <div class="font-bold leading-none text-center"><a href="<?php echo PATH_DOCS . 'derechos-humanos-justicia-e-inclusion.pdf'; ?>" target="_blank" class="text-white text-lg"><span class="inline-flex items-baseline">
-                        <img src="/dist/assets/icons/filetype-pdf.svg" class="mx-1 size-5 self-center rounded-full" />
-                        <span>Derechos humanos, justicia e inclusión</span></span></a></div>
+            <div class="grid grid-cols-5 gap-3">
+                <div><?php
+                        renderImage('PDF_file_icon.webp');
+                        ?></div>
+                <div class="col-span-4 font-bold leading-none">
+                    <a href="<?php echo PATH_DOCS . 'derechos-humanos-justicia-e-inclusion.pdf'; ?>" target="_blank" class="text-white text-lg">Derechos humanos, justicia e inclusión</a>
+                </div>
+            </div>
         </div>
-        <div class="p-2 bg-linear-to-t from-sky-500 to-indigo-700"><?php
-                                                                    renderImage('lectura2.webp');
-                                                                    ?>
-            <div class="font-bold leading-none text-center"><a href="<?php echo PATH_DOCS . 'diversidad-equidad-e-inclusion-como-bases-de-la-paz.pdf'; ?>" target="_blank" class="text-white text-lg">Diversidad, equidad e inclusión como bases de la paz</a></div>
+        <div class="p-2 bg-linear-to-t from-sky-500 to-indigo-700">
+            <?php
+            renderImage('lectura2.webp');
+            ?>
+            <div class="grid grid-cols-5 gap-3">
+                <div><img src="/dist/assets/icons/filetype-pdf.svg" class="scale-150" /></div>
+                <div class="col-span-4 font-bold leading-none">
+                    <a href="<?php echo PATH_DOCS . 'diversidad-equidad-e-inclusion-como-bases-de-la-paz.pdf'; ?>" target="_blank" class="text-white text-lg">Diversidad, equidad e inclusión como bases de la paz</a>
+                </div>
+            </div>
         </div>
     </div>
 
