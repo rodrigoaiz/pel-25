@@ -38,7 +38,7 @@
       "nombre": "Unidad 4",
       "temas": [
         {"nombre": "Principios de derechos humanos y no violencia", "url": "/cultura-paz/unidad4/t1", "paginas": 1},
-        {"nombre": "Lecturas indispensables", "url": "/cultura-paz/unidad4/t2", "paginas": 2},
+        {"nombre": "Lectura indispensable", "url": "/cultura-paz/unidad4/t2", "paginas": 2},
         {"nombre": "Actividad de cierre", "url": "/cultura-paz/unidad4/t3", "paginas": 1}
       ]
     },
@@ -47,9 +47,9 @@
       "publicado": true,
       "nombre": "Unidad 5",
       "temas": [
-        {"nombre": "Paz positiva vs. paz negativa", "url": "/cultura-paz/unidad5/t1", "paginas": 3},
-        {"nombre": "Violencia directa, estructural y cultural", "url": "/cultura-paz/unidad5/t2", "paginas": 1},
-        {"nombre": "Cultura de la paz en lo personal, relacional y social", "url": "/cultura-paz/unidad5/t3", "paginas": 1}
+        {"nombre": "Modelo Educativo: una cultura de paz en el CCH", "url": "/cultura-paz/unidad5/t1", "paginas": 2},
+        {"nombre": "Desafíos y compromisos", "url": "/cultura-paz/unidad5/t2", "paginas": 1},
+        {"nombre": "Actividad de cierre", "url": "/cultura-paz/unidad5/t3", "paginas": 1}
       ]
     }
   },
@@ -67,10 +67,11 @@
     "u3t3a3": { "id": "5038", "moduleName": "assign" },
 
     "u4t1a1": { "id": "5039", "moduleName": "forum" },
+    "u4t3a2": { "id": "5040", "moduleName": "assign" },
 
-    "u4t3a2": { "id": "5037", "moduleName": "assign" },
-    "u4t3a3": { "id": "260", "moduleName": "assign" },
-    "u4t2a4": { "id": "261", "moduleName": "assign" }
+    "u5t1a1": { "id": "5041", "moduleName": "forum" },
+    "u5t2a2": { "id": "5042", "moduleName": "forum" },
+    "u5t3a3": { "id": "5043", "moduleName": "assign" }
 
   }
 }

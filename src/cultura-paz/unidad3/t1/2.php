@@ -18,7 +18,7 @@ ob_start();
     <p>A lo largo de este tema, reflexionaremos sobre cómo podemos expresar lo que sentimos y pensamos sin agredir, escuchar activamente a los demás y buscar puntos de acuerdo que nos permitan crecer juntos.</p>
     <p>Para empezar, lee el siguiente texto.</p>
     <div class="w-4/5 mx-auto mt-6 bg-lime-300 rounded-xl p-1">
-        <p class="text-white text-center"><a class="text-lime-700" href="https://gamma.app/docs/Resolucion-pacifica-de-conflictos-comprender-para-transformar-kh7o005a5tzioks?mode=present#card-3hjny4xk2i49qlp" target="_blank">Resolución pacífica de conflictos: comprender para transformar.</a></p>
+        <p class="text-center"><a class="text-lime-700" href="<?php echo PATH_DOCS . 'unidad3-resolucion-pacifica-de-conflictos.pdf'; ?>" target="_blank">Resolución pacífica de conflictos: comprender para transformar.</a></p>
     </div>
     <p>A continuación revisaremos la presentación interactiva en la que podrás conocer a profundidad los temas de esta unidad.</p>
 </section>

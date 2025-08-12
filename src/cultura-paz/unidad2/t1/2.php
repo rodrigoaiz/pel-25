@@ -18,7 +18,7 @@ ob_start();
     </div>
     <p>Lee el siguiente texto.</p>
     <div class="w-4/5 mx-auto mt-6 bg-violet-400 rounded-xl p-1">
-        <p class="text-white text-center"><a class="text-purple-950" href="https://gamma.app/docs/Cultura-de-paz-comprenderla-para-construirla-q9rqf3vkqdr4qps?mode=present#card-erqca3t8ra071eh" target="_blank">Cultura de paz: comprenderla para construirla.</a></p>
+        <p class="text-center"><a class="text-purple-950" href="<?php echo PATH_DOCS . 'unidad2-que-es-cultura-de-la-paz.pdf'; ?>" target="_blank">Cultura de paz: comprenderla para construirla.</a></p>
     </div>
     <p>Ahora te pedimos que revises la presentación interactiva de esta unidad donde encontrarás los conceptos y actividades sobre la cultura de paz.</p>
 </section>
