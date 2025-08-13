@@ -44,7 +44,7 @@ jobs:
     # Opción 1: Despliegue por SFTP/FTP
     - name: Deploy via SFTP
       uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-      if: false # Cambiar a true cuando configures las variables
+      if: false # Cambiar a true cuando configures las variables FTP
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
@@ -54,9 +54,9 @@ jobs:
         remote_path: '/path/to/your/web/directory/'
         delete_remote_files: true
         
-    # Opción 2: Despliegue por rsync
+    # Opción 2: Despliegue por rsync (RECOMENDADO)
     - name: Deploy via rsync
-      if: false # Cambiar a true cuando configures las variables
+      if: false # Cambiar a true cuando configures las variables SSH
       run: |
         # Instalar rsync si no está disponible
         sudo apt-get update && sudo apt-get install -y rsync
