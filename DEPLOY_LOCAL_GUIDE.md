@@ -93,9 +93,45 @@ npm run deploy:build          # Luego a producción
 ## 🛠️ Comandos de Mantenimiento
 
 ```bash
-npm run clean                 # Limpiar archivos temporales
+npm run clean                 # Limpiar archivos temporales y paquetes
+npm run clean:packages        # Limpiar solo paquetes .tar.gz antiguos (+7 días)
+npm run list:packages         # Ver paquetes de despliegue disponibles
 npm run serve                 # Probar build localmente
-npm run analyze              # Analizar bundle (requiere instalación)
+```
+
+## 📦 Gestión de Paquetes de Despliegue
+
+### ¿Qué son los archivos .tar.gz
+
+Los archivos .tar.gz son **paquetes de respaldo** que se crean automáticamente con cada despliegue:
+
+- Contienen una copia completa de tu carpeta `dist/`
+- Te permiten hacer **rollback** rápido si algo sale mal
+- Son útiles para **auditoría** y comparación entre versiones
+
+### Gestión Automática
+
+El script mantiene automáticamente solo los **últimos 5 paquetes** más recientes.
+
+### Comandos de Gestión
+
+```bash
+# Ver qué paquetes tienes
+npm run list:packages
+
+# Limpiar paquetes antiguos (más de 7 días)
+npm run clean:packages
+
+# Limpiar todo (dist/ y todos los paquetes)
+npm run clean
+```
+
+### Ejemplo de uso
+
+```bash
+$ npm run list:packages
+-rw-r--r--  1 user  staff   144M ago 12 10:30 pel-25-production-2025-08-12_10-30-15.tar.gz
+-rw-r--r--  1 user  staff   143M ago 11 15:22 pel-25-production-2025-08-11_15-22-08.tar.gz
 ```
 
 ## ✅ Verificar que todo funciona

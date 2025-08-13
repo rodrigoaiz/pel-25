@@ -187,3 +187,12 @@ else
 fi
 
 echo -e "${GREEN}🎉 Proceso completado!${NC}"
+
+# Limpiar paquetes antiguos (mantener solo los últimos 5)
+show_progress "Limpiando paquetes antiguos..."
+TAR_FILES=$(ls -t pel-25-*.tar.gz 2>/dev/null | wc -l)
+if [ "$TAR_FILES" -gt 5 ]; then
+    ls -t pel-25-*.tar.gz | tail -n +6 | xargs rm -f
+    REMOVED=$((TAR_FILES - 5))
+    echo -e "${YELLOW}🧹 Eliminados $REMOVED paquetes antiguos (manteniendo los últimos 5)${NC}"
+fi

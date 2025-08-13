@@ -14,6 +14,8 @@
     "deploy:quick": "./deploy.sh production --no-package",
     "deploy:quick:staging": "./deploy.sh staging --no-package",
     "clean": "rm -rf dist/ deploy-package/ *.tar.gz",
+    "clean:packages": "find . -name '*.tar.gz' -mtime +7 -delete && echo '🧹 Paquetes antiguos eliminados'",
+    "list:packages": "ls -lh *.tar.gz 2>/dev/null || echo 'No hay paquetes de despliegue'",
     "serve": "php -S localhost:8000 -t dist/",
     "setup:deploy": "cp deploy.config.example deploy.config && echo '✅ Archivo deploy.config creado. Edítalo con tus datos.'"
   },
