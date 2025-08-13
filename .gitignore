@@ -6,6 +6,9 @@ deploy-package/
 *.tar.gz
 *.zip
 
+# deployment configuration (contains sensitive data)
+deploy.config
+
 # generated types
 .astro/
 

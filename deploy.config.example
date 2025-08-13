@@ -1,0 +1,71 @@
+#!/bin/bash
+
+# Archivo de configuración para despliegue local
+# Copia este archivo como deploy.config y configura tus datos
+
+# ==========================================
+# CONFIGURACIÓN DE SERVIDORES
+# ==========================================
+
+# Servidor de PRODUCCIÓN
+export DEPLOY_HOST_PROD="tu-servidor-produccion.com"
+export DEPLOY_USER_PROD="tu-usuario"
+export DEPLOY_PATH_PROD="/ruta/completa/al/directorio/web/"
+
+# Servidor de STAGING (opcional)
+export DEPLOY_HOST_STAGING="staging.tu-servidor.com"
+export DEPLOY_USER_STAGING="tu-usuario"
+export DEPLOY_PATH_STAGING="/ruta/al/directorio/staging/"
+
+# ==========================================
+# CONFIGURACIÓN AUTOMÁTICA
+# ==========================================
+
+# Función para cargar configuración según el entorno
+load_deploy_config() {
+    local environment=$1
+    
+    if [ "$environment" = "production" ]; then
+        export DEPLOY_HOST=$DEPLOY_HOST_PROD
+        export DEPLOY_USER=$DEPLOY_USER_PROD  
+        export DEPLOY_PATH=$DEPLOY_PATH_PROD
+        echo "🎯 Configuración cargada: PRODUCCIÓN"
+    elif [ "$environment" = "staging" ]; then
+        export DEPLOY_HOST=$DEPLOY_HOST_STAGING
+        export DEPLOY_USER=$DEPLOY_USER_STAGING
+        export DEPLOY_PATH=$DEPLOY_PATH_STAGING
+        echo "🧪 Configuración cargada: STAGING"
+    else
+        echo "❌ Entorno no reconocido: $environment"
+        return 1
+    fi
+}
+
+# ==========================================
+# EJEMPLOS DE USO:
+# ==========================================
+
+# 1. Cargar configuración: source deploy.config
+# 2. Configurar entorno: load_deploy_config production
+# 3. Hacer despliegue: ./deploy.sh production
+
+# ==========================================
+# COMANDOS ÚTILES:
+# ==========================================
+
+# Despliegue completo con build automático:
+# load_deploy_config production && ./deploy.sh production --auto-build
+
+# Despliegue directo sin crear paquete:
+# load_deploy_config production && ./deploy.sh production --no-package
+
+# ==========================================
+# VERIFICAR CONFIGURACIÓN:
+# ==========================================
+
+verify_config() {
+    echo "🔍 Verificando configuración actual:"
+    echo "  HOST: ${DEPLOY_HOST:-'No configurado'}"
+    echo "  USER: ${DEPLOY_USER:-'No configurado'}"
+    echo "  PATH: ${DEPLOY_PATH:-'No configurado'}"
+}
