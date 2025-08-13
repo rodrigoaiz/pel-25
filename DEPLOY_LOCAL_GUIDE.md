@@ -3,6 +3,7 @@
 ## 🚀 Configuración Inicial (Solo una vez)
 
 ### 1. Configurar tus datos de servidor
+
 ```bash
 # Crear archivo de configuración
 npm run setup:deploy
@@ -11,7 +12,8 @@ npm run setup:deploy
 nano deploy.config
 ```
 
-### 2. Configurar en deploy.config:
+### 2. Configurar en deploy.config
+
 ```bash
 export DEPLOY_HOST_PROD="tu-servidor.com"
 export DEPLOY_USER_PROD="tu-usuario"

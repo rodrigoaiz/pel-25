@@ -14,7 +14,6 @@
     "deploy:quick": "./deploy.sh production --no-package",
     "deploy:quick:staging": "./deploy.sh staging --no-package",
     "clean": "rm -rf dist/ deploy-package/ *.tar.gz",
-    "analyze": "webpack-bundle-analyzer dist/js/bundle.js",
     "serve": "php -S localhost:8000 -t dist/",
     "setup:deploy": "cp deploy.config.example deploy.config && echo '✅ Archivo deploy.config creado. Edítalo con tus datos.'"
   },

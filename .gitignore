@@ -9,9 +9,6 @@ deploy-package/
 # deployment configuration (contains sensitive data)
 deploy.config
 
-# generated types
-.astro/
-
 # dependencies
 node_modules/
 
@@ -24,7 +21,6 @@ pnpm-debug.log*
 # environment variables
 .env
 .env.production
-.env.deploy
 .env.staging
 
 # macOS-specific files
@@ -36,6 +32,3 @@ pnpm-debug.log*
 # backup files
 *.backup
 *~
-
-# deployment artifacts
-deployment-report.json
