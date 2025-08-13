@@ -5,7 +5,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"webpack --watch --mode development\" \"php -S localhost:8000\"",
-    "build": "NODE_ENV=production webpack --mode production"
+    "build": "NODE_ENV=production webpack --mode production",
+    "build:staging": "NODE_ENV=staging webpack --mode production",
+    "deploy": "./deploy.sh production",
+    "deploy:staging": "./deploy.sh staging",
+    "clean": "rm -rf dist/ deploy-package/ *.tar.gz",
+    "analyze": "webpack-bundle-analyzer dist/js/bundle.js",
+    "serve": "php -S localhost:8000 -t dist/"
   },
   "author": "",
   "license": "ISC",
