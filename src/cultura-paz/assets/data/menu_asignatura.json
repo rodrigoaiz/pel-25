@@ -6,10 +6,11 @@
       "publicado": true,
       "nombre": "Unidad 1",
       "temas": [
-        {"nombre": "Autoconocimiento", "url": "/cultura-paz/unidad1/t1", "paginas": 3},
-        {"nombre": "Revisión de contenidos", "url": "/cultura-paz/unidad1/t2", "paginas": 3},
-        {"nombre": "Empatía, escucha activa y comunicación asertiva", "url": "/cultura-paz/unidad1/t3", "paginas": 1},
-        {"nombre": "Límites y consentimiento en la convivencia", "url": "/cultura-paz/unidad1/t4", "paginas": 1}
+        {"nombre": "Bienvenida", "url": "/cultura-paz/unidad1/t1", "paginas": 2},
+        {"nombre": "Revisión de contenidos", "url": "/cultura-paz/unidad1/t2", "paginas": 2},
+        {"nombre": "Autoconocimiento y emociones", "url": "/cultura-paz/unidad1/t3", "paginas": 3},
+        {"nombre": "Empatía, escucha activa y comunicación asertiva", "url": "/cultura-paz/unidad1/t4", "paginas": 1},
+        {"nombre": "Límites y consentimiento en la convivencia", "url": "/cultura-paz/unidad1/t5", "paginas": 1}
       ]
     },
     "Unidad 2": {
@@ -17,9 +18,11 @@
       "publicado": true,
       "nombre": "Unidad 2",
       "temas": [
-        {"nombre": "Paz positiva vs. paz negativa", "url": "/cultura-paz/unidad2/t1", "paginas": 3},
-        {"nombre": "Violencia directa, estructural y cultural", "url": "/cultura-paz/unidad2/t2", "paginas": 1},
-        {"nombre": "Cultura de la paz en lo personal, relacional y social", "url": "/cultura-paz/unidad2/t3", "paginas": 1}
+        {"nombre": "Bienvenida a la unidad", "url": "/cultura-paz/unidad2/t1", "paginas": 1},
+        {"nombre": "Revisión de contenidos", "url": "/cultura-paz/unidad2/t2", "paginas": 2},
+        {"nombre": "Paz positiva vs. paz negativa", "url": "/cultura-paz/unidad2/t3", "paginas": 1},
+        {"nombre": "Violencia directa, estructural y cultural", "url": "/cultura-paz/unidad2/t4", "paginas": 1},
+        {"nombre": "Cultura de la paz en lo personal, relacional y social", "url": "/cultura-paz/unidad2/t5", "paginas": 1}
       ]
     },
     "Unidad 3": {
@@ -27,9 +30,11 @@
       "publicado": true,
       "nombre": "Unidad 3",
       "temas": [
-        {"nombre": "Tipos de conflicto: personales, escolares y sociales", "url": "/cultura-paz/unidad3/t1", "paginas": 3},
-        {"nombre": "Estrategias de resolución: negociacion, mediacion y dialogo", "url": "/cultura-paz/unidad3/t2", "paginas": 1},
-        {"nombre": "Pensamiento crítico y toma de decisiones éticas", "url": "/cultura-paz/unidad3/t3", "paginas": 2}
+        {"nombre": "Bienvenida a la unidad", "url": "/cultura-paz/unidad3/t1", "paginas": 1},
+        {"nombre": "Revisión de contenidos", "url": "/cultura-paz/unidad3/t2", "paginas": 2},
+        {"nombre": "Tipos de conflicto: personales, escolares y sociales", "url": "/cultura-paz/unidad3/t3", "paginas": 1},
+        {"nombre": "Estrategias de resolución: negociacion, mediacion y dialogo", "url": "/cultura-paz/unidad3/t4", "paginas": 1},
+        {"nombre": "Pensamiento crítico y toma de decisiones éticas", "url": "/cultura-paz/unidad3/t5", "paginas": 2}
       ]
     },
     "Unidad 4": {
@@ -37,8 +42,8 @@
       "publicado": true,
       "nombre": "Unidad 4",
       "temas": [
-        {"nombre": "Principios de derechos humanos y no violencia", "url": "/cultura-paz/unidad4/t1", "paginas": 1},
-        {"nombre": "Lectura indispensable", "url": "/cultura-paz/unidad4/t2", "paginas": 2},
+        {"nombre": "Bienvenida a la unidad", "url": "/cultura-paz/unidad4/t1", "paginas": 1},
+        {"nombre": "Revisión de contenidos", "url": "/cultura-paz/unidad4/t2", "paginas": 2},
         {"nombre": "Actividad de cierre", "url": "/cultura-paz/unidad4/t3", "paginas": 1}
       ]
     },
@@ -47,9 +52,10 @@
       "publicado": true,
       "nombre": "Unidad 5",
       "temas": [
-        {"nombre": "Modelo Educativo: una cultura de paz en el CCH", "url": "/cultura-paz/unidad5/t1", "paginas": 2},
-        {"nombre": "Desafíos y compromisos", "url": "/cultura-paz/unidad5/t2", "paginas": 1},
-        {"nombre": "Actividad de cierre", "url": "/cultura-paz/unidad5/t3", "paginas": 1}
+        {"nombre": "Bienvenida a la unidad", "url": "/cultura-paz/unidad5/t1", "paginas": 1},
+        {"nombre": "Revisión de contenidos", "url": "/cultura-paz/unidad5/t2", "paginas": 1},
+        {"nombre": "Desafíos y compromisos", "url": "/cultura-paz/unidad5/t3", "paginas": 1},
+        {"nombre": "Actividad de cierre", "url": "/cultura-paz/unidad5/t4", "paginas": 1}
       ]
     }
   },

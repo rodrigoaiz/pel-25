@@ -114,7 +114,7 @@ function renderMenuUnidades($menuAsignaturaPath)
   // Renderizar la lista de temas de la unidad actual
   if ($unidadActiva !== null) {
     echo '<div id="header__temas">';
-    echo '<span>Aprendizajes en la unidad</span>';
+    echo '<span>Temas en la unidad</span>';
     echo '<ol>';
     foreach ($menuAsignaturaData['asignatura'][$unidadActiva]['temas'] as $tema) {
       // Construir la URL del tema (siempre apuntando a la primera página)
