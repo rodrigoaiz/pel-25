@@ -26,13 +26,8 @@ ob_start();
 
     <p>Si tienes inquietudes por profundizar más sobre este tema te invitamos revisar el libro de Frances Stonor Saunders “La CIA y la guerra fría cultural” del año 1999 y el cual puede ser consultado de forma gratuita en el siguiente espacio cultural libre.</p>
 
-     <?php ob_start(); ?>
-    <p>este es un pdf </p>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividad('u3t6a1', "La CIA y la guerra fría cultural", $ActividadContent);
-    ?>
-    
+     <a href="<?php echo PATH_DOCS . 'u3_t6_La_CIA_y_la_guerra_fria_cultural.pdf'; ?>" target="_blank">La CIA y la guerra fría cultural</a>
+
 
 </section>
 <?php

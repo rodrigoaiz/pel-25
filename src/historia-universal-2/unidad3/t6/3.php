@@ -19,8 +19,8 @@ ob_start();
   $accordionItems1 = [
     [
       'title' => '1984',
-      'content' => '<p>(1949) de Orwell, la cual imaginaba un futuro totalitario y vigilante en el que el gobierno ejerce un control absoluto sobre la vida de las personas. Orwell escribió novelas distópicas que exploraban temas políticos y sociales. Se puede ver gratis la película de este libro en su versión de 1956.</p>',
-      'video' => 'https://www.youtube.com/embed/sGzYLC60e0c?si=WCsOKAxTAQHn-ybW'
+      'content' => '<p>(1949) de Orwell, la cual imaginaba un futuro totalitario y vigilante en el que el gobierno ejerce un control absoluto sobre la vida de las personas. Orwell escribió novelas distópicas que exploraban temas políticos y sociales. Se puede ver gratis la película de este libro en su versión de 1956.</p> <iframe class="aspect-video" src="https://www.youtube.com/embed/sGzYLC60e0c?si=bg5QwRoXv6dHYDwG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+      
     ],
     [
       'title' => 'El tambor de hojalata',
