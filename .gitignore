@@ -1,8 +1,13 @@
 # build output
 dist/
+deploy-package/
 
-# generated types
-.astro/
+# deployment packages
+*.tar.gz
+*.zip
+
+# deployment configuration (contains sensitive data)
+deploy.config
 
 # dependencies
 node_modules/
@@ -16,9 +21,14 @@ pnpm-debug.log*
 # environment variables
 .env
 .env.production
+.env.staging
 
 # macOS-specific files
 .DS_Store
 
 # jetbrains setting folder
 .idea/
+
+# backup files
+*.backup
+*~
