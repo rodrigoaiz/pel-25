@@ -27,7 +27,7 @@ ob_start();
   <p>Antes de comenzar, veremos el siguiente video para arrancar con el curso.</p>
   <div class="max-w-xl mx-auto">
     <?php
-    renderVideoIframe('51-h2Q2vfc0', 'Bienvenida al curso');
+    renderVideoIframe('PVDQBGYuUQI', 'Bienvenida al curso');
     ?>
   </div>
 </section>
