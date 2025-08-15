@@ -15,7 +15,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Obtener un conocimiento general acerca de lo que es el amor romántico y sus implicaciones desde el punto de vista histórico hasta arribar a la vida cotidiana.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Lee el siguiente texto <a href="<?php echo PATH_DOCS . 'u2t8-lectura_QueEsElAmorYElProblemaDelAmorRomantico.pdf'; ?>" target="_blank">"Qué es el amor y el problema del amor romántico"</a> y con base en la lectura anota en tu libreta los conceptos más representativos sobre el tema. Para reforzar tu lectura complementa con los dos videos que te ponemos a continuación.
             <div class="max-w-xl mx-auto">
                 <?php

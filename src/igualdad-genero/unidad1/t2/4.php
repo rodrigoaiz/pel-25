@@ -19,7 +19,7 @@ ob_start();
         ?>
     </div>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>En equipos, de acuerdo con lo indicado por tu profesora o profesor, elabora una infografía de alguna de las Olas del feminismo, o bien del Feminismo en México. Revisa el video <span class="font-bold text-fuchsia-900">¿Qué es una infografía?</span> para conocer en qué consiste y cómo se hace una infografía. La infografía debe incluir:
             <ul>
                 <li class="leading-none">Título</li>

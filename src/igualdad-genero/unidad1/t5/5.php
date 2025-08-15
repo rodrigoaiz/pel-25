@@ -15,7 +15,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Reflexionar sobre las experiencias personales de situaciones en las que se haya experimentado discriminación, exclusión o violencia, y expresar las emociones de manera creativa a través de un WordArt.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Piensa en una situación en la que hayas experimentado discriminación, exclusión, violencia o algo similar. Tómate un momento para reflexionar sobre cómo te hicieron sentir esas experiencias y las emociones que surgieron en ti.</li>
         <li>Elige palabras que describan tus emociones y sentimientos en relación con la experiencia que has elegido (tristeza, enojo, miedo, esperanza, etc.)</li>
         <li>Utiliza la página de diseño gráfico para crear tu <a href="https://wordart.com/create." target="_blank">WordArt</a>. Da clic en el botón "Crear".

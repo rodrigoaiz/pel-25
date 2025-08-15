@@ -19,7 +19,7 @@ ob_start();
 
   <p>Para realizar el ensayo revisa el siguiente paso a paso de lo que debes hacer:</p>
   <p><strong>Instrucciones:</strong></p>
-  <ol class="ol-number ml-32">
+  <ol class="ol-number md:ml-32">
     <li>Realiza una investigación sobre lo que es la convivencia pacífica en entornos educativos.</li>
     <li>Toma notas para que puedan ayudarte a redactar tu ensayo.</li>
     <li>Comienza a redactar tu ensayo.</li>

@@ -18,7 +18,7 @@ ob_start();
     </div>
     <p>A continuación, presentaremos distintos casos que deberás analizar y resolver con los principios que has aprendido en esta unidad.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Descarga el formato: <a href="<?php echo PATH_DOCS . 'act-9-eligir-con-conciencia.docx'; ?>" target="_blank">act-9-eligir-con-conciencia</a>.</li>
         <li>Reflexiona respecto a lo planteado y responde las preguntas.</li>
         <li>Guarda tu archivo y súbelo.</li>

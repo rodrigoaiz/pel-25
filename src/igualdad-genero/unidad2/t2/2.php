@@ -14,7 +14,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Iniciaremos la discusión del tema del amor romántico para que te familiarices con los conceptos básicos: enamoramiento, amor, amor romántico e iniciaremos con la identificación del problema.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Observa el video con atención e identifica los elementos de esta relación.</li>
         <li>Posteriormente escribe en una cuartilla en dos tablas, con qué actitudes estás de acuerdo y con cuáles no. Además, en ese mismo documento compartirás tu opinión sobre el tema (media cuartilla).</li>
         <li>Después de que escribas tu opinión envía tu archivo. Nómbralo de la siguiente manera: Nombre_Apellido_ReflexiónAmor</li>

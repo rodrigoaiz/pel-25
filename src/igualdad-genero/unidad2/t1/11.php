@@ -13,7 +13,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Elaborar tres compromisos personales que promuevan la igualdad, el respeto a los derechos humanos y la erradicación de la violencia de género.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Escribe en el foro tres acciones personales con las que te comprometes para fomentar la igualdad, el respeto a los derechos humanos y la erradicación de la violencia de género, por ejemplo, no reproducir chistes misóginos.</li>
         <li>Lee las diferentes participaciones, elige una y coméntala. Recuerda que tu respuesta debe ser tolerante, respetuosa y empática.</li>
     </ol>

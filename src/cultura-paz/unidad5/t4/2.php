@@ -16,8 +16,8 @@ ob_start();
     <strong>NOTA:</strong> Es muy importante que lo guardes bien, ya que en algún momento de tu estancia en CCH te lo pueden solicitar.
   </div>
 
-  <div class="grid grid-cols-6 gap-4 my-10">
-    <div class="col-span-2 col-start-3 bg-linear-to-bl from-violet-500 to-fuchsia-500 text-center text-lg p-2 rounded-lg">
+  <div class="my-10">
+    <div class="mx-auto w-72 bg-linear-to-bl from-violet-500 to-fuchsia-500 text-center text-lg p-2 rounded-lg">
       <img class="size-32 mx-auto" src="<?php echo PATH_ICONS . 'certificado-moodle.webp'; ?>" />
     </div>
   </div>

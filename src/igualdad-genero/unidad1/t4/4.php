@@ -16,7 +16,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Reconocer algunas propuestas para construir ambientes de respeto y armonía ante las diversas formas de ser hombre.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Lee el tríptico <a href="<?php echo PATH_DOCS . 'u1t4-lectura_UnAsuntoDeHombresLasMasculinidades.pdf'; ?>" target="_blank">"Un asunto de hombres: las masculinidades"</a> de la Comisión Nacional de los Derechos Humanos.</li>
         <li>Posteriormente, responde el cuestionario sobre la lectura.</li>
     </ol>

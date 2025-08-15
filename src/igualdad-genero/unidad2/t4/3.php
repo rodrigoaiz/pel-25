@@ -16,7 +16,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Identificar los elementos de la sana convivencia.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Observa con atención el siguiente video e identifica los elementos de la sana convivencia.
             <div class="max-w-xl mx-auto mt-4">
                 <?php

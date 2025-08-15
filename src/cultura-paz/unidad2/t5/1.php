@@ -24,7 +24,7 @@ ob_start();
     </ul>
     <p>A continuación, para cerrar esta unidad, realiza la siguiente actividad.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Descarga el formato: <a href="<?php echo PATH_DOCS . 'act-6-cuadro-respuestas-como-puedo-contribuir.docx'; ?>" target="_blank">act-6-cuadro-respuestas-como-puedo-contribuir</a>.</li>
         <li>Responde las preguntas de la tabla.</li>
         <li>Guarda tu archivo y súbelo.</li>

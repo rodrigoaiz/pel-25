@@ -27,7 +27,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>En esta actividad conocerás el concepto de Perspectiva de Género, su contexto histórico en México, así como algunas propuestas para su implementación.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Organizados en equipos, según las indicaciones de tu profesor o profesora, responderán en un <em>Padlet</em> alguna de las tres preguntas anteriores.</li>
 
         <li>Posteriormente, las respuestas serán revisadas de forma grupal y recibirás retroalimentación de tu profesor o profesora. </li>

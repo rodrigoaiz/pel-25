@@ -13,7 +13,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>En esta actividad conocerás cómo la perspectiva de género y los feminismos impactan en la vida diaria, así como su relación y su intersección en ámbitos cotidianos.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Elabora una reflexión de una cuartilla.</li>
         <li>Guíate de las siguientes preguntas:
             <ul>

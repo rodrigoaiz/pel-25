@@ -10,7 +10,7 @@ ob_start();
 <section>
     <h2>Lectura indispensable</h2>
     <p>A continuación, te pedimos que leas el siguiente texto, el cual incluye todos los conceptos que se revisarán en la unidad.</p>
-    <div class="grid grid-cols-5 gap-4">
+    <div class="grid grid-cols-5 gap-4 mb-5">
         <div class="col-span-3 col-start-2 p-4 bg-linear-to-r from-cyan-500 to-blue-500">
             <?php
             renderImage('lectura2.webp');

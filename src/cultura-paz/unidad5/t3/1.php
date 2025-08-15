@@ -17,7 +17,7 @@ ob_start();
     ?>
     <p class="mt-10">Ahora, te pedimos que ingreses al foro de discusión <strong>"Compromisos ceceacheros de la Cultura de Paz"</strong></p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-16">
+    <ol class="ol-number md:ml-16">
         <li>Te pedimos que ingreses al foro de discusión y compartas tu respuesta a lo siguiente: <strong>Qué estoy dispuesto(a) a hacer para tener una cultura de paz?</strong></li>
         <li>Además de participar revisa y comenta al menos dos respuestas de tus compañeros.</li>
     </ol>

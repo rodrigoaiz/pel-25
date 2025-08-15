@@ -16,7 +16,7 @@ ob_start();
         renderImage('u1t2_infografia_emociones.webp');
         ?>
     </div>
-    <div class="grid grid-cols-6 gap-4 mt-10">
+    <div class="md:grid grid-cols-6 gap-4 my-5">
         <div class="col-span-2 col-start-3 bg-purple-300 text-center text-lg leading-6 p-2 rounded-lg">
             <a class=" text-purple-950" href="<?php echo PATH_DOCS . 'unidad1-infografia-emociones.pdf'; ?>" target="_blank">
                 <img class="size-24 mx-auto" src="<?php echo PATH_ICONS . 'filetype-pdf.svg'; ?>" />

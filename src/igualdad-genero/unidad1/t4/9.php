@@ -16,7 +16,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Identificar las representaciones culturales de la masculinidad tradicional y proponer alternativas para la construcción de masculinidades libres de estereotipos de género.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Trabajen en equipos de 4 ó 5 estudiantes en salas pequeñas.</li>
         <li>Elijan un personaje masculino de una serie de televisión o película.</li>
         <li>Mediante un documento colaborativo de su preferencia (Power point, Slides, Canva, etc.), elaboren un collage dividido en dos partes. De un lado, representen los aspectos que consideren positivos de la masculinidad del personaje elegido. Del otro lado, representen los aspectos que consideren negativos.</li>

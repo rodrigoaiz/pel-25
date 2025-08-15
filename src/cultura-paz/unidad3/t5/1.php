@@ -18,7 +18,7 @@ ob_start();
     </div>
     <p>Resolveremos la actividad basándonos en los conceptos vistos en la lectura y los videos anteriores.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Descarga el formato: <a href="<?php echo PATH_DOCS . 'act-8-analisis-de-casos.docx'; ?>" target="_blank">act-8-analisis-de-casos</a>.</li>
         <li>Realiza el análisis de los casos y responde las preguntas.</li>
         <li>Guarda tu archivo y súbelo.</li>

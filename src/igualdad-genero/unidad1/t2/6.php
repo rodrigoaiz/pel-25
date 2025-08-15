@@ -15,7 +15,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>En esta actividad identificarás a la perspectiva de género como herramienta metodológica y su impacto social.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Realiza la lectura <a href="<?php echo PATH_DOCS . 'u1t2-lectura-la-perspectiva-de-genero.pdf'; ?>" target="_blank">La perspectiva de género</a>, <strong>páginas 5-10</strong> (Puntos: 4. ¿Qué es la perspectiva de género?, 5. El aprendizaje del género, 6. Género, democracia y ciudadanía), de la autora Marta Lamas. </li>
         <li>Subraya las palabras clave que les permitan dar seguimiento a la lectura.</li>
         <li>Organizados en equipos de acuerdo con lo indicado por tu profesor o profesora, realicen un mapa mental sobre la Perspectiva de género, tomando como referencia la lectura indicada.

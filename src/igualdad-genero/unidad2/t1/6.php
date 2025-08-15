@@ -20,7 +20,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Identificar las modalidades de la violencia de género para prevenirla, combatirla y erradicarla.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Ingresa al cuestionario.</li>
         <li>Observa los videos y con base en su contenido, responde las preguntas.</li>
     </ol>

@@ -14,7 +14,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Detectar en la narración del cuento Balón y astillas, las necesidades de la cultura de la igualdad, para desarrollar un gráfico. </p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Leerás el cuento <a href="<?php echo PATH_DOCS . 'u1t5-lectura_balonyAstillas.pdf'; ?>" target="_blank">Balón y astillas</a>, de la autora Queta Navagómez, e identificarás las necesidades de la cultura de la igualdad (desigualdades) que enfrenta Cayetano (protagonista de la historia).</li>
         <li>En una hoja en blanco diseñarás un guion gráfico, que manifieste las desigualdades que identificaste en Balón y astillas.</li>
         <li>Nombrarás cada imagen con un título alusivo a cada situación de desigualdad.</li>
