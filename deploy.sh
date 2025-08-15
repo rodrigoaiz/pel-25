@@ -40,6 +40,17 @@ NC='\033[0m' # No Color
 
 echo -e "${BLUE}🚀 Iniciando despliegue para: ${ENVIRONMENT}${NC}"
 
+# Cargar configuración desde deploy.config si existe
+if [ -f "./deploy.config" ]; then
+    echo -e "${YELLOW}📝 Cargando configuración desde deploy.config...${NC}"
+    source ./deploy.config
+    if [ "$ENVIRONMENT" = "production" ]; then
+        load_deploy_config production
+    elif [ "$ENVIRONMENT" = "staging" ]; then
+        load_deploy_config staging
+    fi
+fi
+
 # Función para mostrar progreso
 show_progress() {
     echo -e "${YELLOW}⏳ $1${NC}"
