@@ -11,7 +11,7 @@ ob_start();
     <h2>Lectura indispensable</h2>
     <p>A continuación se muestra una breve lectura, es muy importante que la revises con atención y tomes notas ya que más adelante te serán de mucha utilidad.</p>
     <div class="grid grid-cols-5 gap-4">
-        <div class="col-span-3 col-start-2 p-2 bg-linear-65 from-purple-500 to-pink-500">
+        <div class="col-span-3 col-start-2 p-4 bg-linear-65 from-purple-500 to-pink-500">
             <?php
             renderImage('lectura1.webp');
             ?>

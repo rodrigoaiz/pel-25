@@ -2,33 +2,20 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Pensamiento crítico y toma de decisiones éticas</h2>
-    <p>Uno de los aportes más relevantes del enfoque de cultura de paz es la <strong>resolución de conflictos</strong> de manera pacífica. En este sentido, el pensamiento crítico y la toma de decisiones éticas se reconocen como herramientas fundamentales para una convivencia pacífica. <strong>El pensamiento crítico</strong> permite analizar los conflictos más allá de las apariencias, cuestionar supuestos, identificar causas profundas y valorar las distintas perspectivas. Esta habilidad fomenta la autonomía moral y la responsabilidad ciudadana.</p>
+    <h2>Tipos de conflicto: personales, escolares y sociales </h2>
+    <p>Los conflictos pueden clasificarse en diferentes tipos según los conceptos de "convivencia pacífica" y "cultura de paz" propuestos por el Instituto Nacional Electoral (INE). Entre estas categorías se encuentran los <strong>conflictos personales, escolares y sociales.</strong></p>
+    <p>Los <strong>conflictos personales</strong> surgen en el ámbito de las relaciones interpersonales, ya sea en el entorno familiar, laboral o entre amistades cercanas. Este tipo de conflicto se origina en situaciones cotidianas que afectan a las y los individuos en su vida privada. Por otro lado, los <strong>conflictos escolares</strong> se manifiestan dentro del entorno educativo y pueden involucrar a estudiantes, docentes o personal administrativo. Estos conflictos pueden presentarse en diversos contextos, tanto en el aula como en otras áreas del entorno escolar. Finalmente, los <strong>conflictos sociales</strong> abarcan cuestiones más amplias que impactan a colectivos y comunidades, tales como la desigualdad económica, la discriminación y la exclusión social, problemas que afectan la cohesión y el bienestar de la sociedad en su conjunto.</p>
     <div class="max-w-2xl mx-auto">
         <?php
-        renderImage('u3t3p01_pensamiento-critico.webp');
+        renderImage('u3t1p03-conflictos.webp');
         ?>
     </div>
-    <p>Resolveremos la actividad basándonos en los conceptos vistos en la lectura y los videos anteriores.</p>
-    <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
-        <li>Descarga el formato: <a href="<?php echo PATH_DOCS . 'act-8-analisis-de-casos.docx'; ?>" target="_blank">act-8-analisis-de-casos</a>.</li>
-        <li>Realiza el análisis de los casos y responde las preguntas.</li>
-        <li>Guarda tu archivo y súbelo.</li>
-    </ol>
-    <?php ob_start(); ?>
-    <p>Sube aquí tu archivo.</p>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividad('u3t3a2', "Análisis de casos - ¿De qué forma puedo gestionar adecuadamente un conflicto?", $ActividadContent);
-    ?>
 </section>
 
 <?php
