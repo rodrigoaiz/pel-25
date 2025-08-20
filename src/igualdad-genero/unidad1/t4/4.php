@@ -21,7 +21,6 @@ ob_start();
         <li>Posteriormente, responde el cuestionario sobre la lectura.</li>
     </ol>
     <?php ob_start(); ?>
-    <p>Aquí sube el trabajo realizado.</p>
     <?php
     $ActividadContent = ob_get_clean();
     renderActividad('u1t4a3', "Un asunto de hombres: las masculinidades.", $ActividadContent);

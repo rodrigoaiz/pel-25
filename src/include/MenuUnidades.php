@@ -130,7 +130,7 @@ function renderMenuUnidades($menuAsignaturaPath)
   if ($unidadActiva !== null && $temaActivo !== null) {
     echo '<div id="header__pantalla">';
     echo '<div>';
-    echo '<span id="titulo-temas">Pantallas de este aprendizaje</span>';
+    echo '<span id="titulo-temas">Pantallas de este tema</span>';
     echo '<ol>';
 
     // Botón "Anterior"

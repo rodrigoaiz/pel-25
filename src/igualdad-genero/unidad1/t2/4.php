@@ -26,7 +26,7 @@ ob_start();
                 <li class="leading-none">Periodo de tiempo que abarca la Ola</li>
                 <li class="leading-none">Demandas solicitadas</li>
                 <li class="leading-none">Logros alcanzados</li>
-                <li class="leading-none">Principales representantes.</li>
+                <li class="leading-none">Principales representantes</li>
         </li>
         </ul>
         </li>
