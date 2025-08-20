@@ -29,7 +29,7 @@ $menuMoodle = $menuData['menuMoodle'];
         </span>!
       </div>
       <?php foreach ($menuMoodle as $menuItem): ?>
-        <a href="<?php echo $menuItem['url']; ?>">
+        <a href="<?php echo PATH_SITE . $menuItem['url']; ?>">
           <img class="h-5" src="<?php echo PATH_ICONS . $menuItem['icon']; ?>" alt="<?php echo $menuItem['alt']; ?>">
         </a>
       <?php endforeach; ?>

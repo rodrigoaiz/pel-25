@@ -58,7 +58,7 @@ function renderMenuUnidades($menuAsignaturaPath)
   echo '<div class="header__unidades">';
   // Renderizar la lista de unidades
   echo '<div class="header__container">';
-  echo '<div><a href="https://pel.cch.unam.mx/?theme=moove"><img src="' . ASSET_URL . 'img/logo.svg" alt="Logo" class="header__logo"></a><span>Programas de estudio en línea</span></div>';
+  echo '<div><a href="' . PATH_SITE . '?theme=moove"><img src="' . ASSET_URL . 'img/logo.svg" alt="Logo" class="header__logo"></a><span>Programas de estudio en línea</span></div>';
   // Determinar la unidad y el tema activo
   $unidadActiva = null;
   $temaActivo = null;
@@ -217,7 +217,7 @@ function renderMenuUnidades($menuAsignaturaPath)
   // Agregar breadcrumbs
   echo '<nav id="breadcrumb" aria-label="breadcrumb">';
   echo '<ul class="breadcrumb">';
-  echo '<li class="breadcrumb-item"><a href="' . BASE_URL . '?theme=moove">Mis cursos</a></li>';
+  echo '<li class="breadcrumb-item"><a href="' . PATH_SITE . '?theme=moove">Mis cursos</a></li>';
   if ($unidadActiva !== null) {
     echo '<li class="breadcrumb-item"><a href="' . BASE_URL . $menuAsignaturaData['asignatura'][$unidadActiva]['url'] . '">' . htmlspecialchars($menuAsignaturaData['asignatura'][$unidadActiva]['nombre']) . '</a></li>';
     if ($temaActivo !== null) {

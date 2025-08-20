@@ -16,7 +16,7 @@ $papitText = $menuData['papit'];
     <div class="grid grid-cols-1 gap-4 md:gap-0 md:grid-cols-4 py-10">
       <div class="text-center md:mb-0 md:text-left flex justify-center items-center">
 
-        <a href="https://pel.cch.unam.mx/?theme=moove">
+        <a href="<?php echo PATH_SITE . '?theme=moove'; ?>">
           <img src="<?php echo ASSET_URL . '/img/logo.svg'; ?>" alt="Logo" class="h-12" />
         </a>
 
