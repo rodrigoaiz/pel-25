@@ -22,6 +22,9 @@ function renderMenuUnidades($menuAsignaturaPath)
   $jsonContent = file_get_contents($menuAsignaturaPath);
   $menuAsignaturaData = json_decode($jsonContent, true);
   $nombreAsignatura = $menuAsignaturaData['nombreAsignatura'];
+  
+  // Obtener el término personalizado para "tema" o usar "Tema" por defecto
+  $terminoTema = isset($menuAsignaturaData['terminoTema']) ? $menuAsignaturaData['terminoTema'] : 'Tema';
 
   // Verificar si el archivo JSON se cargó correctamente
   if ($menuAsignaturaData === null) {
@@ -114,7 +117,7 @@ function renderMenuUnidades($menuAsignaturaPath)
   // Renderizar la lista de temas de la unidad actual
   if ($unidadActiva !== null) {
     echo '<div id="header__temas">';
-    echo '<span>Temas en la unidad</span>';
+    echo '<span>' . htmlspecialchars($terminoTema) . 's en la unidad</span>';
     echo '<ol>';
     foreach ($menuAsignaturaData['asignatura'][$unidadActiva]['temas'] as $tema) {
       // Construir la URL del tema (siempre apuntando a la primera página)
@@ -130,7 +133,7 @@ function renderMenuUnidades($menuAsignaturaPath)
   if ($unidadActiva !== null && $temaActivo !== null) {
     echo '<div id="header__pantalla">';
     echo '<div>';
-    echo '<span id="titulo-temas">Pantallas de este tema</span>';
+    echo '<span id="titulo-temas">Pantallas de este ' . strtolower($terminoTema) . '</span>';
     echo '<ol>';
 
     // Botón "Anterior"
