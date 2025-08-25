@@ -22,7 +22,7 @@ ob_start();
         </div>
     </div>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Realiza la lectura <a href="<?php echo PATH_DOCS . 'u2t10-lectura_NoTodosLosHombresComoHagoParaSerUnVatoEnDeconstruccion.pdf'; ?>" target="_blank">¡No todos los hombres! ¿Cómo hago para ser un vato en deconstrucción?</a></li>
         <li>Posteriormente, elabora un listado de conductas que identifiques en tu contexto educativo como masculinizadas y elabora una propuesta desde la nueva masculinidad para erradicarla.</li>
         <li>Una vez elaborado ese listado, participa en el foro donde coloques tu listado, asimismo elabora una reflexión sobre el impacto que tiene ese tipo de cambio en las conductas desde la nueva masculinidad, para generar una sana convivencia.</li>

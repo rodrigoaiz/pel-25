@@ -15,7 +15,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Proponer alternativas a las prácticas sociales del amor romántico.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Lee el texto <a href="<?php echo PATH_DOCS . 'u2t8-lectura_RomperElParadigmaDelAmorRomantico.pdf'; ?>" target="_blank">"Romper el paradigma del amor romántico"</a> y con base en la lectura anota en tu libreta cómo evitar relaciones destructivas y promover la responsabilidad afectiva.</li>
         <li>Para reforzar tu lectura te recomendamos el siguiente video.
             <div class="max-w-xl mx-auto">

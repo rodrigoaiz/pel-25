@@ -15,7 +15,7 @@ ob_start();
     <p class="font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Identificar el impacto de la masculinidad tradicional en el desarrollo personal y social de las mujeres.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Trabajo en equipos de 4 ó 5 estudiantes. Su docente asignará a cada equipo una de las 4 <a href="<?php echo PATH_DOCS . 'u1t4-lectura_ConsecuenciasDeLasMasculinidadesEnElQuehacerDeLasMujeres.pdf'; ?>" target="_blank">mujeres que participaron en el desarrollo de la ciencia</a>.</li>
         <li>Lean en equipo la breve historia de la mujer que les asignó su docente e intercambien ideas sobre cómo afectó o benefició a cada mujer sus relaciones con los hombres para su desarrollo personal, profesional, familiar, etc. Traten de llegar a un consenso para presentar sus conclusiones a la plenaria.</li>
         <li>Posteriormente, un integrante del equipo presentará sus conclusiones a la plenaria. Sus compañer*s podrán participar haciendo preguntas o comentarios adicionales.</li>

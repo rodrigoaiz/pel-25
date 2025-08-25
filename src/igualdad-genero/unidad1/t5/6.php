@@ -14,7 +14,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Contribuir a la construcción de una comunidad escolar más inclusiva, solidaria y respetuosa.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Decide a quién dirigirás tu carta compromiso (profesorado, autoridades del plantel, comunidad estudiantil, otro).</li>
         <li>Piensa en acciones específicas que puedas llevar a cabo para promover la igualdad en tu entorno: promover la diversidad, denunciar situaciones de discriminación, participar en actividades de sensibilización, entre otras.</li>
         <li>Utiliza ejemplos concretos de acciones que planeas llevar a cabo y reflexiona sobre tu papel como agente de cambio en la promoción de la igualdad.</li>

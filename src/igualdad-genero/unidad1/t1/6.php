@@ -9,7 +9,7 @@ ob_start();
 ?>
 <section>
     <h2>Evaluación sumativa del Aprendizaje 1</h2>
-    <p>Vamos a comprombar que tienes conocimientos esenciales que te ayudarán en esta asignatura.</p>
+    <p>Vamos a comprobar que tienes conocimientos esenciales que te ayudarán en esta asignatura.</p>
     <?php ob_start(); ?>
     <p>1. Relaciona las columnas colocando el número que corresponde a cada oración.</p>
     <?php

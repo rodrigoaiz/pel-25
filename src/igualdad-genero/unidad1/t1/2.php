@@ -15,8 +15,9 @@ ob_start();
         ?>
     </div>
     <h3>¡Te damos la bienvenida al aprendizaje 1 este curso!</h3>
-    <p>En las siguientes horas. Explorarás temas diversos y participaras en actividades diseñadas para enriquecer tu perspectiva. Este primer aprendizaje se enfocará en la perspectiva de género y la cultura de la igualdad.</p>
-    <p>Para comenzar, te invitamos a revisar el temario que hemos preparado para ti.<strong>¡Esperamos lo disfrutes!</strong></p>
+    <p>En las siguientes horas. Explorarás temas diversos y participarás en actividades diseñadas para enriquecer tu perspectiva. Este primer aprendizaje se enfocará en la perspectiva de género y la cultura de la igualdad.</p>
+    <p>Para comenzar, te invitamos a revisar el temario que hemos preparado para ti.</p>
+    <p><strong>¡Esperamos lo disfrutes!</strong></p>
     <p class="font-bold text-xl text-fuchsia-900">Propósitos</p>
     <ul class="ul-disc">
         <li>Reconocer la desigualdad de género como un proceso estructural y como mecanismo de reproducción social que afecta la relación entre las personas, desarrollo y democracia, para promover una conciencia de la igualdad como principio ético de organización social.</li>

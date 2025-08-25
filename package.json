@@ -5,7 +5,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"webpack --watch --mode development\" \"php -S localhost:8000\"",
-    "build": "NODE_ENV=production webpack --mode production"
+    "build": "NODE_ENV=production webpack --mode production",
+    "build:staging": "NODE_ENV=staging webpack --mode production",
+    "deploy": "./deploy.sh production",
+    "deploy:staging": "./deploy.sh staging",
+    "deploy:build": "./deploy.sh production --auto-build",
+    "deploy:build:staging": "./deploy.sh staging --auto-build",
+    "deploy:quick": "./deploy.sh production --no-package",
+    "deploy:quick:staging": "./deploy.sh staging --no-package",
+    "clean": "rm -rf dist/ deploy-package/ *.tar.gz",
+    "clean:packages": "find . -name '*.tar.gz' -mtime +7 -delete && echo '🧹 Paquetes antiguos eliminados'",
+    "list:packages": "ls -lh *.tar.gz 2>/dev/null || echo 'No hay paquetes de despliegue'",
+    "serve": "php -S localhost:8000 -t dist/",
+    "setup:deploy": "cp deploy.config.example deploy.config && echo '✅ Archivo deploy.config creado. Edítalo con tus datos.'"
   },
   "author": "",
   "license": "ISC",

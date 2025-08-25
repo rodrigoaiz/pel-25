@@ -22,7 +22,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Conocer los tipos de violencia de género y sus características.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Observa con atención el siguiente video y toma notas en tu cuaderno.</li>
         <li>En la grabación aparecerán preguntas que tienen como finalidad ayudarte a verificar que comprendes los conceptos y aspectos principales de la información que se te presenta, así que responde con cuidado cada una de ellas.</li>
     </ol>
