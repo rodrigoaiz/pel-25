@@ -21,13 +21,4 @@
   
   define('PATH_IMAGES', '../../assets/img/');
   define('PATH_DOCS', '../../assets/docs/');
-  
-  // Función stub para desarrollo - evita errores del linter
-  if (!function_exists('require_login')) {
-    function require_login($courseid = null) {
-      // Esta función solo existe para desarrollo local
-      // En producción, Moodle proporcionará la función real
-      return true;
-    }
-  }
 ?>
