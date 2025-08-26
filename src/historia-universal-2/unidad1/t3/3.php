@@ -1,5 +1,5 @@
 <?php
-include '../../config.php'; // Ajusta esta ruta según tu estructura
+include '../../../config.php'; 
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
@@ -48,8 +48,9 @@ ob_start();
   <p><em>Discurso del presidente Wilson al Congreso de EE.UU., 8 de Enero de 1918</em></p>
   
   <?php
-  renderImage('byeznhpyxeuztibuo1.jpg', 'Imagen de Byeznhpyxeuztibuo', 'https://commons.wikimedia.org/wiki/File:Governor_Woodrow_Wilson_for_President_(4515334672).jpg', 'Wikimedia Commons');
+  renderImage('byeznhpyxeuztibuo.webp', 'Imagen de Byeznhpyxeuztibuo', 'https://commons.wikimedia.org/wiki/File:Governor_Woodrow_Wilson_for_President_(4515334672).jpg', 'Wikimedia Commons');
   ?>
+
 <section>
   <p>
     Días más tarde, se dio inicio en París a las reuniones para formalizar la paz. 
@@ -99,14 +100,11 @@ ob_start();
 
   <p><strong>Identifica en este mapa cuáles son:</strong></p>
 
-    <?php
-  renderImage('byeznhpyxeuztibuo1.jpg', 'Imagen de Byeznhpyxeuztibuo', 'https://commons.wikimedia.org/wiki/File:Governor_Woodrow_Wilson_for_President_(4515334672).jpg', 'Wikimedia Commons');
-  ?>
+    
 
-  <?php
-// solucionar lo de la imagen antes y despues
-  renderImage('antesydespues.jpg', 'La batalla de Ulundi. Imagen de antes y despues', 'https://commons.wikimedia.org', 'Wikimedia Commons');
-  ?>
+   <img class="mx-auto" src="../../assets/img/europa-antes-despues.webp" alt="europa antes y despues">
+
+
 
   
 
@@ -120,13 +118,13 @@ ob_start();
   <p>La incorporación de la mujer al mercado laboral alcanza unas cifras nunca vistas hasta el momento. Además, asumen trabajos tan dispares como como deshollinadoras, conductoras de camiones u obreras en la industria armamentística. Así entre Francia y Gran Bretaña más de un millón y medio de mujeres trabajaron en fábricas de armamento; mientras en Alemania el 38% de la fábrica bélica Krupp estaba compuesto por mujeres en 1918.</p>
   
   <?php
-  renderImage('sopa-de-pato1.jpg', 'Imagen de Sopa de pato', 'https://commons.wikimedia.org/wiki/File:Women_at_work_during_the_First_World_War_Q27873.jpg', 'Wikimedia Commons');
+  renderImage('sopa-de-pato.webp', 'Imagen de Sopa de pato', 'https://commons.wikimedia.org/wiki/File:Women_at_work_during_the_First_World_War_Q27873.jpg', 'Wikimedia Commons');
   ?>
 
   <p>Las mujeres también estuvieron presentes en los frentes de batalla; como enfermeras y en tareas de asistencia pero algunas sí se integraron como combatientes e inclusive en Rusia se conformaron batallones de mujeres. Esta participación en el esfuerzo de guerra (desde el hogar, desde el frente en diversas funciones) fue muy importante para una toma de conciencia en torno a los derechos que estarían dispuestas a defender más adelante.</p>
   
   <?php
-  renderImage('ras67-1.jpg', 'Mikhailovna Shakhovskaya. Primera mujer piloto. Imagen de ras67', 'https://commons.wikimedia.org/w/index.php?curid=17997425', 'Wikimedia Commons');
+  renderImage('ras67-primera-mujer-piloto.webp', 'Mikhailovna Shakhovskaya. Primera mujer piloto. Imagen de ras67', 'https://commons.wikimedia.org/w/index.php?curid=17997425', 'Wikimedia Commons');
   ?>
 
   <p>En cuanto a los Estados Unidos, la guerra significó crecimiento de las exportaciones puesto que en las naciones europeas toda la energía social se concentró hacia el esfuerzo de guerra. En Europa, la actividad económica, la producción, la agricultura quedaron de lado durante las batallas. Los productos que se requerían eran importados desde los Estados Unidos. Esto hizo CRECER la producción de ese país durante la guerra. Fue una época de gran prosperidad para los estadounidenses, y al finalizar el conflicto se convirtieron en el principal acreedor (muchos países estaban endeudados con ellos). Esto tendría consecuencias catastróficas, como podrás ver más adelante.</p>
@@ -143,7 +141,7 @@ ob_start();
   <p>Revisa el siguiente video acerca de la incorporación de la mujer al mercado laboral durante la primera guerra mundial.</p>
   <?php
   // La mujer en el mercado laboral durante la 1a guerra mundial
-  echo '<iframe width="560" height="315" 
+  echo '<iframe width="960" height="730" 
           src="https://www.youtube.com/embed/IaeBZOQKFlc" 
           title="La mujer en el mercado laboral durante la 1a guerra mundial"
           frameborder="0" 

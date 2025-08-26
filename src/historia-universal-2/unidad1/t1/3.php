@@ -1,5 +1,5 @@
 <?php
-include '../../config.php'; // Ajustar esto según tu estructura
+include '../../../config.php'; 
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
@@ -20,7 +20,7 @@ ob_start();
   <p><strong>Salarios bajos y explotación infantil:</strong> A pesar de los avances tecnológicos, los salarios de los trabajadores industriales a menudo eran bajos. Esto resultó en una explotación económica significativa, ya que los trabajadores tenían que trabajar largas horas para ganarse la vida. Además, en muchos lugares, la mano de obra infantil era ampliamente explotada, con niños trabajando en condiciones peligrosas y por salarios mínimos.</p>
   
   <?php
-  renderImage('sr-gustafson1.jpg', 'Imagen de Sr. Gustafson', 'https://commons.wikimedia.org/wiki/File:Child_Labor,_1918.JPG', 'Wikimedia Commons');
+  renderImage('sr-gustafson.webp', 'Imagen de Sr. Gustafson', 'https://commons.wikimedia.org/wiki/File:Child_Labor,_1918.JPG', 'Wikimedia Commons');
   ?>
 
   <p><strong>Sistema de piezas y salarios a destajo:</strong> Se introdujo el sistema de pago a destajo, donde los trabajadores recibían salarios basados en la cantidad de productos que producían. Esto creó una mayor competencia entre los trabajadores y una mayor presión para aumentar la producción, lo que a menudo llevó a una mayor explotación y desigualdad.</p>

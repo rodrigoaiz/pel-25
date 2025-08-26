@@ -1,5 +1,5 @@
 <?php 
-include '../../../config.php';// Ajustar esto según tu estructura
+include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
@@ -27,8 +27,8 @@ ob_start();
   </p>
 
     <?php 
-  renderImage('denarios.webp','https://commons.wikimedia.org/wiki/File:HMS_Dreadnought_1906_H61017.jpg' , 'Imagen de Denarios');
-  renderImage('hohum.webp', 'https://commons.wikimedia.org/wiki/File:Hochseeflotte_2.jpg','Imagen de hohum');
+  renderImage('denarios.webp', 'Imagen de denarios','https://commons.wikimedia.org/wiki/File:HMS_Dreadnought_1906_H61017.jpg' , 'Wikimedia Commons');
+  renderImage('hohum.webp','Imagen de hohum', 'https://commons.wikimedia.org/wiki/File:Hochseeflotte_2.jpg','Wikimedia Commons');
   ?>
 
   <p>
@@ -36,8 +36,8 @@ ob_start();
   </p>
 
   <?php 
-  renderImage('fae.webp','https://commons.wikimedia.org/wiki/File:Airplane,_airport,_First_World_War,_Gerrman_brand,_biplane_Fortepan_69966.jpg', 'Imagen de fae');
-  renderImage('1970geminis.webp', 'https://commons.wikimedia.org/wiki/File:Maschinengewehr_08_1.jpg#file','Imagen de 1970géminis');
+  renderImage('fae3.webp', 'Imagen de fae','https://commons.wikimedia.org/wiki/File:Airplane,_airport,_First_World_War,_Gerrman_brand,_biplane_Fortepan_69966.jpg',  'Wikimedia Commons');
+  renderImage('1970geminis.webp', 'Imagen de 1970géminis', 'https://commons.wikimedia.org/wiki/File:Maschinengewehr_08_1.jpg#file', 'Wikimedia Commons');
   ?>
 
 

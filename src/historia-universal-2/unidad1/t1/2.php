@@ -1,12 +1,17 @@
 <?php
-include '../../config.php'; // Ajustar esto según tu estructura
+include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ImagenPie.php';
+include PATH_INCLUDE . 'Accordion.php';
+include PATH_INCLUDE . 'Tabs.php';
+include PATH_INCLUDE . 'ParaSaber.php';
+include PATH_INCLUDE . 'ImagenFullPleca.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
+
 ob_start();
 ?>
 
@@ -16,7 +21,7 @@ ob_start();
   <p>A finales del s. XIX, la parte occidental del planeta veneraba el progreso. Estaban convencidos de que estos avances se habían producido gracias a la llamada Segunda Revolución Industrial. La primera había traído los textiles, ferrocarriles, hierro y carbón. En la segunda, el acero, compuestos químicos, electricidad y petróleo que abrieron el camino rumbo a nuevas fronteras industriales.</p>
   
   <?php
-  renderImage('qalama9.jpg', 'Imagen de Qlama9', 'https://commons.wikimedia.org/wiki/File:1890heyenbrock.jpg', 'Wikimedia Commons');
+  renderImage('imagen-Qlama9.webp', 'Imagen de Qlama9', 'https://commons.wikimedia.org/wiki/File:1890heyenbrock.jpg', 'Wikimedia Commons');
   ?>
 
   <p>Productos nuevos. El primer cambio industrial importante entre 1870 y 1914 fue la sustitución del hierro por el acero. Los nuevos métodos para forjar el acero resultaron muy útiles para la construcción de máquinas y motores más ligeros, pequeños y rápidos, así como ferrocarriles, barcos y armas. En 1860, Inglaterra, Francia, Alemania y Bélgica produjeron 125,000 toneladas de acero. Para 1913, la producción total fue de 32 millones de toneladas.</p>
@@ -24,14 +29,13 @@ ob_start();
   <p>La electricidad dio pie a varios inventos. La creación del foco por Thomas Edison en Estados Unidos y Joseph Swan en Inglaterra permitió beneficiar con luz eléctrica a los hogares y ciudades. Se inició una revolución en las comunicaciones en 1876 cuando Alexander Graham Bell inventó el teléfono y en 1901, Guillermo Marconi envió las primeras señales de radio a través del Atlántico.</p>
   
   <?php
-  renderImage('durova.jpg', 'Imagen de Durova', 'https://commons.wikimedia.org/wiki/File:Light_bulb_Edison_2.jpg', 'Wikimedia Commons');
+  renderImage('imagen-Durova.webp', 'Imagen de Durova', 'https://commons.wikimedia.org/wiki/File:Light_bulb_Edison_2.jpg', 'Wikimedia Commons');
   ?>
 
   <p>Revisa el siguiente video para complementar los aprendizajes acerca de la segunda revolución industrial:</p>
   <?php
-  // Segunda Revolución industrial
   renderVideoIframe('n25Otb5dTCc', 'Segunda Revolución industrial');
-?>
+  ?>
 
   <p>Nuevos esquemas. La producción internacional se incrementó a un ritmo acelerado por el gran aumento en los bienes manufacturados. Por varios motivos, los europeos podían darse el lujo de comprar más productos de consumo. Los salarios de los trabajadores aumentaron desde 1870. Además, los precios de los bienes manufacturados eran más bajos porque se habían reducido los costos de los transportes.</p>
   <p>En las ciudades, las primeras tiendas departamentales vendían un nuevo surtido de artículos de consumo gracias al desarrollo de las industrias del acero y la electricidad. Relojes, bicicletas, focos y máquinas de escribir se vendían en grandes cantidades.</p>
@@ -39,7 +43,7 @@ ob_start();
   <p>Mientras, otra parte de Europa era todavía agrícola: la zona poco industrializada del sur y el este, que era el sur de Italia, la mayor parte de Austría-Hungría, España, Portugal, los reinos balcánicos y Rusia. Estos países daban alimentos y materias primas a los países industrializados.</p>
   
   <?php
-  renderImage('abel-gil.jpg', 'Imagen de Abel Gil, EAOM', 'https://elordenmundial.com/mapas-y-graficos/revolucion-industrial-europa/', 'Wikimedia Commons');
+  renderImage('imagen-abel-gil.webp', 'Imagen de Abel Gil, EAOM', 'https://elordenmundial.com/mapas-y-graficos/revolucion-industrial-europa/', 'Wikimedia Commons');
   ?>
 
   <p>La teoría marxista. En 1848 se publicó el <em>Manifiesto del Partido Comunista</em>, obra de dos alemanes, Carlos Marx y Federico Engels, horrorizados por las condiciones de las fábricas, de las cuales culpan al sistema capitalista industrial. Su solución fue crear un nuevo sistema social. Con el tiempo, una variante del socialismo marxista se llamó comunismo.</p>
@@ -49,7 +53,6 @@ ob_start();
   <p>Revisa el siguiente video para complementar las ideas que estamos revisando:</p>
 
   <?php
-   // Imperialismo capitalista
   renderVideoIframe('kfJAxbofRoI', 'Imperialismo capitalista');
   ?>
 
@@ -62,7 +65,7 @@ ob_start();
   <p>Las clases trabajadoras. Debajo de las clases medias estaban las clases trabajadoras, que eran casi el 80% de la población de Europa. Muchos de sus integrantes eran campesinos, trabajadores agrícolas y aparceros en el entorno rural y artesanos, trabajadores semicalificados, jornaleros y trabajadores domésticos en el entorno urbano.</p>
 
   <?php
-  renderImage('john-paros.jpg', ' John Vandenberg e Imagen de Paros.', 'https://commons.wikimedia.org/wiki/File:Ford_Motor_Company_assembly_line.jpg', 'Wikimedia Commons');
+  renderImage('john-vandenberg-imagen-Paros.webp', 'John Vandenberg e Imagen de Paros.', 'https://commons.wikimedia.org/wiki/File:Ford_Motor_Company_assembly_line.jpg', 'Wikimedia Commons');
   ?>
 
   <h4>Cuestionario diagnóstico unidad 1</h4>
@@ -76,17 +79,15 @@ ob_start();
   <p>La educación. La educación universal fue el producto de la sociedad de masas a fines del s. XIX, fue principalmente para la clase rica y media acaudalada, sin embargo, para 1914, Estados Unidos instituyó las primeras primarias oficiales, con obligatoriedad para todos los niños y niñas de 6 a 12 años. La razón principal de este interés en la educación pública fue la industrialización, en la Primera Revolución Industrial la mano de obra utilizada podía ser no capacitada y sin experiencia pero en la Segunda se requerían ya trabajadores capacitados, así que la educación primaria daba la posibilidad a los niños y niñas de encontrar trabajo fuera de sus lugares de origen, en los campos de la docencia y la enfermería o como empleados del ferrocarril o correos.</p>
   
   <?php
-  renderImage('bubamara1.jpg', 'Foto de Bubamara', 'https://commons.wikimedia.org/wiki/File:Elementary_school_class_on_American_Indian_culture.png', 'Wikimedia Commons');
+  renderImage('foto-bubamara.webp', 'Foto de Bubamara', 'https://commons.wikimedia.org/wiki/File:Elementary_school_class_on_American_Indian_culture.png', 'Wikimedia Commons');
   ?>
 
   <h3>El esparcimiento</h3>
   <p>La Segunda Revolución Industrial permitió a las personas entregarse a nuevas formas de esparcimiento. El tiempo libre comenzó a considerarse como una forma de vida de la gente para poder disfrutar después del trabajo, surgieron salas de cine, salones de baile, parques de diversiones y espectáculos masivos de deportes.</p>
-<h3>Orígenes del colonialismo</h3>
-<?php
-  renderImage('Zz1y.jpg', 'Foto de BuZz1y', 'https://commons.wikimedia.org/wiki/File:IMGCDB82_-_Caricatura_sobre_conferencia_de_Berl%C3%ADn,_1885.jpg', 'Wikimedia Commons');
+  <h3>Orígenes del colonialismo</h3>
+  <?php
+  renderImage('imagen-Zz1y.webp', 'Foto de BuZz1y', 'https://commons.wikimedia.org/wiki/File:IMGCDB82_-_Caricatura_sobre_conferencia_de_Berl%C3%ADn,_1885.jpg', 'Wikimedia Commons');
   ?>
-
-
 
   <p>El colonialismo del siglo XIX tuvo sus raíces en una serie de factores económicos, políticos y sociales que se desarrollaron durante ese período. Aquí están algunos de los principales orígenes:</p>
   <ul class="ul-disc">
@@ -99,10 +100,8 @@ ob_start();
   <p>En resumen, el colonialismo del siglo XIX se originó a partir de una combinación de intereses económicos, competencia entre las potencias europeas, avances tecnológicos, ideologías imperialistas y consideraciones políticas y estratégicas. Estos factores llevaron a una expansión sin precedentes de los imperios coloniales europeos y tuvieron un profundo impacto en las sociedades colonizadas y en la historia mundial.</p>
 
   <?php
-   // El capitalismo y sus manifestaciones
   renderVideoIframe('vFIC77-hThY', 'El capitalismo y sus manifestaciones'); 
   ?>
-
 
   <h3>Las ciudades</h3>
   <p>Reafirmemos algunos conocimientos con el siguiente reto.</p>
@@ -112,13 +111,9 @@ ob_start();
   $ActividadContent = ob_get_clean();
   renderActividad('u1t1a2', "Ir a la actividad", $ActividadContent);
   ?>
-
-
 </section>
 
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);
 ?>
-
-  

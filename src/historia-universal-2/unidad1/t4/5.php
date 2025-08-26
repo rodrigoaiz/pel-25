@@ -1,5 +1,5 @@
 <?php
-include '../../config.php'; // Ajusta esta ruta según tu estructura
+include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
@@ -29,7 +29,7 @@ ob_start();
   ?>
   
   <?php
-  renderImage('Tex23-1.jpg', 'Diseño del telégrafo. Imagen de Tex23~commonswiki', 'https://commons.wikimedia.org/wiki/File:Morse_telegraph.jpg', 'Wikimedia Commons');
+  renderImage('telegrafo.webp', 'Diseño del telégrafo. Imagen de Tex23~commonswiki', 'https://commons.wikimedia.org/wiki/File:Morse_telegraph.jpg', 'Wikimedia Commons');
   ?>
 
   <p>La revolución industrial llevó a las mujeres a las fábricas, el trabajo apoyó la independencia económica de éstas. Además, tuvieron un mayor acceso a la educación, lo que aumentó la toma de conciencia de su situación. Por ejemplo, en esta época se extendió el uso de los anticonceptivos. En 1906, Finlandia otorgó plenos derechos políticos a las mujeres. El movimiento sufragista impactó en Inglaterra, aunque en ese país el sufragio femenino se logró hasta después de la 1ª guerra mundial. Para los hombres la situación laboral se mantuvo, pero aparecieron afectaciones a la salud relacionadas con el trabajo como el estrés y la impotencia sexual. Por otro lado, los niños fueron reconocidos como tales, en la Belle Époque se extendió la educación primaria obligatoria.</p>
@@ -46,9 +46,9 @@ ob_start();
 
 
   <?php
-   // video no disponible
-  renderVideoIframe('video no disponible', 'Recurso sobre la Belle Époque');
-  ?>
+  // Recurso sobre la Belle Époque
+  renderVideoIframe('fIBfOYQOioM', 'Recurso sobre la Belle Époque');
+?>
   
   <p>Ahora resolvamos el examen final de esta unidad.</p>
   <?php ob_start(); ?>

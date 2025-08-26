@@ -1,5 +1,5 @@
 <?php
-include '../../config.php'; // Ajusta esta ruta según tu estructura
+include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
@@ -18,7 +18,7 @@ ob_start();
   <p>La publicidad fue muy importante en el desarrollo del consumo, gracias a ella, por ejemplo, el champán pasó de ser una bebida poco apreciada a ser la favorita de la burguesía. Cambiaron los hábitos respecto al consumo y a la forma de vestir, gracias a la ropa, las personas comenzaron a parecerse y no se distinguía a la gente del campo de la de la ciudad. Por cierto, la vestimenta de las mujeres se componía de varias capas de ropa de tela gruesa que escondían la carne pero exageraron las formas, siendo el corsé un elemento fundamental en los atuendos femeninos. En la Belle Époque, gracias al uso extendido de la bicicleta, surgieron los primeros pantalones para mujer ¡Un escándalo!</p>
   
   <?php
-  renderImage('sirena-com1.jpg', 'Imagen de sirena-com', 'https://commons.wikimedia.org/wiki/File:Magasins_Dufayel_publicit%C3%A9_1896.jpg', 'Wikimedia Commons');
+  renderImage('sirena.webp', 'Imagen de sirena-com', 'https://commons.wikimedia.org/wiki/File:Magasins_Dufayel_publicit%C3%A9_1896.jpg', 'Wikimedia Commons');
   ?>
 
 </section>

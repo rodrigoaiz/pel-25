@@ -1,5 +1,5 @@
 <?php
-include '../../config.php'; // Ajusta esta ruta según tu estructura
+include '../../../config.php'; // Ajusta esta ruta según tu estructura
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
@@ -25,7 +25,7 @@ ob_start();
   <p>Las nuevas formas de ocio desataron debates morales, el hecho de que las personas contaran con más dinero y más tiempo libre fue visto como un peligro por algunos sectores sociales. Los espectáculos en los teatros, los bailes, las reuniones en bares y tabernas y el cancán fueron considerados ataques a la moral. La música ragtime fue la banda sonora de estas formas nuevas de entretenimiento y se podía escuchar tanto en vivo como en el nuevo gramófono. De estos espectáculos surgieron estrellas, ídolos de las masas cuyas vidas eran reportadas en la prensa.</p>
   
   <?php
-  renderImage('Fonático1.jpg', 'Gramófono para escuchar música. Imagen de Fonático', 'https://es.wikipedia.org/wiki/Gram%C3%B3fono#/media/Archivo:VictorVPhonograph.jpg', 'Wikimedia Commons');
+  renderImage('fonatico.webp', 'Gramófono para escuchar música. Imagen de Fonático', 'https://es.wikipedia.org/wiki/Gram%C3%B3fono#/media/Archivo:VictorVPhonograph.jpg', 'Wikimedia Commons');
   ?>
 
   <p>Con el entretenimiento llegaron otras costumbres como el aumento del consumo del alcohol, y se comenzó a beber en público. Había también fumaderos de opio y el cannabis era de fácil acceso para las clases altas.</p>
@@ -37,7 +37,7 @@ ob_start();
   <p>Otras formas de entretenimiento se mantuvieron en el ámbito de lo privado, socialmente el sexo seguía siendo tabú, en general se prohibía el disfrute, además del aborto, la anticoncepción y la homosexualidad y el lesbianismo. Había, sin embargo, mucha prostitución y mucha pornografía.</p>
   
   <?php
-  renderImage('Skblzz1-1.jpg', 'Juegos Olímpicos de Atenas 1896. Imagen de Skblzz1 wikimedia commons', 'https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Atenas_1896#/media/Archivo:Athens_1896_report_cover.jpg', 'Wikimedia Commons');
+  renderImage('juegos-olimpicos-atenas.webp', 'Juegos Olímpicos de Atenas 1896. Imagen de Skblzz1 ', 'https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Atenas_1896#/media/Archivo:Athens_1896_report_cover.jpg', 'Wikimedia Commons');
   ?>
 
   <h3>La tecnología en la Belle Époque</h3>
