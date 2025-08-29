@@ -13,7 +13,7 @@ ob_start();
   <h2>Bienvenida al curso</h2>
   <div class="max-2xl mx-auto">
     <?php
-    renderImage('iga2-img01.webp');
+    renderImage('iga1-img01.webp');
     ?>
   </div>
 </section>
@@ -30,13 +30,12 @@ ob_start();
   </div>
 </div>
 <section>
-  <p>XXXX</p>
   <p>Para comenzar vamos a un sencillo ejercicio que te permite autoevaluarte, así puedes saber cómo andan tus conocimientos sobre esta unidad en particular.</p>
   <?php ob_start(); ?>
   <p>Responde cada una de las preguntas.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a1', "Cuestionario diagnóstico Unidad 1", $ActividadContent);
+  renderActividad('u1t1a1', "Cuestionario diagnóstico | Unidad 1", $ActividadContent);
   ?>
 </section>
 
