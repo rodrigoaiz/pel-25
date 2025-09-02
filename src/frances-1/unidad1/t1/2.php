@@ -63,10 +63,9 @@ ob_start();
         <p class="text-center"><span class="italic font-bold">À la prochaine!</span> (¡Hasta la próxima!)</p>
         <p class="mt-3">Sí sé que lo voy a volver a ver en un día específico de la semana, puedo usar la estructura:</p>
         <p class="text-center"><span class="italic font-bold">À +</span> día de la semana</p>
-        <p class="mt-3">Las respuestas a estas preguntas pueden ser:</p>
     </div>
 </div>
-<div class="flex justify-center gap-6">
+<div class="flex justify-center gap-6 mt-6">
     <div class="w-1/3 md:2/3 bg-emerald-500/30 text-emerald-800 p-6 shadow-xl">
         <p class="font-bold text-xl mb-2">Jours de la semaine</p>
         <p class="mt-3">Relaciona cada día de la semana con su nombre en francés.</p>
@@ -80,11 +79,23 @@ ob_start();
     </div>
 </div>
 <section>
-
-
+    <p>Aquí tienes el video de una canción infantil para aprender los días de la semana:</p>
     <?php
-    renderVideoIframe('JmlS2Zf8-is', 'Este es el primer video de la asignatura');
+    renderVideoIframe('s1uq_SXK9zw', 'Les jours de la semaine chanson enfant Francais ِanglais Arab.e');
     ?>
+    <p>Por ejemplo, puedes decir:</p>
+    <div class="flex justify-center gap-6 mt-6">
+        <div class="w-2/3 md:2/3 bg-orange-500/30 text-purple-800 p-6 shadow-lg">
+            <p><span class="italic font-bold">À lundi!</span> (¡Hasta el lunes!)</p>
+            <p>Para hacer más formal el saludo, puedes agregar las palabras:</p>
+            <p><span class="italic font-bold">Monsieur</span> (señor), <span class="italic font-bold">Madame</span> (señora) o <span class="italic font-bold">Mademoiselle</span> (señorita) o sus plurales: <span class="italic font-bold">Messieurs</span>, <span class="italic font-bold">Mesdames</span> o <span class="italic font-bold">Mesdamoiselles</span>, por ejemplo: <span class="italic font-bold">Bonjour, Monsieur!, Au revoir, Mesdamoiselles!</span></p>
+        </div>
+    </div>
+
+
+
+
+    <p>Ve estos dos videos para que practiques la pronunciación y el vocabulario para saludar y despedirse de manera informal (tu) y formal (vous):</p>
 
 
 
