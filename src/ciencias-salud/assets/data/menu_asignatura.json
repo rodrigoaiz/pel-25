@@ -1,0 +1,59 @@
+{
+  "nombreAsignatura": "Ciencias de la Salud I",
+  "asignatura": {
+    "Unidad 1": {
+      "url": "/ciencias-salud/unidad1/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 1",
+      "temas": [
+        {"nombre": "La salud como proceso biopsicosocial", "url": "/ciencias-salud/unidad1/t1", "paginas": 2},
+        {"nombre": "Identifica al ser humano como unidad biopsicosocial", "url": "/ciencias-salud/unidad1/t2", "paginas": 4},
+        {"nombre": "Derecho a la Salud", "url": "/ciencias-salud/unidad1/t3", "paginas": 1},
+        {"nombre": "Paradigmas sobre el binomio salud-enfermedad", "url": "/ciencias-salud/unidad1/t4", "paginas": 5},
+        {"nombre": "Las ciencias de la salud", "url": "/ciencias-salud/unidad1/t5", "paginas": 5},
+        {"nombre": "Esquema de la historia natural de la enfermedad", "url": "/ciencias-salud/unidad1/t6", "paginas": 1}
+
+      ]
+    },
+    "Unidad 2": {
+      "url": "/ciencias-salud/unidad2/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 2",
+      "temas": [
+        {"nombre": "Investigación en Salud", "url": "/ciencias-salud/unidad2/t1", "paginas": 2},
+        {"nombre": "Métodos de investigación en salud", "url": "/ciencias-salud/unidad2/t2", "paginas": 4},
+        {"nombre": "El método epidemiológico base de la investigación en salud pública", "url": "/ciencias-salud/unidad2/t3", "paginas": 3},
+        {"nombre": "Diseño de protocolos de investigación", "url": "/ciencias-salud/unidad2/t4", "paginas": 4}
+      ]
+    },
+    "Unidad 3": {
+      "url": "/ciencias-salud/unidad3/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 3",
+      "temas": [
+        {"nombre": "La Salud Integral del Adolescente", "url": "/ciencias-salud/unidad3/t1", "paginas": 3},
+        {"nombre": "Adolescencia y sus cambios", "url": "/ciencias-salud/unidad3/t2", "paginas": 2},
+        {"nombre": "Factores en la  adolescencia", "url": "/ciencias-salud/unidad3/t3", "paginas": 4},
+        {"nombre": "Significado de la salud integral, individual, micro y macro ambiental", "url": "/ciencias-salud/unidad3/t4", "paginas": 3},
+        {"nombre": "Proyecto de vida", "url": "/ciencias-salud/unidad3/t5", "paginas": 2},
+        {"nombre": "Conductas de riesgo", "url": "/ciencias-salud/unidad3/t6", "paginas": 3}
+      ]
+    },
+    "Unidad 4": {
+      "url": "/ciencias-salud/unidad4/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 4",
+      "temas": [
+        {"nombre": "El capitalismo actual: globalización, neoliberalismo y crisis", "url": "/ciencias-salud/unidad4/t1", "paginas": 4},
+        {"nombre": "Nuevo sistema multipolar y su relación con algunos proyectos nacionales", "url": "/ciencias-salud/unidad4/t2", "paginas": 4},
+        {"nombre": "Cultura, posmodernidad o pensamiento crítico", "url": "/ciencias-salud/unidad4/t3", "paginas": 4}
+      ]
+    }
+  },
+  "actividades": {
+    "u1t1a1": { "id": "5050", "moduleName": "quiz" },
+    "u1t1a2": { "id": "5051", "moduleName": "h5p" },
+    "u1t1a3": { "id": "5052", "moduleName": "h5p" },
+    "u1t1a4": { "id": "5053", "moduleName": "assign" }
+  }
+}
