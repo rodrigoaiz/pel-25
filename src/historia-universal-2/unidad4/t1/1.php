@@ -14,21 +14,16 @@ ob_start();
 ?>
 
 <section>
-  <h2>Título 1</h2>
-  <h3>Título 2 si necesario</h3>
-  <h4>Otro subtitulo</h4>
-  <p>Revisen el ejemplo en Unidad 1 tema 1 ejemplo.php</p>
-  <h2>Bienvenid@ a la unidad 4</h2>
+  <h3>Bienvenid@ a la unidad 4</h3>
   <?php
-  renderVideoIframe('_7FRdJFw1U0', 'Bienvenida a la unidad 3.');
-
+  renderVideoIframe('_7FRdJFw1U0', 'Bienvenida a la unidad 4.');
   ?>
 
   <?php ob_start(); ?>
   <p>Para comenzar vamos a un sencillo ejercicio que te permite autoevaluarte, así puedes saber cómo andan tus conocimientos sobre esta unidad en particular.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t1a1', "Cuestionario diagnóstico Unidad 3", $ActividadContent);
+  renderActividad('u4t1a1', "Cuestionario diagnóstico Unidad 4", $ActividadContent);
   ?>
 </section>
 <?php
