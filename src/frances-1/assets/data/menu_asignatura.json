@@ -6,10 +6,10 @@
       "publicado": true,
       "nombre": "Unidad 1",
       "temas": [
-        {"nombre": "Se saluer et prendre congé - Saludar y despedirse ", "url": "/frances-1/unidad1/t1", "paginas": 3},
-        {"nombre": "Presentarse de manera formal e informal - Se présenter formellement et informellement", "url": "/frances-1/unidad1/t2", "paginas": 2},
+        {"nombre": "Se saluer et prendre congé - Saludar y despedirse ", "url": "/frances-1/unidad1/t1", "paginas": 2},
+        {"nombre": "Presentarse de manera formal e informal - Se présenter formellement et informellement", "url": "/frances-1/unidad1/t2", "paginas": 1},
         {"nombre": "El alfabeto - L'alphabet", "url": "/frances-1/unidad1/t3", "paginas": 1},
-        {"nombre": "Pronunciación y diptongos - Prononciation et diptongues", "url": "/frances-1/unidad1/t4", "paginas": 2},
+        {"nombre": "Pronunciación y diptongos - Prononciation et diptongues", "url": "/frances-1/unidad1/t4", "paginas": 1},
         {"nombre": "Producción oral - Production orale", "url": "/frances-1/unidad1/t5", "paginas": 1}
       ]
     },
@@ -45,26 +45,28 @@
   },
   "actividades": {
     "u1t1a1": { "id": "5200", "moduleName": "quiz" },
-    
-    "u1t1a2": { "id": "5201", "moduleName": "h5p" },
-    "u1t1a3": { "id": "5202", "moduleName": "h5p" },
-    "u1t1a4": { "id": "5203", "moduleName": "h5p" },
-    "u1t1a5": { "id": "5204", "moduleName": "assign" },
+    "u1t1a2": { "id": "5201", "moduleName": "hvp" },    
+    "u1t1a3": { "id": "5202", "moduleName": "hvp" },
+    "u1t1a4": { "id": "5203", "moduleName": "hvp" },
+    "u1t1a5": { "id": "5204", "moduleName": "hvp" },
+    "u1t1a6": { "id": "5204", "moduleName": "hvp" },
+    "u1t1a7": { "id": "5204", "moduleName": "hvp" },
+
 
     "u2t1a1": { "id": "5205", "moduleName": "quiz" },
-    "u2t1a2": { "id": "5206", "moduleName": "h5p" },
-    "u2t1a3": { "id": "5207", "moduleName": "h5p" },
+    "u2t1a2": { "id": "5206", "moduleName": "hvp" },
+    "u2t1a3": { "id": "5207", "moduleName": "hvp" },
     "u2t1a4": { "id": "5208", "moduleName": "assign" },
 
     "u3t1a1": { "id": "5209", "moduleName": "quiz" },
-    "u3t1a2": { "id": "5210", "moduleName": "h5p" },
-    "u3t1a3": { "id": "5211", "moduleName": "h5p" },
-    "u3t1a4": { "id": "5212", "moduleName": "h5p" },
+    "u3t1a2": { "id": "5210", "moduleName": "hvp" },
+    "u3t1a3": { "id": "5211", "moduleName": "hvp" },
+    "u3t1a4": { "id": "5212", "moduleName": "hvp" },
     "u3t1a5": { "id": "5213", "moduleName": "assign" },
 
     "u4t1a1": { "id": "5214", "moduleName": "quiz" },
-    "u4t1a2": { "id": "5215", "moduleName": "h5p" },
-    "u4t1a3": { "id": "5216", "moduleName": "h5p" },
+    "u4t1a2": { "id": "5215", "moduleName": "hvp" },
+    "u4t1a3": { "id": "5216", "moduleName": "hvp" },
     "u4t1a4": { "id": "5217", "moduleName": "assign" }
   }
 }

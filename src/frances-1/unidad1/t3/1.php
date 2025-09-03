@@ -10,14 +10,23 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Se saluer et prendre congé</h2>
-    <h3>Saludar y despedirse</h3>
-    <p>En esta lección, aprenderás <span class="bg-cyan-500/30 text-cyan-600 p-1 font-bold">a usar a saludar y a despedirte</span> en contextos formales e informales.</p>
-    <p>Antes de comenzar debes de saber que dentro del mundo francófono hay que tener siempre en cuenta la manera en la que vamos a dirigirnos a las personas, es decir, si les hablamos de "usted" o de "tú". Estas convenciones son importantes dentro de la cultura francófona y no las podemos pasar por alto.</p>
-    <p>Así, vamos a hablar de "usted" (que en un contexto formal) a las personas que no conozcamos, a las personas mayores que nosotros y a las personas que tengan un grado jerárquico mayor que el nuestro (por ejemplo a nuestros profesores). Y vamos a hablar de "tú" a los niños, a nuestros familiares, a nuestros amigos cercanos, a nuestra pareja y a las personas que nos lo permitan después de haberles preguntado si los podemos "tutear" o que nos lo hayan pedido expresamente hacerlo.</p>
-    <p>Entonces, siempre vamos a tener una manera "formal" de hablar y una manera "informal" de hacerlo. También existen expresiones que son adecuadas para cualquier tipo de situación; a estas formas les vamos a llamar "estándar" y se pueden usar tanto cuando hablas de "usted" como cuando hablas de "tú".</p>
-    <p>Ahora, lo primero que vas a aprender es a saludar a las personas. Esta acción es de suma importancia para las personas de habla francesa. Debes de tener en cuenta que, siempre y en cualquier ocasión, lo primero que debemos hacer es saludar. Para los francófonos es tan importante abrir así cualquier conversación que, si no saludas antes de cualquier otra cosa, la persona no te va a responder.</p>
-    <p>Obviamente, los saludos y despedidas deben de adecuarse a la situación comunicativa, es decir, al hecho de que hables de "usted" o de "tú" con tu interlocutor.</p>
+    <h2>L'alphabet</h2>
+    <h3>El alfabeto</h3>
+    <p>El alfabeto en francés tiene muchas similitudes con el alfabeto en español. Sin embargo, hay algunos sonidos que debemos tener en cuenta para pronunciar correctamente.</p>
+    <div class="flex flex-row justify-center gap-4">
+        <div class="basis-1/3">
+            <?php
+            renderVideoIframe('uSeR5GsgpRI', 'Bienvenidas y bienvenidos a la asignatura de Francés 1');
+            ?>
+        </div>
+        <div class="basis-1/3">
+            <?php
+            renderVideoIframe('nUevGxgLIv4', 'Bienvenida a la unidad 1');
+            ?>
+        </div>
+    </div>
+
+
 </section>
 <div class="flex justify-center gap-6">
     <div class="w-1/3 md:2/3 bg-cyan-500/30 text-cyan-800 p-6 shadow-xl">
