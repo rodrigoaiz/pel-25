@@ -51,9 +51,9 @@
     }
   },
   "actividades": {
-    "u1t1a1": { "id": "5050", "moduleName": "quiz" },
-    "u1t1a2": { "id": "5051", "moduleName": "h5p" },
-    "u1t1a3": { "id": "5052", "moduleName": "h5p" },
-    "u1t1a4": { "id": "5053", "moduleName": "assign" }
+    "u1t1a1": { "id": "50", "moduleName": "quiz" },
+    "u1t1a2": { "id": "50", "moduleName": "forum" },
+    "u1t1a3": { "id": "50", "moduleName": "h5p" },
+    "u1t1a4": { "id": "50", "moduleName": "assign" }
   }
 }
