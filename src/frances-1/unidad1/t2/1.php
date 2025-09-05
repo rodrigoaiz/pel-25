@@ -113,7 +113,7 @@ ob_start();
     <p>¿Pregunta formal o informal? Completa con el pronombre que corresponde. </p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t1a6', "Apprenons à différencier les questions formelles et informelles", $ActividadContent);
+    renderActividad('u1t2a6', "Apprenons à différencier les questions formelles et informelles", $ActividadContent);
     ?>
     <p class="text-xl font-bold text-teal-600 mt-10">Para ir más lejos – Palabras interrogativas</p>
     <div class="flex justify-center mt-4">

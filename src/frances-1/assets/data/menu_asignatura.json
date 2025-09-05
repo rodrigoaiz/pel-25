@@ -6,11 +6,11 @@
       "publicado": true,
       "nombre": "Unidad 1",
       "temas": [
-        {"nombre": "Se saluer et prendre congé - Saludar y despedirse ", "url": "/frances-1/unidad1/t1", "paginas": 2},
-        {"nombre": "Presentarse de manera formal e informal - Se présenter formellement et informellement", "url": "/frances-1/unidad1/t2", "paginas": 1},
-        {"nombre": "El alfabeto - L'alphabet", "url": "/frances-1/unidad1/t3", "paginas": 1},
-        {"nombre": "Pronunciación y diptongos - Prononciation et diptongues", "url": "/frances-1/unidad1/t4", "paginas": 1},
-        {"nombre": "Producción oral - Production orale", "url": "/frances-1/unidad1/t5", "paginas": 1}
+        {"nombre": "Se saluer et prendre congé - Saludar y despedirse", "url": "/frances-1/unidad1/t1", "paginas": 2},
+        {"nombre": "Se présenter formellement et informellement - Presentarse de manera formal e informal", "url": "/frances-1/unidad1/t2", "paginas": 1},
+        {"nombre": "L'alphabet - El alfabeto", "url": "/frances-1/unidad1/t3", "paginas": 1},
+        {"nombre": "Prononciation et diptongues - Pronunciación y diptongos", "url": "/frances-1/unidad1/t4", "paginas": 2},
+        {"nombre": "Production orale - Producción oral", "url": "/frances-1/unidad1/t5", "paginas": 1}
       ]
     },
     "Unidad 2": {
@@ -49,8 +49,12 @@
     "u1t1a3": { "id": "5202", "moduleName": "hvp" },
     "u1t1a4": { "id": "5203", "moduleName": "hvp" },
     "u1t1a5": { "id": "5204", "moduleName": "hvp" },
-    "u1t1a6": { "id": "5204", "moduleName": "hvp" },
-    "u1t1a7": { "id": "5204", "moduleName": "hvp" },
+    "u1t2a6": { "id": "5204", "moduleName": "hvp" },
+    "u1t3a7": { "id": "5204", "moduleName": "hvp" },
+    "u1t4a8": { "id": "5204", "moduleName": "hvp" },
+    "u1t4a9": { "id": "5204", "moduleName": "hvp" },
+    "u1t4a10": { "id": "5204", "moduleName": "hvp" },
+    "u1t5a11": { "id": "5204", "moduleName": "assign" },
 
 
     "u2t1a1": { "id": "5205", "moduleName": "quiz" },
