@@ -8,9 +8,11 @@ ob_start();
 ?>
 <section>
   <h2>Vanguardias Artísticas del Siglo XX: Explorando la Revolución Creativa</h2>
+  <div class="mx-auto max-w-md">
   <?php
   renderImage('hu2-u2-gernika.webp','Imagen de Czonek','https://es.wikipedia.org/wiki/Guernica_(cuadro)#/media/Archivo:Mural_del_Gernika.jpg', 'wikimedia commons.')
   ?>
+  </div>
 
   <h3>Introducción</h3>
   <p>El siglo XX fue testigo de un período de cambio radical y agitación en el mundo del arte. Las vanguardias artísticas, una serie de movimientos y estilos que se desarrollaron a lo largo del siglo, desafiaron las convenciones establecidas, redefinieron la creatividad y cuestionaron las nociones tradicionales de belleza, realidad y expresión. Estos movimientos, que surgieron en Europa y se extendieron por todo el mundo, tuvieron un impacto duradero en la cultura y la sociedad.</p>

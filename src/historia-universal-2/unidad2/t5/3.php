@@ -32,17 +32,21 @@ ob_start();
     ]
   ]; renderAccordion($accordionItems1, 'primero-');
   ?>
- 
-   <?php
+  
+  <div class="mx-auto max-w-md">
+  <?php
   renderImage('hu2-u2-arteurss.webp','I. Brodsky. Lenin en el Smolny. 1930. Imagen de Alonso de Mendoza.', 'https://es.wikipedia.org/wiki/Arte_sovi%C3%A9tico#/media/Archivo:Brodski_lenin.jpg','Wikimedia Commons.');
  ?>
+  </div>
   <p>El arte en la Unión Soviética estaba fuertemente influenciado por la ideología comunista, con una fuerte orientación hacia el arte como herramienta de propaganda y educación política. Los artistas se encontraban bajo una presión constante para producir obras que respaldaran al régimen y sus ideales, y cualquier desviación del Realismo Socialista era castigada. No obstante, a pesar de estas restricciones, hubo artistas que buscaron maneras creativas de comunicar sus pensamientos y sentimientos a través de su obra. Tras la caída de la Unión Soviética en 1991, la escena artística rusa experimentó una libertad sin precedentes, y los artistas pudieron explorar una gama más amplia de estilos y temas. Muchos artistas que se habían visto obligados a trabajar en secreto bajo el régimen soviético pudieron finalmente exhibir su trabajo y contribuir al crecimiento de una escena artística rusa diversa y vibrante.</p>
  <h3>Sergei Eisenstein y el nuevo cine sovietico</h3>
   <p>Sergei Eisenstein fue un director, guionista y teórico del cine ruso-soviético del siglo XX que desempeñó un papel fundamental en la historia del cine. Su trabajo y teorías cinematográficas han tenido un impacto duradero y significativo en la evolución del cine como arte y medio de comunicación. Algunas de las razones por las cuales Sergei Eisenstein es considerado una figura de gran importancia en la historia del cine incluyen su contribución al desarrollo del montaje cinematográfico. Él creía que la esencia del cine radicaba en la edición y la secuencia de imágenes. Introdujo el concepto de "montaje intelectual" en su teoría cinematográfica, que implicaba la creación de significado a través de la relación entre planos y la forma en que se ensamblan. Su obra más conocida, "El acorazado Potemkin" (1925), es un ejemplo sobresaliente de su habilidad para usar el montaje para crear emoción y significado.</p>
 
-   <?php
+  <div class="mx-auto max-w-md">
+  <?php
   renderImage('hu2-u2-sergei.webp','Sergei Eisenstein. Imagen de Materialscientist.', 'https://commons.wikimedia.org/wiki/File:Sergei_Eisenstein_03.jpg','Wikimedia Commons.');
- ?>
+  ?>
+  </div>
  <p>Eisenstein y otros cineastas soviéticos desempeñaron un papel importante en la definición del cine como un medio artístico y de propaganda en la Unión Soviética. Sus escritos teóricos y su práctica cinematográfica contribuyeron a establecer las bases para el cine de vanguardia y experimentación en la Rusia posrevolucionaria. Su enfoque en la creación de significado a través del montaje influyó en generaciones de cineastas en todo el mundo. Además fue un innovador visual que experimentó con la composición, la iluminación y la perspectiva en sus películas. Su uso de ángulos inusuales, planos detallados y composiciones visuales impactantes contribuyeron a la estética y el lenguaje cinematográfico. Sus obras a menudo presentaban imágenes poderosas y memorables. Las teorías y técnicas de montaje desarrolladas por Eisenstein influyeron en cineastas de todo el mundo. Directores como Alfred Hitchcock y Orson Welles estudiaron y se inspiraron en sus métodos de montaje. Su trabajo también dejó una marca indeleble en la evolución del cine documental y en la narración visual en general. Aunque Eisenstein es conocido por su contribución al cine artístico, también desempeñó un papel importante en la creación de películas de propaganda para el régimen soviético. Sus obras, como "El acorazado Potemkin" y "Octubre" (1928), se utilizaron para promover la ideología comunista y celebrar la Revolución Rusa. Estas películas se convirtieron en ejemplos influyentes de cómo el cine podía ser utilizado para influir en la opinión pública y la política.</p>
   <p>Ahora te invitamos a ir por unas palomitas de maíz y disfrutar gratis de una de las películas más icónicas de Eisenstein “El acorazado Potemkin”. En esta película se narran las condiciones de vida de los marineros de un acorazado y la forma en la que son tratados, lo que representa de manera general como eran tratados los trabajadores de toda Rusia y por qué finalmente se rebelan y estalla la revolución contra sus gobernantes.</p>
 

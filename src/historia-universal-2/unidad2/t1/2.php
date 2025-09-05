@@ -18,9 +18,11 @@ ob_start();
   <p>Para comprender la Revolución Rusa, es fundamental examinar los antecedentes del régimen zarista.
      La Rusia del siglo XIX y principios del siglo XX era un país caracterizado por la autocracia del zar, el atraso económico y la opresión social. El zarismo, con su sistema político autocrático y represivo, había sumido al país en una profunda crisis. La servidumbre, un sistema de trabajo forzado que ataba a los campesinos a la tierra, persistió hasta 1861,
      lo que generó un alto grado de descontento entre la población rural.</p>
+    <div class="mx-auto max-w-md">
     <?php 
     renderImage('hu2-u2-familia.webp', 'Familia imperial Rusa 1913. Imagen de Wolcott ' , 'https://commons.wikimedia.org/wiki/File:Russian_Imperial_Family_1913.jpg','Wikimedia commons.');
     ?>
+    </div>
     <p>Además de los problemas económicos y sociales, la participación de Rusia en la Primera Guerra Mundial agravó la situación. La guerra desencadenó una creciente escasez de alimentos y provocó una carga insostenible en términos humanos y económicos.
          Los soldados rusos luchaban en el frente mientras sus familias sufrían en casa, lo que desencadenó un profundo descontento en la sociedad rusa.</p>
   <h4>Actores Principales de la Revolución Rusa</h4>
@@ -45,15 +47,19 @@ ob_start();
   ];
   renderAccordion($accordionItems1, 'primero-');
   ?>
+<div class="mx-auto max-w-md">  
 <?php
 renderImage('hu2-u2-lideres.webp','Líderes bolcheviques.  Imagen de fae.','https://commons.wikimedia.org/wiki/File:Bolshevik_leaders,_Tomsk_LCCN2014708681.tif',' Wikimedia Commons.')
 ?>
+</div>
 <p>La división entre bolcheviques y mencheviques fue fundamental en la Revolución Rusa. Aunque ambos grupos compartían raíces marxistas, tenían diferencias significativas en sus enfoques y estrategias.
  Los bolcheviques, bajo el liderazgo de Vladimir Lenin, abogaban por una revolución inmediata y violenta para derrocar al gobierno zarista y establecer un régimen socialista. Consideraban que la toma del poder por parte de los trabajadores era esencial y no debía posponerse.
  Lenin y sus seguidores creían en la necesidad de un partido centralizado y disciplinado para liderar la revolución. Esta facción defendía la idea de un Estado socialista centralizado y la planificación de la economía.</p>
+<div class="mx-auto max-w-md">
 <?php
 renderImage('hu2-u2-lenin.webp','Lenin. Imagen de Foorgood.','https://commons.wikimedia.org/wiki/File:Vladimir_Lenin_giving_a_speech.jpg',' Wikimedia Commons.')
 ?>
+</div>
 <p>Por otro lado, los mencheviques, liderados por figuras como Julius Martov, abogaban por una revolución más gradual. Creían que era necesario formar una coalición con fuerzas liberales para derrocar al zar y establecer un gobierno provisional democrático.
  Los mencheviques también eran partidarios de un enfoque más descentralizado y democrático para el socialismo, en el que se permitiera la participación de múltiples partidos y se respetarán los derechos políticos y las libertades individuales. Estas diferencias ideológicas y estratégicas llevaron a una división profunda entre bolcheviques y mencheviques, lo que finalmente resultó en la toma del poder por parte de los bolcheviques en octubre de 1917.</p>
 <h4>Eventos Clave de la Revolución Rusa</h4>
@@ -63,10 +69,11 @@ renderImage('hu2-u2-lenin.webp','Lenin. Imagen de Foorgood.','https://commons.wi
 <p>Revolución de Octubre (Revolución Bolchevique): Los bolcheviques, liderados por Lenin, vieron la oportunidad de tomar el poder y avanzaron con su agenda revolucionaria. El 25 de octubre (según el calendario juliano utilizado en Rusia en ese momento, que corresponde al 7 de noviembre en el calendario gregoriano), los bolcheviques tomaron el control del Palacio de Invierno en Petrogrado y derrocaron al Gobierno Provisional. Este evento marcó el comienzo de la Revolución Bolchevique. Los bolcheviques tomaron el poder y establecieron un nuevo gobierno bajo el liderazgo de Lenin.</p>
 <h4>Nacimiento de la Unión de Repúblicas Socialistas Soviéticas URSS</h4>
 <p>La creación y desarrollo de la Unión de Repúblicas Socialistas Soviéticas (URSS) es un capítulo fundamental en la historia del siglo XX. Surgió como resultado de una serie de acontecimientos tumultuosos y cambios radicales que transformaron a Rusia en una superpotencia mundial. Para comprender la formación de la URSS, ya hemos visto que la Revolución de Febrero derrocó al zar Nicolás II y condujo a la creación del Gobierno Provisional, un régimen temporal que no pudo resolver los problemas fundamentales del país. Este período de inestabilidad política, agitación social y participación en la Primera Guerra Mundial creó un terreno fértil para el surgimiento de fuerzas revolucionarias.</p>
-
+<div class="mx-auto max-w-md">
 <?php
 renderImage('hu2-u2-bandera.webp','Bandera de la Unión Soviética.','  https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union_(1936_%E2%80%93_1955).svg',' Wikimedia Commons.')
 ?>
+</div>
 
 <p>La Revolución de Octubre de 1917, también conocida como la Revolución Bolchevique, fue un evento fundamental en la formación de la URSS. Liderados por Vladimir Lenin, los bolcheviques tomaron el control del gobierno y establecieron un sistema político basado en el socialismo y la dictadura del proletariado.
  En diciembre de 1917, se firmó el Tratado de Paz de Brest-Litovsk con Alemania, poniendo fin a la participación de Rusia en la Primera Guerra Mundial. Este período inicial de gobierno bolchevique estuvo marcado por una serie de medidas revolucionarias. Entre las más destacadas se encontraban la nacionalización de la tierra, la abolición de la propiedad privada y la distribución de la tierra a los campesinos. Además, se llevó a cabo una reforma económica que se basó en la confiscación de la industria y la planificación central. Estas políticas generaron un fuerte apoyo entre los sectores más pobres de la sociedad, pero también suscitaron oposición y descontento entre las élites privilegiadas.</p>
@@ -79,9 +86,11 @@ renderImage('hu2-u2-bandera.webp','Bandera de la Unión Soviética.','  https://
 <p>La consolidación de la URSS no fue un proceso lineal ni exento de desafíos. Tras la Revolución de Octubre, Rusia se sumió en una Guerra Civil que se libró entre las fuerzas bolcheviques, conocidas como el "Ejército Rojo," y una serie de grupos anticomunistas, conocidos como el "Ejército Blanco," que incluían a fuerzas contrarrevolucionarias, fuerzas extranjeras y movimientos nacionalistas. Esta guerra civil, que se libró entre 1918 y 1922, tuvo un costo humano significativo y dejó un país devastado. 
   En el transcurso de la Guerra Civil, el territorio que constituiría la URSS comenzó a tomar forma. En diciembre de 1922, se firmó el Tratado de Creación de la URSS, que unió a las repúblicas socialistas de Rusia, Ucrania, Bielorrusia y Transcaucasia (que más tarde se dividió en Armenia, Azerbaiyán y Georgia) en una única entidad política. La formación de la URSS estableció un precedente importante, ya que representó la primera vez en la historia en que un estado socialista se había consolidado en un territorio tan vasto.</p>
 Extensión de la Unión Soviética. Imagen de OgreBot. Wikimedia Commons.
+<div class="mx-auto max-w-md">
 <?php
 renderImage('hu2-u2-mapa.webp','Extensión de la Unión Soviética.','  https://commons.wikimedia.org/wiki/File:USSR_map.png',' Wikimedia Commons.');
 ?>
+</div>
 <p>Veamos el siguiente video para consolidar algunos de los conceptos más importantes de la revolución rusa.</p>
 
  <?php
@@ -90,10 +99,11 @@ renderImage('hu2-u2-mapa.webp','Extensión de la Unión Soviética.','  https://
 
 <p> Después de la Guerra Civil, la economía rusa estaba en ruinas. Para abordar esta situación, el gobierno bolchevique implementó una política conocida como la Nueva Política Económica (NEP) en 1921. La NEP representó un giro pragmático en la política económica, introduciendo elementos de capitalismo en la economía socialista. Bajo la NEP, se permitió una cierta cantidad de propiedad privada, se incentivó la actividad empresarial y se flexibilizaron las restricciones económicas. La NEP tuvo éxito en la recuperación económica, pero también generó tensiones dentro del partido comunista, ya que algunos miembros lo veían como una traición a los principios revolucionarios.
  No obstante, la NEP permitió que la economía rusa se recuperara y proporcionara cierta estabilidad a la población, aunque a costa de ciertos compromisos ideológicos.</p>
-
+<div class="mx-auto max-w-md">
 <?php
-renderImagePleca('hu2-u2-stalin.webp','Joseph Stalin.','  https://commons.wikimedia.org/wiki/File:Joseph_Stalin.jpg',' Wikimedia Commons.')
+renderImage('hu2-u2-stalin.webp','Joseph Stalin.','  https://commons.wikimedia.org/wiki/File:Joseph_Stalin.jpg',' Wikimedia Commons.')
 ?>
+</div>
 <p>A medida que avanzaba la década de 1920, Joseph Stalin emergió como una figura central en la dirección de la URSS. Stalin, inicialmente un colaborador de Lenin, se convirtió en el Secretario General del Partido Comunista en 1922, una posición que le otorgó un gran poder en la administración del partido y el Estado. La muerte de Lenin en 1924 desencadenó una lucha por el poder en el Partido Comunista, y Stalin logró prevalecer.</p>
 
 <p>El período de Stalin, que se extendió desde mediados de la década de 1920 hasta su muerte en 1953, fue caracterizado por una serie de políticas y cambios significativos en la URSS. 
@@ -122,14 +132,17 @@ Uno de los aspectos más destacados de su gobierno fue la industrialización ace
   ];
   renderAccordion($accordionItems2, 'segundo-');
   ?>
+<div class="mx-auto max-w-md">
 <?php
-renderImagePleca('hu2-u2-portada.webp','Portada de TIME 1953.','https://commons.wikimedia.org/wiki/File:Joseph_Stalin-TIME-1953.jpg',' Wikimedia Commons.')
+renderImage('hu2-u2-portada.webp','Portada de TIME 1953.','https://commons.wikimedia.org/wiki/File:Joseph_Stalin-TIME-1953.jpg',' Wikimedia Commons.')
 ?>
-
+</div>
 <p>Uno de los elementos más oscuros del estalinismo es el sistema de campos de trabajo forzado, conocido como el "GULAG" (un acrónimo de "Glavnoye upravleniye lagerey," que significa "Dirección Principal de Campos"). Los prisioneros políticos y criminales fueron enviados a estos campos, donde enfrentaron condiciones extremadamente duras, trabajos forzados y una alta tasa de mortalidad. Un autor que arrojó luz sobre la brutalidad del sistema del GULAG fue Aleksandr Solzhenitsyn, un escritor y disidente soviético que fue arrestado y enviado a un campo de trabajo forzado por sus críticas al gobierno. En su obra más conocida, "Archipiélago Gulag," Solzhenitsyn ofrece un relato detallado y vívido de su experiencia y la de otros prisioneros en el sistema de campos. La obra se convirtió en una crónica fundamental de la represión estalinista y la injusticia del sistema.</p>
+<div class="mx-auto max-w-md">
 <?php
-renderImagePleca('hu2-u2-sello.webp','Aleksandr Solzhenitsyn.','https://commons.wikimedia.org/wiki/File:Russia_stamp_2018_%E2%84%96_2418.jpg','Wikimedia Commons.')
+renderImage('hu2-u2-sello.webp','Aleksandr Solzhenitsyn.','https://commons.wikimedia.org/wiki/File:Russia_stamp_2018_%E2%84%96_2418.jpg','Wikimedia Commons.')
 ?>
+</div>
 <p>Solzhenitsyn describió cómo los prisioneros en los campos del GULAG eran sometidos a condiciones inhumanas, trabajos agotadores y malnutrición. Además, destacó el constante temor a la represión y la falta de libertades básicas. "Archipiélago Gulag" se convirtió en un testimonio valiente de la brutalidad del régimen estalinista y ayudó a arrojar luz sobre lo que sucedía en estos campos.</p>
 
   <?php ob_start(); ?>
