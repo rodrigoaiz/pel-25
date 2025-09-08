@@ -10,7 +10,7 @@
         {"nombre": "Se présenter formellement et informellement - Presentarse de manera formal e informal", "url": "/frances-1/unidad1/t2", "paginas": 1},
         {"nombre": "L'alphabet - El alfabeto", "url": "/frances-1/unidad1/t3", "paginas": 1},
         {"nombre": "Prononciation et diptongues - Pronunciación y diptongos", "url": "/frances-1/unidad1/t4", "paginas": 2},
-        {"nombre": "Production orale - Producción oral", "url": "/frances-1/unidad1/t5", "paginas": 1}
+        {"nombre": "Production orale - Producción oral", "url": "/frances-1/unidad1/t5", "paginas": 2}
       ]
     },
     "Unidad 2": {
@@ -55,6 +55,7 @@
     "u1t4a9": { "id": "5204", "moduleName": "hvp" },
     "u1t4a10": { "id": "5204", "moduleName": "hvp" },
     "u1t5a11": { "id": "5204", "moduleName": "assign" },
+    "u1t5a12": { "id": "5204", "moduleName": "quiz" },
 
 
     "u2t1a1": { "id": "5205", "moduleName": "quiz" },
