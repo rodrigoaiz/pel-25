@@ -12,16 +12,16 @@ ob_start();
 <section>
   <h2>Bienvenida a la unidad 2</h2>
   <h3>Bienvenue à l'unité 2</h3>
-    <div class="max-2xl mx-auto">
-      <?php
-      renderImage('iga1-img01.webp');
-      ?>
-    </div>
+  <div class="max-2xl mx-auto">
+    <?php
+    renderImage('iga1-img01.webp');
+    ?>
+  </div>
 </section>
 <div class="flex flex-row justify-center gap-4">
   <div class="basis-1/3">
     <?php
-    renderVideoIframe('uSeR5GsgpRI', 'Bienvenida a la unidad 1. En este apartado aprenderás a presentarte de manera formal en informal.');
+    renderVideoIframe('HBYhxdstHsw', 'Bienvenida a la unidad 2.');
     ?>
   </div>
 </div>
@@ -31,7 +31,7 @@ ob_start();
   <p>Responde cada una de las preguntas.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a1', "Cuestionario diagnóstico | Unidad 1", $ActividadContent);
+  renderActividad('u2t1a1', "Cuestionario diagnóstico | Unidad 2", $ActividadContent);
   ?>
 </section>
 
