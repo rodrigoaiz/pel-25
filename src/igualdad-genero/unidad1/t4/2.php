@@ -17,7 +17,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Identificarás las características de los hombres que admiras.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Trabajarán en equipos de 4 ó 5 estudiantes en el orden que indique tu profesor o profesora.</li>
         <li>Colaboren para escribir dos listas de palabras. En una lista anoten 10 características de personalidad (estereotipos) y en la otra lista anoten 10 actividades (roles) que realizan los hombres que admiran.</li>
         <li>Utilicen las dos listas para elaborar dos nubes de palabras. Se sugiere utilizar la página de internet <a class="text-purple-50" href="https://www.freewordcloudgenerator.com/generatewordcloud" target="_blank">Nube de palabras</a>.

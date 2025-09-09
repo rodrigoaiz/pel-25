@@ -13,7 +13,7 @@ ob_start();
     <div class="md:grid grid-cols-2 gap-3 items-center">
         <div class="max-2xl mx-auto">
           <?php
-          renderImage('u2t3-iga9-img05.webp');
+          renderImage('u2t3-Iga9-img05.webp');
           ?>
         </div>
       <p>Es común escuchar las palabras "homicidio" y "feminicidio" y, aunque ambos términos se refieren a la privación de la vida de una persona, existen diferencias fundamentales que debemos comprender. Su distinción refleja las causas, los contextos y las motivaciones detrás de estos actos de violencia. En el apartado anterior, revisaste documentos que pueden ayudarte a reflexionar sobre las características que tiene el delito de feminicidio. Ahora, en esta actividad, podrás plasmar lo que has ido comprendiendo del tema para establecer una diferenciación clara entre ambos delitos y reconocer, de manera más asertiva, el fenómeno del feminicidio.</p>

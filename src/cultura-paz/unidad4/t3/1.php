@@ -19,7 +19,7 @@ ob_start();
     </div>
     <p>Para realizar el cartel revisa el siguiente paso a paso de lo que debes hacer:</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Revisar el contenido y definir el tema específico de tu cartel en torno a la violencia escolar.</li>
         <li>Definir un estilo gráfico y tipo de imágenes a incluir.</li>
         <li>Redacta una frase contundente que lleve el mensaje de concientización a la <strong>NO violencia escolar</strong>.</li>

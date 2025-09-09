@@ -22,7 +22,7 @@ ob_start();
     <p class="font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Conocer el marco jurídico que busca proteger los derechos de las mujeres, prevenir y erradicar la violencia de género. </p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Observa con atención el siguiente video , toma notas en tu cuaderno de los principales conceptos y responde las preguntas de reflexión que aparecen en el mismo.</li>
     </ol>
     <?php ob_start(); ?>

@@ -24,7 +24,7 @@ ob_start();
         <li>Examinar cómo las perspectivas sobre estos conceptos pueden variar entre diferentes generaciones.</li>
     </ul>
     <p class="font-bold text-orange-500">Instrucciones:</p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Formación de Equipos
             <ul class="ul-disc">
                 <li>Organícense en equipos para llevar a cabo entrevistas breves.</li>

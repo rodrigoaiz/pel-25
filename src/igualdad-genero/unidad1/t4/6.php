@@ -15,7 +15,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Reconocer frases de uso cotidiano que evidencien la violencia que los hombres ejercen sobre sí mismos y hacia sus pares.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Presta atención al video "48 frases que los hombres escuchan a lo largo de su vida" que se encuentra en el VideoQuiz.</li>
         <li>Durante el VideoQuiz aparecerá una pregunta relacionada con alguna de las frases del video.</li>
         <li>Selecciona una o varias respuestas dependiendo de tu propia experiencia. (Revisa la retroalimentación que aparece con cada pregunta).</li>

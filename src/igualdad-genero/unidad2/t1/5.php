@@ -15,7 +15,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Reconocer las modalidades de violencia en diferentes situaciones y entornos de la vida diaria.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Para que te quede clara la diferencia entre las diferentes modalidades de violencia de género, observa con atención el siguiente video y toma notas en tu cuaderno. Recuerda que puedes poner pausa para revisar con tranquilidad todo el contenido.</li>
         <li>Después, responde el crucigrama con base en lo aprendido en el video.</li>
     </ol>
