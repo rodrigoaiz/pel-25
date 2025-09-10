@@ -1,7 +1,7 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'IseazyIframe.php';
+
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -14,7 +14,23 @@ ob_start();
   </p>
   <p>A continuación te pedimos que revises la siguiente <span class="text-violet-400 font-bold">presentación interactiva</span> y realices las actividades dentro de ella.</p>
 </section>
-<?php renderiseazy('3adcf3400971421681cd2516e3308886') ?>
+<div class="max-w-7xl mx-auto">
+  <div class="aspect-video h-0 py-0 relative" style="padding-bottom: 56.25%;">
+    <iframe
+      title="Presentación Interactiva"
+      frameborder="0"
+      width="100%"
+      height="100%"
+      class="absolute top-0 left-0 w-full h-full"
+      src="https://pel.cch.unam.mx/dist/unidad4/index_local.html"
+      type="text/html"
+      allowscriptaccess="always"
+      allowfullscreen="true"
+      scrolling="yes"
+      allownetworking="all">
+    </iframe>
+  </div>
+</div>
 
 <?php
 $content = ob_get_clean();
