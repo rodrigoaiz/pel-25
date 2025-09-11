@@ -453,30 +453,50 @@ Timeline (Línea del Tiempo)
 }
 
 .timeline-images {
-  @apply space-y-4;
+  @apply flex flex-col gap-4;
 }
 
 .timeline-image-item {
   @apply bg-white rounded-lg shadow-md overflow-hidden border border-gray-200;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   
   &:hover {
-    @apply shadow-xl transform scale-105;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    @apply shadow-xl;
+    transform: scale(1.02);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15);
   }
 }
 
 .timeline-img {
-  @apply w-full h-40 md:h-48 object-cover;
-  transition: transform 0.3s ease;
+  @apply w-full object-contain rounded-lg;
+  height: auto;
+  max-height: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   
   &:hover {
-    @apply transform scale-110;
+    @apply transform scale-105;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
 }
 
 .timeline-caption {
-  @apply p-3 text-sm text-gray-600 bg-gray-50 font-medium leading-snug;
+  @apply p-3;
+  background-color: rgba(248, 250, 252, 0.9);
+  border-radius: 0 0 8px 8px;
+  
+  p {
+    @apply text-sm text-gray-600 font-medium leading-relaxed mb-1;
+    
+    &:last-child {
+      @apply mb-0;
+    }
+    
+    &.text-xs {
+      @apply text-xs text-gray-500 italic mt-2 leading-tight;
+      word-break: break-all;
+    }
+  }
 }
 
 /* Responsive adjustments */
@@ -505,6 +525,17 @@ Timeline (Línea del Tiempo)
   
   .timeline-right .timeline-text {
     @apply order-1;
+  }
+}
+
+/* Mejoras responsivas para imágenes */
+@media (min-width: 768px) {
+  .timeline-images {
+    max-width: 400px;
+  }
+  
+  .timeline-img {
+    max-width: 100%;
   }
 }
 
