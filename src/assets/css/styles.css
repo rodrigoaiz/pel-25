@@ -577,3 +577,29 @@ Timeline (Línea del Tiempo)
     background-position: 100% 50%;
   }
 }
+
+
+/*
+ * Blockquote destacado reutilizable con SVG decorativo automático
+ */
+.blockquote-destacado {
+  @apply relative p-6 mb-6 bg-gray-200 border-l-4 border-secondary text-lg font-semibold text-gray-900 rounded-lg flex flex-col items-start max-w-2xl mx-auto not-italic;
+  font-style: normal !important;
+}
+.blockquote-destacado::before {
+  content: '';
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+  /* SVG de comillas dobles estilizadas, color gris */
+  background-image: url("data:image/svg+xml,%3Csvg width='32' height='28' viewBox='0 0 18 14' fill='currentColor' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z' fill='%239ca3af'/%3E%3C/svg%3E");
+  color: #9ca3af; /* tailwind gray-400 */
+}
+.blockquote-destacado p {
+  @apply m-0 not-italic;
+  font-style: normal !important;
+}

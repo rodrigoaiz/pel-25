@@ -1,6 +1,8 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
+include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'Videos.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -191,6 +193,24 @@ ob_start();
       </div>
     </div>
   </div>
+
+  <!-- Fin Línea del Tiempo -->
+
+  <?php ob_start(); ?>
+  <p>Lee detenidamente la información sobre cada una de las edades de la historia del proceso de salud-enfermedad. Posteriormente selecciona dos edades de las que se presentan en la línea del tiempo y con esa información realiza una infografía en la que se comparen dos etapas: una de las más tempranas y otra de las últimas en el tiempo.</p>
+  <p>Analiza las diferencias entre ellas, mencionando desde tu punto de vista, cuáles son los logros alcanzados a través del tiempo.</p>
+  <p>Si tienes dudas sobre la elaboración de la infografía, te sugerimos que revises el siguiente tutorial:</p>
+
+  <!-- Está pendiente hacer la rubrica, ya sea interactiva o bajar un pdf -->
+  <div class="max-w-lg mx-auto">
+    <?php
+    renderVideoIframe('MKadmIqWUeM', 'Tutorial sobre elaboración de infografías');
+    ?>
+  </div>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividad('u1t2a2', "Infografía", $ActividadContent);
+  ?>
 </section>
 <?php
 $content = ob_get_clean();
