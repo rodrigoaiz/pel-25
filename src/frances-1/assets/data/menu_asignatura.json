@@ -18,8 +18,8 @@
       "publicado": true,
       "nombre": "Unidad 2",
       "temas": [
-        {"nombre": "Mon âge et ma date de naissance - Mi edad y mi fecha de nacimiento", "url": "/frances-1/unidad2/t1", "paginas": 2},
-        {"nombre": "Ma nationalité et mes données - Mi nacionalidad y mis datos", "url": "/frances-1/unidad2/t2", "paginas": 2},
+        {"nombre": "Mon âge et ma date de naissance - Mi edad y mi fecha de nacimiento", "url": "/frances-1/unidad2/t1", "paginas": 3},
+        {"nombre": "Ma nationalité et mes données - Mi nacionalidad y mis datos", "url": "/frances-1/unidad2/t2", "paginas": 3},
         {"nombre": "Inscribirme a... - M'inscrire à...", "url": "/frances-1/unidad2/t4", "paginas": 1},
         {"nombre": "Mon emploi du temps et ma matière préférée - Mi horario y asignatura favorita", "url": "/frances-1/unidad2/t5", "paginas": 2},
         {"nombre": "Quelle heure est-il? et ma routine - ¿Qué hora es? y mi rutina", "url": "/frances-1/unidad2/t6", "paginas": 2},
@@ -60,6 +60,10 @@
     "u2t1a1": { "id": "5205", "moduleName": "quiz" },
     "u2t1a2": { "id": "5206", "moduleName": "hvp" },
     "u2t1a3": { "id": "5207", "moduleName": "hvp" },
+    "u2t2a4": { "id": "5207", "moduleName": "forum" },
+    "u2t2a5": { "id": "5207", "moduleName": "hvp" },
+    "u2t2a6": { "id": "5207", "moduleName": "hvp" },
+    "u2t2a7": { "id": "5207", "moduleName": "hvp" },
 
     
     "u2t1a4": { "id": "5208", "moduleName": "assign" },

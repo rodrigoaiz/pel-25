@@ -3,7 +3,6 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
-include PATH_INCLUDE . 'ParaSaber.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -19,15 +18,15 @@ ob_start();
     </ol>
     <div class="flex flex-row justify-center gap-4">
         <div class="basis-1/2 sm:basis-2/3">
-            <div class="h-12 p-2 font-bold text-white-own mt-1 bg-linear-to-r from-cyan-500 to-blue-500">Bonjour! Comment tu t'appelles?</div>
+            <div class="h-12 p-2 font-bold text-white-own mt-1 bg-linear-to-bl from-violet-500 to-fuchsia-500">Bonjour! Comment tu t'appelles?</div>
             <div class="h-12 p-2 font-bold text-white-own mt-1 bg-linear-to-t from-sky-500 to-indigo-500">Je m'appelle Max. Et toi?</div>
             <div class="h-12 p-2 font-bold text-white-own mt-1 bg-linear-to-bl from-violet-500 to-fuchsia-500">Je m'appelle Chloé.</div>
-            <div class="h-12 p-2 font-bold text-white-own mt-1 bg-linear-65 from-purple-500 to-pink-500">Quel âge tu as?</div>
-            <div class="h-12 p-2 font-bold text-white-own mt-1 bg-linear-to-r from-cyan-500 to-blue-500">J'ai quinze ans. Et toi, quel est ton âge?</div>
+            <div class="h-12 p-2 font-bold text-white-own mt-1 bg-linear-to-t from-sky-500 to-indigo-500">Quel âge tu as?</div>
+            <div class="h-12 p-2 font-bold text-white-own mt-1 bg-linear-to-bl from-violet-500 to-fuchsia-500">J'ai quinze ans. Et toi, quel est ton âge?</div>
             <div class="h-12 p-2 font-bold text-white-own mt-1 bg-linear-to-t from-sky-500 to-indigo-500">J'ai seize ans.</div>
             <div class="h-12 p-2 font-bold text-white-own mt-1 bg-linear-to-bl from-violet-500 to-fuchsia-500">C'est le 15 janvier 2007.</div>
-            <div class="h-12 p-2 font-bold text-white-own mt-1 bg-linear-65 from-purple-500 to-pink-500">Super! Ma date de naissance est le 10 janvier 2008.</div>
-            <div class="h-12 p-2 font-bold text-white-own mt-1 bg-linear-to-r from-cyan-500 to-blue-500">Génial!</div>
+            <div class="h-12 p-2 font-bold text-white-own mt-1 bg-linear-to-t from-sky-500 to-indigo-500">Super! Ma date de naissance est le 10 janvier 2008.</div>
+            <div class="h-12 p-2 font-bold text-white-own mt-1 bg-linear-to-bl from-violet-500 to-fuchsia-500">Génial!</div>
         </div>
     </div>
     <?php ob_start(); ?>
@@ -92,7 +91,7 @@ ob_start();
     ?>
 
     <?php ob_start(); ?>
-    <p>Regarde la vidéo et mets en ordre les dialogues suivants / Mira el vídeo y ordena los siguientes diálogos..</p>
+    <p>Regarde la vidéo et mets en ordre les dialogues suivants / Mira el vídeo y ordena los siguientes diálogos.</p>
     <?php
     renderVideoIframe('hm87-R0Y2dk', 'Unité 4 : Quel âge avez-vous?');
     ?>
