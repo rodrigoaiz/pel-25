@@ -21,7 +21,12 @@
         {"nombre": "Mon âge et ma date de naissance - Mi edad y mi fecha de nacimiento", "url": "/frances-1/unidad2/t1", "paginas": 3},
         {"nombre": "Ma nationalité et mes données - Mi nacionalidad y mis datos", "url": "/frances-1/unidad2/t2", "paginas": 2},
         {"nombre": "Mon numéro de téléphone, mon courriel et mon adresse - Mi número de teléfono, mi email y mi dirección", "url": "/frances-1/unidad2/t3", "paginas": 1},
-        {"nombre": "M’inscrire à... - Inscribirme a...", "url": "/frances-1/unidad2/t4", "paginas": 1}
+        {"nombre": "M'inscrire à... - Inscribirme a...", "url": "/frances-1/unidad2/t4", "paginas": 1},
+        {"nombre": "Mon emploi du temps... - Mi horario", "url": "/frances-1/unidad2/t5", "paginas": 1},
+        {"nombre": "Ma matière préférée est... - Mi materia preferida es...", "url": "/frances-1/unidad2/t6", "paginas": 1},
+        {"nombre": "Quelle heure est-il? - ¿Qué hora es?", "url": "/frances-1/unidad2/t7", "paginas": 2},
+        {"nombre": "Ma routine - Mi rutina", "url": "/frances-1/unidad2/t8", "paginas": 1},
+        {"nombre": "Production orale - Producción oral", "url": "/frances-1/unidad2/t9", "paginas": 1}
       ]
     },
     "Unidad 3": {
@@ -68,6 +73,7 @@
     "u2t3a11": { "id": "5207", "moduleName": "hvp" },
     "u2t3a12": { "id": "5207", "moduleName": "forum" },
     "u2t4a13": { "id": "5207", "moduleName": "hvp" },
+    "u2t4a14": { "id": "5207", "moduleName": "hvp" },
 
 
     
