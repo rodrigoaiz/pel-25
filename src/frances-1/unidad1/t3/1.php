@@ -3,6 +3,7 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -11,9 +12,18 @@ ob_start();
 <section>
     <h2>L'alphabet</h2>
     <h3>El alfabeto</h3>
-    <p>El alfabeto en francés tiene muchas similitudes con el alfabeto en español. Sin embargo, hay algunos sonidos que debemos tener en cuenta para pronunciar correctamente.</p>
-    <p>Mira y escucha este vídeo para que aprendas los nombres de las letras en francés.</p>
-    <div class="max-w-xl mx-auto bg-purple-700/30 p-4">
+    <div class="flex justify-center gap-6">
+        <div class="w-1/3 sm:full">
+            <p>El alfabeto en francés tiene muchas similitudes con el alfabeto en español. Sin embargo, hay algunos sonidos que debemos tener en cuenta para pronunciar correctamente.</p>
+            <p>Mira y escucha este vídeo para que aprendas los nombres de las letras en francés.</p>
+        </div>
+        <div class="w-2/3 sm:full">
+            <?php
+            renderImage('fr1u1a1p3-alphabet.webp', 'Imagen de tabla con el alfabeto', 'https://hablamossle.com/como-pronunciar-el-alfabeto-frances/', 'Hablamossle');
+            ?>
+        </div>
+    </div>
+    <div class="max-w-xl mx-auto bg-purple-700/30 p-4 mt-8">
         <?php
         renderVideoIframe('TOezwV5Xa4w', 'Learn French. Pronunciation: French alphabet -l alphabet français-');
         ?>

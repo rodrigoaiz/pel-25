@@ -2,6 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -10,9 +11,19 @@ ob_start();
 <section>
     <h2>Se présenter formellement et informellement</h2>
     <h3>Presentarse de manera formal e informal</h3>
-    <p>En esta lección, aprenderás a conjugar los verbos regulares y el verbo être en presente, así como a hacer frases simples y preguntas de “oui”/”non” (si/no) y abiertas para poder preguntar y a responder a la pregunta “¿Cómo te llamas?” utilizando los verbos “s’appeler” y “être”.</p>
-    <p>Ahora, para poder presentarnos y para poder preguntar el nombre de la persona con la que estemos interactuando, tenemos que conocer algunos detalles gramaticales respecto a cómo formular preguntas y hacer enunciados simples para poder responderlas. También vamos a tener que aprender cómo conjugar un par de verbos que nos van a servir para presentarnos.</p>
-    <p>Observa las conjugaciones de estos verbos:</p>
+    <div class="flex justify-center gap-6">
+        <div class="w-1/3 sm:full pt-6">
+            <?php
+            renderImage('fr1u1a1p3-img07.webp');
+            ?>
+        </div>
+        <div class="w-2/3 sm:full">
+            <p>En esta lección, aprenderás a conjugar los verbos regulares y el verbo être en presente, así como a hacer frases simples y preguntas de “oui”/”non” (si/no) y abiertas para poder preguntar y a responder a la pregunta “¿Cómo te llamas?” utilizando los verbos “s’appeler” y “être”.</p>
+            <p>Ahora, para poder presentarnos y para poder preguntar el nombre de la persona con la que estemos interactuando, tenemos que conocer algunos detalles gramaticales respecto a cómo formular preguntas y hacer enunciados simples para poder responderlas. También vamos a tener que aprender cómo conjugar un par de verbos que nos van a servir para presentarnos.</p>
+            <p>Observa las conjugaciones de estos verbos:</p>
+        </div>
+    </div>
+
     <p class="text-xl font-bold text-teal-600 mt-4">Los verbos "<span class="italic">s'appeler</span>" y "<span class="italic">être</span>"</p>
 </section>
 <div class="flex justify-center gap-6">

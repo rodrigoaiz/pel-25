@@ -3,7 +3,6 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
-include PATH_INCLUDE . 'ImagenPie.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -176,6 +175,12 @@ ob_start();
         <li>Revisa la <span class="bg-amber-500/30 text-amber-600 p-1">rúbrica de autoevaluación</span> que te proponemos que tu video contenga todos los aspectos mencionados.</li>
     </ol>
 
+    <?php ob_start(); ?>
+    <p>Comparte tu experiencia en el foro.</p>
+    <?php
+    $ActividadContent = ob_get_clean();
+    renderActividad('u2t3a12', "Vidéo de présentation", $ActividadContent);
+    ?>
     <div class="flex justify-center">
         <div class="w-2/3">
             <table class="table-auto w-full">
@@ -215,36 +220,66 @@ ob_start();
                     </tr>
                     <tr>
                         <td class="px-3 py-2 border text-amber-700 font-semibold">Ocupación</td>
-                        <td class="px-3 py-2 border text-stone-900"> </td>
-                        <td class="px-3 py-2 border text-stone-900"> </td>
+                        <td class="px-3 py-2 border text-stone-900">Menciona su ocupación actual o área de estudio de forma clara y concisa.</td>
+                        <td class="px-3 py-2 border text-stone-900">Menciona su ocupación o área de estudio, pero no de forma clara o concisa.</td>
+                        <td class="px-3 py-2 border text-stone-900">Menciona su ocupación o área de estudio de forma poco clara o no la menciona.</td>
+                        <td class="px-3 py-2 border text-stone-900">No menciona su ocupación o área de estudio.</td>
                     </tr>
                     <tr>
                         <td class="px-3 py-2 border text-amber-700 font-semibold">Dirección</td>
-                        <td class="px-3 py-2 border text-stone-900"> </td>
-                        <td class="px-3 py-2 border text-stone-900"> </td>
+                        <td class="px-3 py-2 border text-stone-900">Menciona su dirección completa (calle, número, colonia, código postal, ciudad, estado/país) de forma clara y concisa.</td>
+                        <td class="px-3 py-2 border text-stone-900">Menciona su dirección completa, pero no de forma clara o concisa.</td>
+                        <td class="px-3 py-2 border text-stone-900">Menciona su dirección de forma incompleta o no la menciona.</td>
+                        <td class="px-3 py-2 border text-stone-900">No menciona su dirección.</td>
+                    </tr>
+                    <tr>
+                        <td class="px-3 py-2 border text-amber-700 font-semibold">Número de teléfono</td>
+                        <td class="px-3 py-2 border text-stone-900">Menciona su número de teléfono completo (incluyendo código de área) de forma clara y concisa.</td>
+                        <td class="px-3 py-2 border text-stone-900">Menciona su número de teléfono completo, pero no de forma clara o concisa.</td>
+                        <td class="px-3 py-2 border text-stone-900">Menciona su número de teléfono de forma incompleta o no lo menciona.</td>
+                        <td class="px-3 py-2 border text-stone-900">No menciona su número de teléfono.</td>
                     </tr>
                     <tr>
                         <td class="px-3 py-2 border text-amber-700 font-semibold">Correo electrónico</td>
-                        <td class="px-3 py-2 border text-stone-900"> </td>
-                        <td class="px-3 py-2 border text-stone-900"> </td>
+                        <td class="px-3 py-2 border text-stone-900">Menciona su correo electrónico de forma clara y concisa.</td>
+                        <td class="px-3 py-2 border text-stone-900">Menciona su correo electrónico, pero no de forma clara o concisa.</td>
+                        <td class="px-3 py-2 border text-stone-900">Menciona su correo electrónico de forma incompleta o no lo menciona.</td>
+                        <td class="px-3 py-2 border text-stone-900">No menciona su correo electrónico.</td>
                     </tr>
                     <tr>
                         <td class="px-3 py-2 border text-amber-700 font-semibold">Calidad del vídeo</td>
-                        <td class="px-3 py-2 border text-stone-900"> </td>
-                        <td class="px-3 py-2 border text-stone-900"> </td>
+                        <td class="px-3 py-2 border text-stone-900">El vídeo tiene buena calidad de imagen y sonido.</td>
+                        <td class="px-3 py-2 border text-stone-900">El vídeo tiene calidad de imagen y sonido aceptable.</td>
+                        <td class="px-3 py-2 border text-stone-900">El vídeo tiene calidad de imagen y sonido baja.</td>
+                        <td class="px-3 py-2 border text-stone-900">El vídeo es de mala calidad o no se puede ver ni escuchar.</td>
+                    </tr>
+                    <tr>
+                        <td class="px-3 py-2 border text-amber-700 font-semibold">Claridad y concisión</td>
+                        <td class="px-3 py-2 border text-stone-900">El vídeo es claro, conciso y fácil de entender.</td>
+                        <td class="px-3 py-2 border text-stone-900">El vídeo es claro y conciso, pero no del todo fácil de entender.
+                        </td>
+                        <td class="px-3 py-2 border text-stone-900">El vídeo es poco claro o conciso, o no es fácil de entender.</td>
+                        <td class="px-3 py-2 border text-stone-900">El vídeo es muy poco claro o conciso, y no se entiende.</td>
+                    </tr>
+                    <tr>
+                        <td class="px-3 py-2 border text-amber-700 font-semibold">Creatividad y originalidad</td>
+                        <td class="px-3 py-2 border text-stone-900">El vídeo es creativo y original.</td>
+                        <td class="px-3 py-2 border text-stone-900">El vídeo es creativo o original, pero no ambas cosas.</td>
+                        <td class="px-3 py-2 border text-stone-900">El vídeo no es creativo ni original.</td>
+                        <td class="px-3 py-2 border text-stone-900">El vídeo es una copia de otro vídeo o no tiene ninguna creatividad ni originalidad.</td>
+                    </tr>
+                    <tr>
+                        <td class="px-3 py-2 border text-amber-700 font-semibold">Presentación personal</td>
+                        <td class="px-3 py-2 border text-stone-900">El presentador se muestra seguro, entusiasta y profesional.</td>
+                        <td class="px-3 py-2 border text-stone-900">El presentador se muestra seguro y entusiasta, pero no del todo profesional.</td>
+                        <td class="px-3 py-2 border text-stone-900">El presentador se muestra poco seguro o entusiasta, o no profesional.</td>
+                        <td class="px-3 py-2 border text-stone-900">El presentador se muestra inseguro, apático y poco profesional.</td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </div>
-    <?php ob_start(); ?>
-    <p>Comparte tu experiencia en el foro.</p>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividad('u2t3a12', "Vidéo de présentation", $ActividadContent);
-    ?>
 </section>
-
 
 <?php
 $content = ob_get_clean();

@@ -13,7 +13,7 @@ ob_start();
   <h2>Bienvenida al curso</h2>
   <div class="max-2xl mx-auto">
     <?php
-    renderImage('iga1-img01.webp');
+    renderImage('fr1u1a1-portada.webp');
     ?>
   </div>
 </section>
