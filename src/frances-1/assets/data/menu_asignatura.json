@@ -47,7 +47,7 @@
     }
   },
   "actividades": {
-    "u1t1a1": { "id": "5200", "moduleName": "quiz" },
+    "u1t1a1": { "id": "5128", "moduleName": "quiz" },
     "u1t1a2": { "id": "5201", "moduleName": "hvp" },    
     "u1t1a3": { "id": "5202", "moduleName": "hvp" },
     "u1t1a4": { "id": "5203", "moduleName": "hvp" },
@@ -57,8 +57,8 @@
     "u1t4a8": { "id": "5204", "moduleName": "hvp" },
     "u1t4a9": { "id": "5204", "moduleName": "hvp" },
     "u1t4a10": { "id": "5204", "moduleName": "hvp" },
-    "u1t5a11": { "id": "5204", "moduleName": "assign" },
-    "u1t5a12": { "id": "5204", "moduleName": "quiz" },
+    "u1t5a11": { "id": "5129", "moduleName": "assign" },
+    "u1t5a12": { "id": "5130", "moduleName": "quiz" },
 
     "u2t1a1": { "id": "5205", "moduleName": "quiz" },
     "u2t1a2": { "id": "5206", "moduleName": "hvp" },

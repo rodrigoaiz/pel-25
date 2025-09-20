@@ -1,0 +1,79 @@
+::act_1_diagnostico_p_1::
+¿Cuál de las siguientes palabras está en francés? {
+=Restaurant
+~Poster
+~Birra
+~Garrafa
+}
+
+::act_1_diagnostico_p_2::
+¿Cuál de las siguientes palabras está en francés? {
+~Serenata
+=Ballet
+~Ménsula
+~Sensor
+}
+
+::act_1_diagnostico_p_3::
+En este video vas a escuchar cuatro frases ¿cuál de ellas está en francés? (Insertar el video “Diagnóstico act_1_diagnostico_p_3” en la act_1_diagnostico_p_para que los alumnos puedan oír cuatro frases en distintos idiomas) {
+~Uno
+~Dos
+=Tres
+~Cuatro
+}
+
+::act_1_diagnostico_p_4::
+En este video vas a escuchar cuatro frases ¿cuál de ellas está en francés? (Insertar el video “Diagnóstico act_1_diagnostico_p_4” en la act_1_diagnostico_p_para que los alumnos puedan oír cuatro frases en distintos idiomas) {
+~Uno
+=Dos
+~Tres
+~Cuatro
+}
+
+::act_1_diagnostico_p_5::
+¿Cómo dices “Buenos días” en francés? {
+~Ça va !
+~Bonne soirée !
+=Bonjour !
+~À demain !
+}
+
+::act_1_diagnostico_p_6::
+¿Qué palabra sirve para despedirse en francés? {
+=Au revoir
+~Bonsoir
+~Très bien
+~Ça va
+}
+
+::act_1_diagnostico_p_7::
+¿Cómo dices “gracias” en francés? {
+~Grâce !
+=Merci !
+~De rien !
+~Gracieux !
+}
+
+::act_1_diagnostico_p_8::
+¿Qué pronombre utilizas para hablarle a una persona de “Usted”? {
+~Je
+~Nous
+~On
+=Vous
+}
+
+::act_1_diagnostico_p_9::
+¿Cómo pronuncias el diptongo “ai” en francés? {
+=é
+~ai
+~oe
+~u
+}
+
+::act_1_diagnostico_p_10::
+¿Cómo se pronuncian en francés, las “e” que no llevan acento? {
+~Como una e normal en español
+~Como una é acentuada en español
+~Como una e cerrada
+=No se pronuncian
+}
