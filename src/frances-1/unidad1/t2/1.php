@@ -1,7 +1,7 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -90,10 +90,10 @@ ob_start();
     </ol>
     <p>Para presentarnos, podemos utilizar los verbos être o s’appeler: Yo soy... / Yo me llamo...</p>
     <?php ob_start(); ?>
-    <p>Observa las frases y escribe la conjugación correcta.</p>
+    
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t1a6', "Je m'appelle", $ActividadContent);
+    renderActividadH5P('je-me-pel', "Je m'appelle", $ActividadContent);
     ?>
     <p class="text-xl font-bold text-teal-600 mt-10">Para ir más lejos – La frase negativa</p>
     <p>La frase negativa en francés es un poco diferente a la frase negativa en español. Para hacer una negación en francés siempre vas a tener que utilizar dos elementos de negación que juntos se traducirían por nuestro “no”. Estas dos palabras, en su forma más simples, son “ne... pas” y siempre van a ir rodeando al verbo conjugado (o a los pronombres que acompañen al verbo y al verbo conjugado).</p>
@@ -121,10 +121,10 @@ ob_start();
     <div class="border-y-2 border-dashed border-gray-300 bg-teal-300/10 p-2 text-center">
         + Recuerda que VOUS también significa “ustedes”. La respuesta a la pregunta Qui êtes-vous ? podría ser Nous sommes Noémi et Sophie. </div>
     <?php ob_start(); ?>
-    <p>¿Pregunta formal o informal? Completa con el pronombre que corresponde. </p>
+   
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t2a6', "Apprenons à différencier les questions formelles et informelles", $ActividadContent);
+    renderActividadH5P('formal-informal', "Apprenons à différencier les questions formelles et informelles", $ActividadContent);
     ?>
     <p class="text-xl font-bold text-teal-600 mt-10">Para ir más lejos – Palabras interrogativas</p>
     <div class="flex justify-center mt-4">
