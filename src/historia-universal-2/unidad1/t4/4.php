@@ -24,9 +24,9 @@ ob_start();
 
   <p>Las nuevas formas de ocio desataron debates morales, el hecho de que las personas contaran con más dinero y más tiempo libre fue visto como un peligro por algunos sectores sociales. Los espectáculos en los teatros, los bailes, las reuniones en bares y tabernas y el cancán fueron considerados ataques a la moral. La música ragtime fue la banda sonora de estas formas nuevas de entretenimiento y se podía escuchar tanto en vivo como en el nuevo gramófono. De estos espectáculos surgieron estrellas, ídolos de las masas cuyas vidas eran reportadas en la prensa.</p>
   
-  <?php
-  renderImage('fonatico.webp', 'Gramófono para escuchar música. Imagen de Fonático', 'https://es.wikipedia.org/wiki/Gram%C3%B3fono#/media/Archivo:VictorVPhonograph.jpg', 'Wikimedia Commons');
-  ?>
+  <div class="mx-auto max-w-md">
+  <?php renderImage('fonatico.webp', 'Gramófono para escuchar música. Imagen de Fonático', 'https://es.wikipedia.org/wiki/Gram%C3%B3fono#/media/Archivo:VictorVPhonograph.jpg', 'Wikimedia Commons'); ?>
+</div>
 
   <p>Con el entretenimiento llegaron otras costumbres como el aumento del consumo del alcohol, y se comenzó a beber en público. Había también fumaderos de opio y el cannabis era de fácil acceso para las clases altas.</p>
   

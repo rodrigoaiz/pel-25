@@ -26,20 +26,26 @@ ob_start();
     Asimismo, la época de la Paz Armada se caracterizó por un incremento del gasto (y del poderío) militar; una competencia por poseer el mejor armamento y el ejército más numeroso. Los acorazados británicos comenzaron a surcar los mares, y los alemanes respondieron construyendo los suyos.
   </p>
 
-    <?php 
-  renderImage('denarios.webp', 'Imagen de denarios','https://commons.wikimedia.org/wiki/File:HMS_Dreadnought_1906_H61017.jpg' , 'Wikimedia Commons');
-  renderImage('hohum.webp','Imagen de hohum', 'https://commons.wikimedia.org/wiki/File:Hochseeflotte_2.jpg','Wikimedia Commons');
-  ?>
-
+   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <div class="mx-auto max-w-md">
+    <?php renderImage('denarios.webp', 'Imagen de denarios', 'https://commons.wikimedia.org/wiki/File:HMS_Dreadnought_1906_H61017.jpg', 'Wikimedia Commons'); ?>
+  </div>
+  <div class="mx-auto max-w-md">
+    <?php renderImage('hohum.webp', 'Imagen de hohum', 'https://commons.wikimedia.org/wiki/File:Hochseeflotte_2.jpg', 'Wikimedia Commons'); ?>
+  </div>
+</div>
   <p>
     Los alemanes desarrollaron para esta guerra las armas químicas, tales como el fosgeno y el gas mostaza; introdujeron los lanzallamas y los morteros de infantería. Comenzaron también con la utilización de tanques (aunque para entonces eran aún lentos y pesados) y submarinos. El avión de combate también fue una innovación de esta Guerra; notarás que no se parece en mucho a los grandes bombarderos que serían fabricados más adelante.
   </p>
 
-  <?php 
-  renderImage('fae3.webp', 'Imagen de fae','https://commons.wikimedia.org/wiki/File:Airplane,_airport,_First_World_War,_Gerrman_brand,_biplane_Fortepan_69966.jpg',  'Wikimedia Commons');
-  renderImage('1970geminis.webp', 'Imagen de 1970géminis', 'https://commons.wikimedia.org/wiki/File:Maschinengewehr_08_1.jpg#file', 'Wikimedia Commons');
-  ?>
-
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <div class="mx-auto max-w-md">
+    <?php renderImage('fae3.webp', 'Imagen de fae', 'https://commons.wikimedia.org/wiki/File:Airplane,_airport,_First_World_War,_Gerrman_brand,_biplane_Fortepan_69966.jpg', 'Wikimedia Commons'); ?>
+  </div>
+  <div class="mx-auto max-w-md">
+    <?php renderImage('1970geminis.webp', 'Imagen de 1970géminis', 'https://commons.wikimedia.org/wiki/File:Maschinengewehr_08_1.jpg#file', 'Wikimedia Commons'); ?>
+  </div>
+</div>
 
 
   <p>
