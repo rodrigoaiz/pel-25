@@ -10,10 +10,9 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Mon emploi du temps</h2>
-    <h3>Mi horario</h3>
-    <p>En esta lección conocerás el horario de un liceo francés, aprenderás el vocabulario de las materias y podrás indicar a qué hora tienes clase.</p>
-    <p class="mt-4">Observa el siguiente horario escolar y realiza las actividades a partir de la información que ahí encontrarás.</p>
+    <h2>Ma matière préférée est...</h2>
+    <h3>Mi materia preferida es...</h3>
+    <p>Nuestro horario de clase incluye materias que nos gustan mucho, y otras que no tanto. Ve el siguiente vídeo y realiza las actividades siguientes.</p>
 
     <table class="table-auto border-collapse border-3 border-gray-600">
         <!-- Encabezados -->
