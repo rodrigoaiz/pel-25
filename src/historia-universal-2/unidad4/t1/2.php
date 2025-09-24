@@ -16,10 +16,12 @@ ob_start();
 <section>
 
   <h2>Globalización</h2>
+    <div class="mx-auto max-w-lg">
   <?php
        renderImage('hu2-u4-WorldTrade.webp', 'Manifestantes contra la Organización Mundial de Comercio (OMC), institución muy relacionada con la globalización. Imagen de KOKUYO.', 
        'https://commons.wikimedia.org/wiki/File:2005_World_Trade_Organization_Ministerial_Conference_IMG_2789_(74124863).jpg', 'Wikimedia Commons.');
     ?>
+    </div>
 
     <p>
         La globalización es un término que ha ganado prominencia en las últimas décadas y ha transformado radicalmente la forma en que el mundo funciona. 
@@ -32,11 +34,12 @@ ob_start();
         Puedes darte una idea de lo que se fue delineando como la globalización ya durante los siglos XVI - XVIII en el siguiente recurso del portal académico.
     </p>
 
+        <div class="mx-auto max-w-lg">
     <?php
-    renderImage(
-      'hu2-u4-t1BannerComercioExterior.webp'
-    );
+    renderImage ('hu2-u4-t1BannerComercioExterior.webp', 'Comercio exterior en la Nueva España. Imagen del Portal Académico CCH UNAM.', 
+       'https://e1.portalacademico.cch.unam.mx/alumno/historiademexico1/unidad3/economianovohispana/comercioexterior', 'Portal Académico CCH UNAM.');
     ?>
+    </div>
 
     <p>
         Durante la Revolución Industrial del siglo XIX, la globalización se aceleró con la expansión de las comunicaciones y el comercio, impulsada por avances tecnológicos como el telégrafo y el ferrocarril. 
@@ -50,10 +53,12 @@ ob_start();
         comercio internacional y la inversión extranjera directa.   
     </p>
 
+        <div class="mx-auto max-w-lg">
     <?php
        renderImage('hu2-u4-selloONU.webp', 'Sello postal de las naciones unidas (ONU) con referencia al Fondo Monetario Internacional y su vinculación al comercio global, imagen de Taravyvan Adijene.', 
        'https://commons.wikimedia.org/wiki/File:UN-IMF-4c.jpg', 'Wikimedia Commons.');
     ?>
+    </div>
     
     <h3>¿A que se refiere el Brexit?</h3>
 
@@ -68,10 +73,12 @@ ob_start();
         viaje, se cerraron fronteras y se interrumpieron las cadenas de suministro globales. La pandemia puso de manifiesto la fragilidad de una economía altamente interconectada.
     </p>
 
+        <div class="mx-auto max-w-lg">
     <?php
     renderImage('hu2-u4-covid_U4t1.webp', 'La pandemia de COVID -19 tuvo implicaciones muy fuertes para la globalización. Imagen de Tm.', 
        'https://commons.wikimedia.org/wiki/File:COVID-19_Equipment_to_Latvia_(05890050)_(49885513733).jpg', 'Wikimedia Commons.');
     ?>
+    </div>
 
     <p>
         El trabajo remoto y las videoconferencias se convirtieron en la norma, lo que plantea preguntas sobre el futuro del trabajo y la necesidad de una presencia física en las oficinas. Las empresas comenzaron a replantearse 
@@ -82,10 +89,11 @@ ob_start();
     <p>
         Para aprender más sobre esto, te invitamos a ver sl siguiente video.
     </p>
-    <?php
-        renderVideoIframe('_6MsjthV510M', '¿Cómo afectó la pandemia al proceso de globalización?');
-    ?>
 
+    <?php
+        renderVideoIframe('6MsjthV510M', '¿Cómo afectó la pandemia al proceso de globalización?');
+    ?>
+    
 </section>
 
 <?php

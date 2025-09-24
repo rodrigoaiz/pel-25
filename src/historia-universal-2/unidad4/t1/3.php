@@ -57,10 +57,12 @@ ob_start();
     Estos son solo algunos ejemplos de tratados y acuerdos que han influido en la globalización en diversas formas, promoviendo el comercio internacional y la cooperación económica entre naciones.
   </p>
 
+      <div class="mx-auto max-w-lg">
    <?php
        renderImage('hu2-u4-ildefonso.webp', 'Firma conjunta del T-MEC 2018, por México, EE.UU y Canadá. Imagen de Don Lolo', 
        'https://commons.wikimedia.org/wiki/File:Ildefonso_Guajardo_firmando_el_TMEC.jpg', 'Wikimedia Commons.');
     ?>
+    </div>
 
     <?php ob_start(); ?>
   <p>

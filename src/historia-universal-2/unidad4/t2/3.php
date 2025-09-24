@@ -26,10 +26,12 @@ ob_start();
     una reunión de líderes de la OMC pues, a decir de una de las participantes, esta “solo causa pobreza”.
 </p>
 
+    <div class="mx-auto max-w-lg">
   <?php
        renderImage('hu2-u4-capitalism_banner.webp', '“El capitalismo no está funcionando” La frase en la manta que porta la multitud es ilustrada por una larga fila de solicitantes 
        de empleo. Foto de Fences and windows.','https://commons.wikimedia.org/wiki/File:G20_capitalism_banner.jpg', 'Wikimedia Commons.');
     ?>
+      </div>
 
     <p>
         El Ejército Zapatista de Liberación Nacional emerge, justamente, en 1994, en contra de la puesta en marcha del Tratado de Libre Comercio para América del Norte (TLCAN) 

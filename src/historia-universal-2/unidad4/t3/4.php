@@ -16,10 +16,12 @@ ob_start();
 <section>
   <h2>Pensamiento Critico</h2>
 
+      <div class="mx-auto max-w-lg">
   <?php
        renderImage ('hu2-u4-presentacion.webp', 'El diálogo es fundamental para el pensamiento crítico. Foto de Luisalvaz.', 
        'https://commons.wikimedia.org/wiki/File:Presentaci%C3%B3n_del_libro_Pa%C3%ADs_sin_techo_de_Carla_Escoffi%C3%A9_en_Aquelarre_39.jpg', 'Wikipedia Commons.');
   ?>
+        </div>
 
   <p>El pensamiento crítico puede ser una herramienta poderosa para abordar y enfrentar los efectos de la posmodernidad en la sociedad contemporánea.</p>
 

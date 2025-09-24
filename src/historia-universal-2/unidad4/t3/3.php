@@ -51,15 +51,29 @@ ob_start();
         interacción social y han amplificado las voces individuales.
     </p>
 
+        <div class="mx-auto max-w-lg">
     <?php
        renderImage ('hu2-u4-telefono_inteligente.webp', 'La hiperconectividad es una característica del mundo posmoderno. Imagen de pikisuperstar.', 
        'https://www.freepik.es/fotos/celular-redes-sociales#query=redes%20sociales&position=14&from_view=search&track=ais&uuid=dbc97646-e78c-42d2-b972-f732a0610221', 'Freepik');
   ?>
+      </div>
+
+    <p>
+        La posmodernidad ha llevado a una mayor conciencia y preocupación por el medio ambiente. Se reconoce la interconexión entre los seres 
+        humanos y la naturaleza, y se promueven prácticas sostenibles y responsables para preservar el planeta.
+    </p>
+
+    <p>
+        La posmodernidad ha influido en la forma en que se percibe y se experimenta el tiempo. Se cuestionan las narrativas lineales y se 
+        enfatiza la simultaneidad y la multiplicidad de experiencias temporales. La velocidad de la vida contemporánea y la 
+        instantaneidad de la información han transformado nuestra relación con el tiempo.
+    </p>  
 
   <p> Revisa el siguiente video acerca de la posmodernidad. </p>
 
   <?php
-        renderVideoIframe('_ABo77MhHQrI', 'Los Posmodernos');
+        renderVideoIframe('_ABo77MhHQrI', 'Los Posmodernos'//VIDEO CON DERECHOS DE AUTOR
+        );
     ?>
 
     <?php ob_start(); ?>

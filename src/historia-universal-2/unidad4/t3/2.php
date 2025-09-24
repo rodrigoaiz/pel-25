@@ -36,10 +36,12 @@ ob_start();
     sociales en la configuración de la realidad.
   </p>
 
+      <div class="mx-auto max-w-lg">
   <?php
        renderImage ('hu2-u4-jean_francois.webp', 'Jean-Francois Lyotard, uno de los principales teóricos de la posmodernidad. Imagen de KOKUYO.', 
        'https://commons.wikimedia.org/wiki/File:Jean-Francois_Lyotard_photographed_by_Bracha_Ettinger_1995.jpg', 'Wikimedia Commons.');
   ?>
+      </div>
 
 </section>
 

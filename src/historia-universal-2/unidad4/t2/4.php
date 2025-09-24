@@ -68,7 +68,7 @@ ob_start();
         alemana de noticias Deutsche Welle
       </p>
 
-      <?php renderVideoIframe('_Jnb6k7Tjw7k', 'BRICS: el contrapeso emergente en un mundo multipolar'); ?>
+      <?php renderVideoIframe('Jnb6k7Tjw7k', 'BRICS: el contrapeso emergente en un mundo multipolar'); ?>
 
       <?php ob_start(); ?>
   <p>Realiza el siguiente reto para consolidar algunos conceptos importantes</p>

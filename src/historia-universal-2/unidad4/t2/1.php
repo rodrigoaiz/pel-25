@@ -16,10 +16,13 @@ ob_start();
 <section>
 
   <h2>Neoliberalismo</h2>
+
+      <div class="mx-auto max-w-lg">
   <?php
        renderImage('hu2-u4-neo_liberal.webp', 'Cartel de 2012 que parodia a los líderes neoliberales representandolos como lo hacían los soviéticos. Imagen de Helper201.', 
        'https://commons.wikimedia.org/wiki/File:The_Neo-Liberal_Revolution,_Trafalgar_Lane,_Brighton.jpg', 'Wikimedia Commons.');
     ?>
+    </div>
 
     <p>
         A partir de los años setenta el neoliberalismo se fue imponiendo mediante una serie de reformas estructurales que buscaban desmantelar la infraestructura que daba 

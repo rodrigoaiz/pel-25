@@ -21,10 +21,12 @@ ob_start();
         comprender procesos que se desencadenan a raíz de la implementación de las reformas estructurales neoliberales.
      </p>
 
+    <div class="mx-auto max-w-lg">
   <?php
        renderImage('hu2-u4-robert_lighthizer.webp', 'La adhesión al Tratado de Libre Comercio para América del Norte, fue uno de los pilares fundamentales del neoliberalismo en México. Imagen de A1Cafel.', 
        'https://commons.wikimedia.org/wiki/File:Robert_Lighthizer_joins_the_NAFTA_Round_3_renegotiation.jpg', 'Wikimedia Commons.');
     ?>
+      </div>
 
     <p>
        El neoliberalismo ha facilitado la globalización económica, al abrir paso al tránsito de mercancías y capitales desde y hacia todos los rincones del mundo. 
@@ -34,13 +36,15 @@ ob_start();
        por un plan para promover las soluciones individuales, pues la sociedad como un conjunto de relaciones y aspiraciones colectivas no existe para el neoliberalismo.
     </p>
 
-    <p> Observa la siguiente imagen, da clic a continuación para acceder a ella, luego vuelve aquí para continuar. </p>
+    <p> Observa cuidadosamente la siguiente imagen</p>
 
+        <div class="mx-auto max-w-3xl">
     <?php
     renderImage(
-      'hu2-u4-u4t2_banner_desigualdad.webp'
+      'hu2-u4-Portada-Especial-Emprendimiento-Alternativas-768x511.webp' //La imagen llevaba a otra imagen, mejor agegue directamente la imagen destino
     );
     ?>
+      </div>
 
     <p>
         La imagen muestra, por una parte, las necesidades propias de la vida material y la forma en que el neoliberalismo pregona que deben satisfacerse: sin el apoyo 

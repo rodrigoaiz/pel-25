@@ -47,10 +47,12 @@ ob_start();
       renderVideoIframe('SVKo4GHCFl4', 'El origen del neoliberalismo.');
     ?>
 
+    <div class="mx-auto max-w-lg">
     <?php
     renderImage('hu2-u4-leanne_container.webp', 'La globalización es impulsada por la idea del libre comercio. Imagen de ImagePerson. ', 
        'https://commons.wikimedia.org/wiki/File:MSC_Leanne_Container_Vessel_at_Colon,_January_2016_0691_SS.jpg', 'Wikimedia Commons.');
     ?>
+    </div>
 
     <p>
         Por otro lado, también han surgido importantes críticas al neoliberalismo y a la globalización. 
@@ -66,10 +68,12 @@ ob_start();
         homogeneización cultural.
     </p>
 
+    <div class="mx-auto max-w-lg">
     <?php
     renderImage('hu2-u4-netflix_iphone.webp', 'La globalización finalmente no solo es un intercambio de productos, sino de ideas y esto se conoce como globalización cultural. Imagen de FlickreviewR2.', 
        'https://commons.wikimedia.org/wiki/File:Netflix_iPhone.jpg', 'Wikimedia Commons.');
     ?>
+    </div>
 
     <?php ob_start(); ?>
   <p>Para finalizar, te invitamos a revisar el siguiente reto y reforzar algunos conceptos de esta lección</p>

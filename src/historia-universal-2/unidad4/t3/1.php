@@ -30,10 +30,12 @@ ob_start();
     o bien, la Posmodernidad.
   </p>
 
+      <div class="mx-auto max-w-lg">
   <?php
        renderImage ('hu2-u4-graffiti.webp', 'El arte posmoderno es una clara representación del fin de ciertos valores de la modernidad. Imagen de Singlespeedfahrer', 
        'https://commons.wikimedia.org/wiki/File:Ildefonso_Guajardo_firmando_el_TMEC.jpg', 'Wikimedia Commons.');
   ?>
+      </div>
 
   <p>
     De manera general, podemos decir que la posmodernidad es un término que se refiere a un período cultural, filosófico y artístico 
