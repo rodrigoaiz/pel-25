@@ -2,6 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 
@@ -28,7 +29,7 @@ ob_start();
     renderVideoIframe('2SJcXH28qGg', 'Apprendre les mois de l année en français (Los meses del año en francés)');
     ?>
     <?php ob_start(); ?>
-    <p>Revisa el siguiente vídeo y luego con la ayuda de las tablas, di cuál es tu fecha de nacimiento.</p>
+    <p>Regardez la vidéo suivante puis, à l'aide des tableaux, déterminez votre date de naissance / Revisa el siguiente vídeo y luego con la ayuda de las tablas, di cuál es tu fecha de nacimiento.</p>
     <p class="italic text-fuchsia-900 text-center mt-4">- Quelle est ta date de naissance?</p>
     <p class="italic text-fuchsia-900 text-center">Ma date de naissance est le________________________.
     </p>
@@ -55,14 +56,24 @@ ob_start();
     $ActividadContent = ob_get_clean();
     renderActividad('u2t2a4', "Foro | Ma date de naissance...", $ActividadContent);
     ?>
+    <p class="mt-10"><strong>Instrucciones:</strong></p>
+    <ol class="ol-number md:ml-32">
+        <li>
+            <p>Regarde la vidéo et choisis la bonne réponse / Mira el vídeo y elige la respuesta correcta.</p>
+        </li>
+    </ol>
 
+    <div class="max-w-xl mx-auto bg-purple-700/30 p-4 my-6">
+        <?php
+        renderVideoIframe('nJsx6IIB2LU', 'La date de naissance');
+        ?>
+    </div>
     <?php ob_start(); ?>
-    <p>Regarde la vidéo et choisis la bonne réponse / Mira el vídeo y elige la respuesta correcta.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t2a5', "La date de naissance", $ActividadContent);
+    renderActividadH5P('u2t2a5', "La date de naissance", $ActividadContent);
     ?>
-    <p><strong>Instrucciones:</strong></p>
+    <p class="mt-10"><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32">
         <li>Regarde les dates de naissance de ces 5 chanteurs francophones / Descubre las fechas de nacimiento de estos 5 cantantes francófonos.</li>
         <li>Glisse les dates pour compléter le texte / Arrastra las fechas para completar el texto
@@ -78,7 +89,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t2a6', "La date de naissance", $ActividadContent);
+    renderActividadH5P('u2t2a6', "Les dates de naissance", $ActividadContent);
     ?>
 </section>
 
