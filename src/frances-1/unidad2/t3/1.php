@@ -163,7 +163,7 @@ ob_start();
     </p>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
-        <li>Realiza un vidéo donde te presentas y dices los siguientes datos:
+        <li>Realiza un video donde te presentas y dices los siguientes datos:
             <ul class="list-disc ml-8">
                 <li>Salutation formelle</li>
                 <li>Nom et prénom</li>

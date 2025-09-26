@@ -120,15 +120,21 @@ ob_start();
             </tr>
         </tbody>
     </table>
-    <p class="mt-10">Con base en lo observado realiza el siguiente ejercicio:</p>
+    <p><strong>Instrucciones:</strong></p>
+    <ol class="ol-number md:ml-32 mb-8">
+        <li>En te basant sur ce que tu as observé dans l'emploi du temps de Julien, réalise l'exercice suivant / Con base en lo observado en el horario de Julien, realiza el siguiente ejercicio.</li>
+        <li>Après avoir regardé la vidéo, répondez au questionnaire suivant / Selecciona "Verdadero" si la afirmación es cierta o "Falso" si es incorrecta. </li>
+    </ol>
     <?php ob_start(); ?>
-    <p>Après avoir regardé la vidéo, répondez au questionnaire suivant / Selecciona "Verdadero" si la afirmación es cierta o "Falso" si es incorrecta.</p>
     <?php
     $ActividadContent = ob_get_clean();
     renderActividadH5P('u2t5a15', "Horarios de Julien 1", $ActividadContent);
     ?>
+    <p><strong>Instrucciones:</strong></p>
+    <ol class="ol-number md:ml-32 mb-8">
+        <li>À partir de l'emploi de temps de Julien, réponds aux questions (fais attention aux majuscules, minuscules, à l'orthographe et aux accents et écris les nombres en chiffres) / A partir del horario de Julien, responde a las preguntas (ten cuidado con las mayúsculas, minúsculas, la ortografía, los acentos y escribe los números en cifras)</li>
+    </ol>
     <?php ob_start(); ?>
-    <p>À partir de l'emploi de temps de Jullien, réponds aux questions (fais attention aux majuscules, minuscules, à l'orthographe et aux accents et écris les nombres en chiffres) / A partir del horario de Jullien, responde a las preguntas (ten cuidado con las mayúsculas, minúsculas, la ortografía, los acentos y escribe los números en cifras)</p>
     <?php
     $ActividadContent = ob_get_clean();
     renderActividadH5P('u2t5a16', "Horarios de Julien 2", $ActividadContent);
@@ -158,17 +164,25 @@ ob_start();
         </div>
     </div>
     <p class="mt-10">Como puedes observar, cuando usamos el verbo faire, debemos acompañar el nombre de la materia con DU (masculino), DE L' (la palabra empieza con vocal o H), DE LA (femenino) o DES (plural). Cuando usamos AVOIR COURS DE o D', sólo debemos poner atención al inicio de la palabra (si empieza con vocal o con h se usa D'). </p>
+    <p><strong>Instrucciones:</strong></p>
+    <ol class="ol-number md:ml-32 mb-8">
+        <li>Regarde la vidéo et réponds aux questions (écris les nombres en chiffres et les mots en minuscules et fais attention à l'orthographe et aux accents) / Mira el video y responde a las preguntas (escribe los números en cifras, las palabras en minúsculas y ten cuidado con la ortografía y los acentos)</li>
+    </ol>
     <div class="max-w-xl mx-auto bg-blue-700/30 p-4">
         <?php
         renderVideoIframe('TVDJxYJpcMg', 'Le dialogue sur L emploi du Temps • FLE • A1');
         ?>
     </div>
     <?php ob_start(); ?>
-    <p>Regarde la vidéo et réponds aux questions (écris les nombres en chiffres et les mots en minuscules et fais attention à l'orthographe et aux accents) / Mira el video y responde a las preguntas (escribe los números en cifras, las palabras en minúsculas y ten cuidado con la ortografía y los acentos)</p>
     <?php
     $ActividadContent = ob_get_clean();
     renderActividadH5P('u2t5a17', "Diálogo sobre el empleo de los tiempos", $ActividadContent);
     ?>
+
+    <p><strong>Instrucciones:</strong></p>
+    <ol class="ol-number md:ml-32 mb-8">
+        <li>Regarde l'emploi de temps de Pauline et réponds aux questions (écris tout en minuscules et fais attention à l'orthographe et aux accents) / Mira el horario de Pauline y responde a las preguntas (escribe todo en minúsculas y ten cuidado con la ortografía y los acentos)</li>
+    </ol>
 
     <table class="table-auto w-full">
         <thead class="bg-emerald-300/50">
@@ -237,7 +251,6 @@ ob_start();
         </tbody>
     </table>
     <?php ob_start(); ?>
-    <p>Regarde l'emploi de temps de Pauline et réponds aux questions (écris tout en minuscules et fais attention à l'orthographe et aux accents) / Mira el horario de Pauline y responde a las preguntas (escribe todo en minúsculas y ten cuidado con la ortografía y los acentos)</p>
     <?php
     $ActividadContent = ob_get_clean();
     renderActividadH5P('u2t5a18', "Horarios de Pauline", $ActividadContent);
