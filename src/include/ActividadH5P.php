@@ -15,10 +15,14 @@ function renderActividadH5P($htmlFileName, $h5pTitulo = "Actividad H5P", $h5pCon
 
   // Verificar si existe el archivo HTML
   if (file_exists($htmlPathH5P)) {
-    $htmlContentH5P = file_get_contents($htmlPathH5P);
-    if ($htmlContentH5P === false) {
-      echo "Error al leer el archivo HTML: " . $htmlPathH5P;
-      return;
+    // Crear la URL relativa para el iframe
+    // En desarrollo, verificar si existe dist, sino usar src
+    $distPath = str_replace('/src/', '/dist/', $htmlPathH5P);
+    if (file_exists($distPath)) {
+      $htmlUrlH5P = BASE_URL . '/' . $asignaturaNameH5P . '/assets/h5p/' . $htmlFileName . '.html';
+    } else {
+      // Fallback para desarrollo: usar src directamente
+      $htmlUrlH5P = '/src/' . $asignaturaNameH5P . '/assets/h5p/' . $htmlFileName . '.html';
     }
   } else {
     echo "Archivo HTML no encontrado: " . $htmlPathH5P;
@@ -34,7 +38,12 @@ function renderActividadH5P($htmlFileName, $h5pTitulo = "Actividad H5P", $h5pCon
       <?php echo $h5pContent; ?>
     </div>
     <div class="h5p-container">
-      <?php echo $htmlContentH5P; ?>
+      <iframe src="<?php echo $htmlUrlH5P; ?>" 
+              width="100%" 
+              class="w-full actividadh5p"
+              style="border: none; background: white; min-height: 0; height: auto;" 
+              allowfullscreen>
+      </iframe>
     </div>
 <?php
 }

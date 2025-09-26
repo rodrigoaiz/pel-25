@@ -20,7 +20,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Identificar las acciones que promueven la sana convivencia del entorno escolar.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>En el siguiente foro, contesta las siguientes preguntas:
             <ul class="ul-disc ml-10">
                 <li>¿Qué acciones identificas en tu escuela para fortalecer el respeto y la convivencia con los demás?</li>

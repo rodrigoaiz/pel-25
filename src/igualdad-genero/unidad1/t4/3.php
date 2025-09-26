@@ -25,7 +25,7 @@ ob_start();
     <p class="font-bold text-xl text-fuchsia-900">¿Cuáles son los presupuestos de la masculinidad?</p>
     <p>Al igual que lo femenino, la masculinidad no es algo con lo que se nace, sino que lo conformamos y transformamos a partir de nuestro entorno histórico, social, político y cultural.</p>
     <p>Los estudios de género relacionados con la masculinidad se sintetizan en cuatro ejes:</p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Identificar sus mecanismos.</li>
         <li>Comprender sus consecuencias.</li>
         <li>Descubrir masculinidades diversas, es decir, otras formas de ser hombre.</li>
@@ -115,7 +115,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Identificar los distintos tipos de masculinidad (tradicional, en transición, o alternativa) con base en el análisis de frases que representan la postura de distintos hombres ante algunos de los mandatos de la masculinidad.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Trabajen en equipos de 4 ó 5 estudiantes.</li>
         <li>Analicen la frase asignada por su docente en equipos para identificar lo siguiente:
             <ul class="ul-disc ml-10">

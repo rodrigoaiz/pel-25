@@ -20,8 +20,8 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Enfatizar el conocimiento de la sororidad como alternativa a una sana convivencia con los demás.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
-        <li>Realiza la lectura de <a href="<?php echo PATH_DOCS . 'u2t10-lectura_SororidadQueEsEso.pdf'; ?>" target="_blank">Sororidad ¿qué es eso?</a>. </li>
+    <ol class="ol-number md:ml-32">
+        <li>Realiza la lectura de <a href="<?php echo PATH_DOCS . 'u2t10-lectura_SororidadQueEsEso.pdf'; ?>" target="_blank">Sororidad ¿qué es eso?</a></li>
         <li>Subraya las palabras clave que te permitan dar seguimiento a la lectura.</li>
         <li>Realiza un mapa conceptual sobre el impacto que tiene la sororidad en la sana convivencia, puedes utilizar herramientas digitales gratuitas como <a href="https://miro.com/es/" target="_blank">Miró</a>, <a href="https://www.lucidchart.com/pages/es" target="_blank">Lucidchart</a> o <a href="https://www.canva.com/es_mx/" target="_blank">Canva</a>.</li>
         <li>Antes de enviar tu actividad, revisa la <a href="<?php echo PATH_DOCS . 'u2t10-listaDeCotejo_MapaConceptualSororidad.pdf'; ?>" target="_blank">lista de cotejo</a> con el que se evaluará tu mapa conceptual.</li>

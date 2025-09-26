@@ -21,7 +21,7 @@
     "salir": {
       "nombre": "Salir",
       "icon": "ban.svg",
-      "url": "https://pel.cch.unam.mx/login/logout.php?sesskey=acdpwASwF9&alt=logout",
+      "url": "login/logout.php?sesskey=acdpwASwF9&alt=logout",
       "alt" : "Salir de la plataforma"
     }
   },

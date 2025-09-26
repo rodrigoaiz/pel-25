@@ -1,33 +1,36 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ImagenFullPleca.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Desafíos y compromisos: ¿qué estoy dispuesto a hacer?</h2>
-    <p>El Colegio de Ciencias y Humanidades es mucho más que un lugar para aprender materias académicas; también es un espacio donde se construyen valores, actitudes y relaciones que pueden fortalecer una cultura de paz. La paz se refleja en el respeto, la inclusión, el diálogo y la solución pacífica de los conflictos. Fomentar una cultura de paz en la UNAM es responsabilidad de todos. Por eso, es importante preguntarme: <span class="text-fuchsia-800 font-bold">¿qué estoy dispuesto(a) a hacer para tener una cultura de paz?</span> ya que reconocer mi papel en este proceso es el primer paso para generar un ambiente más armonioso, justo y respetuoso para todos y todas.</p>
-
-    <?php
-    renderImagePleca('u5t2p01_compromisos.webp');
-    ?>
-    <p class="mt-10">Ahora, te pedimos que ingreses al foro de discusión <strong>"Compromisos ceceacheros de la Cultura de Paz"</strong></p>
-    <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-16">
-        <li>Te pedimos que ingreses al foro de discusión y compartas tu respuesta a lo siguiente: <strong>Qué estoy dispuesto(a) a hacer para tener una cultura de paz?</strong></li>
-        <li>Además de participar revisa y comenta al menos dos respuestas de tus compañeros.</li>
-    </ol>
-    <?php ob_start(); ?>
-    <p>Participa aquí en el foro.</p>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividad('u5t2a2', "COMPROMISOS CECEACHEROS DE LA CULTURA POR LA PAZ", $ActividadContent);
-    ?>
+  <h2>Revisión de contenidos</h2>
+  <p>La integración e identidad universitaria significa que cada alumna y alumno, al ingresar al Colegio de Ciencias y Humanidades de la UNAM, conocerá un modelo educativo enmarcado en las ciencias y humanidades, no solo hablamos de la integración de nuevas formas de aprendizaje, nuevos conocimientos, también integrarse a la experiencia académica que requiere fomentar y desarrollar un sentido de pertenencia y conexión con la institución.</p>
+  <p>Esto se logra a través de diversos programas y actividades realizadas por áreas muy específicas, por ejemplo, PIA, PIT y Psicopedagogía que diseñan e implementan dinámicas de participación activa de las y los estudiantes en su propio proceso de aprendizaje y mejora de la vida académica.
+  </p>
+  <p>A continuación te pedimos que revises la siguiente <span class="text-violet-400 font-bold">presentación interactiva</span> y realices las actividades dentro de ella.</p>
 </section>
+<div class="max-w-7xl mx-auto">
+  <div class="aspect-video h-0 py-0 relative" style="padding-bottom: 56.25%;">
+    <iframe
+      title="Presentación Interactiva"
+      frameborder="0"
+      width="100%"
+      height="100%"
+      class="absolute top-0 left-0 w-full h-full"
+      src="https://pel.cch.unam.mx/programas/unidad5/index_local.html"
+      type="text/html"
+      allowscriptaccess="always"
+      allowfullscreen="true"
+      scrolling="yes"
+      allownetworking="all">
+    </iframe>
+  </div>
+</div>
 
 <?php
 $content = ob_get_clean();

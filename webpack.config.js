@@ -4,41 +4,46 @@ const CopyPlugin = require('copy-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const mode = process.env.NODE_ENV || 'development';
+const isProduction = mode === 'production';
 
 module.exports = {
-  mode: mode, // Utiliza la variable de entorno para establecer el modo
-  entry: './src/assets/app.js', // Punto de entrada JavaScript
+  mode: mode,
+  entry: './src/assets/app.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'js/bundle.js', // Salida del archivo JS
+    filename: 'js/bundle.js',
+    clean: true, // Limpia automáticamente el directorio dist
   },
+  // Solo generar source maps en desarrollo
+  devtool: isProduction ? false : 'eval-source-map',
+  
   module: {
     rules: [
       {
-        test: /\.css$/i, // Procesa archivos CSS
+        test: /\.css$/i,
         use: [
-          MiniCssExtractPlugin.loader, // Extrae CSS en archivos separados
-          'css-loader', // Interpreta `@import` y `url()`
-          'postcss-loader', // Procesa CSS con PostCSS (Tailwind)
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'postcss-loader',
         ],
       },
       {
-        test: /\.php$/, // Maneja archivos PHP como recursos estáticos
+        test: /\.php$/,
         type: 'asset/resource',
       },
       {
-        test: /\.(woff(2)?|ttf|eot|otf|svg)$/, // Maneja archivos de fuentes
+        test: /\.(woff(2)?|ttf|eot|otf|svg)$/,
         type: 'asset/resource',
         generator: {
-          filename: 'assets/fonts/[name][ext]', // Carpeta de destino en `dist`
+          filename: 'assets/fonts/[name][ext]',
         },
       },
     ],
   },
   plugins: [
-    new CleanWebpackPlugin(), // Limpia el directorio `dist` antes de cada compilación
+    new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
-      filename: 'assets/css/styles.css', // Salida del CSS compilado
+      filename: 'assets/css/styles.css',
     }),
     new CopyPlugin({
       patterns: [

@@ -13,7 +13,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Identificar en casos reales los derechos violados, a fin de visibilizar las afectaciones de las víctimas, exigir justicia y contribuir a la construcción de una sociedad más igualitaria.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Observa con atención cada uno de los videos y responde las preguntas.</li>
     </ol>
     <?php ob_start(); ?>
