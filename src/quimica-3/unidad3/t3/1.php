@@ -9,63 +9,61 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h2>Tipos de reacciones químicas.</h2>
-  <h3>Reacciones de desplazamiento</h3>
+  <h2>Energía y reacción química </h2>
+  <h3>Energía de activación</h3>
   
-  <p>Lee el siguiente texto y reflexiona:</p>
+  <p>Para comprender la formación de enlaces en los compuestos, necesitas conocer cómo interviene la energía  en una reacción química, por lo que es necesario que conozcas el concepto de “energía de activación".</p>
 
-  <h4 class="text-center">La industria minero-metalúrgica en la producción de metales</h4>
+  <h4>ENERGÍA DE ACTIVACIÓN</h4>
 
-  <p>La industria minero-metalúrgica es clave en la producción de los metales que usamos a diario, desde el acero en los edificios hasta el cobre en los cables eléctricos y el oro en los dispositivos electrónicos. Aunque parece sencillo, transformar una roca que contiene minerales en un metal puro listo para su uso implica una serie de pasos complejos, muchos de ellos guiados por <i><u>reacciones químicas.</u></i></p>
+  <p>Hemos visto que para que una reacción ocurra, las moléculas de los reactivos deben chocar entre sí. Esto requiere una energía mínima imprescindible, la cual es necesaria para que se inicie la reacción. Esta mínima energía que se necesita se denomina <b>energía de activación (Ea)</b>.</p>
 
-  <p>Cuando los minerales se extraen de las minas, generalmente están mezclados con impurezas y otros elementos no deseados o que no tienen valor comercial. Para obtener el metal puro, se requiere un proceso que lo libere de esas impurezas y lo convierta en un material útil. Aquí es donde participan las <i><u>reacciones químicas.</u></i>, las cuales permiten extraer los elementos valiosos a partir de sus minerales.</p>
+  <p>La siguiente gráfica de energía vs avance de la reacción muestra a la energía de activación:</p>
 
-  <p>Pero, ¿cómo ocurre esta transformación? Dependiendo del mineral, se pueden utilizar diferentes métodos químicos. Algunos metales requieren ser reducidos mediante reacciones con gases como el oxígeno o el carbono, otros son disueltos en soluciones químicas para separarlos de su matriz, y algunos necesitan corrientes eléctricas para completar su purificación.</p>
-
-  <p>Un dispositivo tan común como el teléfono celular, que utilizamos diariamente y que se ha convertido en una herramienta indispensable en esta era de la comunicación, requiere de baterías que a su vez están formadas por metales y cuyo propósito es transformar la energía química en eléctrica, lo que hace que funcione adecuadamente un teléfono celular. Pero ¿cómo es qué a partir de una roca, pueda obtenerse un metal y eso haga funcionar tu teléfono celular?</p>
-
-  <p>Observa el video sobre los metales que componen los teléfonos celulares:</p>
-
-  <?php
-  renderVideoIframe('zlO_lTMFrds', 'Materiales y metales que contienen los teléfonos celulares');
+  <div class="mx-auto max-w-md">
+    <?php
+      renderImage('q3-u3-grafico.webp','Gráfica de energía vs avance de la reacción.')
   ?>
+  </div>
 
-  <p>¿Qué te pareció el video? ¿Te imaginabas que tu teléfono celular estuviera conformado por tantos elementos químicos? Ahora se te invita a participar en el  foro de discusión: <i><b>Del mineral al teléfono celular.</b></i> </p>
+ <p>Para comprender la formación de enlaces en los compuestos, necesitas conocer cómo interviene la energía  en una reacción química, por lo que es necesario que conozcas el concepto de “energía de activación".</p>
+
+ <h4>ENERGÍA DE ACTIVACIÓN</h4>
+
+  <p>Hemos visto que para que una reacción ocurra, las moléculas de los reactivos deben chocar entre sí. Esto requiere una energía mínima imprescindible, la cual es necesaria para que se inicie la reacción. Esta mínima energía que se necesita se denomina <b>energía de activación (Ea).</b></p>
+
+  <p>La energía de activación suele representarse en un <b>perfil de energía</b>, es decir, un diagrama de energía vs el avance de la reacción. Consideremos la siguiente reacción:</p>
+
+  <p class="text-center"><b>DE  +  F  →   D  +  EF </b></p>
+
+  <p>Este perfil muestra, cualitativamente, los cambios de energía a medida que los reactivos se transforman en producto. </p>
+
+  <p>En la gráfica de energía vs avance de la reacción observa que al  inicio de la reacción tenemos las sustancias DE y F (en verde), las cuales tienen, al inicio, una determinada energía. Para que estas sustancias reaccionen, deben chocar y formar un <b>complejo activado (llamado también estado de transición)</b>, representado en morado: en él se aprecia que el enlace entre D  y E  se ha debilitado, mientras el enlace E-F empieza a formarse. La energía necesaria para alcanzar este complejo activado es la energía de activación (Ea). Una vez alcanzado este punto, se forman los productos (denotados en rojo).</p>
+
+  <div class="mx-auto max-w-md">
+    <?php
+      renderImage('q3-u3-grafico.webp','Gráfica de energía vs avance de la reacción.')
+  ?>
+  </div>
+
+  <h4>Catalizadores</h4>
+
+  <p>Los catalizadores son sustancias que, actuando en pequeñas proporciones, disminuyen la energía de activación de la reacción y/o provocan una correcta orientación al choque de las especies reactantes, de forma que este sea eficaz. Así pues, su efecto es aumentar la velocidad de reacción.</p>
+
+  <div class="mx-auto max-w-md">
+    <?php
+      renderImage('q3-u3-grafico2.webp','Gráfica de energía vs avance de la reacción.')
+  ?>
+  </div>
+
+  <p>Ahora que ya revisaste la lectura anterior de cómo interviene la energía de activación en una reacción química te invitamos a que realices la actividad “Energía de activación en la reacción química.” </p>
 
   <?php ob_start(); ?>
-  <p>A continuación, se les invita a participar en el siguiente foro de discusión.</p>
+  <p>A continuación, realiza la actividad</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t3a1', "Foro de discusión: del mineral al teléfono celular", $ActividadContent);
+  renderActividad('u3t3a1', "Energía de activación en la reacción química", $ActividadContent);
   ?>
-
-<p>En la industria química metalúrgica, se produce una gran cantidad de reacciones en las que participan los metales, pero no todas son iguales. El tipo de metales y de minerales que participan, determina la reacción química que puede llevarse a cabo.  Analizar las reacciones que ocurren determinará el procedimiento químico que puede realizarse para la extracción y refinamiento de los metales. </p>
-
-<p>Observa el siguiente video sobre los tipos de reacciones:</p>
-
-  <?php
-  renderVideoIframe('MLcHCEnBKmo', ' Tipos de reacciones');
-  ?>
-
-  <p>Como observaste en el video, en las reacciones químicas se generan nuevas sustancias (productos) a partir de las sustancias iniciales  (reactivos). En otras palabras, una reacción química es un proceso de transformación de la materia.  Pero, no todas las reacciones son iguales y eso es posible identificar porque la evidencia de algunas reacciones puede ser un cambio de color, la formación de un sólido, la producción de un gas o el desprendimiento o absorción de energía, es decir, cuando se calienta o se enfría, respectivamente, el recipiente donde se está llevando a cabo la racción.</p>
-
-  <p>Por ejemplo, la reacción para la obtención de Ag a partir de AgNO3 y Cu, se representa con la siguiente ecuación química:</p>
-
-  <div class="mx-auto max-w-md">
-    <?php
-      renderImage('q3-u2-simple.webp','Reacción de desplazamiento simple')
-  ?>
-  </div>
-
-  <p>Esta es una reacción de <b>desplazamiento simple</b>, donde un elemento reacciona con un compuesto y toma el lugar de uno de los componentes del compuesto.</p>
-
-  <p>Otro tipo de reacción química es la que se conoce como desplazamiento doble, donde dos compuestos reaccionan intercambiando sus componentes para formar otros compuestos diferentes a los primeros, con propiedades distintas. Ejemplo:</p>
-
-  <div class="mx-auto max-w-md">
-    <?php
-      renderImage('q3-u2-doble.webp','Reacción de desplazamiento doble')
-  ?>
-  </div>
 
 
 </section>

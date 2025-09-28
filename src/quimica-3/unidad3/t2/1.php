@@ -1,72 +1,70 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ImagenPie.php';
+include PATH_INCLUDE . 'Tabs.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h2>Tipos de reacciones químicas.</h2>
-  <h3>Reacciones de desplazamiento</h3>
-  
-  <p>Lee el siguiente texto y reflexiona:</p>
+  <h2>Reacción química</h2>
 
-  <h4 class="text-center">La industria minero-metalúrgica en la producción de metales</h4>
+  <?= TabsComponent([
+    'tabs' => [
+      [
+        'id' => 'ReaccionQuimica',
+        'label' => 'Reacción Química',
+        'content' =>
+        '<div class="grid grid-cols-3 gap-4">
+                    <div class="pt-8 pl-4">
+                <a href="https://portalacademico.cch.unam.mx/alumno/quimica1 "><img class="mx-auto" src="../../assets/img/q3-u3-reaccion.webp" /></a>
+                </div>
+                    <div class="col-span-2 text-sm leading-6">
+                        
+                        <p>A los cambios químicos, es decir, los procesos en los que unas sustancias se transforman en otras diferentes, también se les conoce como reacciones químicas.</p>
 
-  <p>La industria minero-metalúrgica es clave en la producción de los metales que usamos a diario, desde el acero en los edificios hasta el cobre en los cables eléctricos y el oro en los dispositivos electrónicos. Aunque parece sencillo, transformar una roca que contiene minerales en un metal puro listo para su uso implica una serie de pasos complejos, muchos de ellos guiados por <i><u>reacciones químicas.</u></i></p>
+                        <p>Para que algunas sustancias se transformen en otra u otras, sus átomos deben separarse, unirse o reorganizarse, y para ello es necesario que se formen o se rompan enlaces químicos, que son las fuerzas que mantienen unidos a los átomos.</p>
+                        
+                        <p>Dos átomos se separan cuando se aplica sobre ellos una fuerza mayor a la que los mantiene unidos. Un átomo se une o enlaza con otro si al hacerlo se libera energía y por lo tanto los dos átomos unidos son más estables que cada uno por separado.</p>
 
-  <p>Cuando los minerales se extraen de las minas, generalmente están mezclados con impurezas y otros elementos no deseados o que no tienen valor comercial. Para obtener el metal puro, se requiere un proceso que lo libere de esas impurezas y lo convierta en un material útil. Aquí es donde participan las <i><u>reacciones químicas.</u></i>, las cuales permiten extraer los elementos valiosos a partir de sus minerales.</p>
+                        <p>En consecuencia, durante las reacciones químicas los átomos o moléculas participantes pierden (liberan) o ganan (absorben) energía.</p>
+                    </div>
+                </div>'
+      ]
+    ],
+  ]) ?>
 
-  <p>Pero, ¿cómo ocurre esta transformación? Dependiendo del mineral, se pueden utilizar diferentes métodos químicos. Algunos metales requieren ser reducidos mediante reacciones con gases como el oxígeno o el carbono, otros son disueltos en soluciones químicas para separarlos de su matriz, y algunos necesitan corrientes eléctricas para completar su purificación.</p>
+    <h2>Rapidez de reacción</h2>
 
-  <p>Un dispositivo tan común como el teléfono celular, que utilizamos diariamente y que se ha convertido en una herramienta indispensable en esta era de la comunicación, requiere de baterías que a su vez están formadas por metales y cuyo propósito es transformar la energía química en eléctrica, lo que hace que funcione adecuadamente un teléfono celular. Pero ¿cómo es qué a partir de una roca, pueda obtenerse un metal y eso haga funcionar tu teléfono celular?</p>
+  <p>La rapidez de reacción se describe como la variación o cambio de la concentración de los reactivos o productos por unidad del tiempo en una reacción química. Dicho de otra forma, es la rapidez con que se consumen los reactivos y se forman los productos durante una reacción química.</p>
 
-  <p>Observa el video sobre los metales que componen los teléfonos celulares:</p>
+  <p>Lo anterior se describe en la siguiente gráfica general.</p>
 
-  <?php
-  renderVideoIframe('zlO_lTMFrds', 'Materiales y metales que contienen los teléfonos celulares');
+   <?php
+  renderImage('q3-u3-grafica.webp', 'Velocidad de una reacción Concentración vs Tiempo de reacción.');
   ?>
 
-  <p>¿Qué te pareció el video? ¿Te imaginabas que tu teléfono celular estuviera conformado por tantos elementos químicos? Ahora se te invita a participar en el  foro de discusión: <i><b>Del mineral al teléfono celular.</b></i> </p>
+  <p>Se debe especificar que antes se conocía este concepto como “velocidad de reacción”, pero actualmente se maneja el término “rapidez de reacción”. Así,  se evita la connotación vectorial de la palabra "velocidad" que implica una dirección. La rapidez de reacción es una magnitud escalar que mide cómo cambia la concentración de los reactivos o productos en un determinado intervalo de tiempo, enfocándose solo en la magnitud del cambio y no en la dirección, lo que la hace más adecuada para describir los procesos químicos.</p>
 
-  <?php ob_start(); ?>
-  <p>A continuación, se les invita a participar en el siguiente foro de discusión.</p>
+  <h2>Teoría de Colisiones</h2>
+
+  <p>La teoría de colisiones es un modelo que explica cómo ocurren las reacciones químicas y por qué la rapidez de reacción varía bajo diferentes condiciones. Propuesta por Max Trautz y William Lewis en la década de 1910, esta teoría establece que para que las moléculas reaccionen, deben colisionar con suficiente energía y una orientación adecuada.</p>
+
+  <p>Para entender este concepto a nivel nanoscópico observa el siguiente video. </p>
+
+  <?php
+  renderVideoIframe('7tGRa0Uo5mY', 'Teoría de Colisiones: Si las moléculas fueran personas…');
+  ?>
+
+   <?php ob_start(); ?>
+  <p>Elabora la actividad Reacciones químicas y la rapidez de reacción para reafirmar tus conocimientos.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t3a1', "Foro de discusión: del mineral al teléfono celular", $ActividadContent);
+  renderActividad('u3t2a1', "Reacciones químicas y la rapidez de reacción", $ActividadContent);
   ?>
-
-<p>En la industria química metalúrgica, se produce una gran cantidad de reacciones en las que participan los metales, pero no todas son iguales. El tipo de metales y de minerales que participan, determina la reacción química que puede llevarse a cabo.  Analizar las reacciones que ocurren determinará el procedimiento químico que puede realizarse para la extracción y refinamiento de los metales. </p>
-
-<p>Observa el siguiente video sobre los tipos de reacciones:</p>
-
-  <?php
-  renderVideoIframe('MLcHCEnBKmo', ' Tipos de reacciones');
-  ?>
-
-  <p>Como observaste en el video, en las reacciones químicas se generan nuevas sustancias (productos) a partir de las sustancias iniciales  (reactivos). En otras palabras, una reacción química es un proceso de transformación de la materia.  Pero, no todas las reacciones son iguales y eso es posible identificar porque la evidencia de algunas reacciones puede ser un cambio de color, la formación de un sólido, la producción de un gas o el desprendimiento o absorción de energía, es decir, cuando se calienta o se enfría, respectivamente, el recipiente donde se está llevando a cabo la racción.</p>
-
-  <p>Por ejemplo, la reacción para la obtención de Ag a partir de AgNO3 y Cu, se representa con la siguiente ecuación química:</p>
-
-  <div class="mx-auto max-w-md">
-    <?php
-      renderImage('q3-u2-simple.webp','Reacción de desplazamiento simple')
-  ?>
-  </div>
-
-  <p>Esta es una reacción de <b>desplazamiento simple</b>, donde un elemento reacciona con un compuesto y toma el lugar de uno de los componentes del compuesto.</p>
-
-  <p>Otro tipo de reacción química es la que se conoce como desplazamiento doble, donde dos compuestos reaccionan intercambiando sus componentes para formar otros compuestos diferentes a los primeros, con propiedades distintas. Ejemplo:</p>
-
-  <div class="mx-auto max-w-md">
-    <?php
-      renderImage('q3-u2-doble.webp','Reacción de desplazamiento doble')
-  ?>
-  </div>
-
 
 </section>
 <?php

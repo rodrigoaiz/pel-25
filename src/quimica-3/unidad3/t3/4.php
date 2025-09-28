@@ -9,17 +9,15 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  
-  <h3>Actividad Cuestionario de autoevaluación final de Unidad 3</h3>
 
-  <?php ob_start(); ?>
+<h3>Cuestionario </h3>
+
+<?php ob_start(); ?>
   <p>Ahora te invitamos a que contestes el siguiente cuestionario, para que puedas constatar todo lo que has aprendido.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t5a10', "Cuestionario de autoevaluación final de Unidad 3", $ActividadContent);
+  renderActividad('u3t3a4', "Cuestionario final de autoevaluación de la unidad 3 Sesión 2", $ActividadContent);
   ?>
-  
-  
 
 
 </section>
