@@ -6,11 +6,11 @@
       "publicado": true,
       "nombre": "Unidad 1",
       "temas": [
-        {"nombre": "Se saluer et prendre congé - Saludar y despedirse ", "url": "/frances-1/unidad1/t1", "paginas": 3},
-        {"nombre": "Presentarse de manera formal e informal - Se présenter formellement et informellement", "url": "/frances-1/unidad1/t2", "paginas": 2},
-        {"nombre": "El alfabeto - L'alphabet", "url": "/frances-1/unidad1/t3", "paginas": 1},
-        {"nombre": "Pronunciación y diptongos - Prononciation et diptongues", "url": "/frances-1/unidad1/t4", "paginas": 2},
-        {"nombre": "Producción oral - Production orale", "url": "/frances-1/unidad1/t5", "paginas": 1}
+        {"nombre": "Se saluer et prendre congé - Saludar y despedirse", "url": "/frances-1/unidad1/t1", "paginas": 2},
+        {"nombre": "Se présenter formellement et informellement - Presentarse de manera formal e informal", "url": "/frances-1/unidad1/t2", "paginas": 1},
+        {"nombre": "L'alphabet - El alfabeto", "url": "/frances-1/unidad1/t3", "paginas": 1},
+        {"nombre": "Prononciation et diptongues - Pronunciación y diptongos", "url": "/frances-1/unidad1/t4", "paginas": 2},
+        {"nombre": "Production orale - Producción oral", "url": "/frances-1/unidad1/t5", "paginas": 2}
       ]
     },
     "Unidad 2": {
@@ -18,12 +18,15 @@
       "publicado": true,
       "nombre": "Unidad 2",
       "temas": [
-        {"nombre": "Mi edad y mi fecha de nacimiento - Mon âge et ma date de naissance", "url": "/frances-1/unidad2/t1", "paginas": 2},
-        {"nombre": "Mi nacionalidad y mis datos - Ma nationalité et mes données", "url": "/frances-1/unidad2/t2", "paginas": 2},
-        {"nombre": "Inscribirme a... - M'inscrire à...", "url": "/frances-1/unidad2/t4", "paginas": 1},
-        {"nombre": "Mi horario y asignatura favorita - Mon emploi du temps et ma matière préférée", "url": "/frances-1/unidad2/t5", "paginas": 2},
-        {"nombre": "¿Qué hora es? y mi rutina - Quelle heure est-il? et ma routine", "url": "/frances-1/unidad2/t6", "paginas": 2},
-        {"nombre": "Producción oral - Production orale", "url": "/frances-1/unidad2/t7", "paginas": 1}
+        {"nombre": "Mon âge et ma date de naissance - Mi edad y mi fecha de nacimiento", "url": "/frances-1/unidad2/t1", "paginas": 3},
+        {"nombre": "Ma nationalité et mes données - Mi nacionalidad y mis datos", "url": "/frances-1/unidad2/t2", "paginas": 2},
+        {"nombre": "Mon numéro de téléphone, mon courriel et mon adresse - Mi número de teléfono, mi email y mi dirección", "url": "/frances-1/unidad2/t3", "paginas": 1},
+        {"nombre": "M'inscrire à... - Inscribirme a...", "url": "/frances-1/unidad2/t4", "paginas": 1},
+        {"nombre": "Mon emploi du temps... - Mi horario", "url": "/frances-1/unidad2/t5", "paginas": 1},
+        {"nombre": "Ma matière préférée est... - Mi materia preferida es...", "url": "/frances-1/unidad2/t6", "paginas": 1},
+        {"nombre": "Quelle heure est-il? - ¿Qué hora es?", "url": "/frances-1/unidad2/t7", "paginas": 2},
+        {"nombre": "Ma routine - Mi rutina", "url": "/frances-1/unidad2/t8", "paginas": 1},
+        {"nombre": "Production orale - Producción oral", "url": "/frances-1/unidad2/t9", "paginas": 1}
       ]
     },
     "Unidad 3": {
@@ -44,26 +47,47 @@
     }
   },
   "actividades": {
-    "u1t1a1": { "id": "5200", "moduleName": "quiz" },
-    "u1t1a2": { "id": "5201", "moduleName": "h5p" },
-    "u1t1a3": { "id": "5202", "moduleName": "h5p" },
-    "u1t1a4": { "id": "5203", "moduleName": "h5p" },
-    "u1t1a5": { "id": "5204", "moduleName": "assign" },
+    "u1t1a1": { "id": "5128", "moduleName": "quiz" },
+    "u1t1a2": { "id": "5201", "moduleName": "hvp" },    
+    "u1t1a3": { "id": "5202", "moduleName": "hvp" },
+    "u1t1a4": { "id": "5203", "moduleName": "hvp" },
+    "u1t1a5": { "id": "5204", "moduleName": "hvp" },
+    "u1t2a6": { "id": "5204", "moduleName": "hvp" },
+    "u1t3a7": { "id": "5204", "moduleName": "hvp" },
+    "u1t4a8": { "id": "5204", "moduleName": "hvp" },
+    "u1t4a9": { "id": "5204", "moduleName": "hvp" },
+    "u1t4a10": { "id": "5204", "moduleName": "hvp" },
+    "u1t5a11": { "id": "5129", "moduleName": "assign" },
+    "u1t5a12": { "id": "5130", "moduleName": "quiz" },
 
     "u2t1a1": { "id": "5205", "moduleName": "quiz" },
-    "u2t1a2": { "id": "5206", "moduleName": "h5p" },
-    "u2t1a3": { "id": "5207", "moduleName": "h5p" },
+    "u2t1a2": { "id": "5206", "moduleName": "hvp" },
+    "u2t1a3": { "id": "5207", "moduleName": "hvp" },
+    "u2t2a4": { "id": "5207", "moduleName": "forum" },
+    "u2t2a5": { "id": "5207", "moduleName": "hvp" },
+    "u2t2a6": { "id": "5207", "moduleName": "hvp" },
+    "u2t2a7": { "id": "5207", "moduleName": "hvp" },
+    "u2t2a8": { "id": "5207", "moduleName": "hvp" },
+    "u2t2a9": { "id": "5207", "moduleName": "hvp" },
+    "u2t2a10": { "id": "5207", "moduleName": "hvp" },
+    "u2t3a11": { "id": "5207", "moduleName": "hvp" },
+    "u2t3a12": { "id": "5207", "moduleName": "forum" },
+    "u2t4a13": { "id": "5207", "moduleName": "hvp" },
+    "u2t4a14": { "id": "5207", "moduleName": "hvp" },
+
+
+    
     "u2t1a4": { "id": "5208", "moduleName": "assign" },
 
     "u3t1a1": { "id": "5209", "moduleName": "quiz" },
-    "u3t1a2": { "id": "5210", "moduleName": "h5p" },
-    "u3t1a3": { "id": "5211", "moduleName": "h5p" },
-    "u3t1a4": { "id": "5212", "moduleName": "h5p" },
+    "u3t1a2": { "id": "5210", "moduleName": "hvp" },
+    "u3t1a3": { "id": "5211", "moduleName": "hvp" },
+    "u3t1a4": { "id": "5212", "moduleName": "hvp" },
     "u3t1a5": { "id": "5213", "moduleName": "assign" },
 
     "u4t1a1": { "id": "5214", "moduleName": "quiz" },
-    "u4t1a2": { "id": "5215", "moduleName": "h5p" },
-    "u4t1a3": { "id": "5216", "moduleName": "h5p" },
+    "u4t1a2": { "id": "5215", "moduleName": "hvp" },
+    "u4t1a3": { "id": "5216", "moduleName": "hvp" },
     "u4t1a4": { "id": "5217", "moduleName": "assign" }
   }
 }

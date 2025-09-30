@@ -15,6 +15,9 @@ function getMenuAsignaturaPath($urlPath)
 
 function renderTemplatePage($menuAsignaturaPath, $content)
 {
+  // Hacer la variable $include_latex disponible en el scope de la función
+  global $include_latex;
+  
   // Incluir header solo cuando se renderiza la página
   include PATH_INCLUDE . 'header1.php';
   
