@@ -72,7 +72,7 @@ ob_start();
   <p> Revisa el siguiente video acerca de la posmodernidad. </p>
 
   <?php
-        renderVideoIframe('_ABo77MhHQrI', 'Los Posmodernos'//VIDEO CON DERECHOS DE AUTOR
+        renderVideoIframe('4hyHCm9s8t4', 'Los Posmodernos'
         );
     ?>
 
