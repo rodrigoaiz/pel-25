@@ -8,6 +8,8 @@ include PATH_INCLUDE . 'Accordion.php';
 include PATH_INCLUDE . 'Tabs.php';
 include PATH_INCLUDE . 'ParaSaber.php';
 include PATH_INCLUDE . 'ImagenFullPleca.php';
+include PATH_INCLUDE . 'ToolTip.php';
+
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -15,7 +17,7 @@ ob_start();
 <section>
   <h2>🎓 Bienvenidos al ejemplo, este es el título 1</h2>
   <h3>📝 Y un subtítulo si es necesario</h3>
-  <p>A finales del s. XIX, la parte occidental del planeta veneraba el progreso. Estaban convencidos de que estos avances se habían producido gracias a la llamada Segunda Revolución Industrial. La primera había traído los textiles, ferrocarriles, hierro y carbón. En la segunda, el acero, compuestos químicos, electricidad y petróleo que abrieron el camino rumbo a nuevas fronteras industriales.</p>
+  <p>A finales del s. XIX, la parte occidental del planeta veneraba el progreso. Estaban convencidos de que estos avances se habían producido gracias a la llamada Segunda Revolución Industrial. La primera había traído los textiles, ferrocarriles, hierro y carbón. En la segunda, el acero, compuestos químicos, electricidad y petróleo que abrieron el camino rumbo a nuevas fronteras <?php renderTooltip('industriales', 'Proceso mediante el cual las plantas convierten la luz solar en energía química.', 'bottom'); ?>.</p>
   <?php
   renderVideoIframe('JmlS2Zf8-is', 'Este es el primer video de la asignatura');
   ?>

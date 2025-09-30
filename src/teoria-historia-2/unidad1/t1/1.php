@@ -21,7 +21,7 @@ ob_start();
 </p>
 
 
-<?php renderVideoIframe ('fg', 'Bienvenido a la unidad 1'); //VIDEO DE YOUTUBE FALLIDO ?>
+<?php renderVideoIframe ('fg', 'Bienvenido a la unidad 1'); //VIDEO DE YOUTUBE FALLIDO?>
 
 
 <p> A continuación y antes de iniciar el estudio de esta primera unidad, te solicitamos que contestes el siguiente cuestionario inicial. 
@@ -36,8 +36,9 @@ ob_start();
 
 <h3>Instrucciones: </h3> 
 <p> Lee con atención la información que te brindamos a continuación. Te permitirá ubicar el ambiente que rodea al surgimiento de las 
-  corrientes que te presentamos. Cuando veas una palabra resaltada en <span style="color: #FF0000;">color rojo</span>, dale clic para 
-  obtener más información sobre ella. Esperamos que este primer recorrido sea tan interesante para ti como lo fue para nosotros. </p>
+  corrientes que te presentamos. Cuando veas una palabra resaltada en <b> <span style="color: #319494;">color turquesa</span> </b>,
+  dale clic para obtener más información sobre ella. Esperamos que este primer recorrido sea tan interesante para ti como lo fue para 
+  nosotros.</p>
 
 </section>
 
