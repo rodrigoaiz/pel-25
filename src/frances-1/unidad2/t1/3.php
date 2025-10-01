@@ -15,12 +15,21 @@ ob_start();
     <h3>Mi fecha de nacimiento</h3>
     <p>La forma para plantear la pregunta de fecha de nacimiento es la siguiente:</p>
     <p class="italic text-fuchsia-900 text-center text-xl">Quel est ta date de naissance?</p>
-    <p>Existen tres formas para responder.</p>
-    <ul class="list-disc">
-        <li>Se puede utilizar la fórmula <span class="italic text-fuchsia-900 font-bold">"Ma date de naissance est..."</span>, como lo hace Chloé.</li>
-        <li>También se puede decir como lo hace Max que utiliza la contracción <span class="italic text-fuchsia-900 font-bold">c'est.</span></li>
-        <li>La otra forma es contestar: <span class="italic text-fuchsia-900 font-bold">je suis né...</span> (genero másculino) o <span class="italic text-fuchsia-900 font-bold">je suis née...</span> (género femenino). Esta respuesta quiere decir: "yo nací...".</li>
-    </ul>
+    <div class="flex">
+        <div class="w-1/3 mx-auto">
+            <?php
+            renderImage('fr1u2a1-img01.webp');
+            ?>
+        </div>
+        <div class="w-2/3 mx-auto">
+            <p>Existen tres formas para responder.</p>
+            <ul class="list-disc">
+                <li>Se puede utilizar la fórmula <span class="italic text-fuchsia-900 font-bold">"Ma date de naissance est..."</span>, como lo hace Chloé.</li>
+                <li>También se puede decir como lo hace Max que utiliza la contracción <span class="italic text-fuchsia-900 font-bold">c'est.</span></li>
+                <li>La otra forma es contestar: <span class="italic text-fuchsia-900 font-bold">je suis né...</span> (genero másculino) o <span class="italic text-fuchsia-900 font-bold">je suis née...</span> (género femenino). Esta respuesta quiere decir: "yo nací...".</li>
+            </ul>
+        </div>
+    </div>
     <p class="mt-8">Después, utilizamos el artículo definido "le" y decimos la fecha en el siguiente orden: día <span class="italic text-fuchsia-900 font-bold">(jour)</span>, mes <span class="italic text-fuchsia-900 font-bold">(moi)</span>, año <span class="italic text-fuchsia-900 font-bold">(année)</span>.</p>
     <div class="border-y-2 border-dashed border-purple-300 bg-purple-300/10 p-2 text-center mt-8">
         ¡Importante! Démonos cuenta que el orden para decir la fecha de nacimiento es el mismo que en español (dia, mes y año de nacimiento). La única diferencia es que en francés no se pone la preposición "de" entre los datos de la fecha. </div>

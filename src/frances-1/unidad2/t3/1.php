@@ -4,6 +4,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -31,8 +32,14 @@ ob_start();
     <table class="table-auto w-full">
         <thead class="bg-sky-900">
             <tr>
-                <th class="p-2 border text-white text-center font-bold">Manière Formelle</th>
-                <th class="p-2 border text-white text-center font-bold">Manière Informelle</th>
+                <th class="p-2 border text-white text-center font-bold">
+                    <?php
+                    renderImage('fr1u2a1-img03.webp');
+                    ?>Manière Formelle</th>
+                <th class="p-2 border text-white text-center font-bold">
+                    <?php
+                    renderImage('fr1u2a1-img04.webp');
+                    ?>Manière Informelle</th>
             </tr>
         </thead>
         <tbody class="bg-sky-100">
