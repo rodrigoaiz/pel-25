@@ -34,15 +34,8 @@
       "publicado": true,
       "nombre": "Unidad 3",
       "temas": [
-        {"nombre": "Presentar a alguien: Je te présente - La familia y los pasatiempos", "url": "/frances-1/unidad3/t1", "paginas": 6}
-      ]
-    },
-    "Unidad 4": {
-      "url": "/frances-1/unidad4/t1/1.php",
-      "publicado": true,
-      "nombre": "Unidad 4",
-      "temas": [
-        {"nombre": "Rutinas y actividades cotidianas", "url": "/frances-1/unidad4/t1", "paginas": 4}
+        {"nombre": "Presentar a alguien: Je te présente - La familia y los pasatiempos", "url": "/frances-1/unidad3/t1", "paginas": 2},
+        {"nombre": "Les professions et les métiers - Las profesiones y ocupaciones", "url": "/frances-1/unidad3/t2", "paginas": 2}
       ]
     }
   },
@@ -77,10 +70,15 @@
     "u2t8a24": { "id": "5207", "moduleName": "hvp" },
     "u2t9a25": { "id": "5207", "moduleName": "assign" },
     "u2t9a26": { "id": "5207", "moduleName": "quiz" },
-
-
     
-    "u2t1a4": { "id": "5208", "moduleName": "assign" },
+    "u3t1a1": { "id": "5208", "moduleName": "quiz" },
+    "u3t1a2": { "id": "5208", "moduleName": "hvp" },
+    "u3t1a3": { "id": "5208", "moduleName": "hvp" },
+    "u3t1a4": { "id": "5208", "moduleName": "hvp" },
+
+
+
+
 
     "u3t1a1": { "id": "5209", "moduleName": "quiz" },
     "u3t1a2": { "id": "5210", "moduleName": "hvp" },
