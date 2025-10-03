@@ -35,7 +35,10 @@
       "nombre": "Unidad 3",
       "temas": [
         {"nombre": "Presentar a alguien: Je te présente - La familia y los pasatiempos", "url": "/frances-1/unidad3/t1", "paginas": 2},
-        {"nombre": "Les professions et les métiers - Las profesiones y ocupaciones", "url": "/frances-1/unidad3/t2", "paginas": 2}
+        {"nombre": "Les professions et les métiers - Las profesiones y ocupaciones", "url": "/frances-1/unidad3/t2", "paginas": 2},
+        {"nombre": "Les préférences et les loisirs - Los gustos y los pasatiempos", "url": "/frances-1/unidad3/t3", "paginas": 2},
+        {"nombre": "Parle-moi sur ta famille - Preguntar y responder preguntas sobre las actividades de la familia", "url": "/frances-1/unidad3/t4", "paginas": 1},
+        {"nombre": "Présenter un membre de la famille - Producción escrita/oral: presentar a un miembro de mi familia", "url": "/frances-1/unidad3/t5", "paginas": 1}
       ]
     }
   },
@@ -75,6 +78,8 @@
     "u3t1a2": { "id": "5208", "moduleName": "hvp" },
     "u3t1a3": { "id": "5208", "moduleName": "hvp" },
     "u3t1a4": { "id": "5208", "moduleName": "hvp" },
+    "u3t2a5": { "id": "5208", "moduleName": "hvp" },
+    "u3t3a6": { "id": "5208", "moduleName": "hvp" },
 
 
 

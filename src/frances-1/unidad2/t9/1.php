@@ -10,7 +10,7 @@ ob_start();
 ?>
 <section>
     <h2>Production orale</h2>
-    <h3>EProducción oral</h3>
+    <h3>Producción oral</h3>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Graba un breve audio en el que hables de tu rutina escolar. Presenta brevemente lo siguiente:

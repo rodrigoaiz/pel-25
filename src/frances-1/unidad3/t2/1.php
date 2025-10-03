@@ -2,233 +2,419 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'Tabs.php';
-include PATH_INCLUDE . 'ActividadH5P.php';
-include PATH_INCLUDE . 'Videos.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>La famille</h2>
-    <h3>Mi familia</h3>
-    <p>Cuando nos estamos presentando, así como cuando hablamos de forma cotidiana con las personas, resulta interesante poder hablar sobre nuestra familia. Para ello es necesario el poder saber cómo se llaman los familiares en francés. Aquí te presentamos un breve vocabulario sobre la familia:</p>
-    <p class="font-bold text-center bg-fuchsia-500 text-white p-1">La famille de la princesse Caroline de Monaco</p>
-    <div class="flex">
-        <div class="w-full">
+    <h2>Les professions et les métiers</h2>
+    <h3>Las profesiones y ocupaciones</h3>
+    <p>Muchas veces, al hablar de la familia (o de nosotros mismos) tenemos que indicar a que nos dedicamos en la vida, que estudiamos o en que trabajamos. A continuación te presentamos un vocabulario con algunas profesiones u oficios.</p>
+    <div class="grid grid-cols-3 md:grid-cols-6 gap-2">
+        <div class="bg-violet-500/30 px-6">
             <?php
-            renderImage('u3t1img1-femille-caroline-monaco.webp');
+            renderImage('f1u2t1p3img1.webp');
             ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un travailleur / Une travailleuse</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) cordonnier (-ère)</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) docteur/Un médecin</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Une star / Une vedette</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) étudiant / Une étudiante</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) avocat(e)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) coiffeur (-euse)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) élève</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) boulanger (-ère)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) chanteur (-euse)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) maçon (-ne)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) réalisateur (-trice)</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) dentiste</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) mécanicien (-ne)</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) facteur (-trice)</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) électricien (-ne)</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) secrétaire</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un homme d'affaires / Une femme d'affaires</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) PDG (Président(e)- directeur (-trice) général(e))</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) dessinateur (-trice)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) couturier (-ère)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) jardinier (-ère)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) musicien (-ne)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) pharmacien (-ne)</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un homme de ménage / Une femme de ménage</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un sportif / Une sportive</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un plombier</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) peintre</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) chômeur (-euse)</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) animateur (-trice) (de télévision / de radio)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) professeur(e)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) vétérinaire</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un homme au foyer / Une femme au foyer</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) informaticien (-ne)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) chef (-fe) / Un(e) patron (-ne)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un infirmier (-ère)</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) acteur (-trice)</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) comptable</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un entraîneur (-euse) / Un coach</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) serveur (-euse)</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) vendeur (-euse)</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) journaliste</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) serrurier (-ère)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) traducteur (-trice)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) employé(e)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) danseur (-euse)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) chimiste</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) architecte</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) commerçant(e)</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) ingénieur(e)</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) administrateur (-trice)</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) retraité(e)</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) opticien (-ne)</p>
+        </div>
+        <div class="bg-violet-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-violet-700 text-center leading-none text-sm">Un(e) écrivain(e)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) caissier (-ère)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) bibliothécaire</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) chauffeur (-euse) (de taxi /de bus / de train)</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) stagiaire</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) graphiste</p>
+        </div>
+        <div class="bg-yellow-500/30 px-6">
+            <?php
+            renderImage('f1u2t1p3img1.webp');
+            ?>
+            <p class="text-yellow-700 text-center leading-none text-sm">Un(e) policier (-ère)</p>
         </div>
     </div>
-    <p class="mt-10">Para practicar la pronunciación y conocer otras expresiones relacionadas a la familia puedes ver el siguiente video:</p>
-    <div class="max-w-xl mx-auto bg-fuchsia-500/40 p-4">
-        <?php
-        renderVideoIframe('njpq5Dooz3E', 'Parler de la famille en français. Niveau A1 de FLE - Delf A1');
-        ?>
-    </div>
-    <p class="mt-10">Otros miembros importantes de la familia son las mascotas. En seguida te presentamos un pequeño vocabulario de los animales domésticos más comunes:</p>
-    <p class="font-bold text-center bg-lime-600 text-white p-1">Les animaux de compagnie (un animal de compañía = una mascota)</p>
+    <p>Los verbos que te pueden servir para indicar una profesión o un oficio son:</p>
+    <ul class="list-disc md:ml-32 mb-8">
+        <li><span class="text-rose-700 font-bold">Être -></span> Je suis avocate.</li>
+        <li><span class="text-indigo-800 font-bold">Faire -></span> Il fait médecin.</li>
+        <li><span class="text-rose-700 font-bold">Travailler -></span> Nous travaillons en tant que vendeurs.</li>
+    </ul>
 
-    <div class="grid grid-cols-5 gap-2">
-        <div class="bg-lime-500/30 px-6">
-            <?php
-            renderImage('f1u2t1p3img1.webp');
-            ?>
-            <p class="text-lime-700 text-center leading-none">Un chien</p>
+    <div class=" flex justify-center gap-4">
+        <div class="w-1/3 md:2/3 bg-rose-500/30 px-6 shadow-xl">
+            <p class="font-bold text-rose-700 text-xl mb-2">Être</p>
+            <ul class="list-none">
+                <li class="text-rose-700">Je suis</li>
+                <li class="text-rose-700">Tu es</li>
+                <li class="text-rose-700">Il, elle, on est</li>
+                <li class="text-rose-700">Nous sommes</li>
+                <li class="text-rose-700">Vous êtes</li>
+                <li class="text-rose-700">Ils, elles sont</li>
+            </ul>
         </div>
-        <div class="bg-lime-500/30 px-6">
-            <?php
-            renderImage('f1u2t1p3img1.webp');
-            ?>
-            <p class="text-lime-700 text-center leading-none">Un chat</p>
+        <div class="w-1/3 md:2/3 bg-indigo-500/30 px-6 shadow-xl">
+            <p class="font-bold text-indigo-800 text-xl mb-2">Faire</p>
+            <ul class="list-none">
+                <li class="text-indigo-800">Je fais</li>
+                <li class="text-indigo-800">Tu fais</li>
+                <li class="text-indigo-800">Il, elle, on fait</li>
+                <li class="text-indigo-800">Nous faisons</li>
+                <li class="text-indigo-800">Vous faites</li>
+                <li class="text-indigo-800">Ils, elles font</li>
+            </ul>
         </div>
-        <div class="bg-lime-500/30 px-6">
-            <?php
-            renderImage('f1u2t1p3img1.webp');
-            ?>
-            <p class="text-lime-700 text-center leading-none">Un hamster</p>
-        </div>
-        <div class="bg-lime-500/30 px-6">
-            <?php
-            renderImage('f1u2t1p3img1.webp');
-            ?>
-            <p class="text-lime-700 text-center leading-none">Un perroquet</p>
-        </div>
-        <div class="bg-lime-500/30 px-6">
-            <?php
-            renderImage('f1u2t1p3img1.webp');
-            ?>
-            <p class="text-lime-700 text-center leading-none">Un lapin</p>
-        </div>
-        <div class="bg-teal-500/30 px-6">
-            <?php
-            renderImage('f1u2t1p3img1.webp');
-            ?>
-            <p class="text-teal-700 text-center leading-none">Un poisson rouge</p>
-        </div>
-        <div class="bg-teal-500/30 px-6">
-            <?php
-            renderImage('f1u2t1p3img1.webp');
-            ?>
-            <p class="text-teal-700 text-center leading-none">Un oiseau</p>
-        </div>
-        <div class="bg-teal-500/30 px-6">
-            <?php
-            renderImage('f1u2t1p3img1.webp');
-            ?>
-            <p class="text-teal-700 text-center leading-none">Un cochon d’Inde / Une cobaye</p>
-        </div>
-        <div class="bg-teal-500/30 px-6">
-            <?php
-            renderImage('f1u2t1p3img1.webp');
-            ?>
-            <p class="text-teal-700 text-center leading-none">Un furet</p>
-        </div>
-        <div class="bg-teal-500/30 px-6">
-            <?php
-            renderImage('f1u2t1p3img1.webp');
-            ?>
-            <p class="text-teal-700 text-center leading-none">Une tortue</p>
+        <div class="w-1/3 md:2/3 bg-rose-500/30 px-6 shadow-xl">
+            <p class="font-bold text-rose-700 text-xl mb-2">Travailler</p>
+            <ul class="list-none">
+                <li class="text-rose-700">Je travaille</li>
+                <li class="text-rose-700">Tu travailles</li>
+                <li class="text-rose-700">Il, elle, on travaille</li>
+                <li class="text-rose-700">Nous travaillons</li>
+                <li class="text-rose-700">Vous travaillez</li>
+                <li class="text-rose-700">Ils, elles travaillent</li>
+            </ul>
         </div>
     </div>
-    <p class="mt-10">Práctica lo visto resolviendo el siguiente reto.</p>
-    <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
-        <li>Fais glisser les mots pour compléter les phrases du vocabulaire sur la famille / Arrastra las palabras para completar las frases del vocabulario de la familia.</li>
-    </ol>
-    <?php ob_start(); ?>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t1a2', "Vocabulaire de la famille", $ActividadContent);
-    ?>
-    <p class="mt-10">Continúa practicando con la siguiente actividad.</p>
-    <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
-        <li>Fais glisser les mots pour compléter les phrases du vocabulaire sur la famille / Arrastra las palabras para completar las frases del vocabulario de la familia.</li>
-    </ol>
-    <?php ob_start(); ?>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t1a3', "La famille", $ActividadContent);
-    ?>
-    <p class="mt-10 text-2xl text-teal-600">Los adjetivos posesivos</p>
-
-    <p>Ahora, para poder hablar de un miembro de nuestra familia, tenemos también que conocer los adjetivos posesivos, es decir, esas palabras que indican a quien pertenece alguna cosa o con quien está relacionada alguna persona.</p>
-    <p>En español, la elección del posesivo depende de dos cosas, la primera es quien es el poseedor (si la cosa me pertenece a mí, digo "mi", si te pertenece a ti, digo "tu", si le pertenece a él, digo "su"). La segunda cosa que tengo que tener en cuenta para elegir el posesivo correcto es el género y número de la cosa poseída (si hablo de algo que nos pertenece a nosotros puedo decir "nuestro", "nuestra", "nuestros" o "nuestras" dependiendo de si el objeto del que hablo es femenino, masculino, singular o plural).</p>
-    <p>Cuando hablamos en francés, tienes que tener en cuenta esas dos cosas (quien posee y el género y número del objeto poseído) tal y como lo haces en español.</p>
-    <p>A continuación, te presentamos una tabla con los adjetivos posesivos:</p>
-
-    <table class="table-auto w-full border-collapse">
-        <thead class="bg-purple-300/50">
-            <tr>
-                <th class="p-2 border align-middle text-purple-700 font-bold text-center">Personne</th>
-                <th class="p-2 border align-middle text-purple-700 font-bold text-center">Masculin/Féminin singulier (voyelle)</th>
-                <th class="p-2 border align-middle text-purple-700 font-bold text-center">Féminin singulier (consonne)</th>
-                <th class="p-2 border align-middle text-purple-700 font-bold text-center">Pluriel</th>
-            </tr>
-        </thead>
-        <tbody class="bg-purple-300/30">
-            <tr>
-                <td class="px-3 py-2 border align-middle text-purple-700 font-semibold">Je</td>
-                <td class="px-3 py-2 border align-middle text-purple-700">
-                    <strong>mon</strong><br>
-                    <span class="text-sm">mon père<br>mon enfant</span>
-                </td>
-                <td class="px-3 py-2 border align-middle text-purple-700">
-                    <strong>ma</strong><br>
-                    <span class="text-sm">ma mère</span>
-                </td>
-                <td class="px-3 py-2 border align-middle text-purple-700">
-                    <strong>mes</strong><br>
-                    <span class="text-sm">mes frères<br>mes enfants<br>mes sœurs</span>
-                </td>
-            </tr>
-            <tr>
-                <td class="px-3 py-2 border align-middle text-purple-700 font-semibold">Tu</td>
-                <td class="px-3 py-2 border align-middle text-purple-700">
-                    <strong>ton</strong><br>
-                    <span class="text-sm">ton père<br>ton enfant</span>
-                </td>
-                <td class="px-3 py-2 border align-middle text-purple-700">
-                    <strong>ta</strong><br>
-                    <span class="text-sm">ta mère</span>
-                </td>
-                <td class="px-3 py-2 border align-middle text-purple-700">
-                    <strong>tes</strong><br>
-                    <span class="text-sm">tes frères<br>tes enfants<br>tes sœurs</span>
-                </td>
-            </tr>
-            <tr>
-                <td class="px-3 py-2 border align-middle text-purple-700 font-semibold">Il / Elle</td>
-                <td class="px-3 py-2 border align-middle text-purple-700">
-                    <strong>son</strong><br>
-                    <span class="text-sm">son père<br>son enfant</span>
-                </td>
-                <td class="px-3 py-2 border align-middle text-purple-700">
-                    <strong>sa</strong><br>
-                    <span class="text-sm">sa mère</span>
-                </td>
-                <td class="px-3 py-2 border align-middle text-purple-700">
-                    <strong>ses</strong><br>
-                    <span class="text-sm">ses frères<br>ses enfants<br>ses sœurs</span>
-                </td>
-            </tr>
-            <tr>
-                <td class="px-3 py-2 border align-middle text-purple-700 font-semibold">Nous</td>
-                <td colspan="2" class="px-3 py-2 border align-middle text-purple-700">
-                    <strong>notre</strong><br>
-                    <span class="text-sm">notre père<br>notre enfant<br>notre mère</span>
-                </td>
-                <td class="px-3 py-2 border align-middle text-purple-700">
-                    <strong>nos</strong><br>
-                    <span class="text-sm">nos frères<br>nos enfants<br>nos sœurs</span>
-                </td>
-            </tr>
-            <tr>
-                <td class="px-3 py-2 border align-middle text-purple-700 font-semibold">Vous</td>
-                <td colspan="2" class="px-3 py-2 border align-middle text-purple-700">
-                    <strong>votre</strong><br>
-                    <span class="text-sm">votre père<br>votre enfant<br>votre mère</span>
-                </td>
-                <td class="px-3 py-2 border align-middle text-purple-700">
-                    <strong>vos</strong><br>
-                    <span class="text-sm">vos frères<br>vos enfants<br>vos sœurs</span>
-                </td>
-            </tr>
-            <tr>
-                <td class="px-3 py-2 border align-middle text-purple-700 font-semibold">Ils / Elles</td>
-                <td colspan="2" class="px-3 py-2 border align-middle text-purple-700">
-                    <strong>leur</strong><br>
-                    <span class="text-sm">leur père<br>leur enfant<br>leur mère</span>
-                </td>
-                <td class="px-3 py-2 border align-middle text-purple-700">
-                    <strong>leurs</strong><br>
-                    <span class="text-sm">leurs frères<br>leurs enfants<br>leurs sœurs</span>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
-    <div class="bg-purple-100/50 p-4 my-4 rounded-lg">
-        <p class="font-semibold text-purple-800 mb-2">📝 Regla importante:</p>
-        <p class="text-purple-700">Para <strong>nous</strong>, <strong>vous</strong> e <strong>ils/elles</strong>, la forma es la misma tanto para masculino como para femenino:</p>
-        <ul class="list-disc list-inside mt-2 text-purple-700">
-            <li><strong>notre/votre/leur</strong> → para singular (masculino y femenino)</li>
-            <li><strong>nos/vos/leurs</strong> → para plural</li>
-        </ul>
-    </div>
-    <p class="mt-10">Ahora practiquemos los adjetivos posesivos.</p>
-    <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
-        <li>Remplis avec les adjectifs possessifs. Attention à l'orthographe, aux majuscules et minuscules et aux accents / Completa con los adjetivos posesivos. Ten cuidado con la ortografía, las mayúsculas y minúsculas, y los acentos.</li>
-    </ol>
-    <?php ob_start(); ?>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t1a4', "Les adjectifs possessifs", $ActividadContent);
-    ?>
 </section>
 
 <?php
