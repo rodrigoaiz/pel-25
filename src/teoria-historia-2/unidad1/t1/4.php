@@ -8,6 +8,7 @@ include PATH_INCLUDE . 'Accordion.php';
 include PATH_INCLUDE . 'Tabs.php';
 include PATH_INCLUDE . 'ParaSaber.php';
 include PATH_INCLUDE . 'ImagenFullPleca.php';
+include PATH_INCLUDE . 'ToolTip.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -31,9 +32,13 @@ ob_start();
 <p>
     El desarrollo de la producción fabril, necesariamente, contribuyó al desarrollo de los sistemas de comunicación: los caminos rurales 
     se modernizan, se desarrollan nuevos transportes, tal como el ferrocarril y los barcos de vapor. Estos medios de transporte ofrecen 
-    una imagen de poder, de modernidad, de rapidez, misma que se interpreta como <span style="color: #FF0000;">progreso</span>, que pasa 
-    de significar <b> ir hacia adelante </b> hasta el siglo XVI a identificarse con el desarrollo científico y tecnológico para el 
-    mejoramiento de la vida humana individual y de la sociedad.
+    una imagen de poder, de modernidad, de rapidez, misma que se interpreta como 
+    <?php renderTooltip('progreso','La idea de progreso implica que el desarrollo tanto natural como social tiene un sentido y éste 
+    siempre implica un sentido ascendente, de mejora continua. Esta idea se presenta tanto en la ciencia, como es el caso de la teoría 
+    de la evolución y en las ciencias sociales. En el caso de la historia, ésta tiene un sentido y un fin que es cognoscible 
+    racionalmente de ir hacia mejor.'); ?>, 
+    que pasa de significar <b> ir hacia adelante </b> hasta el siglo XVI a identificarse con el desarrollo científico y tecnológico para 
+    el mejoramiento de la vida humana individual y de la sociedad.
 </p>
 
 <p>
