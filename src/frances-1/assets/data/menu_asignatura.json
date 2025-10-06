@@ -38,7 +38,12 @@
         {"nombre": "Les professions et les métiers - Las profesiones y ocupaciones", "url": "/frances-1/unidad3/t2", "paginas": 2},
         {"nombre": "Les préférences et les loisirs - Los gustos y los pasatiempos", "url": "/frances-1/unidad3/t3", "paginas": 2},
         {"nombre": "Parle-moi sur ta famille - Preguntar y responder preguntas sobre las actividades de la familia", "url": "/frances-1/unidad3/t4", "paginas": 1},
-        {"nombre": "Présenter un membre de la famille - Producción escrita/oral: presentar a un miembro de mi familia", "url": "/frances-1/unidad3/t5", "paginas": 1}
+        {"nombre": "Présenter un membre de la famille - Producción escrita/oral: presentar a un miembro de mi familia", "url": "/frances-1/unidad3/t5", "paginas": 1},
+        {"nombre": "Je te présente... - Te presento a...", "url": "/frances-1/unidad3/t6", "paginas": 1},
+        {"nombre": "Description Physique - La descripción física", "url": "/frances-1/unidad3/t7", "paginas": 2},
+        {"nombre": "Les habits - La descripción de la ropa", "url": "/frances-1/unidad3/t8", "paginas": 2},
+        {"nombre": "La personnalité - La personalidad", "url": "/frances-1/unidad3/t9", "paginas": 2},
+        {"nombre": "Examen final de Français I - Examen final de Francés I", "url": "/frances-1/unidad3/t10", "paginas": 1}
       ]
     }
   },
@@ -80,6 +85,11 @@
     "u3t1a4": { "id": "5208", "moduleName": "hvp" },
     "u3t2a5": { "id": "5208", "moduleName": "hvp" },
     "u3t3a6": { "id": "5208", "moduleName": "hvp" },
+    "u3t4a7": { "id": "5208", "moduleName": "hvp" },
+    "u3t4a8": { "id": "5208", "moduleName": "hvp" },
+    "u3t4a9": { "id": "5208", "moduleName": "hvp" },
+    "u3t5a10": { "id": "5208", "moduleName": "hvp" },
+    "u3t5a11": { "id": "5208", "moduleName": "forum" },
 
 
 

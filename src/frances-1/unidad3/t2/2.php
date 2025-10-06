@@ -2,7 +2,6 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadH5P.php';
-include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ParaSaber.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
