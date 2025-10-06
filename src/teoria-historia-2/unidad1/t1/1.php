@@ -14,6 +14,10 @@ ob_start();
 ?>
 
 <section>
+<h4> Unidad 1. Interpretaciones de la historia en el siglo XIX </h4>
+
+<h2> Presentación de la Unidad 1 </h2>
+
   <p> ¡Bienvenidos! Iniciamos este curso revisando algunas de las concepciones que sobre la historia se generaron en el siglo XIX. 
     Es importante que tomes en cuenta que es a partir de este siglo cuando se inician las reflexiones teóricas contemporáneas 
     sobre nuestra disciplina y también cuando aparece la profesionalización de quienes estudian, investigan y enseñan la historia.
