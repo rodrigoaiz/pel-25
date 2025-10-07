@@ -1,7 +1,8 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -10,18 +11,27 @@ ob_start();
 <section>
     <h2>Nationalité</h2>
     <h3>Nacionalidad</h3>
-    <p>Para practicar lo antes visto, vamos a hacer las siguientes actividades.</p>
+    <div class="flex gap-6">
+        <div class="w-1/4">
+            <?php
+            renderImage('fr1u2a1-img02.webp');
+            ?>
+        </div>
+        <div class="w-3/4">
+            <p>Para practicar lo antes visto, vamos a hacer las siguientes actividades.</p>
+            <?php ob_start(); ?>
+            <p>Écris la terminaison correcte / Escribe el final correcto.</p>
+            <?php
+            $ActividadContent = ob_get_clean();
+            renderActividadH5P('u2t2a9', "Nationalité", $ActividadContent);
+            ?>
+        </div>
+    </div>
     <?php ob_start(); ?>
-    <p>Écris la terminaison correcte / Escribe el final correcto.</p>
+    <p>Complète ce formulaire avec l'information correcte / Complete este formulario con la información correcta.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t2a9', "Nationalité", $ActividadContent);
-    ?>
-    <?php ob_start(); ?>
-    <p>Complète ce formulaire avec l’information correcte / Complete este formulario con la información correcta.</p>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividad('u2t2a10', "Détails du passeport", $ActividadContent);
+    renderActividadH5P('u2t2a10', "Détails du passeport", $ActividadContent);
     ?>
     <p class="text-xl font-bold text-teal-600 mt-14">Para ir más lejos – Los idiomas</p>
     <p>Las <span class="underline decoration-pink-500/60 decoration-4 underline-offset-4">nacionalidades</span> (en másculino y singular) también te van a servir para decir los <span class="underline decoration-pink-500/60 decoration-4 underline-offset-4">idiomas</span>.</p>

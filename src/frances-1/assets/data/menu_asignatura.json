@@ -34,29 +34,21 @@
       "publicado": true,
       "nombre": "Unidad 3",
       "temas": [
-        {"nombre": "Presentar a alguien: Je te présente - La familia y los pasatiempos", "url": "/frances-1/unidad3/t1", "paginas": 6}
-      ]
-    },
-    "Unidad 4": {
-      "url": "/frances-1/unidad4/t1/1.php",
-      "publicado": true,
-      "nombre": "Unidad 4",
-      "temas": [
-        {"nombre": "Rutinas y actividades cotidianas", "url": "/frances-1/unidad4/t1", "paginas": 4}
+        {"nombre": "Presentar a alguien: Je te présente - La familia y los pasatiempos", "url": "/frances-1/unidad3/t1", "paginas": 2},
+        {"nombre": "Les professions et les métiers - Las profesiones y ocupaciones", "url": "/frances-1/unidad3/t2", "paginas": 2},
+        {"nombre": "Les préférences et les loisirs - Los gustos y los pasatiempos", "url": "/frances-1/unidad3/t3", "paginas": 2},
+        {"nombre": "Parle-moi sur ta famille - Preguntar y responder preguntas sobre las actividades de la familia", "url": "/frances-1/unidad3/t4", "paginas": 1},
+        {"nombre": "Présenter un membre de la famille - Producción escrita/oral: presentar a un miembro de mi familia", "url": "/frances-1/unidad3/t5", "paginas": 1},
+        {"nombre": "Je te présente... - Te presento a...", "url": "/frances-1/unidad3/t6", "paginas": 1},
+        {"nombre": "Description Physique - La descripción física", "url": "/frances-1/unidad3/t7", "paginas": 2},
+        {"nombre": "Les habits - La descripción de la ropa", "url": "/frances-1/unidad3/t8", "paginas": 2},
+        {"nombre": "La personnalité - La personalidad", "url": "/frances-1/unidad3/t9", "paginas": 2},
+        {"nombre": "Examen final de Français I - Examen final de Francés I", "url": "/frances-1/unidad3/t10", "paginas": 1}
       ]
     }
   },
   "actividades": {
     "u1t1a1": { "id": "5128", "moduleName": "quiz" },
-    "u1t1a2": { "id": "5201", "moduleName": "hvp" },    
-    "u1t1a3": { "id": "5202", "moduleName": "hvp" },
-    "u1t1a4": { "id": "5203", "moduleName": "hvp" },
-    "u1t1a5": { "id": "5204", "moduleName": "hvp" },
-    "u1t2a6": { "id": "5204", "moduleName": "hvp" },
-    "u1t3a7": { "id": "5204", "moduleName": "hvp" },
-    "u1t4a8": { "id": "5204", "moduleName": "hvp" },
-    "u1t4a9": { "id": "5204", "moduleName": "hvp" },
-    "u1t4a10": { "id": "5204", "moduleName": "hvp" },
     "u1t5a11": { "id": "5129", "moduleName": "assign" },
     "u1t5a12": { "id": "5130", "moduleName": "quiz" },
 
@@ -74,20 +66,31 @@
     "u2t3a12": { "id": "5207", "moduleName": "forum" },
     "u2t4a13": { "id": "5207", "moduleName": "hvp" },
     "u2t4a14": { "id": "5207", "moduleName": "hvp" },
-
-
+    "u2t5a15": { "id": "5207", "moduleName": "hvp" },
+    "u2t5a16": { "id": "5207", "moduleName": "hvp" },
+    "u2t5a17": { "id": "5207", "moduleName": "hvp" },
+    "u2t5a18": { "id": "5207", "moduleName": "hvp" },
+    "u2t5a19": { "id": "5207", "moduleName": "hvp" },
+    "u2t6a20": { "id": "5207", "moduleName": "hvp" },
+    "u2t6a21": { "id": "5207", "moduleName": "hvp" },
+    "u2t6a22": { "id": "5207", "moduleName": "hvp" },
+    "u2t7a23": { "id": "5207", "moduleName": "hvp" },
+    "u2t8a24": { "id": "5207", "moduleName": "hvp" },
+    "u2t9a25": { "id": "5207", "moduleName": "assign" },
+    "u2t9a26": { "id": "5207", "moduleName": "quiz" },
     
-    "u2t1a4": { "id": "5208", "moduleName": "assign" },
+    "u3t1a1": { "id": "5208", "moduleName": "quiz" },
+    "u3t1a2": { "id": "5208", "moduleName": "hvp" },
+    "u3t1a3": { "id": "5208", "moduleName": "hvp" },
+    "u3t1a4": { "id": "5208", "moduleName": "hvp" },
+    "u3t2a5": { "id": "5208", "moduleName": "hvp" },
+    "u3t3a6": { "id": "5208", "moduleName": "hvp" },
+    "u3t4a7": { "id": "5208", "moduleName": "hvp" },
+    "u3t4a8": { "id": "5208", "moduleName": "hvp" },
+    "u3t4a9": { "id": "5208", "moduleName": "hvp" },
+    "u3t5a10": { "id": "5208", "moduleName": "hvp" },
+    "u3t5a11": { "id": "5208", "moduleName": "forum" }
 
-    "u3t1a1": { "id": "5209", "moduleName": "quiz" },
-    "u3t1a2": { "id": "5210", "moduleName": "hvp" },
-    "u3t1a3": { "id": "5211", "moduleName": "hvp" },
-    "u3t1a4": { "id": "5212", "moduleName": "hvp" },
-    "u3t1a5": { "id": "5213", "moduleName": "assign" },
 
-    "u4t1a1": { "id": "5214", "moduleName": "quiz" },
-    "u4t1a2": { "id": "5215", "moduleName": "hvp" },
-    "u4t1a3": { "id": "5216", "moduleName": "hvp" },
-    "u4t1a4": { "id": "5217", "moduleName": "assign" }
   }
 }

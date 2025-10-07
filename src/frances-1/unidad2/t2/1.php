@@ -1,7 +1,7 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 
@@ -18,10 +18,15 @@ ob_start();
         <li>Regardez la vidéo suivante du début à la seconde 00:24 / Ve el siguiente vidéo desde el inicio hasta el segundo 00:24.</li>
         <li>Répondez aux questions suivantes / Responde las siguientes preguntas:</li>
     </ol>
+    <div class="max-w-xl mx-auto bg-cyan-700/30 p-4 my-6">
+        <?php
+        renderVideoIframe('NqzPWpKbnhc', 'Les adjectifs de nationalité en français. How to talk about nationality in French?');
+        ?>
+    </div>
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t2a7', "Ma nationalité", $ActividadContent);
+    renderActividadH5P('u2t2a7', "Ma nationalité", $ActividadContent);
     ?>
     <p class="mt-10 font-bold">Conceptualización:</p>
     <p>Después de haber visto el video, deducimos que la pregunta "D'où venez-vous?" se plantea para saber el país de origen de la persona. No obstante, para saber cuál es la nacionalidad, la pregunta que emplearemos es: "Quelle est ta nationalité?"</p>
@@ -47,12 +52,15 @@ ob_start();
         renderVideoIframe('MU6X8_bnSx8', 'Dire sa nationalité en français');
         ?>
     </div>
-    <p>A partir de lo que observaste, haz la siguiente actividad:</p>
+    <p><strong>Instrucciones:</strong></p>
+    <ol class="ol-number md:ml-32 mb-8">
+        <li>En fonction de ce que vous avez observé, réalisez l'activité suivante / A partir de lo que observaste, haz la siguiente actividad.</li>
+        <li>Complète avec le mot qui convient / Completa con la palabra correcta.</li>
+    </ol>
     <?php ob_start(); ?>
-    <p>Complète avec le mot qui convient / Completa con la palabra correcta.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t2a8', "Nationalité en français", $ActividadContent);
+    renderActividadH5P('u2t2a8', "Nationalité en français", $ActividadContent);
     ?>
     <div class="w-full grid grid-cols-3 gap-4 mt-8 border-y-2 border-dashed border-purple-300 bg-purple-300/10">
         <div class="col-span-2 p-2">

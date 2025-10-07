@@ -1,7 +1,7 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Videos.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -33,7 +33,7 @@ ob_start();
     <p>Choisis la bonne réponse / Selecciona la opción correcta.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t1a2', "Mon âge et ma date de naissance", $ActividadContent);
+    renderActividadH5P('jours-semaine', "Mon âge et ma date de naissance", $ActividadContent);
     ?>
     <p class="text-xl font-bold text-teal-600 mt-8">Mon âge</p>
     <p>En francés, existen dos fórmulas principales para preguntar la edad uno con el verbo être (ser /estar) y otra con el verbo avoir (tener/haber):</p>
@@ -97,8 +97,9 @@ ob_start();
     ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t1a3', "Quel âge avez-vous?", $ActividadContent);
+    renderActividadH5P('jours-semaine', "Quel âge avez-vous?", $ActividadContent);
     ?>
+    <div class="border-y-2 border-dashed border-pink-300 bg-pink-300/10 p-2 text-center mt-10">Realiza la <a href="https://www.liveworksheets.com/worksheet/fr/francais-langue-etrangere-fle/499251" target="_blank">siguiente actividad</a> para reforzar lo visto.</div>
 
 </section>
 
