@@ -14,7 +14,7 @@ ob_start();
     <h3>Producción escrita/oral: presentar a un miembro de mi familia</h3>
     <p>Con lo visto anteriormente, ya tienes las herramientas para poder presentar a un miembro de tu familia, tanto de forma escrita como de forma oral.</p>
     <p>Sin embargo, antes de que te aventures a escribir un pequeño párrafo sobre algún miembro de tu familia, vamos a hacer una pequeña comprensión de lectura:</p>
-    <p><strong>Instrucciones:</strong></p>
+    <p><strong>Instructions:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Lis le texte suivant et coche Vrai si l’affirmation est vraie ou Faux si l’affirmation est fausse / Lee el texto y selecciona: Verdadero o Falso, según corresponda.</li>
     </ol>
@@ -36,7 +36,7 @@ ob_start();
         renderVideoIframe('xc4SV62Gs2E', 'Leçon n°5 de français pour débutant: présenter sa famille – communication 5');
         ?>
     </div>
-    <p><strong>Instrucciones:</strong></p>
+    <p><strong>Instructions:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Enregistre une courte vidéo pour présenter toute ta famille / Graba un pequeño video para presentar a toda tu familia.</li>
         <li>Télécharge ta vidéo sur YouTube en choisissant l'option «Masqué» dans les paramètres de confidentialité. Ainsi, seules les personnes disposant du lien pourront la visionner / Sube tu video a YouTube eligiendo la opción "Oculto" en privacidad. Así solo quien tenga el enlace podrá verlo.</li>

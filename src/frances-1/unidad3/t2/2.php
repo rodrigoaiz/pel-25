@@ -18,7 +18,7 @@ ob_start();
     <p>Recuerda que puedes formular las preguntas de diferentes formas, dependiendo si hablas de manera formal, estándar o informal y que el sujeto de la pregunta y la conjugación del verbo depende de la persona por la que estés preguntando.</p>
     <p>Refuerza el aprendizaje con la siguiente actividad</p>
 
-    <p><strong>Instrucciones:</strong></p>
+    <p><strong>Instructions:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Fais glisser la profession correcte pour compléter chaque phrase / Arrastra la profesión correcta para completar cada frase.</li>
     </ol>
