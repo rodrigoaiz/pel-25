@@ -4,6 +4,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ParaSaber.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -67,9 +68,17 @@ ob_start();
             <li><span class="font-semibold">13h45</span> → <span class="italic">treize heures quarante-cinq</span> / <span class="italic">quatorze heures moins le quart</span></li>
         </ul>
     </div>
-
-    <p class="text-lg font-bold mt-6 mb-3 text-emerald-500">Formato de 12 vs 24 horas:</p>
-    <p>En Europa se usa el formato de 24 horas, sin embargo, en América las horas se dan en un formato de 12 horas. Puedes usar cualquiera de los dos, pero si usas el formato de 12 horas, tienes que indicar de qué momento del día se trata (mañana, tarde o noche):</p>
+    <div class=" flex flex-row justify-center gap-14 mt-8">
+        <div class="basis-1/2">
+            <p class="text-lg font-bold mt-6 mb-3 text-emerald-500">Formato de 12 vs 24 horas:</p>
+            <p>En Europa se usa el formato de 24 horas, sin embargo, en América las horas se dan en un formato de 12 horas. Puedes usar cualquiera de los dos, pero si usas el formato de 12 horas, tienes que indicar de qué momento del día se trata (mañana, tarde o noche):</p>
+        </div>
+        <div class="basis-1/2">
+            <?php
+            renderImage('fr1u2a2p3-img03.webp');
+            ?>
+        </div>
+    </div>
 
     <div class="bg-teal-100/50 p-4 my-4 rounded-lg">
         <p class="font-semibold mb-2">Ejemplos:</p>

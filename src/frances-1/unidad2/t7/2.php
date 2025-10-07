@@ -17,7 +17,7 @@ ob_start();
         <div class="w-1/3 md:full bg-rose-500/30 px-6 shadow-xl">
             <p class="font-bold text-rose-700 text-xl mb-2 text-center">Adelanto</p>
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p4-img04.webp');
             ?>
             <p>Para indicar que se te hizo temprano puedes decir:</p>
             <ul class="list-none">
@@ -27,7 +27,7 @@ ob_start();
         <div class="w-1/3 md:full bg-indigo-500/30 px-6 shadow-xl">
             <p class="font-bold text-indigo-800 text-xl mb-2 text-center">A tiempo</p>
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p4-img05.webp');
             ?>
             <p>Para indicar que estas a la hora, dices:</p>
             <ul class="list-none">
@@ -37,7 +37,7 @@ ob_start();
         <div class="w-1/3 md:full bg-rose-500/30 px-6 shadow-xl">
             <p class="font-bold text-rose-700 text-xl mb-2 text-center">Retraso</p>
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p4-img06.webp');
             ?>
             <p>Y si vas a llegar tarde, dices:</p>
             <ul class="list-none">

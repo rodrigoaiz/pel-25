@@ -16,213 +16,213 @@ ob_start();
     <p>Además de ir a la escuela, entre semana realizamos otras actividades que forman parte de nuestra rutina y se hacen en casa o en otros espacios, como comer, bañarnos, ir a clases de natación, etc. Aquí tienes un pequeño vocabulario sobre las cosas que hacemos en el día a día:</p>
     <p class="font-bold text-center bg-rose-500 text-white p-1">Activités quotidiennes</p>
     <div class="grid grid-cols-5 gap-2">
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-07-se-reveiller.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Se réveiller</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-08-se-lever.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Se lever</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-09-se-doucher.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Se doucher</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-10-s-habiller.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">S'habiller</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-11-prendre-petit-dejeuner.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Prendre le petit-déjeuner</p>
         </div>
-        <div class="bg-emerald-500/30 px-6">
+        <div class="bg-emerald-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-12-se-brosser-dents.webp');
             ?>
             <p class="text-emerald-700 text-center leading-none">Se brosser / se laver les dents</p>
         </div>
-        <div class="bg-emerald-500/30 px-6">
+        <div class="bg-emerald-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-13-se-coiffer.webp');
             ?>
             <p class="text-emerald-700 text-center leading-none">Se coiffer / Se brosser les cheveux</p>
         </div>
-        <div class="bg-emerald-500/30 px-6">
+        <div class="bg-emerald-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-14-se-maquiller.webp');
             ?>
             <p class="text-emerald-700 text-center leading-none">Se maquiller</p>
         </div>
-        <div class="bg-emerald-500/30 px-6">
+        <div class="bg-emerald-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-15-sortir.webp');
             ?>
             <p class="text-emerald-700 text-center leading-none">Sortir</p>
         </div>
-        <div class="bg-emerald-500/30 px-6">
+        <div class="bg-emerald-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-16-prendre-le-metro.webp');
             ?>
             <p class="text-emerald-700 text-center leading-none">Prendre le bus / la voiture / le métro / le taxi</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-17-aller-travail.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Aller à l'école / au travail</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-18-arriver-travail.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Arriver à l'école / au travail</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-19-travailler.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Travailler</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-20-etudier.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Étudier</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-21-retourner-rentre.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Retourner / rentrer à la maison</p>
         </div>
-        <div class="bg-emerald-500/30 px-6">
+        <div class="bg-emerald-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-22-dejeuner-manger.webp');
             ?>
             <p class="text-emerald-700 text-center leading-none">Déjeuner /manger à midi</p>
         </div>
-        <div class="bg-emerald-500/30 px-6">
+        <div class="bg-emerald-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-23-faire-devoirs.webp');
             ?>
             <p class="text-emerald-700 text-center leading-none">Faire les devoirs</p>
         </div>
-        <div class="bg-emerald-500/30 px-6">
+        <div class="bg-emerald-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-24-faire-courses.webp');
             ?>
             <p class="text-emerald-700 text-center leading-none">Faire les courses</p>
         </div>
-        <div class="bg-emerald-500/30 px-6">
+        <div class="bg-emerald-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-25-ranger-les-affaires.webp');
             ?>
             <p class="text-emerald-700 text-center leading-none">Ranger les affaires</p>
         </div>
-        <div class="bg-emerald-500/30 px-6">
+        <div class="bg-emerald-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-26-faire-menage.webp');
             ?>
             <p class="text-emerald-700 text-center leading-none">Faire le ménage</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-27-faire-sieste.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Faire une sieste / une somme</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-28-se-recontrer.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Se rencontrer avec des amis</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-29-faire-sport.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Faire du sport</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-30-ecouter-musique.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Écouter de la musique</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-31-naviguer-ordinateur.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Naviguer / Surfer sur l'ordinateur</p>
         </div>
-        <div class="bg-emerald-500/30 px-6">
+        <div class="bg-emerald-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-32-reseaux-socieux.webp');
             ?>
             <p class="text-emerald-700 text-center leading-none">Tchatcher / aller sur les réseaux sociaux</p>
         </div>
-        <div class="bg-emerald-500/30 px-6">
+        <div class="bg-emerald-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-33-jouer-console.webp');
             ?>
             <p class="text-emerald-700 text-center leading-none">Jouer à la console</p>
         </div>
-        <div class="bg-emerald-500/30 px-6">
+        <div class="bg-emerald-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-34-promener-chien.webp');
             ?>
             <p class="text-emerald-700 text-center leading-none">Promener/ Sortir le chien</p>
         </div>
-        <div class="bg-emerald-500/30 px-6">
+        <div class="bg-emerald-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-35-regarder-tele.webp');
             ?>
             <p class="text-emerald-700 text-center leading-none">Regarder la télé</p>
         </div>
-        <div class="bg-emerald-500/30 px-6">
+        <div class="bg-emerald-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-36-lire.webp');
             ?>
             <p class="text-emerald-700 text-center leading-none">Lire</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-37-diner.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Dîner</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-38-se-mettre-pyjama.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Se mettre le pyjama</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-39-aller-lit.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Aller au lit / Se coucher</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-40-sendormir.webp');
             ?>
-            <p class="text-rose-700 text-center leading-none">S’endormir</p>
+            <p class="text-rose-700 text-center leading-none">S'endormir</p>
         </div>
-        <div class="bg-rose-500/30 px-6">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u2a2p5-41-dormir.webp');
             ?>
             <p class="text-rose-700 text-center leading-none">Dormir</p>
         </div>

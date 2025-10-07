@@ -3,6 +3,7 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -11,9 +12,17 @@ ob_start();
 <section>
     <h2>Mon emploi du temps</h2>
     <h3>Mi horario</h3>
-    <p>En esta lección conocerás el horario de un liceo francés, aprenderás el vocabulario de las materias y podrás indicar a qué hora tienes clase.</p>
-    <p class="mt-4">Observa el siguiente horario escolar y realiza las actividades a partir de la información que ahí encontrarás.</p>
-
+    <div class=" flex flex-row justify-center gap-4">
+        <div class="basis-1/3">
+            <?php
+            renderImage('fr1u2a2p1-img01.webp');
+            ?>
+        </div>
+        <div class="basis-2/3 mt-30">
+            <p>En esta lección conocerás el horario de un liceo francés, aprenderás el vocabulario de las materias y podrás indicar a qué hora tienes clase.</p>
+            <p class="mt-4">Observa el siguiente horario escolar y realiza las actividades a partir de la información que ahí encontrarás.</p>
+        </div>
+    </div>
     <table class="table-auto border-collapse border-3 border-gray-600">
         <!-- Encabezados -->
         <thead>
@@ -178,11 +187,19 @@ ob_start();
     renderActividadH5P('u2t5a17', "Diálogo sobre el empleo de los tiempos", $ActividadContent);
     ?>
 
-    <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
-        <li>Regarde l'emploi de temps de Pauline et réponds aux questions (écris tout en minuscules et fais attention à l'orthographe et aux accents) / Mira el horario de Pauline y responde a las preguntas (escribe todo en minúsculas y ten cuidado con la ortografía y los acentos)</li>
-    </ol>
-
+    <div class=" flex flex-row justify-center gap-14 mt-8">
+        <div class="basis-1/3">
+            <?php
+            renderImage('fr1u2a2p1-img02.webp');
+            ?>
+        </div>
+        <div class="basis-2/3 mt-20">
+            <p><strong>Instrucciones:</strong></p>
+                <ol class="ol-number">
+                    <li>Regarde l'emploi de temps de Pauline et réponds aux questions (écris tout en minuscules et fais attention à l'orthographe et aux accents) / Mira el horario de Pauline y responde a las preguntas (escribe todo en minúsculas y ten cuidado con la ortografía y los acentos)</li>
+                </ol>
+        </div>
+    </div>
     <table class="table-auto w-full">
         <thead class="bg-emerald-300/50">
             <tr>
