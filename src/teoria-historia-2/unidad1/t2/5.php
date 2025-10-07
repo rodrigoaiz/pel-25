@@ -107,7 +107,7 @@ ob_start();
   renderActividad('u1t2a2', "Liberalismo: Alexis de Tocqueville", $ActividadContent);
 ?>
 
-<h4> Recuerda que la lectura es fundamental para esta materia.  </h4>
+<h4> Recuerda que la lectura es fundamental para esta materia.</h4>
 
 </section>
 <?php
