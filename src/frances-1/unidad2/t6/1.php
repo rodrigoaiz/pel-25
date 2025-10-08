@@ -13,6 +13,7 @@ ob_start();
     <h2>Ma matière préférée est...</h2>
     <h3>Mi materia preferida es...</h3>
     <p>Nuestro horario de clase incluye materias que nos gustan mucho, y otras que no tanto. Ve el siguiente vídeo y realiza las actividades siguientes.</p>
+    <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Regarde la vidéo et trouve la réponse correcte. / Mira el video y encuentra la respuesta correcta.</li>
@@ -23,10 +24,9 @@ ob_start();
         renderVideoIframe('7OMjzPFB1SQ', 'Les matieres scolaires');
         ?>
     </div>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u2t5a19', "Preferencias", $ActividadContent);
+    renderActividadH5P('u2-act-16', "Preferencias", $ActividadContent, true);
     ?>
     <p class="m-10">Para expresar lo que nos gusta y lo que no nos gusta necesitamos algunos verbos y expresiones. Observa el siguiente cuadro:</p>
     <table class="table-auto w-full">
@@ -99,35 +99,35 @@ ob_start();
             </tr>
         </tbody>
     </table>
+    <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>En te basant sur les informations de ce tableau, réponds à l'activité suivante. / Con base en la información de este cuadro, responde la siguiente actividad.</li>
         <li>Observe ces phrases et fais l'activité suivante. Attention à l'emploi de minuscules, mayuscules et signes de ponctuation. / Observa estas frases y realiza la siguiente actividad. Ten cuidado con el uso de minúsculas, mayúsculas y signos de puntuación.</li>
     </ol>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u2t6a20', "Ma matière préférée est...", $ActividadContent);
+    renderActividadH5P('u2-act-23', "Ma matière préférée est...", $ActividadContent, true);
     ?>
     <p class="my-10">La expresión *parce que* nos permite explicar las razones por las que algo nos gusta o no. Observa la frase 4. Usamos *parce qu'* cuando el sujeto que sigue empieza con vocal o con h.</p>
 
+    <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Écris la conjugaison correcte des verbes entre parenthèses. Attention aux accents et aux apostrophes. / Escribe la conjugación correcta de los verbos entre paréntesis. Ten cuidado con los acentos y las comillas (apóstrofes).</li>
     </ol>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u2t6a21', "Conjugaison correcte", $ActividadContent);
+    renderActividadH5P('u2-act-17', "Conjugaison correcte", $ActividadContent, true);
     ?>
+    <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Relie chaque phrase avec la matière correcte. / Une cada frase con la asignatura correcta.</li>
     </ol>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u2t6a22', "Matière correcte", $ActividadContent);
+    renderActividadH5P('u2-act-18', "Matière correcte", $ActividadContent, true);
     ?>
 </section>
 <?php ob_start(); ?>
