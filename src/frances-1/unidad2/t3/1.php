@@ -25,7 +25,7 @@ ob_start();
     <p>Après avoir regardé la vidéo, répondez au questionnaire suivant / Despues de haber visto el video, responde el siguiente cuestionario.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u2t3a11', "Les informations personnelles", $ActividadContent);
+    renderActividadH5P('u2-act-8', "Les informations personnelles", $ActividadContent);
     ?>
     <p class="mt-8">Ahora, en la siguiente lista verás las preguntas que se plantean para conocer <span class="italic font-bold text-purple-950">les coordonnées</span> de otra persona, de manera formal y también informal.</p>
     <p class="mt-8 text-2xl text-center text-sky-800">Questions à poser pour demander les coordonnées</p>
