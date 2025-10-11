@@ -1,8 +1,10 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -20,17 +22,24 @@ ob_start();
     </div>
     <p>Ahora realiza la siguiente actividad</p>
     <?php ob_start(); ?>
-    <p>Après avoir regardé la vidéo, répondez au questionnaire suivant / Despues de haber visto el video, responde el siguente cuestionario.</p>
+    <p>Après avoir regardé la vidéo, répondez au questionnaire suivant / Despues de haber visto el video, responde el siguiente cuestionario.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t3a11', "Les informations personnelles", $ActividadContent);
+    renderActividadH5P('u2-act-8', "Les informations personnelles", $ActividadContent);
     ?>
     <p class="mt-8">Ahora, en la siguiente lista verás las preguntas que se plantean para conocer <span class="italic font-bold text-purple-950">les coordonnées</span> de otra persona, de manera formal y también informal.</p>
+    <p class="mt-8 text-2xl text-center text-sky-800">Questions à poser pour demander les coordonnées</p>
     <table class="table-auto w-full">
         <thead class="bg-sky-900">
             <tr>
-                <th class="p-2 border text-white text-center font-bold">Manière Formelle</th>
-                <th class="p-2 border text-white text-center font-bold">Manière Informelle</th>
+                <th class="p-2 border text-white text-center font-bold">
+                    <?php
+                    renderImage('fr1u2a1-img03.webp');
+                    ?>Manière Formelle</th>
+                <th class="p-2 border text-white text-center font-bold">
+                    <?php
+                    renderImage('fr1u2a1-img04.webp');
+                    ?>Manière Informelle</th>
             </tr>
         </thead>
         <tbody class="bg-sky-100">
@@ -38,17 +47,17 @@ ob_start();
             <tr>
                 <td class="px-3 py-2 border text-sky-900">
                     <div class="font-bold">NOM ET PRÉNOM</div>
-                    <div class="text-sky-800">Comment tu t'appelles?</div>
-                    <div class="text-sky-800 mt-4">Quel est ton prénom?</div>
-                    <div class="text-sky-800">Quel est ton nom?</div>
+                    <div class="text-sky-800">Comment vous vous appelez?</div>
+                    <div class="text-sky-800 mt-4">Quel est votre prénom?</div>
+                    <div class="text-sky-800">Quel est votre nom?</div>
                     <div class="italic text-rose-800 mt-8">Réponse:</div>
                     <div class="italic text-rose-800 mt-2">Je m'appelle Sophie Legrand</div>
                 </td>
                 <td class="px-3 py-2 border text-sky-900">
                     <div class="font-bold">NOM ET PRÉNOM</div>
-                    <div class="text-sky-800">Comment vous vous appelez?</div>
-                    <div class="text-sky-800 mt-4">Quel est votre prénom?</div>
-                    <div class="text-sky-800">Quel est votre nom?</div>
+                    <div class="text-sky-800">Comment tu t'appelles?</div>
+                    <div class="text-sky-800 mt-4">Quel est ton prénom?</div>
+                    <div class="text-sky-800">Quel est ton nom?</div>
                     <div class="italic text-rose-800 mt-8">Réponse:</div>
                     <div class="italic text-rose-800 mt-2">Je m'appelle Sophie Legrand</div>
                 </td>
@@ -58,13 +67,13 @@ ob_start();
             <tr>
                 <td class="px-3 py-2 border text-sky-900">
                     <div class="font-bold">DATE DE NAISSANCE</div>
-                    <div class="text-sky-800">Quelle est ta date de naissance?</div>
+                    <div class="text-sky-800">Quelle est votre date de naissance?</div>
                     <div class="italic text-rose-800 mt-8">Réponse:</div>
                     <div class="italic text-rose-800 mt-2">Le 20 mai 2007</div>
                 </td>
                 <td class="px-3 py-2 border text-sky-900">
                     <div class="font-bold">DATE DE NAISSANCE</div>
-                    <div class="text-sky-800">Quelle est votre date de naissance?</div>
+                    <div class="text-sky-800">Quelle est ta date de naissance?</div>
                     <div class="italic text-rose-800 mt-8">Réponse:</div>
                     <div class="italic text-rose-800 mt-2">Le 20 mai 2007</div>
                 </td>
@@ -74,14 +83,14 @@ ob_start();
             <tr>
                 <td class="px-3 py-2 border text-sky-900">
                     <div class="font-bold">ÂGE</div>
-                    <div class="text-sky-800">Quel est ton âge?</div>
+                    <div class="text-sky-800">Quel âge avez-vous?</div>
+                    <div class="text-sky-800">Quel est votre âge?</div>
                     <div class="italic text-rose-800 mt-8">Réponse:</div>
                     <div class="italic text-rose-800 mt-2">J'ai 16 ans</div>
                 </td>
                 <td class="px-3 py-2 border text-sky-900">
                     <div class="font-bold">ÂGE</div>
-                    <div class="text-sky-800">Quel âge avez-vous?</div>
-                    <div class="text-sky-800">Quel est votre âge?</div>
+                    <div class="text-sky-800">Quel est ton âge?</div>
                     <div class="italic text-rose-800 mt-8">Réponse:</div>
                     <div class="italic text-rose-800 mt-2">J'ai 16 ans</div>
                 </td>
@@ -91,12 +100,6 @@ ob_start();
             <tr>
                 <td class="px-3 py-2 border text-sky-900">
                     <div class="font-bold">OCCUPATION</div>
-                    <div class="text-sky-800">Qu'est-ce que tu fais dans la vie?</div>
-                    <div class="italic text-rose-800 mt-8">Réponse:</div>
-                    <div class="italic text-rose-800 mt-2">Je suis étudiante</div>
-                </td>
-                <td class="px-3 py-2 border text-sky-900">
-                    <div class="font-bold">OCCUPATION</div>
                     <div class="text-sky-800">Vous êtes étudiant?</div>
                     <div class="italic text-rose-800 mt-4">Réponse:</div>
                     <div class="italic text-rose-800 mt-2">Oui</div>
@@ -104,34 +107,40 @@ ob_start();
                     <div class="italic text-rose-800 mt-4">Réponse:</div>
                     <div class="italic text-rose-800 mt-2">Je suis étudiante</div>
                 </td>
+                <td class="px-3 py-2 border text-sky-900">
+                    <div class="font-bold">OCCUPATION</div>
+                    <div class="text-sky-800">Qu'est-ce que tu fais dans la vie?</div>
+                    <div class="italic text-rose-800 mt-8">Réponse:</div>
+                    <div class="italic text-rose-800 mt-2">Je suis étudiante</div>
+                </td>
             </tr>
             <!-- ADRESSE -->
             <tr>
-                <td class="px-3 py-2 border text-sky-900">
-                    <div class="font-bold">ADRESE</div>
-                    <div class="text-sky-800">Quelle est ton adresse?</div>
-                    <div class="italic text-rose-800 mt-8">Réponse:</div>
-                    <div class="italic text-rose-800 mt-2">(Mon adresse est le) 25 Rue Jean Jaurès</div>
-                </td>
                 <td class="px-3 py-2 border text-sky-900">
                     <div class="font-bold">ADRESE</div>
                     <div class="text-sky-800">Quelle est votre adresse?</div>
                     <div class="italic text-rose-800 mt-8">Réponse:</div>
                     <div class="italic text-rose-800 mt-2">(Mon adresse est le) 25 Rue Jean Jaurès.</div>
                 </td>
+                <td class="px-3 py-2 border text-sky-900">
+                    <div class="font-bold">ADRESE</div>
+                    <div class="text-sky-800">Quelle est ton adresse?</div>
+                    <div class="italic text-rose-800 mt-8">Réponse:</div>
+                    <div class="italic text-rose-800 mt-2">(Mon adresse est le) 25 Rue Jean Jaurès</div>
+                </td>
             </tr>
             <!-- TELEPHONE -->
             <tr>
                 <td class="px-3 py-2 border text-sky-900">
                     <div class="font-bold">NUMÉRO DE TÉLÉPHONE</div>
-                    <div class="text-sky-800">Quel est ton numéro de téléphone?</div>
+                    <div class="text-sky-800">Quel est votre numéro de téléphone?</div>
                     <div class="italic text-rose-800 mt-8">Réponse:</div>
                     <div class="italic text-rose-800 mt-2">C'est le 0638901923</div>
                     <div class="italic text-rose-800 mt-2">Mon numéro de téléphone est…</div>
                 </td>
                 <td class="px-3 py-2 border text-sky-900">
                     <div class="font-bold">NUMÉRO DE TÉLÉPHONE</div>
-                    <div class="text-sky-800">Quel est votre numéro de téléphone?</div>
+                    <div class="text-sky-800">Quel est ton numéro de téléphone?</div>
                     <div class="italic text-rose-800 mt-8">Réponse:</div>
                     <div class="italic text-rose-800 mt-2">C'est le 0638901923</div>
                     <div class="italic text-rose-800 mt-2">Mon numéro de téléphone est…</div>
@@ -141,14 +150,14 @@ ob_start();
             <tr>
                 <td class="px-3 py-2 border text-sky-900">
                     <div class="font-bold">E-MAIL</div>
-                    <div class="text-sky-800">Quel est ton courriel éléctronique?</div>
+                    <div class="text-sky-800">Quel est votre courriel éléctronique?</div>
+                    <div class="text-sky-800">Quel est votre âge?</div>
                     <div class="italic text-rose-800 mt-8">Réponse:</div>
                     <div class="italic text-rose-800 mt-2">Mon courriel est…</div>
                 </td>
                 <td class="px-3 py-2 border text-sky-900">
                     <div class="font-bold">E-MAIL</div>
-                    <div class="text-sky-800">Quel est votre courriel éléctronique?</div>
-                    <div class="text-sky-800">Quel est votre âge?</div>
+                    <div class="text-sky-800">Quel est ton courriel éléctronique?</div>
                     <div class="italic text-rose-800 mt-8">Réponse:</div>
                     <div class="italic text-rose-800 mt-2">Mon courriel est…</div>
                 </td>
@@ -161,7 +170,7 @@ ob_start();
     </p>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
-        <li>Realiza un vidéo donde te presentas y dices los siguientes datos:
+        <li>Realiza un video donde te presentas y dices los siguientes datos:
             <ul class="list-disc ml-8">
                 <li>Salutation formelle</li>
                 <li>Nom et prénom</li>

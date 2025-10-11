@@ -39,7 +39,7 @@ ob_start();
   <p>Escucha las palabras de los audios y escríbelas. Empieza cada palabra con mayúscula y luego con minúsculas y no olvides los acentos que se te indican.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividadH5P('dictado', "Dictado de palabras");
+  renderActividadH5P('dictado', "Dictado de palabras", $ActividadContent, true);
   ?>
 </section>
 

@@ -12,13 +12,15 @@ ob_start();
 <section>
   <h2>Bienvenida a la unidad 2</h2>
   <h3>Bienvenue à l'unité 2</h3>
-  <div class="max-2xl mx-auto">
-    <?php
-    renderImage('iga1-img01.webp');
-    ?>
+  <div class="flex">
+    <div class="max-2xl mx-auto">
+      <?php
+      renderImage('fr1u2a1-portada.webp');
+      ?>
+    </div>
   </div>
 </section>
-<div class="flex flex-row justify-center gap-4">
+<div class=" flex flex-row justify-center gap-4">
   <div class="basis-1/3">
     <?php
     renderVideoIframe('HBYhxdstHsw', 'Bienvenida a la unidad 2.');
