@@ -16,7 +16,7 @@ ob_start();
     <p>Responde el cuestionario, selecciona la respuesta correcta.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t5a12', "Français I Unité 1", $ActividadContent);
+    renderActividad('u1a3', "Français I Unité 1", $ActividadContent);
     ?>
 </section>
 

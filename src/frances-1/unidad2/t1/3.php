@@ -63,7 +63,7 @@ ob_start();
 <section>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t2a4', "Foro | Ma date de naissance...", $ActividadContent);
+  renderActividad('u2a2', "Foro | Ma date de naissance...", $ActividadContent);
   ?>
   <p class="mt-10"><strong>Instrucciones:</strong></p>
   <ol class="ol-number md:ml-32">

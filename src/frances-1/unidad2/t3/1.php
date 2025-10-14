@@ -188,7 +188,7 @@ ob_start();
     <p>Comparte tu experiencia en el foro.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t3a12', "Vidéo de présentation", $ActividadContent);
+    renderActividad('u2a3', "Vidéo de présentation", $ActividadContent);
     ?>
     <div class="flex justify-center">
         <div class="w-2/3">

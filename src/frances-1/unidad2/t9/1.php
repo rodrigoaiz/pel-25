@@ -70,14 +70,14 @@ ob_start();
     <p>Téléverse ton fichier audio ici / Sube aquí tu archivo de audio.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t9a25', "Français I Unité 2", $ActividadContent);
+    renderActividad('u2a4', "Français I Unité 2", $ActividadContent);
     ?>
 
     <?php ob_start(); ?>
     <p>Réponds au questionnaire et sélectionne la bonne réponse / Responde el cuestionario, selecciona la respuesta correcta.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t9a26', "Évaluation finale de l'unité", $ActividadContent);
+    renderActividad('u2a5', "Évaluation finale de l'unité", $ActividadContent);
     ?>
 </section>
 
