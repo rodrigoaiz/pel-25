@@ -2,7 +2,6 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadH5P.php';
-include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -46,7 +45,12 @@ ob_start();
             </div>
         </div>
     </div>
-    <div class="flex justify-center gap-4">
+    <?php ob_start(); ?>
+    <?php
+    $ActividadContent = ob_get_clean();
+    renderActividadH5P('u3t7a14', "Avez-vous vu cet homme?", $ActividadContent);
+    ?>
+    <div class="flex justify-center gap-4 mt-8">
         <div class="w-1/3 md:w-1/3 bg-rose-500/30 px-6 py-4 shadow-xl">
             <p class="font-bold text-rose-700 text-xl mb-2">Porter</p>
             <ul class="list-none">
