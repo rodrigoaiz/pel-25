@@ -67,9 +67,10 @@ ob_start();
 </div>
 <section>
   <?php ob_start(); ?>
+  <p>Relaciona cada día de la semana con su nombre en francés.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividadH5P('jours-semaine', "Jours de la semaine", $ActividadContent);
+  renderActividadH5P('jours-semaine', "Jours de la semaine", $ActividadContent, true);
   ?>
   <p>Aquí tienes el video de una canción infantil para aprender los días de la semana:</p>
   <?php
@@ -103,14 +104,14 @@ ob_start();
   <p>¿Con cuáles personas hablas de tú (tu) y con cuales de usted (vous)? Desliza la forma correcta (tu / vous) sobre cada imagen.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividadH5P('vous-tu-vous', "Vous, tu, vous, tu, tu, vous", $ActividadContent);
+  renderActividadH5P('vous-tu-vous', "Vous, tu, vous, tu, tu, vous", $ActividadContent, true);
   ?>
 
   <?php ob_start(); ?>
   <p>Arrastra las palabras para completar los diálogos con las formas correctas para saludar y para despedirte.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividadH5P('bonsoir-salut-bonjour', "Saluer et se dire au revoir", $ActividadContent);
+  renderActividadH5P('bonsoir-salut-bonjour', "Saluer et se dire au revoir", $ActividadContent, true);
   ?>
 
   <?php ob_start(); ?>
@@ -124,13 +125,13 @@ ob_start();
   </div>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividadH5P('se-saluer', "Se saluer Un jour à l'uni avec Emma", $ActividadContent);
+  renderActividadH5P('se-saluer', "Se saluer Un jour à l'uni avec Emma", $ActividadContent,);
   ?>
   <?php ob_start(); ?>
-  ola
+  <p>Pon en orden el diálogo siguiente para que sea coherente:</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividadH5P('paragraphs', "Se saluer Un jour à l'uni avec (deuxième partie)", $ActividadContent);
+  renderActividadH5P('paragraphs', "Se saluer Un jour à l'uni avec (deuxième partie)", $ActividadContent, true);
   ?>
 </section>
 <?php ob_start(); ?>

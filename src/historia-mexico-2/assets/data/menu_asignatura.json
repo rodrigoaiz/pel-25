@@ -1,0 +1,75 @@
+{
+  "nombreAsignatura": "Historia de México II",
+  "asignatura": {
+    "Unidad 1": {
+      "url": "/historia-mexico-2/unidad1/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 1",
+      "temas": [
+        {"nombre": "Causas de la Revolución Mexicana", "url": "/historia-mexico-2/unidad1/t1", "paginas": 3},
+        {"nombre": "El proceso de la Revolución mexicana", "url": "/historia-mexico-2/unidad1/t2", "paginas": 3},
+        {"nombre": "La Constitución de 1917", "url": "/historia-mexico-2/unidad1/t3", "paginas": 3},
+        {"nombre": "La Revolución mexicana y su impacto", "url": "/historia-mexico-2/unidad1/t4", "paginas": 3}
+      ]
+    },
+    "Unidad 2": {
+      "url": "/historia-mexico-2/unidad2/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 2",
+      "temas": [
+        {"nombre": "Bases institucionales del nuevo régimen político ", "url": "/historia-mexico-2/unidad2/t1", "paginas": 5},
+        {"nombre": "Proyectos de reconstrucción económica", "url": "/historia-mexico-2/unidad2/t2", "paginas": 3},
+        {"nombre": "Soberanía nacional", "url": "/historia-mexico-2/unidad2/t3", "paginas": 4},
+        {"nombre": "Cambios sociales y expresiones culturales", "url": "/historia-mexico-2/unidad2/t4", "paginas": 4},
+        {"nombre": "Enlace metálico", "url": "/historia-mexico-2/unidad2/t5", "paginas": 4},
+        {"nombre": "Evaluación unidad 2", "url": "/historia-mexico-2/unidad2/t6", "paginas": 1}
+      ]
+    },
+    "Unidad 3": {
+      "url": "/historia-mexico-2/unidad3/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 3",
+      "temas": [
+        {"nombre": "Modernización económica", "url": "/historia-mexico-2/unidad3/t1", "paginas": 3},
+        {"nombre": "Nuevas relaciones del poder político", "url": "/historia-mexico-2/unidad3/t2", "paginas": 2},
+        {"nombre": "Movimientos sociales", "url": "/historia-mexico-2/unidad3/t3", "paginas": 4},
+        {"nombre": "Cultura y vida cotidiana", "url": "/historia-mexico-2/unidad3/t4", "paginas": 4}
+      ]
+    },
+    "Unidad 4": {
+      "url": "/historia-mexico-2/unidad4/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 4",
+      "temas": [
+        {"nombre": "Globalización y neoliberalismo", "url": "/historia-mexico-2/unidad4/t1", "paginas": 4},
+        {"nombre": "Reforma política", "url": "/historia-mexico-2/unidad4/t2", "paginas": 3},
+        {"nombre": "Movimientos sociales emergentes", "url": "/historia-mexico-2/unidad4/t3", "paginas": 3},
+        {"nombre": "Propiedades de los compuestos químicos", "url": "/historia-mexico-2/unidad4/t4", "paginas": 4},
+        {"nombre": "Coyunturas, cambios y continuidades", "url": "/historia-mexico-2/unidad4/t5", "paginas": 4}
+      ]
+    }
+  },
+  "actividades": {
+    "u1t1a1": { "id": "5200", "moduleName": "quiz" },
+    "u1t1a2": { "id": "5201", "moduleName": "h5p" },
+    "u1t1a3": { "id": "5202", "moduleName": "h5p" },
+    "u1t1a4": { "id": "5203", "moduleName": "h5p" },
+    "u1t1a5": { "id": "5204", "moduleName": "assign" },
+
+    "u2t1a1": { "id": "5205", "moduleName": "quiz" },
+    "u2t1a2": { "id": "5206", "moduleName": "h5p" },
+    "u2t1a3": { "id": "5207", "moduleName": "h5p" },
+    "u2t1a4": { "id": "5208", "moduleName": "assign" },
+
+    "u3t1a1": { "id": "5209", "moduleName": "quiz" },
+    "u3t1a2": { "id": "5210", "moduleName": "h5p" },
+    "u3t1a3": { "id": "5211", "moduleName": "h5p" },
+    "u3t1a4": { "id": "5212", "moduleName": "h5p" },
+    "u3t1a5": { "id": "5213", "moduleName": "assign" },
+
+    "u4t1a1": { "id": "5214", "moduleName": "quiz" },
+    "u4t1a2": { "id": "5215", "moduleName": "h5p" },
+    "u4t1a3": { "id": "5216", "moduleName": "h5p" },
+    "u4t1a4": { "id": "5217", "moduleName": "assign" }
+  }
+}

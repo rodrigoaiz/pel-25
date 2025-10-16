@@ -32,8 +32,9 @@
     "u1t1a2": { "id": "519", "moduleName": "quiz" },
     "u1t1a3": { "id": "520", "moduleName": "assign" },
     "u1t1a4": { "id": "521", "moduleName": "quiz" },
+    "u1t1a5": { "id": "1448", "moduleName": "assign" },
 
-    "u1t2a1": { "id": "523", "moduleName": "quiz" },
+    "u1t2a1": { "id": "1447", "moduleName": "feedback" },
     "u1t2a2": { "id": "524", "moduleName": "quiz" },
     "u1t2a3": { "id": "525", "moduleName": "assign" },
     "u1t2a4": { "id": "526", "moduleName": "assign" },

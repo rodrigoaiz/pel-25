@@ -325,19 +325,19 @@ ob_start();
         ],
     ]) ?>
     <p class="mt-10">Es momento de practicar lo aprendido, resuelve el siguiente ejercicio.</p>
+    <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Regarde cette vidéo et coche la réponse correcte / Mira este video y marca la respuesta correcta.</li>
     </ol>
-    <div class="max-w-xl mx-auto bg-violet-700/40 p-4">
+    <div class="max-w-xl mx-auto bg-violet-700/40 p-4 mb-8">
         <?php
         renderVideoIframe('HhHjxXG6slo', 'Décrivez votre Journée | La Vie Quotidienne | Describe your Daily Routine in French Daily Life');
         ?>
     </div>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u2t8a24', "La Vie Quotidienne", $ActividadContent);
+    renderActividadH5P('u2-act-21', "La Vie Quotidienne", $ActividadContent);
     ?>
     <div class="bg-purple-400/40 mt-10 py-4">
         <p class="text-purple-700 font-bold text-lg text-center">Pour aller plus loin – Conecteurs logiques de séquence.</p>
@@ -412,14 +412,14 @@ ob_start();
     <p>También observa que al hacer la frase negativa, en los verbos pronominales, la partícula "ne" va antes del pronombre reflexivo y la partícula "pas" va después del verbo conjugado.</p>
     <p>No olvides que la terminación -ent de *ils" et "elles" nunca se pronuncia.</p>
     <p class="mt-10">Repasemos algunos elementos importantes.</p>
+    <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Écris le verbe entre parenthèses conjugué au présent. Fais attention au sujet de la phrase. (Attention aux majuscules et au minuscules, à l'orthographe et aux accents) : / Escribe el verbo entre paréntesis conjugado en presente. Ten cuidado con el sujeto de la oración. (Presta atención a las mayúsculas y minúsculas, la ortografía y los acentos).</li>
     </ol>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u2t8a25', "Conjugué au présent", $ActividadContent);
+    renderActividadH5P('u2-act-22', "Conjugué au présent", $ActividadContent);
     ?>
 </section>
 

@@ -211,13 +211,13 @@ ob_start();
     <p>¿En cuáles palabras encuentras cada sonido? Arrastra las palabras que contengan el sonido o, e abierta, e cerrada u o ua a la columna correspondiente.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('sondos-o-a-e', "Sonidos o | e abierta | e cerrada | u | ua", $ActividadContent);
+    renderActividadH5P('sondos-o-a-e', "Sonidos o | e abierta | e cerrada | u | ua", $ActividadContent, true);
     ?>
     <?php ob_start(); ?>
     <p>Escucha las palabras y escribe "ai" si escuchas una é abierta; "eau o au" si escuchas una "o", "ou" si escuchas u, "eu o oeu" si escuchas una e cerrada o "oi" si escuchas el sonido "ua". Escribe tus respuestas tal y como aparecen en las instrucciones, pero sin comillas.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('dictation-2', "Escuchar sonidos o | e abierta | e cerrada | u | ua", $ActividadContent);
+    renderActividadH5P('dictation-2', "Escuchar sonidos o | e abierta | e cerrada | u | ua", $ActividadContent, true);
     ?>
     <?php ob_start(); ?>
     <p>Aqui tienes unas diez palabras con diptongos y triptongos. Escucha la pronunciación y repítela para entrenarte. En la parte de atrás de la tarjeta vas a encontrar una aproximación de como escribirías la palabra si la escribieras en español.</p>

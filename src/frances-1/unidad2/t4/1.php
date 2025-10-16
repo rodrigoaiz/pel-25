@@ -24,7 +24,7 @@ ob_start();
     <p>Après avoir regardé la vidéo, répondez au questionnaire suivant / Despues de haber visto el video, responde el siguente cuestionario.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u2t4a13', "Questions de compréhension", $ActividadContent);
+    renderActividadH5P('u2-act-9', "Questions de compréhension", $ActividadContent);
     ?>
     <p>Como habrás notado, así como en el español, en francés, cuando te diriges a alguien que no conoces, por ejemplo un recepcionista o una secretaria, se habla de Usted.</p>
     <p>Reiterando la diplomacia francesa, y que tenemos igualmente en el español, recordemos que en francés se habla de usted cuando nos referimos a la gente a quien le guardamos respeto debido a su edad (mayores que nosotros), al primer contacto con gente mayor que nosotros que apenas conocemos, y, en este caso, hacia personas que también nos ayudan a realizar trámites de índole burocrática. En este caso, en el trámite de inscripción a la biblioteca.</p>
@@ -44,7 +44,7 @@ ob_start();
     <p>À partir des informations de la pièce d'identité, fais glisser les données demandées dans le formulaire d'inscription / Usa la información de la credencial de identidad y arrastra los datos solicitados al formulario de inscripción.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u2t4a14', "Formulaire d’inscription", $ActividadContent);
+    renderActividadH5P('u2-act-10', "Formulaire d’inscription", $ActividadContent, true);
     ?>
 
 </section>

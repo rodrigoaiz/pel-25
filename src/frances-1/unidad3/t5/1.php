@@ -229,7 +229,7 @@ ob_start();
     <p>Participa en el foro.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u3t5a11', "Forum | Je présente ma famille", $ActividadContent);
+    renderActividad('u3a2', "Je présente ma famille", $ActividadContent);
     ?>
 </section>
 

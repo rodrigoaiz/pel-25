@@ -122,23 +122,23 @@ ob_start();
         ?>
     </div>
 
+    <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Glisse l'heure sur la montre ou sur le réveil qui indique cette heure-là. / Arrastra la hora al reloj o al despertador que muestre esa hora.</li>
     </ol>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u2t7a23', "L'heure sur la montre", $ActividadContent);
+    renderActividadH5P('u2-act-19', "L'heure sur la montre", $ActividadContent, true);
     ?>
+    <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>À quelle heure… ? Regarde la vidéo et écris l'heure à laquelle les événements se produisent. / ¿A qué hora…? Mira el video y escribe la hora en la que suceden las cosas.</li>
     </ol>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u2t7a24', "À quelle heure…?", $ActividadContent);
+    renderActividadH5P('u2-act-20', "À quelle heure…?", $ActividadContent);
     ?>
 </section>
 
