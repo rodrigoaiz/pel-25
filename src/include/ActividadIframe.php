@@ -145,7 +145,7 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
                   Las evaluaciones y actividades deben gestionarse desde la <strong>plataforma Moodle</strong> directamente, no desde este visor de contenido educativo.
                 </p>
                 <p class="text-sm text-gray-600 mb-6">
-                  Este espacio está diseñado para que los estudiantes realicen sus actividades. Para calificar, revisar entregas o gestionar actividades, por favor accede a Moodle.
+                  Este espacio está diseñado para que los estudiantes realicen sus actividades. Para calificar, revisar entregas o gestionar actividades, por favor accede a mediante la interfaz de Moodle.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-3 justify-center">
                   <button onclick="closeTeacherOverlay('<?php echo htmlspecialchars($actividadKey); ?>')" 
