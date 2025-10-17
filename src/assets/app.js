@@ -41,6 +41,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+// ⚙️ FEATURE FLAG: Detección de profesor
+// Cambiar a true para activar la detección de profesores y mostrar overlay
+const ENABLE_TEACHER_DETECTION = false;
 
 // Función para cerrar overlay de profesor
 window.closeTeacherOverlay = function(actividadKey) {
@@ -64,8 +67,10 @@ document.addEventListener('DOMContentLoaded', function() {
             // El CSS maneja toda la presentación (altura fija + scroll)
             // No se requiere JavaScript para ajustar altura
             
-            // Detectar si el usuario es profesor
-            checkIfTeacher(iframe);
+            // Detectar si el usuario es profesor (solo si está activado)
+            if (ENABLE_TEACHER_DETECTION) {
+                checkIfTeacher(iframe);
+            }
         };
     });
 });
