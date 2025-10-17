@@ -215,43 +215,140 @@ h4 {
       @apply text-secondary;
     }
 
+    /* Botón de ayuda */
+    .help-button-actividad {
+      @apply flex-shrink-0;
+      animation: pulse-subtle 3s ease-in-out infinite;
+    }
+
+    @keyframes pulse-subtle {
+      0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+      50% {
+        opacity: 0.8;
+        transform: scale(1.05);
+      }
+    }
+
+    .help-button-actividad:hover {
+      animation: none;
+      transform: scale(1.1);
+    }
+  }
+
+  /* Sección completa de la actividad con background */
+  .seccion-actividad {
+    @apply w-full;
+    /* El bg-azulcla/25 ya está aplicado en el HTML */
+  }
+
+  /* Contenedor con max-width para la actividad */
+  .actividad-wrapper {
+    @apply px-2 md:px-4 lg:px-6;
+  }
+
+  /* Contenedor visual del iframe */
+  .iframe-container-actividad {
+    @apply relative;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-radius: 0.75rem;
+    padding: 0.5rem; /* Reducido en móvil */
+    box-shadow: 
+      0 1px 3px 0 rgba(0, 0, 0, 0.1),
+      0 1px 2px 0 rgba(0, 0, 0, 0.06),
+      inset 0 0 0 1px rgba(148, 163, 184, 0.1);
+  }
+
+  .iframe-container-actividad::before {
+    content: '';
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    bottom: 0.25rem;
+    left: 0.25rem;
+    border: 2px dashed rgba(148, 163, 184, 0.2);
+    border-radius: 0.5rem;
+    pointer-events: none;
+  }
+
+  /* Estilos del iframe */
+  iframe.actividadmoodle {
+    @apply w-full relative z-10;
+    /* Altura fija con scroll interno */
+    height: 600px !important;
+    min-height: 500px !important;
+    max-height: 800px !important;
+    
+    /* Permitir scroll interno */
+    overflow: auto !important;
+    
+    /* Estilos visuales mejorados */
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 0.5rem;
+    box-shadow: 
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    
+    /* Transiciones */
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  iframe.actividadmoodle:hover {
+    border-color: #cbd5e1;
+    box-shadow: 
+      0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+
+  iframe.actividadmoodle:focus-within {
+    border-color: #3b82f6;
+    outline: none;
+    box-shadow: 
+      0 0 0 3px rgba(59, 130, 246, 0.1),
+      0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Responsive: Móviles */
+  @media (max-width: 768px) {
+    .iframe-container-actividad {
+      padding: 0.5rem;
+    }
+    
+    .iframe-container-actividad::before {
+      top: 0.25rem;
+      right: 0.25rem;
+      bottom: 0.25rem;
+      left: 0.25rem;
+    }
+
     iframe.actividadmoodle {
-      @apply w-full;
-      /* Altura fija con scroll interno */
-      height: 600px !important;
-      min-height: 500px !important;
-      max-height: 800px !important;
-      
-      /* Permitir scroll interno */
-      overflow: auto !important;
-      
-      /* Estilos visuales */
-      border: 1px solid #e5e7eb;
-      border-radius: 0.5rem;
-      scroll-margin-top: 2rem;
-      
-      /* Transiciones suaves */
-      transition: border-color 0.2s ease;
+      height: 500px !important;
+      min-height: 400px !important;
+      max-height: 600px !important;
     }
+  }
 
-    iframe.actividadmoodle:focus-within {
-      border-color: #3b82f6;
+  /* Responsive: Tablets y Desktop */
+  @media (min-width: 769px) {
+    .iframe-container-actividad {
+      padding: 1rem;
     }
-
-    /* Mejor visualización en móviles */
-    @media (max-width: 768px) {
-      iframe.actividadmoodle {
-        height: 500px !important;
-        min-height: 400px !important;
-        max-height: 600px !important;
-      }
+    
+    .iframe-container-actividad::before {
+      top: 0.5rem;
+      right: 0.5rem;
+      bottom: 0.5rem;
+      left: 0.5rem;
     }
+  }
 
-    /* Tablets */
-    @media (min-width: 769px) and (max-width: 1024px) {
-      iframe.actividadmoodle {
-        height: 650px !important;
-      }
+  /* Responsive: Tablets */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    iframe.actividadmoodle {
+      height: 650px !important;
     }
   }
   #biblio li {
