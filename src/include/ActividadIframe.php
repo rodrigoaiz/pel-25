@@ -46,7 +46,10 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
         <span><?php echo htmlspecialchars($ActividadTitulo); ?></span>
       </div>
       <?php echo $ActividadContent; ?>
-      <iframe class="w-full actividadmoodle" src="<?php echo PATH_ACTIVITIES; ?>mod/<?php echo htmlspecialchars($moduleName); ?>/view.php?id=<?php echo $actividad['id']; ?>&amp;theme=photo"></iframe>
+      <iframe class="w-full actividadmoodle" 
+              src="<?php echo PATH_ACTIVITIES; ?>mod/<?php echo htmlspecialchars($moduleName); ?>/view.php?id=<?php echo $actividad['id']; ?>&amp;theme=photo"
+              scrolling="auto"
+              frameborder="0"></iframe>
     </div>
 <?php
   } else {

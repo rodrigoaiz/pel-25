@@ -214,6 +214,45 @@ h4 {
     p {
       @apply text-secondary;
     }
+
+    iframe.actividadmoodle {
+      @apply w-full;
+      /* Altura fija con scroll interno */
+      height: 600px !important;
+      min-height: 500px !important;
+      max-height: 800px !important;
+      
+      /* Permitir scroll interno */
+      overflow: auto !important;
+      
+      /* Estilos visuales */
+      border: 1px solid #e5e7eb;
+      border-radius: 0.5rem;
+      scroll-margin-top: 2rem;
+      
+      /* Transiciones suaves */
+      transition: border-color 0.2s ease;
+    }
+
+    iframe.actividadmoodle:focus-within {
+      border-color: #3b82f6;
+    }
+
+    /* Mejor visualización en móviles */
+    @media (max-width: 768px) {
+      iframe.actividadmoodle {
+        height: 500px !important;
+        min-height: 400px !important;
+        max-height: 600px !important;
+      }
+    }
+
+    /* Tablets */
+    @media (min-width: 769px) and (max-width: 1024px) {
+      iframe.actividadmoodle {
+        height: 650px !important;
+      }
+    }
   }
   #biblio li {
     @apply text-ellipsis overflow-hidden;
