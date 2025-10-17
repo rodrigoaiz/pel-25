@@ -42,6 +42,16 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+// Función para cerrar overlay de profesor
+window.closeTeacherOverlay = function(actividadKey) {
+    const overlay = document.getElementById('teacher-overlay-' + actividadKey);
+    if (overlay) {
+        overlay.classList.add('hidden');
+        // Guardar en localStorage que el profesor decidió ver de todos modos
+        localStorage.setItem('teacher-overlay-dismissed-' + actividadKey, 'true');
+    }
+};
+
 // Configuración de iframes de actividad Moodle
 // Los iframes usan altura fija con scroll interno (definido en CSS)
 // No se requiere ajuste dinámico de altura
@@ -53,9 +63,83 @@ document.addEventListener('DOMContentLoaded', function() {
         iframe.onload = function() {
             // El CSS maneja toda la presentación (altura fija + scroll)
             // No se requiere JavaScript para ajustar altura
+            
+            // Detectar si el usuario es profesor
+            checkIfTeacher(iframe);
         };
     });
 });
+
+// Función para detectar si el usuario es profesor en Moodle
+function checkIfTeacher(iframe) {
+    try {
+        // Extraer el ID de actividad del src del iframe
+        const iframeId = iframe.getAttribute('id');
+        if (!iframeId) return;
+        
+        const actividadKey = iframeId.replace('iframe-', '');
+        const overlayId = 'teacher-overlay-' + actividadKey;
+        
+        // Verificar si ya fue descartado en esta sesión
+        if (localStorage.getItem('teacher-overlay-dismissed-' + actividadKey) === 'true') {
+            return;
+        }
+        
+        // Esperar un momento para que Moodle cargue
+        setTimeout(function() {
+            try {
+                // Intentar acceder al contenido del iframe
+                const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                
+                // Buscar indicadores de que es profesor en el DOM de Moodle
+                // Moodle típicamente muestra diferentes elementos para profesores
+                const teacherIndicators = [
+                    '.editing', // Modo edición
+                    '[data-key="editmode"]', // Botón de edición
+                    '.userenrolment', // Gestión de usuarios
+                    '[data-action="grades"]', // Acceso a calificaciones
+                    '.teacherdashboard', // Dashboard de profesor
+                    '#page-mod-quiz-edit', // Edición de quiz
+                    '.tabledividerpolicy', // Permisos de profesor
+                    'a[href*="grade/report"]', // Enlaces a reportes
+                    'a[href*="/course/modedit.php"]' // Editar actividad
+                ];
+                
+                let isTeacher = false;
+                for (let selector of teacherIndicators) {
+                    if (iframeDoc.querySelector(selector)) {
+                        isTeacher = true;
+                        break;
+                    }
+                }
+                
+                // También verificar en el body si tiene clases específicas de profesor
+                const bodyClasses = iframeDoc.body.className;
+                if (bodyClasses.includes('editing') || 
+                    bodyClasses.includes('course-format') ||
+                    iframeDoc.querySelector('[role="teacher"]') ||
+                    iframeDoc.querySelector('.path-mod-quiz .mod_quiz_edit_button')) {
+                    isTeacher = true;
+                }
+                
+                // Mostrar overlay si es profesor
+                if (isTeacher) {
+                    const overlay = document.getElementById(overlayId);
+                    if (overlay) {
+                        overlay.classList.remove('hidden');
+                    }
+                }
+            } catch (e) {
+                // CORS bloqueó el acceso - no podemos verificar
+                // En este caso, no mostramos el overlay para no molestar a estudiantes
+                console.log('No se pudo verificar rol de usuario (CORS)');
+            }
+        }, 1500); // Esperar 1.5 segundos para que Moodle cargue
+        
+    } catch (e) {
+        console.log('Error al verificar rol de profesor:', e);
+    }
+}
 
 // Ajustar la altura de los iframes con la clase "actividadh5p"
 document.addEventListener('DOMContentLoaded', function() {

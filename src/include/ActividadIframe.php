@@ -129,8 +129,41 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
     </section>
     <div class="seccion-actividad bg-darkgrey-own/95 py-5">
       <div class="actividad-wrapper max-w-5xl mx-auto">
-        <div class="iframe-container-actividad">
+        <div class="iframe-container-actividad relative">
+          <!-- Overlay para profesores (oculto por defecto) -->
+          <div id="teacher-overlay-<?php echo htmlspecialchars($actividadKey); ?>" 
+               class="teacher-overlay absolute inset-0 bg-orange-own/85 backdrop-blur-sm rounded-lg z-50 hidden">
+            <div class="flex flex-col items-center justify-center h-full p-6 text-center">
+              <div class="bg-white rounded-lg shadow-2xl p-6 md:p-8 max-w-md">
+                <div class="flex justify-center mb-4">
+                  <svg class="w-16 h-16 text-orange-own" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+                  </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">Modo Profesor Detectado</h3>
+                <p class="text-gray-700 mb-4">
+                  Las evaluaciones y actividades deben gestionarse desde la <strong>plataforma Moodle</strong> directamente, no desde este visor de contenido educativo.
+                </p>
+                <p class="text-sm text-gray-600 mb-6">
+                  Este espacio está diseñado para que los estudiantes realicen sus actividades. Para calificar, revisar entregas o gestionar actividades, por favor accede a Moodle.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                  <button onclick="closeTeacherOverlay('<?php echo htmlspecialchars($actividadKey); ?>')" 
+                          class="px-6 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-lg font-medium transition-colors">
+                    Ver de todos modos
+                  </button>
+                  <a href="<?php echo PATH_ACTIVITIES; ?>" 
+                     target="_blank"
+                     class="px-6 py-2 bg-secondary hover:bg-secondary/80 text-white rounded-lg font-medium transition-colors">
+                    Ir a Moodle
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
           <iframe class="w-full actividadmoodle"
+            id="iframe-<?php echo htmlspecialchars($actividadKey); ?>"
             src="<?php echo PATH_ACTIVITIES; ?>mod/<?php echo htmlspecialchars($moduleName); ?>/view.php?id=<?php echo $actividad['id']; ?>&amp;theme=photo"
             scrolling="auto"
             frameborder="0"
