@@ -127,7 +127,7 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
     
     <!-- Contenedor del iframe con background visual -->
     </section>
-    <div class="seccion-actividad bg-azulcla/25 py-5">
+    <div class="seccion-actividad bg-darkgrey-own/95 py-5">
       <div class="actividad-wrapper max-w-5xl mx-auto">
         <div class="iframe-container-actividad">
           <iframe class="w-full actividadmoodle"
