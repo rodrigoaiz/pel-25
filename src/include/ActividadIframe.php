@@ -10,9 +10,8 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
   if (!function_exists('has_capability') || !isset($COURSE)) {
     // Intentar cargar config de Moodle desde diferentes rutas posibles
     $moodleConfigPaths = [
-      dirname(__FILE__) . '/../../../config.php',  // Desde include/ hacia arriba 3 niveles
-      dirname(__FILE__) . '/../../../../config.php',  // 4 niveles
-      dirname(__FILE__) . '/../../config.php',  // 2 niveles
+      dirname(__FILE__) . '/../../config.php',  // Desde include/ hacia root
+      dirname(__DIR__) . '/config.php',
     ];
     
     foreach ($moodleConfigPaths as $ruta) {
