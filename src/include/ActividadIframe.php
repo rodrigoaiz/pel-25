@@ -69,10 +69,13 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
         $roles = get_user_roles($context, $USER->id);
         foreach ($roles as $role) {
           $roleShortname = strtolower($role->shortname);
-          if (strpos($roleShortname, 'teacher') !== false || 
-              strpos($roleShortname, 'profesor') !== false) {
-            $isTeacher = true;
-            break;
+          // Términos comunes para profesores en español e inglés
+          $teacherTerms = ['teacher', 'profesor', 'docente', 'instructor', 'facilitador', 'tutor', 'asesor'];
+          foreach ($teacherTerms as $term) {
+            if (strpos($roleShortname, $term) !== false) {
+              $isTeacher = true;
+              break 2; // Salir de ambos foreach
+            }
           }
         }
       }
