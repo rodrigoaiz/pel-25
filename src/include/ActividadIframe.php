@@ -2,6 +2,11 @@
 
 function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más", $ActividadContent = "")
 {
+  // ===== CONTROL DE OVERLAY DE PROFESOR =====
+  // Cambiar a false para desactivar la detección de profesores
+  $ENABLE_TEACHER_DETECTION = true;
+  // ===========================================
+  
   // Detectar si el usuario es profesor
   global $USER, $COURSE, $DB, $CFG;
   $isTeacher = false;
@@ -49,41 +54,10 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
     }
   }
   
-  // Verificar si el usuario es profesor
+  // NOTA: La detección de profesor se movió después de cargar $actividad
+  // para poder obtener el Course ID correcto desde la actividad de Moodle
   $isTeacher = false;
-  if (function_exists('has_capability') && class_exists('context_course') && isset($COURSE->id)) {
-    try {
-      $context = context_course::instance($COURSE->id);
-      
-      // Método principal: Detección por exclusión
-      // Usuario matriculado que NO puede enviar tareas = Profesor
-      if (function_exists('is_enrolled')) {
-        $isEnrolled = is_enrolled($context, $USER->id);
-        $canSubmit = has_capability('mod/assign:submit', $context);
-        $isTeacher = $isEnrolled && !$canSubmit;
-      }
-      
-      // Método alternativo: Verificar rol directo (backup)
-      if (!$isTeacher && function_exists('get_user_roles')) {
-        $roles = get_user_roles($context, $USER->id);
-        foreach ($roles as $role) {
-          $roleShortname = strtolower($role->shortname);
-          // Términos comunes para profesores en español e inglés
-          $teacherTerms = ['teacher', 'profesor', 'docente', 'instructor', 'facilitador', 'tutor', 'asesor'];
-          foreach ($teacherTerms as $term) {
-            if (strpos($roleShortname, $term) !== false) {
-              $isTeacher = true;
-              break 2; // Salir de ambos foreach
-            }
-          }
-        }
-      }
-      
-    } catch (Exception $e) {
-      // Silenciar errores de detección
-      $isTeacher = false;
-    }
-  }
+
 
   // Obtener la ruta del archivo JSON basado en la URL actual
   $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -120,6 +94,99 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
   $actividad = $menu['actividades'][$actividadKey];
   $moduleName = $actividad['moduleName']; // Recuperar moduleName del JSON
   $iconPath = PATH_ICONS . $moduleName . '.svg';
+  
+  // ==== DETECCIÓN DE PROFESOR (usando Course ID de la actividad) ====
+  $realCourseId = null;
+  if ($ENABLE_TEACHER_DETECTION && isset($actividad['id']) && isset($DB) && isset($USER->id)) {
+    try {
+      global $DB;
+      // Obtener el Course ID desde el módulo de la actividad
+      $cmid = $actividad['id']; // Este es el course module ID
+      $cm = $DB->get_record('course_modules', ['id' => $cmid]);
+      
+      if ($cm && isset($cm->course)) {
+        $realCourseId = $cm->course;
+        
+        // Ahora obtener roles en el curso CORRECTO
+        if (function_exists('get_user_roles') && class_exists('context_course')) {
+          try {
+            $context = context_course::instance($realCourseId);
+            $roles = get_user_roles($context, $USER->id);
+            
+            foreach ($roles as $role) {
+              $roleShortname = strtolower($role->shortname);
+              
+              // Lista de roles que SÍ deben ver el overlay
+              $teacherRoles = ['teacher', 'asesor', 'editingteacher'];
+              
+              // Lista de roles excluidos
+              $excludedRoles = ['student', 'manager'];
+              
+              // Verificar que NO esté excluido
+              $isExcluded = false;
+              foreach ($excludedRoles as $excluded) {
+                if ($roleShortname === $excluded) {
+                  $isExcluded = true;
+                  break;
+                }
+              }
+              
+              // Si no está excluido, verificar si es profesor
+              if (!$isExcluded) {
+                foreach ($teacherRoles as $teacherRole) {
+                  if (strpos($roleShortname, $teacherRole) !== false) {
+                    $isTeacher = true;
+                    break 2;
+                  }
+                }
+              }
+            }
+          } catch (Exception $e) {
+            $isTeacher = false;
+          }
+        }
+      }
+    } catch (Exception $e) {
+      $isTeacher = false;
+    }
+  }
+  
+  // ==== DEBUG (después de detección) ====
+  if ($ENABLE_DEBUG) {
+    echo "<script>";
+    echo "console.log('🔍🔍🔍 TEACHER DETECTION DEBUG 🔍🔍🔍');";
+    echo "console.log('Detection Enabled:', " . json_encode($ENABLE_TEACHER_DETECTION) . ");";
+    echo "console.log('Is Teacher:', " . json_encode($isTeacher) . ");";
+    echo "console.log('User ID:', " . json_encode(isset($USER->id) ? $USER->id : 'N/A') . ");";
+    echo "console.log('Username:', " . json_encode(isset($USER->username) ? $USER->username : 'N/A') . ");";
+    echo "console.log('Activity CM ID:', " . json_encode($actividad['id']) . ");";
+    echo "console.log('Real Course ID:', " . json_encode($realCourseId) . ");";
+    echo "console.log('Global COURSE ID (wrong):', " . json_encode(isset($COURSE->id) ? $COURSE->id : 'N/A') . ");";
+    
+    // Obtener roles para debug
+    if ($realCourseId && isset($DB)) {
+      try {
+        global $DB;
+        $sql = "SELECT r.id, r.name, r.shortname
+                FROM {role_assignments} ra
+                JOIN {role} r ON ra.roleid = r.id
+                JOIN {context} c ON ra.contextid = c.id
+                WHERE ra.userid = :userid 
+                AND c.instanceid = :courseid 
+                AND c.contextlevel = 50";
+        $debugRoles = $DB->get_records_sql($sql, ['userid' => $USER->id, 'courseid' => $realCourseId]);
+        echo "console.log('User Roles in REAL course:', " . json_encode(array_values(array_map(function($r) { 
+          return ['name' => $r->name, 'shortname' => $r->shortname, 'id' => $r->id]; 
+        }, $debugRoles))) . ");";
+      } catch (Exception $e) {
+        echo "console.error('Debug error:', " . json_encode($e->getMessage()) . ");";
+      }
+    }
+    
+    echo "console.log('🔍🔍🔍 END DEBUG 🔍🔍🔍');";
+    echo "</script>";
+  }
+  // ==================================================================
 
   // Mensajes de ayuda contextuales según el tipo de actividad
   $helpMessages = [
@@ -158,6 +225,13 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
 
   if ($actividad) {
 ?>
+    <?php if ($ENABLE_DEBUG): ?>
+    <!-- DEBUG VISUAL INDICATOR -->
+    <div style="position: fixed; top: 10px; right: 10px; background: #ff6b35; color: white; padding: 8px 12px; border-radius: 8px; z-index: 9999; font-family: monospace; font-size: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);">
+      🔍 DEBUG: <?php echo $isTeacher ? '✅ TEACHER' : '❌ NOT TEACHER'; ?> | User: <?php echo isset($USER->username) ? $USER->username : 'N/A'; ?>
+    </div>
+    <?php endif; ?>
+    
     <div data-popover id="popover-help-<?php echo htmlspecialchars($actividadKey); ?>" role="tooltip" class="absolute z-50 invisible inline-block w-[calc(100vw-2rem)] max-w-sm md:max-w-md text-sm text-gray-700 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-xl opacity-0">
       <div class="px-3 md:px-4 py-2 md:py-3 bg-secondary/10 border-b border-gray-200 rounded-t-lg">
         <h3 class="font-semibold text-secondary text-sm md:text-base flex items-center gap-2">
