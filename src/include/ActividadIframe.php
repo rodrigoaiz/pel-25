@@ -216,7 +216,7 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
           <!-- Overlay para profesores (mostrado automáticamente si es profesor) -->
           <?php if ($isTeacher): ?>
           <div id="teacher-overlay-<?php echo htmlspecialchars($actividadKey); ?>" 
-               class="teacher-overlay absolute inset-0 bg-orange-own/85 backdrop-blur-sm rounded-lg z-50"
+               class="teacher-overlay absolute inset-0 bg-orange-own/85 backdrop-blur-sm rounded-lg z-30"
                data-actividad-key="<?php echo htmlspecialchars($actividadKey); ?>">
             <div class="flex flex-col items-center justify-center h-full p-6 text-center">
               <div class="bg-white rounded-lg shadow-2xl p-6 md:p-8 max-w-md">
