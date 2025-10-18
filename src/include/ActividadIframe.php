@@ -2,6 +2,87 @@
 
 function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más", $ActividadContent = "")
 {
+  // Detectar si el usuario es profesor
+  global $USER, $COURSE, $DB, $CFG;
+  $isTeacher = false;
+  
+  // Intentar cargar el contexto de Moodle si no está cargado
+  if (!function_exists('has_capability') || !isset($COURSE)) {
+    // Intentar cargar config de Moodle desde diferentes rutas posibles
+    $moodleConfigPaths = [
+      dirname(__FILE__) . '/../../../config.php',  // Desde include/ hacia arriba 3 niveles
+      dirname(__FILE__) . '/../../../../config.php',  // 4 niveles
+      dirname(__FILE__) . '/../../config.php',  // 2 niveles
+    ];
+    
+    foreach ($moodleConfigPaths as $ruta) {
+      if (file_exists($ruta) && !function_exists('has_capability')) {
+        require_once($ruta);
+        
+        // Intentar require_login si existe
+        if (function_exists('require_login')) {
+          try {
+            require_login();
+          } catch (Exception $e) {
+            // Silenciar errores de autenticación
+          }
+        }
+        break;
+      }
+    }
+  }
+  
+  // Si Moodle se cargó pero falta context_course, intentar cargarlo
+  if (function_exists('has_capability') && !class_exists('context_course')) {
+    // Intentar cargar la clase context manualmente
+    if (isset($CFG->dirroot)) {
+      $context_files = [
+        $CFG->dirroot . '/lib/accesslib.php',
+        $CFG->dirroot . '/lib/classes/context.php',
+        $CFG->dirroot . '/lib/classes/context/course.php',
+      ];
+      
+      foreach ($context_files as $file) {
+        if (file_exists($file)) {
+          require_once($file);
+        }
+      }
+    }
+  }
+  
+  // Verificar si el usuario es profesor
+  $isTeacher = false;
+  if (function_exists('has_capability') && class_exists('context_course') && isset($COURSE->id)) {
+    try {
+      $context = context_course::instance($COURSE->id);
+      
+      // Método principal: Detección por exclusión
+      // Usuario matriculado que NO puede enviar tareas = Profesor
+      if (function_exists('is_enrolled')) {
+        $isEnrolled = is_enrolled($context, $USER->id);
+        $canSubmit = has_capability('mod/assign:submit', $context);
+        $isTeacher = $isEnrolled && !$canSubmit;
+      }
+      
+      // Método alternativo: Verificar rol directo (backup)
+      if (!$isTeacher && function_exists('get_user_roles')) {
+        $roles = get_user_roles($context, $USER->id);
+        foreach ($roles as $role) {
+          $roleShortname = strtolower($role->shortname);
+          if (strpos($roleShortname, 'teacher') !== false || 
+              strpos($roleShortname, 'profesor') !== false) {
+            $isTeacher = true;
+            break;
+          }
+        }
+      }
+      
+    } catch (Exception $e) {
+      // Silenciar errores de detección
+      $isTeacher = false;
+    }
+  }
+
   // Obtener la ruta del archivo JSON basado en la URL actual
   $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
   $pathSegments = explode('/', trim($urlPath, '/'));
@@ -130,9 +211,11 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
     <div class="seccion-actividad bg-darkgrey-own/95 py-5">
       <div class="actividad-wrapper max-w-5xl mx-auto">
         <div class="iframe-container-actividad relative">
-          <!-- Overlay para profesores (oculto por defecto) -->
+          <!-- Overlay para profesores (mostrado automáticamente si es profesor) -->
+          <?php if ($isTeacher): ?>
           <div id="teacher-overlay-<?php echo htmlspecialchars($actividadKey); ?>" 
-               class="teacher-overlay absolute inset-0 bg-orange-own/85 backdrop-blur-sm rounded-lg z-50 hidden">
+               class="teacher-overlay absolute inset-0 bg-orange-own/85 backdrop-blur-sm rounded-lg z-50"
+               data-actividad-key="<?php echo htmlspecialchars($actividadKey); ?>">
             <div class="flex flex-col items-center justify-center h-full p-6 text-center">
               <div class="bg-white rounded-lg shadow-2xl p-6 md:p-8 max-w-md">
                 <div class="flex justify-center mb-4">
@@ -140,12 +223,12 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
                   </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">Modo Profesor Detectado</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">⚠️ Acceso como Profesor</h3>
                 <p class="text-gray-700 mb-4">
-                  Las evaluaciones y actividades deben gestionarse desde la <strong>plataforma Moodle</strong> directamente, no desde este visor de contenido educativo.
+                  <strong>No intente calificar ni gestionar actividades desde aquí.</strong> Este visor de contenido es exclusivo para estudiantes.
                 </p>
                 <p class="text-sm text-gray-600 mb-6">
-                  Este espacio está diseñado para que los estudiantes realicen sus actividades. Para calificar, revisar entregas o gestionar actividades, por favor accede a mediante la interfaz de Moodle.
+                  Para revisar entregas, calificar o administrar actividades, debe acceder directamente a la <strong>plataforma Moodle</strong> mediante su interfaz de gestión.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-3 justify-center">
                   <button onclick="closeTeacherOverlay('<?php echo htmlspecialchars($actividadKey); ?>')" 
@@ -161,6 +244,7 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
               </div>
             </div>
           </div>
+          <?php endif; ?>
           
           <iframe class="w-full actividadmoodle"
             id="iframe-<?php echo htmlspecialchars($actividadKey); ?>"

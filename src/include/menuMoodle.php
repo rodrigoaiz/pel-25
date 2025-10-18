@@ -6,7 +6,7 @@ $configPaths = [
 ];
 
 $configLoaded = false;
-$saludo = "Invitado Con Un buen De Apellidos";
+$saludo = "Invitado";
 
 foreach ($configPaths as $ruta) {
   if (file_exists($ruta)) {
@@ -15,6 +15,7 @@ foreach ($configPaths as $ruta) {
     
     // Solo intentar require_login si estamos en entorno Moodle
     if (function_exists('require_login')) {
+      global $USER; // ← Aquí dentro del if donde se usa
       require_login();
       if (isset($USER->firstname) && isset($USER->lastname)) {
         $saludo = $USER->firstname . " " . $USER->lastname;
