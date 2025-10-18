@@ -39,7 +39,7 @@ ob_start();
 
    <div class="mx-auto max-w-md">
     <?php
-      renderImage('q3-u2-q3-u2-bunam.webp','','https://alianza.bunam.unam.mx/cch/los-metales-y-los-no-metales/','Los metales y los no metales')
+      renderImage('q3-u2-bunam.webp','','https://alianza.bunam.unam.mx/cch/los-metales-y-los-no-metales/','Los metales y los no metales')
   ?>
   </div>
 

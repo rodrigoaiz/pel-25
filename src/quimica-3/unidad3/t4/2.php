@@ -13,13 +13,9 @@ ob_start();
   <h2>Equilibrio químico</h2>
   <h3>Ácidos y bases</h3>
 
-  <?= TabsComponent([
-    'tabs' => [
-      [
-        'id' => 'acidos',
-        'label' => 'Ácidos',
-        'content' =>
-        '<div class="grid grid-cols-3 gap-4">
+  <div class="flex">
+
+  <div class="grid grid-cols-3 gap-4">
                     <div class="pt-8 pl-4">
                 <img class="mx-auto" src="../../assets/img/q3-u3-clorhidrico.webp" />
                 <img class="mx-auto" src="../../assets/img/q3-u3-acetico.webp" />
@@ -33,10 +29,9 @@ ob_start();
                         <p>¿Cómo podemos identificar cada solución usando nuestro conocimiento del equilibrio químico?</p>
                        
                     </div>
-                </div>'
-      ]
-    ],
-  ]) ?>
+                </div>
+
+  </div>
   
   <p>Para ello, primero debemos comprender algunos conceptos que se encuentran en el siguiente video. Te recomendamos agregar subtítulos para traducir el audio. </p>
 

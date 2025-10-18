@@ -12,13 +12,9 @@ ob_start();
 <section>
   <h2>Reacción química</h2>
 
-  <?= TabsComponent([
-    'tabs' => [
-      [
-        'id' => 'ReaccionQuimica',
-        'label' => 'Reacción Química',
-        'content' =>
-        '<div class="grid grid-cols-3 gap-4">
+  <div class="flex">
+
+  <div class="grid grid-cols-3 gap-4">
                     <div class="pt-8 pl-4">
                 <a href="https://portalacademico.cch.unam.mx/alumno/quimica1 "><img class="mx-auto" src="../../assets/img/q3-u3-reaccion.webp" /></a>
                 </div>
@@ -32,10 +28,9 @@ ob_start();
 
                         <p>En consecuencia, durante las reacciones químicas los átomos o moléculas participantes pierden (liberan) o ganan (absorben) energía.</p>
                     </div>
-                </div>'
-      ]
-    ],
-  ]) ?>
+                </div>
+
+  </div>
 
     <h2>Rapidez de reacción</h2>
 
@@ -43,9 +38,12 @@ ob_start();
 
   <p>Lo anterior se describe en la siguiente gráfica general.</p>
 
+
+    <div class="mx-auto max-w-md">
    <?php
   renderImage('q3-u3-grafica.webp', 'Velocidad de una reacción Concentración vs Tiempo de reacción.');
   ?>
+  </div>
 
   <p>Se debe especificar que antes se conocía este concepto como “velocidad de reacción”, pero actualmente se maneja el término “rapidez de reacción”. Así,  se evita la connotación vectorial de la palabra "velocidad" que implica una dirección. La rapidez de reacción es una magnitud escalar que mide cómo cambia la concentración de los reactivos o productos en un determinado intervalo de tiempo, enfocándose solo en la magnitud del cambio y no en la dirección, lo que la hace más adecuada para describir los procesos químicos.</p>
 

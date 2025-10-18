@@ -14,7 +14,7 @@ ob_start();
   
   <p>hacer imagen H5P</p>
 
-  <a href="https://pruebat.org/SaberMas/MiClase/inicia/33651/1379e80900440806062058c70abb0114/449163">Rapidez de las reacciones químicas</a>
+  <p class="text-center"><a href="https://pruebat.org/SaberMas/MiClase/inicia/33651/1379e80900440806062058c70abb0114/449163">Rapidez de las reacciones químicas</a></p>
 
   <p>A continuación, entra al simulador “Reaction rates” y observa a través de la representación gráfica cómo afecta los cambios de los factores como la concentración, la temperatura o el área de superficie de los reactivos, así como la adición de un catalizador en la reacción a través de esta simulación, mientras se compara con una reacción “control”. </p>
 
@@ -34,7 +34,7 @@ ob_start();
 
   <div class="mx-auto max-w-md">
     <?php
-      renderImage('q3-u2-simulador.webp','Reacción de desplazamiento simple','','https://teachchemistry.org/classroom-resources/reaction-rates-simulation',' Simulador Rapidez de reacción')
+      renderImage('q3-u3-simulador.webp','Reacción de desplazamiento simple','','https://teachchemistry.org/classroom-resources/reaction-rates-simulation',' Simulador Rapidez de reacción')
   ?>
   </div>
 

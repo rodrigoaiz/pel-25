@@ -30,11 +30,11 @@ ob_start();
 
   <p>En el video del proceso de extracción del hierro y el acero, se llevan a cabo diferentes procesos, algunos tienen cambios físicos, pero en otros se observan reacciones de transformación de la materia. </p>
 
-   <div class="mx-auto max-w-md">
+   
     <?php
-      renderImage('q3-u2-tabla.webp','Reacciones que se llevan a cabo en obtención del hierro, Chang (2017)');
+      renderImage('q3-u2-tabla.png','Reacciones que se llevan a cabo en obtención del hierro, Chang (2017)');
     ?>
-  </div>
+  
 
   <p>Como se había mencionado, los procesos de extracción y refinamiento de los metales dependen de su reactividad y propiedades de cada elemento. Así pues, algunos deben pasar por ciertos procedimientos sencillos, mientras que otros requieren de metodologías más complejas.
 </p>
@@ -44,7 +44,7 @@ ob_start();
 
   <div class="mx-auto max-w-md">
     <?php
-      renderImage('q3-u2-estabilidad.webp','Estabilidad entre metales y sus compuestos. Lira Vázquez, G.(2018)')
+      renderImage('q3-u2-estabilidad.png','Estabilidad entre metales y sus compuestos. Lira Vázquez, G.(2018)')
   ?>
   </div>
 

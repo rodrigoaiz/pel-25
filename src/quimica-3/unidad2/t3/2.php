@@ -41,11 +41,11 @@ ob_start();
 
   <p>¿Son posibles las siguientes reacciones químicas?</p>
 
-   <div class="mx-auto max-w-md">
+   
     <?php
-      renderImage('q3-u2-imposible.webp','Reacciones posibles o no posibles')
+      renderImage('q3-u2-imposible.png','Reacciones posibles o no posibles')
   ?>
-  </div>
+  
 
   <p>Como puedes observar, la serie electromotriz es una herramienta que permite predecir si una reacción química es posible o no. Ahora es momento de aplicar lo que has aprendido. Realiza la actividad Predicción de reacción y ecuación química.</p>
 

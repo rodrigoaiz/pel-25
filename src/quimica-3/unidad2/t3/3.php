@@ -21,13 +21,10 @@ ob_start();
 
   <p>Ingresa a la siguiente página en la cual se explica con mayor detenimiento cada una de las propiedades periódicas y realiza la actividad de autoevaluación para la comprensión del tema.</p>
 
-  <?php
-  renderVideoIframe('alHcrYWfQns', 'Propiedades periódicas');
-  ?>
 
   <div class="mx-auto max-w-md">
     <?php
-      renderImage('q3-u2-bunam.webp','Propiedades periódicas (lectura)', 'https://alianza.bunam.unam.mx/cch/propiedades-periodicas/');
+      renderImage('q3-u2-bunam.webp','', 'https://alianza.bunam.unam.mx/cch/propiedades-periodicas/', 'Propiedades periódicas (lectura)');
   ?>
   </div>
 

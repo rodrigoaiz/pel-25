@@ -14,19 +14,15 @@ ob_start();
   <h3>Grado de ionización y Ka</h3>
 
   <p>Recientemente en el laboratorio virtual, realizaste experimentos para determinar el grado de ionización de diferentes ácidos, observando que algunos se ionizan completamente mientras que otros no. Ahora, te preguntas qué determina este comportamiento y cómo se puede cuantificar la fuerza de un ácido más allá de la simple observación.</p>
+  
 
-  <?= TabsComponent([
-    'tabs' => [
-      [
-        'id' => 'acidos',
-        'label' => 'Ácidos',
-        'content' =>
-        '<div class="grid grid-cols-3 gap-4">
+  <div class="flex">
+  <div class="grid grid-cols-3 gap-4">
                     <div class="pt-8 pl-4">
                 <img class="mx-auto" src="../../assets/img/q3-u3-medi.webp" />
                 </div>
 
-                    <div class="col-span-2 text-2xl leading-6">
+                    <div class="col-span-2 text-xl leading-6">
                         
                         <p>Ahora imagina que estás trabajando en el desarrollo de un nuevo medicamento que necesita un pH muy específico para ser efectivo.</p>
                         <p>Se te ha proporcionado una selección de ácidos para ajustar el pH de la solución del medicamento, pero necesitas elegir el ácido adecuado basándote en su grado de ionización y su constante de acidez (Ka).</p>
@@ -34,10 +30,9 @@ ob_start();
                         <p>¿Cómo decidirías cuál ácido utilizar para lograr la precisión requerida en el pH?</p>
                        
                     </div>
-                </div>'
-      ]
-    ],
-  ]) ?>
+                </div>
+  </div>
+
 
   <h3>Explicación de Conceptos</h3>
 
@@ -53,7 +48,7 @@ ob_start();
 
   <div class="mx-auto max-w-md">
     <?php
-      renderImage('q3-u3-tabla.webp','Esta tabla está ordenada de acuerdo al grado de ionización y la constante de acidez (Ka) de mayor a menor.')
+      renderImage('q3-u3-tabla.png','Esta tabla está ordenada de acuerdo al grado de ionización y la constante de acidez (Ka) de mayor a menor.')
     ?>
   </div>
 
