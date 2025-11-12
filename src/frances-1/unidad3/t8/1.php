@@ -18,38 +18,38 @@ ob_start();
         <div class="col-span-5 font-bold text-center bg-purple-500 text-white p-1">Ètre (je suis… / Il/Elle est…)</div>
         <div class="col-start-2 bg-purple-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-07-se-reveiller.webp');
+            renderImage('fr1u3a2p03-02-blanche.webp');
             ?>
             <p class="text-purple-700 text-center leading-none">Blanc / blanche</p>
         </div>
         <div class="bg-purple-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-08-se-lever.webp');
+            renderImage('ffr1u3a2p03-03-brune.webp');
             ?>
             <p class="text-purple-700 text-center leading-none">Brun / brune</p>
         </div>
         <div class="bg-purple-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-09-se-doucher.webp');
+            renderImage('fr1u3a2p03-04-noire.webp');
             ?>
             <p class="text-purple-700 text-center leading-none">Noir / noire</p>
         </div>
         <div class="col-span-5 font-bold text-center bg-cyan-500 text-white p-1">Les cheveux</div>
         <div class="bg-cyan-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-12-se-brosser-dents.webp');
+            renderImage('fr1u3a2p03-05-cheveux.webp');
             ?>
             <p class="text-cyan-700 text-center leading-none">Avoir les cheveux longs // mi- longs // courts</p>
         </div>
         <div class="bg-cyan-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-13-se-coiffer.webp');
+            renderImage('fr1u3a2p03-06-cheveux-frise.webp');
             ?>
             <p class="text-cyan-700 text-center leading-none">Avoir les cheveux Raides // Frisés // Bouclés // Ondulés</p>
         </div>
         <div class="bg-cyan-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-14-se-maquiller.webp');
+            renderImage('fr1u3a2p03-07-cheveux-fonces.webp');
             ?>
             <p class="text-cyan-700 text-center leading-none">Être Brun / brune Avoir les cheveux foncés
             </p>
@@ -63,92 +63,92 @@ ob_start();
 
         <div class="bg-cyan-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-22-dejeuner-manger.webp');
+            renderImage('fr1u3a2p03-08-roux.webp');
             ?>
             <p class="text-cyan-700 text-center leading-none">Être Roux (Rousse)</p>
         </div>
         <div class="bg-cyan-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-23-faire-devoirs.webp');
+            renderImage('fr1u3a2p03-09-blancs.webp');
             ?>
             <p class="text-cyan-700 text-center leading-none">Avoir les cheveux blancs</p>
         </div>
         <div class="bg-cyan-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-24-faire-courses.webp');
+            renderImage('fr1u3a2p03-10-chauve.webp');
             ?>
             <p class="text-cyan-700 text-center leading-none">Être Chauve</p>
         </div>
         <div class="bg-cyan-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-25-ranger-les-affaires.webp');
+            renderImage('fr1u3a2p03-11-teints.webp');
             ?>
             <p class="text-cyan-700 text-center leading-none">Avoir les cheveux teints en…</p>
         </div>
         <div class="bg-cyan-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-26-faire-menage.webp');
+            renderImage('fr1u3a2p03-12-dreadlocks.webp');
             ?>
             <p class="text-cyan-700 text-center leading-none">Avoir de dreadlocks</p>
         </div>
         <div class="col-span-5 font-bold text-center bg-purple-500 text-white p-1">Les yeux (Avoir les yeux…)</div>
         <div class="col-start-1 bg-purple-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-17-aller-travail.webp');
+            renderImage('fr1u3a2p03-13-yeux-bleus.webp');
             ?>
             <p class="text-purple-700 text-center leading-none">Bleus</p>
         </div>
         <div class="bg-purple-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-18-arriver-travail.webp');
+            renderImage('fr1u3a2p03-14-yeux-gris.webp');
             ?>
             <p class="text-purple-700 text-center leading-none">Gris</p>
         </div>
         <div class="bg-purple-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-19-travailler.webp');
+            renderImage('fr1u3a2p03-15-yeux-verts.webp');
             ?>
             <p class="text-purple-700 text-center leading-none">Verts</p>
         </div>
         <div class="bg-purple-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-20-etudier.webp');
+            renderImage('fr1u3a2p03-15-yeux-noirs.webp');
             ?>
             <p class="text-purple-700 text-center leading-none">Noirs</p>
         </div>
         <div class="bg-purple-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-21-retourner-rentre.webp');
+            renderImage('fr1u3a2p03-17-yeux-marron.webp');
             ?>
             <p class="text-purple-700 text-center leading-none">Marron</p>
         </div>
         <div class="col-start-1 bg-purple-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-17-aller-travail.webp');
+            renderImage('fr1u3a2p03-18-yeux-clairs-fonces.webp');
             ?>
             <p class="text-purple-700 text-center leading-none">Clairs // Foncés</p>
         </div>
         <div class="bg-purple-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-18-arriver-travail.webp');
+            renderImage('fr1u3a2p03-19-yeux-vaires.webp');
             ?>
             <p class="text-purple-700 text-center leading-none">Vairons</p>
         </div>
         <div class="bg-purple-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-19-travailler.webp');
+            renderImage('fr1u3a2p03-19-yeux-grandes-petits.webp');
             ?>
             <p class="text-purple-700 text-center leading-none">Avoir des grands yeux // Avoir des petits yeux</p>
         </div>
         <div class="bg-purple-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-20-etudier.webp');
+            renderImage('fr1u3a2p03-20-yeux-rondes.webp');
             ?>
             <p class="text-purple-700 text-center leading-none">Ronds</p>
         </div>
         <div class="bg-purple-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-21-retourner-rentre.webp');
+            renderImage('fr1u3a2p03-21-yeux-brides.webp');
             ?>
             <p class="text-purple-700 text-center leading-none">Bridés</p>
         </div>
@@ -349,6 +349,63 @@ ob_start();
             renderImage('fr1u2a2p5-07-se-reveiller.webp');
             ?>
             <p class="text-purple-700 text-center leading-none">Être joufflu(e)</p>
+        </div>
+    </div>
+    <div class="grid grid-cols-6 gap-2 mt-2">
+        <div class="col-span-6 font-bold text-center bg-cyan-500 text-white p-1">Être</div>
+        <div class="bg-cyan-500/30 px-4">
+            <?php
+            renderImage('fr1u2a2p5-32-reseaux-socieux.webp');
+            ?>
+            <p class="text-cyan-700 text-center leading-none">Rond</p>
+        </div>
+        <div class="bg-cyan-500/30 px-4">
+            <?php
+            renderImage('fr1u2a2p5-33-jouer-console.webp');
+            ?>
+            <p class="text-cyan-700 text-center leading-none">Ovale</p>
+        </div>
+        <div class="bg-cyan-500/30 px-4">
+            <?php
+            renderImage('fr1u2a2p5-34-promener-chien.webp');
+            ?>
+            <p class="text-cyan-700 text-center leading-none">Carré</p>
+        </div>
+        <div class="bg-cyan-500/30 px-4">
+            <?php
+            renderImage('fr1u2a2p5-35-regarder-tele.webp');
+            ?>
+            <p class="text-cyan-700 text-center leading-none">Triangulaire</p>
+        </div>
+        <div class="bg-cyan-500/30 px-4">
+            <?php
+            renderImage('fr1u2a2p5-36-lire.webp');
+            ?>
+            <p class="text-cyan-700 text-center leading-none">Rectangulaire</p>
+        </div>
+        <div class="bg-cyan-500/30 px-4">
+            <?php
+            renderImage('fr1u2a2p5-36-lire.webp');
+            ?>
+            <p class="text-cyan-700 text-center leading-none">Allongé</p>
+        </div>
+        <div class="col-start-2 bg-blue-500/30 px-4">
+            <?php
+            renderImage('fr1u2a2p5-36-lire.webp');
+            ?>
+            <p class="text-blue-700 text-center leading-none">Porter la barbe</p>
+        </div>
+        <div class="bg-blue-500/30 px-4">
+            <?php
+            renderImage('fr1u2a2p5-36-lire.webp');
+            ?>
+            <p class="text-blue-700 text-center leading-none">Porter la moustache</p>
+        </div>
+        <div class="bg-blue-500/30 px-4">
+            <?php
+            renderImage('fr1u2a2p5-36-lire.webp');
+            ?>
+            <p class="text-blue-700 text-center leading-none">Porter des lunettes</p>
         </div>
     </div>
 

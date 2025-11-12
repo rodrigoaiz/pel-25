@@ -25,7 +25,7 @@ ob_start();
         <div class="grid grid-cols-4 gap-6">
             <div class="col-span-1 mt-10">
                 <?php
-                renderImage('u3t7p1-img1-canton-de-friburgo.webp');
+                renderImage('fr1u3a2p02-01-canton-(1).webp');
                 ?>
             </div>
 

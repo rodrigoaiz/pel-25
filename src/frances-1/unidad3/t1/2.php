@@ -34,61 +34,61 @@ ob_start();
     <div class="grid grid-cols-5 gap-2">
         <div class="bg-lime-500/30 px-6">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u3a1p01-01chien.webp');
             ?>
             <p class="text-lime-700 text-center leading-none">Un chien</p>
         </div>
         <div class="bg-lime-500/30 px-6">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u3a1p01-02chat.webp');
             ?>
             <p class="text-lime-700 text-center leading-none">Un chat</p>
         </div>
         <div class="bg-lime-500/30 px-6">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u3a1p01-03hamster.webp');
             ?>
             <p class="text-lime-700 text-center leading-none">Un hamster</p>
         </div>
         <div class="bg-lime-500/30 px-6">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u3a1p01-04perroquet.webp');
             ?>
             <p class="text-lime-700 text-center leading-none">Un perroquet</p>
         </div>
         <div class="bg-lime-500/30 px-6">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u3a1p01-05lapin.webp');
             ?>
             <p class="text-lime-700 text-center leading-none">Un lapin</p>
         </div>
         <div class="bg-teal-500/30 px-6">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u3a1p01-06poisson.webp');
             ?>
             <p class="text-teal-700 text-center leading-none">Un poisson rouge</p>
         </div>
         <div class="bg-teal-500/30 px-6">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u3a1p01-07oiseau.webp');
             ?>
             <p class="text-teal-700 text-center leading-none">Un oiseau</p>
         </div>
         <div class="bg-teal-500/30 px-6">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u3a1p01-08cobaye.webp');
             ?>
-            <p class="text-teal-700 text-center leading-none">Un cochon d’Inde / Une cobaye</p>
+            <p class="text-teal-700 text-center leading-none">Un cochon d'Inde / Une cobaye</p>
         </div>
         <div class="bg-teal-500/30 px-6">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u3a1p01-09furet.webp');
             ?>
             <p class="text-teal-700 text-center leading-none">Un furet</p>
         </div>
         <div class="bg-teal-500/30 px-6">
             <?php
-            renderImage('f1u2t1p3img1.webp');
+            renderImage('fr1u3a1p01-10tortue.webp');
             ?>
             <p class="text-teal-700 text-center leading-none">Une tortue</p>
         </div>
