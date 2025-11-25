@@ -7,10 +7,10 @@
       "nombre": "Unidad 1",
       "temas": [
         {"nombre": "La salud como proceso biopsicosocial", "url": "/ciencias-salud/unidad1/t1", "paginas": 2},
-        {"nombre": "Identifica al ser humano como unidad biopsicosocial", "url": "/ciencias-salud/unidad1/t2", "paginas": 4},
+        {"nombre": "Identifica al ser humano como unidad biopsicosocial", "url": "/ciencias-salud/unidad1/t2", "paginas": 3},
         {"nombre": "Derecho a la Salud", "url": "/ciencias-salud/unidad1/t3", "paginas": 1},
-        {"nombre": "Paradigmas sobre el binomio salud-enfermedad", "url": "/ciencias-salud/unidad1/t4", "paginas": 5},
-        {"nombre": "Las ciencias de la salud", "url": "/ciencias-salud/unidad1/t5", "paginas": 5},
+        {"nombre": "Paradigmas sobre el binomio salud-enfermedad", "url": "/ciencias-salud/unidad1/t4", "paginas": 2},
+        {"nombre": "Las ciencias de la salud", "url": "/ciencias-salud/unidad1/t5", "paginas": 1},
         {"nombre": "Esquema de la historia natural de la enfermedad", "url": "/ciencias-salud/unidad1/t6", "paginas": 1}
 
       ]
