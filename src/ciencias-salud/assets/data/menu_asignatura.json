@@ -21,9 +21,9 @@
       "nombre": "Unidad 2",
       "temas": [
         {"nombre": "Investigación en Salud", "url": "/ciencias-salud/unidad2/t1", "paginas": 2},
-        {"nombre": "Métodos de investigación en salud", "url": "/ciencias-salud/unidad2/t2", "paginas": 4},
-        {"nombre": "El método epidemiológico base de la investigación en salud pública", "url": "/ciencias-salud/unidad2/t3", "paginas": 3},
-        {"nombre": "Diseño de protocolos de investigación", "url": "/ciencias-salud/unidad2/t4", "paginas": 4}
+        {"nombre": "Métodos de investigación en salud", "url": "/ciencias-salud/unidad2/t2", "paginas": 2},
+        {"nombre": "El método epidemiológico base de la investigación en salud pública", "url": "/ciencias-salud/unidad2/t3", "paginas": 1},
+        {"nombre": "Diseño de protocolos de investigación", "url": "/ciencias-salud/unidad2/t4", "paginas": 1}
       ]
     },
     "Unidad 3": {
