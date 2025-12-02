@@ -1,24 +1,32 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ImagenPie.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Emociones</h2>
-    <p>Las <strong>emociones</strong> son parte fundamental de la experiencia humana, influyendo en nuestras decisiones, relaciones y <strong>bienestar general.</strong> Desde la <strong>alegría y la tristeza</strong> hasta <strong>el miedo y la ira,</strong> cada emoción cumple un papel esencial en nuestra vida diaria. Este tema tiene como objetivo explorar la naturaleza de las emociones, su <strong>impacto en nuestro comportamiento</strong> y cómo podemos gestionarlas de <strong>manera efectiva.</strong> A través de una serie de actividades, buscaremos entender no solo las bases biológicas y psicológicas de las emociones, sino también su expresión cultural y social. Para ello revisa la siguiente infografía:
-    </p>
-    <div class="max-w-2xl mx-auto">
-        <?php
-        renderImage('u1t2_infografia_emociones.webp');
-        ?>
-    </div>
-    
+  <h2>Revisión de contenidos</h2>
+  <p>En la siguiente <span class="text-violet-400 font-bold">Presentación Interactiva</span> encontrarás contenidos y actividades relacionadas con los temas que se abordan en la unidad. A través de ellas podrás reflexionar, participar activamente y prepararte para comprender mejor los contenidos que trabajaremos. Revisa cada sección con atención y no olvides realizar todas las actividades.</p>
 </section>
-
+<div class="max-w-7xl mx-auto">
+  <div class="aspect-video h-0 py-0 relative" style="padding-bottom: 56.25%;">
+    <iframe
+      title="Presentación Interactiva"
+      frameborder="0"
+      width="100%"
+      height="100%"
+      class="absolute top-0 left-0 w-full h-full"
+      src="https://pel.cch.unam.mx/programas/unidad1/index_local.html"
+      type="text/html"
+      allowscriptaccess="always"
+      allowfullscreen="true"
+      scrolling="yes"
+      allownetworking="all">
+    </iframe>
+  </div>
+</div>
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);

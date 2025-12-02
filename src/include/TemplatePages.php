@@ -3,8 +3,7 @@ include_once dirname(__DIR__) . '/config.php';
 if (!isset($include_latex)) {
   $include_latex = false;
 }
-include PATH_INCLUDE . 'header1.php';
-include PATH_INCLUDE . 'MenuUnidades.php';
+include_once PATH_INCLUDE . 'MenuUnidades.php';
 
 
 function getMenuAsignaturaPath($urlPath)
@@ -16,6 +15,12 @@ function getMenuAsignaturaPath($urlPath)
 
 function renderTemplatePage($menuAsignaturaPath, $content)
 {
+  // Hacer la variable $include_latex disponible en el scope de la función
+  global $include_latex;
+  
+  // Incluir header solo cuando se renderiza la página
+  include PATH_INCLUDE . 'header1.php';
+  
   // Renderizar el menú
   renderMenuUnidades($menuAsignaturaPath);
 ?>

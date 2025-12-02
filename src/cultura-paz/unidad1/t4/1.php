@@ -2,34 +2,25 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'Videos.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
-
+include PATH_INCLUDE . 'ImagenFullPleca.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Límites y consentimiento en la convivencia</h2>
-    <p>En la <strong>convivencia</strong>, ya sea en el hogar, en la escuela o en círculos sociales, <strong>comunicar de manera efectiva límites claros,</strong> así como entender el concepto de <strong>consentimiento</strong> son fundamentales para crear un ambiente de <strong>respeto y armonía</strong>. Estos elementos no solo promueven relaciones saludables, sino que también <strong>son esenciales para prevenir conflictos y malentendidos.</strong> Revisa el siguiente video que te explica los tipos de límites y como ponerlos:</p>
+    <h2>Empatía, escucha activa y comunicación asertiva</h2>
+    <?php
+    renderImagePleca('u1t3p07-escucha.webp');
+    ?>
+    <p>En este apartado, revisaremos lo que es la <strong>empatía, la escucha activa</strong> y la <strong>comunicación asertiva,</strong> son muy importantes para poder tener una convivencia sana y poder resolver conflictos de una manera <strong>no violenta.</strong></p>
+    <p><strong>La empatía</strong> es la capacidad de <strong>conectarse emocionalmente</strong> con las y los demás individuos, porque permite reconocer, compartir y entender los sentimientos y los estados de ánimo y otros seres humanos; Cuando hablamos de <strong>escucha activa</strong> nos referimos a una manera de comunicarnos en donde se pretende hacerle saber a la persona que nos está comunicando algo que realmente se le está atendiendo y comprendiendo; La <strong>comunicación asertiva</strong> se refiere a las <strong>habilidades comunicativas</strong> necesarias para transmitir ideas, percepciones, sentimientos <strong>sin vulnerar el bienestar y los derechos de los demás.</strong></p>
+    <p>Revisa el siguiente video que explica la escucha activa y cómo puedes mejorarla:</p>
     <div class="max-w-xl mx-auto">
         <?php
-        renderVideoIframe('5k4WmFb0al4', 'Como poner (y no poner) límites');
+        renderVideoIframe('WbWQe6-74OY', '¿Qué es la escucha activa? 5 formas de mejorarla.');
         ?>
     </div>
-    <p class="mt-2">Para concluir con esta unidad pon en práctica lo aprendido realizando la siguiente actividad:</p>
-    <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
-        <li>Descarga el formato: <a href="<?php echo PATH_DOCS . 'act-2-cuadro-trabajo-situaciones-comparativas.docx'; ?>" target="_blank">act-2-cuadro-trabajo-situaciones-comparativas</a>.</li>
-        <li>Responde las preguntas de la tabla.</li>
-        <li>Guarda tu archivo y súbelo.</li>
-    </ol>
-    <?php ob_start(); ?>
-    <p>Sube aquí tu trabajo.</p>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividad('u1t1a2', "Cuadro de trabajo: Emociones, límites y consentimiento en la convivencia.", $ActividadContent);
-    ?>
 </section>
 
 <?php

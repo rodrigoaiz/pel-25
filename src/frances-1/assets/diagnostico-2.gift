@@ -1,0 +1,93 @@
+::frances1_U2_R1::
+\n-___________?\n- Je suis étudiant. {
+~Qu'est-ce que tu fais dans ton école?
+~Où est-ce que tu étudies?
+~Qu'est-ce que tu étudies?
+=Qu'est-ce que tu fais dans la vie?
+}
+
+::frances1_U2_R2::
+Para decir tu nombre en francés, dices {
+~J'ai
+~Mon nom de famille est
+~J'aime
+=Je m'appelle
+}
+
+::frances1_U2_R3::
+Para indicar tu apellido en francés, dices {
+~J'ai
+=Mon nom de famille est
+~J'aime
+~Je m'appelle
+}
+
+::frances1_U2_R4::
+Indica cuál es la frase correcta. {
+~Bonjour ! Anne-Marie suis-je.
+=Bonjour ! Je m'appelle Anne-Marie.
+~Bonjour ! Je présente-moi \: mon nom suis Anne-Marie.
+~Bonjour ! Est mon nom Anne-Marie.
+}
+
+::frances1_U2_R5::
+Relaciona las actividades que correspondan con cada momento del día.\n
+I. Le matin.   II. À midi.   III. Le soir.\n
+a) je me couche. \n
+b) je me déshabille. \n
+c) je finis mes cours. \n
+d) je prends mon petit déjeuner. \n
+e) je me réveille très tôt. \n
+f) je déjeune avec mes amis. \n
+g) je m'habille rapidement. {
+~l\: a, b, c \; Il \: f, g \; III\: d, e.
+~l\: f, g \; Il\: d, e \; Ill\: a,b,c.
+~I \: d,e \; Il\: a,b, c \; IlI\: f, g.
+=I\: d, e, g \; Il\: c, f \; Ill\: a, b.
+}
+
+::frances1_U2_R6::
+Relaciona cada actividad de la rutina con el reloj que corresponda de acuerdo a la hora en que se llevan a cabo. {
+~I\: d / II\: c / III\: e / IV\: a / V\: b.
+=I\: c / II\:d / III\:e / IV\:b / V\: a.
+~I\: b / II\:d / III\: c / IV\: e / V\: f.
+~I\: c / II\: d / III\: b/ IV\: a / V\: b.
+}
+
+::frances1_U2_R7::
+Después de leer las frases que dictan la hora, relaciona cada una de ellas con la imagen del reloj correspondiente.\n
+I. Il est sept heures moins vingt.\n
+II. Il est sept heures dix.\n
+III. Il est six heures et demie.\n
+IV. Il est sept heures moins cinq.\n
+V. Il est sept heures vingt.\n
+VI. Il est sept heures moins le quart. {
+~I\: b / II\: d / III\: a / IV\: f / V\:c / VI\: e.
+=I\: b / II\: e / III\: a / IV\: d / V\: f/ VI\: c.
+~I\: c / II\: a / III\: b / IV\: e / V\: d / VI\: f.
+~I\: d / II\: a / III\: b / IV\: c / V\: e / VI\: f.
+}
+
+::frances1_U2_R8::
+Observa el siguiente horario escolar y selecciona la respuesta que indique a qué hora es que toca la clase de "chinois". {
+~À midi.
+~À 11 h.
+=À 8h.
+~À 19h.
+}
+
+::frances1_U2_R9::
+¿Con qué actividades comienzas tu rutina escolar? {
+=Se lever\; faire la toilette\; aller à l'école.
+~se déshabiller\; se coucher\; dîner.
+~Se promener\; jouer\; dîner.
+~Regarder la télévision\; écouter de la musique\; faire les devoirs.
+}
+
+::frances1_U2_R10::
+Elige qué actividad recreativa pudieras realizar después de la escuela. {
+~Manger un sandwich.
+=Faire de la natation.
+~Se coucher sur un lit.
+~Déjeuner et dîner en famille.
+}

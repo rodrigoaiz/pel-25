@@ -1,21 +1,41 @@
 <?php
-dirname(__DIR__) . '/config.php';
-$ruta = dirname(__FILE__) . '/../../config.php';
-$saludo = "Invitado Con Un buen De Apellidos";
-if (file_exists($ruta)) {
-  require_once($ruta);
-  require_login();
-  if (isset($USER->firstname) && isset($USER->lastname)) {
-    $saludo = $USER->firstname . " " . $USER->lastname;
+// Intentar cargar config desde diferentes rutas posibles
+$configPaths = [
+  dirname(__FILE__) . '/../../config.php',  // Desde include/ hacia root
+  dirname(__DIR__) . '/config.php',         // Alternativa
+];
+
+$configLoaded = false;
+$saludo = "Invitado";
+
+foreach ($configPaths as $ruta) {
+  if (file_exists($ruta)) {
+    require_once($ruta);
+    $configLoaded = true;
+    
+    // Solo intentar require_login si estamos en entorno Moodle
+    if (function_exists('require_login')) {
+      global $USER; // ← Aquí dentro del if donde se usa
+      require_login();
+      if (isset($USER->firstname) && isset($USER->lastname)) {
+        $saludo = $USER->firstname . " " . $USER->lastname;
+      }
+    }
+    break;
   }
 }
 
-// Ruta al archivo menu.json
-$menuPath = BASE_PATH . '/menu.json';
-$menuData = json_decode(file_get_contents($menuPath), true);
-
-// Obtener el array de menuMoodle
-$menuMoodle = $menuData['menuMoodle'];
+// Solo intentar cargar menu.json si config fue cargado exitosamente
+$menuMoodle = [];
+if ($configLoaded && defined('BASE_PATH')) {
+  $menuPath = BASE_PATH . '/menu.json';
+  if (file_exists($menuPath)) {
+    $menuData = json_decode(file_get_contents($menuPath), true);
+    if ($menuData && isset($menuData['menuMoodle'])) {
+      $menuMoodle = $menuData['menuMoodle'];
+    }
+  }
+}
 ?>
 <nav id="nav-moodle">
   <article>
@@ -29,7 +49,7 @@ $menuMoodle = $menuData['menuMoodle'];
         </span>!
       </div>
       <?php foreach ($menuMoodle as $menuItem): ?>
-        <a href="<?php echo $menuItem['url']; ?>">
+        <a href="<?php echo PATH_SITE . $menuItem['url']; ?>">
           <img class="h-5" src="<?php echo PATH_ICONS . $menuItem['icon']; ?>" alt="<?php echo $menuItem['alt']; ?>">
         </a>
       <?php endforeach; ?>

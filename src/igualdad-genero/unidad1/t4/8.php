@@ -15,7 +15,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Identificar las emociones personales que provoca el reconocimiento del impacto de la masculinidad tradicional en la vida diaria.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Realiza un dibujo físico o digital que plasme los sentires y las sensaciones que te provocó la información obtenida durante este aprendizaje.</li>
         <li>Publica tu dibujo en este foro.</li>
         <li>Revisa los dibujos de al menos dos compañer*s del grupo y deja un comentario sobre su trabajo, teniendo en cuenta que este es un espacio de respeto y seguro para expresar nuestros sentires y sensaciones.</li>

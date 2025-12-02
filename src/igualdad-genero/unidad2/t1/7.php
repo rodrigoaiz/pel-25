@@ -24,7 +24,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Reconocer la violencia de género como un problema de salud pública y su impacto en el bienestar de las personas.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Observa con atención los siguientes videos y toma notas en tu cuaderno de los principales conceptos.</li>
         <li>Después realiza la actividad de memorama , que se encuentra debajo de los videos, para ello tendrás que voltear dos cartas y relacionar correctamente las preguntas y respuestas.</li>
         <li>Una vez que concluyas, continúa con la siguiente actividad.</li>

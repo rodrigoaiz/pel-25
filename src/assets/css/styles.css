@@ -214,6 +214,173 @@ h4 {
     p {
       @apply text-secondary;
     }
+
+    /* Botón de ayuda */
+    .help-button-actividad {
+      @apply flex-shrink-0;
+      animation: pulse-subtle 3s ease-in-out infinite;
+    }
+
+    @keyframes pulse-subtle {
+      0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+      50% {
+        opacity: 0.8;
+        transform: scale(1.05);
+      }
+    }
+
+    .help-button-actividad:hover {
+      animation: none;
+      transform: scale(1.1);
+    }
+  }
+
+  /* Sección completa de la actividad con background */
+  .seccion-actividad {
+    @apply w-full;
+    /* El bg-azulcla/25 ya está aplicado en el HTML */
+  }
+
+  /* Contenedor con max-width para la actividad */
+  .actividad-wrapper {
+    @apply px-2 md:px-4 lg:px-6;
+  }
+
+  /* Contenedor visual del iframe */
+  .iframe-container-actividad {
+    @apply relative;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-radius: 0.75rem;
+    padding: 0.5rem; /* Reducido en móvil */
+    box-shadow: 
+      0 1px 3px 0 rgba(0, 0, 0, 0.1),
+      0 1px 2px 0 rgba(0, 0, 0, 0.06),
+      inset 0 0 0 1px rgba(148, 163, 184, 0.1);
+  }
+
+  .iframe-container-actividad::before {
+    content: '';
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    bottom: 0.25rem;
+    left: 0.25rem;
+    border: 2px dashed rgba(148, 163, 184, 0.2);
+    border-radius: 0.5rem;
+    pointer-events: none;
+  }
+
+  /* Estilos del iframe */
+  iframe.actividadmoodle {
+    @apply w-full relative z-10;
+    /* Altura fija con scroll interno */
+    height: 600px !important;
+    min-height: 500px !important;
+    max-height: 800px !important;
+    
+    /* Permitir scroll interno */
+    overflow: auto !important;
+    
+    /* Estilos visuales mejorados */
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 0.5rem;
+    box-shadow: 
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    
+    /* Transiciones */
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  iframe.actividadmoodle:hover {
+    border-color: #cbd5e1;
+    box-shadow: 
+      0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+
+  iframe.actividadmoodle:focus-within {
+    border-color: #3b82f6;
+    outline: none;
+    box-shadow: 
+      0 0 0 3px rgba(59, 130, 246, 0.1),
+      0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Overlay para profesores */
+  .teacher-overlay {
+    @apply flex items-center justify-center;
+    z-index: 100;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .teacher-overlay .bg-white {
+    animation: slideUp 0.4s ease-out;
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  /* Responsive: Móviles */
+  @media (max-width: 768px) {
+    .iframe-container-actividad {
+      padding: 0.5rem;
+    }
+    
+    .iframe-container-actividad::before {
+      top: 0.25rem;
+      right: 0.25rem;
+      bottom: 0.25rem;
+      left: 0.25rem;
+    }
+
+    iframe.actividadmoodle {
+      height: 500px !important;
+      min-height: 400px !important;
+      max-height: 600px !important;
+    }
+  }
+
+  /* Responsive: Tablets y Desktop */
+  @media (min-width: 769px) {
+    .iframe-container-actividad {
+      padding: 1rem;
+    }
+    
+    .iframe-container-actividad::before {
+      top: 0.5rem;
+      right: 0.5rem;
+      bottom: 0.5rem;
+      left: 0.5rem;
+    }
+  }
+
+  /* Responsive: Tablets */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    iframe.actividadmoodle {
+      height: 650px !important;
+    }
   }
   #biblio li {
     @apply text-ellipsis overflow-hidden;
@@ -360,4 +527,246 @@ Header
   color: #4d4d4d !important;
   font-size: clamp(0.8rem, 1vw, 1.01rem);
   line-height: clamp(1.5rem, 1.6vw, 1.7rem);
+}
+
+/*
+**************************************************
+––––––––––––––––––––––––––––––––––––––––––––––––––
+Timeline (Línea del Tiempo)
+––––––––––––––––––––––––––––––––––––––––––––––––––
+**************************************************
+*/
+.timeline-container {
+  @apply relative max-w-4xl mx-auto mt-10 mb-12;
+  
+  /* Línea central vertical */
+  &::before {
+    content: '';
+    @apply absolute left-1/2 top-0 w-1 h-full bg-gradient-to-b from-secondary via-primary to-tertiary transform -translate-x-1/2 rounded-full;
+    box-shadow: 0 0 20px rgba(49, 148, 148, 0.3);
+  }
+}
+
+.timeline-item {
+  @apply relative mb-12 md:mb-16;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideInUp 0.8s ease-out forwards;
+  
+  &:nth-child(1) { animation-delay: 0.2s; }
+  &:nth-child(2) { animation-delay: 0.4s; }
+  &:nth-child(3) { animation-delay: 0.6s; }
+  &:nth-child(4) { animation-delay: 0.8s; }
+  &:nth-child(5) { animation-delay: 1.0s; }
+}
+
+.timeline-marker {
+  @apply absolute left-1/2 top-6 transform -translate-x-1/2 z-10;
+}
+
+.timeline-dot {
+  @apply w-6 h-6 bg-secondary border-4 border-white rounded-full shadow-lg;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    @apply scale-125;
+    box-shadow: 0 0 25px rgba(49, 148, 148, 0.6);
+  }
+}
+
+.timeline-dot-current {
+  @apply bg-primary;
+  animation: pulse-glow 2s infinite;
+}
+
+.timeline-content {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-6 items-start;
+}
+
+.timeline-left {
+  @apply md:pr-12;
+  
+  .timeline-text {
+    @apply md:text-right md:pr-8;
+  }
+  
+  .timeline-images {
+    @apply md:order-2;
+  }
+}
+
+.timeline-right {
+  @apply md:pl-12;
+  
+  .timeline-text {
+    @apply md:text-left md:pl-8 md:order-2;
+  }
+  
+  .timeline-images {
+    @apply md:order-1;
+  }
+}
+
+.timeline-text {
+  @apply space-y-4;
+  
+  h4 {
+    @apply text-xl md:text-2xl font-titulos font-bold text-darkestblue-own mb-3;
+  }
+  
+  p {
+    @apply text-base md:text-lg leading-relaxed text-gray-700 max-w-none;
+  }
+}
+
+.timeline-images {
+  @apply flex flex-col gap-4;
+}
+
+.timeline-image-item {
+  @apply bg-white rounded-lg shadow-md overflow-hidden border border-gray-200;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    @apply shadow-xl;
+    transform: scale(1.02);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+  }
+}
+
+.timeline-img {
+  @apply w-full object-contain rounded-lg;
+  height: auto;
+  max-height: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+  &:hover {
+    @apply transform scale-105;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.timeline-caption {
+  @apply p-3;
+  background-color: rgba(248, 250, 252, 0.9);
+  border-radius: 0 0 8px 8px;
+  
+  p {
+    @apply text-sm text-gray-600 font-medium leading-relaxed mb-1;
+    
+    &:last-child {
+      @apply mb-0;
+    }
+    
+    &.text-xs {
+      @apply text-xs text-gray-500 italic mt-2 leading-tight;
+      word-break: break-all;
+    }
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .timeline-container::before {
+    @apply left-6;
+  }
+  
+  .timeline-marker {
+    @apply left-6;
+  }
+  
+  .timeline-content {
+    @apply pl-16;
+  }
+  
+  .timeline-left .timeline-text,
+  .timeline-right .timeline-text {
+    @apply text-left;
+  }
+  
+  .timeline-left .timeline-images,
+  .timeline-right .timeline-images {
+    @apply order-2;
+  }
+  
+  .timeline-right .timeline-text {
+    @apply order-1;
+  }
+}
+
+/* Mejoras responsivas para imágenes */
+@media (min-width: 768px) {
+  .timeline-images {
+    max-width: 400px;
+  }
+  
+  .timeline-img {
+    max-width: 100%;
+  }
+}
+
+/* Animaciones */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(248, 117, 83, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(248, 117, 83, 0.8), 0 0 40px rgba(248, 117, 83, 0.4);
+  }
+}
+
+/* Efectos adicionales para mejor UX */
+.timeline-item:hover .timeline-dot {
+  @apply transform scale-110;
+}
+
+.timeline-text h4:hover {
+  animation: textShimmer 1.5s ease-in-out;
+}
+
+@keyframes textShimmer {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+
+/*
+ * Blockquote destacado reutilizable con SVG decorativo automático
+ */
+.blockquote-destacado {
+  @apply relative p-6 mb-6 bg-gray-200 border-l-4 border-secondary text-lg font-semibold text-gray-900 rounded-lg flex flex-col items-start max-w-2xl mx-auto not-italic;
+  font-style: normal !important;
+}
+.blockquote-destacado::before {
+  content: '';
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+  /* SVG de comillas dobles estilizadas, color gris */
+  background-image: url("data:image/svg+xml,%3Csvg width='32' height='28' viewBox='0 0 18 14' fill='currentColor' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z' fill='%239ca3af'/%3E%3C/svg%3E");
+  color: #9ca3af; /* tailwind gray-400 */
+}
+.blockquote-destacado p {
+  @apply m-0 not-italic;
+  font-style: normal !important;
 }

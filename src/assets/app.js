@@ -41,40 +41,95 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+// Función para cerrar overlay de profesor
+window.closeTeacherOverlay = function(actividadKey) {
+    const overlay = document.getElementById('teacher-overlay-' + actividadKey);
+    if (overlay) {
+        overlay.classList.add('hidden');
+        // Guardar en localStorage que el profesor decidió ver de todos modos
+        localStorage.setItem('teacher-overlay-dismissed-' + actividadKey, 'true');
+    }
+};
 
-// Ajustar la altura de los iframes con la clase "actividadmoodle"
+// Verificar localStorage al cargar para ocultar overlays ya descartados
+document.addEventListener('DOMContentLoaded', function() {
+    // Verificar overlays de profesor que ya fueron cerrados
+    const teacherOverlays = document.querySelectorAll('[id^="teacher-overlay-"]');
+    teacherOverlays.forEach(function(overlay) {
+        const actividadKey = overlay.getAttribute('data-actividad-key');
+        if (actividadKey && localStorage.getItem('teacher-overlay-dismissed-' + actividadKey) === 'true') {
+            overlay.classList.add('hidden');
+        }
+    });
+});
+
+// Configuración de iframes de actividad Moodle
+// Los iframes usan altura fija con scroll interno (definido en CSS)
+// No se requiere ajuste dinámico de altura
 document.addEventListener('DOMContentLoaded', function() {
     var iframes = document.querySelectorAll(".actividadmoodle");
 
     iframes.forEach(function(iframe) {
+        // Simplemente asegurarse de que el iframe esté cargado
         iframe.onload = function() {
-            var body = iframe.contentWindow.document.body;
-            body.style.margin = "0";
-            body.style.padding = "0";
-            body.style.border = "none";
-            body.style.width = "100%"; // Forzar el ancho del contenido del iframe
-            iframe.style.height = body.scrollHeight + 'px';
-            iframe.style.width = "100%"; // Forzar el ancho del iframe
-
-            // Suprimir el margin-right del contenedor específico
-            var container = iframe.contentWindow.document.querySelector('#page.drawers.show-drawer-right');
-            if (container) {
-                container.style.marginRight = "0";
-            }
+            // El CSS maneja toda la presentación (altura fija + scroll)
+            // No se requiere JavaScript para ajustar altura
         };
+    });
+});
 
-        // Ajustar el tamaño del iframe cada 500 milisegundos
-        setInterval(function() {
-            var body = iframe.contentWindow.document.body;
-            iframe.style.height = body.scrollHeight + 'px';
-            iframe.style.width = "100%"; // Forzar el ancho del iframe
+// Ajustar la altura de los iframes con la clase "actividadh5p"
+document.addEventListener('DOMContentLoaded', function() {
+    var h5pIframes = document.querySelectorAll(".actividadh5p");
 
-            // Suprimir el margin-right del contenedor específico
-            var container = iframe.contentWindow.document.querySelector('#page.drawers.show-drawer-right');
-            if (container) {
-                container.style.marginRight = "0";
+    h5pIframes.forEach(function(iframe) {
+        // Función para ajustar la altura del iframe
+        function adjustIframeHeight() {
+            try {
+                var body = iframe.contentWindow.document.body;
+                var html = iframe.contentWindow.document.documentElement;
+                
+                // Ajustar estilos del contenido H5P
+                body.style.margin = "0";
+                body.style.padding = "0";
+                body.style.border = "none";
+                body.style.overflow = "hidden";
+                
+                // Calcular la altura real del contenido
+                var height = Math.max(
+                    body.scrollHeight,
+                    body.offsetHeight,
+                    html.clientHeight,
+                    html.scrollHeight,
+                    html.offsetHeight
+                );
+                
+                // Solo ajustar si hay una altura válida
+                if (height > 0) {
+                    iframe.style.height = height + 'px';
+                    iframe.style.minHeight = '0';
+                }
+                iframe.style.width = "100%";
+            } catch (e) {
+                // Si hay problemas de CORS, usar altura mínima que se adapte
+                iframe.style.height = "400px";
+                iframe.style.minHeight = "400px";
+                console.warn('No se pudo acceder al contenido del iframe H5P debido a CORS');
             }
-        }, 500);
+        }
+
+        // Ajustar cuando el iframe se carga
+        iframe.onload = adjustIframeHeight;
+        
+        // También intentar ajustar inmediatamente por si ya está cargado
+        if (iframe.contentWindow && iframe.contentWindow.document.readyState === 'complete') {
+            adjustIframeHeight();
+        }
+
+        // Reajustar periódicamente por si el contenido H5P cambia de tamaño
+        setInterval(function() {
+            adjustIframeHeight();
+        }, 1000);
     });
 });
 

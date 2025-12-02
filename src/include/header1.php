@@ -19,5 +19,19 @@
   <!-- Estilos -->
   <link rel="stylesheet" href="<?php echo ASSET_URL; ?>css/styles.css">
   <?php if ($include_latex): ?>
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['\\(', '\\)']],
+          displayMath: [['$$', '$$']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          ignoreHtmlClass: 'no-mathjax|nav|header|footer',
+          processHtmlClass: 'mathjax_process'
+        }
+      };
+    </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <?php endif; ?>

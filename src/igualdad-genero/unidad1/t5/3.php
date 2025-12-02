@@ -29,7 +29,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>A partir de la interpretación de la infografía fortalecerás conocimientos previos acerca de la cultura de la igualdad.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>A partir de la información que revisaste en la infografía, escribe en un párrafo tu propia definición de la cultura de la igualdad.</li>
         <li>Ya que tu definición esté completa, tómale una foto y sube el archivo en la sección que te indique tu profesora o profesor.</li>
     </ol>

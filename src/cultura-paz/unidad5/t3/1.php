@@ -1,7 +1,7 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ImagenPie.php';
+include PATH_INCLUDE . 'ImagenFullPleca.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -9,28 +9,23 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Actividad de cierre</h2>
-    <div class="max-w-2xl mx-auto">
-        <?php
-        renderImage('u5t3p01_convivir.webp');
-        ?>
-    </div>
-    <p>Ahora es momento de reflexionar sobre la convivencia, es por ello que como actividad final de esta unidad realizarás en word un breve ensayo de mínimo media página en donde redactes que es para ti el <strong>"Aprender a Convivir"</strong> y en otra página coloca imágenes en forma de collage que ayuden a ilustrar tus ideas. Posteriormente deberás subirlo a la plataforma.</p>
+    <h2>Desafíos y compromisos: ¿qué estoy dispuesto a hacer?</h2>
+    <p>El Colegio de Ciencias y Humanidades es mucho más que un lugar para aprender materias académicas; también es un espacio donde se construyen valores, actitudes y relaciones que pueden fortalecer una cultura de paz. La paz se refleja en el respeto, la inclusión, el diálogo y la solución pacífica de los conflictos. Fomentar una cultura de paz en la UNAM es responsabilidad de todos. Por eso, es importante preguntarme: <span class="text-fuchsia-800 font-bold">¿qué estoy dispuesto(a) a hacer para tener una cultura de paz?</span> ya que reconocer mi papel en este proceso es el primer paso para generar un ambiente más armonioso, justo y respetuoso para todos y todas.</p>
 
-    <p>Para realizar el ensayo revisa el siguiente paso a paso de lo que debes hacer:</p>
+    <?php
+    renderImagePleca('u5t2p01_compromisos.webp');
+    ?>
+    <p class="mt-10">Ahora, te pedimos que ingreses al foro de discusión <strong>"Compromisos ceceacheros de la Cultura de Paz"</strong></p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
-        <li>Revisa material sobre la convivencia y el aprender.</li>
-        <li>Toma notas para que puedan ayudarte a redactar tu ensayo.</li>
-        <li>Comienza a redactar tu ensayo.</li>
-        <li>Selecciona las imágenes para tu collage y comienza a armarlo en el mismo documento.</li>
-        <li>Una vez terminado tu ensayo y tu collage súbelo a la plataforma.</li>
+    <ol class="ol-number md:ml-16">
+        <li>Te pedimos que ingreses al foro de discusión y compartas tu respuesta a lo siguiente: <strong>Qué estoy dispuesto(a) a hacer para tener una cultura de paz?</strong></li>
+        <li>Además de participar revisa y comenta al menos dos respuestas de tus compañeros.</li>
     </ol>
     <?php ob_start(); ?>
-    <p>Sube aquí tu ensayo y collage.</p>
+    <p>Participa aquí en el foro.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u5t3a3', "Aprender a Convivir", $ActividadContent);
+    renderActividad('u5t2a2', "COMPROMISOS CECEACHEROS DE LA CULTURA POR LA PAZ", $ActividadContent);
     ?>
 </section>
 

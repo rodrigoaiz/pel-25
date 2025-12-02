@@ -22,7 +22,7 @@ ob_start();
             <p>Identifica en algún portal de noticias un caso en violencia de género que haya ocurrido en México y con base en él, elabora una infografía que contesta las siguientes preguntas:</p>
         </div>
     </div>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Explica brevemente la noticia.</li>
         <li>¿Qué tipo de violencia identificas? Explica tu respuesta.</li>
         <li>¿Qué modalidad de violencia identificas? Explica tu respuesta.</li>

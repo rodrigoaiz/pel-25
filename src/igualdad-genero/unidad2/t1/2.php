@@ -13,7 +13,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Identificar los conocimientos previos en relación con la violencia de género, sus tipos y modalidades.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number ml-32">
+    <ol class="ol-number md:ml-32">
         <li>Ingresa al cuestionario y contesta cada una de las preguntas que aparecen.</li>
         <li>No consultes las respuestas a través de algún documento o respondas con la ayuda de alguien, recuerda que este cuestionario solo pretende identificar lo que ya conoces del tema.
         <li>Una vez que concluyas, continúa con la siguiente pantalla.</li>
