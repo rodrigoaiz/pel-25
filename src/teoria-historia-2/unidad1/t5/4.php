@@ -14,18 +14,19 @@ ob_start();
 ?>
 
 <section>
-  <h3>Bienvenid@ a la unidad 4</h3>
-  <?php
-  renderVideoIframe('_7FRdJFw1U0', 'Bienvenida a la unidad 4.');
-  ?>
+<h2> Unidad 1. Interpretaciones de la historia en el siglo XIX </h2>
 
-  <?php ob_start(); ?>
-  <p>Para comenzar vamos a un sencillo ejercicio que te permite autoevaluarte, así puedes saber cómo andan tus conocimientos sobre esta unidad en particular.</p>
-  <?php
+<h3> Evaluación Final </h3>
+
+<p>Para finalizar esta unidad, te pedimos que realices un ejercicio de autoevaluación para que compruebes cuáles son los conocimientos que adquiriste a lo largo de esta unidad.</p>
+
+<?php ob_start(); ?>
+<?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u4t1a1', "Cuestionario diagnóstico Unidad 4", $ActividadContent);
-  ?>
+  renderActividad('u1t5a3', "Cuestionario de autoevaluación final Unidad 1", $ActividadContent);
+?>
 </section>
+
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);
