@@ -7,6 +7,11 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
   $ENABLE_TEACHER_DETECTION = true;
   // ===========================================
   
+  // ===== CONTROL DE DEBUG =====
+  // Cambiar a true para activar mensajes de debug en consola
+  $ENABLE_DEBUG = false;
+  // ===========================================
+  
   // Detectar si el usuario es profesor
   global $USER, $COURSE, $DB, $CFG;
   $isTeacher = false;

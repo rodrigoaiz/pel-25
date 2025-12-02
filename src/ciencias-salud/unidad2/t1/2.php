@@ -61,7 +61,7 @@ ob_start();
 
     <li><b>Isaac Newton (1643-1727)</b> físico y matemático inglés famoso por sus leyes del movimiento y la ley de la gravitación universal.
         <div class="mx-auto max-w-lg">
-           <?php renderImage('u2-t1-isaac-newton.webp', 'Issac Newton su obra "Philosophiæ Naturalis Principia Mathematica" es uno de los textos científicos más influyentes.', 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg', 'recuperado el 11 de diciembre de 2023'); ?>
+           <?php renderImage('u2-t1-isaac_newton.webp', 'Issac Newton su obra "Philosophiæ Naturalis Principia Mathematica" es uno de los textos científicos más influyentes.', 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg', 'recuperado el 11 de diciembre de 2023'); ?>
          </div>
     </li>
 

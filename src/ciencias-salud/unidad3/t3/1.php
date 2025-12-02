@@ -33,7 +33,7 @@ ob_start();
 
     <p>Las conductas de riesgo que llevan a cabo los adolescentes, son acciones que aumentan la probabilidad de sufrir consecuencias negativas para su salud y bienestar, ya que incrementan las posibilidades de tener un accidente o padecer una enfermedad. Estas pueden ser provocadas por factores físicos, biológicos, psicológicos, sociales y ambientales y sus efectos pueden ser inmediatos o a largo plazo. Algunas de las conductas de riesgo más comunes entre los adolescentes son: </p>
 
-    <ol class="ol-decimal list-decimal-leading-zero">
+    <ol class="ol-number">
 
         <li><b>Consumo de drogas.</b>
           <ul>
@@ -133,7 +133,7 @@ ob_start();
 
   <p>Es importante fortalecer los factores de protección en los adolescentes, para lograr un desarrollo saludable y capacidades para enfrentar los retos que la vida les presente en esta etapa. A continuación se mencionan algunos de los factores de protección que intervienen evitando conductas de riesgo. </p>
 
-  <ol class="ol-decimal list-decimal-leading-zero">
+  <ol class="ol-number">
 
       <li><b>Apoyo familiar y social:</b> se refiere a un ambiente familiar sano que le dé seguridad y apoyo al adolescente, así como una red de amigos afines y que compartan valores.
     
