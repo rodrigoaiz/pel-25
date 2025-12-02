@@ -34,7 +34,7 @@ ob_start();
             <p class="text-sky-700 italic text-sm text-right">Pris du blog "ados d'mots", de "Mi bibliothèque du Finistère III" J'aime, j'aime pas… <br>| Ados d'Mots (wordpress.com)</p>
         </div>
     </div>
-    <p><strong>Instrucciones:</strong></p>
+    <p><strong>Instructions:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Lis le texte ci-dessus et coche la réponse correcte / Lee el texto de arriba y marca la respuesta correcta.</li>
     </ol>
