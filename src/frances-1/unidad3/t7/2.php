@@ -11,100 +11,62 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Les habits</h2>
-    <h3>La ropa</h3>
-    <p>A veces, cuando describes a una persona, debes de indicar cómo está vestida.</p>
-
-    <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
-        <li>Regarde la vidéo et selectionne les habits que l'on mentionne dans la chanson. / Mira el video y selecciona la ropa que se menciona en la canción. Ten cuidado con la ortografía de las palabras (acentos, mayúsculas y minúsculas).</li>
-    </ol>
-    <div class="max-w-xl mx-auto bg-cyan-200/80 p-4">
-        <?php
-        renderVideoIframe('gqtEoTQaRxs', 'Comptines pour Apprendre les Habits');
-        ?>
-    </div>
-    <?php ob_start(); ?>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t8a16', "Les Habits", $ActividadContent);
-    ?>
-    <p>Aquí abajo tienes un vocabulario con más ropa y con accesorios que van a servirte para hacer descripciones más completas:</p>
-
-
+    <h2>Les caractéristiques physiques</h2>
+    <h3>Las características físicas</h3>
+    <p>Enseguida tienes una ficha de vocabulario para poder describir a una persona.</p>
     <div class="grid grid-cols-5 gap-2">
-        <div class="col-span-5 font-bold text-center bg-purple-500 text-white p-1">Les habits / les vêtements</div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="col-span-5 font-bold text-center bg-purple-500 text-white p-1">Ètre (je suis… / Il/Elle est…)</div>
+        <div class="col-start-2 bg-purple-500/30 px-4">
             <?php
             renderImage('fr1u3a2p03-02-blanche.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Le bas / Le collant</p>
+            <p class="text-purple-700 text-center leading-none">Blanc / blanche</p>
         </div>
         <div class="bg-purple-500/30 px-4">
             <?php
             renderImage('fr1u3a2p03-03-brune.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">La chaussette</p>
+            <p class="text-purple-700 text-center leading-none">Brun / brune</p>
         </div>
         <div class="bg-purple-500/30 px-4">
             <?php
             renderImage('fr1u3a2p03-04-noire.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">La culotte (femme)</p>
+            <p class="text-purple-700 text-center leading-none">Noir / noire</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-04-noire.webp');
-            ?>
-            <p class="text-purple-700 text-center leading-none">Le slip (homme)</p>
-        </div>
-        <div class="bg-purple-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-04-noire.webp');
-            ?>
-            <p class="text-purple-700 text-center leading-none">Le soutien-gorge</p>
-        </div>
+        <div class="col-span-5 font-bold text-center bg-cyan-500 text-white p-1">Les cheveux</div>
         <div class="bg-cyan-500/30 px-4">
             <?php
             renderImage('fr1u3a2p03-05-cheveux.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Le pyjama</p>
+            <p class="text-cyan-700 text-center leading-none">Avoir les cheveux longs // mi- longs // courts</p>
         </div>
         <div class="bg-cyan-500/30 px-4">
             <?php
             renderImage('fr1u3a2p03-06-cheveux-frise.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">La robe</p>
+            <p class="text-cyan-700 text-center leading-none">Avoir les cheveux Raides // Frisés // Bouclés // Ondulés</p>
         </div>
         <div class="bg-cyan-500/30 px-4">
             <?php
             renderImage('fr1u3a2p03-07-cheveux-fonces.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Le pantalon</p>
+            <p class="text-cyan-700 text-center leading-none">Être Brun / brune Avoir les cheveux foncés
+            </p>
         </div>
         <div class="bg-cyan-500/30 px-4">
             <?php
             renderImage('fr1u2a2p5-15-sortir.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Les joggings</p>
+            <p class="text-cyan-700 text-center leading-none">Être Blond (blonde)</p>
         </div>
 
         <div class="bg-cyan-500/30 px-4">
             <?php
             renderImage('fr1u3a2p03-08-roux.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Les shorts</p>
+            <p class="text-cyan-700 text-center leading-none">Être Roux (Rousse)</p>
         </div>
-
-
-
-
-
-
-
-
-
-
         <div class="bg-cyan-500/30 px-4">
             <?php
             renderImage('fr1u3a2p03-09-blancs.webp');
@@ -462,10 +424,10 @@ ob_start();
     <p class="mt-10">Con base en la información anterior realiza la siguiente actividad:</p>
     <?php ob_start(); ?>
     <p>Lis la description physique et glisse le texte sur l'image correspondante. / Lee la descripción física y arrastra el texto a la imagen correspondiente.</p>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t8a15', "Description physique", $ActividadContent);
-    ?>
+        <?php
+        $ActividadContent = ob_get_clean();
+        renderActividadH5P('u3t7a15', "Description physique", $ActividadContent);
+        ?>
 </section>
 
 <?php
