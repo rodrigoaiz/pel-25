@@ -2,7 +2,6 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'Tabs.php';
 include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Videos.php';
 
@@ -19,7 +18,7 @@ ob_start();
     <ol class="ol-number md:ml-32 mb-8">
         <li>Regarde la vidéo et selectionne les habits que l'on mentionne dans la chanson. / Mira el video y selecciona la ropa que se menciona en la canción. Ten cuidado con la ortografía de las palabras (acentos, mayúsculas y minúsculas).</li>
     </ol>
-    <div class="max-w-xl mx-auto bg-cyan-200/80 p-4">
+    <div class="max-w-xl mx-auto bg-green-200/80 p-4">
         <?php
         renderVideoIframe('gqtEoTQaRxs', 'Comptines pour Apprendre les Habits');
         ?>
@@ -33,439 +32,272 @@ ob_start();
 
 
     <div class="grid grid-cols-5 gap-2">
-        <div class="col-span-5 font-bold text-center bg-purple-500 text-white p-1">Les habits / les vêtements</div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="col-span-5 font-bold text-center bg-rose-500 text-white p-1">Les habits / les vêtements</div>
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-02-blanche.webp');
+            renderImage('fr1u3a2p08_01.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Le bas / Le collant</p>
+            <p class="text-rose-700 text-center leading-none">Le bas / Le collant</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-03-brune.webp');
+            renderImage('fr1u3a2p08_02.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">La chaussette</p>
+            <p class="text-rose-700 text-center leading-none">La chaussette</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-04-noire.webp');
+            renderImage('fr1u3a2p08_03.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">La culotte (femme)</p>
+            <p class="text-rose-700 text-center leading-none">La culotte (femme)</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-04-noire.webp');
+            renderImage('fr1u3a2p08_04.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Le slip (homme)</p>
+            <p class="text-rose-700 text-center leading-none">Le slip (homme)</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-04-noire.webp');
+            renderImage('fr1u3a2p08_05.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Le soutien-gorge</p>
+            <p class="text-rose-700 text-center leading-none">Le soutien-gorge</p>
         </div>
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-05-cheveux.webp');
+            renderImage('fr1u3a2p08_06.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Le pyjama</p>
+            <p class="text-green-700 text-center leading-none">Le pyjama</p>
         </div>
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-06-cheveux-frise.webp');
+            renderImage('fr1u3a2p08_07.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">La robe</p>
+            <p class="text-green-700 text-center leading-none">La robe</p>
         </div>
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-07-cheveux-fonces.webp');
+            renderImage('fr1u3a2p08_08.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Le pantalon</p>
+            <p class="text-green-700 text-center leading-none">Le pantalon</p>
         </div>
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u2a2p5-15-sortir.webp');
+            renderImage('fr1u3a2p08_09.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Les joggings</p>
+            <p class="text-green-700 text-center leading-none">Les joggings</p>
         </div>
-
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-08-roux.webp');
+            renderImage('fr1u3a2p08_10.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Les shorts</p>
+            <p class="text-green-700 text-center leading-none">Les shorts</p>
         </div>
-
-
-
-
-
-
-
-
-
-
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-09-blancs.webp');
+            renderImage('fr1u3a2p08_11.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Avoir les cheveux blancs</p>
+            <p class="text-rose-700 text-center leading-none">Un haut</p>
         </div>
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-10-chauve.webp');
+            renderImage('fr1u3a2p08_12.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Être Chauve</p>
+            <p class="text-rose-700 text-center leading-none">Le t-shirt</p>
         </div>
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-11-teints.webp');
+            renderImage('fr1u3a2p08_13.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Avoir les cheveux teints en…</p>
+            <p class="text-rose-700 text-center leading-none">La chemise (homme)</p>
         </div>
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-12-dreadlocks.webp');
+            renderImage('fr1u3a2p08_14.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Avoir de dreadlocks</p>
+            <p class="text-rose-700 text-center leading-none">Le pull-over (le pull)</p>
         </div>
-        <div class="col-span-5 font-bold text-center bg-purple-500 text-white p-1">Les yeux (Avoir les yeux…)</div>
-        <div class="col-start-1 bg-purple-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-13-yeux-bleus.webp');
+            renderImage('fr1u3a2p08_15.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Bleus</p>
+            <p class="text-rose-700 text-center leading-none">La veste</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-14-yeux-gris.webp');
+            renderImage('fr1u3a2p08_16.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Gris</p>
+            <p class="text-green-700 text-center leading-none">Le manteau</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-15-yeux-verts.webp');
+            renderImage('fr1u3a2p08_17.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Verts</p>
+            <p class="text-green-700 text-center leading-none">Le sweat-shirt</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-15-yeux-noirs.webp');
+            renderImage('fr1u3a2p08_18.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Noirs</p>
+            <p class="text-green-700 text-center leading-none">Le k-way / L'imperméable</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-17-yeux-marron.webp');
+            renderImage('fr1u3a2p08_19.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Marron</p>
+            <p class="text-green-700 text-center leading-none">Le costume</p>
         </div>
-        <div class="col-start-1 bg-purple-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-18-yeux-clairs-fonces.webp');
+            renderImage('fr1u3a2p08_20.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Clairs // Foncés</p>
+            <p class="text-green-700 text-center leading-none">La jupe (courte / longue)</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-19-yeux-vaires.webp');
+            renderImage('fr1u3a2p08_21.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Vairons</p>
+            <p class="text-rose-700 text-center leading-none">Le maillot de bain</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-19-yeux-grandes-petits.webp');
+            renderImage('fr1u3a2p08_22.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Avoir des grands yeux // Avoir des petits yeux</p>
+            <p class="text-rose-700 text-center leading-none">Le chapeau</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-20-yeux-rondes.webp');
+            renderImage('fr1u3a2p08_23.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Ronds</p>
+            <p class="text-rose-700 text-center leading-none">La casquette</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-21-yeux-brides.webp');
+            renderImage('fr1u3a2p08_24.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Bridés</p>
+            <p class="text-rose-700 text-center leading-none">Le bonnet</p>
         </div>
-        <div class="col-span-5 font-bold text-center bg-cyan-500 text-white p-1">Les sourcils (Avoir les sourcils---)</div>
-        <div class="col-start-2 bg-cyan-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-22-eapis.webp');
+            renderImage('fr1u3a2p08_25.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Épais</p>
+            <p class="text-rose-700 text-center leading-none">Le foulard</p>
         </div>
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-23-fines.webp');
+            renderImage('fr1u3a2p08_26.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Fins</p>
+            <p class="text-green-700 text-center leading-none">L'écharpe</p>
         </div>
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-24-bien-dessines.webp');
+            renderImage('fr1u3a2p08_27.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Bien dessinés</p>
+            <p class="text-green-700 text-center leading-none">Les gants</p>
         </div>
-        <div class="col-span-5 font-bold text-center bg-purple-500 text-white p-1">Le nez (Avoir le nez…)</div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-24-nez-epates.webp');
+            renderImage('fr1u3a2p08_28.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Épaté</p>
+            <p class="text-green-700 text-center leading-none">La chaussure</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-25-nez-retrouse.webp');
+            renderImage('fr1u3a2p08_29.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Retroussé</p>
+            <p class="text-green-700 text-center leading-none">La basket</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-26-gros-nez-petit-nez.webp');
+            renderImage('fr1u3a2p08_30.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Avoir un gros nez // Avoir un petit nez</p>
+            <p class="text-green-700 text-center leading-none">Le talon/ Un escarpins</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-27-nez-long.webp');
+            renderImage('fr1u3a2p08_31.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Avoir un nez long</p>
+            <p class="text-rose-700 text-center leading-none">La botte</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-28-nez-court.webp');
+            renderImage('fr1u3a2p08_32.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Avoir un nez court</p>
+            <p class="text-rose-700 text-center leading-none">La sandale</p>
         </div>
-    </div>
-    <div class="grid grid-cols-6 gap-2 mt-2">
-        <div class="col-span-6 font-bold text-center bg-cyan-500 text-white p-1">Le visage (J'ai le visage… / Il/Elle a le visage…)</div>
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-29-visage-ronde.webp');
+            renderImage('fr1u3a2p08_33.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Rond</p>
+            <p class="text-rose-700 text-center leading-none">La pantoufle</p>
         </div>
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-30-visage-ovale.webp');
+            renderImage('fr1u3a2p08_34.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Ovale</p>
+            <p class="text-rose-700 text-center leading-none">La cravate</p>
         </div>
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-31-visage-carre.webp');
+            renderImage('fr1u3a2p08_35.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Carré</p>
+            <p class="text-rose-700 text-center leading-none">La ceinture</p>
         </div>
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-32-visage-triangulaire.webp');
+            renderImage('fr1u3a2p08_36.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Triangulaire</p>
+            <p class="text-green-700 text-center leading-none">Le sac</p>
         </div>
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-33-visage-rectangulaire.webp');
+            renderImage('fr1u3a2p08_37.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Rectangulaire</p>
+            <p class="text-green-700 text-center leading-none">Les lunettes (de soleil) (de vue)</p>
         </div>
-        <div class="bg-cyan-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-34-visage-allonge.webp');
+            renderImage('fr1u3a2p08_38.webp');
             ?>
-            <p class="text-cyan-700 text-center leading-none">Allongé</p>
+            <p class="text-green-700 text-center leading-none">La boucle d'oreille</p>
         </div>
-        <div class="col-start-2 bg-blue-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-35-barbe.webp');
+            renderImage('fr1u3a2p08_39.webp');
             ?>
-            <p class="text-blue-700 text-center leading-none">Porter la barbe</p>
+            <p class="text-green-700 text-center leading-none">La montre</p>
         </div>
-        <div class="bg-blue-500/30 px-4">
+        <div class="bg-green-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-36-moustache.webp');
+            renderImage('fr1u3a2p08_40.webp');
             ?>
-            <p class="text-blue-700 text-center leading-none">Porter la moustache</p>
+            <p class="text-green-700 text-center leading-none">Le collier</p>
         </div>
-        <div class="bg-blue-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-37-lunettes.webp');
+            renderImage('fr1u3a2p08_41.webp');
             ?>
-            <p class="text-blue-700 text-center leading-none">Porter des lunettes</p>
+            <p class="text-rose-700 text-center leading-none">Le bracelet</p>
         </div>
-    </div>
-    <div class="grid grid-cols-5 gap-2 mt-2">
-        <div class="col-span-5 font-bold text-center bg-purple-500 text-white p-1">Les lèvres</div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-38-levres-minces.webp');
+            renderImage('fr1u3a2p08_42.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Avoir de lèvres fines / minces</p>
+            <p class="text-rose-700 text-center leading-none">La bague</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-39-levres-grosses.webp');
+            renderImage('fr1u3a2p08_43.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Avoir de grosses lèvres</p>
+            <p class="text-rose-700 text-center leading-none">Le piercing</p>
         </div>
-        <div class="bg-purple-500/30 px-4">
+        <div class="bg-rose-500/30 px-4">
             <?php
-            renderImage('fr1u3a2p03-40-petites-levres.webp');
+            renderImage('fr1u3a2p08_44.webp');
             ?>
-            <p class="text-purple-700 text-center leading-none">Avoir des petites lèvres</p>
-        </div>
-        <div class="bg-purple-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-41-pulpeuses-levres.webp');
-            ?>
-            <p class="text-purple-700 text-center leading-none">Avoir des lèvres pulpeuses /charnues</p>
-        </div>
-        <div class="bg-purple-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-42-grande-bouche.webp');
-            ?>
-            <p class="text-purple-700 text-center leading-none">Avoir une grande bouche</p>
-        </div>
-        <div class="col-span-5 font-bold text-center bg-cyan-500 text-white p-1">Les oreilles</div>
-        <div class="col-start-2 bg-cyan-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-43-grandes-oreilles.webp');
-            ?>
-            <p class="text-cyan-700 text-center leading-none">Avoir des grandes oreilles</p>
-        </div>
-        <div class="bg-cyan-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-44-petites-oreilles.webp');
-            ?>
-            <p class="text-cyan-700 text-center leading-none">Avoir des petites oreilles</p>
-        </div>
-        <div class="bg-cyan-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-45-oreilles-decollees.webp');
-            ?>
-            <p class="text-cyan-700 text-center leading-none">Avoir les oreilles décollées</p>
+            <p class="text-rose-700 text-center leading-none">Le tatouage</p>
         </div>
     </div>
-    <div class="grid grid-cols-6 gap-2 mt-2">
-        <div class="col-span-6 font-bold text-center bg-purple-500 text-white p-1">Les traits particuliers</div>
-        <div class="bg-purple-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-46-grain-beaute.webp');
-            ?>
-            <p class="text-purple-700 text-center leading-none">Avoir un grain de beauté</p>
-        </div>
-        <div class="bg-purple-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-47-taches-rousseur.webp');
-            ?>
-            <p class="text-purple-700 text-center leading-none">Avoir des taches de rousseur</p>
-        </div>
-        <div class="bg-purple-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-48-double-mentonpsd.webp');
-            ?>
-            <p class="text-purple-700 text-center leading-none">Avoir un double menton</p>
-        </div>
-        <div class="bg-purple-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-49-cernes.webp');
-            ?>
-            <p class="text-purple-700 text-center leading-none">Avoir des cernes</p>
-        </div>
-        <div class="bg-purple-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-50-rides.webp');
-            ?>
-            <p class="text-purple-700 text-center leading-none">Avoir des rides</p>
-        </div>
-        <div class="bg-purple-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-51-joufflue.webp');
-            ?>
-            <p class="text-purple-700 text-center leading-none">Être joufflu(e)</p>
-        </div>
-    </div>
-    <div class="grid grid-cols-6 gap-2 mt-2">
-        <div class="col-span-6 font-bold text-center bg-cyan-500 text-white p-1">Être</div>
-        <div class="bg-cyan-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-52-grosse.webp');
-            ?>
-            <p class="text-cyan-700 text-center leading-none">Gros(se)</p>
-        </div>
-        <div class="bg-cyan-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-53-mince.webp');
-            ?>
-            <p class="text-cyan-700 text-center leading-none">Mince // Fin(e)</p>
-        </div>
-        <div class="bg-cyan-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-54-maigre.webp');
-            ?>
-            <p class="text-cyan-700 text-center leading-none">Maigre</p>
-        </div>
-        <div class="bg-cyan-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-55-laid.webp');
-            ?>
-            <p class="text-cyan-700 text-center leading-none">Moche // Laid(e)</p>
-        </div>
-        <div class="bg-cyan-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-56-belle.webp');
-            ?>
-            <p class="text-cyan-700 text-center leading-none">Beau (bel) / belle</p>
-        </div>
-        <div class="bg-cyan-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-57-costaud.webp');
-            ?>
-            <p class="text-cyan-700 text-center leading-none">Costaud</p>
-        </div>
-        <div class="bg-cyan-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-58-jeune.webp');
-            ?>
-            <p class="text-cyan-700 text-center leading-none">Jeune</p>
-        </div>
-        <div class="bg-cyan-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-59-vielle.webp');
-            ?>
-            <p class="text-cyan-700 text-center leading-none">Vieux (vielle)</p>
-        </div>
-        <div class="bg-cyan-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-60-grand.webp');
-            ?>
-            <p class="text-cyan-700 text-center leading-none">Grand (e)</p>
-        </div>
-        <div class="bg-cyan-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-61-moyenne.webp');
-            ?>
-            <p class="text-cyan-700 text-center leading-none">De taille moyenne</p>
-        </div>
-        <div class="bg-cyan-500/30 px-4">
-            <?php
-            renderImage('fr1u3a2p03-62-petit.webp');
-            ?>
-            <p class="text-cyan-700 text-center leading-none">Petit (e)</p>
-        </div>
-    </div>
-
-    <p class="mt-10">Con base en la información anterior realiza la siguiente actividad:</p>
-    <?php ob_start(); ?>
-    <p>Lis la description physique et glisse le texte sur l'image correspondante. / Lee la descripción física y arrastra el texto a la imagen correspondiente.</p>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t8a15', "Description physique", $ActividadContent);
-    ?>
 </section>
 
 <?php
