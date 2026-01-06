@@ -12,7 +12,7 @@ ob_start();
 <section>
   <h2>Infografía: Poder, interdependencia y construcción social en torno a las desigualdades de género</h2>
   <h3>Propósito</h3>
-  <p>La actividad tiene como propósito profundizar en tu comprensión sobre las relaciones de poder y los diversos campos de dominación que operan en nuestra sociedad. A través de la lectura de un texto, te invitamos a explorar las complejidades y sutilezas del poder, analizando cómo se ejerce, se mantiene y se resiste en diferentes contextos. Y mediante la elaboración de infografías en equipos te proponemos socializar tus conocimientos e ideas en torno a los conceptos clave de este tema.</p>
+  <p>La actividad tiene como propósito que profundices en tu comprensión sobre las relaciones de poder y los diversos campos de dominación que operan en nuestra sociedad. A través de la lectura de un texto, te invitamos a explorar las complejidades y sutilezas del poder, analizando cómo se ejerce, se mantiene y se resiste en diferentes contextos. Y mediante la elaboración de infografías en equipos te proponemos socializar tus conocimientos e ideas en torno a los conceptos clave de este tema.</p>
   <h3>Instrucciones:</h3>
   <ol class="ol-number">
     <li>Realiza la lectura del texto <a href="<?php echo PATH_DOCS . 'u1t3-Lectura_LasRelacionesDePoder_Act.3.3.pdf'; ?>" target="_blank">"Las relaciones de poder"</a></li>
