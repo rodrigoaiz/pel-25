@@ -10,7 +10,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Sesión 1. Diagnóstico. Yo admiro a…</h2>
+    <h2>Diagnóstico. Yo admiro a…</h2>
     <p>Las actividades y videos del <em>aprendizaje 1</em> te mostraron como los roles y estereotipos de género generalizan la forma en que se deberían comportar los hombres y las mujeres. Es decir, predisponen a las personas a adoptar ciertos rasgos de personalidad o a realizar actividades "propias de su género".</p>
     <p>Un ejemplo de un estereotipo de género es que el rosa es para las niñas y el azul para los niños. En cuanto a los roles, algunas personas consideran que solamente las mujeres pueden dedicarse a los quehaceres del hogar mientras que los hombres salen a trabajar para mantener económicamente a su familia. Sin embargo, estamos viviendo tiempos de cambio en los roles y estereotipos de género y están surgiendo diversas maneras de ser hombre.</p>
     <p>Para ir reconociendo cómo son los hombres que admiras te proponemos realizar la siguiente actividad.</p>
@@ -20,7 +20,7 @@ ob_start();
     <ol class="ol-number md:ml-32">
         <li>Trabajarán en equipos de 4 ó 5 estudiantes en el orden que indique tu profesor o profesora.</li>
         <li>Colaboren para escribir dos listas de palabras. En una lista anoten 10 características de personalidad (estereotipos) y en la otra lista anoten 10 actividades (roles) que realizan los hombres que admiran.</li>
-        <li>Utilicen las dos listas para elaborar dos nubes de palabras. Se sugiere utilizar la página de internet <a class="text-purple-50" href="https://www.freewordcloudgenerator.com/generatewordcloud" target="_blank">Nube de palabras</a>.
+        <li>Utilicen las dos listas para elaborar dos nubes de palabras. Se sugiere utilizar la página de internet <a href="https://www.freewordcloudgenerator.com/generatewordcloud" target="_blank">Nube de palabras</a>.
             <p class="text-center">Este es un ejemplo de una nube de palabras.</p>
             <div class="w-md mx-auto">
                 <?php
