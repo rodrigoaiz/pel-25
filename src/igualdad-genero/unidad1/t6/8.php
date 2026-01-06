@@ -1,48 +1,26 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h2>Uve de Gowin</h2>
-
-  <p>El diagrama Uve de Gowin se usa como instrumento de evaluación para reflejar el logro de un aprendizaje significativo. Este instrumento de evaluación sirve para reforzar el principio de <em>Aprender a Aprender</em>. Se trata de un diagrama que implica la organización conceptual del tema trabajado. A continuación, realizarás una actividad utilizando la Uve de Gowin.</p>
-
-  <h3>Propósito</h3>
-
-  <p>Reflexionar sobre los conocimientos y habilidades adquiridos, evaluando el progreso logrado en este aprendizaje.</p>
-
-  <h3>Instrucciones:</h3>
-
-  <ol class="ol-number">
-    <li><a href="<?php echo PATH_DOCS . 'u1t6-Plantilla_UveDeGowin_Act.6.8.docx'; ?>" target="_blank">Descarga la plantilla en Word</a> (anexa a esta tarea) para responder a las preguntas del 1 al 8 que aparecen en el diagrama.
-      <br><br>Elementos para responder en la Uve de Gowin:
-      <ul class="ul-disc">
-        <li>¿Qué impacto tiene la noción de “persona” en la consideración de los Derechos Humanos?</li>
-        <li>Tema de estudio.</li>
-        <li>Define con tus propias palabras: Persona y Derechos Humanos.</li>
-        <li>¿Cómo organizo mis ideas y datos?</li>
-        <li>¿Qué área explica el tema?</li>
-        <li>¿Qué aprendí?</li>
-        <li>¿Cómo aprendí el tema?</li>
-        <li>¿Para qué sirve todo lo que aprendí? (en lo individual y en lo colectivo).</li>
-      </ul>
-    </li>
-    <li>Al terminar tu diagrama, revisa la <a href="<?php echo PATH_DOCS . 'u1t6-ListaDeCotejo_UveDeGowin_Act.6.8.pdf'; ?>" target="_blank">lista de cotejo</a> anexa en esta actividad y verifica que tu trabajo cumpla con las características solicitadas.</li>
-    <li>Guarda la plantilla en formato PDF.</li>
-    <li>Sube el archivo en esta tarea. Nombra el archivo de la siguiente manera: Nombre_Apellido_Uve_Gowin</li>
-  </ol>
-
-  <?php ob_start(); ?>
-      <?php
-      $ActividadContent = ob_get_clean();
-      renderActividad('u1t6a8', "Uve de Gowin", $ActividadContent);
-  ?>
-
+    <h2>Bibliografía</h2>
+    <ul id="biblio" class="ul-disc">
+        <li>Abbagnano, N. (2010). <em>Diccionario de Filosofía.</em> FCE</li>
+        <li>Ferrater, J. (2004). <em>Diccionario de Filosofía.</em> Ariel.</li>
+        <li>Gargallo, F. (2012). Tan derechas y tan humanas. Manual ético de derechos humanos de las mujeres. <a href="https://francescagargallo.wordpress.com/ensayos/librosdefg/tan-derechas-y-%20tan-humanas/" target="_blank">https://francescagargallo.wordpress.com/ensayos/librosdefg/tan-derechas-y-%20tan-humanas/</a> (wordpress.com).</li>
+        <li>Herrera San Martín, E. (2012). <em>La UVE de Gowin como instrumento de aprendizaje y evaluación de habilidades de indagación en la unidad de fuerza y movimiento.</em> Paradigma, 33(2), 101-126.</li>
+        <li>INMujeres (s/f). Glosario para la igualdad. <a href="https://campusgenero.inmujeres.gob.mx/glosario/search?search=derechos+humanos" target="_blank">https://campusgenero.inmujeres.gob.mx/glosario/search?search=derechos+humanos</a></li>
+        <li>Naciones Unidas (2015). <em>Cartilla Derechos Humanos de las Naciones Unidas.</em> UDHR_booklet_SP_web.pdf (un.org) </li>
+        <li>Naciones Unidas (s/f). <em>La Declaración Universal de los Derechos Humanos.</em> <a href="https://www.un.org/es/about-us/universal-declaration-of-human-rights" target="_blank">https://www.un.org/es/about-us/universal-declaration-of-human-rights</a></li>
+        <li>García, D. (2015). <em>El concepto de persona, concepto eje para la ética.</em> En García, D. y Traslosheros, J. (Coords.). <em>Ética, persona y sociedad. Una ética para la vida</em> (pp.5-8) (5.a. ed.). Porrúa, Tecnológico de Monterrey.</li>
+        <li>Pichot, M. (2017). <em>"Mansplaining"</em> PERSONA. <a href="https://www.youtube.com/watch?v=lz4mLjxXA9I" target="_blank">https://www.youtube.com/watch?v=lz4mLjxXA9I</a></li>
+        <li>Pressnet. (2010). ¿Qué son los Derechos Humanos? <a href="https://youtu.be/PPeRECua5CQ?si=n81zyvqAwMAyBvoM" target="_blank">https://youtu.be/PPeRECua5CQ?si=n81zyvqAwMAyBvoM</a></li>
+        <li>Valleverde, I. (2015). Los derechos fundamentales en la Historia. Una aproximación a su origen y fundamento. En Carbonell, M., Fix, H. y Valadés, D. <em>Estado constitucional, derechos humanos, justicia y vida universitaria</em> (573- 597). Estudios en homenaje a Jorge Carpizo. Derechos Humanos, V(2). 27. <a href="https://archivos.juridicas.unam.mx/www/bjv/libros/8/3977/27.pdf" target="_blank">https://archivos.juridicas.unam.mx/www/bjv/libros/8/3977/27.pdf</a></li>
+    </ul>
 </section>
 <?php
 $content = ob_get_clean();

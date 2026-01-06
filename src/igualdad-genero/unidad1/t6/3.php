@@ -2,30 +2,53 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'Videos.php';
-include PATH_INCLUDE . 'EducaplayIframe.php';
+include PATH_INCLUDE . 'ActividadIframe.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h2>Derechos Humanos</h2>
-  <p>Para comprender a fondo la trascendencia de los Derechos Humanos en nuestra sociedad actual, es fundamental conocer su origen y la razón de su existencia. La siguiente actividad nos permitirá adentrarnos en la historia y la importancia de estos derechos fundamentales, sentando así las bases para entender por qué son esenciales en la construcción de un mundo más justo e igualitario para todas las personas.</p>
-  <h3>Propósitos</h3>
-  <p>Identificar la definición de los Derechos Humanos. Conocer el contexto histórico en el que surgieron los Derechos Humanos.</p>
+  <h2>Glosario de términos ilustrado</h2>
+
+  <div class="md:grid grid-cols-2 gap-3 items-center">
+    <p>La noción de persona es fundamental para los derechos humanos y como has revisado anteriormente, estos son concebidos como inherentes a todo ser humano por el simple hecho de serlo, dotándole de dignidad intrínseca que debe ser respetada y protegida. Es importante mencionar que estos derechos humanos emanan de esta calidad de persona, son universales y buscan garantizar una vida digna y el pleno desarrollo de cada individuo.</p>
+    <div class="max-2xl mx-auto">
+      <?php
+      renderImage('u1t6-iga6-img2.webp');
+      ?>
+    </div>
+  </div>
+
+  <p>A continuación te presentamos a una filósofa mexicana, cuya lectura es de fácil acceso y muy interesante, realizarás una actividad creativa para consolidar los conceptos clave: persona, derechos humanos, libertad, autonomía y dignidad. Esta actividad te permitirá comprender los conceptos y representarlos visualmente. </p>
+
+  <h3>Propósito</h3>
+  <p>Comprender la noción de persona.</p>
+
   <h3>Instrucciones:</h3>
   <ol class="ol-number">
-    <li>Observa el siguiente video:</li>
-    <div class="my-5">
-        <?php
-        renderVideoIframe('PPeRECua5CQ', '');
-        ?>
-    </div>
-    <li>Toma nota de los datos y hechos que consideres relevantes para identificar el proceso histórico que se dio para el reconocimiento y establecimiento de los derechos humanos en la Declaración Universal de los Derechos Humanos.</li>
-    <li>Tus apuntes te ayudarán a responder el siguiente recurso interactivo.</li>
+    <li>Lee el apartado <a href="<?php echo PATH_DOCS . 'u1t6-Lectura_TextoPersona_Act.6.4.pdf'; ?>" target="_blank">“El concepto de persona, concepto eje para la ética”</a>, de la filósofa mexicana Dora Elvira García González. Con esta breve lectura te proponemos un panorama general acerca del concepto persona, con ello, conocerás las definiciones fundamentales en la construcción conceptual de los términos y establecerás conexiones con otros conceptos.</li>
+    <li>Al término de tu lectura, realiza un glosario de términos ilustrado, puedes usar <i>Power Point</i>, <i>Canva</i> u otra aplicación digital.<br>Los conceptos que deberás ilustrar, dotar de significado y sentido son los siguientes:</li>
+    <ul class="ul-disc">
+      <li>Persona</li>
+      <li>Derechos Humanos</li>
+      <li>Libertad</li>
+      <li>Autonomía</li>
+      <li>Dignidad</li>
+    </ul>
+    <li>Recuerda que los conceptos que agregues en tu glosario deberás ilustrarlos con imágenes, fotografías o dibujos.</li>
+    <li>Revisa la <a href="<?php echo PATH_DOCS . 'u1t6-Rubrica_GlosarioDeTerminosIlustrado_Act.6.4.pdf'; ?>" target="_blank">rúbrica</a> para verificar qué elementos se tomarán en cuenta para evaluar tu trabajo.</li>
+    <li>Sube tu archivo del glosario en PDF y nómbralo de la siguiente forma: Nombre_Apellido_Glosario</li>
+    <p><strong>Nota:</strong> Puedes compartir en clase tu glosario de términos ilustrado y observa con atención el trabajo de tus compañeras y compañeros.</p>
   </ol>
-  <?php renderEducaplay('18595630-derechos_humanos_quiz.html'); ?>
+
+  <?php ob_start(); ?>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividad('u1t6a4', "Glosario de términos ilustrado", $ActividadContent);
+  ?>
+  <p class="mt-10">En la siguiente actividad revisarás los 30 artículos que conforman la Declaración Universal de los Derechos Humanos para identificar cómo se relacionan con la vida cotidiana y el entorno escolar, fomentando el diálogo y la conciencia colectiva.</p>
+
 </section>
 <?php
 $content = ob_get_clean();

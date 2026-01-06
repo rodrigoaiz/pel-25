@@ -9,44 +9,28 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h2>Glosario de términos ilustrado</h2>
-
-<div class="md:grid grid-cols-2 gap-3 items-center">
-  <p>La noción de persona es fundamental para los derechos humanos y como has revisado anteriormente, estos son concebidos como inherentes a todo ser humano por el simple hecho de serlo, dotándole de dignidad intrínseca que debe ser respetada y protegida. Es importante mencionar que estos derechos humanos emanan de esta calidad de persona, son universales y buscan garantizar una vida digna y el pleno desarrollo de cada individuo.</p>
+  <h2>Declaración Universal de los Derechos Humanos</h2>
+  <p>Como ya revisaste en pantallas anteriores, la <strong>Declaración Universal de los Derechos Humanos</strong> es un documento esencial, nacido tras un periodo oscuro de la historia, que establece los <strong>derechos fundamentales inherentes a toda persona</strong>, sin distinción alguna. Piensa en ella como un <strong>pacto global por la dignidad humana</strong>, que abarca desde la libertad y la justicia hasta la educación y el trabajo. Hoy, explorarás estos 30 artículos para comprender su trascendencia y cómo impactan en la vida de cada uno de nosotros.</p>
   <div class="max-2xl mx-auto">
     <?php
-    renderImage('u1t6-iga6-img2.webp');
+    renderImage('u1t6-iga6-img3.webp');
     ?>
   </div>
-</div>
-
-  <p>Para conocer más sobre el concepto de persona y su relevancia para los derechos humanos te invitamos a realizar la siguiente actividad. </p>
-
   <h3>Propósito</h3>
-  <p>Comprender la noción de persona.</p>
-
-  <h3>Instrucciones:</h3>
+  <p>Socializar las perspectivas que se han revisado a lo largo de las actividades acerca de los derechos humanos.</p>
+  <p>Instrucciones:</p>
   <ol class="ol-number">
-    <li>Lee el apartado <a href="<?php echo PATH_DOCS . 'u1t6-Lectura_TextoPersona_Act.6.4.pdf'; ?>" target="_blank">“1.2. El concepto de persona, concepto eje para la ética”</a>, de la filósofa mexicana Dora Elvira García González. Con esta breve lectura te proponemos un panorama general acerca del concepto persona, con ello, conocerás las definiciones fundamentales en la construcción conceptual de los términos y establecerás conexiones con otros conceptos.</li>
-    <li>Al término de tu lectura, realiza un glosario de términos ilustrado, puedes usar <i>Power Point</i>, <i>Canva</i> u otra aplicación digital.<br>Los conceptos que deberás ilustrar, dotar de significado y sentido son los siguientes:</li>
-    <ul class="ul-disc">
-      <li>Persona</li>
-      <li>Derechos Humanos</li>
-      <li>Libertad</li>
-      <li>Autonomía</li>
-      <li>Dignidad</li>
-    </ul>
-    <li>Recuerda que los conceptos que agregues en tu glosario deberás ilustrarlos con imágenes, fotografías o dibujos.</li>
-    <li>Revisa la <a href="<?php echo PATH_DOCS . 'u1t6-Rubrica_GlosarioDeTerminosIlustrado_Act.6.4.pdf'; ?>" target="_blank">rúbrica</a> para verificar qué elementos se tomarán en cuenta para evaluar tu trabajo.</li>
-    <li>Sube tu archivo del glosario en PDF y nómbralo de la siguiente forma: Nombre_Apellido_Glosario</li>
-    <p><strong>Nota:</strong> Puedes compartir en clase tu glosario de términos ilustrado y observa con atención el trabajo de tus compañeras y compañeros.</p>
-  </ol>
-
-  <?php ob_start(); ?>
-      <?php
-      $ActividadContent = ob_get_clean();
-      renderActividad('u1t6a4', "Glosario de términos ilustrado", $ActividadContent);
-  ?>
+    <li>Realiza una lectura cuidadosa de los treinta artículos que contiene <a href="<?php echo PATH_DOCS . 'u1t6-Declaracion-Universal-DH.pdf'; ?>" target="_blank">La Declaración Universal de los Derechos Humanos</a>.</li>
+    <li>Sobre los artículos de la <strong>Declaración Universal de los Derechos Humanos</strong>, comenta con tus compañeros los siguientes puntos:
+        <ul>
+          <li>¿Cuáles te llamaron más la atención? ¿por qué?</li>
+          <li>Reflexiona si estos artículos se cumplen actualmente en México.</li>
+          <li>Identifica cuáles consideras que sí se respetan, cuáles no, y proporciona ejemplos o argumentos que sustenten tu opinión.</li>
+        </ul>
+    </li>
+    <p><strong>Nota:</strong> Con la mediación del profesor o profesora, identifiquen los derechos humanos mencionados y reflexionen sobre su cumplimiento en la vida cotidiana en México.</p>
+    <p>Este diálogo puede ampliarse o adaptarse según las dinámicas propuestas por el docente, incluyendo actividades complementarias como debates, lluvia de ideas o análisis de casos reales.</p>
+    <p>La siguiente actividad busca fomentar la introspección y el reconocimiento de la dignidad personal. Esperamos que resulte de interés y sea de gran utilidad para tu formación integral.</p>
 
 </section>
 <?php

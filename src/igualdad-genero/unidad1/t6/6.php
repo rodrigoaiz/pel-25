@@ -9,37 +9,36 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h2>Cartografía individual</h2>
+  <h2>Cartografía del plantel</h2>
+  <p>La reflexión se amplía al entorno escolar. En equipos identificarás espacios de riesgo en el plantel donde consideras que se vulneran los derechos humanos, deberás proponer acciones para mejorar la convivencia y el respeto en la comunidad ceceachera.</p>
 
-  <div class="md:grid grid-cols-2 gap-3 items-center">
-    <div class="max-2xl mx-auto">
-      <?php
-      renderImage('u1t6-iga6-img4.webp');
-      ?>
-    </div>
-      <p>Los mapas son representaciones gráficas de un territorio. En este caso, consideramos a la persona un territorio, cuya descripción, además de física, puede ser en el ámbito sensible y emocional. A continuación, te invitamos a realizar la siguiente actividad relacionada con tu cartografía.</p>
+  <div class="max-2xl mx-auto">
+    <?php
+    renderImage('u1t6-cartografia-plantel.webp');
+    ?>
   </div>
 
-  <h3>Propósitos</h3>
-  <p>Reconocer tu ser en el mundo y cómo te estás desarrollando, esto en el marco de los Derechos Humanos. Reflexionar si hay o no obstáculos que te impidan el desarrollo de tu personalidad.</p>
+  <h3>Propósito</h3>
+  <p>Identificar, en tu plantel, los espacios de riesgo en los cuales se vulneran los derechos humanos y se obstaculiza el pleno desarrollo de tu persona y el resto de la comunidad cecehachera.</p>
   <h3>Instrucciones:</h3>
-
+  <p>Como se mencionó en la actividad anterior, los mapas son representaciones gráficas de un territorio, de manera que en esta ocasión toca el turno de ampliar el horizonte de reflexión y <strong>ubicar el territorio escolar</strong>, en este caso, el <strong>CCH</strong>.</p>
   <ol class="ol-number">
-    <li>Realiza <strong>una cartografía sobre tu personalidad para reconocer tu ser en el mundo y cómo te estás desarrollando</strong>. En clave de <strong>Derechos Humanos, reflexiona si hay o no obstáculos que te impidan el desarrollo de tu personalidad</strong>. La sugerencia es que, al hacer esta representación, te ubiques existencialmente en tu condición de <strong>estudiante del CCH</strong> e identifiques aspectos que vulneren tus derechos humanos.
-      <br><br>
-    Para hacer esta cartografía, te pedimos que dibujes, usa colores de madera o plumones, pero trata de construir tus propios símbolos que estarán albergados en esta representación. La representación gráfica debe ir acompañada de uno o dos párrafos que la expliquen. 
-    </li>
-    <li>Revisa la <a href="<?php echo PATH_DOCS . 'u1t6-ListaDeCotejo_CartografiaIndividual_Act.6.6.pdf'; ?>" target="_blank">lista de cotejo</a> que se te proporciona para verificar que tu trabajo cumple satisfactoriamente con lo solicitado.</li>
-    <li>Al finalizar, <strong>toma una fotografía de tu cartografía</strong>.</li>
-    <li>Sube el archivo en esta tarea. El archivo (en formato JPG, PNG o PDF) debe ser nombrado de la siguiente forma: Nombre_Apellido_Cartografía_individual.</li>
-    <p>Nota: Te compartimos <a href="<?php echo PATH_DOCS . 'u1t6-EjemplosDeCartografias_Act.6.6.pdf'; ?>" target="_blank">dos ejemplos</a> de cartografías para que te inspires a realizar la tuya. Resultará muy valioso compartir en clase tu cartografía, así como observar el trabajo de tus compañeras, compañeros y compañeres. Recuerda que la actividad debe desarrollarse en un ambiente de respeto y tolerancia. </p>
+    <li>Organízate en equipo para realizar esta actividad. Tu profesor(a) te indicará el número de integrantes asignados para cada equipo.</li>
+    <li>Dibuja tu plantel o descarga una imagen en la cual se aprecie con claridad el espacio geográfico de éste. Si deseas, puedes realizar una imagen interactiva empleando <em>Genially</em>, alguna otra plataforma que conozcas o emplear un programa de edición de imágenes.</li>
+    <li>Identifica y señala en la imagen los <strong>espacios que consideras son de riesgo porque en ellos se vulneran los derechos humanos y se obstaculiza el pleno desarrollo de tu persona y el resto de la comunidad ceceachera.</strong> En cada espacio deberás especificar <strong>qué derecho se ve vulnerado y mencionar qué acciones se pueden emprender para erradicar esa problemática o situación</strong>.</li>
+    <li>Revisa la <a href="<?php echo PATH_DOCS . 'u1t6-ListaDeCotejo_CartografiaDelPlantel_Act.6.7.pdf'; ?>" target="_blank">lista de cotejo</a> que se integra en esta tarea para verificar que la cartografía cumple con lo solicitado.</li>
+    <li>Sube el <strong>archivo</strong> con la <strong>cartografía en forma individual</strong>. Sugerimos que el formato del archivo sea PDF, PNG o JPG. Nombra tu archivo de la siguiente manera: Nombre_Apellido_Cartografía_plantel.</li>
   </ol>
 
+  <p><strong>Nota:</strong> Resultará muy valioso compartir, en clase, la cartografía del Plantel, así como observar el trabajo de otros equipos para obtener conclusiones y propuestas. Recuerda que durante la actividad debe prevalecer un ambiente de respeto y tolerancia.</p>
+
   <?php ob_start(); ?>
-      <?php
-      $ActividadContent = ob_get_clean();
-      renderActividad('u1t6a6', "Cartografía individual", $ActividadContent);
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividad('u1t6a7', "Cartografía del plantel", $ActividadContent);
   ?>
+
+  <p class="mt-10">Finalmente, proponemos el diagrama de la siguiente pantalla como herramienta de evaluación que te permitirá organizar de mejor manera tus ideas, reflexionar sobre lo aprendido y reconoce el impacto de la noción de persona en los derechos humanos, tanto a nivel individual como colectivo.</p>
 
 </section>
 <?php
