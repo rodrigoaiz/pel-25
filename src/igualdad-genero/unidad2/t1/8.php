@@ -19,7 +19,7 @@ ob_start();
             <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
             <p>Reconocer las consecuencias de la violencia de género como un problema de salud pública, y su impacto en el bienestar de las mujeres y niñas.</p>
             <p><strong>Instrucciones:</strong></p>
-            <p>Identifica en algún portal de noticias un caso en violencia de género que haya ocurrido en México y con base en él, elabora una infografía que contesta las siguientes preguntas:</p>
+            <p>Identifica en algún portal de noticias un caso en violencia de género que haya ocurrido en México y con base en él, elabora una infografía que conteste las siguientes preguntas:</p>
         </div>
     </div>
     <ol class="ol-number md:ml-32">
@@ -28,6 +28,8 @@ ob_start();
         <li>¿Qué modalidad de violencia identificas? Explica tu respuesta.</li>
         <li>Explica por qué el caso que identificaste es un problema de salud pública, qué afectaciones se originan en la víctima y en su contexto social.</li>
         <li>Elabora una propuesta para que ya no ocurran casos como el que ejemplificaste.</li>
+        <li>Adjunta tu archivo en este apartado. Nombra el archivo de la siguiente manera: Nombre_Apellido_Infografia_SaludPublica</li>
+        <li>No olvides revisar la <a href="<?php echo PATH_DOCS . 'u2t7-Infografia_Violencia-Genero.pdf'; ?>" target="_blank">lista de cotejo</a> con los criterios que se tomarán en cuenta para evaluar tu infografía.</li>
     </ol>
     <?php ob_start(); ?>
     <p>Adjunta tu archivo en este apartado. Nombra el archivo de la siguiente manera: Nombre_Apellido_Infografia_SaludPublica</p>
