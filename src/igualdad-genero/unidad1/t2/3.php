@@ -11,7 +11,7 @@ ob_start();
 ?>
 <section>
     <h2>Orígenes del feminismo</h2>
-    <p>Te invitamos a revisar el siguiente video, en él harás un recorrido histórico desentrañando las diversas etapas y antecedentes que han moldeado este movimiento crucial. Así también explorarás cómo es que las ideas y acciones de mujeres visionarias han desafiado las normas establecidas, luchando incansablemente por la igualdad y la justicia. Descubrirás como el feminismo ha evolucionado, adaptándose a los desafíos de la época y como ha dejado una huella imborrable en la sociedad actual.</p>
+    <p>Te invitamos a revisar el siguiente video, en él harás un recorrido histórico desentrañando las diversas etapas y antecedentes que han moldeado este movimiento crucial. Así también explorarás cómo es que las ideas y acciones de mujeres visionarias han desafiado las normas establecidas, luchando incansablemente por la igualdad y la justicia. Descubrirás cómo el feminismo ha evolucionado, adaptándose a los desafíos de la época y cómo ha dejado una huella imborrable en la sociedad actual.</p>
     <p>Mientras ves el video identifica la siguiente información:</p>
     <ul class="ul-disc ml-20">
         <li>¿Cuándo surge el feminismo?</li>

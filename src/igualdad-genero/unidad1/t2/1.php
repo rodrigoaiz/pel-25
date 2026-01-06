@@ -28,7 +28,7 @@ ob_start();
   <p>- Perspectiva de género: utilidad e importancia.</p>
   <p class="font-bold">Procedimentales:</p>
   <p>- Búsqueda, síntesis y organización de la información.</p>
-  <p>- Pensamientos crítico y argumentación.</p>
+  <p>- Pensamiento crítico y argumentación.</p>
   <p>- Trabajo en equipo.</p>
   <p class="font-bold">Actitudinales:</p>
   <p>- Escucha y respeto ante opiniones diversas.</p>
