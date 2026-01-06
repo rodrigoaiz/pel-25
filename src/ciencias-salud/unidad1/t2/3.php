@@ -38,6 +38,12 @@ ob_start();
     ?>
   </div>
 </div>
+<?php ob_start(); ?>
+  <p>Lee con atención los conceptos de salud y enfermedad y arrastra cada uno para acomodarlos en la columna correcta en el cuadro de salud y enfermedad</p>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividad('u1t2a3', "Para los conceptos de salud y enfermedad.", $ActividadContent);
+  ?>
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);

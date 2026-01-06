@@ -41,40 +41,40 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+// Función para cerrar overlay de profesor
+window.closeTeacherOverlay = function(actividadKey) {
+    const overlay = document.getElementById('teacher-overlay-' + actividadKey);
+    if (overlay) {
+        overlay.classList.add('hidden');
+        // Guardar en localStorage que el profesor decidió ver de todos modos
+        localStorage.setItem('teacher-overlay-dismissed-' + actividadKey, 'true');
+    }
+};
 
-// Ajustar la altura de los iframes con la clase "actividadmoodle"
+// Verificar localStorage al cargar para ocultar overlays ya descartados
+document.addEventListener('DOMContentLoaded', function() {
+    // Verificar overlays de profesor que ya fueron cerrados
+    const teacherOverlays = document.querySelectorAll('[id^="teacher-overlay-"]');
+    teacherOverlays.forEach(function(overlay) {
+        const actividadKey = overlay.getAttribute('data-actividad-key');
+        if (actividadKey && localStorage.getItem('teacher-overlay-dismissed-' + actividadKey) === 'true') {
+            overlay.classList.add('hidden');
+        }
+    });
+});
+
+// Configuración de iframes de actividad Moodle
+// Los iframes usan altura fija con scroll interno (definido en CSS)
+// No se requiere ajuste dinámico de altura
 document.addEventListener('DOMContentLoaded', function() {
     var iframes = document.querySelectorAll(".actividadmoodle");
 
     iframes.forEach(function(iframe) {
+        // Simplemente asegurarse de que el iframe esté cargado
         iframe.onload = function() {
-            var body = iframe.contentWindow.document.body;
-            body.style.margin = "0";
-            body.style.padding = "0";
-            body.style.border = "none";
-            body.style.width = "100%"; // Forzar el ancho del contenido del iframe
-            iframe.style.height = body.scrollHeight + 'px';
-            iframe.style.width = "100%"; // Forzar el ancho del iframe
-
-            // Suprimir el margin-right del contenedor específico
-            var container = iframe.contentWindow.document.querySelector('#page.drawers.show-drawer-right');
-            if (container) {
-                container.style.marginRight = "0";
-            }
+            // El CSS maneja toda la presentación (altura fija + scroll)
+            // No se requiere JavaScript para ajustar altura
         };
-
-        // Ajustar el tamaño del iframe cada 500 milisegundos
-        setInterval(function() {
-            var body = iframe.contentWindow.document.body;
-            iframe.style.height = body.scrollHeight + 'px';
-            iframe.style.width = "100%"; // Forzar el ancho del iframe
-
-            // Suprimir el margin-right del contenedor específico
-            var container = iframe.contentWindow.document.querySelector('#page.drawers.show-drawer-right');
-            if (container) {
-                container.style.marginRight = "0";
-            }
-        }, 500);
     });
 });
 

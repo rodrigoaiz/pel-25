@@ -49,6 +49,10 @@ function renderModalIndex($ModalContent2 = null)
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     var modal = document.getElementById('default-modal');
+    if (!modal) {
+      console.warn('Modal element not found');
+      return;
+    }
     modal.classList.remove('hidden');
 
     var closeModalButtons = document.querySelectorAll('.close-modal-button');

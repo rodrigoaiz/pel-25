@@ -18,10 +18,10 @@
       "nombre": "Unidad 2",
       "temas": [
         {"nombre": "Bienvenida a la unidad 2", "url": "/quimica-3/unidad2/t1", "paginas": 1},
-        {"nombre": "Recursos minerales y su aprovechamiento", "url": "/quimica-3/unidad2/t2", "paginas": 4},
+        {"nombre": "Recursos minerales y su aprovechamiento", "url": "/quimica-3/unidad2/t2", "paginas": 3},
         {"nombre": "Tipos de reacciones químicas", "url": "/quimica-3/unidad2/t3", "paginas": 6},
-        {"nombre": "Estequiometría", "url": "/quimica-3/unidad2/t4", "paginas": 9},
-        {"nombre": "Enlace metálico", "url": "/quimica-3/unidad2/t5", "paginas": 4},
+        {"nombre": "Estequiometría", "url": "/quimica-3/unidad2/t4", "paginas": 10},
+        {"nombre": "Enlace metálico", "url": "/quimica-3/unidad2/t5", "paginas": 5},
         {"nombre": "Evaluación unidad 2", "url": "/quimica-3/unidad2/t6", "paginas": 1}
       ]
     },
@@ -32,8 +32,8 @@
       "temas": [
         {"nombre": "Bienvenida a la unidad 3", "url": "/quimica-3/unidad3/t1", "paginas": 1},
         {"nombre": "Reacción química", "url": "/quimica-3/unidad3/t2", "paginas": 4},
-        {"nombre": "Enlace covalente", "url": "/quimica-3/unidad3/t3", "paginas": 5},
-        {"nombre": "Propiedades de los compuestos químicos", "url": "/quimica-3/unidad3/t4", "paginas": 4},
+        {"nombre": "Enlace covalente", "url": "/quimica-3/unidad3/t3", "paginas": 4},
+        {"nombre": "Propiedades de los compuestos químicos", "url": "/quimica-3/unidad3/t4", "paginas": 8},
         {"nombre": "Evaluación unidad 3", "url": "/quimica-3/unidad3/t5", "paginas": 1}
       ]
     }
