@@ -19,10 +19,11 @@ ob_start();
 
   <h3>Instrucciones</h3>
 
-  <p>De manera individual</p>
-
+  
   <ol class="ol-number">
+    <p>En equipo</p>
     <li>Ve y escucha atentamente los videos: <strong>"Así nació Un Violador en tu Camino"</strong> de Las Tesis y, <strong>"Vivir sin Miedo"</strong> de Vivir Quintana.</li>
+    <p>De manera individual</p>
     <li>En el <em>mentimeter</em>  que abrió tu profesor(a) contesta:</li>
     <ul class="ul-disc">
       <li>¿Qué sentiste al ver y escuchar cada video?</li>
@@ -32,18 +33,18 @@ ob_start();
 
   <p><strong>Nota:</strong> Esta actividad es anónima y no tiene porcentaje en la evaluación.</p>
 
-    <div class="md:grid grid-cols-2 gap-3 items-center my-5">
-      <div>
-        <?php
-        renderVideoIframe('_utq2Y7nXPw', '');
-        ?>
-      </div>
-      <div>
-        <?php
-        renderVideoIframe('VLLyzqkH6cs', '');
-        ?>
-      </div>
+  <div class="md:grid grid-cols-2 gap-3 items-center my-5">
+    <div>
+      <?php
+      renderVideoIframe('_utq2Y7nXPw', '');
+      ?>
     </div>
+    <div>
+      <?php
+      renderVideoIframe('VLLyzqkH6cs', '');
+      ?>
+    </div>
+  </div>
 
 </section>
 <?php

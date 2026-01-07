@@ -23,6 +23,7 @@ ob_start();
     </div>
 
     <ol class="ol-number">
+      <p>En plenaria</p>
       <li>Lee atentamente los siguientes textos:</li>
       <ul class="ul-disc">
         <li><strong>“Sus contrapúblicos. Otra narrativa para apropiar nuestros cuerpos”</strong> en <a href="<?php echo PATH_DOCS . 'u2t9-Lectura_NarrarElCuerpoDeLasVictimasDeFeminicidio_Act.9.10.pdf'; ?>" target="_blank">Narrar el cuerpo de las víctimas de feminicidio: el crimen de Francisco Robledo, sus públicos y contrapúblicos.</a> Este fragmento está de la página 38 a la 40.</li>
