@@ -12,7 +12,7 @@ ob_start();
 <section>
     <h2>Actividad diagnóstica: reflexionando sobre el amor</h2>
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-    <p>Iniciaremos la discusión del tema del amor romántico para que te familiarices con los conceptos básicos: enamoramiento, amor, amor romántico e iniciaremos con la identificación del problema.</p>
+    <p>Iniciaremos la discusión del tema del amor romántico para que te familiarices con los conceptos básicos: tipos de noviazgo, enamoramiento, amor, amor romántico e iniciaremos con la identificación del problema.</p>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32">
         <li>Observa el video con atención e identifica los elementos de esta relación.</li>
