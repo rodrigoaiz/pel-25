@@ -31,9 +31,13 @@ ob_start();
             <ul>
                 <li>Enamoramiento</li>
                 <li>Amor romántico</li>
-                <li>Violencia en el amor</li>
+                <li>Violencia en el noviazgo</li>
+                <li>Mandatos de género</li>
+                <li>Socialización en la feminidad</li>
+                <li>Socialización en la masculinidad</li>
                 <li>Mitos del amor</li>
-                <li>Noviazgo</li>
+                <li>Tipos de noviazgo</li>
+                <li>Responsabilidad afectiva</li>
             </ul>
         </li>
         <li>Recuerda que los conceptos que agregues en tu glosario deberás ilustrarlos con imágenes, fotografías o dibujos.</li>
