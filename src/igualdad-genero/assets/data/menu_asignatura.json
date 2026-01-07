@@ -94,9 +94,6 @@
 
     "u2t10a1": { "id": "575", "moduleName": "forum" },
     "u2t10a2": { "id": "576", "moduleName": "assign" },
-    "u2t10a3": { "id": "577", "moduleName": "assign" },
-    "u2t10a4": { "id": "578", "moduleName": "forum" },
-    "u2t10a5": { "id": "579", "moduleName": "forum" },
     "u2t10a6": { "id": "580", "moduleName": "assign" },
     "u2t10a7": { "id": "581", "moduleName": "quiz" }
   }
