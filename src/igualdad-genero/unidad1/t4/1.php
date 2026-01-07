@@ -15,13 +15,16 @@ ob_start();
     ?>
   </div>
   <h3>¡Te damos la bienvenida al aprendizaje 4!</h3>
-  <p>El contenido y las actividades que realizarás te ayudarán a reconocer y cuestionar estereotipos y roles de la masculinidad tradicional. A medida que avances por las actividades, te darás cuenta de que algunos de estos estereotipos y roles impiden el desarrollo de otros hombres y mujeres con lo que se promueve la violencia de género.</p>
-  <p>Pero, gracias a la diversidad, podemos apreciar cambios en los roles y estereotipos masculinos que contribuyen a crear ambientes de igualdad, respeto, tolerancia y convivencia. Por ello, al finalizar este aprendizaje te invitamos a reflexionar sobre los aspectos negativos y positivos de las representaciones culturales masculinas.</p>
+  <p>Los cambios sociales generados por la igualdad de derechos están modificando la forma en que nos relacionamos con otras personas en lo personal, académico, laboral o social. Por eso el contenido y las actividades que realizarás en el aprendizaje 4 te ayudarán a <strong>reconocer y cuestionar algunos presupuestos de la masculinidad tradicional</strong>.</p>
+  <p>Pero ¿qué es la masculinidad tradicional? Para responder a esta interrogante te presentamos la caja de la masculinidad, una herramienta con perspectiva de género que investiga cómo se comportan, actúan, interactúan y se relacionan las personas que ejercen una masculinidad tradicional, y quienes está en proceso de transformación, y quienes ejercen una masculinidad alternativa.</p>
+  <p>¿Y es necesario cuestionar a la masculinidad tradicional? La triada de la violencia y los machismos cotidianos te servirán de guía para <strong>comprender que algunos de esos comportamientos, acciones, interacciones y formas de relacionarse promueven la violencia de género</strong> porque impiden el libre desarrollo de los propios hombres, de otros hombres, de las mujeres, de las infancias y de las comunidades sexo diversas y sexo divergentes.</p>
+  <p>Sin embargo, <strong>las personas masculinas no nacen siendo violentas, aprenden a serlo</strong>. Aunque para los hombres la violencia es algo indeseable, es incentivada por las representaciones culturales que nos muestran como deberían ser y comportarse los hombres. Por eso, analizarás cuáles son los aspectos negativos y los positivos de los modelos de masculinidad que puedes encontrar en los diversos medios de comunicación, entretenimiento o redes sociales. Para cerrar este aprendizaje <strong>te invitamos a finalizar con una reflexión sobre las contribuciones que hacen los diversos modelos de masculinidad para crear ambientes de igualdad, respeto, tolerancia y convivencia</strong>.</p>
   <p class="font-bold text-xl text-fuchsia-900">Propósito</p>
   <p>Al finalizar este aprendizaje lograrás identificar y cuestionar algunos de los presupuestos de la masculinidad tradicional.</p>
   <p class="font-bold text-xl text-fuchsia-900">Contenidos</p>
   <p class="font-bold">Declarativos:</p>
   <p>- Estereotipos y roles de género de los hombres.</p>
+  <p>- Pilares y mandatos de la masculinidad tradicional.</p>
   <p>- Masculinidad hegemónica, tradicional, masculinidades alternativas y caja de la masculinidad.</p>
   <p>- Triada de la violencia</p>
   <p>- Derechos humanos de los hombres y ambientes de igualdad, respeto, tolerancia y convivencia.</p>

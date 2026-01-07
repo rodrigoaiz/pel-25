@@ -12,7 +12,7 @@
         {"nombre": "Análisis de las relaciones de poder y campos de dominación desde la desigualdad de género", "url": "/igualdad-genero/unidad1/t3", "paginas": 8},
         {"nombre": "Identificación y cuestionamiento de los presupuestos de la masculinidad tradicional ", "url": "/igualdad-genero/unidad1/t4", "paginas": 10},
         {"nombre": "La importancia de construir una cultura de la igualdad ", "url": "/igualdad-genero/unidad1/t5", "paginas": 7},
-        {"nombre": "La noción de persona como fundamento de los derechos humanos ", "url": "/igualdad-genero/unidad1/t6", "paginas": 9}
+        {"nombre": "La noción de persona como fundamento de los derechos humanos ", "url": "/igualdad-genero/unidad1/t6", "paginas": 8}
       ]
     },
     "Unidad 2": {
@@ -61,10 +61,8 @@
     "u1t5a5": { "id": "544", "moduleName": "assign" },
 
     "u1t6a1": { "id": "545", "moduleName": "quiz" },
-    "u1t6a2": { "id": "546", "moduleName": "assign" },
     "u1t6a3": { "id": "547", "moduleName": "assign" },
     "u1t6a4": { "id": "548", "moduleName": "assign" },
-    "u1t6a5": { "id": "549", "moduleName": "forum" },
     "u1t6a6": { "id": "550", "moduleName": "assign" },
     "u1t6a7": { "id": "551", "moduleName": "assign" },
     "u1t6a8": { "id": "552", "moduleName": "assign" },

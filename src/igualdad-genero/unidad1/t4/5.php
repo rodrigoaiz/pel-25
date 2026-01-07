@@ -155,7 +155,7 @@ ob_start();
                 'label' => 'Otros hombres',
                 'content' =>
                 '<div class="grid grid-cols-3 gap-4">
-                    <div class="pt-8 pl-4"><img class="mx-auto" src="../../assets/img/iga4-img13.webp" /></div>
+                    <div class="pt-8 pl-4"><img class="mx-auto" src="../../assets/img/iga4-img13b.webp" /></div>
                     <div class="col-span-2 text-sm leading-6">
                         <p class="font-bold text-purple-900 text-lg text-center leading-6">Violencia contra otros hombres</p>
                         <p>Los hombres ejercen violencia contra otros hombres para demostrar su hombría y mantener su estatus, jerarquía y dominación, por ejemplo, cuando:</p>

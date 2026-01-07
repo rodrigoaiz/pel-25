@@ -21,11 +21,11 @@ ob_start();
                 <li class="leading-none">¿De qué manera la perspectiva de género y los feminismos impactan positivamente en tu vida?</li>
                 <li class="leading-none">¿Qué aprendiste o qué cambió respecto a lo que sabías de los feminismos y la perspectiva de género?</li>
 </ul>
-        <li>Sube tu reflexión en formato <strong>.PDF</strong> nombrándolo de la siguiente manera: <em>Nombre_Apellido_ReflexionFinal.</em></li>
+        <li>Sube tu reflexión en formato <strong>.PDF</strong> nombrándola de la siguiente manera: <em>Nombre_Apellido_ReflexionFinal.</em></li>
     </ol>
     <div class="w-4/5 mx-auto mt-6 bg-fuchsia-900 p-2 leading-none text-md">
         <span class="text-white">NOTA:</span>
-            <p class="text-white">Considera que contenga las siguientes características; Arial 12, interlineado 1.5, texto justificado y márgenes normales. Puedes consultar los materiales de las actividades previas, así como la <a href="<?php echo PATH_DOCS . 'u1t2-rubrica-reflexionSobreLaPerspectivaDeGenero.pdf'; ?>" target="_blank">Rúbrica</a> para que sepas que otros aspectos se considerarán en la evaluación.</p>
+            <p class="text-white">Considera que contenga las siguientes características; Arial 12, interlineado 1.5, texto justificado y márgenes normales. Puedes consultar los materiales de las actividades previas, así como la <a href="<?php echo PATH_DOCS . 'u1t2-rubrica-reflexionSobreLaPerspectivaDeGenero.pdf'; ?>" target="_blank">Escala estimativa</a> para que sepas que otros aspectos se considerarán en la evaluación.</p>
     </div>
     <?php ob_start(); ?>
     <p>Aquí sube el trabajo realizado.</p>

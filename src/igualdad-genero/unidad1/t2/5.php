@@ -13,6 +13,7 @@ ob_start();
     <h2>Video: ¿Qué es la perspectiva de género?</h2>
     <p>¿Alguna vez has escuchado hablar de la <em>"perspectiva de género"</em>? ¿Sabes a qué se refiere? La perspectiva de género es una herramienta fundamental para comprender y analizar las relaciones entre mujeres y hombres en nuestra sociedad. Nos permite ver cómo los roles de género, los estereotipos y las estructuras sociales influyen en nuestras vidas y crean desigualdades.</p>
     <p>A continuación, te invitamos a ver el siguiente video en el que se explica más sobre este concepto.</p>
+    <p>Mientras ves el video identifica la siguiente información:</p>
     <ul class="ul-disc ml-20">
         <li>¿Cuál es el objetivo de la perspectiva de género?</li>
         <li>¿Cuáles son los tres pasos básicos para incorporar la perspectiva de género?</li>
@@ -31,11 +32,9 @@ ob_start();
         <li>Organizados en equipos, según las indicaciones de tu profesor o profesora, responderán en un <em>Padlet</em> alguna de las tres preguntas anteriores.</li>
 
         <li>Posteriormente, las respuestas serán revisadas de forma grupal y recibirás retroalimentación de tu profesor o profesora. </li>
-        <li>Posteriormente presentarán al grupo su infografía o la compartirán a través de alguna herramienta digital colaborativa.</li>
     </ol>
     <p class="mt-8">No olvides revisar la <a href="<?php echo PATH_DOCS . 'u1t2-lista-cotejo-que-es-la-perspectiva-de-genero.pdf'; ?>" target="_blank">lista de cotejo</a>, para que conozcas los criterios con los que se evaluará la actividad.</p>
     <?php ob_start(); ?>
-    <p>Aquí sube la infografía realizada.</p>
     <?php
     $ActividadContent = ob_get_clean();
     renderActividad('u1t2a4', "Perspectiva de género", $ActividadContent);

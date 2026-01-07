@@ -77,7 +77,7 @@ ob_start();
     </div>
     <p><strong>Instructions:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
-        <li>Regarde la vidéo et remplis les trous avec les informations donnés. Fais attention à l’orthographe de mots (accents et aux majuscules et minuscules) / Mira el video y completa los espacios en blanco con la información dada. Ten cuidado con la ortografía de las palabras (acentos, mayúsculas y minúsculas).</li>
+        <li>Regarde la vidéo et remplis les trous avec les informations donnés. Fais attention à l'orthographe de mots (accents et aux majuscules et minuscules) / Mira el video y completa los espacios en blanco con la información dada. Ten cuidado con la ortografía de las palabras (acentos, mayúsculas y minúsculas).</li>
     </ol>
     <div class="max-w-xl mx-auto bg-cyan-200/80 p-4">
         <?php
