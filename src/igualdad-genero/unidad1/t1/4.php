@@ -61,7 +61,7 @@ ob_start();
   <p>Sube tus evidencias aquí:</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a5', "Ruleta de palabras de la Igualdad de Género - Sube tu puntaje", $ActividadContent);
+  renderActividad('u1t1a3', "Ruleta de palabras de la Igualdad de Género - Sube tu puntaje", $ActividadContent);
   ?>
 
 </section>
