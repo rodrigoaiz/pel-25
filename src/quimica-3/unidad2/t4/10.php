@@ -86,7 +86,7 @@ ob_start();
   <p>Ahora, para corroborar lo aprendido del tema de estequiometría, realiza la actividad Problema de estequiometría.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t4a4', "Problema de estequiometría.", $ActividadContent);
+  renderActividad('u2t4a6', "Problema de estequiometría.", $ActividadContent);
   ?>
 
 

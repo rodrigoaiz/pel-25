@@ -33,7 +33,7 @@ ob_start();
   <p>Realiza la actividad Uve De Gowin: Rapidez de reacción.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t2a3', "Uve De Gowin: Rapidez de reacción.", $ActividadContent);
+  renderActividad('u3t2a4', "Uve De Gowin: Rapidez de reacción.", $ActividadContent);
   ?>
 
  

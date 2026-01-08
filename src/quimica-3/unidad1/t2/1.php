@@ -51,10 +51,10 @@ ob_start();
 
 
   <?php ob_start(); ?>
-  <p>.Ahora que identificas que los recursos naturales son fundamentales para elaborar productos esenciales para la vida, realiza la actividad Recursos naturales. </p>
+    <p>Ahora que identificas que los recursos naturales son fundamentales para elaborar productos esenciales para la vida, realiza la actividad Recursos naturales. </p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t2a1', "Recursos naturales", $ActividadContent);
+  renderActividad('u1t1a2', "Recursos naturales", $ActividadContent);
   ?>
 </section>
 <?php

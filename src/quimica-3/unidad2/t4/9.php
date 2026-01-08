@@ -67,7 +67,7 @@ ob_start();
   <p>Realiza los siguientes ejercicios de cálculos estequiométricos y corrobora las respuestas en la actividad cálculos estequiométricos.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t4a3', "cálculos estequiométricos.", $ActividadContent);
+  renderActividad('u2t4a5', "Cálculos estequiométricos.", $ActividadContent);
   ?>
   
 

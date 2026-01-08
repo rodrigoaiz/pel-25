@@ -82,7 +82,7 @@ ob_start();
   <p>Realiza el cuestionario Balanceo de ecuaciones.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t4a2', "Balanceo de ecuaciones", $ActividadContent);
+  renderActividad('u2t4a4', "Balanceo de ecuaciones", $ActividadContent);
   ?>
   
 
