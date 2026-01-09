@@ -2,35 +2,35 @@
   "nombreAsignatura": "Teoría de la Historia II",
   "asignatura": {
     "Unidad 1": {
-      "url": "/toeria-historia-2/unidad1/t1/1.php",
+      "url": "/teoria-historia-2/unidad1/t1/1.php",
       "publicado": true,
       "nombre": "Unidad 1",
       "temas": [
-        {"nombre": "Interpretaciones de la historia en el siglo XIX", "url": "/toeria-historia-2/unidad1/t1", "paginas": 6},
-        {"nombre": "Romanticismo y liberalismo", "url": "/toeria-historia-2/unidad1/t2", "paginas": 5},
-        {"nombre": "Escuela científica alemana", "url": "/toeria-historia-2/unidad1/t3", "paginas": 3},
-        {"nombre": "Materialismo histórico: Teoría 1", "url": "/toeria-historia-2/unidad1/t4", "paginas": 3},
-        {"nombre": "Positivismo", "url": "/toeria-historia-2/unidad1/t5", "paginas": 3}
+        {"nombre": "Interpretaciones de la historia en el siglo XIX", "url": "/teoria-historia-2/unidad1/t1", "paginas": 6},
+        {"nombre": "Romanticismo y liberalismo", "url": "/teoria-historia-2/unidad1/t2", "paginas": 5},
+        {"nombre": "Escuela científica alemana", "url": "/teoria-historia-2/unidad1/t3", "paginas": 3},
+        {"nombre": "Materialismo histórico: Teoría 1", "url": "/teoria-historia-2/unidad1/t4", "paginas": 3},
+        {"nombre": "Positivismo", "url": "/teoria-historia-2/unidad1/t5", "paginas": 3}
       ]
     },
     "Unidad 2": {
-      "url": "/toeria-historia-2/unidad2/t1/1.php",
+      "url": "/teoria-historia-2/unidad2/t1/1.php",
       "publicado": true,
       "nombre": "Unidad 2",
       "temas": [
-        {"nombre": "Historicismo: Teoría", "url": "/toeria-historia-2/unidad2/t1", "paginas": 5},
-        {"nombre": "Annales: las fuentes, el método y la periodización", "url": "/toeria-historia-2/unidad2/t2", "paginas": 4},
-        {"nombre": "Materialismo histórico: Teoría 2", "url": "/toeria-historia-2/unidad2/t3", "paginas": 9}
+        {"nombre": "Historicismo: Teoría", "url": "/teoria-historia-2/unidad2/t1", "paginas": 5},
+        {"nombre": "Annales: las fuentes, el método y la periodización", "url": "/teoria-historia-2/unidad2/t2", "paginas": 4},
+        {"nombre": "Materialismo histórico: Teoría 2", "url": "/teoria-historia-2/unidad2/t3", "paginas": 9}
       ]
     },
     "Unidad 3": {
-      "url": "/toeria-historia-2/unidad3/t1/1.php",
+      "url": "/teoria-historia-2/unidad3/t1/1.php",
       "publicado": true,
       "nombre": "Unidad 3",
       "temas": [
-        {"nombre": "Nuevas propuestas", "url": "/toeria-historia-2/unidad3/t1", "paginas": 6},
-        {"nombre": "Nuevos enfoques", "url": "/toeria-historia-2/unidad3/t2", "paginas": 5},
-        {"nombre": "Nuevos enfoques", "url": "/toeria-historia-2/unidad3/t3", "paginas": 6}
+        {"nombre": "Nuevas propuestas", "url": "/teoria-historia-2/unidad3/t1", "paginas": 6},
+        {"nombre": "Nuevos enfoques", "url": "/teoria-historia-2/unidad3/t2", "paginas": 5},
+        {"nombre": "Nuevos enfoques", "url": "/teoria-historia-2/unidad3/t3", "paginas": 6}
       ]
     }
   },
