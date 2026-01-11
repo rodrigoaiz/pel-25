@@ -10,14 +10,14 @@ ob_start();
 <section>
   <h2>Infografía: Feminicidio vs Homicidio</h2>
 
-    <div class="md:grid grid-cols-2 gap-3 items-center">
-        <div class="max-2xl mx-auto">
-          <?php
-          renderImage('u2t3-Iga9-img05.webp');
-          ?>
-        </div>
-      <p>Es común escuchar las palabras "homicidio" y "feminicidio" y, aunque ambos términos se refieren a la privación de la vida de una persona, existen diferencias fundamentales que debemos comprender. Su distinción refleja las causas, los contextos y las motivaciones detrás de estos actos de violencia. En el apartado anterior, revisaste documentos que pueden ayudarte a reflexionar sobre las características que tiene el delito de feminicidio. Ahora, en esta actividad, podrás plasmar lo que has ido comprendiendo del tema para establecer una diferenciación clara entre ambos delitos y reconocer, de manera más asertiva, el fenómeno del feminicidio.</p>
+  <div class="md:grid grid-cols-2 gap-3 items-center">
+    <div class="max-2xl mx-auto">
+      <?php
+      renderImage('u2t3-Iga9-img05.webp');
+      ?>
     </div>
+    <p>A menudo escuchamos las palabras "homicidio" y "feminicidio", y aunque ambos términos se refieren a la privación de la vida de una persona, existen diferencias fundamentales que debemos comprender. Estas distinciones reflejan las causas, los contextos y las motivaciones detrás de estos actos de violencia. En el apartado anterior revisaste documentos que permiten reflexionar sobre las características que tiene el delito de feminicidio. En esta actividad podrás plasmar lo que has comprendido del tema.</p>
+  </div>
 
   <h3>Propósito</h3>
   <p>Sintetizar la comprensión del feminicidio como delito en un organizador gráfico digital.</p>
@@ -37,11 +37,11 @@ ob_start();
     <li>Revisa la <a href="<?php echo PATH_DOCS . 'u2t9-Rubrica_InfografiaFeminicidiovsHomicidio_Act.9.5.pdf'; ?>" target="_blank">rúbrica</a> para que conozcas cuáles son los criterios con los que se evaluará tu infografía.</li>
   </ol>
 
-    <?php ob_start(); ?>
-      <?php
-      $ActividadContent = ob_get_clean();
-      renderActividad('u2t9a4', "Infografía: Feminicidio vs Homicidio", $ActividadContent);
-    ?>
+  <?php ob_start(); ?>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividad('u2t9a4', "Infografía: Feminicidio vs Homicidio", $ActividadContent);
+  ?>
 
 </section>
 <?php

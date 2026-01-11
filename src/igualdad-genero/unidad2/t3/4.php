@@ -24,7 +24,7 @@ ob_start();
     <li>Con base en el cuadro que elaboraste en la actividad anterior, responde a las siguientes preguntas y comparte tus respuestas en el foro:</li>
     <ul class="ul-disc">
       <li>Explica con tus palabras ¿qué es feminicidio?</li>
-      <li>¿Qué tipo de violencia de género se puede observar en la relación entre Ingrid Escamilla y su agresor?</li>
+      <li>¿Qué tipos de violencia de género se puede observar en la relación entre Ingrid Escamilla y su agresor?</li>
       <li>Con base en las notas periodísticas ¿cómo se manifiesta dicha violencia? Ejemplifica.</li>
       <li>Desde tu punto de vista ¿qué relación existe entre estos tipos de violencia de género y el feminicidio?</li>
       <li>¿Consideras que las notas periodísticas sobre el caso de Ingrid Escamilla fueron elaboradas con perspectiva de género? ¿por qué?</li>

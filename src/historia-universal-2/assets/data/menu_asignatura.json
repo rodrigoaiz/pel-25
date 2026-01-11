@@ -18,10 +18,10 @@
       "nombre": "Unidad 2",
       "temas": [
         {"nombre": "Origen y desarrollo de la Revolución rusa como nuevo sistema político y económico", "url": "/historia-universal-2/unidad2/t1", "paginas": 2},
-        {"nombre": "Entreguerras: crisis capitalista, fascismo, new deal", "url": "/historia-universal-2/unidad2/t1", "paginas": 2},
-        {"nombre": "La Segunda Guerra Mundial: Desarrollo y consecuencias", "url": "/historia-universal-2/unidad2/t1", "paginas": 3},
-        {"nombre": "Características económicas, políticas y sociales de América Latina en la primera mitad del siglo XX y el intervencionismo de los Estados Unidos en esa región", "url": "/historia-universal-2/unidad2/t1", "paginas": 3},
-        {"nombre": "Vanguardias Artísticas del Siglo XX: Explorando la Revolución Creativa", "url": "/historia-universal-2/unidad2/t1", "paginas": 4}
+        {"nombre": "Entreguerras: crisis capitalista, fascismo, new deal", "url": "/historia-universal-2/unidad2/t2", "paginas": 2},
+        {"nombre": "La Segunda Guerra Mundial: Desarrollo y consecuencias", "url": "/historia-universal-2/unidad2/t3", "paginas": 3},
+        {"nombre": "Características económicas, políticas y sociales de América Latina en la primera mitad del siglo XX y el intervencionismo de los Estados Unidos en esa región", "url": "/historia-universal-2/unidad2/t4", "paginas": 3},
+        {"nombre": "Vanguardias Artísticas del Siglo XX: Explorando la Revolución Creativa", "url": "/historia-universal-2/unidad2/t5", "paginas": 4}
       ]
     },
     "Unidad 3": {

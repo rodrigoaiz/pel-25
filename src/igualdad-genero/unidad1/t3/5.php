@@ -29,7 +29,7 @@ ob_start();
       <li>¿Cuáles son las principales teorías que han sustentado las visiones de poder en la historia?</li>
       <li>¿Qué valores y visiones de mundo sustentan las relaciones de poder en diferentes contextos sociales?</li>
     </ul>
-    <li>Comparte tus reflexiones en plenaria con el resto de tus compañeros y con tu profesor o profesora.</li>
+    <li>Comparte tus reflexiones en plenaria con el resto de tus compañeros y con tu profesor o profesora. Recuerda leer en la siguiente <a href="<?php echo PATH_DOCS . 'u1t3-Reflexion-Relaciones-Poder.pdf'; ?>" target="_blank">lista de cotejo</a> los criterios a considerar en la reflexión que realices.</li>
     </ol>
 
     <?php ob_start(); ?>

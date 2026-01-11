@@ -1,0 +1,29 @@
+::ap5diagnosticop1::La igualdad es un principio fundamental en la vida de las personas.{
+    =Sí
+    ~No
+    #La igualdad es un derecho humano básico reconocido en la Declaración Universal de los DDHH.
+}
+
+::ap5diagnosticop2::La cultura de la igualdad de género se traduce en oportunidades para las personas.{
+    =Sí
+    ~No
+    #Genera condiciones para que todas las personas accedan a recursos y derechos sin discriminación.
+}
+
+::ap5diagnosticop3::La igualdad de género exige que hombres y mujeres sean tratados de forma idéntica.{
+    ~Sí
+    =No
+    #Requiere equidad (ajustes según necesidades), no igualdad literal. Ej acciones afirmativas.
+}
+
+::ap5diagnosticop4::La igualdad sustantiva es igual que la igualdad real.{
+    =Sí
+    ~No
+    #Ambos conceptos se refieren a resultados concretos, no solo a marcos legales formales.
+}
+
+::ap5diagnosticop5::La cultura por la igualdad es un conjunto de creencias, valores, costumbres que empoderan a las mujeres.{
+    =Sí
+    ~No
+    #Transforma patrones culturales que perpetúan la desigualdad estructural.
+}

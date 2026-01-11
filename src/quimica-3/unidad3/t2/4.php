@@ -34,7 +34,7 @@ ob_start();
   <p>Ahora, realiza una infografía sobre el Proceso Haber, sus características, la importancia y los retos a vencer en la actualidad para la producción del Amoniaco.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t2a3', "Infografía del proceso Haber-Bosch y la producción de amoniaco", $ActividadContent);
+  renderActividad('u3t2a5', "Infografía del proceso Haber-Bosch y la producción de amoniaco", $ActividadContent);
   ?>
 
 

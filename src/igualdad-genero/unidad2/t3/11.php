@@ -13,7 +13,7 @@ ob_start();
     <div class="md:grid grid-cols-2 gap-3 items-center">
       <div>
         <h3>Propósito</h3>
-        <p>Elaboración de un manifiesto que permita visibilizar una postura en contra del feminicidio para mediante una manifestación artística.</p>
+        <p>Elaboración de un manifiesto que permita visibilizar una postura en contra del feminicidio mediante una manifestación artística.</p>
       </div>
       <div class="max-2xl mx-auto">
         <?php

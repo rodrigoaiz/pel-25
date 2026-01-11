@@ -163,7 +163,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t1a3', "Sube aquí tu nota de voz", $ActividadContent);
+    renderActividad('u1t1a4', "Sube aquí tu nota de voz", $ActividadContent);
     ?>
 </section>
 

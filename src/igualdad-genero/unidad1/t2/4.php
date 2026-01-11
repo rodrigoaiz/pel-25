@@ -38,7 +38,7 @@ ob_start();
 
                 <li class="leading-none"><a href="<?php echo PATH_DOCS . 'u1t2-lectura-LaCuartaOlaDelFeminismo.pdf'; ?>" target="_blank">La cuarta ola del feminismo</a> de Patricia Galeana.</li>
 
-                <li class="leading-6"><a href="<?php echo PATH_DOCS . 'u1t2-lectura-ElMovimientoFeministaEnMexico.pdf'; ?>" target="_blank">El movimiento feminista en México, una lucha permanente contra la violencia de género</a> de Alma Rosa Sánchez, Diana Hernández y Mariana Bucio.</li>
+                <li class="leading-6"><a href="https://repositorio-uapa.cuaed.unam.mx/repositorio/moodle/pluginfile.php/2854/mod_resource/content/1/UAPA-Movimiento-Feminista-Mexico-Lucha-Permanente-Contra-Violencia-Genero/index.html" target="_blank">El movimiento feminista en México, una lucha permanente contra la violencia de género</a> de Alma Rosa Sánchez, Diana Hernández y Mariana Bucio.</li>
             </ul>
         </li>
         <li>Revisa muy bien el instrumento <a href="<?php echo PATH_DOCS . 'u1t2-rubrica-OlasDelFeminismoYFeminismoEnMexico.pdf'; ?>" target="_blank">escala estimativa</a>, con el que se evaluará tu producto. </li>

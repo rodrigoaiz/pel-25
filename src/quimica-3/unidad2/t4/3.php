@@ -57,7 +57,7 @@ ob_start();
   <p>Realiza la actividad Mol y masa molar donde reafirmarás lo relacionado con el concepto de mol.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t4a2', "Reacción y ecuación química", $ActividadContent);
+  renderActividad('u2t4a3', "Concepto de Mol", $ActividadContent);
   ?>
   
 

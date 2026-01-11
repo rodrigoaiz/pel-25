@@ -13,9 +13,9 @@ ob_start();
   <h2>Bienvenida a la unidad 3</h2>
   <h3>Bienvenue à l'unité 3</h3>
   <div class="flex">
-    <div class="w-2/3 mx-auto">
+    <div class="w-full mx-auto">
       <?php
-      renderImage('fr1u2a1-portada.webp');
+      renderImage('fr1u3a1-portada.webp');
       ?>
     </div>
   </div>

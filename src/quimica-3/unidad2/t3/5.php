@@ -62,7 +62,7 @@ ob_start();
   <p>A continuación, identifica la especie oxidante y reductora, así como el agente oxidante y reductor en la siguiente reacción. Arrastra las palabras al lugar correcto.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t3a5', "Especie y agentes oxidante y reductores.", $ActividadContent);
+  renderActividad('u2t3a6', "Especie y agentes oxidante y reductores.", $ActividadContent);
   ?>
 
 

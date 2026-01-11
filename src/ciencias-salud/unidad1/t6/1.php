@@ -28,7 +28,7 @@ ob_start();
 
   <li><strong>Factores Modificadores:</strong> Existen varios factores, que pueden prevenir o alterar el curso de una enfermedad, entre los cuales mencionaremos los siguientes:
     
-    <ol class="ol-alpha"> 
+    <ol style="list-style: lower-alpha;"> 
       <li>factores protectores, son elementos que pueden reducir las posibilidades de que aparezca una enfermedad o que esta sea menos grave, como por ejemplo: una alimentación saludable, evitar el alcohol y el tabaco, mantener un peso corporal adecuado, entre otras. </li>
       <li>intervenciones médicas, medidas preventivas y tratamientos, que pueden evitar o alterar el curso de la enfermedad, entre los que se encuentran, las vacunas, antibióticos, cirugías, análisis y estudios, etc. </li>
       <li>factores ambientales, están relacionados con las características que rodean a la persona y que intervienen en el desarrollo de la enfermedad, como pueden ser, la calidad del agua, del aire y de los alimentos y finalmente, </li>

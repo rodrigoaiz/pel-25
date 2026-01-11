@@ -21,7 +21,7 @@ ob_start();
   <h3>Instrucciones</h3>
   <ol class="ol-number">
     <li>Analiza detenidamente los casos presentados en el Foro y el siguiente <a href="<?php echo PATH_DOCS . 'u1t3-Lectura_CasosMachismosCotidianos_Act.3.5.pdf'; ?>" target="_blank">documento</a>. Para cada caso, identifica de manera precisa el tipo de relación de poder que se manifiesta, y luego, elabora una propuesta de solución detallada y fundamentada. Cada propuesta debe abordar las dinámicas de poder identificadas y ofrecer estrategias viables para promover relaciones más equitativas y justas.</li>
-    <li>Publica tu respuesta en el foro. Después lee las respuestas de tus compañeros y vota por las que te parezcan más adecuadas.</li>
+    <li>Publica tu respuesta en el foro. Después lee las respuestas de tus compañeros y vota por las que te parezcan más adecuadas. No olvides revisar la <a href="<?php echo PATH_DOCS . 'u1t3-Propuesta-Solucion-Casos.pdf'; ?>" target="_blank">lista de cotejo</a> con los criterios en lo que debes fijarte al leer la participación de tus demás compañeros.</li>
   </ol>
   <?php ob_start(); ?>
       <?php

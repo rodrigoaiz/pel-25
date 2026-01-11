@@ -58,7 +58,7 @@ ob_start();
   <p>Con la información anterior de la lectura de reacciones exotérmicas y endotérmicas y la consulta del video realiza la siguiente actividad</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t3a2', "reacciones exotérmicas y endotérmicas", $ActividadContent);
+  renderActividad('u3t3a2', "Reacciones exotérmicas y endotérmicas", $ActividadContent);
   ?>
 
 

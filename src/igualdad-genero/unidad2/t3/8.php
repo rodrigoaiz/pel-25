@@ -26,11 +26,11 @@ ob_start();
   <h3>Instrucciones:</h3>
 
   <ol class="ol-number">
-    <li>Lean con atención el texto <a href="<?php echo PATH_DOCS . 'u2t9-Lectura_AQueLlamamosFeminicidio_Act.9.8.pdf'; ?>" target="_blank">“¿A qué llamamos feminicidio?”</a> de Marcela Lagarde.</li>
-    <li>Deben retomar la lectura inicial, <a href="<?php echo PATH_DOCS . 'u2t9-Lectura_NarrarElCuerpoDeLasVictimasDeFeminicidio_Act.98.pdf'; ?>" target="_blank">“Los aliados de la violencia feminicida: funcionarios públicos incompetentes y prensa amarillista”</a>;</li>
-    <li>Recuperen conceptos vistos en sesiones previas (sexo, género, orientación sexo-afectiva, roles y estereotipos de género, equidad e igualdad de género, tipos y manifestaciones de la violencia de género, patriarcado, micromachismos o machismo cotidiano, etc...) que permitan identificar la violencia estructural.</li>
-    <li>Con ayuda de su docente reflexionen en torno a la siguiente pregunta: <strong>¿Cuáles elementos de violencia estructural identificaron en el feminicidio de Ingrid?</strong></li>
-    <li>En equipos redacten la respuesta a la pregunta en un mínimo de 5 y máximo 10 renglones.</li>
+    <li>Lee con atención el texto <a href="<?php echo PATH_DOCS . 'u2t9-Lectura_AQueLlamamosFeminicidio_Act.9.8.pdf'; ?>" target="_blank">“¿A qué llamamos feminicidio?”</a> de Marcela Lagarde.</li>
+    <li>Debes retomar la lectura inicial, <a href="<?php echo PATH_DOCS . 'u2t9-Lectura_NarrarElCuerpoDeLasVictimasDeFeminicidio_Act.98.pdf'; ?>" target="_blank">“Los aliados de la violencia feminicida: funcionarios públicos incompetentes y prensa amarillista”</a>;</li>
+    <li>Recupera conceptos vistos en sesiones previas (sexo, género, orientación sexo-afectiva, roles y estereotipos de género, equidad e igualdad de género, tipos y manifestaciones de la violencia de género, patriarcado, micromachismos o machismo cotidiano, etc...) que permitan identificar la violencia estructural.</li>
+    <li>Con ayuda de tu docente reflexiona en torno a la siguiente pregunta: <strong>¿Cuáles elementos de violencia estructural identificaron en el feminicidio de Ingrid?</strong></li>
+    <li>En equipos redacta la respuesta a la pregunta en un mínimo de 5 y máximo 10 renglones.</li>
     <li>Elijan a un(a) integrante de su equipo para que suba el archivo con la reflexión con el nombre de quienes lo elaboraron.</li>
     <li>Revisa la <a href="<?php echo PATH_DOCS . 'u2t9-Rubrica_AQueLlamamosFeminicidio_Act.9.8.pdf'; ?>" target="_blank">rúbrica</a> para que tengas claridad en lo que se va a evaluar.</li>
    </ol>

@@ -82,6 +82,10 @@ ob_start();
             <a href="https://www.youtube.com/watch?v=daIsps4EsKQ" target="_blank">https://www.youtube.com/watch?v=daIsps4EsKQ</a>
         </li>
 
+        <li>Rebeca Rosado Rostro. (16 de julio de 2024). <em>Formas de violencia de género.</em> [Archivo de Vídeo]. YouTube.
+            <a href="https://www.youtube.com/watch?v=FFIv1Ida2eE&t=44s" target="_blank">https://www.youtube.com/watch?v=FFIv1Ida2eE&t=44s</a>
+        </li>
+
         <li>c (2014) <em>Violencia de Género y Salud Pública Horizonte Sanitario</em>, vol. 13, núm. 1, enero-abril, pp. 127-129 Universidad Juárez Autónoma de Tabasco Villahermosa, México [fecha de Consulta 4 de abril de 2024]. ISSN: 1665-3262.
             <a href="https://www.redalyc.org/articulo.oa?id=457845146003" target="_blank">https://www.redalyc.org/articulo.oa?id=457845146003</a>
         </li>

@@ -59,7 +59,7 @@ ob_start();
   <p>Con base en lo revisado, te sugerimos que indagues más sobre las ventajas y desventajas en la producción industrial para que, a partir de ello, realices un ensayo que oriente la discusión desde el enfoque social, ambiental o económico.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t4a8', "ventajas y desventajas en la producción industrial", $ActividadContent);
+  renderActividad('u3t4a8', "Ventajas y desventajas en la producción industrial", $ActividadContent);
   ?>
 
 

@@ -17,11 +17,7 @@ ob_start();
     <p>Identificar los elementos de la sana convivencia.</p>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32">
-        <li>Observa con atención el siguiente video e identifica los elementos de la sana convivencia.
-            <div class="max-w-xl mx-auto mt-4">
-                <?php
-                renderVideoIframe('ZFXlOxS6jOI', 'Convivencia, una tarea de todos | Silvina Francezón | TEDxLagunaSetúbal');
-                ?></div>
+        <li>Con base en la información del <a href="<?php echo PATH_DOCS . 'u2t10-EticaDG.pdf'; ?>" target="_blank">Código de Ética y Equidad de Género para Estudiantes del Colegio (CCH,2025)</a> identifica los elementos de una sana convivencia.
         </li>
         <li>Con estos contenidos elabora una infografía que contenga las siguientes secciones:
             <ul>
