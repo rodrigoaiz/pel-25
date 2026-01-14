@@ -1,0 +1,22 @@
+{
+  "nombreAsignatura": "Ciencias de la Salud I | Diplomado: Gestión de asignaturas en línea del CCH en Moodle",
+  "asignatura": {
+    "Unidad 1": {
+      "url": "/ciencias-salud-DIPLOMADO-M3/unidad1/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 1",
+      "temas": [
+        {"nombre": "La salud y la enfermedad", "url": "/ciencias-salud-DIPLOMADO-M3/unidad1/t1", "paginas": 2},
+        {"nombre": "Derecho a la salud", "url": "/ciencias-salud-DIPLOMADO-M3/unidad1/t2", "paginas": 1},
+        {"nombre": "Las ciencias de la salud", "url": "/ciencias-salud-DIPLOMADO-M3/unidad1/t3", "paginas": 3}
+
+      ]
+    }
+  },
+  "actividades": {
+    "u1-act-1": { "id": "50", "moduleName": "ESTE ES H5P" },
+    "u1-act-2": { "id": "50", "moduleName": "forum" },
+    "u1-act-3": { "id": "50", "moduleName": "assign" },
+    "u1-act-4": { "id": "50", "moduleName": "quiz" }
+  }
+}
