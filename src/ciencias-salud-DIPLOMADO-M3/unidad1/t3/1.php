@@ -29,7 +29,7 @@ ob_start();
   <p><strong>Instrucciones:</strong></p>
   <ol class="ol-number md:ml-32 mb-8">
     <li>A partir de la información presentada sobre las diferentes disciplinas que forman parte del proyecto de salud, elabora un mapa conceptual que incluye estos conceptos.</li>
-    <li>Antes de empezar, consulta la <a href="<?php echo PATH_DOCS . 'u1t8-rubrica_GlosarioDeTerminosIlustrado.pdf'; ?>" target="_blank">rúbrica</a> para asegurar que tu trabajo cumple con los requerimientos establecidos.</li>
+    <li>Antes de empezar, consulta la <a href="<?php echo PATH_DOCS . 'rubrica-mapa.pdf'; ?>" target="_blank">rúbrica</a> para asegurar que tu trabajo cumple con los requerimientos establecidos.</li>
   </ol>
   <?php ob_start(); ?>
   <p>Adjunta aquí tu mapa conceptual.</p>
