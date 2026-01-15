@@ -14,9 +14,9 @@
     }
   },
   "actividades": {
-    "u1-act-1": { "id": "50", "moduleName": "ESTE ES H5P" },
-    "u1-act-2": { "id": "50", "moduleName": "forum" },
-    "u1-act-3": { "id": "50", "moduleName": "assign" },
-    "u1-act-4": { "id": "50", "moduleName": "quiz" }
+    "u1-act-1": { "id": "5184", "moduleName": "hvp" },
+    "u1-act-2": { "id": "5185", "moduleName": "forum" },
+    "u1-act-3": { "id": "5186", "moduleName": "assign" },
+    "u1-act-4": { "id": "5187", "moduleName": "quiz" }
   }
 }

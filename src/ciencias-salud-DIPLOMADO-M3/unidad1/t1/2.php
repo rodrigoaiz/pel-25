@@ -1,7 +1,7 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadH5P.php';
+include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -39,8 +39,8 @@ ob_start();
   <blockquote class="blockquote-destacado">
     <p>La Salud es un estado de bienestar físico, mental y social y la capacidad para funcionar y no meramente la ausencia de enfermedad o incapacidad.</p>
   </blockquote>
-      <p>Según la Organización Mundial de la Salud la enfermedad es una “alteración o desviación del estado fisiológico en una o varias partes del cuerpo, por causas en general conocidas, manifestadas por síntomas y signos característicos, y cuya evolución es más o menos previsible”. En otras palabras, una enfermedad es una afección que padece un ser vivo, que consiste en el cambio de su estado normal de salud.</p>
-      <p>El concepto de enfermedad a lo largo de la historia, ha sido definido de acuerdo a la comprensión y el conocimiento médico de la época. Antiguamente, se asociaba a menudo con causas místicas o castigos divinos, mientras que en la actualidad se basan en causas biológicas y científicas. La enfermedad es una parte más de la vida y la salud en general. Es imposible evitar la enfermedad dentro del proceso biológico, como parte natural de la interacción del individuo con el mundo que le rodea, tanto a nivel ambiental como en el contacto con otros seres humanos, animales, y materias en general.</p>
+  <p>Según la Organización Mundial de la Salud la enfermedad es una “alteración o desviación del estado fisiológico en una o varias partes del cuerpo, por causas en general conocidas, manifestadas por síntomas y signos característicos, y cuya evolución es más o menos previsible”. En otras palabras, una enfermedad es una afección que padece un ser vivo, que consiste en el cambio de su estado normal de salud.</p>
+  <p>El concepto de enfermedad a lo largo de la historia, ha sido definido de acuerdo a la comprensión y el conocimiento médico de la época. Antiguamente, se asociaba a menudo con causas místicas o castigos divinos, mientras que en la actualidad se basan en causas biológicas y científicas. La enfermedad es una parte más de la vida y la salud en general. Es imposible evitar la enfermedad dentro del proceso biológico, como parte natural de la interacción del individuo con el mundo que le rodea, tanto a nivel ambiental como en el contacto con otros seres humanos, animales, y materias en general.</p>
 
   <p>Además de la definición de enfermedad que da la OMS, otros autores la consideran como: según Claude Bernard biólogo y médico francés, la define como “una desviación de la fisiología normal”, Georges Canguilhem filósofo y médico francés en 1971 describe a la enfermedad como “el estado anormal (patológico), que predispone al organismo a un resultado adverso, dañino y susceptible de ser tratado”. Lenox afirma que la enfermedad “es un estado corporal y que tal estado recorta el valor de la vida en comparación al promedio de individuos de la misma clase” y Temple en 2001 dice que “la enfermedad es un estado que, al tomar lugar en un individuo incrementa el riesgo para consecuencias adversas”.</p>
 
@@ -53,7 +53,7 @@ ob_start();
   <p>Arrastra los conceptos a la columna correspondiente.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividadH5P('u1-act-1', "Conceptos de salud y enfermedad", $ActividadContent, true);
+  renderActividad('u1-act-1', "Conceptos de salud y enfermedad", $ActividadContent);
   ?>
 </section>
 <?php
