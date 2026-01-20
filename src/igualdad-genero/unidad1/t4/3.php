@@ -73,8 +73,6 @@ ob_start();
   <p>Pero, ¿cómo sabemos las diferencias entre las masculinidades?</p>
   <p>En su análisis para comprender los géneros femenino y masculino, Marcela Lagarde propuso una normatividad compuesta de "códigos, leyes, mandatos y mandamientos escritos, memorizados y trasmitidos oral, ejemplar, gráfica o imaginariamente" (1996, p. 15).</p>
   <p>El concepto de <strong>mandatos de género</strong> se refiere a costumbres y tradiciones que se validan socialmente y se transmiten de generación en generación. Los mandatos de género condicionan las formas en que hombres y mujeres (deben) comportarse, actuar, interactuar y relacionarse en el ámbito de lo público y lo privado.</p>
-  <p class="font-bold text-xl text-fuchsia-900">Presupuestos de la masculinidad: los mandatos</p>
-  <p>El concepto de mandatos de género se refiere a costumbres y tradiciones que se validan socialmente y se transmiten de generación en generación. Los mandatos de género condicionan las formas en que hombres y mujeres (deben) comportarse, actuar, interactuar y relacionarse en el ámbito de lo público y lo privado.</p>
   <p class="font-bold text-xl text-fuchsia-900">Una herramienta para conocer los presupuestos de la masculinidad</p>
   <p>Heilman, Baker, y Harrison propusieron la caja de la masculinidad como una herramienta teórico-metodológica para identificar creencias sobre lo que significa ser hombre desde una masculinidad tradicional.</p>
   <ul class="ul-disc ml-10">

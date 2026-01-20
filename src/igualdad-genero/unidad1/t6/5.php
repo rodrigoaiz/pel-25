@@ -32,7 +32,7 @@ ob_start();
     <li>Revisa la <a href="<?php echo PATH_DOCS . 'u1t6-ListaDeCotejo_CartografiaIndividual_Act.6.6.pdf'; ?>" target="_blank">lista de cotejo</a> que se te proporciona para verificar que tu trabajo cumple satisfactoriamente con lo solicitado.</li>
     <li>Al finalizar, <strong>toma una fotografía de tu cartografía</strong>.</li>
     <li>Sube el archivo en esta tarea. El archivo (en formato JPG, PNG o PDF) debe ser nombrado de la siguiente forma: Nombre_Apellido_Cartografía_individual.</li>
-    <p><strong>Nota:</strong> Te compartimos <a href="<?php echo PATH_DOCS . 'u1t6-EjemplosDeCartografias_Act.6.6.pdf'; ?>" target="_blank">dos ejemplos</a> de cartografías para que te inspires a realizar la tuya. Resultará muy valioso compartir en clase tu cartografía, así como observar el trabajo de tus compañeras, compañeros y compañeres. Recuerda que la actividad debe desarrollarse en un ambiente de respeto y tolerancia. </p>
+    <p><strong>Nota:</strong> Te compartimos <a href="<?php echo PATH_DOCS . 'u1t6-EjemplosDeCartografias_Act.6.6.pdf'; ?>" target="_blank">ejemplos</a> de cartografías para que te inspires a realizar la tuya. Resultará muy valioso compartir en clase tu cartografía, así como observar el trabajo de tus compañeras, compañeros y compañeres. Recuerda que la actividad debe desarrollarse en un ambiente de respeto y tolerancia. </p>
   </ol>
 
   <?php ob_start(); ?>

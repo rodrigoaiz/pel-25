@@ -8,13 +8,13 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Evaluación sumativa del Aprendizaje 1</h2>
-    <p>Vamos a comprobar que tienes conocimientos esenciales que te ayudarán en esta asignatura.</p>
+    <h2>Evaluación diagnóstica</h2>
+    <p>Antes de comenzar a revisar los contenidos, te invitamos a contestar este cuestionario diagnóstico. </p>
     <?php ob_start(); ?>
-    <p>1. Relaciona las columnas colocando el número que corresponde a cada oración.</p>
+    <p>Elige la opción que consideres responde mejor a cada pregunta u oración.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t1a5', "Evaluación sumativa del Aprendizaje 1", $ActividadContent);
+    renderActividad('u1t1a2', "Evaluación diagnóstica de aprendizaje 1", $ActividadContent);
     ?>
 </section>
 

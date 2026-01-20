@@ -2,7 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'Videos.php';
-include PATH_INCLUDE . 'EducaplayIframe.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 
 
@@ -11,59 +11,160 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h2>Conceptos básicos de igualdad género</h2>
-  <p>Para profundizar en el entendimiento de la igualdad de género, es fundamental familiarizarse con ciertos conceptos clave. Algunos te resultarán conocidos, mientras que otros podrían ser nuevos. Te proponemos ver la serie <strong>"Dibujando el género"</strong>. A medida que la veas, toma nota de los términos que te llamen la atención o que desconozcas. Puedes revisar la serie cuantas veces necesites para asegurar una comprensión completa.</p>
-  <div class="xl:grid grid-cols-2 gap-5">
-    <?php
-    renderVideoIframe('nWKkJ8bjTW4', 'Capítulo 1. Sexo y género');
-    renderVideoIframe('3M0NwHvpO8Q', 'Capítulo 2. ¿Biología o cultura? (Identidad, prejuicios de género, sexismo, transversalidad)');
-    ?>
-  </div>
-  <div class="xl:grid grid-cols-2 gap-5">
-    <?php
-    renderVideoIframe('q6NCWaFVj7s', 'Capítulo 3. Diferencias y desigualdades entre mujeres y hombres (roles y estereotipos de género)');
-    renderVideoIframe('cWjQjvXQwpA', 'Capítulo 4. Género y exclusión (sistema sexo-género, expresión e identidad de género, orientación sexual, heteronorma, intersexualidad, diversidades sexo-genéricas, homofobia)');
-    ?>
-  </div>
-  <p>Ahora que terminaste de ver la serie, consulta los siguientes documentos para aclarar dudas y conocer los "Conceptos básicos". Si consideras necesario, toma nota en tu cuaderno de las definiciones que te ayudarán a resolver la <em>Ruleta de palabras</em> que se presenta más adelante.</p>
-  <div class="md:grid grid-cols-3 gap-4">
-    <div class="bg-purple-300 text-center text-lg leading-6 p-2 rounded-lg">
-      <a class=" text-purple-950" href="<?php echo PATH_DOCS . 'u1t1-abc-perspectiva-genero-cndh.pdf'; ?>" target="_blank">
-        <img class="size-24 mx-auto" src="<?php echo PATH_ICONS . 'filetype-pdf.svg'; ?>" />
-        ABC de la perspectiva de género.
-      </a>
+    <h2>¿Qué entendemos por Igualdad de Género?</h2>
+    <div class="max-w-2xl mx-auto">
+        <?php
+        renderImage('iga1-img02.webp');
+        ?>
     </div>
-    <div class="bg-purple-300 text-center text-lg leading-6 p-2 rounded-lg">
-      <a class=" text-purple-950" href="<?php echo PATH_DOCS . 'u1t1-cigu-glosario-politicas-universitarias.pdf'; ?>" target="_blank">
-        <img class="size-24 mx-auto" src="<?php echo PATH_ICONS . 'filetype-pdf.svg'; ?>" />Glosario. Políticas Universitarias para la Igualdad de Género
-      </a>
+    <p>Para explorar y contrastar con respeto las distintas opiniones sobre la igualdad de género, llevarás a cabo entrevistas breves. Esta actividad te permitirá analizar los fundamentos de dichas opiniones, fomentando un intercambio de ideas de forma respetuosa y tolerante.</p>
+    <p class="font-bold text-orange-500">Propósitos:</p>
+    <ul class="ul-disc ml-32">
+        <li>Fomentar la escucha activa y el análisis crítico de diversas opiniones sobre conceptos relacionados con la igualdad de género.</li>
+        <li>Examinar cómo las perspectivas sobre estos conceptos pueden variar entre diferentes generaciones.</li>
+    </ul>
+    <p class="font-bold text-orange-500">Instrucciones:</p>
+    <ol class="ol-number md:ml-32">
+        <li>Formación de Equipos
+            <ul class="ul-disc">
+                <li>Organícense en equipos para llevar a cabo entrevistas breves.</li>
+            </ul>
+        </li>
+        <li>Escucha Respetuosa
+            <ul class="ul-disc">
+                <li>Escuchen atentamente las opiniones de las personas entrevistadas, provenientes de diferentes generaciones.</li>
+                <li>Analicen cómo perciben o cómo han cambiado ciertos conceptos a lo largo del tiempo.</li>
+            </ul>
+            <div class=" w-5/6 bg-amber-600 p-4 text-sm text-amber-50 leading-none">
+                <span class="text-white">IMPORTANTE:</span>
+                <ul>
+                    <li class="text-white">Realicen preguntas con claridad y escuchen con atención y respeto.</li>
+                    <li class="text-white">Eviten juicios, estereotipos y confrontaciones.</li>
+                </ul>
+            </div>
+        </li>
+        <li>Selección de Conceptos
+            <ul class="ul-disc">
+                <li>De la lista " Conceptos básicos", elijan tres conceptos que consideren relevantes para sus entrevistas.</li>
+            </ul>
+            <table class="table-auto w-3/4 mx-auto text-neutral-200 bg-fuchsia-950 p-1 mt-2 rounded-lg text-sm">
+                <thead>
+                    <tr>
+                        <th colspan="2" class="text-center text-xl text-yellow-100 pt-5">Conceptos básicos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="pl-8">Perspectiva de género</td>
+                        <td class="pr-4">Sexismo</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-8">Igualdad y equidad de género</td>
+                        <td class="pr-4">Techo de cristal y piso resbaloso</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-8">Derechos Humanos</td>
+                        <td class="pr-4">Machismo</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-8">Igualdad sustantiva</td>
+                        <td class="pr-4">Patriarcado</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-8">Sistema sexo-género</td>
+                        <td class="pr-4">Acoso</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-8">Riesgo o códigos identitarios</td>
+                        <td class="pr-4">Hostigamiento</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-8">Expresión de género y orientación sexo-afectiva</td>
+                        <td class="pr-4">Consentimiento</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-8">Estereotipos y roles de género</td>
+                        <td class="pr-4">Violencia</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-8">Diversidades y disidencias sexo-genéricas</td>
+                        <td class="pr-4">Violencia por cuestiones de género</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-8">Lenguaje incluyente y no sexista</td>
+                        <td class="pr-4">Violencia feminicida</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-8">Interseccionalidad</td>
+                        <td class="pr-4">Responsabilidad afectiva</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-8">Redes de apoyo</td>
+                        <td class="pr-4">Cultura de la paz</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-8">Discriminación</td>
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+        <li>Desarrollo de las Entrevistas
+            <ul class="ul-disc">
+                <li>Entrevisten a tres personas:
+                    <ul>
+                        <li class="leading-none">Una persona de su mismo rango de edad.</li>
+                        <li class="leading-none">Una persona de entre 18 y 25 años.</li>
+                        <li class="leading-none">Una persona mayor de 50 años.</li>
+                    </ul>
+                </li>
+                <li>Soliciten a cada persona que explique los tres conceptos elegidos con sus propias palabras.</li>
+                <li>Graben las respuestas en formato de audio.</li>
+            </ul>
+        </li>
+        <li>Análisis y Elaboración de Nota de Voz:
+            <ul class="ul-disc">
+                <li>Analicen las respuestas obtenidas.</li>
+                <li>Elaboren una nota de voz (audio) que responda a las siguientes preguntas:
+                    <ul>
+                        <li class="leading-none">¿Existen coincidencias o contrastes en las opiniones?</li>
+                        <li class="leading-none">¿A qué las atribuyen?</li>
+                        <li class="leading-none">¿Qué factores creen que influyen en las respuestas recabadas (edad, género, otros)?</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Entrega del audio:
+            <ul class="ul-disc">
+                <li>Analicen las respuestas obtenidas.
+                    <ul>
+                        <li>Suban la nota de voz o el archivo de audio.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ol>
+    <div class="w-lg mx-auto bg-orange-600 pl-4 pt-1 pb-2 text-sm leading-none">
+        <p class="font-bold text-lg text-orange-50">Especificaciones del Audio:</p>
+        <ul class="ul-disc ml-8">
+            <li class=" text-orange-50">Máximo 5 minutos de duración.</li>
+            <li class=" text-orange-50">Aseguren la coherencia y organización de la información.</li>
+            <li class=" text-orange-50">Cuiden la calidad auditiva del audio.</li>
+            <li class=" text-orange-50">Eviten errores de dicción en la conclusión.</li>
+            <li class=" text-orange-50">Protejan la identidad de las personas entrevistadas.</li>
+        </ul>
     </div>
-    <div class="bg-purple-300 text-center text-lg leading-6 p-2 rounded-lg">
-      <a class=" text-purple-950" href="<?php echo PATH_DOCS . 'u1t1-glosario-diversidad-sexual-conapred-b.pdf'; ?>" target="_blank">
-        <img class="size-24 mx-auto" src="<?php echo PATH_ICONS . 'filetype-pdf.svg'; ?>" />
-        Glosario de la diversidad sexual, de género y características sexuales
-      </a>
-    </div>
-  </div>
-  <p class="mt-8">También te compartimos el documento <a href="<?php echo PATH_DOCS . 'u1t1-aprendizaje-1-conceptos-basicos.pdf'; ?>" target="_blank">Aprendizaje 1. Conceptos básicos</a> donde encontrarás el glosario completo con las definiciones enriquecidas, enlaces a videos interesantes y otras fuentes de consulta que te ayudarán a comprender mejor los conceptos revisados. Te sugerimos tener a la mano estos documentos ya que te podrán ser de utilidad a lo largo de la asignatura.</p>
-  <p>Para finalizar te invitamos a reafirmar tus conocimientos con la <strong>"Ruleta de palabras de la Igualdad de Género".</strong></p>
-  <p><strong>Instrucciones:</strong></p>
-  <ol class="ol-number md:ml-32">
-    <li>Tienes 5 minutos por intento para resolverlo.</li>
-    <li>Tienes hasta 3 intentos para lograrlCada intento tiene 5 vidas.</li>
-    <li>Escribe tu nombre completo en "Pulsa aquí para identificarte"</li>
-    <li>En cada intento toma una captura de pantalla del resultado.</li>
-    <li>Envía como evidencia tu mejor jugada.</li>
-    <li>Para jugar la Ruleta de palabras haz clic en "Comenzar"</li>
-  </ol>
-  <?php renderEducaplay('18733303-igualdad_de_genero_a_z.html'); ?>
-  <?php ob_start(); ?>
-  <p>Sube tus evidencias aquí:</p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a3', "Ruleta de palabras de la Igualdad de Género - Sube tu puntaje", $ActividadContent);
-  ?>
 
+    <div class="w-2/3 mx-auto mt-6 bg-fuchsia-900 p-2 leading-none text-sm">
+        <span class="text-white">NOTA IMPORTANTE:</span>
+        <ul>
+            <li class="text-white">Este material tiene fines didácticos y no debe ser compartido públicamente.</li>
+        </ul>
+    </div>
+    <?php ob_start(); ?>
+    <?php
+    $ActividadContent = ob_get_clean();
+    renderActividad('u1t1a4', "Sube aquí tu nota de voz", $ActividadContent);
+    ?>
 </section>
 
 <?php
