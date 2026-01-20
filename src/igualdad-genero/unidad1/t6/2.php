@@ -22,7 +22,7 @@ ob_start();
       renderVideoIframe('PPeRECua5CQ', '');
       ?>
     </div>
-    <li>Toma nota de los datos y hechos que consideres relevantes para identificar el proceso histórico que se dio para el reconocimiento y establecimiento de los derechos humanos en la Declaración Universal de los Derechos Humanos.</li>
+    <li>Toma nota de los datos y hechos que consideres relevantes para identificar el proceso histórico que se dio para el reconocimiento y establecimiento de los derechos humanos en la Declaración Universal de Derechos Humanos.</li>
     <li>Revisa los documentos titulados <a href="<?php echo PATH_DOCS . 'u1t6-Lectura_DerechosHumanos_Act.6.2.pdf'; ?>" target="_blank">“Derechos Humanos”</a> y <a href="<?php echo PATH_DOCS . 'u1t6-Lectura_Persona_Act.6.2.pdf'; ?>" target="_blank">“Persona”</a>.</li>
     <li>Retoma la información del video y las presentaciones y, en plenaria, comenta con tus compañeros los siguientes elementos:
       <ul>

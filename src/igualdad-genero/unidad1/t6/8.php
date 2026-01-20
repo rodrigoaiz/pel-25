@@ -15,7 +15,7 @@ ob_start();
         <li>Herrera San Martín, E. (2012). <em>La UVE de Gowin como instrumento de aprendizaje y evaluación de habilidades de indagación en la unidad de fuerza y movimiento.</em> Paradigma, 33(2), 101-126.</li>
         <li>INMujeres (s/f). Glosario para la igualdad. <a href="https://campusgenero.inmujeres.gob.mx/glosario/search?search=derechos+humanos" target="_blank">https://campusgenero.inmujeres.gob.mx/glosario/search?search=derechos+humanos</a></li>
         <li>Naciones Unidas (2015). <em>Cartilla Derechos Humanos de las Naciones Unidas.</em> UDHR_booklet_SP_web.pdf (un.org) </li>
-        <li>Naciones Unidas (s/f). <em>La Declaración Universal de los Derechos Humanos.</em> <a href="https://www.un.org/es/about-us/universal-declaration-of-human-rights" target="_blank">https://www.un.org/es/about-us/universal-declaration-of-human-rights</a></li>
+        <li>Naciones Unidas (s/f). <em>La Declaración Universal de Derechos Humanos.</em> <a href="https://www.un.org/es/about-us/universal-declaration-of-human-rights" target="_blank">https://www.un.org/es/about-us/universal-declaration-of-human-rights</a></li>
         <li>García, D. (2015). <em>El concepto de persona, concepto eje para la ética.</em> En García, D. y Traslosheros, J. (Coords.). <em>Ética, persona y sociedad. Una ética para la vida</em> (pp.5-8) (5.a. ed.). Porrúa, Tecnológico de Monterrey.</li>
         <li>Pichot, M. (2017). <em>"Mansplaining"</em> PERSONA. <a href="https://www.youtube.com/watch?v=lz4mLjxXA9I" target="_blank">https://www.youtube.com/watch?v=lz4mLjxXA9I</a></li>
         <li>Pressnet. (2010). ¿Qué son los Derechos Humanos? <a href="https://youtu.be/PPeRECua5CQ?si=n81zyvqAwMAyBvoM" target="_blank">https://youtu.be/PPeRECua5CQ?si=n81zyvqAwMAyBvoM</a></li>

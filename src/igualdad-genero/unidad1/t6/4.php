@@ -9,8 +9,8 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h2>Declaración Universal de los Derechos Humanos</h2>
-  <p>Como ya revisaste en pantallas anteriores, la <strong>Declaración Universal de los Derechos Humanos</strong> es un documento esencial, nacido tras un periodo oscuro de la historia, que establece los <strong>derechos fundamentales inherentes a toda persona</strong>, sin distinción alguna. Piensa en ella como un <strong>pacto global por la dignidad humana</strong>, que abarca desde la libertad y la justicia hasta la educación y el trabajo. Hoy, explorarás estos 30 artículos para comprender su trascendencia y cómo impactan en la vida de cada uno de nosotros.</p>
+  <h2>Declaración Universal de Derechos Humanos</h2>
+  <p>Como ya revisaste en pantallas anteriores, la <strong>Declaración Universal de Derechos Humanos</strong> es un documento esencial, nacido tras un periodo oscuro de la historia, que establece los <strong>derechos fundamentales inherentes a toda persona</strong>, sin distinción alguna. Piensa en ella como un <strong>pacto global por la dignidad humana</strong>, que abarca desde la libertad y la justicia hasta la educación y el trabajo. Hoy, explorarás estos 30 artículos para comprender su trascendencia y cómo impactan en la vida de cada uno de nosotros.</p>
   <div class="max-2xl mx-auto">
     <?php
     renderImage('u1t6-iga6-img3.webp');
@@ -21,7 +21,7 @@ ob_start();
   <p>Instrucciones:</p>
   <ol class="ol-number">
     <li>Realiza una lectura cuidadosa de los treinta artículos que contiene <a href="<?php echo PATH_DOCS . 'u1t6-Declaracion-Universal-DH.pdf'; ?>" target="_blank">La Declaración Universal de los Derechos Humanos</a>.</li>
-    <li>Sobre los artículos de la <strong>Declaración Universal de los Derechos Humanos</strong>, comenta con tus compañeros los siguientes puntos:
+    <li>Sobre los artículos de la <strong>Declaración Universal de Derechos Humanos</strong>, comenta con tus compañeros los siguientes puntos:
         <ul>
           <li>¿Cuáles te llamaron más la atención? ¿por qué?</li>
           <li>Reflexiona si estos artículos se cumplen actualmente en México.</li>

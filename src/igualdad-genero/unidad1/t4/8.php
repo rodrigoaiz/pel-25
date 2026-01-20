@@ -9,7 +9,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Sesión 3. Dibujando mis sentires y sensaciones</h2>
+    <h2>Dibujando mis sentires y sensaciones</h2>
     <p>El punto de partida de la sesión tres es permitirte expresar cómo te sentiste realizando las actividades de las sesiones anteriores ¿Qué descubriste sobre las expectativas de la masculinidad tradicional, los comportamientos de los hombres y la forma en que se relacionan los hombres? ¿detectaste elementos de la triada de la violencia, mandatos de la masculinidad, machismos cotidianos en tu entorno social, escolar, familiar o de amistades? ¿Cómo te sientes al respecto?</p>
     <p>Es válido que expreses tus sentimientos emociones, e ideas de cualquier tipo. Solamente recuerda que este es un espacio académico, por lo que te pedimos evitar agresiones y ataques personales. Un ejemplo de una expresión es “Me molesta que mi vecino tenga actitudes machistas”; en cambio, un ataque personal es “Mi vecino es un #*%n$#3 macho”. </p>
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>

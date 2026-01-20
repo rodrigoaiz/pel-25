@@ -10,7 +10,7 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Sesión 2 ¿Cómo se relacionan los hombres?</h2>
+    <h2>¿Cómo se relacionan los hombres?</h2>
     <p>Los modelos de masculinidad tradicional se basan en relaciones de dominio y sumisión de otros. Entonces, ¿las formas en que se relacionan los hombres favorecen el desarrollo propio y de otras personas, o lo obstaculizan?</p>
     <p>En el aprendizaje 3 ya revisaste información sobre los micromachismos o machismos cotidianos. Como habrás notado, muchas veces los hombres no son conscientes de que estos comportamientos son una forma sutil, pero constante, de establecer relaciones de poder y violencia.</p>
     <p>En la esta sección revisarás la triada de la violencia, un modelo que explica como algunos hombres ejercen violencia sobre sí mismos, sobre otros hombres, y sobre personas que consideran vulnerables (mujeres, infancias y sexo-diversidades). Estas son formas de relacionarse negativas, así que te invitamos a tener presente que el propósito de este tema es aprender a identificarlas como un primer paso para modificar esos comportamientos, y de poner límites a quienes se relacionan con estos comportamientos.</p>
