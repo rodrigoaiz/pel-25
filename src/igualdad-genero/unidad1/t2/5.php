@@ -35,6 +35,7 @@ ob_start();
     </ol>
     <p class="mt-8">No olvides revisar la <a href="<?php echo PATH_DOCS . 'u1t2-lista-cotejo-que-es-la-perspectiva-de-genero.pdf'; ?>" target="_blank">lista de cotejo</a>, para que conozcas los criterios con los que se evaluará la actividad.</p>
     <?php ob_start(); ?>
+    <p>Aquí sube el trabajo realizado.</p>
     <?php
     $ActividadContent = ob_get_clean();
     renderActividad('u1t2a4', "Perspectiva de género", $ActividadContent);

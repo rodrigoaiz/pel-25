@@ -4,7 +4,7 @@ function renderActividad($actividadKey, $ActividadTitulo = "Para Actividad más"
 {
   // ===== CONTROL DE OVERLAY DE PROFESOR =====
   // Cambiar a false para desactivar la detección de profesores
-  $ENABLE_TEACHER_DETECTION = true;
+  $ENABLE_TEACHER_DETECTION = false;
   // ===========================================
   
   // ===== CONTROL DE DEBUG =====
