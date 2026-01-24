@@ -39,6 +39,7 @@ ob_start();
       renderImage('q3-u2-oro.webp','Lingotes de oro','https://pixabay.com/es/photos/oro-lingotes-tesoro-bullion-513062/', 'Pixabay');
       renderImage('q3-u2-cobre.webp', 'Cobre refinado', 'https://pixabay.com/es/photos/cobre-thrash-metal-chatarra-1504098/', 'Pixabay');
   ?>
+  </div>
 
   <h3>Minerales Compuestos</h3>
 
@@ -59,6 +60,7 @@ ob_start();
       renderImage('q3-u2-amatista.webp','Cuarzo Amatista','https://pixabay.com/es/photos/amatista-mineral-violeta-239131', 'Pixabay');
       renderImage('q3-u2-blanco.webp', 'Cuarzo Blanco', 'https://pixabay.com/es/photos/cristales-cristal-mineral-17000 ', 'Pixabay');
   ?>
+  </div>
 
   <?php ob_start(); ?>
   <p>A continuación, se les invita a realizar la siguiente actividad, con la finalidad de integrar los conocimientos sobre minerales aprendidos en esta lección. </p>

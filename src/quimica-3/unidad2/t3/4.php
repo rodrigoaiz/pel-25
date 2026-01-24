@@ -55,7 +55,7 @@ ob_start();
   <p>Determina el número de oxidación del manganeso, en cada uno de los siguientes compuestos:</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t3a5', "Número de oxidación", $ActividadContent);
+  renderActividad('u2t3a6', "Número de oxidación", $ActividadContent);
   ?>
 
 

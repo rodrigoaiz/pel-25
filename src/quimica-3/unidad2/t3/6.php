@@ -53,7 +53,7 @@ ob_start();
 </p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t3a7', "Reacciones Redox", $ActividadContent);
+  renderActividad('u2t3a8', "Reacciones Redox", $ActividadContent);
   ?>
 
 
