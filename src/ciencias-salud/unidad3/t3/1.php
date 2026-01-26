@@ -193,6 +193,12 @@ ob_start();
               ?>
           </div>
 
+  <div class="mx-auto max-w-lg">
+              <?php
+                renderImage('u3-t3-caracteristicas.webp', 'Resiliencia', 'https://www.fundacionunam.org.mx/wp-content/uploads/2018/01/RESILIENCIA1.jpg', 'wikimedia.');
+              ?>
+          </div>
+
 
 
       <?php

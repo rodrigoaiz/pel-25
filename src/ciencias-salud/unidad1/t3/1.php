@@ -34,6 +34,12 @@ ob_start();
     <?php renderImage('u1-t3-carta.webp', 'En 1983 se adiciona al artículo 4º constitucional el concepto de Protección de la salud, por lo que los servicios médicos son un derecho respaldado en nuestra Carta Magna: un derecho para todos.', 'https://www.facebook.com/watch/?v=656283365131607', 'video recuperado el 22 de noviembre de 2023'); ?>
   </div>
 
+  <div class="mx-auto max-w-lg">
+              <?php
+                renderImage('u1-t3-mapa.png', '', 'https://upload.wikimedia.org/wikipedia/commons/9/9a/WTO_members_and_observers.svg', 'wikimedia.');
+              ?>
+          </div>
+
 </section>
 <?php
 $content = ob_get_clean();
