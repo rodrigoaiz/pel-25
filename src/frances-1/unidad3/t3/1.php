@@ -34,14 +34,14 @@ ob_start();
             <p class="text-sky-700 italic text-sm text-right">Pris du blog "ados d'mots", de "Mi bibliothèque du Finistère III" J'aime, j'aime pas… <br>| Ados d'Mots (wordpress.com)</p>
         </div>
     </div>
+    <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Lis le texte ci-dessus et coche la réponse correcte / Lee el texto de arriba y marca la respuesta correcta.</li>
     </ol>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t3a6', "Lire et comprendre un blog", $ActividadContent);
+    renderActividadH5P('u3-act-5', "Lire et comprendre un blog", $ActividadContent);
     ?>
 
     <p class="text-lg font-bold mt-6 mb-3 text-cyan-700">Expresar gustos y preferencias:</p>

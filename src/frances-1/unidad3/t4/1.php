@@ -51,6 +51,7 @@ ob_start();
     <div class="bg-gray-100/50 p-4 my-4 rounded-lg">
         <p class="text-gray-700">El verbo es <span class="italic font-semibold">"s'appeler"</span> y debo conjugarlo para <span class="font-semibold">"elle"</span> (tu mamá = ella). Además, como estoy hablando de tu mamá, tú eres el poseedor y tu mamá es un sustantivo femenino singular, por lo que voy a decir <span class="italic font-semibold">"ta"</span> para indicar que la mamá es tuya.</p>
     </div>
+    <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Regarde la vidéo suivante pour te donner une idée de la façon dont tu peux poser et répondre à des questions sur ta famille / Ve el siguiente video para darte una idea de cómo puedes preguntar y responder cosas sobre tu familia.</li>
@@ -60,20 +61,19 @@ ob_start();
         renderVideoIframe('ZySgo1BciIc', 'Français - Présenter sa famille');
         ?>
     </div>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t4a7', "Des choses sur la famille", $ActividadContent);
+    renderActividadH5P('u3-act-6', "Des choses sur la famille", $ActividadContent);
     ?>
     <p class="mt-10">Ahora vas a practicar cómo pedir información sobre la familia:</p>
+    <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Glisse la bonne question pour obtenir les réponses données. Fais attention aux adjectifs possessifs et aux sujets des réponses / ¡Arrastra la pregunta que corresponda para conseguir estas respuestas! Fíjate bien en los adjetivos posesivos y en quién realiza la acción.</li>
     </ol>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t4a8', "Demander des informations", $ActividadContent);
+    renderActividadH5P('u3-act-7', "Demander des informations", $ActividadContent);
     ?>
     <p><strong>Instructions:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
@@ -82,7 +82,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t4a9', "Lecture active", $ActividadContent);
+    renderActividadH5P('u3-act-8', "Lecture active", $ActividadContent);
     ?>
 </section>
 

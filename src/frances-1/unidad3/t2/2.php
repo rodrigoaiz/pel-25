@@ -18,14 +18,14 @@ ob_start();
     <p>Recuerda que puedes formular las preguntas de diferentes formas, dependiendo si hablas de manera formal, estándar o informal y que el sujeto de la pregunta y la conjugación del verbo depende de la persona por la que estés preguntando.</p>
     <p>Refuerza el aprendizaje con la siguiente actividad</p>
 
+    <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Fais glisser la profession correcte pour compléter chaque phrase / Arrastra la profesión correcta para completar cada frase.</li>
     </ol>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t2a5', "Les professions", $ActividadContent);
+    renderActividadH5P('u3-act-4', "Les professions", $ActividadContent);
     ?>
 </section>
 <?php ob_start(); ?>

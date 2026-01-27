@@ -27,7 +27,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t5a10', "Compréhension de lecture", $ActividadContent);
+    renderActividadH5P('u3-act-9', "Compréhension de lecture", $ActividadContent);
     ?>
     <p class="mt-10">Después de haber leído el texto anterior y visto el siguiente video, participa en la actividad de Foro.</p>
 
@@ -226,7 +226,7 @@ ob_start();
         });
     </script>
     <?php ob_start(); ?>
-    <p>Participa en el foro.</p>
+    <p>Sube tu archivo.</p>
     <?php
     $ActividadContent = ob_get_clean();
     renderActividad('u3a2', "Je présente ma famille", $ActividadContent);
