@@ -13,11 +13,12 @@ ob_start();
     <h2>Je te présente...</h2>
     <h3>Te presento a...</h3>
     <p>En esta unidad estás aprendiendo a presentar a un familiar o amigo dando las características físicas o psicológicas. No olvides que para poder hacerlo tienes que saber usar correctamente los adjetivos posesivos, el vocabulario visto anteriormente y la conjugación de los verbos que ya conoces en tercera persona tanto del singular como del plural para poder hablar de él, de ella o de ellos o de ellas.</p>
+    <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Lis le texte et réponds aux questions / Lee el texto y responde las preguntas.</li>
     </ol>
-    <div class="flex justify-center gap-4 bg-rose-500/30 px-6 shadow-xl">
+    <div class="flex justify-center gap-4 bg-rose-500/30 px-6 shadow-xl mb-10">
         <div class="w-1/3 sm:full">
             <div class="shadow-xl bg-none text-rose-500">
                 <?php
@@ -33,10 +34,9 @@ ob_start();
             <p class="font-mono text-xs text-rose-900 mt-6 ml-0">| La obra conocida como "La boda", "La boda en el campo" o "La Fiesta de Bodas" es una pintura de Henri Rousseau, creada en 1904 y que forma parte de su obra de corte naíf o primitivo.</p>
         </div>
     </div>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t6a12', "Souvenirs de famille", $ActividadContent);
+    renderActividadH5P('u3-act-10', "Souvenirs de famille", $ActividadContent);
     ?>
 
     <p class="mt-10">En el aprendizaje anterior, viste cómo hablar sobre los miembros de tu familia indicando su profesión y sus gustos. Si a eso añades lo que viste en las unidades anteriores para presentarte y para hablar sobre ti mismo, ya tienes una gran cantidad de información que puedes dar sobre una persona, seas tú o sea algún pariente.</p>
@@ -87,7 +87,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t6a13', "Présenter quelqu'un", $ActividadContent);
+    renderActividadH5P('u3-act-11', "Présenter quelqu'un", $ActividadContent);
     ?>
 </section>
 

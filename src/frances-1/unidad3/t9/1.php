@@ -29,14 +29,14 @@ ob_start();
     $ActividadContent = ob_get_clean();
     renderActividadH5P('u3t9a16', "Le pouvoir des petits gestes du quotidien", $ActividadContent);
     ?>
+    <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>À partir de la vidéo, décrit les personnages. Glisse les mots pour compléter les phrases. / A partir del video, describe a los personajes. Arrastra las palabras para completar las frases.</li>
     </ol>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t9a17', "Décrit les personnages", $ActividadContent);
+    renderActividadH5P('u3-act-19', "Décrit les personnages", $ActividadContent);
     ?>
     <p class="mt-10">Si observas las frases anteriores, puedes notar que, para hacer una descripción del carácter de una persona, vamos a usar el verbo *être*.</p>
     <p>En seguida tienes una ficha de vocabulario para poder describir el carácter de una persona.</p>
@@ -599,7 +599,7 @@ ob_start();
     <p>Afin de pratiquer le vocabulaire pour faire une description de la personnalité, fais le suivant mots croisés. Fais attention aux masculins et aux féminins. / Para practicar el vocabulario para hacer una descripción de la personalidad, haz el siguiente crucigrama. Presta atención a los masculinos y femeninos.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t9a18', "Description de la personnalité", $ActividadContent);
+    renderActividadH5P('u3-act-19', "Description de la personnalité", $ActividadContent);
     ?>
 
     <?php ob_start(); ?>

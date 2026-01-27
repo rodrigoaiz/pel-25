@@ -14,6 +14,7 @@ ob_start();
     <h3>La ropa - actividades</h3>
     <p>Para hablar de lo que trae puesto una persona, podemos utilizar el verbo <strong>avoir</strong> o el verbo <strong>porter</strong> (traer puesto). Estos verbos los viste en la sección anterior.</p>
 
+    <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Regarde la vidéo et écris quels habits porte Lulu à la fête (attention aux majuscules et aux minuscules, à l’orthographe et aux accents) / Mira el video y escribe qué ropa lleva Lulu en la fiesta (presta atención a las mayúsculas, minúsculas, ortografía y acentos).</li>
@@ -23,10 +24,9 @@ ob_start();
         renderVideoIframe('q9mpfRKc2Po', 'Les Habits de Lulu');
         ?>
     </div>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t8a17', "Les Habits", $ActividadContent);
+    renderActividadH5P('u3-act-15', "Les Habits", $ActividadContent);
     ?>
     <p>Si quieres describir la ropa de forma un poco más detallada, para indicar el color, puedes decir:</p>
     <p class="mt-4 italic text-center text-2xl">Ma soeur porte une jupe rouge. (Mi hermana trae puesta una falda roja.)</p>
@@ -39,6 +39,7 @@ ob_start();
             ?>
         </div>
     </div>
+    
 
     <p>Al igual que en español, los colores deben de hacer concordancia en género y número con el sustantivo que califican, es decir, si hablas de alguna cosa que es de género masculino y que es solo una, usarás los colores tal y cual están escritos en la tabla de arriba.</p>
     <p>Si el sustantivo que quieres calificar es de género masculino, pero son varias cosas (plural) debes de agregar una “s” al adjetivo.</p>
@@ -60,10 +61,15 @@ ob_start();
     <ol class="ol-number md:ml-32 mb-8">
         <li>Regarde cette image de la famille de Sergio et complète avec l'adjectif de couleur correct / Mira esta imagen de la familia de Sergio y completa con el adjetivo de color correcto.</li>
     </ol>
+    <div class="w-xs mx-auto">
+      <?php
+      renderImage('fr1u3a2p08_45.webp');
+      ?>
+    </div>
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t8a18', "La famille de Sergio ", $ActividadContent);
+    renderActividadH5P('u3-act-16', "La famille de Sergio ", $ActividadContent);
     ?>
 </section>
 

@@ -12,6 +12,7 @@ ob_start();
     <h2>Description Physique</h2>
     <h3>La descripción física</h3>
     <p>Para describir a una persona, necesitamos decir cómo es físicamente: si es alta o bajita, su color de ojos y de cabello, etc. </p>
+    <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Lis le texte et fais glisser les mots pour compléter les phrases qui te donneront des indications sur la façon de faire une description physique / Lee el texto y arrastra las palabras para completar las frases que te van a dar indicaciones de como hacer una descripción física.</li>
@@ -45,10 +46,9 @@ ob_start();
             </div>
         </div>
     </div>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t7a14', "Avez-vous vu cet homme?", $ActividadContent);
+    renderActividadH5P('u3-act-12', "Avez-vous vu cet homme?", $ActividadContent);
     ?>
     <div class="flex justify-center gap-4 mt-8">
         <div class="w-1/3 md:w-1/3 bg-rose-500/30 px-6 py-4 shadow-xl">
