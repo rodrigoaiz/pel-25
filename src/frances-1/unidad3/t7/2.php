@@ -426,7 +426,7 @@ ob_start();
     <p>Lis la description physique et glisse le texte sur l'image correspondante. / Lee la descripción física y arrastra el texto a la imagen correspondiente.</p>
         <?php
         $ActividadContent = ob_get_clean();
-        renderActividadH5P('u3t7a15', "Description physique", $ActividadContent);
+        renderActividadH5P('u3-act-13', "Description physique", $ActividadContent, false, 'max-w-lg mx-auto');
         ?>
 </section>
 

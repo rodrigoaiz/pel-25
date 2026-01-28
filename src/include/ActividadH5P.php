@@ -1,6 +1,6 @@
 <?php
 
-function renderActividadH5P($htmlFileName, $h5pTitulo = "Actividad H5P", $h5pContent = "", $hideIntroduction = false)
+function renderActividadH5P($htmlFileName, $h5pTitulo = "Actividad H5P", $h5pContent = "", $hideIntroduction = false, $containerWidth = "w-full")
 {
   // Obtener la ruta del archivo HTML basado en la URL actual
   $urlPathH5P = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -37,7 +37,7 @@ function renderActividadH5P($htmlFileName, $h5pTitulo = "Actividad H5P", $h5pCon
       </div>
       <?php echo $h5pContent; ?>
     </div>
-    <div class="h5p-container">
+    <div class="h5p-container <?php echo htmlspecialchars($containerWidth); ?>">
       <iframe src="<?php echo $htmlUrlH5P; ?>" 
               width="100%" 
               class="w-full actividadh5p"

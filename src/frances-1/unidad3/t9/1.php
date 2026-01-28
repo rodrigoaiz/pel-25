@@ -606,7 +606,7 @@ ob_start();
     <p>Lis le texte et écris la terminaison correcte des adjectifs de personnalité. Attention aux accents. / Lee el texto y escribe la terminación correcta de los adjetivos de personalidad. Atención a los acentos.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t9a19', "Adjectifs de personnalité", $ActividadContent);
+    renderActividadH5P('u3-act-20', "Adjectifs de personnalité", $ActividadContent);
     ?>
 </section>
 
