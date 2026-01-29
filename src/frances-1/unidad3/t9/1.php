@@ -27,7 +27,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t9a16', "Le pouvoir des petits gestes du quotidien", $ActividadContent);
+    renderActividadH5P('u3-act-17', "Le pouvoir des petits gestes du quotidien", $ActividadContent, false, "max-w-2xl mx-auto");
     ?>
     <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
