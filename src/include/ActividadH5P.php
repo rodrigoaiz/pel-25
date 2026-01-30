@@ -31,20 +31,28 @@ function renderActividadH5P($htmlFileName, $h5pTitulo = "Actividad H5P", $h5pCon
 
 ?>
     <div class="actividad">
-      <div class="flex justify-start items-center gap-x-3 pt-5">
+      <div class="flex justify-start items-center gap-x-3 pt-5 pb-3">
         <img class="w-10 max-h-5 my-0" src="<?php echo $iconPathH5P; ?>" alt="Icono H5P">
         <span><?php echo htmlspecialchars($h5pTitulo); ?></span>
       </div>
       <?php echo $h5pContent; ?>
     </div>
-    <div class="h5p-container <?php echo htmlspecialchars($containerWidth); ?>">
-      <iframe src="<?php echo $htmlUrlH5P; ?>" 
-              width="100%" 
-              class="w-full actividadh5p"
-              style="border: none; background: white; min-height: 0; height: auto;" 
-              allowfullscreen>
-      </iframe>
+    
+    <!-- Contenedor del iframe con background visual -->
+    </section>
+    <div class="seccion-actividad bg-darkgrey-own/95 py-5">
+      <div class="actividad-wrapper max-w-5xl mx-auto">
+        <div class="iframe-container-actividad relative">
+          <iframe src="<?php echo $htmlUrlH5P; ?>" 
+                  width="100%" 
+                  class="w-full actividadh5p"
+                  style="border: none; background: white; height: 600px;" 
+                  allowfullscreen>
+          </iframe>
+        </div>
+      </div>
     </div>
+    <section>
     <?php if ($hideIntroduction): ?>
     <script>
       (function() {
