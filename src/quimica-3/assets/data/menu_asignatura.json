@@ -40,7 +40,7 @@
   },
   "actividades": {
     "u1t1a1": { "id": "5179", "moduleName": "quiz" },
-    "u1t1a2": { "id": "5180", "moduleName": "hvp" },
+    "u1t2a2": { "id": "5180", "moduleName": "hvp" },
     "u1t3a1": { "id": "5181", "moduleName": "assign" },
     "u1t3a2": { "id": "5180", "moduleName": "quiz" },
     "u1t4a1": { "id": "5179", "moduleName": "quiz" },
