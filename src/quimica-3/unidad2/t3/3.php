@@ -4,6 +4,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -31,7 +32,7 @@ ob_start();
   <p>Después de haber leído sobre las propiedades periódicas, realiza la actividad de autoevaluación que viene en la página, toma captura de pantalla para compartirla como archivo adjunto en la actividad Propiedades periódicas.</p>
 
   <?php ob_start(); ?>
-      <p>Sigue las instrucciones de la actividad de autoevaluación y sube tu respuesta.</p>
+      <p>Después de haber leído el texto sobre las propiedades periódicas, realiza la actividad de autoevaluación que viene en la página, toma captura de pantalla y súbela como archivo adjunto. </p>
   <?php
       $ActividadContent = ob_get_clean();
        renderActividad('u2t3a4', "Propiedades periódicas", $ActividadContent);
@@ -47,7 +48,7 @@ ob_start();
       <p>Realiza el cuestionario de <b>Propiedades periódicas</b> </p>
   <?php
       $ActividadContent = ob_get_clean();
-       renderActividad('u2t3a5', "Propiedades periódicas", $ActividadContent);
+       renderActividadH5P('u2t3a5', "Propiedades periódicas", $ActividadContent);
   ?>
 
 

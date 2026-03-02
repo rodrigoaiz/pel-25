@@ -10,9 +10,17 @@ ob_start();
 ?>
 <section>
   <h2>Información cuantitativa que se obtiene a partir de una ecuación química. Estequiometría</h2>
+  <p>Como actividad de inicio participarás en el foro La importancia de cuantificar las reacciones químicas.</p>
 
   <?php ob_start(); ?>
-  <p>Como actividad de inicio participarás en el foro La importancia de cuantificar las reacciones químicas.</p>
+  <p>Instrucciones:</p>
+  <ol>
+    <li><strong>Imagina</strong> que eres un ingeniero/ingeniera química recién contratada en una importante empresa. Se te ha asignado un proyecto clave donde debes optimizar un proceso de producción. Para lograrlo, deberás cuantificar las reacciones químicas involucradas y proponer soluciones basadas en tus cálculos.</li>
+    <li>Reflexiona, <strong>¿por qué es importante cuantificar las reacciones químicas en los procesos industriales?</strong></li>
+    <li><strong>Comparte</strong> tus reflexiones en este foro donde expliques la importancia de cuantificar las reacciones químicas en los procesos industriales, y qué pasaría si no cuantifican las reacciones químicas en los procesos productivos.</li>
+    <li>Tus aportaciones deben ser claras</li>
+  </ol>
+
   <?php
   $ActividadContent = ob_get_clean();
   renderActividad('u2t4a1', "La importancia de cuantificar las reacciones químicas.", $ActividadContent);

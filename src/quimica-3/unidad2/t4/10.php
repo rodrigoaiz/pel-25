@@ -84,6 +84,72 @@ ob_start();
 
   <?php ob_start(); ?>
   <p>Ahora, para corroborar lo aprendido del tema de estequiometría, realiza la actividad Problema de estequiometría.</p>
+  <p>Sigue las instrucciones:</p>
+  <ol>
+    <li>
+      <p>En una hoja de papel o de word, resuelve el siguiente problema de obtención de aluminio.</p>
+      <p>La reacción del mineral bauxita (óxido de aluminio) con carbono como agente reductor, produce aluminio y dióxido de carbono.</p>
+      <ol style="list-style: lower-alpha;">
+        <li>Escribe la ecuación química completa.</li>
+        <li>Balancea por el método de inspección o redox.</li>
+        <li>
+          Completa la siguiente tabla:
+          <div class="table-responsive bordered max-w-2xl mx-auto my-5">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="1"></th>
+                  <th colspan="2">Reactivo</th>
+                  <th colspan="2" class="text-center">Producto</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Fórmulas de sustancias</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Número de átomos</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Número de moles</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Masa molar</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+        </li>
+        <li>Determina el reactivo limitante, si se hacen reaccionar 20g de bauxita y 20g de carbono.</li>
+        <li>Determina el rendimiento de la reacción si se obtuvieron 8g de aluminio.        </li>
+      </ol>
+    </li>
+    <li>
+      <p>Envía tu documento de word o escanea las hojas de papel con lo siguiente:</p> 
+      <ul>
+        <li>El documento debe tener tus datos personales.</li>
+        <li>Debe incluir la escritura correcta de las ecuaciones químicas, empleando la simbología adecuada.</li>
+        <li>Los ejercicios deben incluir el procedimiento realizado para cada cálculo estequiométrico.</li>
+        <li>Los datos de las hojas y del procedimiento deben ser legibles.</li>
+      </ul>
+    </li>
+    <li>Revisa la <a href="<?php echo PATH_DOCS . 'u2-t4-p10-evaluacion.docx'; ?>" target="_blank">guía de evaluación</a> para saber cómo se va a evaluar.</li>
+  </ol>
   <?php
   $ActividadContent = ob_get_clean();
   renderActividad('u2t4a6', "Problema de estequiometría.", $ActividadContent);
