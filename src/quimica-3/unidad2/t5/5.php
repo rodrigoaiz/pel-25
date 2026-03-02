@@ -39,8 +39,28 @@ ob_start();
   ?>
   </div>
 
-  <?php ob_start(); ?>
   <p>Elabora la actividad Infografía de beneficios y consecuencias de la industria minero-metalúrgica.</p>
+  <?php ob_start(); ?>
+  <p>La actividad para complementar y valorar los aspectos positivos y negativos de la industria minera-metalúrgica será realizar una infografía en alguna aplicación digital sobre los beneficios y consecuencias donde investigues y desarrolles una problemática o un beneficio de este sector industrial.</p>
+  <p>El contenido de la infografía debe tener:</p>
+  <ul>
+    <li>Título de la infografía</li>
+    <li>Indicar si se trata de una consecuencia o un beneficio. Si se aborda una problemática ambiental de algún recurso natural el título debe vincular este recurso. Si se aborda un beneficio social o económico, de igual forma el título se debe vincular.</li>
+    <li>Desarrollar el tema indicando datos recientes con base a fuentes verídicas de páginas gubernamentales o educativas.</li>
+    <li>Emplear imágenes ilustrativas al tema.</li>
+    <li>Indicar referencias en formato APA.</li>
+  </ul>
+  <p>El documento debe contener:</p>
+  <ul>
+    <li>Datos personales.</li>
+    <li>Redacción clara y sin faltas de ortografía.</li>
+    <li>Subtítulo en negritas y textos justificados.</li>
+    <li>El documento debe ser enviado en PDF.</li>
+    <li>Guarda tu documento con Apellidos_Nombre.</li>
+  </ul>
+  <p>Cuando tengas tu infografía sube aquí tu documento.</p>
+  <p>Consulta la <a href="<?php echo PATH_DOCS . 'u2-t5-p5-guia.docx'; ?>" target="_blank">guía de evaluación</a>.</p>
+
   <?php
   $ActividadContent = ob_get_clean();
   renderActividad('u2t5a3', "Infografía de beneficios y consecuencias de la industria minero-metalúrgica.", $ActividadContent);
