@@ -2,7 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Videos.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -57,12 +57,13 @@ ob_start();
   </div>
 
   <p>Ahora que ya revisaste la lectura anterior de cómo interviene la energía de activación en una reacción química te invitamos a que realices la actividad “Energía de activación en la reacción química.” </p>
+  <p>A continuación, realiza la actividad</p>
 
   <?php ob_start(); ?>
-  <p>A continuación, realiza la actividad</p>
+  <p>Coloca cada una de las etiquetas en la parte correspondiente del diagrama.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t3a1', "Energía de activación en la reacción química", $ActividadContent);
+  renderActividadH5P('u3t3a1', "Energía de activación en la reacción química", $ActividadContent);
   ?>
 
 

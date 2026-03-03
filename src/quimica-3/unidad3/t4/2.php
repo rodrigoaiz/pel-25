@@ -2,7 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'Tabs.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -64,7 +64,7 @@ ob_start();
   <p>Te invitamos a seguir revisando otros conceptos para inferir cuál es el tipo de solución. Revisa la actividad  Características de los ácidos.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t4a2', "Características de los ácidos", $ActividadContent);
+  renderActividadH5P('u3t4a2', "Características de los ácidos", $ActividadContent);
   ?>
 
 

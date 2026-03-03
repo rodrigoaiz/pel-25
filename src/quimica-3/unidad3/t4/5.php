@@ -3,6 +3,7 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'Tabs.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -39,7 +40,7 @@ ob_start();
   <p>Este principio permite predecir cómo se desplazará un equilibrio químico ante cambios en las condiciones del sistema. Te invitamos a realizar la actividad Predicción del equilibrio químico para comprender aún más los conceptos.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t4a4', " Predicción del equilibrio químico", $ActividadContent);
+  renderActividadH5P('u3t4a5', " Predicción del equilibrio químico", $ActividadContent);
   ?>
 
   <h4>¡Es hora de experimentar!</h4>
@@ -48,17 +49,18 @@ ob_start();
   <p>A continuación, se presenta un material audiovisual interactivo que puede apoyar el proceso experimental. Observa el video Reversibilidad reacciones químicas.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t4a5', "Reversibilidad reacciones químicas.", $ActividadContent);
+  renderActividadH5P('u3t4a6', "Reversibilidad reacciones químicas.", $ActividadContent);
   ?>
 
-  <?php ob_start(); ?>
   <p>Luego, con base en el video, realiza la actividad  Reversibilidad reacciones químicas que permitirá corroborar lo aprendido.</p>
+  <?php ob_start(); ?>
+  <p>A partir de la actividad experimental del video, te pedimos que realices una V de Gowin, para ello puedes considerar los puntos expuestos en la siguiente imagen.</p>
+  <img class="mx-auto" src="<?php echo PATH_IMAGES . 'q3-u3-act-exp.webp'; ?>" alt="Ejemplo de UVE de Gowin" />
+  <p>Recuerda, revisar los <a href="<?php echo PATH_DOCS . 'u3-t4-p5.docx'; ?>" target="_blank">criterios de evaluación</a> de esta actividad.</p>
   <?php
   $ActividadContent = ob_get_clean();
   renderActividad('u3t4a6', "Reversibilidad reacciones químicas.", $ActividadContent);
   ?>
-
-
 </section>
 <?php
 $content = ob_get_clean();

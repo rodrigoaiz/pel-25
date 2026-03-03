@@ -3,7 +3,7 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'Accordion.php';
 include PATH_INCLUDE . 'ImagenPie.php';
@@ -54,7 +54,7 @@ ob_start();
     <p>Ahora que identificas que los recursos naturales son fundamentales para elaborar productos esenciales para la vida, realiza la actividad Recursos naturales. </p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a2', "Recursos naturales", $ActividadContent);
+  renderActividadH5P('u1t1a2', "Recursos naturales", $ActividadContent);
   ?>
 </section>
 <?php

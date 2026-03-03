@@ -31,8 +31,11 @@ ob_start();
     
   </div>
 
-  <?php ob_start(); ?>
   <p>Después de haber leído las noticias, te invitamos a participar en el foro Beneficio o perjuicios.</p>
+  <?php ob_start(); ?>
+  <p>Participa en el foro de discusión “Beneficios o perjuicios” </p>
+  <p>Menciona una idea  que consideres relevante, de acuerdo con las noticias leídas y responde a la pregunta: <strong>¿Cuáles son los beneficios o perjuicios de promover la eficiencia en los procesos industriales?</strong></p>
+  <p>Después, comenta la respuesta de al menos dos compañeros.</p>
   <?php
   $ActividadContent = ob_get_clean();
   renderActividad('u3t4a9', "Foro “Beneficios o perjuicios”", $ActividadContent);
