@@ -58,7 +58,7 @@ ob_start();
 
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t2a5', "Infografía del proceso Haber-Bosch y la producción de amoniaco", $ActividadContent);
+  renderActividad('u3a4', "Infografía del proceso Haber-Bosch y la producción de amoniaco", $ActividadContent);
   ?>
 
 

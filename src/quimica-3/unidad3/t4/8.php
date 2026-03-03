@@ -38,7 +38,7 @@ ob_start();
   <p>Después, comenta la respuesta de al menos dos compañeros.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t4a9', "Foro “Beneficios o perjuicios”", $ActividadContent);
+  renderActividad('u3a10', "Beneficios o perjuicios", $ActividadContent);
   ?>
 
 

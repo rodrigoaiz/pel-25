@@ -112,7 +112,7 @@ Por ejemplo, en el óxido de hierro(III) Fe2O3, el hierro tiene un estado de oxi
 
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t2a2', "Nomenclatura de Minerales", $ActividadContent);
+  renderActividad('u2a3', "Nomenclatura de Minerales", $ActividadContent);
   ?>
 
 

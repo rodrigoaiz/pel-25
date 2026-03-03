@@ -831,9 +831,9 @@ Timeline (Línea del Tiempo)
   @apply px-4 py-3 text-darkestblue-own;
 }
 
-/* Primera columna con énfasis */
-.table-responsive tbody th,
-.table-responsive tbody td:first-child {
+/* Primera columna con énfasis (opcional - usar clase first-col-emphasis) */
+.table-responsive.first-col-emphasis tbody th,
+.table-responsive.first-col-emphasis tbody td:first-child {
   @apply font-semibold text-secondary;
 }
 
@@ -882,8 +882,10 @@ Timeline (Línea del Tiempo)
   @apply bg-orange-own;
 }
 
-.table-responsive.table-orange tbody td:first-child {
-  @apply text-orange-own;
+/* Si usas table-orange con first-col-emphasis, la primera columna será naranja */
+.table-responsive.table-orange.first-col-emphasis tbody td:first-child,
+.table-responsive.table-orange.first-col-emphasis tbody th {
+  @apply text-orange-own font-semibold;
 }
 
 /* Responsivo: mensaje de scroll en móviles */

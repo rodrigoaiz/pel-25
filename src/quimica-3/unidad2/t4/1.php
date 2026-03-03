@@ -23,7 +23,7 @@ ob_start();
 
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t4a1', "La importancia de cuantificar las reacciones químicas.", $ActividadContent);
+  renderActividad('u2a7', "La importancia de cuantificar las reacciones químicas", $ActividadContent);
   ?>
 
   <p>La importancia de cuantificar una reacción química es porque para las industrias obtener la mayor producción en cada proceso es benéfico debido a que genera más ganancias económicas para este sector. En este aspecto radica  la importancia de conocer la estequiometría de las reacciones químicas en los procesos industriales, para poder determinar la cantidad de producto que se obtendrá en cada reacción.</p>

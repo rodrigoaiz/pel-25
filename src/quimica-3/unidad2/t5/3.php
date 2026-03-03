@@ -77,7 +77,7 @@ ob_start();
 
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t5a2', "Enlace metálico.", $ActividadContent);
+  renderActividad('u2a9', "Enlace metálico", $ActividadContent);
   ?>
 
 

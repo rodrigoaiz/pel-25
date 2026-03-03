@@ -57,7 +57,7 @@ ob_start();
   <p>Al terminar sube tu archivo.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t3a3', "Energía en la formación y ruptura de enlaces químicos", $ActividadContent);
+  renderActividad('u3a5', "Energía en la formación y ruptura de enlaces químicos", $ActividadContent);
   ?>
 
 

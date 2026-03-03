@@ -152,7 +152,7 @@ ob_start();
   </ol>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t4a6', "Problema de estequiometría.", $ActividadContent);
+  renderActividad('u2a8', "Problema de estequiometría.", $ActividadContent);
   ?>
 
 

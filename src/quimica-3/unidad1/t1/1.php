@@ -22,7 +22,7 @@ ob_start();
   <p>Elige la opción que consideres responde mejor a cada pregunta u oración. Este cuestionario es meramente informativo, responde con honestidad.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a1', "Cuestionario diagnóstico de autoevaluación", $ActividadContent);
+  renderActividad('u1a1', "Cuestionario diagnóstico de autoevaluación", $ActividadContent);
   ?>
 </section>
 <?php

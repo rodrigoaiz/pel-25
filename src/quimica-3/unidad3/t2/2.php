@@ -59,7 +59,7 @@ ob_start();
   <p>Consulta la <a href="<?php echo PATH_DOCS . 'u3-t2-p2-rubrica.docx'; ?>" target="_blank">rúbrica</a> de evaluación.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t2a2', "Cuestionario factores de Rapidez de reacción", $ActividadContent);
+  renderActividad('u3a2', "Cuestionario factores de Rapidez de reacción", $ActividadContent);
   ?>
 
 </section>

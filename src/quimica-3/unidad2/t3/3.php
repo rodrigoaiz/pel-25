@@ -35,7 +35,7 @@ ob_start();
       <p>Después de haber leído el texto sobre las propiedades periódicas, realiza la actividad de autoevaluación que viene en la página, toma captura de pantalla y súbela como archivo adjunto. </p>
   <?php
       $ActividadContent = ob_get_clean();
-       renderActividad('u2t3a4', "Propiedades periódicas", $ActividadContent);
+       renderActividad('u2a6', "Propiedades periódicas", $ActividadContent);
   ?>
 
   <p>Como has observado el tema de la reactividad de los metales, es importante porque indica cómo reaccionan con otros elementos y sustancias, lo que permite predecir y controlar reacciones en aplicaciones industriales y de laboratorio. Además, ese conocimiento permite determinar el proceso a seguir para la extracción y refinamiento de los metales y también los clasifica de acuerdo con sus principales usos y aplicaciones. Por otro lado, la reactividad de los metales también influye en su comportamiento en el medio ambiente, afectando su movilidad, toxicidad y capacidad de degradación. </p>

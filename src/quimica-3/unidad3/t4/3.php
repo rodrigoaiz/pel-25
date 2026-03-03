@@ -73,7 +73,7 @@ ob_start();
 
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t4a3', "Grado de ionización en ácidos", $ActividadContent);
+  renderActividad('u3a7', "Grado de ionización en ácidos", $ActividadContent);
   ?>
 
 

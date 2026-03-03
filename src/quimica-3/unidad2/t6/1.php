@@ -14,7 +14,7 @@ ob_start();
   <p>Realiza el siguiente cuestionario de final para identificar los temas y conceptos aprendidos en esta lección.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t6a1', "Cuestionario de autoevaluación final de Unidad 2", $ActividadContent);
+  renderActividad('u2a11', "Cuestionario de autoevaluación final de Unidad 2", $ActividadContent);
   ?>
 
 </section>

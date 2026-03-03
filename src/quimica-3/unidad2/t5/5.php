@@ -63,7 +63,7 @@ ob_start();
 
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t5a3', "Infografía de beneficios y consecuencias de la industria minero-metalúrgica.", $ActividadContent);
+  renderActividad('u2a10', "Infografía de beneficios y consecuencias de la industria minero-metalúrgica", $ActividadContent);
   ?>
 
 

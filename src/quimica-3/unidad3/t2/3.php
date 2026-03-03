@@ -37,7 +37,7 @@ ob_start();
   <p>Recuerda, revisar los <a href="<?php echo PATH_DOCS . 'u3-t2-p3-02-rubrica.docx'; ?>" target="_blank">criterios de evaluación</a> de esta actividad</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t2a4', "Uve De Gowin: Rapidez de reacción.", $ActividadContent);
+  renderActividad('u3a3', "Uve De Gowin: Rapidez de reacción", $ActividadContent);
   ?>
 
  

@@ -59,7 +59,7 @@ ob_start();
   <p>Recuerda, revisar los <a href="<?php echo PATH_DOCS . 'u3-t4-p5.docx'; ?>" target="_blank">criterios de evaluación</a> de esta actividad.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t4a6', "Reversibilidad reacciones químicas.", $ActividadContent);
+  renderActividad('u3a8', "Reversibilidad reacciones químicas", $ActividadContent);
   ?>
 </section>
 <?php

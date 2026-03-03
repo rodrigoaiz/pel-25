@@ -80,7 +80,7 @@ ob_start();
 
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t2a1', "Minerales nativos y compuestos", $ActividadContent);
+  renderActividad('u2a2', "Minerales nativos y compuestos", $ActividadContent);
   ?>
 
 
