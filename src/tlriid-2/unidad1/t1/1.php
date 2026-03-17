@@ -11,26 +11,14 @@ ob_start();
 ?>
 <section>
   <h2>Bienvenida al curso</h2>
-  <div class="max-2xl mx-auto">
-    <?php
-    renderImage('fr1u1a1-portada.webp');
-    ?>
+  <div class="flex justify-center gap-6">
+    <div class="w-2/3 md:full mb-2">
+      <?php
+      renderVideoIframe('JrK4PH6EvqE', 'Bienvenida a la unidad 1');
+      ?>
+    </div>
   </div>
-</section>
-<div class="flex flex-row justify-center gap-4">
-  <div class="basis-1/3">
-    <?php
-    renderVideoIframe('uSeR5GsgpRI', 'Bienvenidas y bienvenidos a la asignatura de Francés 1');
-    ?>
-  </div>
-  <div class="basis-1/3">
-    <?php
-    renderVideoIframe('nUevGxgLIv4', 'Bienvenida a la unidad 1');
-    ?>
-  </div>
-</div>
-<section>
-  <p>Para comenzar vamos a un sencillo ejercicio que te permite autoevaluarte, así puedes saber cómo andan tus conocimientos sobre esta unidad en particular.</p>
+  <p>Para comenzar vamos a un sencillo ejercicio que te permite autoevaluarte, así puedes saber cómo andan tus conocimientos sobre la unidad que revisaremos.</p>
   <?php ob_start(); ?>
   <p>Responde cada una de las preguntas.</p>
   <?php
