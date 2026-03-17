@@ -1,0 +1,87 @@
+::frances1_finalU2_R1::
+Elige el pronombre interrogativo correcto\n\n_______est la date de ton anniversaire? {
+~Qu'est-ce que
+~Où
+~Qui
+=Quelle
+}
+
+::frances1_finalU2_R2::
+¿Qué actividades realizarías para relajarte el fin de semana? {
+~Je fais mes devoirs et je vais à l'école.
+=je fais du sport et je regarde la télévision.
+~j'ai cours de mathématiques et j'étudie pour l'examen de lundi.
+~je vais à l'école et je fais mon cours de mathématiques.
+}
+
+::frances1_finalU2_R3::
+La primera acción del día es\: {
+=se réveiller.
+~se coucher.
+~se doucher.
+~Faire la toilette.
+}
+
+::frances1_finalU2_R4::
+Para decir tu edad, dices\: {
+~Je m'appelle
+~Mon nom est
+~Je suis
+=J'ai
+}
+
+::frances1_finalU2_R5::
+Imagina que te llamas Noemi. Tienes 20 años y eres de nacionalidad española. ¿Cuál sería la frase correcta para saludar de manera informal, decir tu nombre, tu edad y tu nacionalidad? {
+~Au revoir ! Je suis Noémi, je parle espagnol et j'ai 20 ans.
+=Coucou! Je m'appelle Noémie, j'ai 20 ans et je suis espagnole.
+~Salut ! J'aime Noémie, j'ai 20 ans et je parle espagnol.
+~Bonjour, Mesdames et messieurs ! Je m'appelle Noémie, j'ai 20 ans et je suis espagnole.
+}
+
+::frances1_finalU2_R6::
+Elige la respuesta correcta a la siguiente pregunta\:\nQuel est ton numéro de portable et ton email? {
+~C'est le 53100 et 14, Rue de la Fontenette.
+=C'est le 55 53 95 51 82 et 12345@yahoo.com.
+~C'est 12345@yahoo.fr et 14, Rue de la Fontenette.
+~C'est 53100 et 55 53 95 51 82.
+}
+
+::frances1_finalU2_R7::
+Completa la siguiente ficha de inscripción con los datos personales que se te proporcionan.\n\na)15 ans\nb)Philippe\nc)DuCouret.Institut@ALN.com\nd)DuCouret {
+~I\: c / II\: a / II\: d/ IV\: b.
+=I\: b / II\: d I / III\: a / IV\: c.
+~I\: b / II\: a / III\: c / IV\: d.
+~I\: d / II\: b / III\: a / IV\: c.
+}
+
+::frances1_finalU2_R8::
+Con base en la información personal de estas imágenes, rellena el texto de presentación.\n\nJe m'appelle ___________________. J'ai ___________________ ans. Je suis de nacionalité ___________________. Ma ville natale est ___________________. Actuellement, j'habite à ___________________. Je travaille comme ___________________. Mon numéro de téléphone à la maison est ___________________ et mon portable est ___________________. Mais, pour me contacter plus facilement, on peut m'écrire à mon courriel \: ___________________. Ah ! On peut aussi me contacter sur mon compte de facebook \: ___________________. {
+~Juliette Lamartine\; 1-514-616-3290\; Montréal\; avocate\; Lamartine Avocats\; 25\; 1-514 556-3498\; Gatineau\; canadienne\; julieL1995@yahoo.ca
+~Montréal\; 25, Gatineau\; Lamartine Avocats\; canadienne\; 1-514-616-3290\; Juliette Lamartine, avocate\; 1-514 556-3498\; julieL1995@yahoo.ca
+=Juliette Lamartine\; 25, canadienne\; Gatineau\; Montréal\; avocate\; 1-514-616-3290\; 1-514 556-3498\; julieL1995@yahoo.ca\; Lamartine Avocats
+~Juliette Lamartine\; 25, canadienne\; Montréal\; Gatineau\; avocate\; 1-514 556-3498\; 1-514-616-3290\; julieL1995@yahoo.ca\; Lamartine Avocats
+}
+
+::frances1_finalU2_R9::
+Ordena las siguientes palabras para formar la oración que indica la hora.\n\nI\: heures II\: il III\: quart IV\: est V\: sept VI\: et. {
+=II\; IV\; V\; I\; VI\; III.
+~III\; II\; I\; II\; IV\; V.
+~II\; IV\; V\; III\; I\; VI.
+~III\; I\; II\; V\; IV\; VI.
+}
+
+::frances1_finalU2_R10::
+Ordena cronológicamente las siguientes oraciones que indican una rutina.\n\nI.Je me douche à sept heures et demie.\nII.Les cours commencent à huit heures moins le quart.\nIII.Je me réveille à sept heures.\nIV.À huit heures, je vais à l'école.\nV.À vingt heures, je dîne en famille.\nVI.Je me couche à vingt-deux heures.\nVII.À vingt et une heures et demie, je me brosse les dents.\nVIII.À quinze heures, je fais mes devoirs.\nIX.Je rentre à la maison à une heure et demie. {
+=III\; I \; IV \; II\; IX\; VIII\; V\; VII\; VI.
+~III\; IV\; I\; II\; VIII\; IX\; V\; VII\; VI.
+~II\; I\; IV\; IX\; VI\; III\; IV\; V\; VII\; VIII.
+~II\; I\; IV\; IX\; III\; IV\; V\; VII\; VIII.
+}
+
+::frances1_finalU2_R11::
+Completa el texto con base en el siguiente horario escolar.\n\nTous les matins, je vais à l'école, je rentre chez moi et, après manger, j'ai beaucoup d'activités chaque jour. Je suis très dynamique et j'aime apprendre beaucoup de choses \:\nJe prends des cours de piano trois jours par semaine \: _________________, _________________ et ____________________. J'aime les cours de langues \: lundi et mercredi, j'étudie l'_________________et mardi et vendredi, l'______________________.\nComme j'aime faire du sport, je fais de la natation ________________ fois par semaine. Aussi, trois fois par semaine, je fais de la ______________________. {
+~danse\; mardi\; lundi\; jeudi\; trois\; italien\; anglais.
+~italien\; anglais\; trois\; mardi\; vendredi\; danse\; lundi.
+~anglais\; mardi\; italien\; trois\; danse\; vendredi\; jeudi.
+=mardi\; jeudi\; vendredi\; anglais\; italien\; trois\; danse.
+}
