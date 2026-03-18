@@ -10,7 +10,7 @@ include PATH_INCLUDE . 'ImagenPie.php';
 ob_start();
 ?>
 <section>
-
+  <h3>Evaluación final de la Unidad 1</h3>
  <p>Estás por concluir el estudio de la primera unidad. Felicidades por tu dedicación y esfuerzo al concluir esta unidad de estudio.</p>
 
  <p>Ha sido un recorrido de aprendizaje significativo en Química III, donde has adquirido conocimientos esenciales que serán fundamentales para tu desarrollo académico. </p>
@@ -20,9 +20,10 @@ ob_start();
  <p>¡Te deseamos mucho éxito en esta evaluación y esperamos que demuestres todo lo que has aprendido!</p>
   
   <?php ob_start(); ?>
+  <p>Selecciona el inciso que responda a la pregunta correcta</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t4a1', "Evaluación final de la Unidad 1", $ActividadContent);
+  renderActividad('u1a3', "Evaluación final de la Unidad 1", $ActividadContent);
   ?>
 
 </section>

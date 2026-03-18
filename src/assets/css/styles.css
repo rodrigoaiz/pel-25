@@ -770,3 +770,134 @@ Timeline (Línea del Tiempo)
   @apply m-0 not-italic;
   font-style: normal !important;
 }
+
+/**
+ * Contenedor responsivo para tablas
+ */
+.table-responsive {
+  @apply w-full overflow-x-auto mb-6 rounded-lg shadow-md bg-white pt-0;
+  /* Scroll suave en móviles */
+  -webkit-overflow-scrolling: touch;
+}
+
+/**
+ * Estilos para tablas
+ */
+.table-responsive table {
+  @apply w-full text-left font-texto mb-0 mt-0 pt-0;
+  /* Ancho mínimo para evitar que se comprima demasiado en móviles */
+  min-width: 600px;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* Encabezado de tabla */
+.table-responsive thead {
+  @apply bg-secondary text-sm font-semibold;
+}
+
+.table-responsive thead th {
+  @apply px-4 py-3 text-white;
+}
+
+/* Bordes redondeados en la primera y última celda del encabezado */
+.table-responsive thead th:first-child {
+  @apply rounded-tl-lg;
+}
+
+.table-responsive thead th:last-child {
+  @apply rounded-tr-lg;
+}
+
+/* Cuerpo de tabla */
+.table-responsive tbody tr {
+  @apply border-b border-gray-200 transition-colors duration-200;
+}
+
+.table-responsive tbody tr:hover {
+  @apply bg-gray-50;
+}
+
+/* Efecto zebra (filas alternadas) */
+.table-responsive tbody tr:nth-child(even) {
+  @apply bg-gray-100/50;
+}
+
+.table-responsive tbody tr:nth-child(even):hover {
+  @apply bg-gray-100;
+}
+
+.table-responsive tbody td {
+  @apply px-4 py-3 text-darkestblue-own;
+}
+
+/* Primera columna con énfasis (opcional - usar clase first-col-emphasis) */
+.table-responsive.first-col-emphasis tbody th,
+.table-responsive.first-col-emphasis tbody td:first-child {
+  @apply font-semibold text-secondary;
+}
+
+/* Tabla compacta (variante opcional) */
+.table-responsive.table-compact thead th,
+.table-responsive.table-compact tbody td {
+  @apply px-3 py-2 text-sm;
+}
+
+/* Tabla con bordes completos (variante opcional) */
+.table-responsive.bordered table,
+.table-responsive.table-bordered table {
+  @apply border border-gray-300;
+}
+
+.table-responsive.bordered thead th,
+.table-responsive.table-bordered thead th {
+  @apply border border-gray-300;
+}
+
+.table-responsive.bordered tbody td,
+.table-responsive.bordered tbody th,
+.table-responsive.table-bordered tbody td,
+.table-responsive.table-bordered tbody th {
+  @apply border border-gray-300;
+}
+
+/* Mantener bordes redondeados superiores con bordered */
+.table-responsive.bordered thead th:first-child,
+.table-responsive.table-bordered thead th:first-child {
+  @apply border-l-0 border-t-0;
+}
+
+.table-responsive.bordered thead th:last-child,
+.table-responsive.table-bordered thead th:last-child {
+  @apply border-r-0 border-t-0;
+}
+
+.table-responsive.bordered thead th,
+.table-responsive.table-bordered thead th {
+  @apply border-t-0;
+}
+
+/* Tabla con destaque naranja (variante opcional) */
+.table-responsive.table-orange thead {
+  @apply bg-orange-own;
+}
+
+/* Si usas table-orange con first-col-emphasis, la primera columna será naranja */
+.table-responsive.table-orange.first-col-emphasis tbody td:first-child,
+.table-responsive.table-orange.first-col-emphasis tbody th {
+  @apply text-orange-own font-semibold;
+}
+
+/* Responsivo: mensaje de scroll en móviles */
+.table-responsive::after {
+  content: '';
+  @apply block;
+}
+
+@media (max-width: 768px) {
+  /* Indicador visual de scroll horizontal */
+  .table-responsive::before {
+    content: '← Desliza para ver más →';
+    @apply absolute -top-6 left-0 w-full text-center text-xs text-gray-500 font-semibold;
+  }
+}

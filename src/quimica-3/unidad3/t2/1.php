@@ -1,7 +1,7 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'Tabs.php';
@@ -61,7 +61,7 @@ ob_start();
   <p>Elabora la actividad Reacciones químicas y la rapidez de reacción para reafirmar tus conocimientos.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t2a1', "Reacciones químicas y la rapidez de reacción", $ActividadContent);
+  renderActividadH5P('u3t2a1', "Reacciones químicas y la rapidez de reacción", $ActividadContent);
   ?>
 
 </section>

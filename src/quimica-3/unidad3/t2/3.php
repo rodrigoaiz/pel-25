@@ -2,6 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -18,7 +19,7 @@ ob_start();
   <p>Es momento de que realices la actividad “Factores de la rapidez de reacción”</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t2a3', "Factores de la rapidez de reacción", $ActividadContent);
+  renderActividadH5P('u3-t2-p3-01', "Factores de la rapidez de reacción", $ActividadContent);
   ?>
 
   <p>¡Vamos a experimentar!</p>
@@ -31,9 +32,12 @@ ob_start();
 
 <?php ob_start(); ?>
   <p>Realiza la actividad Uve De Gowin: Rapidez de reacción.</p>
+  <p>A partir de la actividad experimental, te pedimos que realices una V de Gowin, para ello puedes considerar los puntos expuestos en la siguiente imagen. </p>
+  <img class="mx-auto" src="<?php echo PATH_IMAGES . 'q3-u3-act-exp.webp'; ?>" alt="Ejemplo de UVE de Gowin" />
+  <p>Recuerda, revisar los <a href="<?php echo PATH_DOCS . 'u3-t2-p3-02-rubrica.docx'; ?>" target="_blank">criterios de evaluación</a> de esta actividad</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t2a4', "Uve De Gowin: Rapidez de reacción.", $ActividadContent);
+  renderActividad('u3a3', "Uve De Gowin: Rapidez de reacción", $ActividadContent);
   ?>
 
  

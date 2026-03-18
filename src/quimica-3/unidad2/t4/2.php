@@ -2,7 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Videos.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -29,12 +29,60 @@ ob_start();
   <p>Cuando ocurre una reacción química hay evidencias que muestran que hubo un cambio químico, por ejemplo, el cambio de temperatura, formación de un precipitado, cambio de color, desprendimiento de burbujas lo cual es indicativo de la formación de un gas, entre otros cambios.</p>
 
   <p>En la siguiente tabla se muestran los símbolos generales para representar una ecuación química: </p>
-
-  <div class="mx-auto max-w-md">
-    <?php
-      renderImage('q3-u2-simbologia.webp','Tabla 1. Simbología de una ecuación química.')
-  ?>
+  
+  <div class="table-responsive max-w-2xl mx-auto">
+    <table>
+      <thead>
+        <tr>
+          <th>Símbolo</th>
+          <th>Significado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>+</td>
+          <td>Indica hay 2 o más reactivos o productos.</td>
+        </tr>
+        <tr>
+          <td>&rarr;</td>
+          <td>Produce o forma</td>
+        </tr>
+        <tr>
+          <td>&rightleftharpoons;</td>
+          <td>Reacción reversible</td>
+        </tr>
+        <tr>
+          <td>(s)</td>
+          <td>sólido</td>
+        </tr>
+        <tr>
+          <td>(l)</td>
+          <td>líquido</td>
+        </tr>
+        <tr>
+          <td>(g)</td>
+          <td>gaseoso</td>
+        </tr>
+        <tr>
+          <td>(ac)</td>
+          <td>acuoso</td>
+        </tr>
+        <tr>
+          <td>&uarr;</td>
+          <td>Produce un gas</td>
+        </tr>
+        <tr>
+          <td>&Delta;</td>
+          <td>Requiere calor</td>
+        </tr>
+        <tr>
+          <td>Pd &rarr;</td>
+          <td>catalizador</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
+  <p class="text-sm text-center">Tabla 1. Simbología de una ecuación química.</p>
 
   <p>Para complementar el concepto de reacción química, revisa el siguiente video:</p>
 
@@ -44,9 +92,10 @@ ob_start();
 
   <?php ob_start(); ?>
   <p>En la siguiente actividad aplicarás lo aprendido sobre <b>Reacción y ecuación química.</b></p>
+  <p>Completa las siguiente tabla acerca de una reacción y ecuación química, arrastrando  las respuestas correctas. </p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t4a2', "Reacción y ecuación química", $ActividadContent);
+  renderActividadH5P('u2t4a2', "Reacción y ecuación química", $ActividadContent);
   ?>
   
 

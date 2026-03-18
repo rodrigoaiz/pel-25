@@ -2,7 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Videos.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -53,12 +53,13 @@ ob_start();
   <?php
   renderVideoIframe('H5Br-BHG7zE', 'Reacciones exotérmicas y endotérmicas');
   ?>
+  <p>Con la información anterior de la lectura de reacciones exotérmicas y endotérmicas y la consulta del video realiza la siguiente actividad</p>
 
   <?php ob_start(); ?>
-  <p>Con la información anterior de la lectura de reacciones exotérmicas y endotérmicas y la consulta del video realiza la siguiente actividad</p>
+  <p>Es momento de que conozcas las funciones específicas de las diferentes glándulas endocrinas, voltea cada tarjeta y conoce más de cada una de ellas.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t3a2', "Reacciones exotérmicas y endotérmicas", $ActividadContent);
+  renderActividadH5P('u3t3a2', "Reacciones exotérmicas y endotérmicas", $ActividadContent);
   ?>
 
 

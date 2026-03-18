@@ -2,7 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Videos.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -80,9 +80,11 @@ ob_start();
 
   <?php ob_start(); ?>
   <p>Realiza el cuestionario Balanceo de ecuaciones.</p>
+  <p>Elige la respuesta correcta para los siguientes enunciados.</p>
+  <p>Balanceo por tanteo</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t4a4', "Balanceo de ecuaciones", $ActividadContent);
+  renderActividadH5P('u2t4a4', "Balanceo de ecuaciones", $ActividadContent);
   ?>
   
 

@@ -49,12 +49,15 @@ ob_start();
   renderVideoIframe('Lgb5pdp9LIk', 'Energía en la formación y ruptura de enlaces químicos');
   ?>
 
+  <p>En la actividad “Energía en la formación y ruptura de enlaces químicos” relaciona la estructura atómica de cada átomo. correspondiente.</p>
 
   <?php ob_start(); ?>
-  <p>En la actividad “Energía en la formación y ruptura de enlaces químicos” relaciona la estructura atómica de cada átomo. correspondiente.</p>
+  <p>Sigue las instrucciones:</p>
+  <p>Descarga el <a href="<?php echo PATH_DOCS . 'u3-t3-p3.docx'; ?>" target="_blank">documento de la actividad</a> y realiza cada una de las indicaciones.</p>
+  <p>Al terminar sube tu archivo.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t3a3', "Energía en la formación y ruptura de enlaces químicos", $ActividadContent);
+  renderActividad('u3a5', "Energía en la formación y ruptura de enlaces químicos", $ActividadContent);
   ?>
 
 

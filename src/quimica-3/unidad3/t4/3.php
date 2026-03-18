@@ -47,11 +47,33 @@ ob_start();
   ?>
   </div>
 
-  <?php ob_start(); ?>
   <p>Realiza la actividad Grado de ionización en ácidos para que corrobores lo aprendido.</p>
+  <?php ob_start(); ?>
+  <p>En esta actividad interactiva, usaremos un simulador para observar a nivel nanoscópico la cantidad de iones y cómo se relaciona esto con el valor de pH, para finalmente dar solución al caso: </p>
+  <p>En el laboratorio, se han encontrado dos frascos sin etiquetar que contienen soluciones ácidas, uno con ácido clorhídrico y otro con ácido acético, un componente común en el vinagre.   </p>
+  <p>Primero, emplearemos el simulador:</p>
+  <p>Accede al simulador en [<a href="https://phet.colorado.edu/sims/html/acid-base-solutions/latest/acid-base-solutions_all.html?locale=es" target="_blank">PhET Acid-Base Solutions</a>]</p>
+  <ul>
+    <li>Selecciona “Mi solución”</li>
+    <li>Elige entre ácido fuerte o ácido débil. </li>
+    <li>Configura la concentración inicial del ácido. </li>
+    <li>Observa cómo cambia el pH y la proporción de ácido ionizado. </li>
+    <li>Cambia las condiciones aumentando la concentración, observa cómo afecta a la cantidad de iones. </li>
+    <li>Aplica tiras de pH o usa un pH-metro digital para medir el pH de cada solución.</li>
+  </ul>
+  <p>Luego,  en un documento de Word contesta las siguientes preguntas. Recuerda justificar tus respuestas utilizando tu conocimiento.</p>
+  <ol>
+    <li><strong>Explica</strong> cómo el modelo de Bronsted-Lowry se aplica a tus observaciones sobre la ionización de los ácidos y la diferencia entre reacciones reversibles e irreversibles. </li>
+    <li><strong>Describe</strong> cómo la cantidad de iones presentes afecta el equilibrio químico en una solución de ácido débil en comparación con una solución de ácido fuerte. </li>
+    <li><strong>Responde</strong>:¿Cómo cambia el equilibrio químico cuando aumentas la concentración de un ácido débil en comparación con un ácido fuerte? ¿Qué observas en términos de pH y cantidad de iones? </li>
+    <li>Basándote en el pH observado tanto para el ácido fuerte como para el ácido débil, <strong>responde</strong> ¿cómo podrías identificar cuál solución contiene ácido clorhídrico y cuál contiene ácido acético?</li>
+  </ol>
+  <p>Una vez completadas tus respuestas, envíalas para su verificación y recibir retroalimentación.</p>
+  <p>Por último, revisa el <a href="<?php echo PATH_DOCS . 'u3-t4-p3.docx'; ?>" target="_blank">criterio de evaluación</a> de esta actividad.</p>
+
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t4a3', "Grado de ionización en ácidos", $ActividadContent);
+  renderActividad('u3a7', "Grado de ionización en ácidos", $ActividadContent);
   ?>
 
 

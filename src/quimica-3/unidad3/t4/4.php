@@ -2,7 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'Tabs.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -56,7 +56,7 @@ ob_start();
   <p>Ahora te corresponde realizar la actividad Grado de ionización y Ka donde identificarás algunas sustancias.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t4a3', "Grado de ionización y Ka", $ActividadContent);
+  renderActividadH5P('u3t4a4', "Grado de ionización y Ka", $ActividadContent);
   ?>
 
 

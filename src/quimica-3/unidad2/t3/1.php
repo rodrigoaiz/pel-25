@@ -32,11 +32,21 @@ ob_start();
 
   <p>¿Qué te pareció el video? ¿Te imaginabas que tu teléfono celular estuviera conformado por tantos elementos químicos? Ahora se te invita a participar en el  foro de discusión: <i><b>Del mineral al teléfono celular.</b></i> </p>
 
-  <?php ob_start(); ?>
   <p>A continuación, se les invita a participar en el siguiente foro de discusión.</p>
+  <?php ob_start(); ?>
+  <p>Participa en el foro de discusión siguiendo las instrucciones.</p>
+  <p>Reflexiona: ¿Cómo crees que se transforma una roca extraída de una mina en un metal puro, listo para su uso en productos como teléfonos celulares o vehículos?</p>
+  <p>Instrucciones.</p>
+  <ol>
+    <li>Elige uno de estos metales utilizado en la fabricación de teléfonos celulares o vehículos: cobre, litio, aluminio, hierro, níquel, titanio, oro, acero, magnesio, zinc, estaño.</li>
+    <li>Investiga el proceso de extracción y purificación del metal elegido. Enfócate en el tipo de roca o mineral donde se encuentra el metal, así como en los procesos físicos y químicos involucrados en la extracción y purificación.</li>
+    <li>Responde a la siguiente pregunta especificando el metal que has elegido: ¿Cómo crees que se transforma una roca extraída de una mina en el metal puro que elegiste, listo para su uso en productos como teléfonos celulares o vehículos?</li>
+    <li>Lee las aportaciones de tus compañeros, aporta nuevas ideas y enriquece el debate.</li>
+  </ol>
+
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t3a1', "Foro de discusión: del mineral al teléfono celular", $ActividadContent);
+  renderActividad('u2a4', "Foro de discusión: del mineral al teléfono celular", $ActividadContent);
   ?>
 
 <p>En la industria química metalúrgica, se produce una gran cantidad de reacciones en las que participan los metales, pero no todas son iguales. El tipo de metales y de minerales que participan, determina la reacción química que puede llevarse a cabo.  Analizar las reacciones que ocurren determinará el procedimiento químico que puede realizarse para la extracción y refinamiento de los metales. </p>

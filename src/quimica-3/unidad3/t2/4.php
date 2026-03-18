@@ -29,12 +29,36 @@ ob_start();
   </div>
 
 
-
-   <?php ob_start(); ?>
   <p>Ahora, realiza una infografía sobre el Proceso Haber, sus características, la importancia y los retos a vencer en la actualidad para la producción del Amoniaco.</p>
+
+  <?php ob_start(); ?>
+  <p>Con base al video: “La reacción química que alimenta al mundo - Daniel D. Dulek” y al artículo “Fertilizantes, energía y su impacto en la producción de alimentos” presentes en esta sección, realiza una infografía sobre el Proceso Haber-Bosch que contenga:</p>
+  <ul>
+    <li>Título de la infografía</li>
+    <li>Las características del proceso y la reacción</li>
+    <li>Las dificultades del proceso y reacción</li>
+    <li>La importancia del proceso</li>
+    <li>Los retos para vencer en la actualidad para la producción del Amoniaco.</li>
+  </ul>
+  <p>Puedes investigar en otras fuentes y referencias bibliográficas. No olvides incluir:</p>
+  <ul>
+    <li>Datos recientes con base en fuentes verídicas y confiables.</li>
+    <li>Emplear imágenes ilustrativas sobre el tema.</li>
+    <li>Indicar referencias en formato APA.</li>
+  </ul>
+  <p>El documento debe contener:</p>
+  <ul>
+    <li>Datos personales.</li>
+    <li>Ideas principales, claras y breves.</li>
+    <li>Sin faltas de ortografía.</li>
+    <li>El documento debe ser enviado en PDF.</li>
+    <li>Guarda tu documento con Apellidos_Nombre.</li>
+  </ul>
+  <p>Por último, revisa el criterio de <a href="<?php echo PATH_DOCS . 'u3-t2-p4-rubrica.docx'; ?>" target="_blank">evaluación de esta actividad</a> en el siguiente enlace:</p>
+
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t2a5', "Infografía del proceso Haber-Bosch y la producción de amoniaco", $ActividadContent);
+  renderActividad('u3a4', "Infografía del proceso Haber-Bosch y la producción de amoniaco", $ActividadContent);
   ?>
 
 
