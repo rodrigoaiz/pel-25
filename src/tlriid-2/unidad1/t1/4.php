@@ -12,13 +12,8 @@ ob_start();
 </section>
 
 <div class="my-8 overflow-x-auto">
-  <p class="text-center font-bold text-lg mb-6 tracking-wide">COMUNICACIÓN LITERARIA</p>
-
-  <!-- Fila superior: mundo real -->
-  <div class="max-w-4xl mx-auto mb-1 flex justify-between px-2">
-    <span class="text-xs font-semibold text-gray-500 uppercase tracking-widest">Mundo real</span>
-    <span class="text-xs font-semibold text-gray-500 uppercase tracking-widest">Mundo real</span>
-  </div>
+  <p class="text-center font-bold text-lg tracking-wide">COMUNICACIÓN LITERARIA</p>
+  <p class="text-center font-bold text-lg mb-2 tracking-wide text-gray-400">ENUNCIACIÓN NARRATIVA</p>
 
   <!-- Diagrama principal -->
   <div class="max-w-4xl mx-auto flex items-stretch gap-0 border-2 border-gray-300 rounded-lg overflow-hidden shadow-lg">
@@ -26,7 +21,7 @@ ob_start();
     <!-- Autor real -->
     <div class="bg-gray-200 text-gray-800 p-4 text-center flex flex-col justify-center min-w-[6rem]">
       <p class="font-bold text-sm">AUTOR</p>
-      <p class="font-bold text-sm">REAL</p>
+      <p class="text-sm">Contexto de producción</p>
     </div>
 
     <div class="flex items-center justify-center px-1 text-gray-400 text-xl select-none bg-white">&#8594;</div>
@@ -34,51 +29,35 @@ ob_start();
     <!-- Mundo ficticio -->
     <div class="flex-1 border-x-2 border-dashed border-gray-400 bg-white">
 
-      <!-- Etiqueta mundo ficticio -->
-      <p class="text-center text-xs font-semibold text-gray-400 uppercase tracking-widest pt-2 pb-1">— Mundo ficticio (texto) —</p>
-
       <div class="flex items-stretch gap-0 px-2 pb-3">
-        <!-- Autor implícito -->
-        <div class="flex-1 bg-amber-500/20 text-amber-800 p-3 text-center shadow-sm rounded">
-          <p class="text-xs italic mb-1">construye</p>
-          <p class="font-bold text-sm">AUTOR</p>
-          <p class="font-bold text-sm">IMPLÍCITO</p>
-        </div>
-
         <div class="flex items-center justify-center px-1 text-gray-400 text-xl select-none">&#8594;</div>
 
         <!-- Narrador -->
-        <div class="flex-1 bg-cyan-500/30 text-cyan-800 p-3 text-center shadow-sm rounded">
-          <p class="text-xs italic mb-1">¿quién habla?</p>
+        <div class="flex-1 bg-cyan-500/30 text-cyan-800 p-3 text-center shadow-sm rounded mt-2">
+          <p class="italic text-sm mb-1">¿quién habla?</p>
           <p class="font-bold text-sm">NARRADOR</p>
         </div>
 
         <div class="flex items-center justify-center px-1 text-gray-400 text-xl select-none">&#8594;</div>
 
         <!-- Relato -->
-        <div class="flex-1 bg-emerald-500/30 text-emerald-800 p-3 text-center shadow-sm rounded">
-          <p class="text-xs italic mb-1">¿de qué habla?</p>
+        <div class="flex-1 bg-emerald-500/30 text-emerald-800 p-3 text-center shadow-sm rounded mt-2">
+          <p class="italic text-sm mb-1">¿de qué habla?</p>
           <p class="font-bold text-sm">RELATO</p>
-          <p class="text-xs mt-1">Historia</p>
         </div>
 
         <div class="flex items-center justify-center px-1 text-gray-400 text-xl select-none">&#8594;</div>
 
         <!-- Narratario -->
-        <div class="flex-1 bg-purple-500/30 text-purple-800 p-3 text-center shadow-sm rounded">
-          <p class="text-xs italic mb-1">¿a quién habla?</p>
+        <div class="flex-1 bg-purple-500/30 text-purple-800 p-3 text-center shadow-sm rounded mt-2">
+          <p class="italic text-sm mb-1">¿a quién habla?</p>
           <p class="font-bold text-sm">NARRATARIO</p>
         </div>
 
         <div class="flex items-center justify-center px-1 text-gray-400 text-xl select-none">&#8594;</div>
-
-        <!-- Lector implícito -->
-        <div class="flex-1 bg-rose-500/20 text-rose-800 p-3 text-center shadow-sm rounded">
-          <p class="text-xs italic mb-1">recibe</p>
-          <p class="font-bold text-sm">LECTOR</p>
-          <p class="font-bold text-sm">IMPLÍCITO</p>
-        </div>
       </div>
+      <p class="text-center font-bold text-sm mb-2 text-gray-400">Acontecimiento narrado</p>
+      <p class="text-center font-bold text-sm mb-2 text-gray-400">Historia</p>
     </div>
 
     <div class="flex items-center justify-center px-1 text-gray-400 text-xl select-none bg-white">&#8594;</div>
@@ -86,13 +65,18 @@ ob_start();
     <!-- Lector real -->
     <div class="bg-gray-200 text-gray-800 p-4 text-center flex flex-col justify-center min-w-[6rem]">
       <p class="font-bold text-sm">LECTOR</p>
-      <p class="font-bold text-sm">REAL</p>
+      <p class="text-sm">Contexto de recepción</p>
     </div>
-
   </div>
+  <p class="text-center font-bold text-lg mb-6 tracking-wide">Ficcionalización literaria</p>
 </div>
 
 <section>
+  <div class="max-w-2xl mx-auto">
+    <?php
+    renderImage('tlriid2-u1t1p4img1.webp', 'Storytelling kit cover', 'https://upload.wikimedia.org/wikipedia/commons/5/53/Storytelling_kit_cover.jpg', 'Wikimedia Commons');
+    ?>
+  </div>
   <h3>Tareas del narrador</h3>
   <p>Como se observa en el cuadro anterior, el narrador está dentro del mundo de ficción y tiene a su cargo las siguientes tareas:</p>
   <ul class="ul-disc">
