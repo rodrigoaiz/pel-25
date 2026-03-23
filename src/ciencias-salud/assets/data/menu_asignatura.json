@@ -42,7 +42,52 @@
   },
   "actividades": {
     "u1t1a1": { "id": "50", "moduleName": "quiz" },
-    "u1t2a1": { "id": "50", "moduleName": "forum" },
-    "u1t2a2": { "id": "50", "moduleName": "assign" }
+    "u1t1a2": { "id": "50", "moduleName": "assign" },
+    "u1t2a1": { "id": "50", "moduleName": "assign" },
+    "u1t2a2": { "id": "50", "moduleName": "forum" },
+    "u1t2a3": { "id": "50", "moduleName": "assign" },
+    "u1t2a4": { "id": "50", "moduleName": "assign" },
+    "u1t2a5": { "id": "50", "moduleName": "hvp" },
+    "u1t4a1": { "id": "50", "moduleName": "hvp" },
+    "u1t4a2": { "id": "50", "moduleName": "assign" },
+    "u1t5a1": { "id": "50", "moduleName": "assign" },
+    "u1t6a1": { "id": "50", "moduleName": "assign" },
+    "u1t6a2": { "id": "50", "moduleName": "assign" },
+    "u1t6a3": { "id": "50", "moduleName": "quiz" },
+    "u1t6a4": { "id": "50", "moduleName": "assign" },
+    "u1t6a5": { "id": "50", "moduleName": "assign" },
+
+    "u2t1a1": { "id": "50", "moduleName": "quiz" },
+    "u2t1a2": { "id": "50", "moduleName": "hvp" },
+    "u2t1a3": { "id": "50", "moduleName": "hvp" },
+    "u2t1a4": { "id": "50", "moduleName": "assign" },
+    "u2t2a31": { "id": "50", "moduleName": "assign" },
+    "u2t2a2": { "id": "50", "moduleName": "forum" },
+    "u2t2a3": { "id": "50", "moduleName": "assign" },
+    "u2t3a1": { "id": "50", "moduleName": "hvp" },
+    "u2t3a2": { "id": "50", "moduleName": "assign" },
+    "u2t3a3": { "id": "50", "moduleName": "quiz" },
+    "u2t3a4": { "id": "50", "moduleName": "assign" },
+    "u2t3a5": { "id": "50", "moduleName": "assign" },
+
+    "u3t1a1": { "id": "50", "moduleName": "quiz" },
+    "u3t1a2": { "id": "50", "moduleName": "hvp" },
+    "u3t2a1": { "id": "50", "moduleName": "forum" },
+    "u3t3a1": { "id": "50", "moduleName": "assign" },
+    "u3t3a2": { "id": "50", "moduleName": "assign" },
+    "u3t3a3": { "id": "50", "moduleName": "assign" },
+    "u3t4a1": { "id": "50", "moduleName": "assign" },
+    "u3t4a2": { "id": "50", "moduleName": "assign" },
+    "u3t4a3": { "id": "50", "moduleName": "hvp" },
+    "u3t5a1": { "id": "50", "moduleName": "assign" },
+    "u3t6a1": { "id": "50", "moduleName": "assign" },
+    "u3t6a2": { "id": "50", "moduleName": "assign" },
+    "u3t6a3": { "id": "50", "moduleName": "forum" },
+    "u3t6a4": { "id": "50", "moduleName": "quiz" },
+    "u3t6a5": { "id": "50", "moduleName": "assign" },
+    "u3t6a6": { "id": "50", "moduleName": "assign" }
+    
+
   }
 }
+
