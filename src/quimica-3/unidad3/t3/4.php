@@ -16,7 +16,7 @@ ob_start();
   <p>Ahora te invitamos a que contestes el siguiente cuestionario, para que puedas constatar todo lo que has aprendido.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t3a4', "Cuestionario final de autoevaluación de la unidad 3 Sesión 2", $ActividadContent);
+  renderActividad('u3a6', "Cuestionario final de autoevaluación de la unidad 3 Sesión 2", $ActividadContent);
   ?>
 
 

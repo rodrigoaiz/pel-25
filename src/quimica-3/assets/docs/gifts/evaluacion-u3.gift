@@ -1,0 +1,76 @@
+::quimica-3-evaluacion-u3-p-01::¿Qué condición es necesaria para que una colisión entre moléculas resulte en una reacción química según la teoría de colisiones?{
+~Las moléculas deben tener baja energía de activación.
+=Las moléculas deben colisionar con suficiente energía y orientación correcta.
+~Las moléculas deben estar en estado sólido.
+~Las moléculas deben estar en presencia de un catalizador.
+}
+ 
+::quimica-3-evaluacion-u3-p-02::¿Por qué un aumento en la temperatura generalmente incrementa la rapidez de una reacción?{
+~Aumenta la concentración de reactivos.
+~Disminuye la energía de activación de la reacción.
+=Incrementa la energía cinética de las moléculas, resultando en colisiones más frecuentes y energéticas.
+~Cambia la orientación de las moléculas durante las colisiones.
+}
+ 
+::quimica-3-evaluacion-u3-p-03::¿De qué manera la concentración de los reactivos afecta a la rapidez de reacción?{
+~Una menor concentración implica una mayor cantidad de moléculas presentes y por lo tanto más colisiones.
+=Una mayor concentración aumenta la frecuencia de colisiones entre las moléculas.
+~Una menor concentración permite que las moléculas colisionen con la orientación correcta.
+~Una mayor concentración aumenta la energía de las moléculas, aumentando la velocidad de reacción.
+}
+ 
+::quimica-3-evaluacion-u3-p-04::¿De dónde proviene principalmente la energía de activación que permite que ocurra una reacción química?{
+~De la cantidad de moléculas presentes en la solución.
+~De la energía potencial que tienen los átomos dentro de la molécula.
+~Del tamaño de las moléculas y su número de átomos.
+=De la energía cinética de las moléculas.
+}
+
+::quimica-3-evaluacion-u3-p-05::Del siguiente diagrama de energía indica el número que representa a la energía de activación con catalizador{
+~1
+=2
+~3
+~4
+}
+ 
+::quimica-3-evaluacion-u3-p-06::De la siguiente gráfica de energía identifica que tipo de reacción representa{
+~Endotérmica
+~Descomposición
+=Exotérmica
+~Desplazamiento doble
+}
+  
+::quimica-3-evaluacion-u3-p-07::Si en una siguiente gráfica de energía vs avance de la reacción, el cambio de energía es mayor a cero por lo que representa una reacción química{
+=Endotérmica
+~Síntesis
+~Exotérmica
+~Desplazamiento doble
+}
+ 
+::quimica-3-evaluacion-u3-p-08::¿Cuál de los siguientes compuestos es un ácido fuerte que se disocia completamente en solución acuosa?{
+~Ácido acético (CH₃COOH)
+=Ácido clorhídrico (HCl)
+~Ácido láctico (C₃H₆O₃)
+~Ácido fórmico (HCOOH)
+}
+
+::quimica-3-evaluacion-u3-p-09::El ácido acético tiene un pKa de 4.76. Lo que implica que{
+~Es un ácido fuerte y se ioniza totalmente
+~Es un ácido fuerte y se ioniza parcialmente
+=Es un ácido débil y se ioniza parcialmente
+~És un ácido débil y se ioniza totalmente
+}
+
+::quimica-3-evaluacion-u3-p-10::En la reacción 2NO₂⇌N₂O₄​, si se aumenta la presión, ¿cómo se verá afectado el equilibrio?{
+~Se desplazará hacia los reactivos.
+=Se desplazará hacia los productos.
+~Permanecerá igual.
+~No se puede determinar sin más información.
+}
+
+::quimica-3-evaluacion-u3-p-11::¿Cómo afecta el aumento de la presión en el proceso Haber-Bosch?{
+~Disminuye la producción de amoniaco.
+~No tiene ningún efecto sobre la producción de amoniaco.
+=Aumenta la producción de amoniaco.
+~Aumenta la cantidad de residuos generados.
+}

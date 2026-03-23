@@ -102,9 +102,17 @@ Por ejemplo, en el óxido de hierro(III) Fe2O3, el hierro tiene un estado de oxi
 
   <?php ob_start(); ?>
   <p>A continuación, se les invita a realizar la siguiente actividad, con la finalidad de integrar los conocimientos sobre nomenclatura aprendidos en esta lección. </p>
+  <p>Instrucciones</p>
+  <ol>
+    <li>Descarga la <a href="<?php echo PATH_DOCS . 'u2-t2-p2-tabla.docx'; ?>" target="_blank">tabla</a>.</li>
+    <li>Utiliza la nomenclatura química IUPAC, Stock y tradicional para nombrar cada uno de los minerales.</li>
+    <li>Revisa la <a href="<?php echo PATH_DOCS . 'u2-t2-p2-lista-cotejo.docx'; ?>" target="_blank">lista de cotejo</a> para verificar que cumples con lo solicitado.</li>
+    <li>Adjunta tu tabla para que sea evaluada.</li>
+  </ol>
+
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t2a2', "Nomenclatura de Minerales", $ActividadContent);
+  renderActividad('u2a3', "Nomenclatura de Minerales", $ActividadContent);
   ?>
 
 

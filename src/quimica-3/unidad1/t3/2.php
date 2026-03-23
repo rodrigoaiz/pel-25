@@ -3,7 +3,7 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'Accordion.php';
 include PATH_INCLUDE . 'ImagenPie.php';
@@ -16,7 +16,7 @@ ob_start();
   <p>Para continuar, refuerza los conceptos clave de la química a través de la actividad interactiva: elemento, compuesto y mezcla.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t3a2', "elemento, compuesto y mezcla", $ActividadContent);
+  renderActividadH5P('u1t1a1', "Elemento, compuesto y mezcla", $ActividadContent);
   ?>
 
 </section>

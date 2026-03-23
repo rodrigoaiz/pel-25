@@ -44,9 +44,78 @@ ob_start();
 
   <p>A continuación, realizarás una presentación con diapositivas sobre un producto de la industria y en la que se apliques lo aprendido en esta unidad.</p>
   <?php ob_start(); ?>
+  <p>Esta actividad está diseñada para que, con ayuda de tu creatividad, apliques tus conocimientos de química de una manera práctica y visual, al integrar diversas herramientas digitales que enriquecerán la presentación final.</p>
+  <p>Sigue atentamente las instrucciones:</p>
+  <ul>
+    <li><strong>Selecciona</strong> un producto procesado en la industria y crea una presentación visualmente atractiva que incluya:</li>
+    <ul>
+      <li>Materia prima utilizada.</li>
+      <li>Proceso de producción.</li>
+      <li>Intervención de la industria química.</li>
+      <li>Impacto ecológico, económico y social.</li>
+    </ul>
+    <li><strong>Elabora</strong> una presentación de diapositivas con la siguiente estructura:</li>
+    <div class="table-responsive first-col-emphasis bordered mx-auto max-w-2xl my-10">
+      <table>
+        <thead>
+          <tr>
+            <th>Diapositiva</th>
+            <th>Contenido</th>
+            <th>Algunas sugerencias</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Título y descripción general</td>
+            <td>Agrega tus datos y el nombre del producto seleccionado.</td>
+            <td>Incluye una oración o lema creativo que resuma la esencia del producto o su proceso.</td>
+          </tr>
+          <tr>
+            <td>Materia prima</td>
+            <td>Descripción de la materia prima utilizada.</td>
+            <td>Incluye imágenes o dibujos propios de la materia prima, junto con una breve historia o curiosidad sobre su origen.</td>
+          </tr>
+          <tr>
+            <td>Proceso de producción</td>
+            <td>Explicación del proceso de producción del producto.</td>
+            <td>Utiliza un esquema o diseño gráfico para ilustrar cada paso del proceso y que guíen al espectador a través de la cadena productiva.</td>
+          </tr>
+          <tr>
+            <td>Intervención de la industria química</td>
+            <td>Descripción de cómo la industria química interviene en el procesamiento.</td>
+            <td>Utiliza animaciones sencillas o esquemas para representar las reacciones químicas que muestren cómo se transforman las sustancias.</td>
+          </tr>
+          <tr>
+            <td>Ecuación química y condiciones de reacción</td>
+            <td>Presentación de una ecuación química relevante al proceso, con una explicación de las condiciones de reacción (temperatura, presión, catalizadores, entre otros).</td>
+            <td>Utiliza animaciones o esquemas resaltando visualmente los cambios en la reacción.</td>
+          </tr>
+          <tr>
+            <td>6, 7 y 8. Impacto económico, social y ambiental</td>
+            <td>Descripción del impacto del producto en el medio ambiente, la economía y la sociedad</td>
+            <td>Apóyate en un diagrama tipo mapa mental para mostrar los diferentes impactos. Agrega imágenes y datos concretos que muestren los impactos.</td>
+          </tr>
+          <tr>
+            <td>9. Conclusiones y reflexión</td>
+            <td>Resumen de los puntos clave y una breve reflexión del impacto del producto en la economía mexicana</td>
+            <td>Utiliza palabras clave, oraciones breves y/o imágenes que sinteticen visualmente los aprendizajes adquiridos.</td>
+          </tr>
+          <tr>
+            <td>10. Fuentes de consulta</td>
+            <td>Agrega las fuentes de consulta.</td>
+            <td>Coloca las referencias en formato APA.</td> 
+          </tr>   
+        </tbody>
+      </table>
+    </div>
+    <li><strong>Utiliza</strong> herramientas como Canva o Slides de Google para realizar tu presentación. Cuida el uso de colores, tipo de letra e imágenes que permitan una visualización adecuada y una claridad en la explicación de conceptos químicos e impactos.</li>
+    <li><strong>Revisa</strong> la <a href="<?php echo PATH_DOCS . 'u1-t3-p1-rubrica.docx'; ?>" target="_blank">rúbrica</a> para verificar que tu presentación cuenta con los elementos indispensables.</li>
+    <li><strong>Envía</strong> el enlace con tu presentación para que sea evaluada.</li>
+  </ul>
+
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t3a1', "Producto de la industria", $ActividadContent);
+  renderActividad('u1a3', "Producto de la industria", $ActividadContent);
   ?>   
   
 </section>

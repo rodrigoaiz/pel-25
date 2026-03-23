@@ -2,8 +2,8 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -62,7 +62,7 @@ ob_start();
   <p>A continuación, identifica la especie oxidante y reductora, así como el agente oxidante y reductor en la siguiente reacción. Arrastra las palabras al lugar correcto.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t3a7', "Especie y agentes oxidante y reductores.", $ActividadContent);
+  renderActividadH5P('u2t3a7', "Especie y agentes oxidante y reductores.", $ActividadContent);
   ?>
 
 

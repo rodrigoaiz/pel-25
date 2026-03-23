@@ -3,7 +3,7 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'Videos.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'Accordion.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -35,15 +35,14 @@ ob_start();
 
   <p>A continuación, revisa una presentación sobre la concentración y reducción para obtener metales a partir de minerales: </p>
 
-  <h2>POWERPOINT</h2>
+  <p class="text-2xl text-center uppercase"><a href="<?php echo PATH_DOCS . 'u2-t2-p3-powerp.pdf'; ?>" target="_blank">POWERPOINT</a></p>
 
   <?php ob_start(); ?>
   <p>Después de revisar la presentación, corrobora lo aprendido en la actividad Procesos de obtención de metales a partir de minerales.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t2a3', " Procesos de obtención de metales a partir de minerales.", $ActividadContent);
+  renderActividadH5P('u2t2a3', " Procesos de obtención de metales a partir de minerales.", $ActividadContent);
   ?>
-
 
 </section>
 <?php

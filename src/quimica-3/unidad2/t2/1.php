@@ -64,9 +64,23 @@ ob_start();
 
   <?php ob_start(); ?>
   <p>A continuación, se les invita a realizar la siguiente actividad, con la finalidad de integrar los conocimientos sobre minerales aprendidos en esta lección. </p>
+  <p>Instrucciones:</p>
+  <ol>
+    <li>Descarga la <a href="<?php echo PATH_DOCS . 'u2-t2-tabla.docx'; ?>" target="_blank">tabla</a>.</li>
+    <li>En la segunda columna, verás el nombre de varios minerales.</li>
+    <li>Investiga y completa la tercera columna indicando si el mineral es nativo o compuesto.</li>
+    <li>En la cuarta columna, escribe la representación simbólica del mineral:</li>
+    <ul>
+      <li>Si es nativo, usa el símbolo de la tabla periódica.</li>
+      <li>Si es compuesto, escribe la fórmula química correspondiente.</li>
+    </ul>
+    <li>Sube tu documento para que se evalúe.</li>
+    <li>Tu trabajo se evaluará usando una lista de cotejo ponderada. Revisa el instrumento de <a href="<?php echo PATH_DOCS . 'u2-t2-lista-cotejo.docx'; ?>" target="_blank">evaluación adjunto</a>.</li>
+  </ol>
+
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t2a1', "Minerales nativos y compuestos", $ActividadContent);
+  renderActividad('u2a2', "Minerales nativos y compuestos", $ActividadContent);
   ?>
 
 
