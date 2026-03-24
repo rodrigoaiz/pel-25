@@ -8,6 +8,7 @@ include PATH_INCLUDE . 'Accordion.php';
 include PATH_INCLUDE . 'Tabs.php';
 include PATH_INCLUDE . 'ParaSaber.php';
 include PATH_INCLUDE . 'ImagenFullPleca.php';
+
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();

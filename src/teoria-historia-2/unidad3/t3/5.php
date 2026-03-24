@@ -4,6 +4,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'ToolTip.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -48,7 +49,7 @@ ob_start();
     <p></p>
   <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u3a7', "Actividad de repaso", $ActividadContent);
+    renderActividadH5P('u3a7', "Actividad de repaso", $ActividadContent);
   ?>
   <?php ob_start(); ?>
     <p>Para continuar, realiza la Actividad entregable: El método del historiador en la posmodernidad.</p>

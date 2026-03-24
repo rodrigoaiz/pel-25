@@ -3,6 +3,8 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'ImagenPie.php';
+include PATH_INCLUDE . 'Tooltip.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -27,7 +29,7 @@ ob_start();
   <p></p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3a2', "Repaso: Contexto de las corrientes historiográficas a partir de la segunda mitad del siglo XX", $ActividadContent);
+  renderActividadH5P('u3a2', "Repaso: Contexto de las corrientes historiográficas a partir de la segunda mitad del siglo XX", $ActividadContent);
   ?>
 
 

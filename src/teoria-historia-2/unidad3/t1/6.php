@@ -4,6 +4,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'ToolTip.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -58,7 +59,7 @@ ob_start();
     <p>Para reafirmar lo visto en esta sección de esta lección 1, te pedimos que contestes el siguiente ejercicio con un repaso del tema de Perspectiva de Género.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3a3', "Perspectiva de Género", $ActividadContent);
+  renderActividadH5P('u3a3', "Perspectiva de Género", $ActividadContent);
   ?>
 
 </section>

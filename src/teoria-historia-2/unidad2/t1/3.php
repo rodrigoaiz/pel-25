@@ -4,6 +4,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'ImagenPie.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -42,7 +43,7 @@ A continuación, damos un panorama de las principales características de esta p
   <p>También vamos a recordar a los principales autores del Historicismo, para ello realiza la siguiente actividad para reforzar tus conocimientos:</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a2', "Autores del Historicismo", $ActividadContent);
+  renderActividadH5P('u2a2', "Autores del Historicismo", $ActividadContent);
   ?>
 
 </section>

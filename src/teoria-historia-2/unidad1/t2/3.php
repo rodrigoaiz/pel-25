@@ -9,6 +9,7 @@ include PATH_INCLUDE . 'Tabs.php';
 include PATH_INCLUDE . 'ParaSaber.php';
 include PATH_INCLUDE . 'ImagenFullPleca.php';
 include PATH_INCLUDE . 'ToolTip.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -120,7 +121,7 @@ Historia de Francia:
 <?php ob_start(); ?>
 <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1a3', "Lectura sobre el Romanticismo", $ActividadContent);
+  renderActividadH5P('u1a3', "Lectura sobre el Romanticismo", $ActividadContent);
 ?>
 
 <h3> El método de la historia: </h3>
