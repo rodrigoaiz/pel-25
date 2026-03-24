@@ -16,7 +16,7 @@ ob_start();
    <p>Antes de iniciar con la ubicación de la escuela de los Annales y las etapas de la revista, te invitamos a elaborar la actividad Escuela de los Annales donde conocerás algunos de los autores que revisaremos en esta lección. Se trata de una actividad donde encontrarás información sobre los autores y su trabajo en la Escuela de los Annales.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t2a1', "Escuela de los Annales.", $ActividadContent);
+  renderActividad('u2a5', "Escuela de los Annales.", $ActividadContent);
   ?>
 
   <p>La primera guerra mundial y sus consecuencias, tal es el caso de la Revolución soviética, la crisis de 1929, así como la formación de los estados totalitarios, trajeron al siglo XX una serie de cuestionamientos en todos los aspectos, lo que impactó en los temas y escritura de la historia. Las crisis ocasionadas por las dos guerras mundiales llevaron al quiebre y cuestionamientos de los paradigmas del siglo XIX, que ya no eran suficientes para explicar los acontecimientos, por lo que se dio paso a otras interpretaciones sobre la historia; es en este contexto donde se desarrolló la escuela de los <i>Annales</i>.</p>

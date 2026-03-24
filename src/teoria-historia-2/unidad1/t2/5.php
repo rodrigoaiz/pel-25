@@ -104,7 +104,7 @@ ob_start();
 <?php ob_start(); ?>
 <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t2a2', "Liberalismo: Alexis de Tocqueville", $ActividadContent);
+  renderActividad('u1a5', "Liberalismo: Alexis de Tocqueville", $ActividadContent);
 ?>
 
 <h4> Recuerda que la lectura es fundamental para esta materia.</h4>

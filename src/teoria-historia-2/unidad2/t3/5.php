@@ -26,7 +26,7 @@ ob_start();
   <p>Elige la opción que consideres responde mejor a cada pregunta u oración. Este cuestionario es meramente informativo, responde con honestidad.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t3a1', "Repaso del tema Una visión sobre el materialismo histórico", $ActividadContent);
+  renderActividad('u2a8', "Repaso del tema Una visión sobre el materialismo histórico", $ActividadContent);
   ?>
 
 

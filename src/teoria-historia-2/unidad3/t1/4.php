@@ -27,7 +27,7 @@ ob_start();
   <p></p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t1a2', "Repaso: Contexto de las corrientes historiográficas a partir de la segunda mitad del siglo XX", $ActividadContent);
+  renderActividad('u3a2', "Repaso: Contexto de las corrientes historiográficas a partir de la segunda mitad del siglo XX", $ActividadContent);
   ?>
 
 

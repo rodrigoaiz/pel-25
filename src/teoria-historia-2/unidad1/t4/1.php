@@ -67,7 +67,7 @@ ob_start();
 <?php ob_start(); ?>
 <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t4a1', "Sobre el materialismo histórico ", $ActividadContent);
+  renderActividad('u1a8', "Sobre el materialismo histórico ", $ActividadContent);
 ?>
 
 </section>

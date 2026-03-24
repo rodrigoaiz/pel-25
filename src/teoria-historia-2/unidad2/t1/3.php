@@ -42,7 +42,7 @@ A continuación, damos un panorama de las principales características de esta p
   <p>También vamos a recordar a los principales autores del Historicismo, para ello realiza la siguiente actividad para reforzar tus conocimientos:</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t1a2', "Autores del Historicismo", $ActividadContent);
+  renderActividad('u2a2', "Autores del Historicismo", $ActividadContent);
   ?>
 
 </section>

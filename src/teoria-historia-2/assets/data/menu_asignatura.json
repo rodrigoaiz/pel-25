@@ -30,50 +30,48 @@
       "temas": [
         {"nombre": "Nuevas propuestas", "url": "/teoria-historia-2/unidad3/t1", "paginas": 6},
         {"nombre": "Nuevos enfoques", "url": "/teoria-historia-2/unidad3/t2", "paginas": 5},
-        {"nombre": "Nuevos enfoques", "url": "/teoria-historia-2/unidad3/t3", "paginas": 6}
+        {"nombre": "La posmodernidad", "url": "/teoria-historia-2/unidad3/t3", "paginas": 6}
       ]
     }
   },
   "actividades": {
     
-    "u1t1a1": { "id": "5050", "moduleName": "quiz" },
-    "u1t1a2": { "id": "5051", "moduleName": "h5p" },
-    "u1t2a1": { "id": "5052", "moduleName": "h5p" },
-    "u1t2a2": { "id": "5053", "moduleName": "assign" },
-    "u1t2a3": { "id": "5054", "moduleName": "h5p" },
-    "u1t3a1": { "id": "5055", "moduleName": "assign" },
-    "u1t3a2": { "id": "5056", "moduleName": "h5p" },
-    "u1t4a1": { "id": "5057", "moduleName": "h5p" },
-    "u1t4a2": { "id": "5058", "moduleName": "assign" },
-    "u1t5a1": { "id": "5059", "moduleName": "h5p" },
-    "u1t5a2": { "id": "5060", "moduleName": "forum"},
-    "u1t5a3": { "id": "5061", "moduleName": "quiz" },
+    "u1a1": { "id": "5050", "moduleName": "quiz" },
+    "u1a2": { "id": "5051", "moduleName": "h5p" },
+    "u1a3": { "id": "5052", "moduleName": "h5p" },
+    "u1a4": { "id": "5053", "moduleName": "assign" },
+    "u1a5": { "id": "5054", "moduleName": "h5p" },
+    "u1a6": { "id": "5055", "moduleName": "assign" },
+    "u1a7": { "id": "5056", "moduleName": "h5p" },
+    "u1a8": { "id": "5057", "moduleName": "h5p" },
+    "u1a9": { "id": "5058", "moduleName": "assign" },
+    "u1a10": { "id": "5059", "moduleName": "h5p" },
+    "u1a11": { "id": "5060", "moduleName": "forum"},
+    "u1a12": { "id": "5061", "moduleName": "quiz" },
 
-    "u2t1a1": { "id": "5067", "moduleName": "quiz" },
-    "u2t1a2": { "id": "5068", "moduleName": "h5p" },
-    "u2t1a3": { "id": "5069", "moduleName": "h5p" },
-    "u2t1a4": { "id": "5071", "moduleName": "assign" },
-    "u2t2a1": { "id": "5072", "moduleName": "h5p" },
-    "u2t2a2": { "id": "5074", "moduleName": "h5p" },
-    "u2t2a3": { "id": "5075", "moduleName": "assign" },
-    "u2t3a1": { "id": "5076", "moduleName": "h5p" },
-    "u2t3a2": { "id": "5077", "moduleName": "assign" },
-    "u2t3a3": { "id": "5079", "moduleName": "forum" },
-    "u2t3a4": { "id": "5080", "moduleName": "quiz" },
+    "u2a1": { "id": "5062", "moduleName": "quiz" },
+    "u2a2": { "id": "5063", "moduleName": "h5p" },
+    "u2a3": { "id": "5064", "moduleName": "h5p" },
+    "u2a4": { "id": "5065", "moduleName": "assign" },
+    "u2a5": { "id": "5066", "moduleName": "h5p" },
+    "u2a6": { "id": "5067", "moduleName": "h5p" },
+    "u2a7": { "id": "5068", "moduleName": "assign" },
+    "u2a8": { "id": "5069", "moduleName": "h5p" },
+    "u2a9": { "id": "5070", "moduleName": "assign" },
+    "u2a10": { "id": "5071", "moduleName": "forum" },
+    "u2a11": { "id": "5072", "moduleName": "quiz" },
 
 
-    "u3t1a1": { "id": "5086", "moduleName": "quiz" },
-    "u3t1a2": { "id": "5087", "moduleName": "h5p" },
-    "u3t1a3": { "id": "5088", "moduleName": "h5p" },
-
-    "u3t2a1": { "id": "5090", "moduleName": "h5p" },
-    "u3t2a2": { "id": "5091", "moduleName": "h5p" },
-    "u3t2a3": { "id": "5091", "moduleName": "assign" },
-    "u3t2a4": { "id": "5092", "moduleName": "assign" },
-
-    "u3t3a1": { "id": "5090", "moduleName": "forum" },
-    "u3t3a2": { "id": "5091", "moduleName": "h5p" },
-    "u3t3a3": { "id": "5091", "moduleName": "assign" },
-    "u3t3a4": { "id": "5092", "moduleName": "quiz" }
+    "u3a1": { "id": "5073", "moduleName": "quiz" },
+    "u3a2": { "id": "5074", "moduleName": "h5p" },
+    "u3a3": { "id": "5075", "moduleName": "h5p" },
+    "u3a4": { "id": "5076", "moduleName": "h5p" },
+    "u3a5": { "id": "5077", "moduleName": "h5p" },
+    "u3a6": { "id": "5078", "moduleName": "assign" },
+    "u3a7": { "id": "5079", "moduleName": "assign" },
+    "u3a8": { "id": "5080", "moduleName": "forum" },
+    "u3a9": { "id": "5081", "moduleName": "h5p" },
+    "u3a10": { "id": "5082", "moduleName": "assign" },
+    "u3a11": { "id": "5083", "moduleName": "quiz" }
   }
 }

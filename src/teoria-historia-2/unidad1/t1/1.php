@@ -35,7 +35,7 @@ ob_start();
 <?php ob_start(); ?>
 <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a1', "Cuestionario diagnóstico Unidad 1", $ActividadContent);
+  renderActividad('u1a1', "Cuestionario diagnóstico Unidad 1", $ActividadContent);
   ?>
 
 <h3>Instrucciones: </h3> 

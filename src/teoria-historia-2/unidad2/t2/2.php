@@ -64,7 +64,7 @@ ob_start();
    <p>Hasta aquí has revisado las principales características de la Escuela de los Annales. Es importante que, para reforzar tus aprendizajes realices la siguiente actividad.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t2a2', "Escuela de los Annales.", $ActividadContent);
+  renderActividad('u2a6', "Escuela de los Annales.", $ActividadContent);
   ?>
 
 

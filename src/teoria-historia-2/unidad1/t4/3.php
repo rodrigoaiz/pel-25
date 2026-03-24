@@ -106,7 +106,7 @@ Marx define la premisa de toda historia: <br>
 <?php ob_start(); ?>
 <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t4a2', "Los conceptos del materialismo histórico", $ActividadContent);
+  renderActividad('u1a9', "Los conceptos del materialismo histórico", $ActividadContent);
 ?>
 
 <h4> Recuerda que la lectura es fundamental para esta materia.</h4>

@@ -30,7 +30,7 @@ ob_start();
   <p></p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t3a1', "¿Qué es la posmodernidad?", $ActividadContent);
+  renderActividad('u3a6', "¿Qué es la posmodernidad?", $ActividadContent);
   ?>
   <div class="mx-auto max-w-md">
   <?php
