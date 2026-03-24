@@ -9,6 +9,7 @@ include PATH_INCLUDE . 'Tabs.php';
 include PATH_INCLUDE . 'ParaSaber.php';
 include PATH_INCLUDE . 'ImagenFullPleca.php';
 include PATH_INCLUDE . 'ToolTip.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -104,7 +105,7 @@ En la imagen vemos la primera foja del Códice Mendocino, que nos habla de los t
 <?php ob_start(); ?>
 <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1a2', "Ejercicio de repaso del contexto histórico", $ActividadContent);
+  renderActividadH5P('u1a2', "Ejercicio de repaso del contexto histórico", $ActividadContent);
   ?>
 
 <h4> Recuerda que la lectura es fundamental para esta materia.  </h4>

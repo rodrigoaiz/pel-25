@@ -9,6 +9,7 @@ include PATH_INCLUDE . 'Tabs.php';
 include PATH_INCLUDE . 'ParaSaber.php';
 include PATH_INCLUDE . 'ImagenFullPleca.php';
 include PATH_INCLUDE . 'ToolTip.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -104,7 +105,7 @@ ob_start();
 <?php ob_start(); ?>
 <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1a5', "Liberalismo: Alexis de Tocqueville", $ActividadContent);
+  renderActividadH5P('u1a5', "Liberalismo: Alexis de Tocqueville", $ActividadContent);
 ?>
 
 <h4> Recuerda que la lectura es fundamental para esta materia.</h4>

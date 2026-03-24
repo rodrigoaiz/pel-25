@@ -5,6 +5,7 @@ include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'Tooltip.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -64,7 +65,7 @@ ob_start();
    <p>Hasta aquí has revisado las principales características de la Escuela de los Annales. Es importante que, para reforzar tus aprendizajes realices la siguiente actividad.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a6', "Escuela de los Annales.", $ActividadContent);
+  renderActividadH5P('u2a6', "Escuela de los Annales.", $ActividadContent);
   ?>
 
 
