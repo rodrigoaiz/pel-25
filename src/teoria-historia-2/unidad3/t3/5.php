@@ -48,13 +48,13 @@ ob_start();
     <p></p>
   <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u3t3a2', "Actividad de repaso", $ActividadContent);
+    renderActividad('u3a7', "Actividad de repaso", $ActividadContent);
   ?>
   <?php ob_start(); ?>
     <p>Para continuar, realiza la Actividad entregable: El método del historiador en la posmodernidad.</p>
   <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u3t3a3', "El método del historiador en la posmodernidad.", $ActividadContent);
+    renderActividad('u3a8', "El método del historiador en la posmodernidad.", $ActividadContent);
   ?>
   <p>Has llegado al final del curso. Esperamos que, en este curso aprecies ahorra a la historia de manera distinta, no sólo como la acumulación de información de hechos históricos, sino que para llegar a mostrarlos, existe detrás una idea de lo que es la historia, de cómo en casi doscientos años afinamos cada vez más como sociedad, las formas de explorar y acercarnos al pasado, no como algo muerto, sino como formación del presente. Ahora comprendes que la historia siempre se estudia desde el momento actual y los problemas que investigamos, en las sociedades que nos antecedieron, sirven para explicar nuestro desarrollo como sociedad y nuestro papel como individuos dentro de la misma.</p>
   <p>Conocer que existen distintas escuelas historiográficas te permite comprender que , como ciencia, la historia no es una y acabada, sino que es un proceso en el cual las sociedades y sus miembros, se comprenden siempre en construcción a futuro, pero con raíces en el conocimiento de su pasado.</p>

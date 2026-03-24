@@ -37,7 +37,7 @@ ob_start();
   <p></p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t2a1', "Historia Cultural y Sistema Mundo.", $ActividadContent);
+  renderActividad('u3a4', "Historia Cultural y Sistema Mundo.", $ActividadContent);
   ?>
   <div class="mx-auto max-w-md">
     <?php
@@ -49,7 +49,7 @@ ob_start();
   <p></p>
   <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u3t2a2', "Historia Cultural: su desarrollo y campos de estudio", $ActividadContent);
+    renderActividad('u3a5', "Historia Cultural: su desarrollo y campos de estudio", $ActividadContent);
   ?>
 
 

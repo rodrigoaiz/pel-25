@@ -20,7 +20,7 @@ ob_start();
   <p>A continuación y antes de iniciar con el estudio de esta primera unidad, te solicitamos contestes el siguiente Cuestionario inicial. Es importante que lo hagas para que, al finalizar esta unidad, puedas constatar tus avances en esta materia. </p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t1a1', "Cuestionario inicial", $ActividadContent);
+  renderActividad('u2a1', "Cuestionario inicial", $ActividadContent);
   ?>
 
   <p><b>Instrucciones:</b> Lee con atención la información que te brindamos a continuación. Te permitirá ubicar el ambiente que rodea al surgimiento de las corrientes que te presentamos. Cuando veas una palabra resaltada en color rojo, dale clic para obtener más información sobre ella.</p>

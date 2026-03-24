@@ -80,7 +80,7 @@ ob_start();
   <p>Recupera la información que leíste en el apartado sobre el materialismo histórico en el siglo XX - que se encuentra en esta lección- e identifica las ideas importantes de la lectura, a fin de que repases y recuerdes los principales conceptos del materialismo histórico, propuestas, fases, principales exponentes e ideas. Y realiza la actividad <b>Los conceptos del materialismo  histórico</b>.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t3a2', "Los conceptos del materialismo  histórico. ", $ActividadContent);
+  renderActividad('u2a9', "Los conceptos del materialismo  histórico. ", $ActividadContent);
   ?>
 
   <p>Ahora que ya conoces diferentes corrientes de pensamiento histórico pues en la unidad  1 aprendiste sobre las corrientes de pensamiento del historicismo y del positivismo, y en esta unidad 2 acabas de revisar corrientes del materialismo histórico, por lo que cuentas con elementos para tener una posición crítica en torno a las diferentes formas de pensamiento, no solo de un país, sino a nivel mundial.</p>
@@ -89,7 +89,7 @@ ob_start();
   <p>Por lo tanto, con el objetivo de reafirmar lo aprendido en torno a las corrientes de pensamiento histórico desarrolladas hasta los años setenta del siglo XX te pedimos que participes en el  siguiente foro:</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t3a3', "corrientes del pensamiento históricos", $ActividadContent);
+  renderActividad('u2a10', "corrientes del pensamiento históricos", $ActividadContent);
   ?>
   
 </section>

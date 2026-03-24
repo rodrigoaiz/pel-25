@@ -58,14 +58,14 @@ ob_start();
 <?php ob_start(); ?>
 <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t5a1', "Autores y corrientes del siglo XIX", $ActividadContent);
+  renderActividad('u1a10', "Autores y corrientes del siglo XIX", $ActividadContent);
 ?>
 
 <p>Participa en el foro La historiografía del siglo XIX</p>
 <?php ob_start(); ?>
 <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t5a2', "La historiografía del siglo XIX", $ActividadContent);
+  renderActividad('u1a11', "La historiografía del siglo XIX", $ActividadContent);
 ?>
 
 </section>

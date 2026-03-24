@@ -117,7 +117,7 @@ ob_start();
 <?php ob_start(); ?>
 <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t3a1', "El método del historiador en Leopold von Ranke", $ActividadContent);
+  renderActividad('u1a6', "El método del historiador en Leopold von Ranke", $ActividadContent);
 ?>
 
 </section>

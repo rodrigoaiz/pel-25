@@ -83,7 +83,7 @@ ob_start();
    <p>Hasta ahora has aprendido sobre La escuela de los Annales por lo que es momento de realizar la siguiente actividad:</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t2a3', "Escuela de los Annales.", $ActividadContent);
+  renderActividad('u2a7', "Escuela de los Annales.", $ActividadContent);
   ?>
 
 </section>

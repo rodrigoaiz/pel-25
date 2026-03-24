@@ -120,7 +120,7 @@ Historia de Francia:
 <?php ob_start(); ?>
 <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t2a1', "Lectura sobre el Romanticismo", $ActividadContent);
+  renderActividad('u1a3', "Lectura sobre el Romanticismo", $ActividadContent);
 ?>
 
 <h3> El método de la historia: </h3>
@@ -178,7 +178,7 @@ Historia de Francia:
 <?php ob_start(); ?>
 <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t2a2', "La historiografía del romanticismo en Jules Michelet", $ActividadContent);
+  renderActividad('u1a4', "La historiografía del romanticismo en Jules Michelet", $ActividadContent);
 ?>
 
 </section>

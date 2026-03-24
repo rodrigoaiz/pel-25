@@ -50,7 +50,7 @@ ob_start();
 <?php ob_start(); ?>
 <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t3a2', "Repaso", $ActividadContent);
+  renderActividad('u1a7', "Repaso", $ActividadContent);
 ?>
 
 <h4> Recuerda que la lectura es fundamental para esta materia.</h4>

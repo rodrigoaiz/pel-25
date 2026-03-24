@@ -104,7 +104,7 @@ En la imagen vemos la primera foja del Códice Mendocino, que nos habla de los t
 <?php ob_start(); ?>
 <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a2', "Ejercicio de repaso del contexto histórico", $ActividadContent);
+  renderActividad('u1a2', "Ejercicio de repaso del contexto histórico", $ActividadContent);
   ?>
 
 <h4> Recuerda que la lectura es fundamental para esta materia.  </h4>

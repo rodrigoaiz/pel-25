@@ -58,7 +58,7 @@ ob_start();
     <p>Para reafirmar lo visto en esta sección de esta lección 1, te pedimos que contestes el siguiente ejercicio con un repaso del tema de Perspectiva de Género.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t1a3', "Perspectiva de Género", $ActividadContent);
+  renderActividad('u3a3', "Perspectiva de Género", $ActividadContent);
   ?>
 
 </section>

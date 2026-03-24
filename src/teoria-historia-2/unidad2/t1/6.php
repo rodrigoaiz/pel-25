@@ -90,14 +90,14 @@ Esta obra ejemplifica esta idea. Es del autor ucraniano Alexander Nicolayevich Z
   <p>A continuación vamos a realizar un repaso con el fin de que recuerdes las características del historicismo.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t1a3', "Características del historicismo", $ActividadContent);
+  renderActividad('u2a3', "Características del historicismo", $ActividadContent);
   ?>
 
   <?php ob_start(); ?>
   <p>A continuación realizaremos la siguiente actividad El historicismo en México_ O’Gorman a fin de confirmar lo que aprendiste en esta lección:</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t1a4', "El historicismo en México_O’Gorman", $ActividadContent);
+  renderActividad('u2a4', "El historicismo en México_O’Gorman", $ActividadContent);
   ?>
 
  
