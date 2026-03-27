@@ -60,11 +60,12 @@ ob_start();
         renderImage('tlriid2-u1t1p5img1.webp', 'JOSE EMILIO PACHECO | Octavio Nava / Secretaría de Cultura Ciudad de México from México, CC BY-SA 2.0', 'https://creativecommons.org/licenses/by-sa/2.0', 'Wikimedia Commons');
         ?>
     </div>
-    <?php ob_start(); ?>
+
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Lee con cuidado los siguientes relatos, identifica en ellos las marcas sean la voz narrativa. Estas marcas pueden ser pronombres, adjetivos posesivos y conjugaciones verbales. Luego da clic para ver el tipo de narrador, si se trata de un narrador en primera, segunda o tercera persona:</li>
     </ol>
+    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
     renderActividadH5P('u1t1a2', "Voz narrativa", $ActividadContent);

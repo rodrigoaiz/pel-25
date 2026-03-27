@@ -64,9 +64,9 @@ ob_start();
                 <p class="pl-4">–Ya no hay nada que hacer, mi joven colega. Vamos a dejar que se muera esta porquería.</p>
                 <p>Le contesté que <strong>me había</strong> costeado<sup>5</sup> hasta ahí a las dos de la mañana pasadas y que haría lo posible para salvarlo. Rivera se encogió de hombros; <strong>lavé</strong> los intestinos, los <strong>puse</strong> en su lugar y <strong>cosí</strong> la herida. No oí una sola queja.</p>
                 <p>Al otro día <strong>volví</strong>. El hombre no había muerto; me miró, me estrechó la mano y me dijo:</p>
-                <p class="pl-4">–Para usted, gracias, y mi cabo de plata para Rivera.</p>
+                <p class="pl-4">–Para usted, gracias, y <strong>mi</strong> cabo de plata para Rivera.</p>
                 <p>Cuando a Garay lo dieron de alta, Rivera ya se había ido a Buenos Aires.</p>
-                <p>Desde esa fecha, todos los años recibí un corderito el día de mi santo, hacia el cuarenta el regalo cesó."</p>
+                <p>Desde esa fecha, todos los años <strong>recibí</strong> un corderito el día de mi santo, hacia el cuarenta el regalo cesó."</p>
                 <p class="text-right text-sm text-gray-500 m-2 italic">Jorge Luis Borges</p>
             </blockquote>
             <p class="text-left text-xs text-gray-500 mt-1"><sup>3</sup>Jorge Luis Borges, <em>Obras completas</em>, t. 2, p. 504.</p>
