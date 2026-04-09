@@ -45,11 +45,12 @@
     }
   },
   "actividades": {
-    "u1t1a1": { "id": "5128", "moduleName": "quiz" },
+    "u1t1a1": { "id": "5128", "moduleName": "quiz" },    
+    "u1t2a2": { "id": "5129", "moduleName": "assign" },    
+    "u1t2a3": { "id": "5129", "moduleName": "quiz" },
 
 
-    
-    "u1t1a2": { "id": "5129", "moduleName": "assign" },
+
     "u1t1a3": { "id": "5130", "moduleName": "quiz" },
 
     "u1t2a1": { "id": "0", "moduleName": "assign" },
