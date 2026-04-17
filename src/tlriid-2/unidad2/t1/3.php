@@ -11,7 +11,7 @@ ob_start();
   <h2>Organización textual: las secuencias</h2>
 
   <div class="flex justify-center">
-    <div class="w-1/2 bg-slate-600/10 border-l-4 border-slate-600 rounded-r-lg px-6 py-4 mb-6">
+    <div class="w-2/3 bg-slate-600/10 border-l-4 border-slate-600 rounded-r-lg px-6 py-4 mb-6">
       <p class="text-slate-800 text-sm font-semibold italic">Emplea la lectura analítica para obtener una comprensión más precisa del texto.</p>
     </div>
   </div>
@@ -26,30 +26,28 @@ ob_start();
         'id' => 'descriptiva',
         'label' => 'Secuencia descriptiva',
         'content' =>
-        '<p>Es aquella que se ocupa de las características de los objetos, de los lugares, de los animales, de las plantas y por supuesto, de los seres humanos. Describir significa no sólo enumerar los elementos de los que se constituye un todo; se trata de relacionar esos elementos desde el punto de vista del observador. En palabras de Serafíni: &ldquo;La descripción es una prosa que hace la presentación de objetos, personas, lugares y sentimientos, utilizando en la medida de lo posible, los detalles concretos&rdquo;. Tal vez algunos de los recursos más utilizados sean los sustantivos y los adjetivos, como se observa en el siguiente fragmento:</p>
+        '<p>Es aquella que se ocupa de las características de los objetos, de los lugares, de los animales, de las plantas y por supuesto, de los seres humanos. Describir significa no sólo enumerar los elementos de los que se constituye un todo; se trata de relacionar esos elementos desde el punto de vista del observador. En palabras de Serafíni: &ldquo;La descripción es una prosa que hace la presentación de objetos, personas, lugares y sentimientos, utilizando en la medida de lo posible, los detalles concretos&rdquo;<sup>1</sup>. Tal vez algunos de los recursos más utilizados sean los sustantivos y los adjetivos, como se observa en el siguiente fragmento:</p>
       <div class="border-l-4 border-sky-500 bg-sky-500/10 rounded-r-lg shadow-md overflow-hidden">
     <div class="px-6 py-5">
-      <blockquote class="font-serif text-gray-800 space-y-4">
-        <p>Tenía los ojos pardos y regulares, nariz un poco aguileña, bigote pequeño y negro, cabellos lacios, oscuros y cortos, manos flacas y trémulas. Su boca regular tenía a veces un pliegue que daba a su semblante un aire de altivez desdeñosa que ofendía, que hacía mal.</p>
-        <p>Taciturno, siempre sumido en profundas cavilaciones, distraído, metódico, sumiso con sus superiores, aunque traicionaba su aparente humildad el pliegue altanero de sus labios, severo y riguroso con sus inferiores, económico, laborioso, reservado, frío, este joven tenía aspecto repugnante y, en efecto, era antipático para todo el mundo.</p>
+      <blockquote class="font-serif not-italic text-gray-800 space-y-4">
+        <p>Tenía los <strong>ojos</strong> <em>pardos y regulares</em>, <strong>nariz</strong> un poco <em>aguileña</em>, <strong>bigote</strong> <em>pequeño y negro</em>, <strong>cabellos</strong> <em>lacios, oscuros y cortos</em>, <strong>manos</strong> <em>flacas y trémulas</em>. Su <strong>boca</strong> <em>regular</em> tenía a veces un pliegue que daba a su <strong>semblante</strong> un <em>aire de altivez desdeñosa que ofendía, que hacía mal</em>.</p>
+        <p><em>Taciturno</em>, siempre sumido en profundas cavilaciones, <em>distraído, metódico, sumiso con sus superiores</em>, aunque traicionaba su aparente humildad el pliegue altanero de sus labios, <em>severo y riguroso</em> con sus inferiores, <em>económico, laborioso, reservado, frío</em>, <strong>este joven</strong> tenía <em>aspecto repugnante</em> y, en efecto, era <em>antipático</em> para todo el mundo.<sup>2</sup></p>
       </blockquote>
-      <p class="text-left text-xs text-gray-500 mt-6"><sup>1</sup>Juan José Arreola, <em>Confabulario definitivo</em>, Cátedra, Madrid, 1996, pp. 121-122.</p>
-      <p class="text-left text-xs text-gray-500"><sup>2</sup> Botella de Leyden: condensador eléctrico en forma de botella o vaso de vidrio.</p>
     </div>
   </div>
-
-
-
-        <blockquote class="border-l-4 border-sky-400 bg-sky-50 pl-6 pr-4 py-4 my-6 text-gray-700">
-          <p class="font-serif">Tenía los ojos pardos y regulares, nariz un poco aguileña, bigote pequeño y negro, cabellos lacios, oscuros y cortos, manos flacas y trémulas. Su boca regular tenía a veces un pliegue que daba a su semblante un aire de altivez desdeñosa que ofendía, que hacía mal.</p>
-          <p class="font-serif">Taciturno, siempre sumido en profundas cavilaciones, distraído, metódico, sumiso con sus superiores, aunque traicionaba su aparente humildad el pliegue altanero de sus labios, severo y riguroso con sus inferiores, económico, laborioso, reservado, frío, este joven tenía aspecto repugnante y, en efecto, era antipático para todo el mundo.</p>
-          <p class="text-right text-sm not-italic font-semibold mt-3">Leobardo Colín Villeda</p>
-        </blockquote>
-        <p>Como te habrás dado cuenta, en el ejemplo anterior se advierte la descripción física (llamada también <em>prosopografía</em>) y psicológica (que también recibe el nombre de <em>etopeya</em>) de un joven que aparece ante el lector como antipático.</p>
-        <p>Otro ejemplo se advierte en este caso:</p>
-        <blockquote class="border-l-4 border-emerald-400 bg-emerald-50 pl-6 pr-4 py-4 my-6 text-gray-700">
-          <p class="font-serif">Era un perro de pueblo, enteramente flaco, de orejas derechas y agudas, ojo vivaz, hocico puntiagudo, grandes pelos lacios y cedosos, patas delgadas y cola pendiente; era de esa clase de perros de raza indígena, que tienen semejanza con los lobos; de un color amarillo sucio manchado de negro, lo que le había valido su nombre de Pinto.</p>
-        </blockquote>'
+  <p>Como te habrás dado cuenta, en el ejemplo anterior se advierte la descripción física (llamada también prosopografía) y psicológica (que también recibe el nombre de etopeya) de un joven que aparece ante el lector como antipático.</p>
+  <p>Otro ejemplo se advierte en este caso:</p>
+  
+      <div class="border-l-4 border-violet-500 bg-violet-500/10 rounded-r-lg shadow-md overflow-hidden">
+    <div class="px-6 py-5">
+      <blockquote class="font-serif not-italic text-gray-800 space-y-4">
+        <p>Era un <strong>perro</strong> de pueblo, enteramente flaco, de orejas derechas y agudas, ojo vivaz, hocico puntiagudo, grandes pelos lacios y cedosos, patas delgadas y cola pendiente; era de esa clase de perros de raza indígena, que tienen semejanza con los lobos; de un color amarillo sucio manchado de negro, lo que le había valido su nombre de Pinto.<sup>3</sup></p>
+      </blockquote>
+    </div>
+  </div>  
+      <p class="text-left text-xs text-gray-500 mt-6"><sup>1</sup>Juan María Teresa Serafín, <em>Cómo redactar un tema</em>, p. 194.</p>      
+      <p class="text-left text-xs text-gray-500"><sup>2</sup>Ignacio M. Altamirano, <em>"El comandante Fernando Valle"</em>, en Margarita Murillo, <em>La palabra escrita</em>, p. 380.</p>      
+      <p class="text-left text-xs text-gray-500"><sup>3</sup>Ángel del Campo, <em>"El pinto"</em>, en <em>El galano arte de leer</em>, p. 18.</p>'
       ],
       [
         'id' => 'narrativa',

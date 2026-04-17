@@ -40,8 +40,8 @@ ob_start();
         <p>Los rumores acerca de que algunos niños mueren electrocutados por la corriente que ellos mismos generan son completamente irresponsables. Lo mismo debe decirse sobre el temor supersticioso de que las criaturas provistas de un <strong>Baby H. P.</strong> atraen rayos y centellas. Ningún accidente de esta naturaleza puede ocurrir, sobre todo si se siguen al pie de la letra las indicaciones contenidas en los folletos explicativos que se obsequian con cada aparato.</p>
         <p>El <strong>Baby H. P.</strong> está disponible en las buenas tiendas en distintos tamaños, modelos y precios. <strong>Es un aparato moderno, durable y digno de confianza</strong>, y todas sus coyunturas son extensibles. Lleva la garantía de fabricación de la casa J. P. Mansfield &amp; Sons, de Atlanta, III.</p>
       </blockquote>
-      <p class="text-left text-xs text-gray-500 mt-6"><sup>1</sup>Juan José Arreola, <em>Confabulario definitivo</em>, Cátedra, Madrid, 1996, pp. 121-122.</p>
-      <p class="text-left text-xs text-gray-500 mt-1"><sup>2</sup> Botella de Leyden: condensador eléctrico en forma de botella o vaso de vidrio.</p>
+      <p class="text-xs text-gray-500 mt-6"><sup>1</sup>Juan José Arreola, <em>Confabulario definitivo</em>, Cátedra, Madrid, 1996, pp. 121-122.</p>
+      <p class="text-xs text-gray-500 mt-1"><sup>2</sup> Botella de Leyden: condensador eléctrico en forma de botella o vaso de vidrio.</p>
     </div>
   </div>
 </div>
