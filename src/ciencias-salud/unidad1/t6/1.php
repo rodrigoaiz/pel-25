@@ -60,7 +60,7 @@ ob_start();
   <p> En la elaboración del mapa conceptual, puedes incluir imágenes que ilustren el contenido, procura que la redacción y la ortografía sean correctas. Lo subirás en el apartado correspondiente. Si tienes dudas sobre la elaboración del mapa conceptual, te sugerimos que revises el siguiente tutorial:</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t6a1', "Mapa Conceptual", $ActividadContent);
+  renderActividad('u1a11', "Mapa Conceptual", $ActividadContent);
   ?>
 
   <?php
@@ -75,19 +75,19 @@ ob_start();
   <p> Para que puedas conocer cuánto aprendiste del tema, resuelve el siguiente cuestionario, para lo cual lee cuidadosamente las preguntas y selecciona la letra que corresponda a la respuesta correcta.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t5a2', "Cuestionario de autoevaluación final Unidad I", $ActividadContent);
+  renderActividad('u1a13', "Cuestionario de autoevaluación final Unidad I", $ActividadContent);
   ?>
 
   <?php ob_start(); ?>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t6a3', "Glosario", $ActividadContent);
+  renderActividad('u1a14', "Glosario", $ActividadContent);
   ?>
 
   <?php ob_start(); ?>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t6a3', "Bibliografía", $ActividadContent);
+  renderActividad('u1a15', "Bibliografía", $ActividadContent);
   ?>
    
 </section>

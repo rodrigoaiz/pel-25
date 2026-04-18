@@ -28,7 +28,7 @@ El resumen deberá tener una carátula que contenga los siguientes datos: Instit
 </p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t2a2', "Artículo: La vigilancia epidemiológica en México", $ActividadContent);
+  renderActividad('u2a7', "Artículo: La vigilancia epidemiológica en México", $ActividadContent);
   ?>
 
    

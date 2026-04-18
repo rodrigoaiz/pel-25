@@ -88,7 +88,7 @@ ob_start();
   <p>Con esta actividad reconocerás qué tanto has aprendido sobre los paradigmas unicausal, multicausal e histórico-social.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t4a2', "Juega Jeopardy", $ActividadContent);
+  renderActividad('u1a9', "Juega Jeopardy", $ActividadContent);
   ?>
    
 </section>

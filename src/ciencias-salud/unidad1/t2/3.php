@@ -4,6 +4,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ImagenPie.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -38,12 +39,14 @@ ob_start();
     ?>
   </div>
 </div>
+
 <?php ob_start(); ?>
   <p>Lee con atención los conceptos de salud y enfermedad y arrastra cada uno para acomodarlos en la columna correcta en el cuadro de salud y enfermedad</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t2a3', "Para los conceptos de salud y enfermedad.", $ActividadContent);
+  renderActividadH5P('u1a7', "Para los conceptos de salud y enfermedad.", $ActividadContent);
   ?>
+  
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);

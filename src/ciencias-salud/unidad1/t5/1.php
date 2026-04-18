@@ -55,7 +55,7 @@ ob_start();
   <p> Para que reafirmes tus conocimientos sobre el tema, ve el siguiente video. </p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t5a1', "video", $ActividadContent);
+  renderActividad('u1a10', "video", $ActividadContent);
   ?>
    
 </section>
