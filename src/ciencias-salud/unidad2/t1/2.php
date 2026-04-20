@@ -4,6 +4,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Tabs.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -222,21 +223,21 @@ ob_start();
   <p>Lee cuidadosamente la siguiente lectura y complétala con las palabras que se encuentran en la lista, ten cuidado con la ortografía. </p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t1a2', "Actividad de completa la lectura", $ActividadContent);
+  renderActividadH5P('u2a2', "Actividad de completa la lectura", $ActividadContent);
   ?>
 
   <?php ob_start(); ?>
   <p>Para que sepas cuánto aprendiste del tema de Métodos de investigación en salud, resuelve el siguiente ejercicio, escribiendo en la columna de la derecha el nombre del método que corresponda a cada característica.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t1a3', "Relaciona las columnas", $ActividadContent);
+  renderActividadH5P('u2a3', "Relaciona las columnas", $ActividadContent);
   ?>
 
   <?php ob_start(); ?>
   <p>Video Original</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t1a4', "Relaciona las columnas", $ActividadContent);
+  renderActividad('u2a4', "Video original", $ActividadContent);
   ?>
 
 

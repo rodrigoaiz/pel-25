@@ -30,14 +30,14 @@ ob_start();
   <p>Te sugerimos que revises el siguiente protocolo para que te orientes en la realización de tu protocolo de investigación epidemiológico para el tema de obesidad, es un ejemplo que tú tendrás que adaptar al estudio que vas a realizar.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t4a1', "Actividad colaborativa", $ActividadContent);
+  renderActividad('u2a9', "Actividad colaborativa", $ActividadContent);
   ?>
 
   <?php ob_start(); ?>
   <p> Para que puedas conocer cuánto aprendiste del tema, resuelve el siguiente cuestionario. Lee cuidadosamente las preguntas y selecciona la letra que corresponda a la respuesta correcta.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t4a2', "Cuestionario de autoevaluación final Unidad 2", $ActividadContent);
+  renderActividad('u2a10', "Cuestionario de autoevaluación final Unidad 2", $ActividadContent);
   ?>
 
 

@@ -4,6 +4,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -59,7 +60,7 @@ ob_start();
   <p>Para que revises si aprendiste cuáles son los elementos mínimos de un protocolo de investigación en salud, realiza el siguiente ejercicio, de la lista de elementos arrastra los que faltan y colócalos en el espacio correspondiente para completar la secuencia. </p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t3a1', "Ordenar los elementos arrastrándolos al lugar correspondiente", $ActividadContent);
+  renderActividadH5P('u2a8', "Ordenar los elementos arrastrándolos al lugar correspondiente", $ActividadContent);
   ?>
 
    
