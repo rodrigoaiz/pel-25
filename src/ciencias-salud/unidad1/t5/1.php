@@ -4,7 +4,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'Tabs.php';
 include PATH_INCLUDE . 'ImagenFullPleca.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'Videos.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -51,13 +51,12 @@ ob_start();
 
   <p>Estos factores no son independientes y pueden interactuar de manera compleja, como en el caso del estrés psicológico crónico que puede estar relacionado con factores sociales, como la falta de apoyo social y/ o condiciones socioeconómicas desfavorables. Además, la cultura y los valores personales pueden influir en las decisiones de salud, como las elecciones dietéticas y el acceso a la atención médica. Para promover la salud de manera efectiva, es esencial abordar estos condicionantes de forma holística y considerar la interacción entre los factores bio-psico-socioculturales.</p>
 
-  <?php ob_start(); ?>
   <p> Para que reafirmes tus conocimientos sobre el tema, ve el siguiente video. </p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u1a10', "video", $ActividadContent);
-  ?>
-   
+  <div class="mx-auto max-w-lg">
+    <?php
+    renderVideoIframe('S7JAlc1eZeg', 'Ciencias relacionadas con la salud y sus formas de intervención.');
+    ?>
+  </div>
 </section>
 <?php
 $content = ob_get_clean();

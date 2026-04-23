@@ -209,7 +209,7 @@ ob_start();
   </div>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1a6', "Infografía", $ActividadContent);
+  renderActividad('u1a3', "Infografía", $ActividadContent);
   ?>
 </section>
 <?php

@@ -39,14 +39,16 @@ ob_start();
     ?>
   </div>
 </div>
-
-<?php ob_start(); ?>
-  <p>Lee con atención los conceptos de salud y enfermedad y arrastra cada uno para acomodarlos en la columna correcta en el cuadro de salud y enfermedad</p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividadH5P('u1a7', "Para los conceptos de salud y enfermedad.", $ActividadContent);
-  ?>
+<section>
+  <?php ob_start(); ?>
+    <p>Lee con atención los conceptos de salud y enfermedad y arrastra cada uno para acomodarlos en la columna correcta en el cuadro de salud y enfermedad</p>
+    <?php
+    $ActividadContent = ob_get_clean();
+    renderActividadH5P('u1a7', "Para los conceptos de salud y enfermedad.", $ActividadContent);
+    ?>
   
+</section>
+
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);

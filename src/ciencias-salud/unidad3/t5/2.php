@@ -35,16 +35,12 @@ ob_start();
 
   <p>Después de leer la información anterior, ver el siguiente video para que puedas hacer tu proyecto de vida. Una vez que lo tengas, actualizalo periódicamente conforme tu vida continúe, pero tenlo presente siempre, ya que será muy importante porque te darás cuenta cómo tu vida, tus objetivos y tus metas han ido cambiando a lo largo del tiempo.</p> 
 
-  <?php ob_start(); ?>
   <p>Ve el siguiente video introductorio que te servirá para hacer tu proyecto de vida.</p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u3t5a1', "Video", $ActividadContent);
-  ?>
-
-  <?php
-  renderVideoIframe('O3bp_oFWJns', 'Proyecto de vida en el adolescente');
-  ?>
+  <div class="max-w-lg mx-auto">
+    <?php
+    renderVideoIframe('O3bp_oFWJns', 'Proyecto de vida en el adolescente');
+    ?>
+  </div>
 
 
 

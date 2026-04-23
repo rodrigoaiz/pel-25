@@ -41,52 +41,23 @@
     }
   },
   "actividades": {
-    "u1a1": { "id": "50", "moduleName": "quiz" },
-    "u1a2": { "id": "50", "moduleName": "assign" },
-    "u1a3": { "id": "50", "moduleName": "assign" },
-    "u1a4": { "id": "50", "moduleName": "forum" },
-    "u1a5": { "id": "50", "moduleName": "assign" },
-    "u1a6": { "id": "50", "moduleName": "assign" },
-    "u1a7": { "id": "50", "moduleName": "hvp" },
-    "u1a8": { "id": "50", "moduleName": "hvp" },
-    "u1a9": { "id": "50", "moduleName": "assign" },
-    "u1a10": { "id": "50", "moduleName": "assign" },
-    "u1a11": { "id": "50", "moduleName": "assign" },
-    "u1a12": { "id": "50", "moduleName": "assign" },
-    "u1a13": { "id": "50", "moduleName": "quiz" },
-    "u1a14": { "id": "50", "moduleName": "assign" },
-    "u1a15": { "id": "50", "moduleName": "assign" },
+    "u1a1": { "id": "5891", "moduleName": "quiz" },
+    "u1a2": { "id": "5892", "moduleName": "forum" },
+    "u1a3": { "id": "5893", "moduleName": "assign" },
+    "u1a4": { "id": "5894", "moduleName": "assign" },
+    "u1a5": { "id": "5895", "moduleName": "quiz" },
 
-    "u2a1": { "id": "50", "moduleName": "quiz" },
-    "u2a2": { "id": "50", "moduleName": "hvp" },
-    "u2a3": { "id": "50", "moduleName": "hvp" },
-    "u2a4": { "id": "50", "moduleName": "assign" },
-    "u2a5": { "id": "50", "moduleName": "assign" },
-    "u2a6": { "id": "50", "moduleName": "forum" },
-    "u2a7": { "id": "50", "moduleName": "assign" },
-    "u2a8": { "id": "50", "moduleName": "hvp" },
-    "u2a9": { "id": "50", "moduleName": "assign" },
-    "u2a10": { "id": "50", "moduleName": "quiz" },
-    "u2a11": { "id": "50", "moduleName": "assign" },
-    "u2a12": { "id": "50", "moduleName": "assign" },
 
-    "u3a1": { "id": "50", "moduleName": "quiz" },
-    "u3a2": { "id": "50", "moduleName": "hvp" },
-    "u3a3": { "id": "50", "moduleName": "forum" },
-    "u3a4": { "id": "50", "moduleName": "assign" },
-    "u3a5": { "id": "50", "moduleName": "assign" },
-    "u3a6": { "id": "50", "moduleName": "assign" },
-    "u3a7": { "id": "50", "moduleName": "assign" },
-    "u3a8": { "id": "50", "moduleName": "assign" },
-    "u3a9": { "id": "50", "moduleName": "hvp" },
-    "u3a10": { "id": "50", "moduleName": "assign" },
-    "u3a11": { "id": "50", "moduleName": "assign" },
-    "u3a12": { "id": "50", "moduleName": "assign" },
-    "u3a13": { "id": "50", "moduleName": "forum" },
-    "u3a14": { "id": "50", "moduleName": "quiz" },
-    "u3a15": { "id": "50", "moduleName": "assign" },
-    "u3a16": { "id": "50", "moduleName": "assign" }
-    
+    "u2a1": { "id": "5896", "moduleName": "quiz" },
+    "u2a2": { "id": "5897", "moduleName": "forum" },
+    "u2a3": { "id": "5898", "moduleName": "assign" },
+    "u2a4": { "id": "5900", "moduleName": "assign" },
+    "u2a5": { "id": "5899", "moduleName": "quiz" },
+
+
+    "u3a1": { "id": "5901", "moduleName": "quiz" },
+    "u3a2": { "id": "5902", "moduleName": "forum" },
+    "u3a3": { "id": "5903", "moduleName": "assign" }
 
   }
 }

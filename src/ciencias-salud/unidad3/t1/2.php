@@ -1,7 +1,7 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -111,9 +111,9 @@ ob_start();
 
   <?php ob_start(); ?>
   <p>Para que refuerces los conceptos, completa el siguiente cuadro escribiendo la etapa del desarrollo que corresponde a cada característica.</p>
-  <?php
+   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t1a2', "Etapas del desarrollo humano", $ActividadContent);
+  renderActividadH5P('u3a1', "Etapas del desarrollo humano", $ActividadContent);
   ?>
 
 

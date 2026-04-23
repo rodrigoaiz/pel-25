@@ -91,17 +91,19 @@ ob_start();
          </div>
       </li>
 
-      </ul>
-
+    </ul>
+  <p>Ve el siguiente video, que muestra aspectos generales relacionados con la Salud Pública.</p>
+  <div class="mx-auto max-w-lg">
       <?php
         renderVideoIframe('HxEeXkBurew', 'La investigación en salud: ¿Cuándo necesita revisión ética?');
       ?>
+  </div>
 
   <?php ob_start(); ?>
   <p>Después de revisar el tema de: Aspectos básicos de la Salud Pública, participa en el foro con tus compañeros, iniciando una discusión a partir de las siguientes preguntas generadoras. Recuerda que debes ser respetuoso de las opiniones de los demás, aun cuando no estés de acuerdo con ellas.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a6', "Foro de discusión", $ActividadContent);
+  renderActividad('u2a2', "Foro de discusión", $ActividadContent);
   ?>
 
    

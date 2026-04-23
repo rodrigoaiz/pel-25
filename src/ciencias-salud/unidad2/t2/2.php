@@ -23,12 +23,11 @@ ob_start();
 
     
   <?php ob_start(); ?>
-  <p>Lee detenidamente el artículo,“La vigilancia epidemiológica en México” y realiza un resumen de 500 palabras, con letra calibri del número 11, los títulos pueden ser con letra de mayor tamaño y en el color que prefieras, puedes incluir imágenes para ilustrarlo indicando la fuente de donde las obtuviste (URL o cita). Recuerda que debes de ser cuidadoso con la redacción y la ortografía.
-El resumen deberá tener una carátula que contenga los siguientes datos: Institución, título, nombre del alumno, grupo, asignatura, fecha de entrega.
-</p>
+  <p>Lee detenidamente el artículo,“La vigilancia epidemiológica en México” y realiza un resumen de 500 palabras, con letra calibri del número 11, los títulos pueden ser con letra de mayor tamaño y en el color que prefieras, puedes incluir imágenes para ilustrarlo indicando la fuente de donde las obtuviste (URL o cita). Recuerda que debes de ser cuidadoso con la redacción y la ortografía.</p>
+  <p>El resumen deberá tener una carátula que contenga los siguientes datos: Institución, título, nombre del alumno, grupo, asignatura, fecha de entrega.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2a7', "Artículo: La vigilancia epidemiológica en México", $ActividadContent);
+  renderActividad('u2a3', "Artículo: La vigilancia epidemiológica en México", $ActividadContent);
   ?>
 
    
