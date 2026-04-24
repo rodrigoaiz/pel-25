@@ -10,13 +10,15 @@ ob_start();
 <section>
   <h2>Bienvenida a la unidad 1</h2>
 
-  <?php
-  renderVideoIframe('JmlS2Zf8-is', ' Presentación del Curso Historia de México II');
-  ?>
+  <div class="md:grid gap-2 grid-cols-2">
+    <?php
+    renderVideoIframe('jnJb09KBJ-I', ' Presentación del Curso Historia de México II');
+    ?>
+    <?php
+    renderVideoIframe('9L3upU4yG9w', ' Bienvenida a la Unidad 1');
+    ?>
+  </div>
 
-  <?php
-  renderVideoIframe('JmlS2Zf8-is', ' Bienvenida a la Unidad 1');
-  ?>
 
   
 
@@ -24,7 +26,7 @@ ob_start();
   <p>Para comenzar vamos a un sencillo ejercicio que te permite autoevaluarte, así puedes saber cómo andan tus conocimientos sobre esta unidad en particular.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a1', "Cuestionario Diagnóstico Unidad 1", $ActividadContent);
+  renderActividad('u1a1', "Cuestionario Diagnóstico Unidad 1", $ActividadContent);
   ?>
 
 </section>
