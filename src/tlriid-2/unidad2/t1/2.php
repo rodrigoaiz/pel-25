@@ -103,8 +103,6 @@ ob_start();
   $ActividadContent = ob_get_clean();
   renderActividad('u2t1a2', "Audio", $ActividadContent);
   ?>
-
-
 </section>
 
 <?php

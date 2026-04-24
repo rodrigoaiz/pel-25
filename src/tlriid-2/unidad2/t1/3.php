@@ -2,6 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'Tabs.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -53,8 +54,8 @@ ob_start();
         'id' => 'narrativa',
         'label' => 'Secuencia narrativa',
         'content' =>
-        '<p>De la secuencia narrativa se puede decir que es una práctica común en diversos ámbitos de la vida cotidiana. Narrar consiste en contar un acontecimiento que ocurre en un espacio y en un tiempo; que le sucede a un personaje a lo largo de la secuencia. La secuencia narrativa se ocupa de los hechos y los ordena cronológicamente, como se muestra en el siguiente cuadro:</p>
-        <div class="overflow-x-auto my-6">
+        '<p>De la secuencia narrativa se puede decir que es una práctica común en diversos ámbitos de la vida cotidiana. Narrar consiste en contar un acontecimiento que ocurre en un espacio y en un tiempo; que le sucede a un personaje a lo largo de la secuencia. La secuencia narrativa se ocupa de los <strong>hechos</strong> y los ordena cronológicamente, como se muestra en el siguiente cuadro:</p>
+        <div class="my-1">
           <table class="w-full border-collapse text-center max-w-2xl mx-auto">
             <tbody>
               <tr>
@@ -71,9 +72,9 @@ ob_start();
           </table>
         </div>
         <p>A partir de este cuadro se puede considerar que la situación inicial, es aquella donde nos presentan al protagonista, al tiempo y el lugar donde ocurre la historia. En la transformación o nudo, la historia se modifica. En la situación final el protagonista suele cambiar; no es el mismo que aparece en el planteamiento, debido a las circunstancias que se le van presentando a lo largo del relato. Veamos un ejemplo:</p>
-        <div class="my-6 border border-gray-200 rounded-lg overflow-hidden shadow-sm max-w-3xl mx-auto">
-          <div class="bg-gray-700 text-white text-center py-3 font-bold text-lg tracking-wide">Un sueño</div>
-          <div class="p-6 space-y-4 text-gray-700">
+        <div class="my-2 border border-gray-200 rounded-lg overflow-hidden shadow-sm max-w-3xl mx-auto">
+          <div class="bg-gray-700 text-white text-center py-2 font-bold text-lg tracking-wide">Un sueño<sup>1</sup></div>
+          <div class="p-4 space-y-4 text-gray-700">
             <span class="inline-block bg-sky-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Situación inicial / Planteamiento</span>
             <p class="font-serif">Josef K. soñó:</p>
             <p class="font-serif">Era un día hermoso, y K. quiso salir a pasear. Pero apenas dio dos pasos, llegó al cementerio. Vio numerosos e intrincados senderos, muy numerosos y nada prácticos; K. flotaba sobre uno de esos senderos como sobre un torrente, en un inconmovible deslizamiento.</p>
@@ -87,41 +88,53 @@ ob_start();
             <p class="font-serif">El primer breve trazo que dibujó fue un alivio para K. pero el artista tuvo que vencer evidentemente una extraordinaria repugnancia antes de terminarlo; además, la inscripción no era ahora tan hermosa, sobre todo parecía haber mucho menos dorado, los trazos se demoraban, pálidos e inseguros; pero la letra resultó bastante grande.</p>
             <p class="font-serif">Era una J.; estaba casi terminada ya, cuando el artista, furioso, dio un puntapié contra la tumba y la tierra voló por los aires.</p>
             <span class="inline-block bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mt-2">Situación final / Resolución</span>
-            <p>Por fin comprendió K.; era muy tarde para pedir disculpas; con sus diez dedos escarbó en la tierra, que no le ofrecía ninguna resistencia; todo parecía preparado de antemano; sólo para disimular, habían colocado esa fina capa de tierra; inmediatamente se abrió debajo de él un gran hoyo, de empinadas paredes, en el cual K. impulsado por una suave corriente que lo colocó de espaldas, se hundió. Pero cuando ya lo recibía la impenetrable profundidad esforzándose todavía por erguir la cabeza, pudo ver su nombre que atravesaba rápidamente la lápida, con espléndidos adornos. Encantado con esta visión, se despertó.</p>
+            <p class="font-serif">Por fin comprendió K.; era muy tarde para pedir disculpas; con sus diez dedos escarbó en la tierra, que no le ofrecía ninguna resistencia; todo parecía preparado de antemano; sólo para disimular, habían colocado esa fina capa de tierra; inmediatamente se abrió debajo de él un gran hoyo, de empinadas paredes, en el cual K. impulsado por una suave corriente que lo colocó de espaldas, se hundió. Pero cuando ya lo recibía la impenetrable profundidad esforzándose todavía por erguir la cabeza, pudo ver su nombre que atravesaba rápidamente la lápida, con espléndidos adornos. Encantado con esta visión, se despertó.</p>
           </div>
-        </div>'
+        </div>
+        <p class="text-left text-xs text-gray-500 mt-6"><sup>1</sup>Franz Kafka, <em>Obras completas</em>, http://www.geocities.com/Athens/9505/textos.htm
+</p>'
       ],
       [
         'id' => 'argumentativa',
         'label' => 'Secuencia argumentativa',
         'content' =>
-        '<p>La argumentación es la técnica que consiste en convencer a alguien sobre un determinado asunto. Asimismo, la secuencia argumentativa es de tipo jerárquico porque se ordenan las partes bien diferenciadas: generalmente se establece la cuestión sobre la que se va a desarrollar la argumentación; la posición que se va a defender. &ldquo;La argumentación se hace necesaria cuando alguien no está de acuerdo con una opinión; con una prueba; con su interpretación; con su valor o su relación con el problema del que hablamos&rdquo;.</p>
+        '<p>La argumentación es la técnica que consiste en convencer a alguien sobre un determinado asunto. Asimismo, la secuencia argumentativa es de tipo jerárquico porque se ordenan las partes bien diferenciadas: generalmente se establece la cuestión sobre la que se va a desarrollar la argumentación; la posición que se va a defender. "La argumentación se hace necesaria cuando alguien no está de acuerdo con una opinión; con una prueba; con su interpretación; con su valor o su relación con el problema del que hablamos"<sup>1</sup>.</p>
         <p>Como ejemplo podemos considerar el siguiente:</p>
-        <blockquote class="border-l-4 border-violet-400 bg-violet-50 pl-6 pr-4 py-4 my-4 italic text-gray-700">
-          <p>La naturaleza humana no es en sí ni buena ni mala, es la educación la que hace buena o mala. Más allá del ser, la educación apunta al deber ser. Presupone la perfectibilidad del hombre&rdquo;. Cuanto más se eleva el individuo en la sociedad, más acepta responsabilidades y más importancia reviste este deber ser.</p>
+        <blockquote class="border-l-4 border-violet-400 bg-violet-50 pl-6 pr-4 py-4 my-4 text-gray-700 not-italic">
+          <p class="font-serif"><strong>La naturaleza humana no es en sí ni buena ni mala,</strong> es la <strong>educación</strong> la que hace buena o mala. Más allá del ser, la educación apunta al deber ser. Presupone la perfectibilidad del hombre&rdquo;. Cuanto más se eleva el individuo en la sociedad, más acepta responsabilidades y más importancia reviste este deber ser.<sup>2</sup></p>
         </blockquote>
         <p>Como puedes observar en el ejemplo anterior, el autor afirma que el ser humano será bueno o malo, dependiendo de la educación que reciba.</p>
         <p>Por otra parte, debemos recordar que para que alguien pueda argumentar es necesario un <strong>enunciador</strong> (quien emite un mensaje) y un <strong>enunciatario</strong> (quien recibe el mensaje). El enunciador utiliza la función apelativa de la lengua, es decir, trata de persuadirnos o convencernos para que hagamos lo que él quiere: para ejecutar alguna acción o para que pensemos igual que él, para lo cual se sirve de razones o argumentos. Veamos otro ejemplo:</p>
-        <blockquote class="border-l-4 border-violet-400 bg-violet-50 pl-6 pr-4 py-4 my-4 italic text-gray-700">
-          <p>Las obras literarias no nacieron para ser estudiadas y analizadas, sino para ser leídas y directamente intuidas. Ni el Quijote se creó para los cervantistas [...] ni el teatro de Shakespeare para la filología alemana. El árbol está ahí para recrearnos con su sombra [...] El primer conocimiento de la obra es, pues, el del lector...</p>
-          <p class="text-right text-sm not-italic font-semibold mt-3 text-violet-700">Dámaso Alonso</p>
+        <blockquote class="border-l-4 border-violet-400 bg-violet-50 pl-6 pr-4 py-4 my-4 text-gray-700 not-italic">
+          <p class="font-serif"><strong>Las obras literarias no nacieron para ser estudiadas y analizadas, sino para ser leídas y directamente intuidas.</strong> Ni el <em>Quijote</em> se creó para los cervantistas [...] ni el teatro de Shakespeare para la filología alemana. El árbol está ahí para recrearnos con su sombra [...] El primer conocimiento de la obra es, pues, el del lector... - <em>Dámaso Alonso</em></p>
         </blockquote>
         <p>Como seguramente advertiste, en este segundo ejemplo el autor sostiene y prueba que es mejor leer las obras directamente, antes que recurrir a los críticos.</p>
         <p>Otro ejemplo es la <strong><em>Fábula del León y el Ratón</em></strong>:</p>
         <div class="my-6 border border-amber-200 rounded-lg overflow-hidden shadow-sm max-w-3xl mx-auto">
-          <div class="bg-amber-500 text-white text-center py-3 font-bold text-lg tracking-wide">Fábula del León y el Ratón</div>
-          <div class="p-6 space-y-4 text-gray-700 italic">
-            <p>Dormía el león pardo en la sombría montaña, en la espesura tiene su cueva subterránea; allí juegan un grupo de ligeros ratones, al león despertaron con su gran alboroto; el león tomó a uno y lo quería matar, el ratón con mucho miedo le empezó a halagar: &ldquo;Señor, dijo, no me mates que no te podré hartar, ni dándome la muerte tú te puedes honrar.</p>
-            <p>&iquest;Qué honor es para el león, para el fuerte y poderoso, matar a un pequeño, al pobre, al penoso?: es deshonor y descrédito, y no hermosa victoria, el del que mata a un ratón es trofeo vergonzoso; y, si bien vencer es honor para todo hombre nacido, es maldad y pecado vencer al desfallido: el vencedor tiene honor según el precio del vencido, su trofeo es igual a lo que es el abatido.&rdquo;</p>
-            <p>El león con estas razones quedóse satisfecho, soltó al ratoncillo; al ser el ratón soltado, le dio muchas gracias y le quedó obligado: en todo lo que pudiera le serviría de grado.</p>
-            <p>Se fue el ratón al agujero, el león fue a cazar; andando por el monte, vino a tropezar, cayó en grandes redes, no las podía cortar, envuelto de pies a manos no se podía levantar; empezó a quejarse y lo oyó el ratoncillo, se fue a él y dijo: &ldquo;Señor, yo traigo buen cuchillo, con estos dientes míos roeré poco a poquillo y donde están vuestras manos haré un gran portillo; vuestros brazos por allí los sacaréis, abriendo y estirando las redes rasgaréis, por mis chiquitos dientes hoy vos escaparéis perdonaste mi vida y vos por mí viviréis.&rdquo;</p>
-            <p class="font-semibold not-italic border-t border-amber-200 pt-4">Tú, rico poderoso, no quieras desechar al pobre, al faltado, no lo quieras de ti echar; puede prestarte servicio quien no tiene que pagar, el que no puede más puede aprovechar; puede una pequeña cosa y de poca valía nacer mucho provecho, causar gran mejoría: el que no tiene poder, oro, ni hidalguía tenga habilidad y seso, maña y sabiduría.</p>
+          <div class="bg-amber-500 text-white text-center py-3 font-bold text-lg tracking-wide">Fábula del León y el Ratón<sup>3</sup></div>
+          <div class="p-6 space-y-4 text-gray-700 ">
+            <p class="font-serif">Dormía el león pardo en la sombría montaña, en la espesura tiene su cueva subterránea; allí juegan un grupo de ligeros ratones, al león despertaron con su gran alboroto; el león tomó a uno y lo quería matar, el ratón con mucho miedo le empezó a halagar: &ldquo;Señor, dijo, no me mates que no te podré hartar, ni dándome la muerte tú te puedes honrar.</p>
+            <p class="font-serif">&iquest;Qué honor es para el león, para el fuerte y poderoso, matar a un pequeño, al pobre, al penoso?: es deshonor y descrédito, y no hermosa victoria, el del que mata a un ratón es trofeo vergonzoso; y, si bien vencer es honor para todo hombre nacido, es maldad y pecado vencer al desfallido: el vencedor tiene honor según el precio del vencido, su trofeo es igual a lo que es el abatido.&rdquo;</p>
+            <p class="font-serif">El león con estas razones quedóse satisfecho, soltó al ratoncillo; al ser el ratón soltado, le dio muchas gracias y le quedó obligado: en todo lo que pudiera le serviría de grado.</p>
+            <p class="font-serif">Se fue el ratón al agujero, el león fue a cazar; andando por el monte, vino a tropezar, cayó en grandes redes, no las podía cortar, envuelto de pies a manos no se podía levantar; empezó a quejarse y lo oyó el ratoncillo, se fue a él y dijo: &ldquo;Señor, yo traigo buen cuchillo, con estos dientes míos roeré poco a poquillo y donde están vuestras manos haré un gran portillo; vuestros brazos por allí los sacaréis, abriendo y estirando las redes rasgaréis, por mis chiquitos dientes hoy vos escaparéis perdonaste mi vida y vos por mí viviréis.&rdquo;</p>
+            <p class="font-serif">Tú, rico poderoso, no quieras desechar al pobre, al faltado, no lo quieras de ti echar; puede prestarte servicio quien no tiene que pagar, el que no puede más puede aprovechar; puede una pequeña cosa y de poca valía nacer mucho provecho, causar gran mejoría: el que no tiene poder, oro, ni hidalguía tenga habilidad y seso, maña y sabiduría.</p>
           </div>
-        </div>'
+        </div>
+        <p class="text-left text-xs text-gray-500 mt-6"><sup>1</sup>Cfr. Margarida Bassols, <em>op. cit.</em> p. 31.</p>
+        <p class="text-left text-xs text-gray-500 mt-6"><sup>2</sup>Marta Marín, <em>op. cit.</em> p. 180.</p>
+        <p class="text-left text-xs text-gray-500 mt-6"><sup>3</sup>Arcipreste de Hita, <em>Libro de Buen Amor</em>, pp. 239-240.</p>'
       ],
     ],
   ]) ?>
-
+  <p><strong>Instrucciones:</strong></p>
+  <ol class="ol-number md:ml-32 mb-8">
+    <li>Completa los espacios en blanco con el tipo de secuencia correcto.</li>
+  </ol>
+  <?php ob_start(); ?>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividadH5P('u2t1a3', "Tipos de secuencias", $ActividadContent);
+  ?>
 </section>
 
 <?php

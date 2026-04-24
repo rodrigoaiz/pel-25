@@ -17,7 +17,7 @@
       "nombre": "Unidad 2",
       "temas": [
         {"nombre": "Exposición oral", "url": "/tlriid-2/unidad2/t1", "paginas": 3},
-        {"nombre": "Resumen y paráfrasis", "url": "/tlriid-2/unidad2/t2", "paginas": 3}
+        {"nombre": "Resumen y paráfrasis", "url": "/tlriid-2/unidad2/t2", "paginas": 4}
       ]
     },
     "Unidad 3": {
@@ -25,7 +25,7 @@
       "publicado": true,
       "nombre": "Unidad 3",
       "temas": [
-        {"nombre": "Aplicaciones de las habilidades de lectura y redacción", "url": "/tlriid-2/unidad3/t1", "paginas": 2},
+        {"nombre": "Aplicaciones de las habilidades de lectura y redacción", "url": "/tlriid-2/unidad3/t1", "paginas": 3},
         {"nombre": "Lectura y operaciones de escritura", "url": "/tlriid-2/unidad3/t2", "paginas": 5}
       ]
     },
@@ -53,21 +53,10 @@
 
     "u2t1a1": { "id": "5128", "moduleName": "quiz" },
     "u2t1a2": { "id": "5128", "moduleName": "assign" },
+    "u2t2a5": { "id": "5128", "moduleName": "assign" },
+    "u2t2a6": { "id": "5128", "moduleName": "quiz" },
 
+    "u3t1a1": { "id": "5130", "moduleName": "quiz" }
 
-
-    "u1t1a3": { "id": "5130", "moduleName": "quiz" },
-
-    "u1t2a1": { "id": "0", "moduleName": "assign" },
-
-    "u2t1a1": { "id": "5132", "moduleName": "quiz" },
-    "u2t1a2": { "id": "5134", "moduleName": "forum" },
-    "u2t1a3": { "id": "5135", "moduleName": "forum" },
-    "u2t1a4": { "id": "5136", "moduleName": "assign" },
-    "u2t1a5": { "id": "5133", "moduleName": "quiz" },
-
-    "u3t1a1": { "id": "5137", "moduleName": "quiz" },
-    "u3t1a2": { "id": "5138", "moduleName": "assign" },
-    "u3t1a3": { "id": "5139", "moduleName": "quiz" }
   }
 }
