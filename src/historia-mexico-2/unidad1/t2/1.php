@@ -157,18 +157,27 @@ ob_start();
   <?php ob_start(); ?>
   <p>Adolfo Gilly, en su obra La revolución interrumpida, plantea que la Revolución Mexicana (1910-1920) no fue un proceso homogéneo, sino que tuvo diferentes fases y características según las clases sociales involucradas. En este sentido menciona que bien puede ser considerada: democrática, burguesa, campesina, popular o antiimperialista. Al respecto debes realizar un análisis y reflexión individual sobre alguna de las posturas sobre el acontecimiento mencionado.</p>
   <p>Para ello realiza lo siguiente:</p>
-  <ol class="ol-list">
+  <ol class="ol-number">
     <li>Considera la información que has leído y trabajado para asumir una postura sobre el tipo de revolución mexicana con el objeto de realizar el análisis y reflexión.</li>
-    <li>Revisa uno de los materiales sugeridos –con el que más coincidas– y realiza un análisis de la postura elegida, contestando el cuadro de información.</li>
+    <li>
+      Revisa uno de los materiales sugeridos –con el que más coincidas– y realiza un análisis de la postura elegida, contestando el cuadro de información.
+      <ul class="ul-disc">
+        <li><a href="https://www.youtube.com/watch?v=j0DhAsqAgZs" target="_blank">Conmemoraciones - Plan de Guadalupe. El triunfo de la Revolución (22/03/2023)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Lby49irlA0A&t=1482s" target="_blank">Revolución Mexicana, una revolución popular</a></li>
+        <li><a href="https://www.youtube.com/watch?v=OKYuV1uuttU" target="_blank">Historia del pueblo mexicano | La revolución democrática y popular</a></li>
+        <li><a href="https://drive.google.com/file/d/168ay9Tdd1QwgIuxmQyrTOhvmoNLe1jjt/view?usp=sharing" target="_blank">Una interpretación de la Revolución Mexicana través de la teoría de las élites</a></li>
+      </ul>
+    </li>
     <li>Al finalizar realiza un escrito reflexivo de una cuartilla de extensión, sobre la postura que elegiste analizar.</li>
-    <li>Considera para el análisis la siguiente rúbrica para la evaluación para elaborar la actividad.</li>
-    <li>Al finalizar la actividad envía el archivo considerando las siguientes indicaciones:</li>
-    <ol>
-      <li>Envía la tarea en un archivo PDF, en la fecha indicada.</li>
-      <li>El archivo debe tener tu nombre completo empezando por el apellido y el número de tarea: ejemplo LópezAndradeSofía_Tarea1</li>
-      <li>Para enviar el archivo da clic en TAREA, posteriormente en Añadir envío, sube tu tarea en el recuadro que se indica y al finalizar da clic en Guardar Cambios.</li>
-    </ol>
-
+    <li>Considera para el análisis la siguiente <a href="<?php echo PATH_DOCS . 'u1-a3-rubrica-texto-reflexivo.pdf'; ?>" target="_blank">rúbrica</a> para la evaluación para elaborar la actividad.</li>
+    <li>
+      Al finalizar la actividad envía el archivo considerando las siguientes indicaciones:
+      <ol style="list-style: lower-alpha;">
+        <li>Envía la tarea en un archivo PDF, en la fecha indicada.</li>
+        <li>El archivo debe tener tu nombre completo empezando por el apellido y el número de tarea: ejemplo LópezAndradeSofía_Tarea1</li>
+        <li>Para enviar el archivo da clic en TAREA, posteriormente en Añadir envío, sube tu tarea en el recuadro que se indica y al finalizar da clic en Guardar Cambios.</li>
+      </ol>
+    </li>
   </ol>
 
   <?php

@@ -52,6 +52,7 @@
   "actividades": {
     "u1a1": { "id": "5908", "moduleName": "quiz" },
     "u1a2": { "id": "5909", "moduleName": "forum" },
-    "u1a3": { "id": "5910", "moduleName": "assign" }
+    "u1a3": { "id": "5910", "moduleName": "assign" },
+    "u3a4": { "id": "5911", "moduleName": "forum" }
   }
 }
