@@ -3,7 +3,7 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'Videos.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -15,18 +15,13 @@ ob_start();
 
   <p>Bajo estas condiciones, la base de poder de Carranza resultó demasiado débil para mantenerse ante la presión ejercida por los dirigentes sonorenses agrupados en torno a Obregón.</p>
 
-  <?php ob_start(); ?>
-  <p>Revisa a continuación la presentación de Prezi para conocer las dificultades del régimen de Carranza:</p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a11', "Gobierno de Carranza", $ActividadContent);
-  ?>
+  <p>Revisa a continuación la presentación de <a href="https://prezi.com/view/XcwwQqC9qU93OvlDGHE7/" target="_blank">Prezi para conocer las dificultades del régimen de Carranza</a>.</p>
 
   <?php ob_start(); ?>
   <p>Para evaluar el aprendizaje contesta el cuestionario:</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a12', "Cuestionario", $ActividadContent);
+  renderActividadH5P('u1act6', "La Constitución de 1917 e instauración del régimen posrevolucionario", $ActividadContent);
   ?>
 
 

@@ -3,7 +3,7 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'Videos.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -29,18 +29,20 @@ ob_start();
 
   <p>De este modo, los participantes conformaron una nueva élite revolucionaria, en su mayoría provenientes de la clase media urbana, que asumió la tarea de <b>atender los distintos planteamientos surgidos de la Revolución</b> y de <b>redactar una nueva Constitución</b>. Si bien este documento retoma numerosos elementos de la Constitución de 1857, también incorpora importantes innovaciones.</p>
 
-  <p>A continuación, revisa el siguiente vídeo interactivo:</p>
-
-  <?php
-  renderVideoIframe('2wrAUBJuBrY', 'Constitución de 1917, cimiento de la democracia');
-  ?>
-
-
+  
+  
   <?php ob_start(); ?>
+  <p>A continuación, revisa el siguiente vídeo:</p>
+
+  <div class="mx-auto max-w-xl">
+    <?php
+      renderVideoIframe('2wrAUBJuBrY', 'Constitución de 1917, cimiento de la democracia');
+    ?>
+  </div>
   <p>Una vez visto el video anterior, contesta las siguientes preguntas:</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a9', "La Constitución de 1917 cimiento de la democracia", $ActividadContent);
+  renderActividadH5P('u1act5', "Constitución de 1917, cimiento de la democracia", $ActividadContent);
   ?>
 
 
