@@ -3,6 +3,7 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'Videos.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -17,12 +18,31 @@ ob_start();
     renderImage('hm2-u1-mujeres.jpg');
     ?>
   </div>
-
-  <?php ob_start(); ?>
+  
   <p>Para conocer más sobre la participación de la mujer durante la Revolución Mexicana, te invito a ver con detenimiento el vídeo sugerido y al finalizar participa en el foro de discusión.</p>
+  <?php ob_start(); ?>
+    <p>Realiza la actividad considerando el siguiente proceso:</p>
+    <ol class="ol-number">
+      <li>Revisa con detenimiento los siguientes vídeos:</li>
+      <div class="md:grid grid-cols-2 gap-5">
+        <?php
+         renderVideoIframe('ZpAzwpCD6OQ', 'Carmen Serdán. El primer disparo de la revolución');
+        ?>
+        <?php
+         renderVideoIframe('A4dKElR9I3I', 'Mujeres de la Revolución Mexicana');
+        ?>
+      </div>
+      <li>
+        <p>Al terminar de revisar los vídeos contesta las siguientes preguntas:</p>
+        <p class="text-bold">¿Qué papel jugaron las mujeres en la Revolución?  y ¿qué papel tienen actualmente en la lucha democrática?</p>
+      </li>
+      <li>Envía la respuesta a la pregunta y al terminar lee el escrito de dos compañeras o compañeros y proporciona tu retroalimentación.</li>
+    </ol>
+    <p>Nota: La actividad es obligatoria para tener acceso a la evaluación de la unidad.</p>
+
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a7', "Foro: mujeres en la Revolución Mexicana", $ActividadContent);
+  renderActividad('u3a4', "Foro: mujeres en la Revolución Mexicana", $ActividadContent);
   ?>
 
   <p>La Revolución Mexicana no solo fue un conflicto armado liderado por hombres, sino que también contó con la participación de miles de mujeres en diferentes roles. Desde soldaderas y combatientes hasta enfermeras, periodistas y líderes políticas, su contribución fue fundamental para el desarrollo del movimiento revolucionario.</p>
@@ -30,10 +50,6 @@ ob_start();
   <p>Y de acuerdo con la historiadora Gabriela Cano, fue a partir de 1915 cuando el movimiento constitucionalista abrió espacios políticos que favorecieron el desarrollo de algunos asuntos planteados por el feminismo, entre ellas una postura de igualdad en el ámbito educativo y en lo laboral, aspecto que quedó plasmado en el artículo 123°. Con  respecto a los derechos de ciudadanía; el Congreso Constituyente (1916-1917) denegó el sufragio femenino.</p>
 
   <p>En años posteriores la demanda de sufragio femenino y el llamado a las mujeres a ejercer su influencia en la sociedad a través de la acción política se expresó en la revista  La mujer moderna. Semanario ilustrado (1915-1918), fundada y dirigida por Hermila Galindo.</p>
-
-
-
-
 </section>
 <?php
 $content = ob_get_clean();

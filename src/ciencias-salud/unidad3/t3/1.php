@@ -116,15 +116,12 @@ ob_start();
     </ul>
 
     <p>Es importante que los adolescentes conozcan las consecuencias que pueden traerles estas conductas de riesgo para su salud, su vida y su futuro, lo que les permitirá tomar decisiones más razonadas.</p>
-
-  <?php ob_start(); ?>
-  <p>Ve el siguiente video introductorio de UNICEF sobre factores de riesgo
-</p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u3t3a1', "Video", $ActividadContent);
-  ?>
-
+    <p>Ve el siguiente video introductorio de <a href="https://www.unicef.org/uruguay/crianza/adolescencia/por-que-los-adolescentes-toman-riesgos" target="_blank">UNICEF</a> sobre factores de riesgo
+    <div class="mx-auto max-w-lg">
+      <?php
+        renderVideoIframe('p99PhXuZ2xk', 'Factores de riesgo en adolescentes - UNICEF');
+      ?>
+    </div>
   <h3>Factor protector</h3>
 
   <p>La etapa de la adolescencia  se caracteriza por que los jóvenes sufren una serie de cambios importantes en su personalidad e identidad, por lo que es fundamental que cuenten con  los recursos personales, familiares y sociales que les ayuden a superar los cambios y problemas que se les presentan en esta etapa. De aquí la importancia de los <b>factores protectores</b>, que son aquellas características, condiciones, circunstancias y atributos relacionados con los comportamientos psicosociales, que les permiten reducir y afrontar situaciones adversas que se les presentan durante esta etapa, y así evitar el desarrollo de una enfermedad o un accidente. </p>
@@ -197,20 +194,42 @@ ob_start();
               <?php
                 renderImage('u3-t3-caracteristicas.webp', 'Resiliencia', 'https://www.fundacionunam.org.mx/wp-content/uploads/2018/01/RESILIENCIA1.jpg', 'wikimedia.');
               ?>
-          </div>
-
-
-
+  </div>
+  <p>Ve el siguiente video introductorio sobre resiliencia.</p>
+  <div class="mx-auto max-w-lg">
       <?php
         renderVideoIframe('zzzaxJE2BeE', 'La Resiliencia en adolescentes y jóvenes');
       ?>
+  </div>
+
+
 
 
     <?php ob_start(); ?>
-      <p>Los estudiantes se organizarán  en equipos de cuatro personas, para realizar una investigación sobre factores de riesgo, factores protectores y factores resilientes. Con la información obtenida diseñarán un guión que les servirá de guía para la realización de un video que contendrá: una introducción, el desarrollo de los temas y las conclusiones; debe contener una carátula con los siguientes datos: Institución, título del vídeo,  nombres de los elaboradores, fecha de entrega. El video puede tener una duración de entre 2 y 3 minutos; para su elaboración pueden utilizar imágenes fijas, o en movimiento, música, textos hablados o escritos, diferentes transiciones y todas las herramientas tecnológicas que tengan a su alcance.</p>
+      <p>Realiza una investigación sobre los factores de riesgo, factores protectores y factores resilientes. Con la información obtenida, diseña un guión que sirva como base para la elaboración de un video que incluya:</p>
+      <ul>
+        <li>Introducción</li>
+        <li>Desarrollo de los temas</li>
+        <li>Conclusiones</li>
+      </ul>
+      <p>El producto final será un video corto (reel, short o formato similar). Para su elaboración puedes utilizar:</p>
+      <ul>
+        <li>Imágenes fijas o en movimiento</li>
+        <li>Música</li>
+        <li>Texto hablado o escrito</li>
+        <li>Transiciones</li>
+        <li>Cualquier herramienta tecnológica a tu alcance</li>
+      </ul>
+      <p>Puedes apoyarte en el siguiente video como referencia para la producción.</p>
+      <div class="mx-auto max-w-lg">
+          <?php
+            renderVideoIframe('lhsOBziFdnM', 'Factores de riesgo en adolescentes - UNICEF');
+          ?>
+      </div>
+      <p>Finalmente, sube tu video a una plataforma de tu elección (Instagram, TikTok, YouTube, etc.) y comparte la liga en tu entrega.</p>
     <?php
        $ActividadContent = ob_get_clean();
-      renderActividad('u3t3a2', "Video sobre factores de riesgo, protectores y resilientes", $ActividadContent);
+      renderActividad('u3a3', "Video sobre factores de riesgo, protectores y resilientes", $ActividadContent);
     ?>
 
 

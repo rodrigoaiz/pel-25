@@ -5,6 +5,7 @@ include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Tabs.php';
 include PATH_INCLUDE . 'ActividadH5P.php';
+include PATH_INCLUDE . 'Videos.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -233,13 +234,13 @@ ob_start();
   renderActividadH5P('u2a3', "Relaciona las columnas", $ActividadContent);
   ?>
 
-  <?php ob_start(); ?>
-  <p>Video Original</p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u2a4', "Video original", $ActividadContent);
-  ?>
+  <p>Para que reafirmes tus conocimientos sobre el tema, ve el siguiente video.</p>
 
+  <div class="mx-auto max-w-lg">
+    <?php
+      renderVideoIframe('9ej_UEURRZw', 'Breve historia de los métodos de investigación en salud: método experimental, clínico y epidemiológico');
+    ?>
+  </div>
 
 
 

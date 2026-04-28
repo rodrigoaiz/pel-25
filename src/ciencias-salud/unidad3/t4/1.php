@@ -115,12 +115,7 @@ ob_start();
 
           <p>Otra particularidad de la salud en el siglo XXI es su enfoque holístico, en el que se toman en cuenta la salud emocional, mental, social, espiritual y no solo la física, buscando la salud integral de la población.</p> 
 
-  <?php ob_start(); ?>
-  <p>Da clik en la pestaña que corresponda a cada etapa y aparecerá la información. Este ejercicio te servirá para reforzar los conocimientos adquiridos.</p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u3t4a1', "Línea del tiempo.", $ActividadContent);
-  ?>
+
 
 </section>
 <?php

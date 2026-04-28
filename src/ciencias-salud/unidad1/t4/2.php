@@ -4,7 +4,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'Tabs.php';
 include PATH_INCLUDE . 'ImagenFullPleca.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -84,13 +84,16 @@ ob_start();
 
   <p>La medicina moderna, ha adoptado un enfoque más holístico y factorial para comprender el proceso de salud-enfermedad, lo que permite una comprensión más completa y precisa de las condiciones de salud, que es útil para la prevención, el diagnóstico y  el tratamiento de enfermedades. Generalmente es utilizado un modelo biopsicosocial para comprender las condiciones de salud, que considera los aspectos biológicos, psicológicos y sociales que influyen en la salud y la enfermedad.</p>
 
-  <?php ob_start(); ?>
-  <p>Con esta actividad reconocerás qué tanto has aprendido sobre los paradigmas unicausal, multicausal e histórico-social.</p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u1a9', "Juega Jeopardy", $ActividadContent);
-  ?>
    
+
+  <?php ob_start(); ?>
+    <p>Con esta actividad reconocerás qué tanto has aprendido sobre los paradigmas unicausal, multicausal e histórico-social.
+</p>
+    <?php
+    $ActividadContent = ob_get_clean();
+    renderActividadH5P('u1a2', "Quiz", $ActividadContent);
+    ?>
+
 </section>
 <?php
 $content = ob_get_clean();

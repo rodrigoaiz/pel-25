@@ -60,12 +60,14 @@ ob_start();
   <p> En la elaboración del mapa conceptual, puedes incluir imágenes que ilustren el contenido, procura que la redacción y la ortografía sean correctas. Lo subirás en el apartado correspondiente. Si tienes dudas sobre la elaboración del mapa conceptual, te sugerimos que revises el siguiente tutorial:</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1a11', "Mapa Conceptual", $ActividadContent);
+  renderActividad('u1a4', "Mapa Conceptual", $ActividadContent);
   ?>
 
-  <?php
-  renderVideoIframe('cROcclGmbDw', 'Historia Natural de la Enfermedad');
-  ?>
+  <div class="mx-auto max-w-lg">
+    <?php
+    renderVideoIframe('cROcclGmbDw', 'Historia Natural de la Enfermedad');
+    ?>
+  </div>
 
   <p>Esperamos que al concluir esta primera unidad del curso, los contenidos, imágenes, videos y actividades que contiene hayan sido de tu interés y te hayan proporcionado conocimientos que puedas aplicar a tu vida diaria y te sirvan para tomar mejores decisiones y para enriquecer tu calidad de vida, la de tu familia y la de tu comunidad. Te invitamos a que continúes con la segunda unidad, en la cual podrás aplicar algunos de los conocimientos adquiridos e incorporar nuevos que mejorarán tu formación. Además te prepararán para continuar con tus estudios. </p>
 
@@ -75,21 +77,9 @@ ob_start();
   <p> Para que puedas conocer cuánto aprendiste del tema, resuelve el siguiente cuestionario, para lo cual lee cuidadosamente las preguntas y selecciona la letra que corresponda a la respuesta correcta.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1a13', "Cuestionario de autoevaluación final Unidad I", $ActividadContent);
+  renderActividad('u1a5', "Cuestionario de autoevaluación final Unidad I", $ActividadContent);
   ?>
 
-  <?php ob_start(); ?>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u1a14', "Glosario", $ActividadContent);
-  ?>
-
-  <?php ob_start(); ?>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u1a15', "Bibliografía", $ActividadContent);
-  ?>
-   
 </section>
 <?php
 $content = ob_get_clean();
