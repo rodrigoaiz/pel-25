@@ -11,33 +11,26 @@ ob_start();
   <h2>Planificación de textos</h2>
 
   <p>En la producción de textos se debe tener en cuenta la <strong>paráfrasis</strong>, el <strong>resumen</strong> y las <strong>citas textuales</strong>, como ya se estudiaron en la segunda unidad. También la elaboración de un borrador de trabajo que permita hacer las correcciones adecuadas antes de entregarlo. Pero antes de esto, es necesario tener en claro cuál será el producto que elaboraremos en esta unidad.</p>
+  <p><strong>Instrucciones:</strong></p>
+    <ol class="ol-number md:ml-32">
+        <li>Ingresa al foro: <strong>Planificación del texto</strong> y responde a las siguientes preguntas.
+      <ol class="list-decimal list-inside space-y-2 pl-4 mb-6 text-gray-800">
+        <li>¿Qué entiendes por <em>trabajo escolar</em>?</li>
+        <li>¿Cuáles consideras que deban ser las características de un <em>trabajo escolar</em>?</li>
+        <li>¿Qué temas se deben abordar en un <em>trabajo escolar</em>?</li>
+        <li>¿Cómo acostumbras hacer tus <em>trabajos escolares</em>? </li>
+        <li>¿Dónde buscas la información?</li>
+        <li>¿Cómo la organizas?</li>
+        <li>¿Cuánto tiempo inviertes en su elaboración?</li>
+      </ol></li>
+        <li>Consulta la <a href="<?php echo PATH_DOCS . 'u3t1a5-rubrica-foro.pdf'; ?>" target="_blank">rúbrica</a> con el que se evaluará tu participación en el foro. </li>
+    </ol>
 
-  <p>Ingresa al foro: <strong>Planificación del texto</strong> y responde a las siguientes preguntas.</p>
-
-  <div class="flex justify-center">
-    <div class="w-2/3 bg-slate-600/10 border-l-4 border-slate-600 rounded-r-lg px-6 py-4 mb-6">
-      <p class="text-slate-800 text-sm font-semibold italic">Instrucciones foro: Planificación de textos</p>
-      <p class="text-slate-700 text-sm mt-1">Ingresa al foro: <strong>Planificación del texto</strong> y responde a las siguientes preguntas:</p>
-    </div>
-  </div>
-
-  <ol class="list-decimal list-inside space-y-2 pl-4 mb-6 text-gray-800">
-    <li>¿Qué entiendes por trabajo escolar?</li>
-    <li>¿Cuáles consideras que deban ser las características de un trabajo escolar?</li>
-    <li>¿Qué temas se deben abordar en un trabajo escolar?</li>
-    <li>¿Cómo acostumbras hacer tus trabajos escolares?</li>
-    <li>¿Dónde buscas la información?</li>
-    <li>¿Cómo la organizas?</li>
-    <li>¿Cuánto tiempo inviertes en su elaboración?</li>
-  </ol>
-
-  <?php ob_start(); ?>
-  <p>Responde cada una de las preguntas anteriores.</p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u3t1a2', "Foro: Planificación del texto", $ActividadContent);
-  ?>
-
+    <?php ob_start(); ?>
+    <?php
+    $ActividadContent = ob_get_clean();
+    renderActividad('u3t1a2', "Foro: Planificación de textos", $ActividadContent);
+    ?>
   <p>Después de haber contestado las preguntas anteriores, lee el siguiente texto y reflexiona sobre tus respuestas.</p>
 
   <h3>Elaboración de un trabajo escolar</h3>

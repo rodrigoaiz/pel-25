@@ -56,7 +56,8 @@
     "u2t2a5": { "id": "5128", "moduleName": "assign" },
     "u2t2a6": { "id": "5128", "moduleName": "quiz" },
 
-    "u3t1a1": { "id": "5130", "moduleName": "quiz" }
+    "u3t1a1": { "id": "5130", "moduleName": "quiz" },
+    "u3t1a2": { "id": "5130", "moduleName": "forum" }
 
   }
 }
