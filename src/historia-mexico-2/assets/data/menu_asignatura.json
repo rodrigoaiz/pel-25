@@ -53,6 +53,9 @@
     "u1a1": { "id": "5908", "moduleName": "quiz" },
     "u1a2": { "id": "5909", "moduleName": "forum" },
     "u1a3": { "id": "5910", "moduleName": "assign" },
-    "u3a4": { "id": "5911", "moduleName": "forum" }
+    "u3a4": { "id": "5911", "moduleName": "forum" },
+    "u3a5": { "id": "5912", "moduleName": "assign" },
+    "u3a6": { "id": "5913", "moduleName": "forum" },
+    "u3a7": { "id": "5914", "moduleName": "quiz" }
   }
 }
