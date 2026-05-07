@@ -50,6 +50,7 @@
     }
   },
   "actividades": {
+<<<<<<< HEAD
     "u1a1": { "id": "5200", "moduleName": "quiz" },
     "u1a2": { "id": "5201", "moduleName": "h5p" },
     "u1a3": { "id": "5202", "moduleName": "forum" },
@@ -124,5 +125,14 @@
     "u4a18": { "id": "5268", "moduleName": "forum" },
     "u4a19": { "id": "5269", "moduleName": "quiz" }
 
+=======
+    "u1a1": { "id": "5908", "moduleName": "quiz" },
+    "u1a2": { "id": "5909", "moduleName": "forum" },
+    "u1a3": { "id": "5910", "moduleName": "assign" },
+    "u3a4": { "id": "5911", "moduleName": "forum" },
+    "u3a5": { "id": "5912", "moduleName": "assign" },
+    "u3a6": { "id": "5913", "moduleName": "forum" },
+    "u3a7": { "id": "5914", "moduleName": "quiz" }
+>>>>>>> 1e5b7da16c83c78ac40153b575e4c567719d3f41
   }
 }
