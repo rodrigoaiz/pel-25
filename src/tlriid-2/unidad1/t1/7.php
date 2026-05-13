@@ -15,14 +15,14 @@ ob_start();
         renderImage('tlriid2-u1t1p7img1.webp', 'Livro de artista, criado por Hugo Forte', 'https://commons.wikimedia.org/wiki/File:Fortes_Hugo_Manual_de_Voo.jpg', 'Wikimedia Commons');
         ?>
     </div>
+    <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number md:ml-32 mb-8">
         <li>Lee con cuidado los siguientes relatos, identifica en ellos las marcas sean la voz narrativa. Estas marcas pueden ser pronombres, adjetivos posesivos y conjugaciones verbales. Luego da clic para ver el tipo de narrador, si se trata de un narrador en primera, segunda o tercera persona:</li>
     </ol>
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u1t1a3', "Protagonista o testigo", $ActividadContent);
+    renderActividadH5P('u1-act1', "Protagonista o testigo", $ActividadContent);
     ?>
 </section>
 <?php
