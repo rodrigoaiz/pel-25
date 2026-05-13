@@ -1,0 +1,64 @@
+{
+  "nombreAsignatura": "Taller de Lectura y Redacción II",
+  "asignatura": {
+    "Unidad 1": {
+      "url": "/tlriid-2/unidad1/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 1",
+      "temas": [
+        {"nombre": "La enunciación", "url": "/tlriid-2/unidad1/t1", "paginas": 8},
+        {"nombre": "El referente", "url": "/tlriid-2/unidad1/t2", "paginas": 2},
+        {"nombre": "Categorías gramaticales y el sentido", "url": "/tlriid-2/unidad1/t3", "paginas": 4}
+      ]
+    },
+    "Unidad 2": {
+      "url": "/tlriid-2/unidad2/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 2",
+      "temas": [
+        {"nombre": "Exposición oral", "url": "/tlriid-2/unidad2/t1", "paginas": 3},
+        {"nombre": "Resumen y paráfrasis", "url": "/tlriid-2/unidad2/t2", "paginas": 4}
+      ]
+    },
+    "Unidad 3": {
+      "url": "/tlriid-2/unidad3/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 3",
+      "temas": [
+        {"nombre": "Aplicaciones de las habilidades de lectura y redacción", "url": "/tlriid-2/unidad3/t1", "paginas": 3},
+        {"nombre": "Lectura y operaciones de escritura", "url": "/tlriid-2/unidad3/t2", "paginas": 5}
+      ]
+    },
+    "Unidad 4": {
+      "url": "/tlriid-2/unidad4/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 4",
+      "temas": [
+        {"nombre": "La novela", "url": "/tlriid-2/unidad4/t1", "paginas": 2},
+        {"nombre": "Personajes", "url": "/tlriid-2/unidad4/t2", "paginas": 2},
+        {"nombre": "Mundo ficticio", "url": "/tlriid-2/unidad4/t3", "paginas": 2},
+        {"nombre": "Discurso", "url": "/tlriid-2/unidad4/t4", "paginas": 2},
+        {"nombre": "Valoración estética y universalidad de la obra", "url": "/tlriid-2/unidad4/t5", "paginas": 2},
+        {"nombre": "El poema", "url": "/tlriid-2/unidad4/t6", "paginas": 3},
+        {"nombre": "Figuras retóricas", "url": "/tlriid-2/unidad4/t7", "paginas": 2}
+      ]
+    }
+  },
+  "actividades": {
+    "u1t1a1": { "id": "5128", "moduleName": "quiz" },    
+    "u1t2a2": { "id": "5129", "moduleName": "assign" },    
+    "u1t2a3": { "id": "5129", "moduleName": "quiz" },    
+    "u1t3a4": { "id": "5129", "moduleName": "assign" },    
+    "u1t3a5": { "id": "5129", "moduleName": "quiz" },
+
+    "u2t1a1": { "id": "5128", "moduleName": "quiz" },
+    "u2t1a2": { "id": "5128", "moduleName": "assign" },
+    "u2t2a5": { "id": "5128", "moduleName": "assign" },
+    "u2t2a6": { "id": "5128", "moduleName": "quiz" },
+
+    "u3t1a1": { "id": "5130", "moduleName": "quiz" },
+    "u3t1a2": { "id": "5130", "moduleName": "forum" },
+    "u3t2a3": { "id": "5130", "moduleName": "assign" }
+
+  }
+}
