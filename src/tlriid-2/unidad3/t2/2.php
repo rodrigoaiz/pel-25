@@ -1,7 +1,7 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadH5P.php';
+include PATH_INCLUDE . 'FlipCards.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -103,18 +103,51 @@ ob_start();
             </div>
         </div>
     </div>
-
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number mb-8">
-        <li>Luego de haber leído acerca de las macrorreglas trata de resolver el siguiente ejercicio que te ayudará a fijar en tu memoria estos conceptos, que sin duda te serán de ayuda durante el resto del bachillerato y en tu vida profesional.</li>
-        <li>Lee la definición de la tarjeta y da clic para ver el tipo de macrorregla que le corresponde.</li>
+      <li>Luego de haber leído acerca de las macrorreglas trata de resolver el siguiente ejercicio que te ayudará a fijar en tu memoria estos conceptos, que sin duda te serán de ayuda durante el resto del bachillerato y en tu vida profesional.</li>
+      <li>Lee la definición de la tarjeta y da clic para ver el tipo de macrorregla que le corresponde.</li>
     </ol>
-    <?php ob_start(); ?>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividadH5P('u3t2a4', "Macrorreglas", $ActividadContent);
+  <?php
+    renderFlipCards([
+        'title' => 'Las Macrorreglas',
+        'instructions' => 'Lee la definición de la tarjeta y da clic para ver el tipo de macrorregla que le corresponde.',
+        'showCardNumbers' => false,
+        'cards' => [
+            [
+                'front' => 'Se aplican cuando hay ideas principales explícitas, compendiosas en el texto.',
+                'back' => 'Reglas de ANULACIÓN.',
+                'color' => 'blue'
+            ],
+            [
+                'front' => 'Se refiere a suprimir los datos casuales no implicados lógicamente en los demás, no esenciales para el desarrollo lógico del texto.',
+                'back' => 'Reglas de OMISIÓN.',
+                'color' => 'rose'
+            ],
+            [
+                'front' => 'Se refiere a suprimir los datos que sí están implicados en los demás, que son más o menos inherentes a un concepto.',
+                'back' => 'Reglas de SELECCIÓN.',
+                'color' => 'violet'
+            ],
+            [
+                'front' => 'Se aplican cuando no hay ideas principales explícitas en el texto.',
+                'back' => 'Reglas de SUSTITUCIÓN.',
+                'color' => 'cyan'
+            ],
+            [
+                'front' => 'Se refiere a sustituir datos no implicados entre sí, por un <em>superconcepto</em> o <em>hipernónimo</em> que los englobe.',
+                'back' => 'Reglas de GENERALIZACIÓN.',
+                'color' => 'amber'
+            ],
+            [
+                'front' => 'Es sustituir datos implicados entre sí o inherentes al asunto, por un <em>superconcepto</em> o una <em>macrosituación</em> que los englobe.',
+                'back' => 'Reglas de CONSTRUCCIÓN O INTEGRACIÓN.',
+                'color' => 'purple'
+            ]
+        ]
+    ]);
     ?>
-
+    
 </section>
 
 <?php
