@@ -91,6 +91,7 @@ ob_start();
             http://www.jornada.unam.mx/2007/08/12/index.php?section=opinion&article=019a2pol</p>
     </div>
 
+    <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number">
         <li>Elabora las fichas de resumen con las respuestas a las preguntas planteadas. </li>
@@ -98,10 +99,9 @@ ob_start();
         <li>Consulta la <a href="<?php echo PATH_DOCS . 'u3t2a3-archivo-fichas-de-resumen.pdf'; ?>" target="_blank">rúbrica</a> El calentamiento mexicano y global. </li>
     </ol>
 
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u3t2a3', "Fichas de resumen", $ActividadContent);
+    renderActividad('u3a3', "Fichas de resumen", $ActividadContent);
     ?>
 </section>
 

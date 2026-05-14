@@ -128,7 +128,7 @@ ob_start();
   ]) ?>
   <?php ob_start(); ?>
   <p><strong>Instrucciones:</strong></p>
-  <ol class="ol-number md:ml-32 mb-8">
+  <ol class="ol-number mb-8">
     <li>Completa los espacios en blanco con el tipo de secuencia correcto.</li>
   </ol>
   <?php

@@ -27,7 +27,7 @@ ob_start();
   <p>Otras disciplinas que también están relacionadas con la salud son: la Odontología, la Fisioterapia, la Psicología de la salud, la Biología, la Química, la Anatomía y la Fisiología, entre otras. Todas las disciplinas relacionadas con la salud deben trabajar conjuntamente para proporcionar una atención integral, incluyendo la prevención, el diagnóstico, el tratamiento, la rehabilitación y la promoción de estilos de vida saludables.</p>
 
   <p><strong>Instrucciones:</strong></p>
-  <ol class="ol-number md:ml-32 mb-8">
+  <ol class="ol-number mb-8">
     <li>A partir de la información presentada sobre las diferentes disciplinas que forman parte del proyecto de salud, elabora un mapa conceptual que incluye estos conceptos.</li>
     <li>Antes de empezar, consulta la <a href="<?php echo PATH_DOCS . 'rubrica-mapa.pdf'; ?>" target="_blank">rúbrica</a> para asegurar que tu trabajo cumple con los requerimientos establecidos.</li>
   </ol>

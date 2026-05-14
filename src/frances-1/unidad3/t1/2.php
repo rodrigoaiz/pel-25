@@ -96,7 +96,7 @@ ob_start();
     <p class="mt-10">Práctica lo visto resolviendo el siguiente reto.</p>
     <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Fais glisser les mots pour compléter les phrases du vocabulaire sur la famille / Arrastra las palabras para completar las frases del vocabulario de la familia.</li>
     </ol>
     <p>Remplis le mots croisés avec le vocabulaire de la famille :</p>
@@ -108,7 +108,7 @@ ob_start();
     <p class="mt-10">Continúa practicando con la siguiente actividad.</p>
     <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Fais glisser les mots pour compléter les phrases du vocabulaire sur la famille / Arrastra las palabras para completar las frases del vocabulario de la familia.</li>
     </ol>
     <p>Remplis le mots croisés avec le vocabulaire de la famille :</p>
@@ -225,7 +225,7 @@ ob_start();
     <p class="mt-10">Ahora practiquemos los adjetivos posesivos.</p>
     <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Remplis avec les adjectifs possessifs. Attention à l'orthographe, aux majuscules et minuscules et aux accents / Completa con los adjetivos posesivos. Ten cuidado con la ortografía, las mayúsculas y minúsculas, y los acentos.</li>
     </ol>
     <?php

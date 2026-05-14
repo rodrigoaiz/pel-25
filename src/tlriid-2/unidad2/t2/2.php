@@ -75,7 +75,7 @@ ob_start();
     </div>
 
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Lee cada afirmación y selecciona la respuesta correcta.</li>
     </ol>
     <?php ob_start(); ?>

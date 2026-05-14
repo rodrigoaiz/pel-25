@@ -105,7 +105,7 @@ ob_start();
     </div>
 
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Luego de haber leído acerca de las macrorreglas trata de resolver el siguiente ejercicio que te ayudará a fijar en tu memoria estos conceptos, que sin duda te serán de ayuda durante el resto del bachillerato y en tu vida profesional.</li>
         <li>Lee la definición de la tarjeta y da clic para ver el tipo de macrorregla que le corresponde.</li>
     </ol>

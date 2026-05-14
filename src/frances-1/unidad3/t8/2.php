@@ -16,7 +16,7 @@ ob_start();
 
     <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Regarde la vidéo et écris quels habits porte Lulu à la fête (attention aux majuscules et aux minuscules, à l’orthographe et aux accents) / Mira el video y escribe qué ropa lleva Lulu en la fiesta (presta atención a las mayúsculas, minúsculas, ortografía y acentos).</li>
     </ol>
     <div class="max-w-xl mx-auto bg-orange-200/80 p-4">
@@ -58,7 +58,7 @@ ob_start();
         ?>
     </div>
     <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Regarde cette image de la famille de Sergio et complète avec l'adjectif de couleur correct / Mira esta imagen de la familia de Sergio y completa con el adjetivo de color correcto.</li>
     </ol>
     <div class="w-xs mx-auto">

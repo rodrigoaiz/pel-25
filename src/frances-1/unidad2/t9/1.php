@@ -12,7 +12,7 @@ ob_start();
     <h2>Production orale</h2>
     <h3>Producción oral</h3>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Graba un breve audio en el que hables de tu rutina escolar. Presenta brevemente lo siguiente:
             <ol class="ol-lower-alpha md:ml-32">
                 <li>Tu horario de clases en CCH.</li>

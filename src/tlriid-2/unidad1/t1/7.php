@@ -17,7 +17,7 @@ ob_start();
     </div>
     <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Lee con cuidado los siguientes relatos, identifica en ellos las marcas sean la voz narrativa. Estas marcas pueden ser pronombres, adjetivos posesivos y conjugaciones verbales. Luego da clic para ver el tipo de narrador, si se trata de un narrador en primera, segunda o tercera persona:</li>
     </ol>
     <?php

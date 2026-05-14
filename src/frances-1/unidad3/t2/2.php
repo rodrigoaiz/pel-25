@@ -20,7 +20,7 @@ ob_start();
 
     <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Fais glisser la profession correcte pour compléter chaque phrase / Arrastra la profesión correcta para completar cada frase.</li>
     </ol>
     <?php

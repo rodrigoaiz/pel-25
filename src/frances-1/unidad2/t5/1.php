@@ -130,7 +130,7 @@ ob_start();
     </table>
     <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>En te basant sur ce que tu as observé dans l'emploi du temps de Julien, réalise l'exercice suivant / Con base en lo observado en el horario de Julien, realiza el siguiente ejercicio.</li>
         <li>Après avoir regardé la vidéo, répondez au questionnaire suivant / Selecciona "Verdadero" si la afirmación es cierta o "Falso" si es incorrecta. </li>
     </ol>
@@ -140,7 +140,7 @@ ob_start();
     ?>
     <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>À partir de l'emploi de temps de Julien, réponds aux questions (fais attention aux majuscules, minuscules, à l'orthographe et aux accents et écris les nombres en chiffres) / A partir del horario de Julien, responde a las preguntas (ten cuidado con las mayúsculas, minúsculas, la ortografía, los acentos y escribe los números en cifras)</li>
     </ol>
     <?php
@@ -174,7 +174,7 @@ ob_start();
     <p class="mt-10">Como puedes observar, cuando usamos el verbo faire, debemos acompañar el nombre de la materia con DU (masculino), DE L' (la palabra empieza con vocal o H), DE LA (femenino) o DES (plural). Cuando usamos AVOIR COURS DE o D', sólo debemos poner atención al inicio de la palabra (si empieza con vocal o con h se usa D'). </p>
     <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Regarde la vidéo et réponds aux questions (écris les nombres en chiffres et les mots en minuscules et fais attention à l'orthographe et aux accents) / Mira el video y responde a las preguntas (escribe los números en cifras, las palabras en minúsculas y ten cuidado con la ortografía y los acentos)</li>
     </ol>
     <div class="max-w-xl mx-auto bg-blue-700/30 p-4">

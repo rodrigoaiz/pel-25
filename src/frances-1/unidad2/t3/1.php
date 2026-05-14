@@ -169,7 +169,7 @@ ob_start();
     <p>- El orden de la fecha de nacimiento es como en español: <span class="italic font-bold text-purple-950">jour, mois, année.</span> La diferencia es que no ponemos la preposición <strong>"de"</strong>.
     </p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Realiza un video donde te presentas y dices los siguientes datos:
             <ul class="list-disc ml-8">
                 <li>Salutation formelle</li>

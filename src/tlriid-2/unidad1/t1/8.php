@@ -21,7 +21,7 @@ ob_start();
     <p>Cuando el narrador es un <strong>testigo</strong>, sólo sabemos lo que le han dicho; si el narrador es <strong>protagonista</strong> se puede decir que la información es de primera mano &ndash;aunque el punto de vista es fijo&ndash; porque participó en los acontecimientos directamente. Para ver de qué forma influye el tipo de narrador en el sentido del relato te invitamos a llevar a cabo las siguientes actividades:</p>
     <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Lee con cuidado el relato, después cambia la voz narrativa, de la tercera a la primera persona, para crear un narrador protagonista.</li>
 
     <div class="my-6 max-w-3xl mx-auto">

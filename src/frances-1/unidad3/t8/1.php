@@ -15,7 +15,7 @@ ob_start();
     <p>A veces, cuando describes a una persona, debes de indicar cómo está vestida.</p>
 
     <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Regarde la vidéo et selectionne les habits que l'on mentionne dans la chanson. / Mira el video y selecciona la ropa que se menciona en la canción. Ten cuidado con la ortografía de las palabras (acentos, mayúsculas y minúsculas).</li>
     </ol>
     <div class="max-w-xl mx-auto bg-green-200/80 p-4">
