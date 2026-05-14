@@ -81,7 +81,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u2t2a4', "El párrafo", $ActividadContent);
+    renderActividadH5P('u2-act2', "El párrafo", $ActividadContent);
     ?>
 </section>
 

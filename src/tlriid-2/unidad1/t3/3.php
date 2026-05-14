@@ -192,13 +192,14 @@ ob_start();
             carcacha y se les retacha.</td>
           <td class="bg-rose-100 font-serif p-4 border border-rose-700"></td>
         </tr>
-
+        
       </tbody>
     </table>
   </div>
-
+  
+  <?php ob_start(); ?>
   <p><strong>Instrucciones:</strong></p>
-  <ol class="ol-number md:ml-32">
+  <ol class="ol-number">
     <li>Redacta un <strong>párrafo original</strong> de entre <strong>8 y 10 oraciones</strong>. El tema es libre (puedes escribir sobre tu pasatiempo favorito, un lugar que te guste, una anécdota, etc.).</li>
     <li>Dentro de tu párrafo, <strong>destaca</strong> (resalta con distintos colores) lo siguiente:
       <ul>
@@ -213,10 +214,9 @@ ob_start();
     <li>Consulta la <a href="<?php echo PATH_DOCS . 'u1t3p2-rubrica-parrafo.pdf'; ?>" target="_blank">rúbrica</a> con el que se evaluará tu actividad. </li>
   </ol>
 
-  <?php ob_start(); ?>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t3a4', "Construyo y analizo mi propio párrafo", $ActividadContent);
+  renderActividad('u1a4', "Construyo y analizo mi propio párrafo", $ActividadContent);
   ?>
 </section>
 

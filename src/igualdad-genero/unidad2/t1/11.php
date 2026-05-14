@@ -13,7 +13,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Elaborar tres compromisos personales que promuevan la igualdad, el respeto a los derechos humanos y la erradicación de la violencia de género.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32">
+    <ol class="ol-number">
         <li>Escribe en el foro tres acciones personales con las que te comprometes para fomentar la igualdad, el respeto a los derechos humanos y la erradicación de la violencia de género, por ejemplo, no reproducir chistes misóginos.</li>
         <li>Lee las diferentes participaciones, elige una y coméntala. Recuerda que tu respuesta debe ser tolerante, respetuosa y empática.</li>
         <li>No olvides leer el documento con los <a href="<?php echo PATH_DOCS . 'u2t7-Foro-Eradicar-Violencia.pdf'; ?>" target="_blank">criterios</a> con los que se evaluará tu participación en el foro.</li>

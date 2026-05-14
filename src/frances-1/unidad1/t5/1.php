@@ -16,7 +16,7 @@ ob_start();
     <p><strong>Instrucciones:</strong></p>
     <div class="flex justify-center gap-4">
         <div class="w-2/3 sm:full">
-            <ol class="ol-number md:ml-32">
+            <ol class="ol-number">
                 <li>El <span class="bg-orange-500/30 text-orange-600 p-1">primer día de clase, le preguntas a tu profesor /profesora de francés</span> cómo se llama. El/ella te responde con un saludo y su nombre. Prepara el diálogo.</li>
                 <li>Un compañero de clase te pregunta cómo te llamas, responde con un saludo, tu nombre, tu apellido. Prepara el diálogo.</li>
                 <li>Revisa la <span class="bg-amber-500/30 text-amber-600 p-1">rúbrica de autoevaluación</span> que te proponemos para verificar que tus diálogos están completos.</li>

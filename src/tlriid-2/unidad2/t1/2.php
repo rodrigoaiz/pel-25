@@ -91,17 +91,17 @@ ob_start();
   </div>
 </div>
 <section>
+  <?php ob_start(); ?>
   <p><strong>Instrucciones:</strong></p>
-  <ol class="ol-number md:ml-32">
+  <ol class="ol-number">
     <li>Después de haber observado el esquema, graba un audio explicando de qué se trata, pensando cómo se lo resumirías a un amigo o familiar; no debe ser nada complicado y muy breve, de no más de 2 minutos.</li>
     <li>Haz un resumen utilizando las palabras clave del cuadro anterior. El título del mismo puede ser: "Proceso de investigación".</li>
     <li>Envía tu resumen para su evaluación. </li>
     <li>Consulta la <a href="<?php echo PATH_DOCS . 'u2t1p2-audio.pdf'; ?>" target="_blank">rúbrica</a> con el que se evaluará tu ejercicio. </li>
   </ol>
-  <?php ob_start(); ?>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u2t1a2', "Audio", $ActividadContent);
+  renderActividad('u2a2', "Audio", $ActividadContent);
   ?>
 </section>
 

@@ -56,7 +56,7 @@ ob_start();
 
   <p>Ahora te invitamos a que cambies el modo de presentar el referente en los párrafos segundo, tercero, cuarto, quinto y sexto. Recuerda que debes mostrar los defectos que el producto tiene y el peligro que representa para los niños. Te recomendamos que hagas tu reescritura en el cuaderno. Luego que la hayas concluido, sube a la plataforma tu texto para que lo revise tu asesor(a).</p>
   <p><strong>Instrucciones:</strong></p>
-  <ol class="ol-number md:ml-32">
+  <ol class="ol-number">
     <li>Elabora en un procesador de textos, un escrito en el que cambies el modo de presentar el referente en los párrafos segundo, tercero, cuarto, quinto y sexto del texto que hemos leído, Baby H.P., de J. J. Arreola.</li>
     <li>Recuerda que debes mostrar los defectos que el producto tiene y el peligro que representa para los niños. Luego que la hayas concluido, sube a la plataforma tu texto para que lo revise tu asesor(a).</li>
     <li>Consulta la <a href="<?php echo PATH_DOCS . 'u1t2p1-rubrica-cambio-de-referente.pdf'; ?>" target="_blank">rúbrica</a> con el que se evaluará tu producto. </li>
@@ -65,7 +65,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t2a2', "Cambio de referente", $ActividadContent);
+    renderActividad('u1a3', "Cambio de referente", $ActividadContent);
     ?>
 </section>
 

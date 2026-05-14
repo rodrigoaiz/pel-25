@@ -12,9 +12,10 @@ ob_start();
 
   <p>En la producción de textos se debe tener en cuenta la <strong>paráfrasis</strong>, el <strong>resumen</strong> y las <strong>citas textuales</strong>, como ya se estudiaron en la segunda unidad. También la elaboración de un borrador de trabajo que permita hacer las correcciones adecuadas antes de entregarlo. Pero antes de esto, es necesario tener en claro cuál será el producto que elaboraremos en esta unidad.</p>
   <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32">
+  <?php ob_start(); ?>
+    <ol class="ol-number">
         <li>Ingresa al foro: <strong>Planificación del texto</strong> y responde a las siguientes preguntas.
-      <ol class="list-decimal list-inside space-y-2 pl-4 mb-6 text-gray-800">
+      <ol class="list-decimal list-inside  mb-6 text-gray-800">
         <li>¿Qué entiendes por <em>trabajo escolar</em>?</li>
         <li>¿Cuáles consideras que deban ser las características de un <em>trabajo escolar</em>?</li>
         <li>¿Qué temas se deben abordar en un <em>trabajo escolar</em>?</li>
@@ -26,10 +27,9 @@ ob_start();
         <li>Consulta la <a href="<?php echo PATH_DOCS . 'u3t1a5-rubrica-foro.pdf'; ?>" target="_blank">rúbrica</a> con el que se evaluará tu participación en el foro. </li>
     </ol>
 
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u3t1a2', "Foro: Planificación de textos", $ActividadContent);
+    renderActividad('u3a2', "Foro: Planificación de textos", $ActividadContent);
     ?>
   <p>Después de haber contestado las preguntas anteriores, lee el siguiente texto y reflexiona sobre tus respuestas.</p>
 
@@ -94,7 +94,7 @@ ob_start();
 
   <p>En esta unidad se propone revisar el tema del <strong>&ldquo;Calentamiento global&rdquo;</strong> como guía para distintas actividades, por lo que te pedimos leas con cuidado las siguientes preguntas y respondas lo más claro posible sin investigar nada; solamente trata de averiguar si tienes alguna idea del tema con base en las preguntas.</p>
 
-  <ol class="list-decimal list-inside space-y-2 pl-4 mb-4 text-gray-800">
+  <ol class="list-decimal list-inside  mb-4 text-gray-800">
     <li>¿Qué entiendes por Calentamiento global?</li>
     <li>¿Cómo contribuye la especie humana al Calentamiento global?</li>
     <li>¿Sabes quién es Al Gore?</li>

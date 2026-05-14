@@ -1,7 +1,7 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'ParaSaber.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -46,7 +46,7 @@ ob_start();
   <?php ob_start(); ?>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t2a3', "Identifica los referentes", $ActividadContent);
+  renderActividadH5P('u1-act2', "Identifica los referentes", $ActividadContent);
   ?>
 </section>
 

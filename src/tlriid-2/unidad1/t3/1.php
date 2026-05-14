@@ -13,6 +13,7 @@ ob_start();
 <section>
   <h2>Categorías gramaticales y el sentido</h2>
   <p>Las palabras, en nuestra lengua, tienen funciones especiales según la posición que ocupan en la oración. Así, el <strong>sustantivo</strong> nos permite nombrar personas, lugares, cosas, cualidades o fenómenos; el <strong>adjetivo</strong> determina y califica al sustantivo; el <strong>verbo</strong> es la parte de la oración que expresa acción, estado, tiempo y persona gramatical, mientras que el <strong>adverbio</strong> modifica al verbo, al adjetivo y al sustantivo. Los adverbios pueden ser de tiempo, lugar, modo, cantidad, etcétera. Desde luego, las categorías gramaticales sólo tienen sentido real en los diversos textos que se elaboran con fines concretos de comunicación.</p>
+
   <div class="max-w-2xl mx-auto">
     <?php
     renderImage('tlriid2-u1t3p1img1.webp');
@@ -166,14 +167,10 @@ ob_start();
   <h3 class="text-xl font-bold mt-8 mb-4">Conclusión:</h3>
   <p>Comprender el verbo, el sustantivo, el adjetivo y el adverbio es fundamental para comunicarnos de manera clara y precisa en lengua española. Cada uno cumple una función específica dentro de la oración: los <strong>sustantivos</strong> nombran, los <strong>verbos</strong> expresan acciones o estados, los <strong>adjetivos</strong> describen características y los <strong>adverbios</strong> modifican la manera en que se realizan las acciones o se describen cualidades.</p>
   <p>Manejar correctamente estos elementos no solo mejora nuestra expresión oral y escrita, sino que también fortalece nuestra comprensión lectora, ya que nos permite interpretar mejor la información y matices del lenguaje. Con práctica constante, podremos usar estas categorías gramaticales de manera natural y efectiva en cualquier contexto.</p>
-  <p><strong>Instrucciones:</strong></p>
-  <ol class="ol-number md:ml-32 mb-8">
-    <li>Coloca las palabras faltantes para que las definiciones sean correctas:</li>
-  </ol>
   <?php ob_start(); ?>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividadH5P('u1t3a1', "Categorías gramaticales", $ActividadContent);
+  renderActividadH5P('u1-act3', "Categorías gramaticales", $ActividadContent);
   ?>
 </section>
 
