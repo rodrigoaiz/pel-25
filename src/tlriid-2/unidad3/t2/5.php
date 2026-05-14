@@ -1,6 +1,7 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
+include PATH_INCLUDE . 'ActividadIframe.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -13,8 +14,8 @@ ob_start();
 
     <div class="my-6 border border-gray-300 rounded-lg overflow-hidden shadow-sm">
         <div class="bg-slate-700 px-6 py-4 text-white">
-            <h3 class="text-lg font-bold">El calentamiento global: ecologistas vs. corporativos</h3>
-            <p class="text-slate-300 text-sm mt-1">Polémica en torno de una amenaza</p>
+            <p class="text-xl text-white-own font-bold">El calentamiento global: ecologistas vs. corporativos</p>
+            <p class="text-slate-300 text-sm mt-1">Polémica en torno de una amenaza<sup>1</sup></p>
             <p class="text-slate-400 text-sm">Luis Felipe Gómez y Jorge Félix</p>
         </div>
         <div class="px-6 py-5 text-gray-700 space-y-4">
@@ -41,9 +42,36 @@ ob_start();
             <p>Además de la polémica científica, el tema está sumergido hasta el cuello en intereses políticos y económicos creados. Pero lo peor de todo es que, si bien la naturaleza ondulatoria o corpuscular de la luz no fue jamás una amenaza para nadie, los cambios climáticos regionales, provocados por el calentamiento global, sí lo son para todos.</p>
 
             <p>Sólo esperamos que el &ldquo;deslindamiento de responsabilidades&rdquo; en la cuestión del clima se resuelva antes de que sea tarde.</p>
+            <p class="border-t border-amber-200 pt-3 text-gray-500 italic font-sans"><sup>1</sup>Luis Felipe Gómez y Jorge Félix, “El calentamiento global: ecologistas vs. Corporativos. Polémica en torno de una amenaza” <em>en La jornada</em>, 28 de diciembre de 1998. http://www.jornada.unam.mx/1998/12/28/cien-polemica.html</p>
         </div>
     </div>
+    <p><strong>Instrucciones:</strong></p>
+    <ul class="ul-disc md:ml-32">
+        <li>Elabora las siguientes fichas, de acuerdo con su formato y subelas para que las revise tu asesor(a)
+            <ol class="ol-number">
+                <li>¿Cuál es la postura de los ecologistas? - Ficha mixta</li>
+                <li>¿Cuál es la postura de los Corporativos? - Ficha mixta</li>
+                <li>¿Cuál es tu opinión al respecto de la postura de los ecologistas? - Ficha de comentario</li>
+                <li>¿Cuál es tu opinión sobre la postura de los corporativos? - Ficha de comentario</li>
+            </ol>
+        </li>
+        <li>Consulta la <a href="<?php echo PATH_DOCS . 'u3t2a4-fichas-finales.pdf'; ?>" target="_blank">rúbrica</a> con la que se evaluará tu actividad. </li>
 
+    </ul>
+
+    <?php ob_start(); ?>
+    <?php
+    $ActividadContent = ob_get_clean();
+    renderActividad('u3t2a4', "Fichas finales", $ActividadContent);
+    ?>
+    <h3>Bibliografía</h3>
+    <ul class="space-y-2 text-sm text-gray-700">
+        <li>Baricco, A. (2005). <em>Seda</em>. Barcelona: Anagrama.</li>
+        <li>Caballero, J. (2002, 28 de noviembre). La poética de la fatalidad. <em>El país</em>. Recuperado de http://elpais.com/diario/2002/11/28/cultura/1038438009_850215.html (enero, 2012).</li>
+        <li>Garrido, A. (1996). <em>El texto narrativo</em>. Madrid: Síntesis.</li>
+        <li>Gracida, M. y Martínez G. (2007). <em>El quehacer de la escritura. Propuesta didáctica para la enseñanza de la redacción en el ámbito universitario</em>. México: UNAM.</li>
+        <li>Martínez, J. (2001). <em>La intertextualidad literaria</em>. Madrid: Cátedra.</li>
+    </ul>
 </section>
 
 <?php

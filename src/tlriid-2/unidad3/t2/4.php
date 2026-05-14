@@ -1,6 +1,7 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -8,6 +9,14 @@ ob_start();
 ?>
 <section>
     <h2>Fichas Mixta, de comentario, bibliográfica y textual</h2>
+
+    <div class="flex justify-center mt-6">
+        <div class="w-2/3">
+            <?php
+            renderImage('tlriid2-u3t2p4img1.webp');
+            ?>
+        </div>
+    </div>
 
     <!-- Ficha Mixta -->
     <div class="border-l-4 border-sky-500 bg-sky-500/10 rounded-r-lg shadow-md overflow-hidden mb-8 mt-6">
