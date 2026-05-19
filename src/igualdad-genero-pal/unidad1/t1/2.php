@@ -1,7 +1,6 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ImagenPie.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -9,14 +8,23 @@ ob_start();
 ?>
 <section>
     <h2>Perspectiva de género y cultura de igualdad</h2>
-    <div class="max-w-2xl mx-auto">
-        <?php
-        renderImage('iga1-img01.webp');
-        ?>
-    </div>
-    <h3>¡Te damos la bienvenida al aprendizaje 1 este curso!</h3>
-    <p>En las siguientes horas. Explorarás temas diversos y participarás en actividades diseñadas para enriquecer tu perspectiva. Este primer aprendizaje se enfocará en la perspectiva de género y la cultura de la igualdad.</p>
-    <p>Para comenzar, te invitamos a revisar el temario que hemos preparado para ti.</p>
+
+    <h3>¡Te damos la bienvenida a esta asignatura!</h3>
+    <p>El formato de este curso es autogestivo, por tal razón te hacemos las siguientes recomendaciones:</p>
+    <ul class="ul-disc">
+        <li>Administra tu tiempo y recursos para que cada sesión de estudio sea eficiente; tu presencia y atención plenas son fundamentales para un aprendizaje óptimo.</li>
+        <li>El tiempo sugerido de estudio por sesión es de aproximadamente dos horas y el avance esperado es de dos aprendizajes por semana.</li>
+        <li>Mantén a la mano tus herramientas de estudio, materiales y fuentes de consulta (cuaderno, blog de notas, glosarios de términos, videos).</li>
+        <li>Crea una carpeta donde guardes un respaldo de todas tus tareas y actividades (capturas de pantalla, archivos, etc.).</li>
+    </ul>
+
+    <p>Toma en cuenta que los contenidos de la asignatura podrían desafiar tu visión del mundo o la de otras personas a tu alrededor. Permítete analizar, reflexionar y cuestionar ideas o comportamientos que hasta hoy considerabas “normales”. El objetivo es promover la escucha activa con respeto a otras formas de pensar, sin generar controversia ni confrontaciones.</p>
+
+        <p class="font-bold">Presentación</p>
+
+        <p>En este primer aprendizaje conocerás conceptos esenciales que te servirán a lo largo de todo el curso; será un preámbulo a las temáticas que se desarrollarán con más detalle en cada unidad. La importancia de contar con fuentes confiables y verificables te proporcionará información sustentable a diferencia de opiniones o fuentes no confiables. Quizás ya habrás escuchado o usado en el habla coloquial varios de estos términos, sin embargo, no siempre están bien empleados o contextualizados (por ejemplo: la diferencia entre identidad y expresión de género; sexo y género; acoso y hostigamiento, entre otros).</p>
+        <p>A partir de la apropiación de conceptos como estos, no solo reconocerás acepciones nuevas, estarás usando un lenguaje enriquecido que te permita identificar y nombrar las desigualdades de género en distintos contextos de la vida diaria.</p>
+         <p>Al explorar las actividades diseñadas en este aprendizaje, encontrarás videos interactivos que te permitirán identificar conceptos básicos enfocados en la perspectiva de género y la cultura de la igualdad que te servirán a lo largo de todo el curso, fortalecerán tu formación integral como estudiante universitari@, como agente de cambio social y desarrollar un pensamiento crítico e informado.</p>
     <p><strong>¡Esperamos lo disfrutes!</strong></p>
     <p class="font-bold text-xl text-fuchsia-900">Propósitos</p>
     <ul class="ul-disc">
@@ -30,7 +38,6 @@ ob_start();
     <p>Asociar los conceptos básicos de la Igualdad de Género a partir de un juego lúdico en línea.</p>
     <p class="font-bold">Actitudinales:</p>
     <p>Desarrollar una pieza de opinión para poder valorar los conocimientos aprendidos.</p>
-    <p class="mt-10"> <span class="font-bold text-xl text-fuchsia-900">Tiempo |</span> 6 horas divididas en 3 sesiones</p>
     <table class="table-auto w-3/4 mx-auto text-neutral-200 bg-fuchsia-950 p-3 mt-8 rounded-lg">
         <thead>
             <tr>

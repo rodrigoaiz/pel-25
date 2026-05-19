@@ -3,38 +3,36 @@
   "terminoTema": "Aprendizaje",
   "asignatura": {
     "Unidad 1": {
-      "url": "/igualdad-genero/unidad1/t1/1.php",
+      "url": "/igualdad-genero-pal/unidad1/t1/1.php",
       "publicado": true,
       "nombre": "Unidad 1",
       "temas": [
-        {"nombre": "Perspectiva de género y cultura de igualdad", "url": "/igualdad-genero/unidad1/t1", "paginas": 6},
-        {"nombre": "La categoría de perspectiva de género como herramienta para estudiar la desigualdad", "url": "/igualdad-genero/unidad1/t2", "paginas": 8},
-        {"nombre": "Análisis de las relaciones de poder y campos de dominación desde la desigualdad de género", "url": "/igualdad-genero/unidad1/t3", "paginas": 9},
-        {"nombre": "Identificación y cuestionamiento de los presupuestos de la masculinidad tradicional ", "url": "/igualdad-genero/unidad1/t4", "paginas": 10},
-        {"nombre": "La importancia de construir una cultura de la igualdad ", "url": "/igualdad-genero/unidad1/t5", "paginas": 7},
-        {"nombre": "La noción de persona como fundamento de los derechos humanos ", "url": "/igualdad-genero/unidad1/t6", "paginas": 8}
+        {"nombre": "Perspectiva de género y cultura de igualdad", "url": "/igualdad-genero-pal/unidad1/t1", "paginas": 5},
+        {"nombre": "La categoría de perspectiva de género como herramienta para estudiar la desigualdad", "url": "/igualdad-genero-pal/unidad1/t2", "paginas": 8},
+        {"nombre": "Análisis de las relaciones de poder y campos de dominación desde la desigualdad de género", "url": "/igualdad-genero-pal/unidad1/t3", "paginas": 9},
+        {"nombre": "Identificación y cuestionamiento de los presupuestos de la masculinidad tradicional ", "url": "/igualdad-genero-pal/unidad1/t4", "paginas": 10},
+        {"nombre": "La importancia de construir una cultura de la igualdad ", "url": "/igualdad-genero-pal/unidad1/t5", "paginas": 7},
+        {"nombre": "La noción de persona como fundamento de los derechos humanos ", "url": "/igualdad-genero-pal/unidad1/t6", "paginas": 8}
       ]
     },
     "Unidad 2": {
-      "url": "/igualdad-genero/unidad2/t1/1.php",
+      "url": "/igualdad-genero-pal/unidad2/t1/1.php",
       "publicado": true,
       "nombre": "Unidad 2",
       "temas": [
-        {"nombre": "Violencia de género, sus características, ámbitos y forma de ejercerla como un problema de salud pública y de bienestar social", "url": "/igualdad-genero/unidad2/t1", "paginas": 12},
-        {"nombre": "Identificación de las concepciones y prácticas sociales dañinas asociadas al amor romántico para cuestionar y proponer alternativas", "url": "/igualdad-genero/unidad2/t2", "paginas": 6},
-        {"nombre": "Reconoce la violencia feminicida como la forma de expresión más extrema de la violencia de género para cuestionar y proponer alternativas", "url": "/igualdad-genero/unidad2/t3", "paginas": 12},
-        {"nombre": "Fortalecer actitudes y valores de responsabilidad, respeto y convivencia con los demás", "url": "/igualdad-genero/unidad2/t4", "paginas": 5}
+        {"nombre": "Violencia de género, sus características, ámbitos y forma de ejercerla como un problema de salud pública y de bienestar social", "url": "/igualdad-genero-pal/unidad2/t1", "paginas": 12},
+        {"nombre": "Identificación de las concepciones y prácticas sociales dañinas asociadas al amor romántico para cuestionar y proponer alternativas", "url": "/igualdad-genero-pal/unidad2/t2", "paginas": 6},
+        {"nombre": "Reconoce la violencia feminicida como la forma de expresión más extrema de la violencia de género para cuestionar y proponer alternativas", "url": "/igualdad-genero-pal/unidad2/t3", "paginas": 12},
+        {"nombre": "Fortalecer actitudes y valores de responsabilidad, respeto y convivencia con los demás", "url": "/igualdad-genero-pal/unidad2/t4", "paginas": 5}
       ]
     }
   },
   "actividades": {
     "u1t1a1": { "id": "1464", "moduleName": "quiz" },
-    "u1t1a2": { "id": "1467", "moduleName": "quiz" },
-    "u1t1a3": { "id": "1469", "moduleName": "assign" },
-    "u1t1a4": { "id": "1468", "moduleName": "assign" },
-    "u1t1a5": { "id": "1470", "moduleName": "quiz" },
 
     "u1t2a1": { "id": "1472", "moduleName": "feedback" },
+
+    
     "u1t2a2": { "id": "1473", "moduleName": "quiz" },
     "u1t2a3": { "id": "1474", "moduleName": "assign" },
     "u1t2a4": { "id": "1475", "moduleName": "assign" },

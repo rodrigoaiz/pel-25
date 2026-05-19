@@ -1,8 +1,7 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
-include PATH_INCLUDE . 'GeniallyIframe.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -11,14 +10,15 @@ ob_start();
 ?>
 <section>
   <h2>Bienvenidas y bienvenidos a la asignatura de Igualdad de Género</h2>
-  <?php renderGenially('66b51386c831a69fbbd7cb29') ?>
-  <p>A continuación, te pedimos que respondas el cuestionario diagnóstico. Su propósito es evaluar tus conocimientos previos sobre los temas y aprendizajes que adquirirás en la asignatura de Igualdad de Género. Los resultados permitirán a tu docente identificar y atender las necesidades específicas de tu grupo, además de contribuir al seguimiento que el Colegio realiza sobre la asignatura. Para procurar la precisión de los resultados, es importante que completes el examen sin asistencia externa y sin consultar fuentes digitales o impresas. El examen consta de 40 preguntas y su duración estimada es de 25 minutos.</p>
-  <?php ob_start(); ?>
-  <p>Elige la opción que consideres responde mejor a cada pregunta u oración. Este cuestionario es meramente informativo, responde con honestidad.</p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a1', "Cuestionario diagnóstico de la asignatura", $ActividadContent);
-  ?>
+  <div class="max-w-2xl mx-auto">
+    <?php
+    renderImage('iga1-img01.webp');
+    ?>
+  </div>
+  <p>Te damos la bienvenida al curso en línea PAL de <strong>Igualdad de género</strong>, un espacio formativo diseñado para que puedas acreditar la asignatura y, al mismo tiempo, reflexionar sobre temas fundamentales para tu vida personal y social. En este momento de tu educación media superior, comprender la igualdad de género te permitirá identificar situaciones de tu entorno, reconocer tus derechos y responsabilidades, y participar de manera más consciente y respetuosa en la comunidad en la que te desarrollas.</p>
+  <p>A lo largo de <strong>cinco semanas</strong>, revisarás diversos temas mediante actividades autocalificables que te ayudarán a reforzar tus conocimientos, así como otras actividades que serán evaluadas por un profesor o profesora asesora, quien te acompañará durante el curso. Te invitamos a organizar tu tiempo, participar de forma activa y aprovechar este espacio como una oportunidad para aprender, mejorar y avanzar en tu trayectoria académica.</p>
+  <p class="text-center font-bold text-fuchsia-900">¡Éxito en este proceso!</p>
+
 </section>
 <?php
 $content = ob_get_clean();

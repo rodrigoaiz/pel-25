@@ -11,7 +11,7 @@ ob_start();
 ?>
 <section>
     <h2>Orígenes del feminismo</h2>
-    <p>Te invitamos a revisar el siguiente video, en él harás un recorrido histórico desentrañando las diversas etapas y antecedentes que han moldeado este movimiento crucial. Así también explorarás cómo es que las ideas y acciones de mujeres visionarias han desafiado las normas establecidas, luchando incansablemente por la igualdad y la justicia. Descubrirás cómo el feminismo ha evolucionado, adaptándose a los desafíos de la época y cómo ha dejado una huella imborrable en la sociedad actual.</p>
+    <p>Te invitamos a revisar el siguiente video , en él harás un recorrido histórico desentrañando las diversas etapas y antecedentes que han moldeado este movimiento crucial. Así también explorarás cómo es que las ideas y acciones de mujeres visionarias han desafiado las normas establecidas, luchando incansablemente por la igualdad y la justicia. Descubrirás cómo el feminismo ha evolucionado, adaptándose a los desafíos de la época y cómo ha dejado una huella imborrable en la sociedad actual.</p>
     <p>Mientras ves el video identifica la siguiente información:</p>
     <ul class="ul-disc ml-20">
         <li>¿Cuándo surge el feminismo?</li>
@@ -26,11 +26,11 @@ ob_start();
         ?>
     </div>
     <?php ob_start(); ?>
-        <p>Al finalizar el video contesta las preguntas que se presentan:</p>
-        <?php
-        $ActividadContent = ob_get_clean();
-        renderActividad('u1t2a2', "Orígenes del feminismo", $ActividadContent);
-        ?>
+    <p>Al finalizar el video contesta las preguntas que se presentan. Elige la opción que consideres responde mejor a cada pregunta u oración.</p>
+    <?php
+    $ActividadContent = ob_get_clean();
+    renderActividad('u1t2a2', "Orígenes del feminismo", $ActividadContent);
+    ?>
 </section>
 <?php
 $content = ob_get_clean();
