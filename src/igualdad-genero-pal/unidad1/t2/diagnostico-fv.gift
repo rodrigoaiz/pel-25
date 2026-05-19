@@ -1,0 +1,34 @@
+::El feminismo es un movimiento social reciente.::Falso{
+    ~Verdadero
+    =Falso
+}
+
+::El feminismo es lo contrario al machismo.::Falso{
+    ~Verdadero
+    =Falso
+}
+
+::El feminismo busca la igualdad de derechos y oportunidades para las mujeres.::Verdadero{
+    =Verdadero
+    ~Falso
+}
+
+::El feminismo es plural y está conformado por una variedad de corrientes y/o enfoques.::Verdadero{
+    =Verdadero
+    ~Falso
+}
+
+::El feminismo ha generado confrontación y división entre hombres y mujeres.::Falso{
+    ~Verdadero
+    =Falso
+}
+
+::Las feministas del pasado se manifestaban sin recurrir a métodos violentos, a diferencia de las feministas actuales.::Falso{
+    ~Verdadero
+    =Falso
+}
+
+::El feminismo ya no tiene razón de ser porque en la actualidad las mujeres ya tienen los mismos derechos que los varones.::Falso{
+    ~Verdadero
+    =Falso
+}

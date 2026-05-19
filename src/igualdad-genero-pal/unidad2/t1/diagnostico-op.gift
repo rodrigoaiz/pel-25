@@ -1,0 +1,51 @@
+::ap7diagnosticop01::La violencia de género es una manifestación que evidencia la desigualdad de poder entre los géneros.{
+    ~Falso
+    =Verdadero
+}
+
+::ap7diagnosticop02::La violencia comunitaria se refiere a los actos u omisiones de los servidores públicos, lo que impide el goce de los derechos de las mujeres.{
+    =Falso
+    ~Verdadero
+}
+
+::ap7diagnosticop03::La violencia de género solo afecta a las mujeres.{
+    =Falso
+    ~Verdadero
+}
+
+::ap7diagnosticop04::¿Qué derechos se violan con la violencia de género?{
+    ~Los derechos que únicamente afectan las mujeres
+    ~Los derechos que establece cada país
+    =Los derechos humanos
+    ~Los derechos del trabajo y la libre asociación
+}
+
+::ap7diagnosticop05::La violencia simbólica ocurre cuando se ocupan símbolos religiosos para atacar a las mujeres.{
+    =Falso
+    ~Verdadero
+}
+
+::ap7diagnosticop06::La violencia de género es un tema del que deben ocuparse únicamente las mujeres.{
+    =Falso
+    ~Verdadero
+}
+
+::ap7diagnosticop07::La violencia obstétrica se manifiesta en la falta de acceso a servicios de salud reproductiva.{
+    ~Falso
+    =Verdadero
+}
+
+::ap7diagnosticop08::En el 2019 se publicó la Ley General de Acceso de las Mujeres a una Vida Libre de Violencia.{
+    =Falso
+    ~Verdadero
+}
+
+::ap7diagnosticop09::La violencia de género tiene diversas modalidades y tipos.{
+    ~Falso
+    =Verdadero
+}
+
+::ap7diagnosticop10::La violencia de género se refiere únicamente a la violencia física y psicológica.{
+    =Falso
+    ~Verdadero
+}
