@@ -15,7 +15,7 @@ ob_start();
     <p>En esta unidad estás aprendiendo a presentar a un familiar o amigo dando las características físicas o psicológicas. No olvides que para poder hacerlo tienes que saber usar correctamente los adjetivos posesivos, el vocabulario visto anteriormente y la conjugación de los verbos que ya conoces en tercera persona tanto del singular como del plural para poder hablar de él, de ella o de ellos o de ellas.</p>
     <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Lis le texte et réponds aux questions / Lee el texto y responde las preguntas.</li>
     </ol>
     <div class="flex justify-center gap-4 bg-rose-500/30 px-6 shadow-xl mb-10">
@@ -76,7 +76,7 @@ ob_start();
         ?>
     </div>
     <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Regarde la vidéo et remplis les trous avec les informations donnés. Fais attention à l'orthographe de mots (accents et aux majuscules et minuscules) / Mira el video y completa los espacios en blanco con la información dada. Ten cuidado con la ortografía de las palabras (acentos, mayúsculas y minúsculas).</li>
     </ol>
     <div class="max-w-xl mx-auto bg-cyan-200/80 p-4">

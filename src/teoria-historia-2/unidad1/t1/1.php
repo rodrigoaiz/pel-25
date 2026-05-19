@@ -8,6 +8,7 @@ include PATH_INCLUDE . 'Accordion.php';
 include PATH_INCLUDE . 'Tabs.php';
 include PATH_INCLUDE . 'ParaSaber.php';
 include PATH_INCLUDE . 'ImagenFullPleca.php';
+
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -35,7 +36,7 @@ ob_start();
 <?php ob_start(); ?>
 <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a1', "Cuestionario diagnóstico Unidad 1", $ActividadContent);
+  renderActividad('u1a1', "Cuestionario diagnóstico Unidad 1", $ActividadContent);
   ?>
 
 <h3>Instrucciones: </h3> 

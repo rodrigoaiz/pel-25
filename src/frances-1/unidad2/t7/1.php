@@ -124,7 +124,7 @@ ob_start();
 
     <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Glisse l'heure sur la montre ou sur le réveil qui indique cette heure-là. / Arrastra la hora al reloj o al despertador que muestre esa hora.</li>
     </ol>
     <?php
@@ -133,7 +133,7 @@ ob_start();
     ?>
     <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>À quelle heure… ? Regarde la vidéo et écris l'heure à laquelle les événements se produisent. / ¿A qué hora…? Mira el video y escribe la hora en la que suceden las cosas.</li>
     </ol>
     <?php

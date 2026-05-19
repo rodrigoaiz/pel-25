@@ -53,7 +53,7 @@ ob_start();
     </div>
     <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Regarde la vidéo suivante pour te donner une idée de la façon dont tu peux poser et répondre à des questions sur ta famille / Ve el siguiente video para darte una idea de cómo puedes preguntar y responder cosas sobre tu familia.</li>
     </ol>
     <div class="max-w-xl mx-auto bg-yellow-200/80 p-4">
@@ -68,7 +68,7 @@ ob_start();
     <p class="mt-10">Ahora vas a practicar cómo pedir información sobre la familia:</p>
     <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Glisse la bonne question pour obtenir les réponses données. Fais attention aux adjectifs possessifs et aux sujets des réponses / ¡Arrastra la pregunta que corresponda para conseguir estas respuestas! Fíjate bien en los adjetivos posesivos y en quién realiza la acción.</li>
     </ol>
     <?php
@@ -76,7 +76,7 @@ ob_start();
     renderActividadH5P('u3-act-7', "Demander des informations", $ActividadContent);
     ?>
     <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Lis le texte et complète avec l’activité qui correspond / Lee el texto y completa con la actividad que corresponde.</li>
     </ol>
     <?php ob_start(); ?>

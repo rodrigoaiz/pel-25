@@ -91,17 +91,17 @@ ob_start();
             http://www.jornada.unam.mx/2007/08/12/index.php?section=opinion&article=019a2pol</p>
     </div>
 
+    <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32">
+    <ol class="ol-number">
         <li>Elabora las fichas de resumen con las respuestas a las preguntas planteadas. </li>
         <li>Si no recuerdas cómo hacer una ficha de resumen, revisa el siguiente recurso: <a href="https://e1.portalacademico.cch.unam.mx/alumno/tlriid2/unidad3/fichasTrabajo/tiposFichas" target="_blank">Fichas de trabajo Fuente - Portal Académico del CCH</a></li>
         <li>Consulta la <a href="<?php echo PATH_DOCS . 'u3t2a3-archivo-fichas-de-resumen.pdf'; ?>" target="_blank">rúbrica</a> El calentamiento mexicano y global. </li>
     </ol>
 
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u3t2a3', "Fichas de resumen", $ActividadContent);
+    renderActividad('u3a3', "Fichas de resumen", $ActividadContent);
     ?>
 </section>
 

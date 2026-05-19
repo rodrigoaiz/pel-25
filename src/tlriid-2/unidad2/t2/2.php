@@ -75,13 +75,13 @@ ob_start();
     </div>
 
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Lee cada afirmación y selecciona la respuesta correcta.</li>
     </ol>
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u2t2a4', "El párrafo", $ActividadContent);
+    renderActividadH5P('u2-act2', "El párrafo", $ActividadContent);
     ?>
 </section>
 

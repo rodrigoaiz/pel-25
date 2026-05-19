@@ -66,7 +66,7 @@ ob_start();
   renderActividad('u2a2', "Foro | Ma date de naissance...", $ActividadContent);
   ?>
   <p class="mt-10"><strong>Instrucciones:</strong></p>
-  <ol class="ol-number md:ml-32">
+  <ol class="ol-number">
     <li>
       <p>Regarde la vidéo et choisis la bonne réponse / Mira el vídeo y elige la respuesta correcta.</p>
     </li>
@@ -84,7 +84,7 @@ ob_start();
   ?>
   <?php ob_start(); ?>
   <p class="mt-10"><strong>Instrucciones:</strong></p>
-  <ol class="ol-number md:ml-32">
+  <ol class="ol-number">
     <li>Regarde les dates de naissance de ces 5 chanteurs francophones / Descubre las fechas de nacimiento de estos 5 cantantes francófonos.</li>
     <li>Glisse les dates pour compléter le texte / Arrastra las fechas para completar el texto
       <ul class="list-disc">

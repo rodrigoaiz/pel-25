@@ -13,7 +13,7 @@ ob_start();
   <h3>Mi edad y mi fecha de nacimiento</h3>
   <p>En esta lección, aprenderás a decir tu edad y tu fecha de nacimiento. Realiza la siguiente actividad para practicar lo que acabamos de ver.</p>
   <p><strong>Instrucciones:</strong></p>
-  <ol class="ol-number md:ml-32">
+  <ol class="ol-number">
     <li>Lee la siguiente conversación y responde las preguntas.</li>
   </ol>
   <div class="flex flex-row justify-center gap-4">

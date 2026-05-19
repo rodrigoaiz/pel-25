@@ -23,7 +23,7 @@ ob_start();
 
   <p>Para realizar una paráfrasis es conveniente seguir cierto orden al momento de nuestra lectura analítica:</p>
 
-  <ol class="list-decimal list-inside space-y-2 pl-4 mb-6">
+  <ol class="list-decimal list-inside  mb-6">
     <li>Leer cuidadosamente el texto.</li>
     <li>Consultar en el diccionario palabras que no hayas entendido.</li>
     <li>Identificar el mensaje esencial.</li>

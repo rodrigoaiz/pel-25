@@ -2,7 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'ActividadH5P.php';
+include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'ParaSaber.php';
 include PATH_INCLUDE . 'Videos.php';
 
@@ -19,12 +19,11 @@ ob_start();
         ?>
     </div>
     <p>Cuando el narrador es un <strong>testigo</strong>, sólo sabemos lo que le han dicho; si el narrador es <strong>protagonista</strong> se puede decir que la información es de primera mano &ndash;aunque el punto de vista es fijo&ndash; porque participó en los acontecimientos directamente. Para ver de qué forma influye el tipo de narrador en el sentido del relato te invitamos a llevar a cabo las siguientes actividades:</p>
-
+    <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Lee con cuidado el relato, después cambia la voz narrativa, de la tercera a la primera persona, para crear un narrador protagonista.</li>
-        <li>Posteriormente, sube tu archivo a la plataforma para que sea revisado.</li>
-    </ol>
+
     <div class="my-6 max-w-3xl mx-auto">
         <div class="border-l-4 border-sky-500 bg-sky-500/10 rounded-r-lg shadow-md overflow-hidden mb-6">
             <div class="bg-sky-500 px-5 py-2">
@@ -65,10 +64,11 @@ ob_start();
             <p class="font-serif text-gray-700 italic">Mi amiga, la rana Jacinta, me dijo que quería ser una rana auténtica y por eso todos los días se esforzaba en ello...</p>
         </div>
     </div>
-    <?php ob_start(); ?>
+        <li>Posteriormente, sube tu archivo a la plataforma para que sea revisado.</li>
+    </ol>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u1t1a4', "Cambio de voz narrativa", $ActividadContent);
+    renderActividad('u1a2', "Cambio de voz narrativa", $ActividadContent);
     ?>
 </section>
 <?php ob_start(); ?>

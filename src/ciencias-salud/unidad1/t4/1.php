@@ -5,6 +5,7 @@ include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'Tabs.php';
 include PATH_INCLUDE . 'ImagenFullPleca.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -33,7 +34,7 @@ ob_start();
   <p>Para que refuerces los conceptos, completa el siguiente cuadro escribiendo el nombre del factor que corresponda a cada condicionante. </p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t4a1', "Condicionantes de la salud", $ActividadContent);
+  renderActividadH5P('u1a8', "Condicionantes de la salud", $ActividadContent);
   ?>
    
 </section>

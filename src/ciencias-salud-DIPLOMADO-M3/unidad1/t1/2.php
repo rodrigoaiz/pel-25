@@ -45,7 +45,7 @@ ob_start();
   <p>Además de la definición de enfermedad que da la OMS, otros autores la consideran como: según Claude Bernard biólogo y médico francés, la define como “una desviación de la fisiología normal”, Georges Canguilhem filósofo y médico francés en 1971 describe a la enfermedad como “el estado anormal (patológico), que predispone al organismo a un resultado adverso, dañino y susceptible de ser tratado”. Lenox afirma que la enfermedad “es un estado corporal y que tal estado recorta el valor de la vida en comparación al promedio de individuos de la misma clase” y Temple en 2001 dice que “la enfermedad es un estado que, al tomar lugar en un individuo incrementa el riesgo para consecuencias adversas”.</p>
 
   <p><strong>Instrucciones:</strong></p>
-  <ol class="ol-number md:ml-32 mb-8">
+  <ol class="ol-number mb-8">
     <li>Lee con atención los conceptos de SALUD y ENFERMEDAD que se muestran en seguida.</li>
     <li>Arrastra cada uno de los párrafos a la columna correspondiente en el cuadro.</li>
   </ol>

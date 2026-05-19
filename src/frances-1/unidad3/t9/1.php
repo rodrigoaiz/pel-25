@@ -16,7 +16,7 @@ ob_start();
     <p>Al describir o presentar a una persona, también es interesante poder decir cómo es su carácter. A continuación tienes un pequeño vocabulario que te puede ayudar a describir el carácter de la gente:</p>
 
     <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Regarde la vidéo et glisse les mots pour décrire le monsieur avant et après la rencontre avec la vieille dame. / Mira el vídeo y usa las palabras para describir al hombre antes y después de su encuentro con la anciana.</li>
     </ol>
     <div class="max-w-xl mx-auto bg-cyan-200/80 p-4">
@@ -31,7 +31,7 @@ ob_start();
     ?>
     <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>À partir de la vidéo, décrit les personnages. Glisse les mots pour compléter les phrases. / A partir del video, describe a los personajes. Arrastra las palabras para completar las frases.</li>
     </ol>
     <?php

@@ -15,7 +15,7 @@ ob_start();
   <p>En esta lección, aprenderás a decir tu nacionalidad.</p>
   <?php ob_start(); ?>
   <p><strong>Instrucciones:</strong></p>
-  <ol class="ol-number md:ml-32 mb-8">
+  <ol class="ol-number mb-8">
     <li>Regardez la vidéo suivante du début à la seconde 00:24 / Ve el siguiente vidéo desde el inicio hasta el segundo 00:24.</li>
     <li>Répondez aux questions suivantes / Responde las siguientes preguntas:</li>
   </ol>
@@ -53,7 +53,7 @@ ob_start();
     ?>
   </div>
   <p><strong>Instrucciones:</strong></p>
-  <ol class="ol-number md:ml-32 mb-8">
+  <ol class="ol-number mb-8">
     <li>En fonction de ce que vous avez observé, réalisez l'activité suivante / A partir de lo que observaste, haz la siguiente actividad.</li>
     <li>Complète avec le mot qui convient / Completa con la palabra correcta.</li>
   </ol>

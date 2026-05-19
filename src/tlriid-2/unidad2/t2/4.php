@@ -18,15 +18,15 @@ ob_start();
         </div>
     </div>
 
+    <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32">
+    <ol class="ol-number">
         <li>Responde a las siguientes preguntas de opción múltiple.</li>
     </ol>
 
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t2a6', "Examen final de la unidad 2", $ActividadContent);
+    renderActividad('u2a4', "Examen final de la unidad 2", $ActividadContent);
     ?>
     <h3>Bibliografía</h3>
     <ul class="space-y-2 text-sm text-gray-700">

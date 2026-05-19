@@ -36,7 +36,7 @@ ob_start();
     </div>
     <?php ob_start(); ?>
     <p><strong>Instructions:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Lis le texte ci-dessus et coche la réponse correcte / Lee el texto de arriba y marca la respuesta correcta.</li>
     </ol>
     <?php

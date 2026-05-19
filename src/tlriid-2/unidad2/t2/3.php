@@ -50,18 +50,18 @@ ob_start();
 
     <p>Luego que hayas terminado tus fichas, deberás escribir el borrador de tu comentario en una cuartilla, mismo que entregarás en su versión final al profesor(a).</p>
 
+    <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32">
+    <ol class="ol-number">
         <li>Deberás elegir un texto; puede ser un texto corto o un capítulo de libro, de preferencia cuento o novela.</li>
         <li>Posteriormente, elabora tus fichas y, finalmente, elabora tu comentario y súbelo a la plataforma.</li>
         <li>Envía la actividad para su evaluación. No olvides incluir tus datos personales.</li>
         <li>Consulta la <a href="<?php echo PATH_DOCS . 'u2t2a5-rubrica-comentario.pdf'; ?>" target="_blank">rúbrica</a> con el que se evaluará tu actividad. </li>
     </ol>
 
-    <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t2a5', "Comentario sobre un texto", $ActividadContent);
+    renderActividad('u2a3', "Comentario sobre un texto", $ActividadContent);
     ?>
 </section>
 

@@ -11,7 +11,7 @@ ob_start();
     <h2>Lección 3. Actividad de investigación</h2>
 
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>A continuación realiza la siguiente lectura, que te proporcionará información útil para el cierre de actividades de esta Unidad. </li>
         <li>Responde el cuestionario final, seleccionando VERDADERO o FALSO.</li>
     </ol>

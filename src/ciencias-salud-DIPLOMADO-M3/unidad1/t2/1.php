@@ -64,7 +64,7 @@ ob_start();
 
   <p><strong>Instrucciones:</strong></p>
   <p>Participa en el siguiente foro expresando tu opinión sobre los dos puntos que se presentan. Posteriormente, comenta de manera respetuosa las participaciones de dos de tus compañeros.</p>
-  <ol class="ol-number md:ml-32 mb-8">
+  <ol class="ol-number mb-8">
     <li>En el contexto actual de nuestro país, ¿cuáles consideras que son los principales factores de riesgo para la salud?</li>
     <li>¿Qué medidas podrían ponerse en práctica para mejorar el acceso a servicios de salud para la población en general?</li>
   </ol>

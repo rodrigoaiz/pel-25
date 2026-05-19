@@ -327,7 +327,7 @@ ob_start();
     <p class="mt-10">Es momento de practicar lo aprendido, resuelve el siguiente ejercicio.</p>
     <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Regarde cette vidéo et coche la réponse correcte / Mira este video y marca la respuesta correcta.</li>
     </ol>
     <div class="max-w-xl mx-auto bg-violet-700/40 p-4 mb-8">
@@ -414,7 +414,7 @@ ob_start();
     <p class="mt-10">Repasemos algunos elementos importantes.</p>
     <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Écris le verbe entre parenthèses conjugué au présent. Fais attention au sujet de la phrase. (Attention aux majuscules et au minuscules, à l'orthographe et aux accents) : / Escribe el verbo entre paréntesis conjugado en presente. Ten cuidado con el sujeto de la oración. (Presta atención a las mayúsculas y minúsculas, la ortografía y los acentos).</li>
     </ol>
     <?php

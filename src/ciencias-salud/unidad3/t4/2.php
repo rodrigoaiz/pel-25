@@ -1,7 +1,7 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'Videos.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -70,17 +70,18 @@ ob_start();
       <p>Los factores ambientales juegan un papel importante en la salud integral de las personas. Se conoce como <b>micro ambiental</b> cuando es cercano o inmediato como la casa, la escuela, el trabajo, etc., refiriéndose a la calidad del aire en el interior de los inmuebles, acceso al agua potable, viviendas adecuadas, seguridad laboral, acceso a la atención médica, educación y transporte. La salud <b>macro ambiental</b> tiene relación con lo social, económico y político ya sea nacional, regional o mundial, incluyendo, la calidad del aire y el agua exterior, condiciones climáticas, sostenibilidad y uso de los recursos, políticas de salud pública, desarrollo económico y la seguridad laboral.</p>
 
       <p>Podemos concluir que tanto el bienestar físico, mental, emocional, social y espiritual, así como el medioambiental permiten a las personas llevar una vida equilibrada, plena, satisfactoria y significativa, contribuyendo a una buena calidad de vida teniendo la capacidad de enfrentar y resolver los desafíos de la vida cotidiana, mediante la prevención, la promoción de estilos de vida saludable y el uso de prácticas médicas clásicas y alternativas.</p>
-
+  <div class="max-w-lg mx-auto">
       <?php
         renderVideoIframe('elflI3vNmK4', ' Mi derecho a una salud integral');
       ?>
+  </div>
 
   
   <?php ob_start(); ?>
   <p>Lee cuidadosamente la siguiente lectura y complétala con las palabras que se encuentran en la lista. Ten cuidado con la ortografía. </p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t4a2', "completa la lectura", $ActividadContent);
+  renderActividadH5P('u3a3', "Completa la lectura", $ActividadContent);
   ?>
 
 </section>

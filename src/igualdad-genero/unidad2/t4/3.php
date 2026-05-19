@@ -16,7 +16,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Identificar los elementos de la sana convivencia.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32">
+    <ol class="ol-number">
         <li>Con base en la información del <a href="<?php echo PATH_DOCS . 'u2t10-EticaDG.pdf'; ?>" target="_blank">Código de Ética y Equidad de Género para Estudiantes del Colegio (CCH,2025)</a> identifica los elementos de una sana convivencia.
         </li>
         <li>Con estos contenidos elabora una infografía que contenga las siguientes secciones:

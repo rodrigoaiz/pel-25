@@ -22,7 +22,7 @@ ob_start();
   <p>Para que puedas conocer cuánto sabes del tema, resuelve el siguiente cuestionario. Lee cuidadosamente las preguntas y selecciona la letra que corresponda a la respuesta correcta.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a1', "Cuestionario de autoevaluación diagnóstico Unidad I", $ActividadContent);
+  renderActividad('u1a1', "Cuestionario de autoevaluación diagnóstico Unidad I", $ActividadContent);
   ?>
 </section>
 <?php

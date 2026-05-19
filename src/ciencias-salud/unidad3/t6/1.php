@@ -85,38 +85,43 @@ ob_start();
     <li>Poner la palma de la mano hacia la cámara y doblar el pulgar sobre esta.</li>
     <li>Cerrar los dedos sobre el pulgar.</li>
   </ol>
+  <div class="max-w-lg mx-auto">
+    <?php
+    renderVideoIframe('3p4M2RWhycE', 'El gesto contra la violencia de género que puede salvarte la vida');
+    ?>
+  </div>
 
-  <?php
-  renderVideoIframe('3p4M2RWhycE', 'El gesto contra la violencia de género que puede salvarte la vida');
-  ?>
-
-  <?php ob_start(); ?>
   <p>A continuación encontrarás algunos artículos relacionados con los factores de riesgo biológicos, psicológicos y sociales que te ayudarán a comprender y ampliar tus conocimientos sobre el tema.</p>
+  <ul class="ul-disc">
+    <li><a href="https://www.comoves.unam.mx/numeros/articulo/17/los-rostros-de-la-violencia" target="_blank">Los rostros de la violencia</a></li>
+    <li><a href="https://www.comoves.unam.mx/numeros/articulo/143/maltrato-la-violencia-de-todos-los-dias" target="_blank">Maltrato: La violencia de todos los días</a></li>
+    <li><a href="https://www.comoves.unam.mx/numeros/articulo/177/el-cerebro-adicto" target="_blank">El cerebro adicto</a></li>
+    <li><a href="https://www.comoves.unam.mx/numeros/articulo/226/suicidio-jovenes-en-riesgo" target="_blank">Suicidio: jóvenes en riesgo</a></li>
+  </ul>
+
+
+  <?php ob_start(); ?>
+  <p>Al concluir la Unidad, participa en el foro de discusión con tus compañeros, iniciando a partir de las siguientes preguntas generadoras, en las que podrás exponer tus opiniones con respecto a los temas tratados en esta unidad y que te aportó para tu vida. Recuerda que debes ser respetuoso de las opiniones de los demás, aun cuando no estés de acuerdo con ellas.</p>
+  <h3>Preguntas generadoras</h3>
+  <p>Desde tu punto de vista:</p>
+  <ul class="ul-disc">
+    <li>¿Explica cómo y cuál de los temas que se trataron en esta Unidad, te permitieron reflexionar con respecto a tu vida?</li>
+    <li>¿De acuerdo a tu experiencia menciona cuáles son los factores de riesgo que intervienen en tu salud integral?</li>
+    <li>¿Cómo calificas tu capacidad de resiliencia cuando te enfrentas a los problemas cotidianos?</li>
+    <li>¿Qué aportaciones a tu vida te dejaron los temas tratados en esta Unidad?</li>
+  </ul>
+  <p>Comenta la participación de tus compañeros.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t6a1', "Artículo", $ActividadContent);
+  renderActividad('u3a4', "Foro de discusión", $ActividadContent);
   ?>
 
   <?php ob_start(); ?>
-  <p>Al concluir la Unidad, participa en el foro de discusión con tus compañeros, iniciando a partir de las siguientes preguntas generadoras, en las que podrás exponer tus opiniones con respecto a los temas tratados en esta unidad y que te aportó para tu vida. Recuerda que debes ser respetuoso de las opiniones de los demás, aun cuando no estés de acuerdo con ellas.
-</p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u3t6a2', "Foro de discusión", $ActividadContent);
-  ?>
+  <p>Para que puedas conocer cuánto aprendiste del tema, resuelve el siguiente cuestionario, para lo cual lee cuidadosamente las preguntas y selecciona la letra que corresponda a la respuesta correcta.</p>
 
-  <?php ob_start(); ?>
-  <p>Para que puedas conocer cuánto aprendiste del tema, resuelve el siguiente cuestionario, para lo cual lee cuidadosamente las preguntas y selecciona la letra que corresponda a la respuesta correcta.
-</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t6a3', "Cuestionario de autoevaluación final Unidad III", $ActividadContent);
-  ?>
-
-  <?php ob_start(); ?>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u3t6a4', "Bibliografía", $ActividadContent);
+  renderActividad('u3a5', "Cuestionario de autoevaluación final Unidad III", $ActividadContent);
   ?>
 
   

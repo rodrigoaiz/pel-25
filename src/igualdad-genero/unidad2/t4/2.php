@@ -20,7 +20,7 @@ ob_start();
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
     <p>Identificar las acciones que promueven la sana convivencia del entorno escolar.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32">
+    <ol class="ol-number">
         <li>En el siguiente foro, contesta las siguientes preguntas:
             <ul class="ul-disc ml-10">
                 <li>¿Qué acciones identificas en tu plantel fomentan el respeto y la convivencia?</li>
@@ -31,7 +31,7 @@ ob_start();
 
     <p>A partir de las lecturas <a href="<?php echo PATH_DOCS . 'u2t10-lectura_SororidadQueEsEso.pdf'; ?>" target="_blank">"Sororidad ¿qué es eso?"</a> y <a href="<?php echo PATH_DOCS . 'u2t10-lectura_NoTodosLosHombresComoHagoParaSerUnVatoEnDeconstruccion.pdf'; ?>" target="_blank">"¡No todos los hombres!..."</a>, identifica conductas masculinizadas en tu contexto y propón alternativas desde la nueva masculinidad.</p>
     <p>Según la <a href="<?php echo PATH_DOCS . 'u2t10-lectura_CartillaLGBTIQmas.pdf'; ?>" target="_blank">Cartilla LGBTIQ+</a>, ¿qué buenas prácticas aplicas y cuáles debes reforzar? Propón cómo hacerlo.</p>
-    <ol class="ol-number md:ml-32">
+    <ol class="ol-number">
         <li>Comenta al menos dos respuestas de tus compañeros, enriqueciendo el diálogo.</li>
         <li>Sube un archivo PDF con tus respuestas extensas y comentarios, nombrado: Nombre_Apellido_ForoConvivencia.pdf</li>
         <li>Revisa la <a href="<?php echo PATH_DOCS . 'u2t10-lectura_CartillaLGBTIQmas.pdf'; ?>" target="_blank">rúbrica</a> de evaluación única para esta actividad.</li>

@@ -29,7 +29,7 @@ ob_start();
     </div>
     <p>Después de haber visto el video sobre qué es la paz, te pedimos que participes en el siguiente foro de discusión.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32">
+    <ol class="ol-number">
         <li>Te pedimos que generes una imagen propia de lo que para ti representa la paz.</li>
         <li>Súbela al foro y explica brevemente tu imagen.</li>
         <li>Revisa al menos dos imágenes de tus compañeros y dales una opinión.</li>
@@ -41,7 +41,7 @@ ob_start();
     ?>
     <p>Para terminar esta fase, contesta la siguiente encuesta. Te recordamos que no hay respuestas correctas o incorrectas, solo se honesto y honesta.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32">
+    <ol class="ol-number">
         <li>Descarga el formato: <a href="<?php echo PATH_DOCS . 'act-4-encuesta-que-entendemos-por-paz.docx'; ?>" target="_blank">act-4-encuesta-que-entendemos-por-paz</a>.</li>
         <li>Responde las preguntas de la tabla.</li>
         <li>Guarda tu archivo y súbelo.</li>

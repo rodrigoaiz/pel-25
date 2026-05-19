@@ -14,7 +14,7 @@ ob_start();
     <p>Para describir a una persona, necesitamos decir cómo es físicamente: si es alta o bajita, su color de ojos y de cabello, etc. </p>
     <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Lis le texte et fais glisser les mots pour compléter les phrases qui te donneront des indications sur la façon de faire une description physique / Lee el texto y arrastra las palabras para completar las frases que te van a dar indicaciones de como hacer una descripción física.</li>
     </ol>
     <div class="bg-sky-700/20 px-8 py-4 my-6 shadow-xl">

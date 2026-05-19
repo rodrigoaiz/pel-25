@@ -19,7 +19,7 @@ ob_start();
     <p>A continuación y antes de iniciar el estudio de esta primera unidad, te solicitamos que contestes, con toda honestidad, el siguiente cuestionario inicial. Es importante que lo hagas para que, al finalizar esta unidad puedas constatar tus avances en esta materia.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u3t1a1', "Cuestionario diagnóstico de autoevaluación. Unidad 1 ", $ActividadContent);
+  renderActividad('u3a1', "Cuestionario diagnóstico de autoevaluación. Unidad 1 ", $ActividadContent);
   ?>
   <p><b>Instrucciones:</b> Lee con atención la información que te brindamos a continuación. Te permitirá ubicar el ambiente que rodea al surgimiento de las corrientes que te presentamos. Cuando veas una palabra resaltada en <b style="color: red">color rojo</b>, dale clic para obtener más información sobre ella. Esperamos que este primer recorrido sea tan interesante para ti como lo fue para nosotros.</p>
 

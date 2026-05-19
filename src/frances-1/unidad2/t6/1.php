@@ -15,7 +15,7 @@ ob_start();
     <p>Nuestro horario de clase incluye materias que nos gustan mucho, y otras que no tanto. Ve el siguiente vídeo y realiza las actividades siguientes.</p>
     <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Regarde la vidéo et trouve la réponse correcte. / Mira el video y encuentra la respuesta correcta.</li>
         <li>Fais glisser le mot à l'endroit correct dans la phrase / Arrastra la palabra al lugar correcto en la frase.</li>
     </ol>
@@ -101,7 +101,7 @@ ob_start();
     </table>
     <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>En te basant sur les informations de ce tableau, réponds à l'activité suivante. / Con base en la información de este cuadro, responde la siguiente actividad.</li>
         <li>Observe ces phrases et fais l'activité suivante. Attention à l'emploi de minuscules, mayuscules et signes de ponctuation. / Observa estas frases y realiza la siguiente actividad. Ten cuidado con el uso de minúsculas, mayúsculas y signos de puntuación.</li>
     </ol>
@@ -113,7 +113,7 @@ ob_start();
 
     <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Écris la conjugaison correcte des verbes entre parenthèses. Attention aux accents et aux apostrophes. / Escribe la conjugación correcta de los verbos entre paréntesis. Ten cuidado con los acentos y las comillas (apóstrofes).</li>
     </ol>
     <?php
@@ -122,7 +122,7 @@ ob_start();
     ?>
     <?php ob_start(); ?>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number md:ml-32 mb-8">
+    <ol class="ol-number mb-8">
         <li>Relie chaque phrase avec la matière correcte. / Une cada frase con la asignatura correcta.</li>
     </ol>
     <?php
