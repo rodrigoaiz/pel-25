@@ -24,6 +24,7 @@ ob_start();
                 <li class="leading-none">Idea central</li>
                 <li class="leading-none">Ideas secundarias</li>
                 <li class="leading-none">Imágenes</li>
+            </ul>
         </li>
         <li>Suban su mapa en formato <strong>.PDF</strong>, nombrado de la siguiente manera: <em>Nombre_Apellido_MapaMental</em>.</li>
         <li>Revisen que su mapa cumpla con los elementos especificados en la <a href="<?php echo PATH_DOCS . 'u1t2-lista-cotejo-mapa-mental-perspectiva-de-genero.pdf'; ?>" target="_blank">lista de cotejo</a>.</li>
