@@ -61,15 +61,15 @@ Las preguntas pueden incluir retroalimentación (feedback) específica para cada
 ### Retroalimentación en Preguntas de Verdadero/Falso
 
 **IMPORTANTE**: En preguntas de Verdadero/Falso, `T` o `F` indica la respuesta correcta:
-- La **primera línea** (`T#` o `F#`) es el feedback cuando el usuario **selecciona esa opción** (Verdadero o Falso)
-- La **segunda línea** (solo `#`) es el feedback cuando el usuario **selecciona la opción contraria**
+- La **primera línea** (`T#` o `F#`) es el feedback para la **opción CONTRARIA** a la indicada (INCORRECTO)
+- La **segunda línea** (solo `#`) es el feedback para la **opción indicada** (CORRECTO)
 
 **Si la respuesta correcta es Verdadero**, usa `T`:
 
 ```
 ::titulo::Pregunta de verdadero o falso{
-T#Retroalimentación cuando el usuario selecciona Verdadero (CORRECTO)
-#Retroalimentación cuando el usuario selecciona Falso (INCORRECTO)
+T#Retroalimentación cuando el usuario selecciona Falso (INCORRECTO)
+#Retroalimentación cuando el usuario selecciona Verdadero (CORRECTO)
 }
 ```
 
@@ -77,8 +77,8 @@ T#Retroalimentación cuando el usuario selecciona Verdadero (CORRECTO)
 
 ```
 ::titulo::Pregunta de verdadero o falso{
-F#Retroalimentación cuando el usuario selecciona Falso (CORRECTO)
-#Retroalimentación cuando el usuario selecciona Verdadero (INCORRECTO)
+F#Retroalimentación cuando el usuario selecciona Verdadero (INCORRECTO)
+#Retroalimentación cuando el usuario selecciona Falso (CORRECTO)
 }
 ```
 
@@ -89,8 +89,8 @@ Pregunta: "Generalmente, cuando alguien se encuentra con otra persona que no pue
 
 ```
 ::ejemplo-p01::Generalmente, cuando alguien se encuentra con otra persona que no puede identificar como hombre o mujer siente incomodidad o hasta rechazo{
-T#Correcto. Desafortunadamente cuando una persona no puede identificar a otra bajo un concepto de hombre o mujer, además de sentirse incómoda, rechaza lo que no conoce.
-#Vuelve a intentar. Lo ideal sería que aceptáramos y respetáramos la forma de vida de las personas sin estereotiparles.
+T#Vuelve a intentar. Lo ideal sería que aceptáramos y respetáramos la forma de vida de las personas sin estereotiparles.
+#Correcto. Desafortunadamente cuando una persona no puede identificar a otra bajo un concepto de hombre o mujer, además de sentirse incómoda, rechaza lo que no conoce.
 }
 ```
 
