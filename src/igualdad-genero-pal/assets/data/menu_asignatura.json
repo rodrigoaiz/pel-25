@@ -29,8 +29,12 @@
   },
   "actividades": {
     "u1t1a1": { "id": "1464", "moduleName": "quiz" },
+    "u1t1a2": { "id": "1465", "moduleName": "quiz" },
 
     "u1t2a1": { "id": "1472", "moduleName": "feedback" },
+
+
+
 
     
     "u1t2a2": { "id": "1473", "moduleName": "quiz" },

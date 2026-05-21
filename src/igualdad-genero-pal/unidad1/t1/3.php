@@ -1,7 +1,8 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadH5P.php';
+include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'Videos.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -11,18 +12,29 @@ ob_start();
 <section>
   <h2>Conceptos básicos de igualdad género</h2>
   <p>Para profundizar en el entendimiento de la igualdad de género, es fundamental familiarizarse con ciertos conceptos clave. Algunos te resultarán conocidos, mientras que otros podrían ser nuevos.</p>
-
   <p><strong>Instrucciones:</strong></p>
   <ol class="ol-number mb-8">
     <li>Te proponemos ver los siguientes videos.</li>
-    <li>A medida que los veas, contesta cada una de las preguntas que te proponen, toma nota de los términos que te llamen la atención o que desconozcas.</li>
+    <li>Una vez que los hayas visto, contesta cada una de las preguntas del ejercicio, toma nota de los términos que te llamen la atención o que desconozcas.</li>
   </ol>
+  <div class="xl:grid grid-cols-2 gap-5">
+    <?php
+    renderVideoIframe('nWKkJ8bjTW4', 'Capítulo 1. Sexo y género');
+    renderVideoIframe('3M0NwHvpO8Q', 'Capítulo 2. ¿Biología o cultura? (Identidad, prejuicios de género, sexismo, transversalidad)');
+    ?>
+  </div>
+  <div class="xl:grid grid-cols-2 gap-5">
+    <?php
+    renderVideoIframe('q6NCWaFVj7s', 'Capítulo 3. Diferencias y desigualdades entre mujeres y hombres (roles y estereotipos de género)');
+    renderVideoIframe('cWjQjvXQwpA', 'Capítulo 4. Género y exclusión (sistema sexo-género, expresión e identidad de género, orientación sexual, heteronorma, intersexualidad, diversidades sexo-genéricas, homofobia)');
+    ?>
+  </div>
   <?php ob_start(); ?>
+  <p>Elige la respuesta correcta</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividadH5P('u1-act1', "Dibujando el género", $ActividadContent);
+  renderActividad('u1t1a1', "Dibujando el género", $ActividadContent);
   ?>
-
   <p>Ahora que terminaste de ver los videos y responder las preguntas, consulta los siguientes documentos para aclarar dudas y conocer los "Conceptos básicos". Si consideras necesario, toma nota en tu cuaderno de las definiciones que te ayudarán a resolver tu evaluación final.</p>
   <div class="md:grid grid-cols-3 gap-4">
     <div class="bg-purple-300 text-center text-lg leading-6 p-2 rounded-lg">
