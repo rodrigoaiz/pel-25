@@ -8,50 +8,38 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h2>¡Te damos la bienvenida al aprendizaje 3!</h2>
-  <div class="max-2xl mx-auto">
+  <h2>¡Te damos la bienvenida a los aprendizajes 3 y 4!</h2>
+  <div class="max-md mx-auto">
     <?php
-    renderImage('iga3-img01.webp');
+    renderImage('iga3-img02.webp');
     ?>
   </div>
-  <p>En este apartado explorarás las relaciones de poder a fin de buscar formas de fomentar la igualdad de género. También abordarás conceptos clave como el machismo y el <i>mansplaining</i>. También analizarás casos para desarrollar tus habilidades críticas y propositivas hacia la igualdad de género.</p>
-  <h3>Propósito</h3>
-  <p>Comprenderás 	las relaciones de poder al identificar la diversidad de campos de denominación desde la desigualdad de género para proponer soluciones igualitarias e inclusivas.</p>
-  <h3>Contenidos</h3>
+  <p>En este bloque de aprendizajes analizarás las relaciones de poder y los campos de dominación desde la desigualdad de género, al mismo tiempo que identificarás y cuestionarás los presupuestos de la masculinidad tradicional. La intención es que entiendas y reflexiones cómo se producen y reproducen las desigualdades de género en la vida cotidiana a través de las relaciones de poder. A través de los conceptos clave de campos de dominación y capital reflexionarás cómo es que las mujeres enfrentan obstáculos para desarrollarse plenamente en ámbitos públicos como el académico y el profesional.</p>
+  <p>Asimismo, explorarás la masculinidad tradicional, sus pilares y mandatos con el propósito de reconocer sus efectos en las relaciones sociales y en la construcción de identidades. Te invitamos a cuestionar esta masculinidad tradicional con base en las herramientas teórico-metodológicas como la caja de la masculinidad, los machismos cotidianos y la triada de la violencia con la intención de abrir la posibilidad de pensar formas más justas, equitativas y alternativas de ser hombre, para contribuir a tener vidas libres de violencia.</p>
+  <p>Las actividades y materiales que encontrarás en esta sección están pensados para que puedas trabajar con ellos de forma autogestiva, es decir, a tu ritmo y sin ayuda de un docente.</p>
+  <p class="font-bold text-xl text-fuchsia-900">Propósitos</p>
+  <p><strong>Aprendizaje 3</strong>. Comprenderás las relaciones de poder al identificar la diversidad de campos de denominación desde la desigualdad de género para proponer soluciones igualitarias e inclusivas.</p>
+  <p><strong>Aprendizaje 4</strong>. Lograrás identificar y cuestionar algunos de los presupuestos de la masculinidad tradicional.</p>
+  <p class="font-bold text-xl text-fuchsia-900">Contenidos</p>
+  <p><strong>Declarativos</strong>
   <ul class="ul-disc">
-    <li><strong>Declarativos</strong><br>
-    Comprenderás conceptos clave relacionados con las relaciones de poder, el patriarcado y los micromachismos, identificando sus manifestaciones en la sociedad actual y su impacto en la desigualdad de género.
-    </li>
-    <li><strong>Procedimentales</strong><br>
-    Desarrollarás habilidades para analizar casos problemáticos, identificar relaciones de poder y proponer soluciones, utilizando herramientas como la discusión en grupos y la elaboración de propuestas.
-    </li>
-    <li><strong>Actitudinales</strong><br>
-    Promoverás la empatía, el espíritu crítico y el compromiso con la equidad de género, fomentando actitudes de respeto, igualdad y solidaridad hacia todas las personas, independientemente de su género. 
-    </li>
+    <li>Poder</li>
+    <li>Relaciones de poder</li>
+    <li>Campos de denominación</li>
+    <li>Capital</li>
+    <li>Desigualdad de género</li>
+    <li>Masculinidad tradicional o hegemónica</li>
+    <li>Machismos cotidianos</li>
+    <li>Caja de la masculinidad</li>
+    <li>Triada de la violencia</li>
   </ul>
-
-  <p>En este aprendizaje reflexionarás en torno a los siguientes conceptos clave:</p>
-
-  <ol class="ol-number">
-    <li><strong>Relación de poder:</strong> Vínculo social en el que una persona, grupo o institución influye o condiciona las acciones, pensamientos o decisiones de otra. El poder puede manifestarse en autoridad, persuasión o acceso a recursos.  
-Ejemplo: En una clase, el maestro decide qué temas se estudiarán y cómo se evaluará a los estudiantes, condicionando su aprendizaje.</li>
-    <li><strong>Campos de dominación:</strong> Espacios sociales donde se organizan y distribuyen las relaciones de poder, con jerarquías, normas y posiciones que determinan quién tiene más influencia.<br>
-    <strong>Ejemplo:</strong> En la familia, los padres suelen tener autoridad para tomar decisiones importantes, mientras que los hijos deben acatar normas.
-    <li><strong>Tipos de capital</strong><br>
-    <strong>Definición:</strong> Recursos que las personas poseen y que les permiten obtener ventajas o poder dentro de un campo social.</li>
-    <ul class="ul-disc">
-      <li><strong>Capital económico:</strong> dinero o bienes materiales.</li>
-      <li><strong>Capital cultural:</strong> educación, habilidades o títulos académicos.</li>
-      <li><strong>Capital social:</strong> redes de contactos o relaciones de confianza.</li>
-      <li><strong>Capital simbólico:</strong> prestigio o reconocimiento social.</li>
-    </ul>
-  </li><br>
-  <strong>Ejemplo:</strong> Una persona con un título universitario (capital cultural), buenas conexiones laborales (capital social) y reputación profesional (capital simbólico) tiene más posibilidades de acceder a un buen empleo.
-  <li><strong>Micromachismos (o machismos cotidianos):</strong> Prácticas sutiles y normalizadas mediante las cuales los hombres ejercen control o dominio sobre las mujeres en la vida diaria, reforzando la desigualdad de género.</li><br>
-    <strong>Ejemplo:</strong> En una reunión de trabajo, un hombre interrumpe constantemente a una colega, minimizando su participación, mientras todos los demás lo permiten. 
-  </ol>
-
-  <p><strong>Tiempo:</strong> 6 horas divididas en 3 sesiones</p>
+  </p>
+  <p><strong>Procedimentales</strong><br>
+    Desarrollarás habilidades para identificar relaciones de poder y detectar los elementos de las masculinidades que obstaculizan, impiden o favorecen el desarrollo de las mujeres, otros hombres, infancias, diversidades y disidencias sexo-genéricas. Con esa información, analizarás casos problemáticos para argumentar y cuestionar las masculinidades tradicional o hegemónica y los campos de dominación que generan la desigualdad para proponer soluciones que favorezcan ambientes de igualdad, respeto, tolerancia y convivencia.
+  </p>
+  <p><strong>Actitudinales</strong><br>
+    Promoverás la responsabilidad, la empatía, el espíritu crítico para demostrar respeto por la diversidad de ideas y compromiso con los derechos humanos, la equidad de género, la igualdad y la solidaridad hacia todas las personas, independientemente de su género.
+  </p>
 </section>
 <?php
 $content = ob_get_clean();

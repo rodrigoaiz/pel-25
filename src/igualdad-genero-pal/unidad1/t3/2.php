@@ -1,8 +1,6 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -10,36 +8,24 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h2>Diagnóstico: Relaciones de poder en la vida cotidiana</h2>
+  <h2>Diagnóstico: ¿Qué sabes sobre las relaciones de poder y la masculinidad? </h2>
   <p>Las relaciones de poder son dinámicas sociales complejas que se manifiestan en todas las interacciones humanas. No se trata simplemente de quién tiene la autoridad sino de cómo se ejerce esta autoridad y cómo influye en las personas involucradas. Son un aspecto fundamental de la vida social que moldea nuestras interacciones y determina la distribución de recursos y oportunidades.</p>
-  <p>En este apartado, conocerás el vínculo que existe entre las relaciones de poder y la igualdad de género, para ello explorarás tus conocimientos previos acerca de este tema respondiendo un breve cuestionario. Posteriormente, observarás los videos <strong>"Michel Foucault para principiantes: ¿Qué es el poder y quiénes te vigilan?"</strong> y <strong>"Los tipos de capital según Pierre Bourdieu".</strong> Además, revisarás el documento adjunto a esta actividad titulado <strong>"El poder y las relaciones de poder"</strong>.</p>
-  <p>La información de los videos y del documento te permitirá reflexionar en torno al ejercicio del poder en sus diversos ámbitos con el fin de que puedas iniciar una reflexión crítica y consciente sobre la equidad de género y su importancia en las interacciones sociales.</p>
-  <h3>Instrucciones:</h3>
+  <p>Un sistema social y cultural en el que se ejerce un poder dominante de los hombres sobre las mujeres es el patriarcado. Para entender cómo se establece una jerarquía que subordina a las mujeres y asigna roles desiguales de género, es necesario identificar cómo se construye la masculinidad.</p>
+  <p>La primera actividad con la que iniciarás los aprendizajes 3 y 4 tiene la finalidad de explorar tus conocimientos previos sobre las relaciones de poder y las masculinidades.</p>
+  <p><strong>Propósito</strong></p>
+  <p>Identificar tus conocimientos e ideas previas sobre las relaciones de poder, la forma en que se ejerce y, asimismo, sobre la masculinidad tradicional y su relación con la violencia y la discriminación.</p>
+  <p><strong>Instrucciones:</strong></p>
   <ol class="ol-number">
-    <li>Contesta el cuestionario que tiene la finalidad de explorar tus conocimientos previos sobre el tema y detonar la reflexión crítica en torno a las relaciones de poder y su relación con la desigualdad de género. Contesta según tu criterio.</li>
-
-    <?php ob_start(); ?>
-      <?php
-      $ActividadContent = ob_get_clean();
-      renderActividad('u1t3a1', "Diagnóstico: Relaciones de poder en la vida cotidiana.", $ActividadContent);
-      ?>
-
-    <li>Observa los siguientes videos que hablan acerca del poder y sobre cómo se construyen las relaciones donde éste se ejerce.</li>
-    <div class="md:grid grid-cols-2 gap-3">
-      <div>
-        <?php
-        renderVideoIframe('TchqFCgm42U', 'Michel Foucault para principiantes: ¿Qué es el poder y quiénes te vigilan?');
-        ?>
-      </div>
-            <div>
-        <?php
-        renderVideoIframe('h40a7r9vCWs', 'Los tipos de capital según Pierre Bourdieu');
-        ?>
-      </div>
-    </div>
-    <li>Lee cuidadosamente el documento titulado <a href="<?php echo PATH_DOCS . 'u1t3-Lectura_ ElPoderYLasRelacionesDePoder_Act.3.1.pdf'; ?>" target="_blank">"El poder y las relaciones de poder"</a>.</li>
-    <li>Con ayuda de tu profesor o profesora dialoga en plenaria sobre el contenido de los videos y del documento. Te sugerimos que, después de revisar los materiales, vuelvas a las preguntas del cuestionario y contrastes tus respuestas en plenaria.</li>
+    <li>Lee cuidadosamente las preguntas.</li>
+    <li>Responde honestamente, eligiendo la opción más adecuada según tu criterio.</li>
+    <li>Después de enviar tus respuestas, lee atentamente la retroalimentación a tus respuestas, y toma nota en tu cuaderno de trabajo de la asignatura.</li>
+    <li>Tienes un intento para resolver este diagnóstico.</li>
   </ol>
+  <?php ob_start(); ?>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividad('u1t3a1', "Evaluación diagnóstica", $ActividadContent);
+  ?>
 </section>
 <?php
 $content = ob_get_clean();

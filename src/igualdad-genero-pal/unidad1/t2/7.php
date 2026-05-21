@@ -1,6 +1,7 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
+include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 
 
@@ -9,29 +10,20 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Actividad Final: Reflexión sobre la Perspectiva de Género</h2>
+    <h2>Perspectiva de género como herramienta metodológica </h2>
+    <p>Revisa la presentación sobre la Perspectiva de Género (PEG), toma nota en tu libreta sobre los conceptos clave o la información que consideres relevante y responde a las siguientes preguntas a partir de lo que has leído. </p>
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-    <p>En esta actividad conocerás cómo la perspectiva de género y los feminismos impactan en la vida diaria, así como su relación y su intersección en ámbitos cotidianos.</p>
+    <p>En esta actividad identificarás a la perspectiva de género como herramienta metodológica y su impacto social.</p>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number">
-        <li>Elabora una reflexión de una cuartilla.</li>
-        <li>Guíate de las siguientes preguntas:
-            <ul>
-                <li class="leading-none">¿Cuál es la relación entre los feminismos y la perspectiva de género?</li>
-                <li class="leading-none">¿De qué manera la perspectiva de género y los feminismos impactan positivamente en tu vida?</li>
-                <li class="leading-none">¿Qué aprendiste o qué cambió respecto a lo que sabías de los feminismos y la perspectiva de género?</li>
-</ul>
-        <li>Sube tu reflexión en formato <strong>.PDF</strong> nombrándola de la siguiente manera: <em>Nombre_Apellido_ReflexionFinal.</em></li>
+        <li>Realiza la lectura <a href="<?php echo PATH_DOCS . 'u1t2-lectura-la-perspectiva-de-genero.pdf'; ?>" target="_blank">La perspectiva de género</a>, <strong>páginas 5-10</strong> (Puntos: 4. ¿Qué es la perspectiva de género?, 5. El aprendizaje del género, 6. Género, democracia y ciudadanía), de la autora Marta Lamas. </li>
+        <li>Subraya las palabras clave que les permitan dar seguimiento a la lectura.</li>
+        <li>De forma individual, siguiendo las instrucciones de tu profesora o profesor, elige la mejor respuesta a las siguientes preguntas.</li>
     </ol>
-    <div class="w-4/5 mx-auto mt-6 bg-fuchsia-900 p-2 leading-none text-md">
-        <span class="text-white">NOTA:</span>
-            <p class="text-white">Considera que contenga las siguientes características; Arial 12, interlineado 1.5, texto justificado y márgenes normales. Puedes consultar los materiales de las actividades previas, así como la <a href="<?php echo PATH_DOCS . 'u1t2-rubrica-reflexionSobreLaPerspectivaDeGenero.pdf'; ?>" target="_blank">Rúbrica</a> para que sepas que otros aspectos se considerarán en la evaluación.</p>
-    </div>
     <?php ob_start(); ?>
-    <p>Aquí sube el trabajo realizado.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t2a6', "Reflexión sobre la Perspectiva de Género.", $ActividadContent);
+    renderActividad('u1t2a6', "Perspectiva de Género.", $ActividadContent);
     ?>
 </section>
 
