@@ -9,8 +9,8 @@
       "temas": [
         {"nombre": "Perspectiva de género y cultura de igualdad", "url": "/igualdad-genero-pal/unidad1/t1", "paginas": 5},
         {"nombre": "La categoría de perspectiva de género como herramienta para estudiar la desigualdad", "url": "/igualdad-genero-pal/unidad1/t2", "paginas": 9},
-        {"nombre": "Análisis crítico de las relaciones de poder y dominación desde la desigualdad de género y los presupuestos de la masculinidad tradicional", "url": "/igualdad-genero-pal/unidad1/t3", "paginas": 9},
-        {"nombre": "Identificación y cuestionamiento de los presupuestos de la masculinidad tradicional ", "url": "/igualdad-genero-pal/unidad1/t4", "paginas": 10},
+        {"nombre": "Análisis crítico de las relaciones de poder y dominación desde la desigualdad de género y los presupuestos de la masculinidad tradicional", "url": "/igualdad-genero-pal/unidad1/t3", "paginas": 7},
+        {"nombre": "La importancia de construir una cultura de la igualdad", "url": "/igualdad-genero-pal/unidad1/t4", "paginas": 10},
         {"nombre": "La importancia de construir una cultura de la igualdad ", "url": "/igualdad-genero-pal/unidad1/t5", "paginas": 7},
         {"nombre": "La noción de persona como fundamento de los derechos humanos ", "url": "/igualdad-genero-pal/unidad1/t6", "paginas": 8}
       ]
@@ -42,6 +42,7 @@
     "u1t3a1": { "id": "1465", "moduleName": "quiz" },
     "u1t3a2": { "id": "1465", "moduleName": "quiz" },
     "u1t3a3": { "id": "1465", "moduleName": "quiz" },
+    "u1t4a1": { "id": "1465", "moduleName": "quiz" },
 
 
 
