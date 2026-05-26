@@ -2,6 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
+include PATH_INCLUDE . 'ActividadIframe.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -9,7 +10,7 @@ ob_start();
 ?>
 <section>
   <h2>La importancia de construir una cultura de la igualdad</h2>
-  <div class="max-2xl mx-auto">
+  <div class="w-2/3 mx-auto">
     <?php
     renderImage('iga5-img1.webp');
     ?>
@@ -31,7 +32,18 @@ ob_start();
   <p>- Empatía hacia las experiencias de lxs demás.</p>
   <p>- Respeto a la diversidad.</p>
   <p>- Apertura y participación.</p>
-  <p class="mt-10"> <span class="font-bold text-xl text-fuchsia-900">Tiempo |</span> 4 horas divididas en 2 sesiones</p>
+
+  <h3>Evaluación diagnóstica</h3>
+  <p><strong>Propósito</strong></p>
+  <p>Este cuestionario diagnóstico detecta tus conocimientos previos acerca del tema para posteriormente introducirte al aprendizaje de la cultura de la igualdad.</p>
+  <p><strong>Instrucciones:</strong>
+  <p>Contesta las siguientes preguntas seleccionando las respuestas que consideres correctas.
+    Cada pregunta tiene un valor de dos puntos.</p>
+  <?php ob_start(); ?>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividad('u1t5a1', "Cuestionario diagnóstico", $ActividadContent);
+  ?>
 </section>
 <?php
 $content = ob_get_clean();

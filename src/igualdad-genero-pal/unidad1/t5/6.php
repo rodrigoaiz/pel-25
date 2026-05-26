@@ -1,42 +1,26 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
-
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Evaluación final: Redacción de una carta compromiso.</h2>
-    <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-    <p>Contribuir a la construcción de una comunidad escolar más inclusiva, solidaria y respetuosa.</p>
-    <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number">
-        <li>Decide a quién dirigirás tu carta compromiso (profesorado, autoridades del plantel, comunidad estudiantil, otro).</li>
-        <li>Piensa en acciones específicas que puedas llevar a cabo para promover la igualdad en tu entorno: promover la diversidad, denunciar situaciones de discriminación, participar en actividades de sensibilización, entre otras.</li>
-        <li>Utiliza ejemplos concretos de acciones que planeas llevar a cabo y reflexiona sobre tu papel como agente de cambio en la promoción de la igualdad.</li>
-        <li>Revisa tu carta y verifica la ortografía, la gramática y la coherencia del texto.</li>
-        <li>Guarda el archivo de tu carta en PDF y súbela a la plataforma. Nombra tu archivo de la siguiente manera: Nombre_Apellido_CartaCompromiso</li>
-        <li>Comparte tu carta con la comunidad escolar o en plataformas en línea para aumentar su impacto y conciencia sobre la importancia de promover la igualdad.</li>
-        <li>Revisa la <a href="<?php echo PATH_DOCS . 'u1t5-rubrica_RedaccionDeUnaCartaCompromiso.pdf'; ?>" target="_blank">rúbrica</a> para conocer los criterios con los que se evaluará tu carta.</li>
-    </ol>
-    <p><strong>Nota:</strong> Revisa el siguiente ejemplo de carta compromiso:</p>
-    <div class="w-xl-2 mx-auto mt-4">
-        <?php
-        renderImage('u1t5-ejemplo-de-carta-compromiso.webp');
-        ?>
-    </div>
-    <?php ob_start(); ?>
-    <p>Sube aquí tu carta compromiso.</p>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividad('u1t5a5', "Carta compromiso", $ActividadContent);
-    ?>
+    <h2>Bibliografía</h2>
+    <ul id="biblio" class="ul-disc">
+        <li>Abbagnano, N. (2010). <em>Diccionario de Filosofía.</em> FCE</li>
+        <li>Ferrater, J. (2004). <em>Diccionario de Filosofía.</em> Ariel.</li>
+        <li>Gargallo, F. (2012). Tan derechas y tan humanas. Manual ético de derechos humanos de las mujeres. <a href="https://francescagargallo.wordpress.com/ensayos/librosdefg/tan-derechas-y-%20tan-humanas/" target="_blank">https://francescagargallo.wordpress.com/ensayos/librosdefg/tan-derechas-y-%20tan-humanas/</a> (wordpress.com).</li>
+        <li>INMujeres (s/f). Glosario para la igualdad. <a href="https://campusgenero.inmujeres.gob.mx/glosario/search?search=derechos+humanos" target="_blank">https://campusgenero.inmujeres.gob.mx/glosario/search?search=derechos+humanos</a></li>
+        <li>Naciones Unidas (2015). <em>Cartilla Derechos Humanos de las Naciones Unidas.</em> UDHR_booklet_SP_web.pdf (un.org) </li>
+        <li>Naciones Unidas (s/f). <em>La Declaración Universal de Derechos Humanos.</em> <a href="https://www.un.org/es/about-us/universal-declaration-of-human-rights" target="_blank">https://www.un.org/es/about-us/universal-declaration-of-human-rights</a></li>
+        <li>García, D. (2015). <em>El concepto de persona, concepto eje para la ética.</em> En García, D. y Traslosheros, J. (Coords.). <em>Ética, persona y sociedad. Una ética para la vida</em> (pp.5-8) (5.a. ed.). Porrúa, Tecnológico de Monterrey.</li>
+        <li>Pichot, M. (2017). <em>"Mansplaining"</em> PERSONA. <a href="https://www.youtube.com/watch?v=lz4mLjxXA9I" target="_blank">https://www.youtube.com/watch?v=lz4mLjxXA9I</a></li>
+        <li>Pressnet. (2010). ¿Qué son los Derechos Humanos? <a href="https://youtu.be/PPeRECua5CQ?si=n81zyvqAwMAyBvoM" target="_blank">https://youtu.be/PPeRECua5CQ?si=n81zyvqAwMAyBvoM</a></li>
+        <li>Valleverde, I. (2015). Los derechos fundamentales en la Historia. Una aproximación a su origen y fundamento. En Carbonell, M., Fix, H. y Valadés, D. <em>Estado constitucional, derechos humanos, justicia y vida universitaria</em> (573- 597). Estudios en homenaje a Jorge Carpizo. Derechos Humanos, V(2). 27. <a href="https://archivos.juridicas.unam.mx/www/bjv/libros/8/3977/27.pdf" target="_blank">https://archivos.juridicas.unam.mx/www/bjv/libros/8/3977/27.pdf</a></li>
+    </ul>
 </section>
-
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);

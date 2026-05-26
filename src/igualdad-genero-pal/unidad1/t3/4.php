@@ -10,9 +10,9 @@ ob_start();
 ?>
 <section>
   <h2>Orígenes de la desigualdad de género</h2>
-  <div class="max-md mx-auto">
+  <div class="w-1/2 mx-auto">
     <?php
-    renderImage('iga3-img01c.webp');
+    renderImage('iga3-img01d.webp');
     ?>
   </div>
   <p>El origen de la propiedad privada influyó en la distribución desigual del poder entre hombres y mujeres, dando origen al patriarcado. Este sistema social y cultural donde los hombres ejercen el poder dominante consolidó roles y estereotipos de género y abrió brechas de desigualdad dando a los hombres derechos, recursos y oportunidades que les fueron negadas a las mujeres. </p>

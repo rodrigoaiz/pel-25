@@ -10,9 +10,8 @@
         {"nombre": "Perspectiva de género y cultura de igualdad", "url": "/igualdad-genero-pal/unidad1/t1", "paginas": 5},
         {"nombre": "La categoría de perspectiva de género como herramienta para estudiar la desigualdad", "url": "/igualdad-genero-pal/unidad1/t2", "paginas": 9},
         {"nombre": "Análisis crítico de las relaciones de poder y dominación desde la desigualdad de género y los presupuestos de la masculinidad tradicional", "url": "/igualdad-genero-pal/unidad1/t3", "paginas": 7},
-        {"nombre": "La importancia de construir una cultura de la igualdad", "url": "/igualdad-genero-pal/unidad1/t4", "paginas": 10},
-        {"nombre": "La importancia de construir una cultura de la igualdad ", "url": "/igualdad-genero-pal/unidad1/t5", "paginas": 7},
-        {"nombre": "La noción de persona como fundamento de los derechos humanos ", "url": "/igualdad-genero-pal/unidad1/t6", "paginas": 8}
+        {"nombre": "La importancia de construir una cultura de la igualdad", "url": "/igualdad-genero-pal/unidad1/t4", "paginas": 5},
+        {"nombre": "La noción de persona como fundamento de los derechos humanos", "url": "/igualdad-genero-pal/unidad1/t5", "paginas": 6}
       ]
     },
     "Unidad 2": {
@@ -44,35 +43,15 @@
     "u1t3a3": { "id": "1465", "moduleName": "quiz" },
     "u1t4a1": { "id": "1465", "moduleName": "quiz" },
 
-
-
-
-
-
-    "u1t3a2": { "id": "1465", "moduleName": "forum" },
-    "u1t3a3": { "id": "1465", "moduleName": "assign" },
-    "u1t3a4": { "id": "1481", "moduleName": "forum" },
-
-
-
-    "u1t3a5": { "id": "1482", "moduleName": "forum" },
-    "u1t3a6": { "id": "1483", "moduleName": "quiz" },
-
-    "u1t4a1": { "id": "1484", "moduleName": "assign" },
-    "u1t4a2": { "id": "1485", "moduleName": "assign" },
-    "u1t4a3": { "id": "1486", "moduleName": "quiz" },
-    "u1t4a4": { "id": "1487", "moduleName": "forum" },
-    "u1t4a5": { "id": "1488", "moduleName": "forum" },
-
     "u1t5a1": { "id": "1489", "moduleName": "quiz" },
-    "u1t5a2": { "id": "1490", "moduleName": "assign" },
-    "u1t5a3": { "id": "1491", "moduleName": "assign" },
-    "u1t5a4": { "id": "1492", "moduleName": "assign" },
-    "u1t5a5": { "id": "1493", "moduleName": "assign" },
+    "u1t5a2": { "id": "1489", "moduleName": "quiz" },
 
     "u1t6a1": { "id": "1494", "moduleName": "quiz" },
-    "u1t6a3": { "id": "1496", "moduleName": "assign" },
-    "u1t6a4": { "id": "1497", "moduleName": "assign" },
+    "u1t6a2": { "id": "1496", "moduleName": "assign" },
+    "u1t6a3": { "id": "1497", "moduleName": "assign" },
+
+
+
     "u1t6a6": { "id": "1499", "moduleName": "assign" },
     "u1t6a7": { "id": "1500", "moduleName": "assign" },
     "u1t6a8": { "id": "1501", "moduleName": "assign" },

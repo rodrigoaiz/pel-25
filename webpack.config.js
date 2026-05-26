@@ -91,6 +91,13 @@ module.exports = {
           },
         },
         {
+          from: 'src/**/assets/audio/**/*.{mp3,m4a,ogg,wav}', // Copia todos los archivos de audio desde cualquier subdirectorio
+          to: ({ context, absoluteFilename }) => {
+            const relativePath = path.relative(context, absoluteFilename);
+            return relativePath.replace(/^src[\\/]/, ''); // Mantiene la estructura de directorios
+          },
+        },
+        {
           from: 'node_modules/@fontsource-variable/open-sans/files/open-sans-latin*', // Copia solo fuentes latinas de Open Sans
           to: 'assets/fonts/[name][ext]',
         },

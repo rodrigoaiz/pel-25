@@ -1,46 +1,45 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'ImagenPie.php';
-
+include PATH_INCLUDE . 'ActividadIframe.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Definición de la cultura de la igualdad</h2>
-    <div class="grid grid-cols-3 gap-4">
-        <div><?php
-                renderImage('iga5-img2.webp');
-                ?></div>
-        <div class="col-span-2">
-            <p>En esta sección exploraremos un concepto fundamental para construir sociedades justas e inclusivas: <strong>la cultura de la igualdad.</strong> Para ello es importante que sepas que la cultura no se limita a la declaración de que todas las personas somos iguales ante la ley. Más bien una auténtica igualdad se cimenta en la aspiración real de que así sea.</p>
-        </div>
-    </div>
-    <p>Esto implica reconocer que, para que la igualdad sea una realidad tangible en la vida de cada persona, es necesario superar las desigualdades preexistentes y garantizar que todos y todas tengamos las mismas oportunidades para desarrollarnos plenamente. En la infografía que presentamos a continuación conocerás estos conceptos clave y su vital importancia en el camino hacia una verdadera igualdad de género.</p>
-    <div class="w-xl mx-auto">
-        <?php
-        renderImage('u1t5-infografia-cultura-de-la-igualdad-junio.webp');
-        ?>
-    </div>
-    <p>Ahora que has revisado un poco más sobre el concepto de cultura de la igualdad, te invitamos a realizar la siguiente actividad.</p>
-    <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-    <p>A partir de la interpretación de la infografía fortalecerás conocimientos previos acerca de la cultura de la igualdad.</p>
-    <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number">
-        <li>A partir de la información que revisaste en la infografía, escribe en un párrafo tu propia definición de la cultura de la igualdad.</li>
-        <li>Ya que tu definición esté completa, tómale una foto y sube el archivo en la sección que te indique tu profesora o profesor.</li>
-    </ol>
-    <?php ob_start(); ?>
-    <p>Sube aquí tu archivo.</p>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividad('u1t5a2', "Definición de la cultura de la igualdad", $ActividadContent);
-    ?>
-</section>
+  <h2>Glosario de términos ilustrado</h2>
 
+  <div class="grid grid-cols-5 gap-4">
+    <div class="col-span-3">
+      <p>La noción de persona es fundamental para los derechos humanos y como has revisado anteriormente, estos son concebidos como inherentes a todo ser humano por el simple hecho de serlo, dotándole de dignidad intrínseca que debe ser respetada y protegida. Es importante mencionar que estos derechos humanos emanan de esta calidad de persona, son universales y buscan garantizar una vida digna y el pleno desarrollo de cada individuo.</p>
+      <p>Para conocer más sobre el concepto de persona y su relevancia para los derechos humanos te invitamos a realizar la siguiente actividad.</p>
+    </div>
+    <div class="col-span-2">
+      <?php
+      renderImage('u1t6-iga6-img2.webp');
+      ?>
+    </div>
+  </div>
+
+  <p><strong>Propósito</strong></p>
+  <p>Comprender la noción de persona.</p>
+
+  <p><strong>Instrucciones:</strong></p>
+  <ol class="ol-number">
+    <li>Lee el apartado <a href="<?php echo PATH_DOCS . 'u1t6-Lectura_TextoPersona_Act.6.4.pdf'; ?>" target="_blank">“El concepto de persona, concepto eje para la ética”</a>, de la filósofa mexicana Dora Elvira García González. Con esta breve lectura te proponemos un panorama general acerca del concepto persona, con ello, conocerás las definiciones de persona, derechos humanos, libertad, autonomía y dignidad. Esta información es fundamental en la construcción conceptual de los términos y establecerás conexiones con otros conceptos de este aprendizaje.</li>
+    <li>Al término de tu lectura, realiza un glosario de términos ilustrado <strong>en tu cuaderno</strong>. </li>
+    <li>Revisa la <a href="<?php echo PATH_DOCS . 'u1t6-listadecotejo_GlosarioDeTerminosIlustrado.pdf'; ?>" target="_blank">lista de cotejo</a> que se anexa, este listado te ayudará para que tú mismo verifiques que tu diccionario ilustrado cumple con las características solicitadas. Este ejercicio fomenta la <strong>autoevaluación</strong>. </li>
+  </ol>
+
+  <?php ob_start(); ?>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividad('u1t6a2', "Glosario de términos ilustrado", $ActividadContent);
+  ?>
+
+</section>
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);
