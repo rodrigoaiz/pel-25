@@ -3,6 +3,7 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -16,12 +17,18 @@ ob_start();
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number">
         <li>Observa el video con atención e identifica los elementos de esta relación.</li>
-        <li>Posteriormente escribe en una cuartilla en dos tablas, con qué actitudes estás de acuerdo y con cuáles no. Además, en ese mismo documento compartirás tu opinión sobre el tema (media cuartilla).</li>
-        <li>Después de que escribas tu opinión envía tu archivo. Nómbralo de la siguiente manera: Nombre_Apellido_ReflexiónAmor</li>
+        <li>Posteriormente escribe en una cuartilla en dos tablas, con qué actitudes estás de acuerdo y con cuáles no, justificando porqué.</li>
+        <li>Después relaciona el siguiente diagrama que se llama “violencia contra las mujeres, tipos y modalidades” y contrástalos con las acciones que se presentan en el video. Elabora con ello una conclusión breve.</li>
+        <li>Al terminar de escribir tu texto envía el archivo. Nómbralo de la siguiente manera: Nombre_Apellido_ReflexionAmor</li>
     </ol>
     <div class="max-w-xl mx-auto">
         <?php
         renderVideoIframe('UHs9wmy4H5Q', 'No confundir amor con abuso');
+        ?>
+    </div>
+    <div class="max-w-2xl mx-auto">
+        <?php
+        renderImage('iga8-img03.webp');
         ?>
     </div>
     <?php ob_start(); ?>

@@ -19,7 +19,7 @@
       "publicado": true,
       "nombre": "Unidad 2",
       "temas": [
-        {"nombre": "Violencia de género, sus características, ámbitos y forma de ejercerla como un problema de salud pública y de bienestar social", "url": "/igualdad-genero-pal/unidad2/t1", "paginas": 12},
+        {"nombre": "Violencia de género, sus características, ámbitos y forma de ejercerla como un problema de salud pública y de bienestar social", "url": "/igualdad-genero-pal/unidad2/t1", "paginas": 8},
         {"nombre": "Identificación de las concepciones y prácticas sociales dañinas asociadas al amor romántico para cuestionar y proponer alternativas", "url": "/igualdad-genero-pal/unidad2/t2", "paginas": 6},
         {"nombre": "Reconoce la violencia feminicida como la forma de expresión más extrema de la violencia de género para cuestionar y proponer alternativas", "url": "/igualdad-genero-pal/unidad2/t3", "paginas": 12},
         {"nombre": "Fortalecer actitudes y valores de responsabilidad, respeto y convivencia con los demás", "url": "/igualdad-genero-pal/unidad2/t4", "paginas": 5}
@@ -50,27 +50,17 @@
     "u1t6a2": { "id": "1496", "moduleName": "assign" },
     "u1t6a3": { "id": "1497", "moduleName": "assign" },
 
-
-
-    "u1t6a6": { "id": "1499", "moduleName": "assign" },
-    "u1t6a7": { "id": "1500", "moduleName": "assign" },
-    "u1t6a8": { "id": "1501", "moduleName": "assign" },
-
     "u2t7a1": { "id": "1502", "moduleName": "quiz" },
-    "u2t7a2": { "id": "1503", "moduleName": "hvp" },
-    "u2t7a3": { "id": "1504", "moduleName": "h5pactivity" },
-    "u2t7a4": { "id": "1505", "moduleName": "hvp" },
-    "u2t7a5": { "id": "1506", "moduleName": "h5pactivity" },
-    "u2t7a6": { "id": "1507", "moduleName": "hvp" },
-    "u2t7a7": { "id": "1508", "moduleName": "assign" },
-    "u2t7a8": { "id": "1509", "moduleName": "hvp" },
-    "u2t7a9": { "id": "1510", "moduleName": "hvp" },
-    "u2t7a10": { "id": "1511", "moduleName": "forum" },
+    "u2t7a2": { "id": "1503", "moduleName": "quiz" },
+    "u2t7a3": { "id": "1504", "moduleName": "quiz" },
 
     "u2t8a1": { "id": "1512", "moduleName": "assign" },
     "u2t8a2": { "id": "1513", "moduleName": "glossary" },
     "u2t8a3": { "id": "1514", "moduleName": "assign" },
     "u2t8a4": { "id": "1515", "moduleName": "quiz" },
+
+
+    
 
     "u2t9a1": { "id": "1516", "moduleName": "assign" },
     "u2t9a2": { "id": "1517", "moduleName": "assign" },

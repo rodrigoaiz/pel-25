@@ -2,7 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
-include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -10,25 +10,32 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Modalidades de la violencia de género</h2>
-    <p>Recuerda que existen diversos tipos de violencia de género, ahora es importante que conozcas las distintas modalidades de ésta, las cuales se producen dependiendo del contexto. Realiza lo que se te pide a continuación.</p>
-    <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-    <p>Reconocer las modalidades de violencia en diferentes situaciones y entornos de la vida diaria.</p>
-    <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number">
-        <li>Para que te quede clara la diferencia entre las diferentes modalidades de violencia de género, observa con atención el siguiente video y toma notas en tu cuaderno. Recuerda que puedes poner pausa para revisar con tranquilidad todo el contenido.</li>
-        <li>Después, responde el crucigrama con base en lo aprendido en el video.</li>
-    </ol>
-
-    <div class="max-w-xl mx-auto">
-        <?php
-        renderVideoIframe('FFIv1Ida2eE', 'Formas de violencia de género');
-        ?>
+    <h2>Actividad: La violencia de género es un tema de salud pública</h2>
+    <div class="grid grid-cols-3 gap-4">
+        <div><?php
+                renderImage('iga7-img05.webp');
+                ?></div>
+        <div class="col-span-2">
+            <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
+            <p>Reconocer las consecuencias de la violencia de género como un problema de salud pública, y su impacto en el bienestar de las mujeres y niñas.</p>
+            <p><strong>Instrucciones:</strong></p>
+            <p>Identifica en algún portal de noticias un caso en violencia de género que haya ocurrido en México y con base en él, elabora una infografía que conteste las siguientes preguntas:</p>
+        </div>
     </div>
+    <ol class="ol-number">
+        <li>Explica brevemente la noticia.</li>
+        <li>¿Qué tipo de violencia identificas? Explica tu respuesta.</li>
+        <li>¿Qué modalidad de violencia identificas? Explica tu respuesta.</li>
+        <li>Explica por qué el caso que identificaste es un problema de salud pública, qué afectaciones se originan en la víctima y en su contexto social.</li>
+        <li>Elabora una propuesta para que ya no ocurran casos como el que ejemplificaste.</li>
+        <li>Adjunta tu archivo en este apartado. Nombra el archivo de la siguiente manera: Nombre_Apellido_Infografia_SaludPublica</li>
+        <li>No olvides revisar la <a href="<?php echo PATH_DOCS . 'u2t7-Infografia_Violencia-Genero.pdf'; ?>" target="_blank">lista de cotejo</a> con los criterios que se tomarán en cuenta para evaluar tu infografía.</li>
+    </ol>
     <?php ob_start(); ?>
+    <p>Adjunta tu archivo en este apartado.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t7a4', "Crucigrama - Modalidades de la violencia de género", $ActividadContent);
+    renderActividad('u2t7a7', "La violencia de género es un tema de salud pública", $ActividadContent);
     ?>
 </section>
 

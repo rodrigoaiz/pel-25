@@ -3,7 +3,6 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
-include PATH_INCLUDE . 'ImagenPie.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -11,40 +10,46 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>La violencia de género es un tema de salud pública</h2>
-    <div class="grid grid-cols-3 gap-4">
-        <div><?php
-                renderImage('iga7-img04.webp');
-                ?></div>
-        <div class="col-span-2">
-            <p>Un aspecto relevante respecto a la violencia de género, es que, en todas sus formas, desde el maltrato psicológico hasta la agresión física tiene consecuencias profundas en la salud mental y física de las personas que la sufren. Es debido a esto, que tanto las autoridades como los expertos la consideran un tema de salud pública, algo que nos afecta a todos como sociedad y que requiere de nuestra atención y acción.</p>
-            <p>En los videos que verás a continuación, explorarás con mayor detalle qué significa esto y cómo es que impacta la vida de muchas personas.</p>
-        </div>
-    </div>
+    <h2>Actividad: Legislación para proteger los Derechos Humanos y erradicar la violencia de género</h2>
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-    <p>Reconocer la violencia de género como un problema de salud pública y su impacto en el bienestar de las personas.</p>
+    <p>Identificar en casos reales los derechos violados, a fin de visibilizar las afectaciones de las víctimas, exigir justicia y contribuir a la construcción de una sociedad más igualitaria.</p>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number">
-        <li>Observa con atención los siguientes videos y toma notas en tu cuaderno de los principales conceptos.</li>
-        <li>Después realiza la actividad de memorama , que se encuentra debajo de los videos, para ello tendrás que voltear dos cartas y relacionar correctamente las preguntas y respuestas.</li>
-        <li>Una vez que concluyas, continúa con la siguiente actividad.</li>
+        <li>Observa con atención cada uno de estos cinco videos y después responde las preguntas.</li>
     </ol>
 </section>
-<div class="grid grid-cols-6 gap-4">
-    <div class="col-span-2 col-start-2"><?php
-                                        renderVideoIframe('j0-iWpNAT0M', 'Violencia de género un problema de salud publica y social');
-                                        ?></div>
-    <div class="col-span-2">
-        <?php
-        renderVideoIframe('NAlY-1KI6ts', 'OMS: Fortalecer la función del sistema de salud para abordar la violencia contra las mujeres');
-        ?> </div>
-</div>
-<section>
+    <div class="grid grid-cols-6 gap-4 mb-10">
+        <div class="col-span-2 col-start-2">
+            <?php
+            renderVideoIframe('UBTcfssHup4', '
+El Caso Campo Algodonero vs. México - DE1M # 47');
+            ?></div>
+        <div class="col-span-2">
+            <?php
+            renderVideoIframe('WD8D5KHVgkY', 'EL CASO ROSENDO CANTÚ vs. MÉXICO en un minuto - DE1M # 69');
+            ?> </div>
+    </div>
+    <div class="grid grid-cols-6 gap-4 mb-10">
+        <div class="col-span-2 col-start-2">
+            <?php
+            renderVideoIframe('1oiO9gndB1s', 'El Caso Mujeres víctimas de Tortura Sexual en Atenco Vs. México - DE1M # 95');
+            ?></div>
+        <div class="col-span-2">
+            <?php
+            renderVideoIframe('DxIBlW917f4', 'El Caso Digna Ochoa Vs. México - DE1M # 119');
+            ?> </div>
+    </div>
+    <div class="grid grid-cols-6 gap-4 mb-10">
+        <div class="col-span-2 col-start-3">
+            <?php
+            renderVideoIframe('-qUTzJ6tlBo', 'El Caso LEONARDO FORNERÓN e HIJA vs. ARGENTINA en un minuto - DE1M # 88');
+            ?></div>
+    </div>
+    <section>
     <?php ob_start(); ?>
-    <p>¡Mucho éxito!</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t7a6', "La violencia de género es un tema de salud pública", $ActividadContent);
+    renderActividad('u2t7a3', "Legislación para proteger los Derechos Humanos y erradicar la violencia de género", $ActividadContent);
     ?>
 </section>
 
