@@ -17,6 +17,7 @@
     "u1-act-1": { "id": "5184", "moduleName": "hvp" },
     "u1-act-2": { "id": "5185", "moduleName": "forum" },
     "u1-act-3": { "id": "5186", "moduleName": "assign" },
-    "u1-act-4": { "id": "5187", "moduleName": "quiz" }
+    "u1-act-4": { "id": "5187", "moduleName": "quiz" },
+    "u1-act-5": { "id": "6017", "moduleName": "forum" }
   }
 }

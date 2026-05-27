@@ -31,6 +31,11 @@ ob_start();
     $ActividadContent = ob_get_clean();
     renderActividad('u1-act-4', "Cuestionario final - Lección 3", $ActividadContent);
     ?>
+    <?php ob_start(); ?>
+    <?php
+    $ActividadContent = ob_get_clean();
+    renderActividad('u1-act-5', "Aprendiendo a usar los foros", $ActividadContent);
+    ?>
 </section>
 <?php
 $content = ob_get_clean();
