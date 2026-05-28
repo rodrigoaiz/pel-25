@@ -33,13 +33,12 @@ ob_start();
   <p class="font-bold">Procedimentales:</p>
   <ul class="ul-disc ml-10">
     <li>Distingue conductas o actitudes en su contexto que no propician el trato igualitario y la sana convivencia.</li>
-    <li>Propone estrategias, acciones o línea de acción para generar una sana convivencia con integrantes de tu comunidad que podrías impulsar en tu escuela.</li>
+    <li>Propone estrategias, acciones o línea de acción para generar una sana convivencia con integrantes de su comunidad que podrías impulsar en tu escuela.</li>
   </ul>
   <p class="font-bold">Actitudinales:</p>
   <ul class="ul-disc ml-10">
     <li>Asume y fortalece actitudes y valores de responsabilidad, respeto y convivencia con los demás.</li>
   </ul>
-      <p class="mt-10"> <span class="font-bold text-xl text-fuchsia-900">Tiempo |</span> 4 horas divididas en 2 sesiones</p>
 </section>
 <?php
 $content = ob_get_clean();

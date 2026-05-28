@@ -2,7 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'Videos.php';
-include PATH_INCLUDE . 'EducaplayIframe.php';
+include PATH_INCLUDE . 'ActividadIframe.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -22,10 +22,14 @@ ob_start();
       ?>
     </div>
     <li>Toma nota de los datos y hechos que consideres relevantes para identificar el proceso histórico que se dio para el reconocimiento y establecimiento de los derechos humanos en la Declaración Universal de Derechos Humanos.</li>
-    <li>Resuelve el cuestionario del juego “Froggy Jumps: Derechos Humanos Quizz CCH”. Tienes dos intentos para resolverlo. </li>
+    <li>Resuelve el cuestionario. </li>
     <li>Toma nota, en tu cuaderno, de tus aciertos y errores.</li>
   </ol>
-  <?php renderEducaplay('18595630-derechos_humanos_quiz.html'); ?>
+  <?php ob_start(); ?>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividad('u1t6a2', "Cuestionario Derechos Humanos", $ActividadContent);
+  ?>
 </section>
 <?php
 $content = ob_get_clean();
