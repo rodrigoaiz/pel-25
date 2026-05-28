@@ -27,52 +27,45 @@
     }
   },
   "actividades": {
-    "u1t1a1": { "id": "1464", "moduleName": "quiz" },
-    "u1t1a2": { "id": "1465", "moduleName": "quiz" },
+    "u1t1a1": { "id": "6001", "moduleName": "quiz" },
+    "u1t1a2": { "id": "6002", "moduleName": "quiz" },
 
-    "u1t2a1": { "id": "1472", "moduleName": "feedback" },
-    "u1t2a2": { "id": "1473", "moduleName": "quiz" },
-    "u1t2a3": { "id": "1473", "moduleName": "quiz" },
-    "u1t2a4": { "id": "1473", "moduleName": "quiz" },
-    "u1t2a5": { "id": "1473", "moduleName": "quiz" },
-    "u1t2a6": { "id": "1473", "moduleName": "quiz" },
-    "u1t2a7": { "id": "1473", "moduleName": "assign" },
+    "u1t2a1": { "id": "6003", "moduleName": "quiz" },
+    "u1t2a2": { "id": "5940", "moduleName": "quiz" },
+    "u1t2a3": { "id": "6004", "moduleName": "quiz" },
+    "u1t2a4": { "id": "6005", "moduleName": "quiz" },
+    "u1t2a5": { "id": "6006", "moduleName": "quiz" },
+    "u1t2a6": { "id": "6007", "moduleName": "quiz" },
+    "u1t2a7": { "id": "6008", "moduleName": "assign" },
 
-    "u1t3a1": { "id": "1465", "moduleName": "quiz" },
-    "u1t3a2": { "id": "1465", "moduleName": "quiz" },
-    "u1t3a3": { "id": "1465", "moduleName": "quiz" },
-    "u1t4a1": { "id": "1465", "moduleName": "quiz" },
+    "u1t3a1": { "id": "6009", "moduleName": "quiz" },
+    "u1t3a2": { "id": "6010", "moduleName": "quiz" },
+    "u1t3a3": { "id": "6011", "moduleName": "assign" },
+    "u1t3a4": { "id": "6012", "moduleName": "quiz" },
 
-    "u1t5a1": { "id": "1489", "moduleName": "quiz" },
-    "u1t5a2": { "id": "1489", "moduleName": "quiz" },
+    "u1t4a1": { "id": "6013", "moduleName": "quiz" },
+    "u1t4a2": { "id": "6014", "moduleName": "quiz" },
 
-    "u1t6a1": { "id": "1494", "moduleName": "quiz" },
-    "u1t6a2": { "id": "1496", "moduleName": "assign" },
-    "u1t6a3": { "id": "1497", "moduleName": "assign" },
+    "u1t5a1": { "id": "6016", "moduleName": "quiz" },
+    "u1t5a2": { "id": "6018", "moduleName": "quiz" },
+    "u1t5a3": { "id": "6019", "moduleName": "assign" },
 
-    "u2t7a1": { "id": "1502", "moduleName": "quiz" },
-    "u2t7a2": { "id": "1503", "moduleName": "quiz" },
-    "u2t7a3": { "id": "1504", "moduleName": "quiz" },
+    "u1t6a1": { "id": "6020", "moduleName": "quiz" },
+    "u1t6a2": { "id": "6021", "moduleName": "quiz" },
+    "u1t6a3": { "id": "6022", "moduleName": "assign" },
+    "u1t6a4": { "id": "6023", "moduleName": "quiz" },
 
-    "u2t8a1": { "id": "1512", "moduleName": "assign" },
-    "u2t8a2": { "id": "1513", "moduleName": "glossary" },
-    "u2t8a3": { "id": "1514", "moduleName": "assign" },
-    "u2t8a4": { "id": "1515", "moduleName": "quiz" },
+    "u2t7a1": { "id": "6024", "moduleName": "assign" },
+    "u2t7a2": { "id": "6025", "moduleName": "assign" },
+    "u2t7a3": { "id": "6026", "moduleName": "assign" },
+    "u2t7a4": { "id": "6027", "moduleName": "quiz" },
 
-
-    
-
-    "u2t9a1": { "id": "1516", "moduleName": "assign" },
-    "u2t9a2": { "id": "1517", "moduleName": "assign" },
-    "u2t9a3": { "id": "1518", "moduleName": "forum" },
-    "u2t9a4": { "id": "1519", "moduleName": "assign" },  
-    "u2t9a6": { "id": "1521", "moduleName": "assign" },
-    "u2t9a7": { "id": "1522", "moduleName": "assign" },
-    "u2t9a8": { "id": "1523", "moduleName": "assign" },
-
-    "u2t10a1": { "id": "1524", "moduleName": "forum" },
-    "u2t10a2": { "id": "1525", "moduleName": "assign" },
-    "u2t10a6": { "id": "1529", "moduleName": "assign" },
-    "u2t10a7": { "id": "1530", "moduleName": "quiz" }
+    "u2t8a1": { "id": "6028", "moduleName": "quiz" },
+    "u2t8a2": { "id": "6029", "moduleName": "assign" },
+   
+    "u2t9a1": { "id": "6030", "moduleName": "forum" },
+    "u2t9a2": { "id": "6031", "moduleName": "assign" },
+    "u2t9a3": { "id": "6032", "moduleName": "assign" },
+    "u2t9a4": { "id": "6000", "moduleName": "quiz" }
   }
 }
