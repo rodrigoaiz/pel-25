@@ -40,11 +40,10 @@
 
     "u1t3a1": { "id": "6009", "moduleName": "quiz" },
     "u1t3a2": { "id": "6010", "moduleName": "quiz" },
-    "u1t3a3": { "id": "6011", "moduleName": "assign" },
-    "u1t3a4": { "id": "6012", "moduleName": "quiz" },
-
-    "u1t4a1": { "id": "6013", "moduleName": "quiz" },
-    "u1t4a2": { "id": "6014", "moduleName": "quiz" },
+    "u1t3a3": { "id": "xxxx", "moduleName": "quiz" },
+    "u1t4a1": { "id": "6012", "moduleName": "quiz" },
+    "u1t4a2": { "id": "6011", "moduleName": "assign" },
+    "u1t4a3": { "id": "6014", "moduleName": "quiz" },
 
     "u1t5a1": { "id": "6016", "moduleName": "quiz" },
     "u1t5a2": { "id": "6018", "moduleName": "quiz" },
@@ -70,3 +69,4 @@
     "u2t9a4": { "id": "6000", "moduleName": "quiz" }
   }
 }
+ 
