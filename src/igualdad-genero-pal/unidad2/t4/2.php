@@ -93,12 +93,12 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t9a1', "Foro: Construyendo Comunidad", $ActividadContent);
+    renderActividad('u2t10a1', "Foro: Construyendo Comunidad", $ActividadContent);
     ?>
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t9a2', "Sube aquí tu archivo PDF", $ActividadContent);
+    renderActividad('u2t10a2', "Sube aquí tu archivo PDF", $ActividadContent);
     ?>
 </section>
 

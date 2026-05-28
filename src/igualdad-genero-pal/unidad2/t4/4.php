@@ -17,7 +17,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t9a4', "Examen final", $ActividadContent);
+    renderActividad('u2t10a4', "Examen final", $ActividadContent);
     ?>
 </section>
 

@@ -51,7 +51,7 @@ ob_start();
     <?php ob_start(); ?>
       <?php
       $ActividadContent = ob_get_clean();
-      renderActividad('u2t8a2', "Manifiesto en contra del feminicidio", $ActividadContent);
+      renderActividad('u2t9a2', "Manifiesto en contra del feminicidio", $ActividadContent);
     ?>
 
 </section>

@@ -110,7 +110,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t9a3', "Propuesta de la sana convivencia", $ActividadContent);
+    renderActividad('u2t10a3', "Propuesta de la sana convivencia", $ActividadContent);
     ?>
 </section>
 
