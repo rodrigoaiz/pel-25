@@ -20,13 +20,13 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t6a1', "CUESTIONARIO 1 | Tipos y modalidades de violencia", $ActividadContent);
+    renderActividad('u2t7a1', "CUESTIONARIO 1 | Tipos y modalidades de violencia", $ActividadContent);
     ?>
 
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t6a2', "CUESTIONARIO 2 | Tipos y modalidades de violencia", $ActividadContent);
+    renderActividad('u2t7a2', "CUESTIONARIO 2 | Tipos y modalidades de violencia", $ActividadContent);
     ?>
 </section>
 

@@ -39,7 +39,7 @@ ob_start();
     <p>Sube aquí el archivo de tu infografía.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t7a3', "Mitos del amor romántico", $ActividadContent);
+    renderActividad('u2t8a3', "Mitos del amor romántico", $ActividadContent);
     ?>
 </section>
 
