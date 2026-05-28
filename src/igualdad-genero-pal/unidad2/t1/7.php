@@ -49,7 +49,7 @@ El Caso Campo Algodonero vs. México - DE1M # 47');
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t7a3', "Legislación para proteger los Derechos Humanos y erradicar la violencia de género", $ActividadContent);
+    renderActividad('u2t6a4', "Legislación para proteger los Derechos Humanos y erradicar la violencia de género", $ActividadContent);
     ?>
 </section>
 

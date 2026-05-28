@@ -36,7 +36,7 @@ ob_start();
   <?php ob_start(); ?>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t6a2', "Glosario de términos ilustrado", $ActividadContent);
+  renderActividad('u1t6a3', "Glosario de términos ilustrado", $ActividadContent);
   ?>
 
 </section>

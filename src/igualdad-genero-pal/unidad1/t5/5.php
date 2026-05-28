@@ -43,7 +43,7 @@ ob_start();
   <?php ob_start(); ?>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1t6a6', "Cartografía individual y de plantel", $ActividadContent);
+  renderActividad('u1t6a4', "Cartografía individual y de plantel", $ActividadContent);
   ?>
 
 </section>

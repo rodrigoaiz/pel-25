@@ -8,34 +8,50 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h2>Foro. Feminicidio de Ingrid Escamilla y violencia de género</h2>
+  <h2>Manifiesto en contra del feminicidio</h2>
 
-  <div class="max-2xl mx-auto">
-    <?php
-    renderImage('u2t3-Iga9-img04.webp');
-    ?>
-  </div>
+    <div class="md:grid grid-cols-3 gap-3 items-center">
+      <div class="col-span-2">
+        <p>Un manifiesto es una declaración pública escrita sobre la postura, principios e intenciones de una persona, grupo, partido político o gobierno. En este caso específico, se referirá a una o un estudiante del Colegio de Ciencias y Humanidades. Tiene como características una declaración de principios, llamando a la acción, estructura e intención.</p>
+        <p><strong>Propósito</strong></p>
+        <p>Elaboración de un manifiesto que permita visibilizar una postura en contra del feminicidio mediante una manifestación artística.</p>
+      </div>
+      <div class="col-span-1">
+        <?php
+        renderImage('u2t3-iga9-img09.webp');
+        ?>
+      </div>
+    </div>
 
-  <p>Propósito: Reconocer los tipos y manifestaciones de violencia de género como antecedentes a la violencia feminicida.</p>
+    <p><strong>Instrucciones</strong></p>
 
-  <h3>Instrucciones:</h3>
-
-  <ol class="ol-number">
-    <li>Con base en el cuadro que elaboraste en la actividad anterior, responde a las siguientes preguntas y comparte tus respuestas en el foro:</li>
-    <ul class="ul-disc">
-      <li>Explica con tus palabras ¿qué es feminicidio?</li>
-      <li>¿Qué tipos de violencia de género se puede observar en la relación entre Ingrid Escamilla y su agresor?</li>
-      <li>Con base en las notas periodísticas ¿cómo se manifiesta dicha violencia? Ejemplifica.</li>
-      <li>Desde tu punto de vista ¿qué relación existe entre estos tipos de violencia de género y el feminicidio?</li>
-      <li>¿Consideras que las notas periodísticas sobre el caso de Ingrid Escamilla fueron elaboradas con perspectiva de género? ¿por qué?</li>
-    </ul>
-    <li>Al finalizar tu participación, comenta la respuesta de alguno de tus compañeros.</li>
-  </ol>
+    <ol class="ol-number">
+      <li>De manera individual lee <a href="<?php echo PATH_DOCS . 'u2t9-Lectura_LeyIngrid_Act.9.10.pdf'; ?>" target="_blank">“Ley Ingrid, avalan cárcel a quien difunda o filtre imágenes de víctimas de feminicidios”</a>.</li>
+      <li>Retoma las lecturas previas:
+        <ul class="ul-disc">
+          <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_AQueLlamamosFeminicidio_Act.9.8.pdf'; ?>" target="_blank">“¿A qué llamamos feminicidio?”</a> de Marcela Lagarde </li>
+          <li>La selección del <a href="<?php echo PATH_DOCS . 'u2t9-Lectura_CodigoPenalArticulos302y325_Act.9.4.pdf'; ?>" target="_blank">Código Penal Federal</a>.</li>
+        </ul>
+      </li>
+      <li>labora un Manifiesto en contra del feminicidio.</li>
+      <li>El manifiesto deberá contener:
+        <ul class="ul-disc">
+          <li>10 enunciados.</li>
+          <li>Recuperar lo abordado en sesiones anteriores (definición de feminicidio, diferencia con un homicidio, elementos de la violencia estructural que lo invisibiliza, normaliza o encubre y, las distintas formas de intervención y manifestación en espacios públicos como forma de denuncia).</li>
+          <li>Ser sintético.</li>
+          <li>Ser creativo.</li>
+          <li>Título.</li>
+          <li>Autoría.</li>
+          <p><strong>Nota:</strong> Un manifiesto es un documento o escrito donde se plasma una declaración pública de principios e intenciones, a menudo de naturaleza política o artística.</p>
+        </ul>
+      </li>
+      <li>Revisa la <a href="<?php echo PATH_DOCS . 'u2t9-Rubrica_ManifiestoEnContraDelFeminicidio_Act.9.11.pdf'; ?>" target="_blank">rúbrica</a> para que tengas claridad en lo que se va a evaluar.</li>
+    </ol>
 
     <?php ob_start(); ?>
       <?php
       $ActividadContent = ob_get_clean();
-      renderActividad('u2t9a3', "Feminicidio de Ingrid Escamilla y violencia de género", $ActividadContent);
+      renderActividad('u2t8a2', "Manifiesto en contra del feminicidio", $ActividadContent);
     ?>
 
 </section>

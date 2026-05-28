@@ -65,7 +65,7 @@ ob_start();
     <p>Sube aquí tu glosario.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t8a2', "Glosario Amor romántico", $ActividadContent);
+    renderActividad('u2t7a2', "Glosario Amor romántico", $ActividadContent);
     ?>
 </section>
 
