@@ -10,41 +10,24 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Mapa Mental: Perspectiva de género</h2>
-    <p>A partir de lo que has revisado sobre el concepto de perspectiva de género se propone que realices una actividad con tus compañeros para profundizar en el tema.</p>
-    <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-    <p>En esta actividad identificarás a la perspectiva de género como herramienta metodológica y su impacto social.</p>
+    <h2>¿Qué es la perspectiva de género?</h2>
+    <p>¿Alguna vez has escuchado hablar de la <em>"perspectiva de género"</em>? ¿Sabes a qué se refiere? La perspectiva de género es una herramienta fundamental para comprender y analizar las relaciones entre mujeres y hombres en nuestra sociedad. Nos permite ver cómo los roles de género, los estereotipos y las estructuras sociales influyen en nuestras vidas y crean desigualdades.</p>
+    <p><strong>Propósito</strong></p>
+    <p>En esta actividad conocerás el concepto de Perspectiva de Género (PEG), su contexto histórico en México, así como algunas propuestas para su implementación.</p>
     <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number">
-        <li>Realiza la lectura <a href="<?php echo PATH_DOCS . 'u1t2-lectura-la-perspectiva-de-genero.pdf'; ?>" target="_blank">La perspectiva de género</a>, <strong>páginas 5-10</strong> (Puntos: 4. ¿Qué es la perspectiva de género?, 5. El aprendizaje del género, 6. Género, democracia y ciudadanía), de la autora Marta Lamas. </li>
-        <li>Subraya las palabras clave que les permitan dar seguimiento a la lectura.</li>
-        <li>Organizados en equipos de acuerdo con lo indicado por tu profesor o profesora, realicen un mapa mental sobre la Perspectiva de género, tomando como referencia la lectura indicada.
-            El mapa deberá contener:
-            <ul>
-                <li class="leading-none">Idea central</li>
-                <li class="leading-none">Ideas secundarias</li>
-                <li class="leading-none">Imágenes</li>
-        </li>
-        <li>Suban su mapa en formato <strong>.PDF</strong>, nombrado de la siguiente manera: <em>Nombre_Apellido_MapaMental</em>.</li>
-        <li>Revisen que su mapa cumpla con los elementos especificados en la <a href="<?php echo PATH_DOCS . 'u1t2-lista-cotejo-mapa-mental-perspectiva-de-genero.pdf'; ?>" target="_blank">lista de cotejo</a>.</li>
+    <ol class="ol-number mb-8">
+        <li>A continuación, te invitamos a revisar el video "Qué es la perspectiva de género", en el que se explica más sobre este concepto.</li>
+        <li>Responde correctamente a las preguntas que se te presentan a continuación. Sólo tienes un intento para responder.</li>
     </ol>
-    <div class="w-4/5 mx-auto mt-6 bg-fuchsia-900 p-2 leading-none text-md">
-        <span class="text-white">NOTA IMPORTANTE:</span>
-        <ul>
-            <li class="text-white">Pueden utilizar herramientas digitales gratuitas como <a class="text-purple-50" href="https://miro.com/es/" target="_blank">Miró</a>, <a class="text-purple-50" href="https://www.lucidchart.com/pages/es" target="_blank">Lucidchart</a> o <a class="text-purple-50" href="https://www.canva.com/es_mx/" target="_blank">Canva</a>.</li>
-        </ul>
-    </div>
-    <p>Puedes revisar el siguiente video para realizar tu mapa.</p>
     <div class="max-w-xl mx-auto">
         <?php
-        renderVideoIframe('L5LLjFnjXco', 'MAPA MENTAL ¿Qué es? ¿Para qué sirve? ¿Cómo se hace?');
+        renderVideoIframe('dmwrneT_jP4', 'Qué es la perspectiva de género');
         ?>
     </div>
     <?php ob_start(); ?>
-    <p>Aquí sube el trabajo realizado.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t2a5', "Mapa Mental: Perspectiva de Género.", $ActividadContent);
+    renderActividad('u1t2a5', "Video - Qué es la perspectiva de género", $ActividadContent);
     ?>
 </section>
 

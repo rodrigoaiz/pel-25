@@ -1,7 +1,8 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -9,21 +10,34 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Cuestionario: Violencia de género y tipos</h2>
-    <p>Una vez que ya conoces el tema de violencia de género y sus tipos, es muy importante que pongas en práctica tus conocimientos y trates de identificar qué tipos de violencia de género predomina en cada una de las situaciones que a continuación te presentamos.</p>
+    <h2>La violencia de género es un tema de salud pública</h2>
+    <div class="grid grid-cols-3 gap-4">
+        <div><?php
+                renderImage('iga7-img04.webp');
+                ?></div>
+        <div class="col-span-2">
+            <p>Un aspecto relevante respecto a la violencia de género, es que, en todas sus formas, desde el maltrato psicológico hasta la agresión física tiene consecuencias profundas en la salud mental y física de las personas que la sufren. Es debido a esto, que tanto las autoridades como los expertos la consideran un tema de salud pública, algo que nos afecta a todos como sociedad y que requiere de nuestra atención y acción.</p>
+            <p>En los videos que verás a continuación, explorarás con mayor detalle qué significa esto y cómo es que impacta la vida de muchas personas.</p>
+        </div>
+    </div>
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-    <p>Identificar la violencia de género, sus tipos y características en diferentes situaciones de la vida cotidiana.</p>
+    <p>Reconocer la violencia de género como un problema de salud pública y su impacto en el bienestar de las personas.</p>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number">
-        <li>Ingresa al siguiente cuestionario y responde cada una de las preguntas que aparecen.</li>
+        <li>Observa con atención los siguientes videos y toma notas en tu cuaderno de los principales conceptos.</li>
+        <li>Una vez que concluyas, continúa con la siguiente actividad.</li>
     </ol>
-    <?php ob_start(); ?>
-    <p>Contesta las siguientes preguntas eligiendo la respuesta que consideres correcta. </p>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividad('u2t7a3', "Tipos de violencia", $ActividadContent);
-    ?>
 </section>
+<div class="grid grid-cols-6 gap-4 mb-10">
+    <div class="col-span-2 col-start-2">
+        <?php
+                                        renderVideoIframe('j0-iWpNAT0M', 'Violencia de género un problema de salud publica y social');
+                                        ?></div>
+    <div class="col-span-2">
+        <?php
+        renderVideoIframe('NAlY-1KI6ts', 'OMS: Fortalecer la función del sistema de salud para abordar la violencia contra las mujeres');
+        ?> </div>
+</div>
 
 <?php
 $content = ob_get_clean();

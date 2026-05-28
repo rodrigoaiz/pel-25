@@ -1,39 +1,35 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
+
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Violencia de género y tipos </h2>
-    <div class="grid grid-cols-2 gap-6">
-        <div>
-            <p>En esta sección vamos a abordar lo qué es la violencia de género. Este término se refiere a cualquier acto dañino dirigido a una persona por su género, siendo las mujeres y niñas quienes sufren desproporcionadamente esta realidad, aunque la violencia de género también es ejercida hacia hombres y niños. Es fundamental entender que la violencia de género no es un problema aislado, sino una manifestación de desigualdades profundas que debemos reconocer y combatir.</p>
-        </div>
-        <div><?php
-                renderImage('iga7-img02.webp');
-                ?></div>
-    </div>
-    <p>A través del siguiente video, explorarás los distintos tipos de violencia que existen para poder identificarlos y trabajar juntos hacia una sociedad más justa y equitativa. A continuación, realiza lo que se te pide.</p>
+    <h2>Cuestionarios: Violencia de género, tipos y modalidades</h2>
+    <p>Una vez que ya conoces el tema es muy importante que pongas en práctica tus conocimientos y trates de identificar qué tipos y modalidades de violencia de género predomina en cada una de las situaciones que a continuación te presentamos.</p>
     <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-    <p>Conocer los tipos de violencia de género y sus características.</p>
+    <p>Identificar la violencia de género, tipos, modalidades y características en diferentes situaciones de la vida cotidiana.</p>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number">
-        <li>Observa con atención el siguiente video y toma notas en tu cuaderno.</li>
-        <li>En la grabación aparecerán preguntas que tienen como finalidad ayudarte a verificar que comprendes los conceptos y aspectos principales de la información que se te presenta, así que responde con cuidado cada una de ellas.</li>
+        <li>Ingresa a los siguientes cuestionarios y responde cada una de las preguntas que aparecen.</li>
     </ol>
-    
     <?php ob_start(); ?>
-    <p>Una vez que concluyas con este apartado, continúa con la siguiente actividad.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u2t7a2', "Violencia de género y tipos", $ActividadContent);
+    renderActividad('u2t7a1', "CUESTIONARIO 1 | Tipos y modalidades de violencia", $ActividadContent);
+    ?>
+
+    <?php ob_start(); ?>
+    <?php
+    $ActividadContent = ob_get_clean();
+    renderActividad('u2t7a2', "CUESTIONARIO 2 | Tipos y modalidades de violencia", $ActividadContent);
     ?>
 </section>
+
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);

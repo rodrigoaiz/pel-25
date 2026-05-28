@@ -1,9 +1,8 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'Videos.php';
-include PATH_INCLUDE . 'EducaplayIframe.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'Videos.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -12,7 +11,12 @@ ob_start();
 ?>
 <section>
   <h2>Conceptos básicos de igualdad género</h2>
-  <p>Para profundizar en el entendimiento de la igualdad de género, es fundamental familiarizarse con ciertos conceptos clave. Algunos te resultarán conocidos, mientras que otros podrían ser nuevos. Te proponemos ver la serie <strong>"Dibujando el género"</strong>. A medida que la veas, toma nota de los términos que te llamen la atención o que desconozcas. Puedes revisar la serie cuantas veces necesites para asegurar una comprensión completa.</p>
+  <p>Para profundizar en el entendimiento de la igualdad de género, es fundamental familiarizarse con ciertos conceptos clave. Algunos te resultarán conocidos, mientras que otros podrían ser nuevos.</p>
+  <p><strong>Instrucciones:</strong></p>
+  <ol class="ol-number mb-8">
+    <li>Te proponemos ver los siguientes videos.</li>
+    <li>Una vez que los hayas visto, contesta cada una de las preguntas del ejercicio, toma nota de los términos que te llamen la atención o que desconozcas.</li>
+  </ol>
   <div class="xl:grid grid-cols-2 gap-5">
     <?php
     renderVideoIframe('nWKkJ8bjTW4', 'Capítulo 1. Sexo y género');
@@ -25,7 +29,13 @@ ob_start();
     renderVideoIframe('cWjQjvXQwpA', 'Capítulo 4. Género y exclusión (sistema sexo-género, expresión e identidad de género, orientación sexual, heteronorma, intersexualidad, diversidades sexo-genéricas, homofobia)');
     ?>
   </div>
-  <p>Ahora que terminaste de ver la serie, consulta los siguientes documentos para aclarar dudas y conocer los "Conceptos básicos". Si consideras necesario, toma nota en tu cuaderno de las definiciones que te ayudarán a resolver la <em>Ruleta de palabras</em> que se presenta más adelante.</p>
+  <?php ob_start(); ?>
+  <p>Elige la respuesta correcta</p>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividad('u1t1a1', "Dibujando el género", $ActividadContent);
+  ?>
+  <p>Ahora que terminaste de ver los videos y responder las preguntas, consulta los siguientes documentos para aclarar dudas y conocer los "Conceptos básicos". Si consideras necesario, toma nota en tu cuaderno de las definiciones que te ayudarán a resolver tu evaluación final.</p>
   <div class="md:grid grid-cols-3 gap-4">
     <div class="bg-purple-300 text-center text-lg leading-6 p-2 rounded-lg">
       <a class=" text-purple-950" href="<?php echo PATH_DOCS . 'u1t1-abc-perspectiva-genero-cndh.pdf'; ?>" target="_blank">
@@ -46,23 +56,6 @@ ob_start();
     </div>
   </div>
   <p class="mt-8">También te compartimos el documento <a href="<?php echo PATH_DOCS . 'u1t1-aprendizaje-1-conceptos-basicos.pdf'; ?>" target="_blank">Aprendizaje 1. Conceptos básicos</a> donde encontrarás el glosario completo con las definiciones enriquecidas, enlaces a videos interesantes y otras fuentes de consulta que te ayudarán a comprender mejor los conceptos revisados. Te sugerimos tener a la mano estos documentos ya que te podrán ser de utilidad a lo largo de la asignatura.</p>
-  <p>Para finalizar te invitamos a reafirmar tus conocimientos con la <strong>"Ruleta de palabras de la Igualdad de Género".</strong></p>
-  <p><strong>Instrucciones:</strong></p>
-  <ol class="ol-number">
-    <li>Tienes 5 minutos por intento para resolverlo.</li>
-    <li>Tienes hasta 3 intentos para lograrlCada intento tiene 5 vidas.</li>
-    <li>Escribe tu nombre completo en "Pulsa aquí para identificarte"</li>
-    <li>En cada intento toma una captura de pantalla del resultado.</li>
-    <li>Envía como evidencia tu mejor jugada.</li>
-    <li>Para jugar la Ruleta de palabras haz clic en "Comenzar"</li>
-  </ol>
-  <?php renderEducaplay('18733303-igualdad_de_genero_a_z.html'); ?>
-  <?php ob_start(); ?>
-  <p>Sube tus evidencias aquí:</p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u1t1a3', "Ruleta de palabras de la Igualdad de Género - Sube tu puntaje", $ActividadContent);
-  ?>
 
 </section>
 

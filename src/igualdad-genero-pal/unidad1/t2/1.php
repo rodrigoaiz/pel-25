@@ -33,7 +33,6 @@ ob_start();
   <p class="font-bold">Actitudinales:</p>
   <p>- Escucha y respeto ante opiniones diversas.</p>
   <p>- Disposición para el trabajo en equipo y grupal.</p>
-  <p class="mt-10"> <span class="font-bold text-xl text-fuchsia-900">Tiempo |</span> 6 horas divididas en 3 sesiones</p>
 </section>
 <?php
 $content = ob_get_clean();

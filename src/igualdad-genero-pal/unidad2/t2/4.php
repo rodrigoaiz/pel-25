@@ -3,6 +3,7 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -16,19 +17,24 @@ ob_start();
     <p>Proponer alternativas a las prácticas sociales del amor romántico.</p>
     <p><strong>Instrucciones:</strong></p>
     <ol class="ol-number">
-        <li>Lee el texto <a href="<?php echo PATH_DOCS . 'u2t8-lectura_RomperElParadigmaDelAmorRomantico.pdf'; ?>" target="_blank">"Romper el paradigma del amor romántico"</a> y con base en la lectura anota en tu libreta cómo evitar relaciones destructivas y promover la responsabilidad afectiva.</li>
-        <li>Para reforzar tu lectura te recomendamos el siguiente video.
-            <div class="max-w-xl mx-auto">
-                <?php
-                renderVideoIframe('cABO2lG2WaA', 'Este es el problema con el amor romántico');
-                ?></div>
-        </li>
-        <li>Para interiorizar el conocimiento del texto y el video elabora una infografía sobre el tema. Sube tu archivo de la infografía en PDF y nómbralo de la siguiente forma: Nombre_Apellido_Infografía_MitosAmorRomantico y envía tu archivo.</li>
+        <li>Lee el texto <a href="<?php echo PATH_DOCS . 'u2t8-lectura_RomperElParadigmaDelAmorRomantico.pdf'; ?>" target="_blank">"Romper el paradigma del amor romántico"</a> y con base en la lectura <strong>anota en tu libreta</strong> cómo evitar relaciones destructivas y promover la responsabilidad afectiva. </li>
+        <li> <span class="font-bold bg-amber-100 text-violet-900">Para reforzar tu lectura te recomendamos el siguiente video, así como la infografía que aborda el tema de la responsabilidad afectiva que encontrarás a continuación.</span></li>
+        <li>Para interiorizar el conocimiento de los textos y el video elabora una <strong>infografía</strong> sobre el tema. Sube tu archivo en PDF y nómbralo de la siguiente forma: Nombre_Apellido_Infografía_MitosAmorRomantico y envía tu archivo. </li>
         <li>Recuerda revisar la <a href="<?php echo PATH_DOCS . 'u2t8-rubricaInfografiaRomperElParadigmaDelAmorRomantico.pdf'; ?>" target="_blank">rúbrica</a> con los criterios con los que se evaluará tu infografía</li>
-        <li>Al final participa en un <span class="font-bold italic">Padlet</span> que generará tu profesora o profesor, respondiendo a las preguntas: ¿qué tipos de amor estás dispuesta/dispuesto a dar y recibir?, ¿es posible experimentar el enamoramiento y el amor evitando la violencia en el noviazgo?, ¿qué otras relaciones afectivas también pueden ser importantes de fomentar?
-        <strong>No olvides registrarte con tu nombre completo comenzando por apellidos.</strong></li>
     </ol>
-
+<div class="grid grid-cols-6 gap-4 mb-4">
+    <div class="col-span-4 col-start-2">
+        <?php
+        renderVideoIframe('cABO2lG2WaA', 'Este es el problema con el amor romántico');
+        ?></div>
+</div>
+<div class="grid grid-cols-6 gap-4 mb-4">
+    <div class="col-span-4 col-start-2">
+        <?php
+        renderImage('iga8-img06.webp');
+        ?>
+    </div>
+</div>
     <?php ob_start(); ?>
     <p>Sube aquí el archivo de tu infografía.</p>
     <?php

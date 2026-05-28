@@ -1,6 +1,7 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 
 
@@ -9,21 +10,24 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Lectura y cuestionario: Masculinidades e igualdad de género</h2>
-    <p>El respeto a la diversidad de ideas y estilos de vida es fundamental para las relaciones humanas. Por ello, te proponemos cerrar la primera sesión con la lectura del tríptico "Un asunto de hombres: las masculinidades" elaborado por la Comisión Nacional de los Derechos Humanos. En este texto se ejemplifican algunas de las conductas y prácticas de las masculinidades dominantes que son contrarias a la equidad y la igualdad sustantiva entre las personas.</p>
-    <p>Ten presente que la igualdad de género no implica que las personas tengan comportamientos y formas de ser idénticas. La igualdad significa poder gozar y ejercer nuestros derechos humanos y libertades fundamentales, además de tener acceso a oportunidades y recursos que nos permitan desarrollarnos plenamente, independientemente de nuestra identidad de género.</p>
-    <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-    <p>Reconocer algunas propuestas para construir ambientes de respeto y armonía ante las diversas formas de ser hombre.</p>
-    <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number">
-        <li>Lee el tríptico <a href="<?php echo PATH_DOCS . 'u1t4-lectura_UnAsuntoDeHombresLasMasculinidades.pdf'; ?>" target="_blank">"Un asunto de hombres: las masculinidades"</a> de la Comisión Nacional de los Derechos Humanos.</li>
-        <li>Posteriormente, responde el cuestionario sobre la lectura.</li>
-    </ol>
-    <?php ob_start(); ?>
+  <h2>Actividad didáctica</h2>
+  <p><strong>Instrucciones:</strong></p>
+  <ol class="ol-number">
+    <li>Lee el cuento <a href="<?php echo PATH_DOCS . 'u1t5-al-fin-iguales.pdf'; ?>" target="_blank">Al fin iguales</a>, de la autora Enriqueta Navagómez, e identifica las prácticas y acciones de desigualdad presentes en el texto. </li>
+    <li>Resuelve el cuestionario de opción múltiple subrayando las respuestas correctas.</li>
+    <li>No olvides verificar tus respuestas.</li>
+  </ol>
+  <div class="w-2xl mx-auto mt-10">
     <?php
-    $ActividadContent = ob_get_clean();
-    renderActividad('u1t4a3', "Un asunto de hombres: las masculinidades.", $ActividadContent);
+    renderImage('iga5-img4.webp', 'Al fin iguales, cuento de Enriqueta Navagómez');
     ?>
+  </div>
+
+  <?php ob_start(); ?>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividad('u1t5a2', "Cuestionario al fin iguales", $ActividadContent);
+  ?>
 </section>
 
 <?php

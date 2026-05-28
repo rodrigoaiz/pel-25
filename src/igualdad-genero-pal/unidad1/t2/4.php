@@ -2,62 +2,36 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
-
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Infografía sobre las Olas del feminismo y el feminismo en México</h2>
-    <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-    <p>Identificar las características de las distintas olas del feminismo (demandas y logros) y a sus principales representantes.</p>
+    <h2>Orígenes del feminismo</h2>
+    <p>Te invitamos a revisar el siguiente video, en él harás un recorrido histórico desentrañando las diversas etapas y antecedentes que han moldeado este movimiento crucial. Así también explorarás cómo es que las ideas y acciones de mujeres visionarias han desafiado las normas establecidas, luchando incansablemente por la igualdad y la justicia. Descubrirás cómo el feminismo ha evolucionado, adaptándose a los desafíos de la época y cómo ha dejado una huella imborrable en la sociedad actual.</p>
+    <p>Mientras ves el video identifica la siguiente información:</p>
+    <ul class="ul-disc ml-20">
+        <li>¿Cuándo surge el feminismo?</li>
+        <li>¿Cómo se ha dividido la historia del feminismo?</li>
+        <li>¿Cuáles han sido las demandas históricas del feminismo?</li>
+        <li>¿Quiénes han sido las representantes del feminismo?</li>
+        <li>¿Qué tipos de feminismo existen?</li>
+    </ul>
     <div class="max-w-xl mx-auto">
         <?php
-        renderVideoIframe('ERsVprw030k', '¿Qué es una infografía?');
+        renderVideoIframe('C60iyBIXxQs', 'Historia del feminismo en 10 minutos');
         ?>
     </div>
-    <p><strong>Instrucciones:</strong></p>
-    <ol class="ol-number">
-        <li>En equipos, de acuerdo con lo indicado por tu profesora o profesor, elabora una infografía de alguna de las Olas del feminismo, o bien del Feminismo en México. Revisa el video <span class="font-bold text-fuchsia-900">¿Qué es una infografía?</span> para conocer en qué consiste y cómo se hace una infografía. La infografía debe incluir:
-            <ul>
-                <li class="leading-none">Título</li>
-                <li class="leading-none">Periodo de tiempo que abarca la Ola</li>
-                <li class="leading-none">Demandas solicitadas</li>
-                <li class="leading-none">Logros alcanzados</li>
-                <li class="leading-none">Principales representantes</li>
-        </li>
-        </ul>
-        </li>
-        <li>Para el desarrollo del trabajo, apóyate en uno o varios de los siguientes materiales, según el subtema asignado:
-            <ul>
-                <li class="leading-none"><a href="<?php echo PATH_DOCS . 'u1t2-feminismo-para-principiantes.pdf'; ?>" target="_blank">Feminismo para principiantes</a> de Nuria Varela y Antonia Santolaya.</li>
-
-                <li class="leading-none"><a href="<?php echo PATH_DOCS . 'u1t2-lectura-UnaBreveHistoriaDelFeminismoLasFechasyLosNombresClave.pdf'; ?>" target="_blank">Una breve historia del feminismo</a> las fechas y nombres clave de Aitana Palomar.</li>
-
-                <li class="leading-none"><a href="<?php echo PATH_DOCS . 'u1t2-lectura-LaCuartaOlaDelFeminismo.pdf'; ?>" target="_blank">La cuarta ola del feminismo</a> de Patricia Galeana.</li>
-
-                <li class="leading-6"><a href="https://repositorio-uapa.cuaed.unam.mx/repositorio/moodle/pluginfile.php/2854/mod_resource/content/1/UAPA-Movimiento-Feminista-Mexico-Lucha-Permanente-Contra-Violencia-Genero/index.html" target="_blank">El movimiento feminista en México, una lucha permanente contra la violencia de género</a> de Alma Rosa Sánchez, Diana Hernández y Mariana Bucio.</li>
-            </ul>
-        </li>
-        <li>Revisa muy bien el instrumento <a href="<?php echo PATH_DOCS . 'u1t2-rubrica-OlasDelFeminismoYFeminismoEnMexico.pdf'; ?>" target="_blank">escala estimativa</a>, con el que se evaluará tu producto. </li>
-        <li>Posteriormente presentarán al grupo su infografía o la compartirán a través de alguna herramienta digital colaborativa.</li>
-        <li>Reflexionen en grupo:
-            <ul>
-                <li class="leading-none">¿Qué importancia tiene el feminismo en la historia de la humanidad?</li>
-                <li class="leading-none">¿Cómo ha impactado el feminismo la vida de las mujeres?</li>
-            </ul>
-        </li>
-    </ol>
     <?php ob_start(); ?>
-    <p>Aquí sube el trabajo realizado.</p>
+    <p>Al finalizar el video contesta las preguntas que se presentan. Elige la opción que consideres responde mejor a cada pregunta u oración.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u1t2a3', "Olas del feminismo y el feminismo en México", $ActividadContent);
+    renderActividad('u1t2a2', "Orígenes del feminismo", $ActividadContent);
     ?>
 </section>
-
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);

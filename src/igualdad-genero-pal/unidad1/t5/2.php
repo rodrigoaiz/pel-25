@@ -1,25 +1,32 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
-
+include PATH_INCLUDE . 'Videos.php';
+include PATH_INCLUDE . 'EducaplayIframe.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Diagnóstico</h2>
-    <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-    <p>Detectar tus conocimientos previos para introducirte al aprendizaje de la cultura de la igualdad.</p>
-    <?php ob_start(); ?>
-    <p>Contesta las siguientes preguntas eligiendo la respuesta que consideres correcta. </p>
-    <?php
-    $ActividadContent = ob_get_clean();
-    renderActividad('u1t5a1', "Diagnóstico aprendizaje 5", $ActividadContent);
-    ?>
+  <h2>Derechos Humanos</h2>
+  <p>Para comprender a fondo la trascendencia de los Derechos Humanos en nuestra sociedad actual, es fundamental conocer su origen y la razón de su existencia. La siguiente actividad nos permitirá adentrarnos en la historia y la importancia de estos derechos fundamentales, sentando así las bases para entender por qué son esenciales en la construcción de un mundo más justo e igualitario para todas las personas.</p>
+  <p><strong>Propósito</strong></p>
+  <p>Identificar la definición de los Derechos Humanos. Conocer el contexto histórico en el que surgieron los Derechos Humanos.</p>
+  <p><strong>Instrucciones:</strong></p>
+  <ol class="ol-number">
+    <li>Observa el siguiente video:</li>
+    <div class="my-5">
+      <?php
+      renderVideoIframe('PPeRECua5CQ', '');
+      ?>
+    </div>
+    <li>Toma nota de los datos y hechos que consideres relevantes para identificar el proceso histórico que se dio para el reconocimiento y establecimiento de los derechos humanos en la Declaración Universal de Derechos Humanos.</li>
+    <li>Resuelve el cuestionario del juego “Froggy Jumps: Derechos Humanos Quizz CCH”. Tienes dos intentos para resolverlo. </li>
+    <li>Toma nota, en tu cuaderno, de tus aciertos y errores.</li>
+  </ol>
+  <?php renderEducaplay('18595630-derechos_humanos_quiz.html'); ?>
 </section>
-
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);

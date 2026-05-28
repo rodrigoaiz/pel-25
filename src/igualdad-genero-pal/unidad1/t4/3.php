@@ -2,8 +2,7 @@
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
-include PATH_INCLUDE . 'ActividadIframe.php';
-include PATH_INCLUDE . 'Accordion.php';
+include PATH_INCLUDE . 'ToolTip.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -11,165 +10,85 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-  <h2>Lectura y análisis: Presupuestos de la masculinidad</h2>
-  <div class="grid grid-cols-3 gap-4">
-    <div><?php
-          renderImage('iga4-img03.webp');
-          ?></div>
-    <div class="col-span-2">
-      <p>En este apartado podrás identificar y cuestionar algunos presupuestos de la masculinidad tradicional. Pero, ¿cómo sabemos qué es la masculinidad tradicional? Si bien la respuesta es compleja, en los estudios de género se utilizan distintas herramientas teórico-metodológicas para comprender la construcción del género masculino a partir de los comportamientos generalizados de los hombres.</p>
-      <p>Una de estas herramientas es la caja de la masculinidad. Esta es una metáfora que se utiliza para describir la masculinidad tradicional a partir de pilares o mandatos que definen, imponen o idealizan como deberían ser o comportarse los hombres.</p>
-    </div>
-  </div>
-  <p>Sin embargo, hay hombres que ejercen una masculinidad en transición, porque se identifican parcialmente o han modificado algunos de esos pilares o mandatos. También existen otros hombres cuya masculinidad se considera alternativa porque tienen formas de ser y comportamientos distintos a los pilares o mandatos de la masculinidad tradicional.</p>
-  <p class="font-bold text-xl text-fuchsia-900">¿Cuáles son los presupuestos de la masculinidad?</p>
-  <p>Al igual que lo femenino, la masculinidad no es algo con lo que se nace, sino que lo conformamos y transformamos a partir de nuestro entorno histórico, social, político y cultural.</p>
-  <p>Los estudios de género relacionados con la masculinidad se sintetizan en cuatro ejes:</p>
-  <ol class="ol-number">
-    <li>Identificar sus mecanismos.</li>
-    <li>Comprender sus consecuencias.</li>
-    <li>Descubrir masculinidades diversas, es decir, otras formas de ser hombre.</li>
-    <li>Rastrear cambios en los comportamientos que eran predominantes.</li>
-  </ol>
-  <div class="grid grid-cols-3 gap-4">
-    <div class="col-span-2">
-      <p>Como resultado de estos estudios de género han surgido varios conceptos y modelos para describir la masculinidad. En este aprendizaje nos enfocaremos en 4 de ellos: <strong>la masculinidad hegemónica, la tradicional, la dominante y las alternativas</strong>. A continuación, describiremos cada una de ellas:</p>
-    </div>
-    <div><?php
-          renderImage('iga4-img04.webp');
-          ?></div>
-  </div>
-  <?php
-  $accordionItems1 = [
-    [
-      'title' => 'Masculinidad hegemónica',
-      'content' => '<p>El diccionario de la Real Academia Española (RAE) define la palabra hegemónica como “supremacía de cualquier tipo.” Es decir, que se trata de una masculinidad superior y dominante.</p>
-            <p>La masculinidad hegemónica está compuesta por comportamientos ampliamente aceptados que ejercen presión sobre la forma ideal de ser hombre. Estos comportamientos posicionan, permiten y justifican que los hombres dominen a las mujeres (Connell y Messerschmidt, 2005).</p>
-            <p>La masculinidad hegemónica varía en cada contexto social y cultural, por lo que no existe una sola forma de definir sus comportamientos. Por ejemplo, mientras que en México una forma de masculinidad hegemónica es el machismo, en Japón es el hombre asalariado (salary man), y en Reino Unido es la masculinidad gerencial (Connell y Messerschmidt, 2005).</p>'
-    ],
-    [
-      'title' => 'Masculinidad tradicional',
-      'content' => '<p>"La masculinidad tradicional se define en oposición a lo femenino: los hombres no lloran, no cuidan y tienen que proveer" (ONU Mujeres, s/f, p. 6).  Esto significa que un hombre debe comportarse y hacer cosas opuestas a las mujeres.</p>
-            <p>La masculinidad tradicional se basa en roles y estereotipos de género rígidos, que fomentan la desigualdad y las relaciones de poder, dominio, debilidad y sumisión entre hombres, mujeres, infancias, y diversidades y disidencias sexo-genéricas. </p>
-            <p>El principal mecanismo para preservar la masculinidad tradicional es ejercer presión para que los hombres ajusten su comportamiento o se desempeñen de acuerdo con las expectativas de lo que se considera viril o masculino. Por ejemplo, cuando se impide que un hombre demuestre sus sentimientos, o se exige que él sea el responsable de proteger a una mujer.</p>'
-    ],
-    [
-      'title' => 'Masculinidad dominante',
-      'content' => '<p>De acuerdo con la Comisión Nacional de los Derechos Humanos (CNDH) la masculinidad dominante "causa muchos problemas debido a que busca la subordinación de las mujeres, la violencia entre hombres y la negación de las necesidades emocionales y de autocuidado de los propios varones" (septiembre, 2022/4VG/BAPJ).</p>
-            <p>Ello implica que, aquellos hombres que ejercen una masculinidad dominante recurren a la violencia -digital, emocional, económica, física, institucional, psicológica, patrimonial, sexual, verbal, entre otras- para imponer su voluntad sobre otras personas. Cabe aclarar que ser hombre no es sinónimo de ser violento.</p>
-            <p>Los roles, estereotipos, creencias o expectativas que impone la masculinidad dominante pueden ser insostenibles, incluso para los propios hombres. Por ejemplo, no acudir al médico cuando se está enfermo o por un chequeo de rutina por la creencia de que un hombre debe ser fuerte.</p>'
-    ],
-    [
-      'title' => 'Masculinidades alternativas',
-      'content' => '<p>El glosario para la igualdad de INMUJERES diferencia la masculinidad de las masculinidades.</p>
-            <p>La <strong>masculinidad</strong>, en singular, hace referencia a los hombres que definen su virilidad y hombría a partir de ciertas prácticas.</p>
-            <p>El término <strong>masculinidades</strong>, en plural, es el proceso por el cual los hombres reflexionan sobre su identidad para liberarse de estereotipos y roles que promueven la violencia de género. A estas masculinidades también se les conoce como masculinidades alternativas. </p>
-            <p>Los hombres que ejercen una masculinidad alternativa analizan y revisan su forma de ser, la educación que recibieron, sus relaciones sociales y su participación para entender de qué manera se ejerce el patriarcado. Mediante este análisis buscan modificar su comportamiento y sus relaciones, creando estrategias que se contraponen a las jerarquías, el dominio, la denigración, o el rechazo a mujeres, infancias, y diversidades y disidencias sexo-genéricas.</p>'
-    ]
-  ];
-  renderAccordion($accordionItems1, 'primero-');
-  ?>
-  <p class="font-bold text-xl text-fuchsia-900">Presupuestos de la masculinidad</p>
-  <p>Pero, ¿cómo sabemos las diferencias entre las masculinidades?</p>
-  <p>En su análisis para comprender los géneros femenino y masculino, Marcela Lagarde propuso una normatividad compuesta de "códigos, leyes, mandatos y mandamientos escritos, memorizados y trasmitidos oral, ejemplar, gráfica o imaginariamente" (1996, p. 15).</p>
-  <p>El concepto de <strong>mandatos de género</strong> se refiere a costumbres y tradiciones que se validan socialmente y se transmiten de generación en generación. Los mandatos de género condicionan las formas en que hombres y mujeres (deben) comportarse, actuar, interactuar y relacionarse en el ámbito de lo público y lo privado.</p>
-  <p class="font-bold text-xl text-fuchsia-900">Una herramienta para conocer los presupuestos de la masculinidad</p>
-  <p>Heilman, Baker, y Harrison propusieron la caja de la masculinidad como una herramienta teórico-metodológica para identificar creencias sobre lo que significa ser hombre desde una masculinidad tradicional.</p>
-  <ul class="ul-disc ml-10">
-    <li>La metáfora es que hay hombres que están dentro, porque tienen todas o casi todas las características de la caja de la masculinidad.</li>
-    <li>Hay hombres que están al borde de la caja, porque tienen algunas de las características.</li>
-    <li>Y hay hombres que están fuera de la caja, porque no tienen o casi no tienen las características de la masculinidad tradicional.</li>
-  </ul>
-  <div class="w-xl mx-auto">
-    <?php
-    renderImage('iga4-img05.webp');
-    ?>
-  </div>
-  <p>Heilman, Baker, y Harrison identificaron <strong>7 pilares que predominan en los hombres jóvenes de México</strong>, Estados Unidos y Reino Unido. Estos son: autosuficiencia, ser fuerte, agresión y control, atractivo físico, heterosexualidad y homofobia, roles masculinos rígidos e hipersexualidad.</p>
-  <p>Sin embargo, en los estudios de género se pueden incluir o proponer otros pilares o mandatos dependiendo de la cultura, la edad, el grupo social, entre otras variables de la población que será estudiada. Los resultados estadísticos de estos estudios permiten identificar los mandatos que predominan, y así interpretar los porcentajes de la población que están dentro, al borde, o fuera de la caja de la masculinidad. Es decir, lo que define a la masculinidad hegemónica, y a las masculinidades en transición y alternativas de ese grupo.</p>
-  <p>A continuación, se presentan algunas palabras asociadas a la masculinidad tradicional. Las que aparecen en <strong class="text-fuchsia-900">morado</strong> son los pilares de la caja de la masculinidad y las que aparecen en <strong>negro</strong> son algunos de los mandatos de la masculinidad.</p>
-  <p class="font-bold text-center text-fuchsia-900 mt-4">Mandatos de la masculinidad</p>
-  <div class="grid grid-cols-3 gap-2">
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none font-bold text-fuchsia-900">Agresión y control</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Conductas temerarias y violentas</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none font-bold text-fuchsia-900">Roles masculinos rígidos</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Ambición de poder</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Evitar el autocuidado</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Ser fuerte</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none font-bold text-fuchsia-900">Atractivo físico</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none font-bold text-fuchsia-900">Heterosexualidad obligatoria y homofobia</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Ser importante</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none font-bold text-fuchsia-900">Autosuficiencia</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none font-bold text-fuchsia-900">Hipersexualidad</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Ser procreador</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Censurar a los grupos subordinados</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Inteligencia racional</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Ser protector</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Comportamiento y rendimiento diferenciado</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Restricción emocional</div>
-    <div class="bg-emerald-200 rounded-lg p-2 text-center content-center leading-none text-gray-900">Ser proveedor</div>
-  </div>
-  <p>Para que reflexiones sobre este tema, te invitamos a realizar la siguiente actividad.</p>
-  <p class=" font-bold text-fuchsia-900"><strong>Propósito</strong></p>
-  <p>Identificar los distintos tipos de masculinidad (tradicional, en transición, o alternativa) con base en el análisis de frases que representan la postura de distintos hombres ante algunos de los pilares o mandatos de la masculinidad.</p>
-  <p><strong>Instrucciones:</strong></p>
-  <ol class="ol-number">
-    <li>Trabajen en equipos de 4 ó 5 estudiantes.</li>
-    <li>Analicen la frase asignada por su docente en equipos para identificar lo siguiente:
-      <ul class="ul-disc ml-10">
-        <li class="leading-6">¿A cuál masculinidad corresponde la frase? ¿A una masculinidad tradicional (dentro de la caja), una masculinidad en transición (al borde de la caja), o una masculinidad alternativa (fuera de la caja)?</li>
-        <li class="leading-6">¿A cuál pilar o mandato de la masculinidad corresponde?</li>
-      </ul>
-    </li>
-    <li>Anoten en un documento colaborativo los resultados de su análisis.</li>
-    <li>Cuando terminen, un integrante del equipo entregará el archivo. Nombren el archivo con su grupo, número de equipo y la palabra Masculinidad. Ejemplo, <em>Grupo201Equipo1Masculinidad.doc</em></li>
-  </ol>
-  <div class="grid grid-cols-3 gap-6">
-    <div>
-      <div class="bg-emerald-200 rounded-lg p-1 text-gray-600 text-center font-bold">Frase 1</div>
-      <?php
-      renderImage('iga4-frase1.webp');
-      ?>
+    <h2>Miradas teóricas de la igualdad</h2>
 
+    <p>Un teórico llamado <strong>Amartya Sen</strong>, ha abordado la igualdad problematizando la siguiente pregunta: <em>¿Igualdad de qué?</em> Probablemente de derechos, oportunidades, economía, emociones y de género.</p>
+    <p>Amartya Sen, recomienda pensar en las circunstancias que nos permiten ser diferentes, no sólo por las características externas (rasgos físicos o poseer capital económico), sino por las características formativas, habilidades, debilidades, ideología, entre otras que nos identifican como personas con una identidad y trayectoria interesante.</p>
+
+    <h3>Todxs somos diferentes</h3>
+    <?php
+    // Pre-inicializar el tooltip aquí (fuera de <p>) para evitar que el <div> de inicialización
+    // rompa el flujo del párrafo siguiente.
+    global $_tooltipInitialized;
+    if (!$_tooltipInitialized) {
+        $_tooltipInitialized = true;
+        echo '<div id="global-tooltip" role="tooltip" style="position:fixed;z-index:9999;display:none;max-width:18rem;padding:0.4rem 0.65rem;font-size:0.8rem;font-weight:500;color:#fff;background:#1f2937;border-radius:0.5rem;box-shadow:0 4px 12px rgba(0,0,0,.35);pointer-events:none;line-height:1.4;transition:opacity .15s ease;opacity:0;"></div>';
+        ob_start(); ?>
+        <script>
+        (function () {
+          var tip = document.getElementById('global-tooltip');
+          var MARGIN = 8, hideTimer = null;
+          function position(trigger) {
+            var rect = trigger.getBoundingClientRect(), tipW = tip.offsetWidth, tipH = tip.offsetHeight;
+            var top = rect.top - tipH - MARGIN; if (top < MARGIN) top = rect.bottom + MARGIN;
+            var left = rect.left + rect.width / 2 - tipW / 2;
+            left = Math.max(MARGIN, Math.min(left, window.innerWidth - tipW - MARGIN));
+            tip.style.top = top + 'px'; tip.style.left = left + 'px';
+          }
+          function show(trigger) {
+            if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; }
+            var text = trigger.getAttribute('data-tooltip'); if (!text) return;
+            tip.textContent = text; tip.style.opacity = '0'; tip.style.display = 'block';
+            requestAnimationFrame(function () { position(trigger); tip.style.opacity = '1'; });
+          }
+          function hide() {
+            tip.style.opacity = '0';
+            hideTimer = setTimeout(function () { tip.style.display = 'none'; hideTimer = null; }, 150);
+          }
+          document.addEventListener('mouseover', function (e) {
+            var t = e.target.closest ? e.target.closest('[data-tooltip]') : null; if (!t) return;
+            var from = e.relatedTarget; if (from && t.contains(from)) return; show(t);
+          });
+          document.addEventListener('mouseout', function (e) {
+            var t = e.target.closest ? e.target.closest('[data-tooltip]') : null; if (!t) return;
+            var to = e.relatedTarget; if (to && t.contains(to)) return; hide();
+          });
+          document.addEventListener('focusin', function (e) { if (e.target.hasAttribute && e.target.hasAttribute('data-tooltip')) show(e.target); });
+          document.addEventListener('focusout', function (e) { if (e.target.hasAttribute && e.target.hasAttribute('data-tooltip')) hide(); });
+        })();
+        </script>
+        <?php echo ob_get_clean();
+    }
+    ?>
+    <p>La cultura de la igualdad se concentra en respetar nuestras diversidades y apoyar a quienes requieran acceder a oportunidades que no han podido gozar para mejorar su futuro, es decir lograr <?php renderTooltip('equidad', 'Ayudar a una persona que no ha accedido a oportunidades a incorporarse a las que requiera para mejorar su vida.'); ?>.</p>
+
+    <div class="w-xl mx-auto">
+        <?php
+        renderImage(
+            'iga5-img3.webp',
+            'Ser diferente no impide la convivencia',
+            'https://commons.wikimedia.org/wiki/File:The_image_represents_activities_with_students_with_disabilities_associated_to_the_Adapted_Physical_Education_field.jpg',
+            'Matiashenríquezvalenzuela (2021). Wikimedia Commons'
+        );
+        ?>
     </div>
-    <div>
-      <div class="bg-emerald-200 rounded-lg p-1 text-gray-600 text-center font-bold">Frase 2</div><?php
-                                                                                                  renderImage('iga4-frase2.webp');
-                                                                                                  ?>
-    </div>
-    <div>
-      <div class="bg-emerald-200 rounded-lg p-1 text-gray-600 text-center font-bold">Frase 3</div><?php
-                                                                                                  renderImage('iga4-frase3.webp');
-                                                                                                  ?>
-    </div>
-    <div>
-      <div class="bg-emerald-200 rounded-lg p-1 text-gray-600 text-center font-bold">Frase 4</div><?php
-                                                                                                  renderImage('iga4-frase4.webp');
-                                                                                                  ?>
-    </div>
-    <div>
-      <div class="bg-emerald-200 rounded-lg p-1 text-gray-600 text-center font-bold">Frase 5</div><?php
-                                                                                                  renderImage('iga4-frase5.webp');
-                                                                                                  ?>
-    </div>
-    <div>
-      <div class="bg-emerald-200 rounded-lg p-1 text-gray-600 text-center font-bold">Frase 6</div><?php
-                                                                                                  renderImage('iga4-frase6.webp');
-                                                                                                  ?>
-    </div>
-  </div>
-  <div class="w-2/3 mx-auto mt-6 bg-fuchsia-900 p-2 leading-none text-md">
-    <span class="text-white">NOTA:</span>
-    <ul>
-      <li class="text-white">Revisa la <a class="text-white" href="<?php echo PATH_DOCS . 'u1t4-listaDeCotejoAnalisisDeFrases.pdf'; ?>" target="_blank">lista de cotejo</a> con los criterios de evaluación diagnóstica.</li>
+
+    <p>Actualmente, en los países de Occidente y Latinoamérica se busca eliminar prácticas y leyes discriminatorias que hayan propiciado que las personas enfrenten: racismo, intolerancia, homofobia, transfobia, injusticia y violencia, con la intención de mejorar la vida de las personas y crear buenas relaciones entre ellas.</p>
+    <p>Después de la Segunda Guerra Mundial, en Alemania establecieron la cultura de paz como una estrategia para solucionar conflictos, porque: <em>"La educación para la paz, consiste en fortalecer al individuo para que pueda razonar y decidir con toda libertad"</em>, es decir, desarrolla criterios que le permitan defender las diferencias y divergencias sin violencia, pensando en destacar la tolerancia y el entendimiento de la experiencia ajena para lograr un acuerdo o el entendimiento mutuo.</p>
+    <p>Si bien la cultura de la igualdad rechaza la desigualdad, también busca incentivar el diálogo entre las personas para apoyar el desarrollo humano y avanzar hacia la sustentabilidad, como otro principio de la igualdad que desea lograr la equidad y justicia social entre las personas, como dos desafíos mundiales urgentes de atender en la <strong>Agenda 2030 de las Naciones Unidas</strong>.</p>
+
+    <p><strong>Aportaciones de la cultura de la igualdad:</strong></p>
+    <ul class="ul-disc">
+        <li>Promueve el desarrollo social, educativo y económico.</li>
+        <li>Permite la participación ciudadana.</li>
+        <li>Busca la educación inclusiva.</li>
+        <li>Desmonta estereotipos tradicionales.</li>
+        <li>Apoya a grupos vulnerables promoviendo la equidad (ayudar a tener a quien no tiene algo).</li>
+        <li>Valora la diversidad.</li>
+        <li>Implementa medidas de conciliación.</li>
+        <li>Fomenta el respeto.</li>
     </ul>
-  </div>
-  <?php ob_start(); ?>
-  <p>Aquí sube el trabajo realizado.</p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u1t4a2', "Mandatos de la masculinidad.", $ActividadContent);
-  ?>
+
 </section>
 
 <?php

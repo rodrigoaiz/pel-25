@@ -19,39 +19,35 @@ ob_start();
     </div>
     <p>Comprender la violencia feminicida como la manifestación más brutal y final de un continuo de violencia de género es crucial para desentrañar las raíces profundas de este problema social. Al reconocerla no como un hecho aislado, sino como un eslabón final de una cadena de agresiones, invisibilizaciones y discriminaciones, se abre la puerta a cuestionar las estructuras patriarcales que la sustentan y a imaginar alternativas de prevención, justicia y reparación más efectivas y transformadoras. A continuación, conocerás el caso de Ingrid Escamilla, el cual nos confronta directamente con esta realidad, y realizarás una actividad que permita comprender las causas y proponer caminos hacia un futuro libre violencia para todas las mujeres.</p>
   </div>
-  <h3>Propósito</h3>
-  <p>Conocer un caso de feminicidio que ilustre los tipos y manifestaciones de violencia de género presentes en la violencia feminicida.</p>
-  <h3>Instrucciones:</h3>
+
+  <p>La comprensión de la complejidad del feminicidio implica reconocer que no se trata de un acto aislado, sino del punto culminante de un <strong><em>continuum</em></strong> de violencia de género. En ocasiones, las víctimas suelen enfrentar diversas manifestaciones de violencia, que pueden ser física, psicológica, sexual, económica o patrimonial. Al analizar casos como el de Ingrid Escamilla, podremos identificar cómo estas distintas formas de violencia se entrelazan y contribuyen al delito de feminicidio.</p>
+  <p><strong>Propósito</strong></p>
+  <p>Conocer un caso de feminicidio para caracterizar la manifestación de la violencia de género presentes en la violencia feminicida.</p>
+  <p><strong>Instrucciones:</strong></p>
   <ol class="ol-number">
-    <li>Ve el video y revisa los pdfs que contienen notas periodísticas. En ellos, podrás obtener información, antecedentes y datos generales del feminicidio de Ingrid Escamilla.</li>
-    <li>A partir de la información que encuentres elabora una nota periodística, con perspectiva de género, que presente las ideas principales del caso (nombres, fechas, lugares y acontecimientos, a partir de las preguntas <em>¿qué? ¿cuándo? ¿dónde? ¿por qué? ¿quién?</em></li>
-    <li>Coloca en este espacio tu trabajo en formato Word o PDF, con una extensión mínima de una cuartilla y máxima de cuartilla y media. Nombra el archivo de la siguiente manera: Nombre_Apellido_NotaPeriodistica_Ingrid</li>
-    <li>Para elaborar tu trabajo, puedes consultar el fragmento de <a href="<?php echo PATH_DOCS . 'u2t9-Lectura_UnManualUrgenteParaLaCoberturaDeViolencia_Act.9.1.pdf'; ?>" target="_blank"><em>Un manual urgente para la cobertura de violencia contra las mujeres y feminicidios en México</em></a> (ONU Mujeres, 2021).</li>
+    <li>De manera individual, revisa los dos documentos en formato PDF que contienen notas periodísticas sobre los antecedentes y datos generales del feminicidio de Ingrid Escamilla. El objetivo es que conozcas el caso para reconocer al feminicidio como la expresión máxima de la violencia de género. </li>
   </ol>
-  <div class="row">
-    <div class="max-w-xl mx-auto">
-      <?php
-      renderVideoIframe('dnQLpodI6us', 'Feminicidio de Ingrid Escamilla en la GAM, CDMX, indigna - Despierta');
-      ?>
-    </div>
+
+  <div class="mt-5 flex flex-col gap-3">
+    <a href="<?php echo PATH_DOCS . 'u2a9-todo-sobre-el-feminicio-de-ingrid.pdf'; ?>" target="_blank"
+      class="flex items-center gap-4 rounded-xl border border-fuchsia-200 bg-fuchsia-50 px-5 py-4 shadow-sm transition hover:bg-fuchsia-100 hover:shadow-md">
+      <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-fuchsia-700 text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+        </svg>
+      </span>
+      <span class="text-sm text-gray-700">Redacción Mag. (2020, 21 de febrero) ¿Quién es Erick Francisco Robledo Todo sobre el feminicida de Ingrid Escamilla. <em>El Comercio</em>.</span>
+    </a>
+    <a href="<?php echo PATH_DOCS . 'u2t9-Lectura_FeminicidioDeIngridEscamilla_Act.9.1.pdf'; ?>" target="_blank"
+      class="flex items-center gap-4 rounded-xl border border-fuchsia-200 bg-fuchsia-50 px-5 py-4 shadow-sm transition hover:bg-fuchsia-100 hover:shadow-md">
+      <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-fuchsia-700 text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+        </svg>
+      </span>
+      <span class="text-sm text-gray-700">Olimpia y Simone. (2021, 9 de febrero). A un año del feminicidio de Ingrid Escamilla. <em>Voces feministas.mx.</em></span>
+    </a>
   </div>
-
-  <ul class="ul-disc">
-    <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_AUnAnoDelFeminicidioDeIngridEscamilla_Act.9.1.pdf'; ?>" target="_blank">A un año del feminicidio de Ingrid Escamilla</a></li>
-    <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_FeminicidioDeIngridEscamilla_Act.9.1.pdf'; ?>" target="_blank">Feminicidio de Ingrid Escamilla: Por qué el asesinato de la joven ha provocado protestas en México</a></li>
-    <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_IngridEscamillaHabiaDenunciado_Act.9.1.pdf'; ?>" target="_blank">Ingrid Escamilla había denunciado a su pareja por violencia. Se pedirá la pena máxima</a></li>
-    <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_IngridEscamillaErickFranciscoRobledoElFeminicida_Act.9.1.pdf'; ?>" target="_blank">¿Quién es Erick Francisco Robledo? Todo sobre el feminicida de Ingrid Escamilla</a></li>
-    <li><a href="<?php echo PATH_DOCS . 'u2t9-Lectura_IngridySuAsesino_Act.9.1.pdf'; ?>" target="_blank">Ingrid y su asesino tenían una relación ´extraña´ vecinos</a></li>
-  </ul>
-
-  <p><strong>Nota:</strong> Para el logro del objetivo planteado para esta actividad, puede adaptarse la exposición o entrega de un tipo textual distinto a la nota periodística, en tanto que permita la revisión del caso del feminicidio de Ingrid Escamilla y el reconocimiento de los tipos de violencia de género presentes en la relación entre la víctima y el agresor.</p>
-
-  <?php ob_start(); ?>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u2t9a1', "Antecedentes del caso Ingrid Escamilla", $ActividadContent);
-  ?>
-
 </section>
 <?php
 $content = ob_get_clean();

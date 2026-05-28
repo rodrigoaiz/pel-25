@@ -1,8 +1,6 @@
 <?php
 include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
-include PATH_INCLUDE . 'Videos.php';
-include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -10,28 +8,16 @@ $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
 ?>
 <section>
-    <h2>Orígenes del feminismo</h2>
-    <p>Te invitamos a revisar el siguiente video, en él harás un recorrido histórico desentrañando las diversas etapas y antecedentes que han moldeado este movimiento crucial. Así también explorarás cómo es que las ideas y acciones de mujeres visionarias han desafiado las normas establecidas, luchando incansablemente por la igualdad y la justicia. Descubrirás cómo el feminismo ha evolucionado, adaptándose a los desafíos de la época y cómo ha dejado una huella imborrable en la sociedad actual.</p>
-    <p>Mientras ves el video identifica la siguiente información:</p>
-    <ul class="ul-disc ml-20">
-        <li>¿Cuándo surge el feminismo?</li>
-        <li>¿Cómo se ha dividido la historia del feminismo?</li>
-        <li>¿Cuáles han sido las demandas históricas del feminismo?</li>
-        <li>¿Quiénes han sido las representantes del feminismo?</li>
-        <li>¿Qué tipos de feminismo existen?</li>
-    </ul>
-    <div class="max-w-xl mx-auto">
-        <?php
-        renderVideoIframe('C60iyBIXxQs', 'Historia del feminismo en 10 minutos');
-        ?>
-    </div>
-    <?php ob_start(); ?>
-        <p>Al finalizar el video contesta las preguntas que se presentan:</p>
-        <?php
-        $ActividadContent = ob_get_clean();
-        renderActividad('u1t2a2', "Orígenes del feminismo", $ActividadContent);
-        ?>
+  <h2>Diagnóstico: ¿Qué sabes sobre el feminismo?</h2>
+  <p>Antes de comenzar a revisar los contenidos, te invitamos a contestar este cuestionario diagnóstico con el propósito de identificar tus ideas previas acerca del feminismo.</p>
+  <?php ob_start(); ?>
+  <p>Lee cuidadosamente cada una de las afirmaciones que se presentan y marca si estás de acuerdo o en desacuerdo, desde tu punto de vista, según lo que tú sabes o has escuchado.</p>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividad('u1t2a1', "Evaluación diagnóstica de aprendizaje 2", $ActividadContent);
+  ?>
 </section>
+
 <?php
 $content = ob_get_clean();
 renderTemplatePage($menuAsignaturaPath, $content);
