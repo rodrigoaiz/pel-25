@@ -48,7 +48,8 @@
 
     "u1t5a1": { "id": "6016", "moduleName": "quiz" },
     "u1t5a2": { "id": "6018", "moduleName": "quiz" },
-    "u1t5a3": { "id": "6019", "moduleName": "assign" },
+    "u1t5a3": { "id": "6033", "moduleName": "assign" },
+    "u1t5a4": { "id": "6019", "moduleName": "assign" },
 
     "u1t6a1": { "id": "6020", "moduleName": "quiz" },
     "u1t6a2": { "id": "6021", "moduleName": "quiz" },
