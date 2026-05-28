@@ -22,9 +22,9 @@ ob_start();
   <p>Identificar los presupuestos de la masculinidad mediante la herramienta de la caja de la masculinidad, para diferenciar la masculinidad tradicional, de las que están en transición o las alternativas.</p>
   <p><strong>Instrucciones:</strong></p>
   <ol class="ol-number">
-    <li>Lee la siguiente síntesis de los documentos “¿Qué es el patriarcado?” y “Cómo comenzó el patriarcado (y cuán posible es que la evolución se deshaga de él)”. Si quieres profundizar tu lectura, puedes consultar los textos completos que se encuentran en las referencias. </li>
+    <li>Lee el texto “Presupuestos de la masculinidad”. Si quieres profundizar tus conocimientos puedes consultar los textos recomendados que se encuentran en las referencias.</li>
     <li><strong>Toma nota en tu cuaderno de trabajo</strong> de la asignatura.</li>
-    <li>Con base en la lectura, resuelve el ejercicio de relación de columnas cuantas veces sea necesario, para que tengas un dominio de los conceptos.</li>
+    <li>Con base en la lectura, resuelve el ejercicio respondiendo las preguntas, para que tengas un dominio de los conceptos.</li>
   </ol>
 </section>
 <div class="w-2/3 mt-6 p-10 mx-auto bg-secondary/30">

@@ -3,6 +3,7 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'Tabs.php';
+include PATH_INCLUDE . 'ActividadIframe.php';
 
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -275,6 +276,12 @@ ob_start();
         </div>
 
     </div>
+    <?php ob_start(); ?>
+  <p>Sube aquí tu trabajo.</p>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividad('u1t4a2', "Resolución de casos", $ActividadContent);
+  ?>
 </section>
 <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
 <?php
