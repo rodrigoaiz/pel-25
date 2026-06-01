@@ -6,12 +6,12 @@ function renderTarjetasImagen($items)
   echo '<div class="space-y-6 my-8">';
 
   foreach ($items as $item) {
-    $titulo = htmlspecialchars($item['titulo'] ?? '');
+    $titulo = $item['titulo'] ?? '';
     $etiqueta = htmlspecialchars($item['etiqueta'] ?? '');
-    $subtitulo = htmlspecialchars($item['subtitulo'] ?? '');
-    $descripcion = htmlspecialchars($item['descripcion'] ?? '');
+    $subtitulo = $item['subtitulo'] ?? '';
+    $descripcion = $item['descripcion'] ?? '';
     $imagen = $item['imagen'] ?? null;
-    $pie = htmlspecialchars($item['pie'] ?? '');
+    $pie = $item['pie'] ?? '';
     $link = $item['link'] ?? '#';
     $fuente = $item['fuente'] ?? '';
     $puntos = $item['puntos'] ?? [];
