@@ -54,7 +54,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u4t1a2', "La novela", $ActividadContent);
+    renderActividadH5P('u4-act1', "La novela", $ActividadContent);
     ?>
     <p>Como ejemplo en la novela <a href="https://scispace.com/pdf/memoria-de-mis-putas-tristes-2xw1csop1t.pdf" target="_blank" rel="noopener noreferrer"><em>Memorias de mis putas tristes</em></a> es muy sencillo reconocer las secuencias y las partes que la integran.</p>
 

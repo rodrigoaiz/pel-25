@@ -90,6 +90,22 @@ h4 {
     li > a {
       @apply text-blue-700 underline underline-offset-4 hover:text-orange-own transition-all ease-in-out;
     }
+    /* Estilos para blockquote */
+    blockquote {
+      @apply my-6 pl-6 pr-4 py-4 border-l-4 border-azulcla bg-gray-50/50 rounded-r-lg not-italic;
+      font-style: normal !important;
+    }
+    blockquote p {
+      @apply my-3 mx-0 max-w-full text-gray-700 leading-relaxed not-italic;
+      font-style: normal !important;
+    }
+    blockquote footer {
+      @apply mt-4 text-sm text-gray-600 font-normal border-t border-gray-200 pt-3;
+    }
+    blockquote footer cite {
+      @apply font-semibold not-italic;
+      font-style: normal !important;
+    }
   }
   #header__nav{
     @apply min-w-full bg-slate-200;

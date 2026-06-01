@@ -142,7 +142,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a3', "Funciones de las secuencias", $ActividadContent);
+    renderActividad('u4a2', "Funciones de las secuencias", $ActividadContent);
     ?>
     <h3>Bibliografía</h3>
     <ul class="space-y-2 text-sm text-gray-700">

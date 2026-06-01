@@ -35,7 +35,7 @@ ob_start();
   </div>
   <p>¡Hola! Bienvenidas y bienvenidos a la primera lección de la Unidad 1, de título “El suelo como mezcla”, en la que se revisarán los temas de las funciones principales del suelo, su composición química y las características de los compuestos orgánicos e inorgánicos.</p>
 </section>
-<?php renderModalIndex('<strong>IMPORTANTE 2:</strong> Sólo encontrarás disponible el contenido de la Unidad 1 y 2, en breve podrás acceder a las siguientes unidades'); ?>
+<?php renderModalIndex(); ?>
 
 <?php
 $content = ob_get_clean();

@@ -25,7 +25,7 @@ $ActividadContent = ob_get_clean();
 renderActividad('u1a1', "Cuestionario diagnóstico unidad 1", $ActividadContent);
 ?>
 </section>
-<?php renderModalIndex('<strong>IMPORTANTE 2:</strong> Sólo encontrarás disponible el contenido de la Unidad 1 y 2, en breve podrás acceder a las siguientes unidades'); ?>
+<?php renderModalIndex(); ?>
 
 <?php
 $content = ob_get_clean();

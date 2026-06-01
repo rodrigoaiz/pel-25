@@ -44,7 +44,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a5', "Foro: Gregorio Samsa", $ActividadContent);
+    renderActividad('u4a3', "Foro: Gregorio Samsa", $ActividadContent);
     ?>
 </section>
 

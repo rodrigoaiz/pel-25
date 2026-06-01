@@ -63,7 +63,7 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividadH5P('u4t2a4', "Personajes", $ActividadContent);
+    renderActividadH5P('u4-act2', "Personajes", $ActividadContent);
     ?>
 </section>
 
