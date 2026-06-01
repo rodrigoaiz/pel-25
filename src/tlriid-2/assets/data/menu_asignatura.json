@@ -59,12 +59,16 @@
     "u3a1": { "id": "5927", "moduleName": "quiz" },
     "u3a2": { "id": "5928", "moduleName": "forum" },
     "u3a3": { "id": "5929", "moduleName": "assign" },
-    "u3t2a4": { "id": "5130", "moduleName": "assign" },
+    "u3a4": { "id": "6036", "moduleName": "assign" },
+    "u3a5": { "id": "6044", "moduleName": "quiz" },
 
-    "u4t1a1": { "id": "5130", "moduleName": "quiz" },
-    "u4t1a2": { "id": "5130", "moduleName": "assign" },
-    "u4t1a3": { "id": "5130", "moduleName": "assign" },
-    "u4t2a5": { "id": "5130", "moduleName": "forum" }
+    "u4a1": { "id": "6037", "moduleName": "quiz" },
+    "u4a2": { "id": "6038", "moduleName": "assign" },
+    "u4a3": { "id": "6039", "moduleName": "forum" },
+    "u4a4": { "id": "6040", "moduleName": "forum" },
+    "u4a5": { "id": "6040", "moduleName": "assign" },
+    "u4a6": { "id": "6040", "moduleName": "forum" },
+    "u4a7": { "id": "6040", "moduleName": "quiz" }
 
   }
 }
