@@ -24,7 +24,7 @@ ob_start();
   <p>Responde cada una de las preguntas.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u4t1a1', "Cuestionario diagnóstico | Unidad 4", $ActividadContent);
+  renderActividad('u4a1', "Cuestionario diagnóstico | Unidad 4", $ActividadContent);
   ?>
 </section>
 

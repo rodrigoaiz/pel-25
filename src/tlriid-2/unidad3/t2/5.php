@@ -62,7 +62,12 @@ ob_start();
     <?php ob_start(); ?>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u3t2a4', "Fichas finales", $ActividadContent);
+    renderActividad('u3a4', "Fichas finales", $ActividadContent);
+    ?>
+    <?php ob_start(); ?>
+    <?php
+    $ActividadContent = ob_get_clean();
+    renderActividad('u3a5', "Examen final unidad 3", $ActividadContent);
     ?>
     <h3>Bibliografía</h3>
     <ul class="space-y-2 text-sm text-gray-700">

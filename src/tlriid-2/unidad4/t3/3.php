@@ -51,7 +51,7 @@ ob_start();
     <p>Una vez terminado el collage, lo subirás al foro. Resulta importante que sepas el porqué decidiste crear tu collage de la forma en que lo hiciste y lo expliques en un pequeño párrafo al momento de subirlo. También te invitamos a participar opinando sobre el trabajo de los demás, de las cosas que encuentras atractivas o de las que te parece muestran una lectura distinta a la que tú hiciste.</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4t3a1', "Foro: La habitación de Gregorio Samsa", $ActividadContent);
+    renderActividad('u4a3', "Foro: La habitación de Gregorio Samsa", $ActividadContent);
     ?>
 </section>
 
