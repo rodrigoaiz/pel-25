@@ -25,7 +25,7 @@ ob_start();
             </a>
         </div>
         <div>
-        <a href="https://uapas2.bunam.unam.mx/matematicas/triangulos/" target="_blank">
+        <a href="https://uapa.bunam.unam.mx/u/matematicas/triangulos/" target="_blank">
             <?php
             renderImage('u3t4_banner_triangulos.webp', '', '', '');
             ?>

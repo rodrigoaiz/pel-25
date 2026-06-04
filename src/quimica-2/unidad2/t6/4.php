@@ -16,7 +16,7 @@ ob_start();
         ?>
     </div>
     <div class="max-w-2xl mx-auto m-10">
-            <p class="text-center text-lg rounded-lg shadow-md p-2 bg-rose-600"><a class=" text-gray-50" href="https://uapas2.bunam.unam.mx/ciencias/contenido_nutricional_alimentos/" target="_blank">Contenido nutricional de los alimentos</a></p>
+            <p class="text-center text-lg rounded-lg shadow-md p-2 bg-rose-600"><a class=" text-gray-50" href="https://uapa.bunam.unam.mx/u/ciencias/contenido_nutricional_alimentos/" target="_blank">Contenido nutricional de los alimentos</a></p>
         </div>
 </section>
 

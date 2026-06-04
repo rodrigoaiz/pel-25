@@ -125,7 +125,7 @@ ob_start();
         <p>Por otra parte, consulta la siguiente página de internet para que recapitulemos lo estudiado hasta el
                 momento. En está página se trabajan problemas donde algunos ya están resueltos y otros son fáciles de resolver
                 para practicar y adquieras habilidades en la resolución de problemas de este aprendizaje.</p>
-        <a href="https://uapas2.bunam.unam.mx/matematicas/poligonos/" target="_blank">
+        <a href="https://uapa.bunam.unam.mx/u/matematicas/poligonos/" target="_blank">
             <?php
             renderImage('u3t1_banner_poligonos_regulares.webp', '', '', '');
             ?>

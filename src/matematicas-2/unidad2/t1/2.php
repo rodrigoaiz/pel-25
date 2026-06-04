@@ -14,7 +14,7 @@ ob_start();
 
     <div class="md:grid grid-cols-2 gap-3">
       <div>
-          <a href="https://uapas1.bunam.unam.mx/matematicas/iden_variables/" target="_blank">
+          <a href="https://uapa.bunam.unam.mx/u/matematicas/iden_variables/" target="_blank">
               <?php
               renderImage('u2t1_banner_identificacion_variables.webp', '', '', '');
               ?>
@@ -22,7 +22,7 @@ ob_start();
           <p>En esta liga encontrarás definiciones e identificarás concepto de <b>variable, variable independiente, variable dependiente</b>, debes leer solo la pantalla 1 y 2.</p>
       </div>
     <div>
-        <a href="https://uapas2.bunam.unam.mx/matematicas/definicion_de_funcion/" target="_blank">
+        <a href="https://uapa.bunam.unam.mx/u/matematicas/definicion_de_funcion/" target="_blank">
             <?php
             renderImage('u2t1_banner_definicion_funcion.webp', '', '', '');
             ?>
@@ -31,7 +31,7 @@ ob_start();
       </div>
     </div>
     <div>
-        <a href="https://uapas2.bunam.unam.mx/matematicas/funcion_cuadratica/" target="_blank">
+        <a href="https://uapa.bunam.unam.mx/u/matematicas/funcion_cuadratica/" target="_blank">
             <?php
             renderImage('u2t1_banner_funcion_cuadratica.webp', '', '', '');
             ?>
@@ -67,7 +67,7 @@ ob_start();
 <!-- <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4 bg-secondary/50 px-5 py-5 mx-auto">
         <div>
         <p class="mb-3">En esta liga encontrarás definiciones e identificarás concepto de variable, variable independiente, variable dependiente, debes leer solo la pantalla 1 y 2.</p>
-        <a href="https://uapas1.bunam.unam.mx/matematicas/iden_variables/" target="_blank">
+        <a href="https://uapa.bunam.unam.mx/u/matematicas/iden_variables/" target="_blank">
         <?php
         renderImage('u2t1_banner_identificacion_variables.webp', '', '', '');
         ?>
@@ -75,7 +75,7 @@ ob_start();
         </div>
         <div>
         <p class="mb-3">En esta liga encontrarás definiciones de función, por favor observar el video.</p>
-        <a href="https://uapas2.bunam.unam.mx/matematicas/definicion_de_funcion/" target="_blank">
+        <a href="https://uapa.bunam.unam.mx/u/matematicas/definicion_de_funcion/" target="_blank">
         <?php
         renderImage('u2t1_banner_definicion_funcion.webp', '', '', '');
         ?>
@@ -83,7 +83,7 @@ ob_start();
         </div>
         <div>
         <p class="mb-3">En esta liga encontrarás definiciones de función cuadrática , por favor leer hasta el cambio de y en las funciones cuadráticas.</p>
-        <a href="https://uapas2.bunam.unam.mx/matematicas/funcion_cuadratica/" target="_blank">
+        <a href="https://uapa.bunam.unam.mx/u/matematicas/funcion_cuadratica/" target="_blank">
         <?php
         renderImage('u2t1_banner_funcion_cuadratica.webp', '', '', '');
         ?>

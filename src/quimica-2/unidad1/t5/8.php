@@ -28,7 +28,7 @@ ob_start();
     </div>
     <p class="mt-16">Para conocer más sobre las reacciones de doble desplazamiento puedes revisar la página:</p>
     <div class="w-md mx-auto m-10">
-        <p class="text-center rounded-lg shadow-md p-2 bg-red-500"><a class=" text-gray-50" href="https://uapas2.bunam.unam.mx/ciencias/reacciones_quimicas/" target="_blank">Reacciones químicas</a></p>
+        <p class="text-center rounded-lg shadow-md p-2 bg-red-500"><a class=" text-gray-50" href="https://uapa.bunam.unam.mx/u/ciencias/reacciones_quimicas/" target="_blank">Reacciones químicas</a></p>
     </div>
     <?php ob_start(); ?>
     <p>Realiza el siguiente cuestionario para corroborar lo aprendido en toda la lección.</p>

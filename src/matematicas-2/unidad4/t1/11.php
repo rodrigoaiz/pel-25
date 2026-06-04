@@ -68,7 +68,7 @@ ob_start();
                 son:</p>
       </div>
       <div>
-        <a href="https://uapas2.bunam.unam.mx/matematicas/variacion_lineal/" target="_blank">
+        <a href="https://uapa.bunam.unam.mx/u/matematicas/variacion_lineal/" target="_blank">
             <?php
             renderImage('u2t1_banner_variacion_lineal.webp', '', '', '');
             ?>
