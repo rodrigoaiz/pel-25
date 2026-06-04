@@ -30,7 +30,7 @@ ob_start();
         <p>En esta liga encontrarás definiciones de función, por favor observar el video.</p>
       </div>
     </div>
-    <div>
+    <div class="my-4 max-w-lg mx-auto">
         <a href="https://uapa.bunam.unam.mx/u/matematicas/funcion_cuadratica/" target="_blank">
             <?php
             renderImage('u2t1_banner_funcion_cuadratica.webp', '', '', '');

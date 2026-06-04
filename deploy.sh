@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script de despliegue optimizado para PEL-25
-# Uso: ./deploy.sh [staging|production] [--auto-build] [--no-package]
+# Uso: ./deploy.sh [staging|production] [--auto-build] [--no-package] [--subject <slug>]
 
 set -e
 
@@ -15,20 +15,81 @@ PACKAGE_NAME="pel-25-${ENVIRONMENT}-${TIMESTAMP}"
 # Opciones
 AUTO_BUILD=false
 NO_PACKAGE=false
+TARGET_SUBJECT=""
+
+# Funciones auxiliares
+show_error() {
+    echo -e "${RED}❌ $1${NC}"
+    exit 1
+}
+
+copy_item_to_package() {
+    local item="$1"
+    local source_path="$BUILD_DIR/$item"
+    local target_path="$DEPLOY_DIR/$item"
+
+    if [ ! -e "$source_path" ]; then
+        return
+    fi
+
+    if [ -d "$source_path" ]; then
+        mkdir -p "$target_path"
+        rsync -av \
+            --exclude='*.map' \
+            --exclude='*.tmp' \
+            --exclude='*.cache' \
+            --exclude='.DS_Store' \
+            "$source_path/" "$target_path/"
+    else
+        mkdir -p "$(dirname "$target_path")"
+        cp "$source_path" "$target_path"
+    fi
+}
+
+rsync_partial_to_remote() {
+    rsync -avz --delete \
+        --omit-dir-times \
+        --no-perms \
+        --no-owner \
+        --no-group \
+        --progress \
+        --exclude='*.map' \
+        --exclude='*.tmp' \
+        --exclude='*.cache' \
+        --exclude='.DS_Store' \
+        --include='*/' \
+        --include='/assets/***' \
+        --include='/include/***' \
+        --include='/js/***' \
+        --include='/config.php' \
+        --include='/menu.json' \
+        --include="/${TARGET_SUBJECT}/***" \
+        --exclude='*' \
+        "$BUILD_DIR/" "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH"
+}
 
 # Procesar argumentos
-for arg in "$@"
-do
-    case $arg in
+shift
+while [ $# -gt 0 ]; do
+    case "$1" in
         --auto-build)
             AUTO_BUILD=true
-            shift
             ;;
         --no-package)
             NO_PACKAGE=true
+            ;;
+        --subject|--asignatura)
             shift
+            if [ -z "$1" ]; then
+                show_error "Debes indicar el slug de la asignatura despues de --subject"
+            fi
+            TARGET_SUBJECT="$1"
+            ;;
+        *)
+            show_error "Opcion no reconocida: $1"
             ;;
     esac
+    shift
 done
 
 # Colores para output
@@ -60,11 +121,6 @@ show_success() {
     echo -e "${GREEN}✅ $1${NC}"
 }
 
-show_error() {
-    echo -e "${RED}❌ $1${NC}"
-    exit 1
-}
-
 # Verificar que existe el directorio dist o hacer build si es necesario
 if [ ! -d "$BUILD_DIR" ] || [ "$AUTO_BUILD" = true ]; then
     if [ ! -d "$BUILD_DIR" ]; then
@@ -83,6 +139,19 @@ if [ ! -d "$BUILD_DIR" ] || [ "$AUTO_BUILD" = true ]; then
     show_success "Build completado exitosamente"
 fi
 
+DEPLOY_ITEMS=("assets" "include" "js" "config.php" "menu.json")
+
+if [ -n "$TARGET_SUBJECT" ]; then
+    if [ ! -d "$BUILD_DIR/$TARGET_SUBJECT" ]; then
+        show_error "La asignatura '$TARGET_SUBJECT' no existe en $BUILD_DIR"
+    fi
+
+    DEPLOY_ITEMS+=("$TARGET_SUBJECT")
+    echo -e "${BLUE}📚 Despliegue parcial activado para: ${TARGET_SUBJECT}${NC}"
+else
+    echo -e "${BLUE}📦 Despliegue completo del sitio${NC}"
+fi
+
 # Si solo queremos hacer rsync directo sin paquete
 if [ "$NO_PACKAGE" = true ]; then
     echo -e "${BLUE}🚀 Modo directo activado - saltando creación de paquete${NC}"
@@ -93,13 +162,23 @@ if [ "$NO_PACKAGE" = true ]; then
     fi
     
     show_progress "Desplegando directamente via rsync..."
-    rsync -avz --delete \
-        --progress \
-        --exclude='*.map' \
-        --exclude='*.tmp' \
-        --exclude='*.cache' \
-        --exclude='.DS_Store' \
-        "$BUILD_DIR/" "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH"
+
+    if [ -n "$TARGET_SUBJECT" ]; then
+        rsync_partial_to_remote
+    else
+        rsync -avz --delete \
+            --omit-dir-times \
+            --no-perms \
+            --no-owner \
+            --no-group \
+            --progress \
+            --exclude='*.map' \
+            --exclude='*.tmp' \
+            --exclude='*.cache' \
+            --exclude='.DS_Store' \
+            "$BUILD_DIR/" "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH"
+    fi
+
     show_success "Despliegue directo completado!"
     exit 0
 fi
@@ -111,12 +190,19 @@ mkdir -p "$DEPLOY_DIR"
 
 # Copiar solo archivos esenciales (sin source maps ni archivos temporales)
 show_progress "Copiando archivos necesarios..."
-rsync -av \
-    --exclude='*.map' \
-    --exclude='*.tmp' \
-    --exclude='*.cache' \
-    --exclude='.DS_Store' \
-    "$BUILD_DIR/" "$DEPLOY_DIR/"
+
+if [ -n "$TARGET_SUBJECT" ]; then
+    for item in "${DEPLOY_ITEMS[@]}"; do
+        copy_item_to_package "$item"
+    done
+else
+    rsync -av \
+        --exclude='*.map' \
+        --exclude='*.tmp' \
+        --exclude='*.cache' \
+        --exclude='.DS_Store' \
+        "$BUILD_DIR/" "$DEPLOY_DIR/"
+fi
 
 # Comprimir el paquete
 show_progress "Comprimiendo paquete..."
@@ -160,17 +246,30 @@ if [ -n "$DEPLOY_HOST" ] && [ -n "$DEPLOY_USER" ] && [ -n "$DEPLOY_PATH" ]; then
     echo -e "   Usuario: ${DEPLOY_USER}"
     echo -e "   Ruta: ${DEPLOY_PATH}"
     echo ""
+    if [ -n "$TARGET_SUBJECT" ]; then
+        echo -e "${YELLOW}📚 Se desplegara solo la asignatura ${TARGET_SUBJECT} y recursos compartidos.${NC}"
+    fi
+
     echo -e "${YELLOW}🔄 ¿Desplegar automáticamente ahora? (y/N)${NC}"
     read -r response
     if [[ "$response" =~ ^[Yy]$ ]]; then
         show_progress "Desplegando via rsync..."
-        rsync -avz --delete \
-            --progress \
-            --exclude='*.map' \
-            --exclude='*.tmp' \
-            --exclude='*.cache' \
-            --exclude='.DS_Store' \
-            "$BUILD_DIR/" "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH"
+
+        if [ -n "$TARGET_SUBJECT" ]; then
+            rsync_partial_to_remote
+        else
+            rsync -avz --delete \
+                --omit-dir-times \
+                --no-perms \
+                --no-owner \
+                --no-group \
+                --progress \
+                --exclude='*.map' \
+                --exclude='*.tmp' \
+                --exclude='*.cache' \
+                --exclude='.DS_Store' \
+                "$BUILD_DIR/" "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH"
+        fi
         
         if [ $? -eq 0 ]; then
             show_success "¡Despliegue completado exitosamente!"

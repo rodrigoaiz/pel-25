@@ -51,6 +51,9 @@ npm run deploy:quick
 
 # Para staging
 npm run deploy:quick:staging
+
+# Solo una asignatura
+npm run deploy:quick:subject -- quimica-2
 ```
 
 ## 🎯 Diferentes Escenarios de Uso
@@ -81,13 +84,25 @@ npm run deploy:build          # Luego a producción
 
 ```bash
 # Sintaxis completa:
-./deploy.sh [staging|production] [--auto-build] [--no-package]
+./deploy.sh [staging|production] [--auto-build] [--no-package] [--subject <slug>]
 
 # Ejemplos:
 ./deploy.sh production                    # Solo crear paquete
 ./deploy.sh production --auto-build       # Build + paquete
 ./deploy.sh production --no-package       # Rsync directo
 ./deploy.sh staging --auto-build          # Build + staging
+./deploy.sh production --no-package --subject quimica-2   # Solo esa asignatura
+./deploy.sh production --auto-build --subject tlriid-2    # Rebuild + deploy parcial
+```
+
+Cuando usas `--subject` (o `--asignatura`), el script despliega solo la carpeta de esa asignatura y los recursos compartidos necesarios (`assets`, `include`, `js`, `config.php`, `menu.json`).
+
+Con npm tambien puedes pasar el slug al final:
+
+```bash
+npm run deploy:subject -- quimica-2
+npm run deploy:quick:subject -- quimica-2
+npm run deploy:build:subject -- tlriid-2
 ```
 
 ## 🛠️ Comandos de Mantenimiento

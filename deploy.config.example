@@ -48,6 +48,7 @@ load_deploy_config() {
 # 1. Cargar configuración: source deploy.config
 # 2. Configurar entorno: load_deploy_config production
 # 3. Hacer despliegue: ./deploy.sh production
+# 4. Despliegue parcial: ./deploy.sh production --subject quimica-2
 
 # ==========================================
 # COMANDOS ÚTILES:
@@ -58,6 +59,9 @@ load_deploy_config() {
 
 # Despliegue directo sin crear paquete:
 # load_deploy_config production && ./deploy.sh production --no-package
+
+# Despliegue directo de una sola asignatura:
+# load_deploy_config production && ./deploy.sh production --no-package --subject quimica-2
 
 # ==========================================
 # VERIFICAR CONFIGURACIÓN:
