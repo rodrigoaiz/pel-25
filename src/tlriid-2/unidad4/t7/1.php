@@ -6,6 +6,7 @@ include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'TarjetasImagen.php';
+include PATH_INCLUDE . 'FlipCards.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -294,7 +295,68 @@ ob_start();
       $ActividadContent = ob_get_clean();
       renderActividad('u4a6', "Para un menú Foro", $ActividadContent);
     ?>
+    <h4>Sinécdoque</h4>
+    <p>Se realiza cuando designamos a un objeto por el nombre de alguna de sus partes: la principal o aquella que más nos impresiona; o, al revés: designamos el todo por la parte.</p>
+    <p>Algunas especies de sinécdoque consisten en mencionar:</p>
+    <ul class="ul-disc">
+      <li>El todo por la parte: todo el <em>mundo</em> lo dice.</li>
+      <li>La parte por el todo: En ese rancho hay una <em>cabeza de ganado</em> (por res)</li>
+      <li>El continente por el contenido: bebí un <em>vaso</em> de buen vino.</li>
+      <li>El género por la especie: los <em>mortales</em> (por los hombres)</li>
+      <li>La especie por el género: no tiene <em>camisa</em> (para indicar que no tiene vestidos)</li>
+      <li>La persona por la profesión: es un César (por un buen general).</li>
+    </ul>
+    <h4>Metonimia</h4>
+    <p>Consiste en expresar una cosa por el nombre de otra que con ella tenga íntima relación o dependencia. Es el tropo que se funda en las relaciones de causalidad, procedencia o sucesión entre las dos palabras que se intercambian. La metonimia tiene su origen en las ideas evocadas por otras que son su efecto o su causa. Existen varias clases:</p>
+    <ul class="ul-disc">
+      <li>La causa por  el efecto: No resistí el sol (en lugar del calor, que es el efecto del sol)</li>
+      <li>Una obra por el nombre de su autor: Leí a Molière.</li>
+      <li>Un instrumento por quien lo maneja: Es una gran pluma (por un gran escritor). Es el primer violín de la orquesta (por el principal violinista).</li>
+      <li>El signo por la idea:… aún queda el último grano en el reloj de mi vida (en el lugar del tiempo simbolizado por el reloj).</li>
+      <li>El lugar por el producto: un jerez, un tequila (vinos producidos en las ciudades de Jerez y Tequila).</li>
+      <li>Lo concreto por lo abstracto: lo bueno agrada (por la vejez).</li>
+    </ul>
+    <p>Para reforzar el aprendizaje de las figuras retóricas, te invitamos a resolver el siguiente ejercicio.</p>
 
+    <?php
+    renderFlipCards([
+      'instructions' => 'Lee el fragmento en la tarjeta y da clic para ver el tipo de narrador.',
+      'showCardNumbers' => true,
+      'cards' => [
+        [
+          'front' => '<p class="text-sm leading-relaxed">Es el hecho de dar a una cosa el nombre de otra que se le parece.</p>',
+          'back' => 'Metáfora.',
+          'color' => 'emerald'
+        ],
+        [
+          'front' => '<p class="text-sm leading-relaxed">Se construye a través de la contigüidad de los términos que de algún modo se comparan.</p>',
+          'back' => 'Metáfora en presencia.',
+          'color' => 'cyan'
+        ],
+        [
+          'front' => '<p class="text-sm leading-relaxed">En esta clase de metáfora desaparece la comparación o asociación entre los términos, se trata de un salto súbito a lo nuevo.</p>',
+          'back' => 'Metáfora en ausencia.',
+          'color' => 'purple'
+        ],
+        [
+          'front' => '<p class="text-sm leading-relaxed">Contiene una serie de comparaciones ligadas entre sí hasta formar una gran construcción poética.</p>',
+          'back' => 'La alegoría.',
+          'color' => 'blue'
+        ],
+        [
+          'front' => '<p class="text-sm leading-relaxed">Es cuando designamos a un objeto por el nombre de alguna de sus partes.</p>',
+          'back' => 'Sinécdoque.',
+          'color' => 'pink'
+        ],
+        [
+          'front' => '<p class="text-sm leading-relaxed">Consiste en expresar una cosa por el nombre de otra que con ella tenga íntima relación o dependencia.</p>',
+          'back' => 'La metonimia.',
+          'color' => 'amber'
+        ]
+      ]
+    ]);
+    ?>
+    
 </section>
 
 <?php
