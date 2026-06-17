@@ -39,7 +39,7 @@
         {"nombre": "Mundo ficticio", "url": "/tlriid-2/unidad4/t3", "paginas": 2},
         {"nombre": "Discurso", "url": "/tlriid-2/unidad4/t4", "paginas": 2},
         {"nombre": "Valoración estética y universalidad de la obra", "url": "/tlriid-2/unidad4/t5", "paginas": 2},
-        {"nombre": "El poema", "url": "/tlriid-2/unidad4/t6", "paginas": 4},
+        {"nombre": "El poema", "url": "/tlriid-2/unidad4/t6", "paginas": 3},
         {"nombre": "Figuras retóricas", "url": "/tlriid-2/unidad4/t7", "paginas": 2}
       ]
     }
@@ -66,9 +66,9 @@
     "u4a2": { "id": "6038", "moduleName": "assign" },
     "u4a3": { "id": "6039", "moduleName": "forum" },
     "u4a4": { "id": "6040", "moduleName": "forum" },
-    "u4a5": { "id": "6040", "moduleName": "assign" },
-    "u4a6": { "id": "6040", "moduleName": "forum" },
-    "u4a7": { "id": "6040", "moduleName": "quiz" }
+    "u4a5": { "id": "6041", "moduleName": "assign" },
+    "u4a6": { "id": "6042", "moduleName": "forum" },
+    "u4a7": { "id": "6043", "moduleName": "quiz" }
 
   }
 }

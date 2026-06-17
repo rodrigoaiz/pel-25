@@ -96,19 +96,19 @@ siembra palabras en los ojos.</pre>
     [
       'titulo' => 'La poesía',
       'descripcion' => '"La poesía, principio y fin de todo, es indefinible. Si se pudiera definir, su definidor sería el dueño de su secreto, el dueño de ella, el verdadero, el único dios posible. Y el secreto de la poesía no lo ha sabido, no lo sabe, no lo sabrá nunca nadie, ni la poesía admite dios, es Diosa única sin dios. Por fortuna, para Dios y para los poetas."',
-      'imagen' => null,
+      'imagen' => "tlriid2-u4-poesia.webp",
       'pie' => 'Juan Ramón Jiménez',
     ],
     [
       'titulo' => 'La poesía',
       'descripcion' => '"La poesía no pretende cambiar por magia un puñado de monedas lógicas. Más bien devuelve el lenguaje a su fuente originaria (…) Hablábamos antes de cómo, en la música, era imposible separar el sonido, la forma, y el contenido, pues son, en realidad, lo mismo. Y cabe sospechar que, en cierta medida, sucede lo mismo con la poesía (…) He sospechado muchas veces que el significado es, en realidad, algo que se añade al poema. Sé a ciencia cierta que sentimos la belleza de un poema antes incluso de empezar en el significado."',
-      'imagen' => null,
+      'imagen' => "tlriid2-u4-borges.webp",
       'pie' => 'Jorge Luis Borges',
     ],
     [
       'titulo' => 'El poema',
       'descripcion' => 'La unidad de la poesía no puede ser asida sino a través del trato desnudo con el poema. [...] Al preguntarle al poema por el ser de la poesía, ¿no confundimos arbitrariamente poesía y poema? No todo poema —o para ser exactos: no toda obra construida bajo las leyes del metro— contiene poesía. Pero esas obras métricas ¿son verdaderos poemas o artefactos artísticos, didácticos o retóricos? Un soneto no es un poema, sino una forma literaria, excepto cuando ese mecanismo retórico —estrofas, metros y rimas— ha sido tocado por la poesía. Hay máquinas de rimar, pero no de poetizar. Por otra parte, hay poesía sin poemas; paisajes, personas y hechos suelen ser poéticos: son poesía sin ser poemas. Pues bien, cuando la poesía se da como una condensación del azar o es una cristalización de poderes y circunstancias ajenos a la voluntad creadora del poeta, nos enfrentamos a lo poético. Lo poético es poesía en estado amorfo; el poema es creación, poesía erguida. Sólo en el poema la poesía se aísla y revela plenamente. El poema no es una forma literaria sino el lugar de encuentro de la poesía y el hombre. Poema es un organismo verbal que contiene, suscita o emite poesía. Forma y substancia son lo mismo.',
-      'imagen' => null,
+      'imagen' => "tlriid2-u4-paz.webp",
       'pie' => 'Octavio Paz',
     ],
   ]);
