@@ -4,6 +4,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'TarjetasImagen.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -60,92 +61,14 @@ ob_start();
   </table>
 
   <p>Una vez que identificaste las causas de la Revolución Mexicana debes saber que durante esta etapa estuvieron en pugna diferentes facciones y caudillos, cada uno con sus ideas de lucha y planteamientos diversos, lo que provoca que no exista una revolución unificada, sino varias posturas en la lucha. Al respecto diversos autores plantean el origen de la revolución mexicana, que bien pudo ser democrática burguesa, popular, antimperialista, campesina y si esta fue derrotada, victoriosa, interrumpida o permanente.</p>
-  <p>Para que adquieras una postura al respecto, necesitas conocer en primer lugar, los planteamientos de los Planes de la Revolución Mexicana, para ello revisa las siguientes tarjetas:</p>
-  <?php
-  $planesRevolucion = [
-    [
-      'titulo' => 'Plan de San Luis',
-      'etiqueta' => '5 de octubre de 1910',
-      'subtitulo' => 'Francisco I. Madero',
-      'imagen' => 'hm2-u1-t2-madero.jpg',
-      'pie' => 'Francisco I. Madero, imagen de autor desconocido',
-      'link' => 'https://upload.wikimedia.org/wikipedia/commons/3/36/Presidente_Francisco_I._Madero.jpg',
-      'fuente' => 'Wikimedia Commons.',
-      'descripcion' => 'Manifiesto en el que Madero llamó al levantamiento en armas contra la dictadura de Porfirio Díaz.',
-      'puntos' => [
-        'Desconocimiento del gobierno de Porfirio Díaz.',
-        'Se declara Ley Suprema de la República el principio de no reelección.',
-        'Madero asume el carácter de Presidente Provisional de los Estados Unidos Mexicanos.',
-        'Se estableció el 20 de noviembre de 1910 como fecha para el levantamiento revolucionario.',
-      ],
-    ],
-    [
-      'titulo' => 'Plan de Ayala',
-      'etiqueta' => '28 de noviembre de 1911',
-      'subtitulo' => 'Emiliano Zapata',
-      'imagen' => 'hm2-u1-t2-zapata.jpg',
-      'pie' => 'Emiliano Zapata, imagen en Wikimedia Commons',
-      'link' => '#',
-      'fuente' => '',
-      'descripcion' => 'Manifiesto zapatista centrado en el incumplimiento de las promesas revolucionarias y en la restitución de tierras.',
-      'puntos' => [
-        'Desconocimiento del gobierno de Francisco I. Madero.',
-        'Reconocimiento de Pascual Orozco como Jefe de la Revolución Libertadora.',
-        'Restitución de terrenos, montes y aguas usurpados por hacendados, científicos o caciques.',
-        'Nacionalización de bienes de quienes se opusieran al plan para indemnizaciones de guerra y pensiones.',
-      ],
-    ],
-    [
-      'titulo' => 'Pacto de la Empacadora',
-      'etiqueta' => '1912',
-      'subtitulo' => 'Pascual Orozco',
-      'imagen' => 'hm2-u1-t2-pascual.jpg',
-      'pie' => 'Pascual Orozco, imagen de dominio público en Wikimedia Commons',
-      'link' => '#',
-      'fuente' => '',
-      'descripcion' => 'Documento orozquista que desconoció al gobierno maderista y planteó medidas políticas, laborales y agrarias.',
-      'puntos' => [
-        'Anulación de las elecciones de Presidente y Vicepresidente, desconociendo a Francisco I. Madero y José María Pino Suárez.',
-        'Reconocimiento del Legislativo y Judicial como únicos poderes legalmente constituidos.',
-        'Derogación del servicio militar obligatorio y organización de la guardia nacional en los estados.',
-        'Supresión de tiendas de raya, pago de jornales en efectivo y reducción de la jornada laboral a 10 horas como máximo.',
-        'Reivindicación de terrenos arrebatados y repartición de tierras baldías y nacionalizadas.',
-      ],
-    ],
-    [
-      'titulo' => 'Plan de Guadalupe',
-      'etiqueta' => '26 de marzo de 1913',
-      'subtitulo' => 'Venustiano Carranza',
-      'imagen' => 'hm2-u1-t2-carranza.jpg',
-      'pie' => 'Venustiano Carranza y la Constitución de 1917',
-      'link' => '#',
-      'fuente' => '',
-      'descripcion' => 'Plan constitucionalista que desconoció a Victoriano Huerta y organizó la lucha contra su gobierno.',
-      'puntos' => [
-        'Desconocimiento de Victoriano Huerta como Presidente de la República.',
-        'Desconocimiento de los Poderes Legislativo y Judicial de la Federación.',
-        'Nombramiento de Venustiano Carranza como Primer Jefe del Ejército Constitucionalista.',
-        'Carranza asumiría provisionalmente el Poder Ejecutivo y convocaría a elecciones.',
-      ],
-    ],
-    [
-      'titulo' => 'Ley Agraria Villista',
-      'etiqueta' => 'Mayo de 1915',
-      'subtitulo' => 'Francisco Villa',
-      'imagen' => 'hm2-u1-t2-villa.jpg',
-      'pie' => 'Francisco Villa, de autor desconocido en Wikimedia Commons',
-      'link' => '#',
-      'fuente' => '',
-      'descripcion' => 'Promulgada por el Gobierno Convencionalista de la División del Norte para atender la concentración de tierras y las condiciones de los jornaleros.',
-      'puntos' => [
-        'Declaración de utilidad pública para expropiar terrenos destinados a la fundación de poblados.',
-        'Los gobiernos estatales expedirían leyes reglamentarias de expropiación y cubrirían indemnizaciones.',
-        'Los estados dictarían las leyes para fraccionamientos y adjudicaciones conforme a las necesidades locales.',
-      ],
-    ],
-  ];
-  ?>
-  <?php renderTarjetasImagen($planesRevolucion); ?>
+  <p>Para que adquieras una postura al respecto, necesitas conocer en primer lugar, los planteamientos de los Planes de la Revolución Mexicana</p>
+ 
+  <?php ob_start(); ?>
+       <p>para ello revisa las siguientes tarjetas:</p>
+    <?php
+      $ActividadContent = ob_get_clean();
+      renderActividadH5P('u1a4', "Planes de la Revolución Mexicana", $ActividadContent);
+    ?>
 
   <p>En el proceso de la Revolución Mexicana se identifican diversos intereses e ideales de lucha. Al inicio, se observa un conflicto entre facciones burguesas lideradas por Porfirio Díaz y Francisco I. Madero quien en el Plan de San Luis, expresa sus aspiraciones políticas al establecer no solo el principio de no reelección, sino también, su intención de asumir la presidencia provisional y convocar a elecciones. Sin embargo, no cumple plenamente estos planteamientos, ya que deja la presidencia provisional en manos del porfirista Francisco León de la Barra. Esto genera descontento dentro de sus propias filas, pues Madero se niega a realizar un cambio profundo en la administración, el gobierno y el ejército, impidiendo así recompensar a los hombres que apoyaron la revolución por sus méritos revolucionarios.</p>
   
@@ -182,7 +105,7 @@ ob_start();
 
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad('u1a3', "Reflexionando la Revolución", $ActividadContent);
+  renderActividad('u1a5', "Reflexionando la Revolución", $ActividadContent);
   ?>
 
 </section>
