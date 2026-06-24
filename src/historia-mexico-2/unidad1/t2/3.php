@@ -38,7 +38,7 @@ ob_start();
  
  <?php
   $ActividadContent = ob_get_clean();
-  renderActividadH5P('u1act4', "Cuestionario", $ActividadContent);
+  renderActividadH5P('u1a7', "Cuestionario", $ActividadContent);
   ?>  
 
   <p>En años posteriores la demanda de sufragio femenino y el llamado a las mujeres a ejercer su influencia en la sociedad a través de la acción política se expresó en la revista  La mujer moderna. Semanario ilustrado (1915-1918), fundada y dirigida por Hermila Galindo.</p>

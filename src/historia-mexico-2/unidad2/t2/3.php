@@ -27,17 +27,19 @@ ob_start();
     <li>la reforma educativa visible en la escuela socialista.</li>
   </ul>
 
-      <?php ob_start(); ?>
-        <p>A continuación te invito a revisar las siguientes tarjetas para tener más información sobre este gobierno:</p>
-        <?php
-        $ActividadContent = ob_get_clean();
-         renderActividadH5P('u2a8', "Cardenismo", $ActividadContent);
+      <?php
+        renderVideoIframe('JmlS2Zf8-is', 'Este es el primer video de la asignatura');
       ?>
 
     <p>Un aspecto a destacar de la propuesta económica de Cárdenas para promover la independencia económica del país con la intervención del Estado en la economía fue centrarse en cuatro sectores estratégicos:gasto público, expropiación, reforma agraria e instituciones financieras estatales.</p>
 
+    <p>Para que identifiques aspectos relevantes de estos sectores observa el siguiente video con atención</p>
+      <?php
+        renderVideoIframe('EVNEFHO2aBg', 'La economía del Cardenismo');
+      ?>
+
       <?php ob_start(); ?>
-        <p>Para que identifiques aspectos relevantes de estos sectores observa el siguiente video con atención, cuando termines, pon a prueba tu conocimiento respondiendo las preguntas que encontrarás al final.</p>
+        <p>cuando termines, pon a prueba tu conocimiento respondiendo las preguntas que encontrarás al final.</p>
         <?php
         $ActividadContent = ob_get_clean();
          renderActividadH5P('u2a9', "La economía del Cardenismo", $ActividadContent);

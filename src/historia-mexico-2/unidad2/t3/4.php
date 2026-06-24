@@ -24,8 +24,14 @@ ob_start();
       ?>
   </div>
 
+  <p>Para profundizar sobre el tema, a continuación revisa el siguiente vídeo</p>
+
+      <?php
+        renderVideoIframe('QycomijJaZs', 'Conmemoraciones - Expropiación petrolera, la confrontación y la indemnización');
+      ?>      
+
   <?php ob_start(); ?>
-        <p>Para profundizar sobre el tema, a continuación revisa el siguiente vídeo y contesta las preguntas.</p>
+        <p>contesta las preguntas.</p>
         <?php
         $ActividadContent = ob_get_clean();
          renderActividadH5P('u2a11', "Expropiación petrolera, la confrontación y la indemnización", $ActividadContent);
