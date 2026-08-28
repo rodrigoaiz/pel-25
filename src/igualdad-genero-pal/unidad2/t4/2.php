@@ -28,7 +28,6 @@ ob_start();
                 <li>Texto sugerido: <a href="<?php echo PATH_DOCS . 'u2t10-lectura_NoTodosLosHombresComoHagoParaSerUnVatoEnDeconstruccion.pdf'; ?>" target="_blank">"No todos los hombres..." (nuevas masculinidades)</a></li>
                 <li>Texto: <a href="<?php echo PATH_DOCS . 'u2t10-lectura_SororidadQueEsEso.pdf'; ?>" target="_blank">"Sororidad ¿qué es eso?"</a></li>
                 <li><a href="<?php echo PATH_DOCS . 'u2t10-lectura_CartillaLGBTIQmas.pdf'; ?>" target="_blank">Cartilla LGBTIQ+</a></li>
-                <li>Código de Ética y Equidad de Género para Estudiantes del CCH (2025)</li>
             </ul>
         </li>
         <li>Realiza una aportación inicial en el foro <strong>Construyendo Comunidad: Propuestas para un Entorno Respetuoso</strong>, responde <strong>SOLO 2</strong> de las siguientes 4 preguntas (elige las que más te sirvan para tu propuesta final):

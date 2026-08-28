@@ -88,7 +88,6 @@ ob_start();
     <p class="font-bold text-fuchsia-900 mt-4">Presupuestos de la masculinidad: los mandatos</p>
     <p>El concepto de mandatos de género se refiere a costumbres y tradiciones que se validan socialmente y se transmiten de generación en generación. Los mandatos de género condicionan las formas en que hombres y mujeres (deben) comportarse, actuar, interactuar y relacionarse en el ámbito de lo público y lo privado.</p>
     <p>Una herramienta teórico-metodológica para estudiar y comprender estos mandatos es la "Caja de la Masculinidad" que veremos a continuación.</p>
-    <p>Una herramienta teórico-metodológica para estudiar y comprender estos mandatos es la "Caja de la Masculinidad" que veremos a continuación.</p>
     <ul class="ul-disc ml-10">
       <li>La metáfora es que hay hombres que están dentro, porque tienen todas o casi todas las características de la caja de la masculinidad.</li>
       <li>Hay hombres que están al borde de la caja, porque tienen algunas de las características.</li>

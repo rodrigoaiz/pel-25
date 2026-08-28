@@ -16,7 +16,7 @@ ob_start();
     ?>
   </div>
   <p>El origen de la propiedad privada influyó en la distribución desigual del poder entre hombres y mujeres, dando origen al patriarcado. Este sistema social y cultural donde los hombres ejercen el poder dominante consolidó roles y estereotipos de género y abrió brechas de desigualdad dando a los hombres derechos, recursos y oportunidades que les fueron negadas a las mujeres. </p>
-  <p>La primera actividad con la que iniciarás los aprendizajes 3 y 4 tiene la finalidad de explorar tus conocimientos previos sobre las relaciones de poder y las masculinidades.</p>
+  <p>La siguiente actividad de los aprendizajes 3 y 4 tiene la finalidad de explorar tus conocimientos previos sobre las relaciones de poder y las masculinidades.</p>
   <p><strong>Propósito</strong></p>
   <p>Reflexionar sobre los orígenes de la disparidad de condiciones sociales asociadas al género.</p>
   <p><strong>Instrucciones:</strong></p>

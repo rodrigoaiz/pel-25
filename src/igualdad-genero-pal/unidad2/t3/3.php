@@ -13,7 +13,7 @@ ob_start();
     <div class="md:grid grid-cols-3 gap-3 items-center">
       <div class="col-span-2">
       <p>El feminicidio, la pérdida irreparable de una vida por el simple hecho de ser mujer, es un concepto que nos confronta con la forma más extrema de violencia de género. Pero, ¿a qué nos referimos exactamente cuando hablamos de feminicidio? Va más allá de un homicidio, implica un espiral de violencia y discriminación arraigada en estructuras sociales patriarcales que perpetúan la desigualdad y el control sobre los cuerpos y las vidas de las mujeres.</p>
-      p>Es importante para la procuración de justicia en nuestro país, la manera en que las autoridades actúan ante casos de feminicidio. Para entender mejor este proceso, revisarás el <strong>Artículo 325</strong> del <em>Código Penal Federal</em> que define y establece las sanciones para el delito de feminicidio.</p> 
+      <p>Es importante para la procuración de justicia en nuestro país, la manera en que las autoridades actúan ante casos de feminicidio. Para entender mejor este proceso, revisarás el <strong>Artículo 325</strong> del <em>Código Penal Federal</em> que define y establece las sanciones para el delito de feminicidio.</p> 
       </div>
       <div class="col-span-1">
       <?php

@@ -35,7 +35,7 @@ ob_start();
     <p class="font-bold">Declarativos:</p>
     <p>Reconocer los términos y conceptos esenciales relacionados con la Igualdad de Género: Perspectiva de género, sexo, sexualidad, género, identidad de género, entre otros.</p>
     <p class="font-bold">Procedimentales:</p>
-    <p>Asociar los conceptos básicos de la Igualdad de Género a partir de un juego lúdico en línea.</p>
+    <p>Asociar los conceptos básicos de la Igualdad de Género a partir del análisis de videos.</p>
     <p class="font-bold">Actitudinales:</p>
     <p>Desarrollar una pieza de opinión para poder valorar los conocimientos aprendidos.</p>
     <table class="table-auto w-3/4 mx-auto text-neutral-200 bg-fuchsia-950 p-3 mt-8 rounded-lg">
@@ -66,7 +66,7 @@ ob_start();
                 <td class="pr-4">Acoso</td>
             </tr>
             <tr>
-                <td class="pl-8">Riesgo o códigos identitarios</td>
+                <td class="pl-8">Rasgos identitarios</td>
                 <td class="pr-4">Hostigamiento</td>
             </tr>
             <tr>
@@ -79,7 +79,7 @@ ob_start();
             </tr>
             <tr>
                 <td class="pl-8">Diversidades y disidencias sexo-genéricas</td>
-                <td class="pr-4">Violencia por cuestiones de género</td>
+                <td class="pr-4">Violencia de género</td>
             </tr>
             <tr>
                 <td class="pl-8">Lenguaje incluyente y no sexista</td>

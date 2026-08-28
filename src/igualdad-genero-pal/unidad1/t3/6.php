@@ -13,7 +13,7 @@ ob_start();
 <section>
     <h2>¿Cómo se relacionan los hombres?</h2>
     <p>En el aprendizaje 3 revisaste el concepto de poder. La masculinidad tradicional promueve relaciones de poder desiguales, basadas en el dominio de los hombres y la sumisión de las mujeres.</p>
-    <p>En la siguiente lectura conocerás dos formas en que explican estas relaciones de dominio: los machismos cotidianos y la triada de la violencia. Ambas establecen relaciones tóxicas y negativas, por lo que te invitamos a tener presente que el propósito de este tema es aprender a identificarlas como un primer paso para modificar esos comportamientos, y de poner límites a quienes se relacionan con estos comportamientos.</p>
+    <p>“En la siguiente lectura conocerás dos formas que explican estas relaciones de dominio: los machismos cotidianos y la triada de la violencia. Ambas establecen relaciones tóxicas y negativas, por lo que te invitamos a tener presente que el propósito de este tema es aprender a identificarlas como un primer paso para modificar esos comportamientos, y de poner límites a quienes se relacionan con estos comportamientos.</p>
     <p>El ejercicio de cierre de estos los aprendizajes 3 y 4 te invita a reflexionar sobre otras formas en que podemos relacionarnos, de manera que se favorezca el desarrollo de las personas de manera equitativa.</p>
     <p><strong>Propósito</strong></p>
     <p>Fomentar el pensamiento crítico para elaborar propuestas de solución mediante la identificación, análisis y cuestionamiento de los presupuestos de la masculinidad y las relaciones de poder. </p>
@@ -27,7 +27,7 @@ ob_start();
                 <li>los pilares o mandatos de la caja de la masculinidad</li>
                 <li>las formas de relacionarse (machismos cotidianos, triada de la violencia)</li>
                 <li>el tipo de relación de poder</li>
-                <li>persona contra quien se ejerce la violencia (hombre contra sí mismo, contra otros hombres, o contra personas vulnerables (mujeres, infancias y diversidades sexo-genéricas).</li>
+                <li>persona contra quien se ejerce la violencia: hombre contra sí mismo, contra otros hombres, o contra personas vulnerables (mujeres, infancias y diversidades sexo-genéricas).</li>
             </ul>
         </li>
         <li>Después, elabora una propuesta de solución detallada y fundamentada que dé cuenta de alternativas de comportamiento para mejorar la situación planteada, acciones preventivas a futuro, e instancias de la UNAM o el gobierno ante las cuales se podría denunciar la violencia de género.</li>
@@ -56,7 +56,7 @@ ob_start();
                     <div class="col-span-2 text-sm leading-6">
                         <p class="font-bold text-emerald-800 text-lg text-center leading-6">Machodespatarre o Manspreading</p>
                         <p>El machodespatarre o male spreading ocurre cuando un hombre sentado con las piernas bien abiertas, ocupa un espacio excesivo, especialmente en áreas públicas. Esto invade el espacio circundante, causando incomodidad y forzando a las mujeres a tomar una postura cerrada, como cruzar las piernas o sentarse de lado. Al expandir sus piernas, el hombre demuestra que tiene dominio sobre el espacio de las mujeres.</p>
-                        <p>En oposición al manspreading está el shebagging que ocurre cuando las mujeres que invaden espacios contiguos con sus pertenencias, evitando que alguien se siente a su lado. En ocasiones, el shebagging es una estrategia para evitar el hostigamiento y acoso de los hombres en lugares públicos porque permite a las mujeres seleccionar quien se sienta a su lado, en caso de tener que ceder el asiento.</p>
+                        <p>“En oposición al manspreading está el shebagging que ocurre Cuando las mujeres invaden espacios contiguos con sus pertenencias, evitando que alguien se siente a su lado”. En ocasiones, el shebagging es una estrategia para evitar el hostigamiento y acoso de los hombres en lugares públicos porque permite a las mujeres seleccionar quien se sienta a su lado, en caso de tener que ceder el asiento.</p>
                         <p class="font-bold">Sin embargo, el manspreading y el shebagging son actos contrarios a la civilidad y respeto hacia el espacio de otras personas.</p>
                     </div>
                 </div>'
@@ -115,8 +115,9 @@ ob_start();
                         <div class="grid grid-cols-3 gap-4">
                     <div class="pt-1 pl-4"><img class="mx-auto" src="../../assets/img/iga4-img10.webp" /></div>
                     <div class="col-span-2 text-sm leading-6"><p>Las violencias contra las mujeres que se esconden tras el impuesto rosa son:</p>
-                        <p class="ml-20 leading-6">a) Generar inseguridad sobre el cuerpo femeninos con estándares de belleza imposibles de lograr, que fomentan el consumo de más productos;</p>
-                        <p class="ml-20 leading-6">b) Permitir que los hombres cosifiquen a las mujeres, es decir que las traten como objetos y no como personas;</p>
+                        <p class="ml-20 leading-6">a) Generar inseguridad sobre los cuerpos femeninos con estándares de belleza imposibles de lograr, que fomentan el consumo de más productos;</p>
+                        <p class="ml-20 leading-6">b)  Permitir que los hombres cosifiquen a las mujeres, es decir, que las traten 
+como objetos y no como personas;</p>
                         <p class="ml-20 leading-6">c) Mermar la economía de las mujeres, y reducir su aportación económica al hogar;</p>
                         <p class="ml-20 leading-6">d) Forzar a las mujeres a depender de un hombre, especialmente si no perciben un salario.</p>
                         <p class="font-bold">La tasa rosa o pink tax es una forma de violencia económica en contra de las mujeres. </p>
@@ -277,11 +278,11 @@ ob_start();
 
     </div>
     <?php ob_start(); ?>
-  <p>Sube aquí tu trabajo.</p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad('u1t4a2', "Resolución de casos", $ActividadContent);
-  ?>
+    <p>Sube aquí tu trabajo.</p>
+    <?php
+    $ActividadContent = ob_get_clean();
+    renderActividad('u1t4a2', "Resolución de casos", $ActividadContent);
+    ?>
 </section>
 <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
 <?php
