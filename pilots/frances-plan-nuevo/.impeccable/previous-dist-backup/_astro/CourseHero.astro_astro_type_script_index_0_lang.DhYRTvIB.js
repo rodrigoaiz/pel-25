@@ -1,0 +1,1 @@
+import{g as e}from"./index.CzGW6FVa.js";window.matchMedia("(prefers-reduced-motion: reduce)").matches||e.timeline({defaults:{ease:"power3.out"}}).from("[data-hero-image]",{scale:1.06,duration:1.2}).from("[data-hero-copy] > *",{y:24,opacity:0,stagger:.1,duration:.65},.15);

@@ -1,0 +1,45 @@
+{
+  "title": "Elige el sistema visual para Francés I · Plan nuevo",
+  "question": "La propuesta principal transforma la navegación en un recorrido de conversación, no de páginas. Puedes aprobarla, elegir una alternativa o pedir otra vuelta.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Pasaporte de conversación",
+      "kicker": "PROPUESTA PRINCIPAL",
+      "lineage": "Cuadernos de expresiones, tarjetas de viaje y sellos de progreso",
+      "thesis": "Cada unidad es un destino y cada lección una situación comunicativa que se puede completar de un vistazo.",
+      "palette": ["#10293f", "#f4efe3", "#d95d39", "#2f9c95"],
+      "materials": ["papel de pasaporte", "sellos de avance", "fichas de frase"],
+      "viewport": "En móvil, una tarjeta de unidad muestra cinco lecciones como paradas; la lección activa abre con una frase útil, progreso y una sola acción siguiente.",
+      "risk": "Debe conservar una jerarquía muy limpia para no convertirse en una estética de viaje decorativa.",
+      "sketch": ".impeccable/sketches/frances-pasaporte.png"
+    },
+    {
+      "id": "challenger-cyclorama",
+      "label": "Escena de conversación",
+      "lineage": "Ciclorama teatral y guion de escena",
+      "thesis": "Cada lección se presenta como una escena breve: contexto, diálogo, práctica y salida.",
+      "case": "Aporta ritmo y contexto oral, pero el pasaporte identifica mejor el avance curricular y simplifica la navegación.",
+      "sketch": ".impeccable/sketches/frances-escena.png",
+      "hero": "https://impeccable.style/worlds/cards/stagecraft-theater-lighting-cyclorama-dawn-hero.webp"
+    },
+    {
+      "id": "challenger-alphabet",
+      "label": "Laboratorio de palabras",
+      "lineage": "Tipografía como materia y transformación lingüística",
+      "thesis": "Las palabras y sus variaciones se vuelven el elemento visual vivo de cada lección.",
+      "case": "Funciona para vocabulario y pronunciación, pero puede distraer de la lectura y de los enlaces a Moodle.",
+      "sketch": ".impeccable/sketches/frances-palabras.webp",
+      "hero": "https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-alphabet-storm-hero.webp"
+    }
+  ],
+  "reroll": true,
+  "canon": true,
+  "canonCard": {
+    "label": "Sistema académico convencional",
+    "thesis": "Tarjetas, barra de progreso y navegación de curso de alta claridad.",
+    "viewport": "Una portada de asignatura convencional con lista de unidades y lecciones.",
+    "sketch": ".impeccable/sketches/frances-canon.webp"
+  },
+  "steer": true
+}
