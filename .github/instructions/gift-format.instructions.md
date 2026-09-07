@@ -135,6 +135,7 @@ Cuando recibas preguntas en formato tradicional (con numeración 1., 2., etc. y 
    - La retroalimentación va DESPUÉS del texto de la opción, precedida por `#`
    - Incluir retroalimentación tanto para respuestas correctas como incorrectas
 7. Escapar caracteres especiales si es necesario
+8. Siempre intenta conservar los reactivos como están, a menos que encuentres algún error
 
 ## Identificación Inteligente de Respuestas
 

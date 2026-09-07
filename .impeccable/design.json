@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-31T00:00:00-06:00",
+  "title": "Design System: PEL-25",
+  "extensions": {
+    "colorMeta": {
+      "primary": { "role": "primary", "displayName": "Coral de avance", "canonical": "rgb(248, 117, 83)", "tonalRamp": ["oklch(15% 0.04 35)", "oklch(27% 0.08 35)", "oklch(39% 0.12 35)", "oklch(51% 0.16 35)", "rgb(248, 117, 83)", "oklch(73% 0.12 35)", "oklch(84% 0.07 35)", "oklch(95% 0.02 35)"] },
+      "secondary": { "role": "secondary", "displayName": "Turquesa académico", "canonical": "rgb(49, 148, 148)", "tonalRamp": ["oklch(15% 0.03 195)", "oklch(27% 0.06 195)", "oklch(39% 0.09 195)", "oklch(51% 0.11 195)", "rgb(49, 148, 148)", "oklch(73% 0.09 195)", "oklch(84% 0.05 195)", "oklch(95% 0.02 195)"] },
+      "tertiary": { "role": "tertiary", "displayName": "Amarillo de énfasis", "canonical": "rgb(255, 197, 0)", "tonalRamp": ["oklch(15% 0.03 85)", "oklch(27% 0.07 85)", "oklch(39% 0.11 85)", "oklch(51% 0.14 85)", "rgb(255, 197, 0)", "oklch(79% 0.13 85)", "oklch(88% 0.08 85)", "oklch(96% 0.03 85)"] },
+      "ink": { "role": "neutral", "displayName": "Tinta nocturna", "canonical": "rgb(8, 20, 36)", "tonalRamp": ["rgb(8, 20, 36)", "oklch(24% 0.03 250)", "oklch(36% 0.025 250)", "oklch(48% 0.02 250)", "oklch(60% 0.015 250)", "oklch(72% 0.01 250)", "oklch(84% 0.006 250)", "oklch(95% 0.003 250)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Roboto Condensed para títulos", "purpose": "Jerarquía de encabezados y navegación académica." },
+      "body": { "displayName": "Open Sans para lectura", "purpose": "Material de estudio y explicaciones continuas." }
+    },
+    "shadows": [
+      { "name": "activity-frame", "value": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)", "purpose": "Delimita actividades H5P e iframes." },
+      { "name": "activity-frame-hover", "value": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)", "purpose": "Confirma interacción sobre recursos embebidos." }
+    ],
+    "motion": [
+      { "name": "smooth", "value": "ease-in-out 0.5s all", "purpose": "Transición general de navegación y estados." },
+      { "name": "component", "value": "all 0.3s ease", "purpose": "Transiciones de componentes como línea del tiempo y pestañas." }
+    ],
+    "breakpoints": [
+      { "name": "md", "value": "768px" },
+      { "name": "activity-tablet", "value": "769px" },
+      { "name": "activity-desktop", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Navegación de unidad",
+      "kind": "nav",
+      "refersTo": "navigation-unit",
+      "description": "Acceso compacto a una unidad del curso; el estado activo se vuelve turquesa.",
+      "html": "<a class=\"ds-unit-nav\" href=\"#\">UNIDAD 1</a>",
+      "css": ".ds-unit-nav { display: inline-block; background: rgb(248, 117, 83); color: rgb(242, 250, 239); padding: .25rem .75rem; font: 700 .875rem/1.3 'Open Sans Variable', sans-serif; text-decoration: none; text-transform: uppercase; transition: background .3s ease, transform .3s ease; } .ds-unit-nav:hover { background: rgb(0, 66, 90); transform: translateY(2px); } .ds-unit-nav:focus-visible { outline: 2px solid rgb(12, 170, 241); outline-offset: 2px; }"
+    },
+    {
+      "name": "Acordeón académico",
+      "kind": "custom",
+      "refersTo": "accordion-trigger",
+      "description": "Control desplegable de ancho completo para agrupar contenido.",
+      "html": "<button class=\"ds-accordion\" type=\"button\">CONCEPTO CLAVE <span aria-hidden=\"true\">⌄</span></button>",
+      "css": ".ds-accordion { display: flex; width: 100%; align-items: center; justify-content: space-between; border: 1px solid #94a3b8; border-radius: .375rem; background: #fff; color: rgb(49, 148, 148); padding: .75rem; font: 500 1.25rem/1.2 'Roboto Condensed Variable', sans-serif; text-align: left; transition: background .2s ease; } .ds-accordion:hover { background: #e2e8f0; } .ds-accordion:focus-visible { outline: 2px solid rgb(49, 148, 148); outline-offset: 2px; }"
+    },
+    {
+      "name": "Pestaña activa",
+      "kind": "nav",
+      "refersTo": "tab-active",
+      "description": "Pestaña con indicador azul para cambiar entre fragmentos de contenido.",
+      "html": "<button class=\"ds-tab\" type=\"button\" aria-selected=\"true\">CONTENIDO</button>",
+      "css": ".ds-tab { position: relative; border: 0; border-bottom: 2px solid #3b82f6; border-radius: .5rem .5rem 0 0; background: #fff; color: #2563eb; padding: .75rem 1rem; font: 600 .875rem/1.2 'Open Sans Variable', sans-serif; transition: background .3s ease; } .ds-tab::after { content: ''; position: absolute; right: 0; bottom: -2px; left: 0; height: 2px; background: #3b82f6; } .ds-tab:hover { background: #eff6ff; } .ds-tab:focus-visible { outline: 2px solid #bfdbfe; outline-offset: 2px; }"
+    },
+    {
+      "name": "Marco de actividad",
+      "kind": "card",
+      "refersTo": "activity-frame",
+      "description": "Contenedor protector para un recurso Moodle o H5P incrustado.",
+      "html": "<section class=\"ds-activity-frame\"><div class=\"ds-activity-inner\">Recurso interactivo</div></section>",
+      "css": ".ds-activity-frame { border-radius: .75rem; background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); padding: .5rem; box-shadow: 0 1px 3px rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.06), inset 0 0 0 1px rgba(148,163,184,.1); transition: box-shadow .2s ease; } .ds-activity-inner { border: 2px solid #e2e8f0; border-radius: .5rem; background: #fff; color: rgb(8, 20, 36); padding: 1.25rem; font: 400 1rem/1.5 'Open Sans Variable', sans-serif; } .ds-activity-frame:hover { box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -2px rgba(0,0,0,.05); } .ds-activity-frame:focus-within { outline: 3px solid rgba(59,130,246,.1); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Guía académica vibrante, con la calidez de un cuaderno de aprendizaje",
+    "overview": "PEL-25 presenta el estudio como un recorrido claro y activo: colores institucionales de alto reconocimiento separan navegación, contenido y actividades sin alejarse de la lectura académica. La interfaz está pensada para avanzar por unidades y temas desde el teléfono, por lo que prioriza rótulos directos, estados visibles y bloques de contenido contenidos. La energía proviene del naranja, turquesa y amarillo usados como señales funcionales, mientras la tipografía condensada y el papel claro aportan orden y cercanía.",
+    "keyCharacteristics": ["Navegación por curso y unidad con estados activos inequívocos.", "Lectura centrada, con una medida cómoda de aproximadamente 75 caracteres.", "Acentos cromáticos claros para orientar, no para competir con el contenido.", "Contenedores suaves y protegidos para recursos interactivos."],
+    "rules": [
+      { "name": "The Color-as-Wayfinding Rule", "body": "El coral, turquesa y amarillo codifican ubicación, avance o énfasis; no se aplican como decoración aleatoria.", "section": "colors" },
+      { "name": "The Read-Then-Act Rule", "body": "El texto de aprendizaje mantiene la prioridad; la tipografía de navegación debe ayudar a ubicar y avanzar, no dominar la página.", "section": "typography" },
+      { "name": "The Resource-Frame Rule", "body": "La elevación sirve para proteger y distinguir experiencias incrustadas, especialmente H5P, no para decorar texto o navegación rutinaria.", "section": "elevation" }
+    ],
+    "dos": ["Do conservar la lectura centrada y el texto de estudio dentro de una medida cercana a 75ch.", "Do usar coral y turquesa como señales de navegación, avance y jerarquía.", "Do conservar una presentación protegida y responsiva para H5P, exámenes y otros recursos embebidos.", "Do diseñar primero para el ancho móvil y escalar las agrupaciones de navegación desde ahí."],
+    "donts": ["Don't llenar superficies de lectura con tarjetas elevadas o sombras decorativas.", "Don't usar el amarillo como color principal de texto sobre fondo claro.", "Don't ocultar el estado actual de unidad, tema, página o pestaña.", "Don't comprimir las etiquetas de pestañas hasta volverlas ilegibles en móvil; permite desplazamiento cuando sea necesario."]
+  }
+}

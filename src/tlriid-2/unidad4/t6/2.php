@@ -138,6 +138,11 @@ ob_start();
       ?>
     </div>
   </div>
+  <?php ob_start(); ?>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividadH5P('u4-act5', "Elementos del poema", $ActividadContent);
+  ?>
   <p class="mb-6">Ahora revisemos con calma el poema del cual se extrajo la canción:</p>
   
   <article class="bg-gradient-to-br from-rose-50 via-pink-50 to-purple-50 rounded-xl shadow-lg p-8 border border-rose-200 my-8">
