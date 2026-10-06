@@ -6,8 +6,8 @@
       "publicado": true,
       "nombre": "Unidad 1",
       "temas": [
-        {"nombre": "Introducción al estudio de la lengua griega", "url": "/griego-1/unidad1/t1", "paginas": 3},
-        {"nombre": "El alfabeto griego, correspondencia morfofonética y transcripción al latín y al español.", "url": "/griego-1/unidad1/t2", "paginas": 5},
+        {"nombre": "Introducción al estudio de la lengua griega", "url": "/griego-1/unidad1/t1", "paginas": 2},
+        {"nombre": "El alfabeto griego, correspondencia morfofonética y transcripción al latín y al español.", "url": "/griego-1/unidad1/t2", "paginas": 6},
         {"nombre": "Léxico textual", "url": "/griego-1/unidad1/t3", "paginas": 5},
         {"nombre": "Evaluación final", "url": "/griego-1/unidad1/t4", "paginas": 1}
       ]
