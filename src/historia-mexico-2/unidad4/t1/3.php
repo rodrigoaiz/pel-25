@@ -20,8 +20,12 @@ ob_start();
 
   <p>Los siguientes presidentes Carlos Salinas de Gortari (1988-1994); Ernesto Zedillo Ponce de León (1994-2000); Vicente Fox Quesada (2000-2006); Felipe Calderón Hinojosa (2006-2012); y Enrique Peña Nieto (2012-2018) dieron continuidad a la aplicación de políticas neoliberales. El sexenio de mayor importancia, debido al alcance de dichas políticas es el de Salinas de Gortari.</p>
 
+        <?php
+          renderVideoIframe('D5eYvIWfk1w', 'Historia del Neoliberalismo en México - Carlos Salinas de Gortari');
+        ?>
+
   <?php ob_start(); ?>
-    <p>Para profundizar en el conocimiento del mismo te invitó a realizar la siguiente actividad:</p>
+    <p>Después de ver el video, responde las siguientes preguntas:</p>
     <?php
     $ActividadContent = ob_get_clean();
     renderActividadH5P('u4a3', "Historia del Neoliberalismo en México - Carlos Salinas de Gortari", $ActividadContent);

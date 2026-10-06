@@ -19,7 +19,7 @@ ob_start();
    <p>Pon atención a las ideas que te transmite el video. Al terminar, lee las siguientes preguntas y elige la respuesta que consideres correcta.</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividadH5P('u1act7', "La Revolución Mexicana y el Arte", $ActividadContent);
+  renderActividadH5P('u1a11', "La Revolución Mexicana y el Arte", $ActividadContent);
   ?>
 
   <p>De acuerdo con el historiador Miguel García Audelo, la Revolución proporcionó diversos <b>elementos que el arte configuró</b> a lo largo de varias décadas. En primer lugar, sirvió para <b>transmitir las ideas fundamentales</b> que dieron forma a este gran proyecto histórico en relación con el arte. En segundo lugar, se convirtió en el <b>principal repositorio de los valores</b> enarbolados durante la lucha armada, como las aspiraciones agraristas de Zapata. Finalmente, el arte revolucionario fue clave en la <b>construcción de la identidad nacional</b>, representada en figuras como las catrinas y las adelitas, así como en elementos icónicos como los sombreros anchos, los bailables, los murales y el cine, entre otros.</p>
@@ -32,34 +32,15 @@ ob_start();
 
   <p>Como pudiste ver en el vídeo, de la <b>novela de la Revolución Mexicana</b> destacan los nombres de Mariano Azuela con “<b>Los de Abajo</b>” y Martín Luis Guzmán con “<b>El Águila y la serpiente</b>”. Otras obras poco conocidas y comentadas de este período revolucionario, son del periodista reaccionario y contrarrevolucionario Alfonso López Ituarte: El Atila del sur (1913) y Satanás (1914).</p>
 
-  <p>Para conocer algunos aspectos de tan importantes representantes de la novela de la Revolución Mexicana, revisa con detenimiento la siguiente información:</p>
-
+  
+  
+  <?php ob_start(); ?>
+ <p>Para conocer algunos aspectos de tan importantes representantes de la novela de la Revolución Mexicana, revisa con detenimiento la siguiente información:</p>
   <?php
-  $planesRevolucion = [
-    [
-      'titulo' => 'Mariano Azuela González',
-      'etiqueta' => '(1872-1952)',
-      'imagen' => 'hm2-u1-t4-abajo.jpg',
-      'descripcion' => 'Fue un médico y escritor mexicano, reconocido como el primer novelista de la Revolución Mexicana.
-      Durante la Revolución Mexicana, apoyó el movimiento revolucionario y trabajó como médico en las filas de Francisco Villa. Su experiencia en la guerra influyó profundamente en su obra literaria.
-      En 1915, publicó "Los de abajo", su novela más famosa, que retrata la crudeza y el desengaño de la lucha revolucionaria, donde el personaje central es Demetrio Macias, como general de un grupo revolucionario en 1913. A dicho personaje se le van uniendo paulatinamente individuos con el fin de combatir en la revolución no necesariamente por el ideal revolucionario, sino más bien porque ignoraba el sentido de la Revolución.',
-    ],
-    [
-      'titulo' => 'Martín Luis Guzmán Franco',
-      'etiqueta' => ' (1887-1976)',
-      'imagen' => 'hm2-u1-t4-serpiente.jpg',
-      'descripcion' => 'Es considerado uno de los más grandes novelistas de la fase armada de la Revolución. Una de sus obras más importantes es "El Águila y la serpiente" narración de los andares de Guzmán, que a lo largo del libro nos da un panorama general de las principales facciones del movimiento revolucionario
-      En cuanto a las obras más representativas de Martín Luis Guzmán encontramos las siguientes:',
-      'puntos' => [
-        'La querella de México (1915)',
-        'A orillas del Hudson (1920)',
-        'La sombra del Caudillo (1929)',
-        'Mina el mozo, héroe de Navarra (1932)'
-      ],
-    ],
-  ];
+  $ActividadContent = ob_get_clean();
+  renderActividadH5P('u1a12', "Literatura de la Revolución ", $ActividadContent);
   ?>
-  <?php renderTarjetasImagen($planesRevolucion); ?>
+
   <p>A continuación, escucha con detenimiento el primer capítulo de la novela Los de Abajo:</p>
   <div class="max-w-md mx-auto">
     <?php

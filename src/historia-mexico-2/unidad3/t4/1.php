@@ -22,6 +22,10 @@ ob_start();
 
   <p>Todo este contexto influyó en la vida cotidiana de <b>la sociedad mexicana</b>, que experimentó una serie de cambios, entre ellos; <b>el incremento poblacional</b>, el papel cada vez más relevante de <b>las mujeres en la política y la economía</b>, un importante proceso de <b>urbanización</b> y el incremento de <b>migración</b> de zonas rurales a las urbanas, entre otros.</p>
 
+  <?php
+  renderVideoIframe('ZPkz3nkKj5U', 'Aquellos días | Los jóvenes, la cultura y los modos de vida en la década de 1960');
+  ?>
+
     <?php ob_start(); ?>
     <p>Revisa a continuación el vídeo y contesta las preguntas integradas para identificar algunas características de la sociedad mexicana en el periodo que estamos trabajando:</p>
     <?php

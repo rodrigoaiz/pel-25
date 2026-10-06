@@ -3,6 +3,7 @@ include '../../../config.php';
 include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
 include PATH_INCLUDE . 'ImagenFullPleca.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
@@ -25,7 +26,7 @@ ob_start();
         <p>A continuación, revisa la siguiente información:</p>
         <?php
         $ActividadContent = ob_get_clean();
-         renderActividad('u2a6', "Gobierno de Emilio Portes Gil", $ActividadContent);
+         renderActividadH5P('u2a6', "Gobierno de Emilio Portes Gil", $ActividadContent);
         ?>
 
   <p>Al terminar el gobierno interino, en las elecciones extraordinarias de 1929 Pascual Ortiz Rubio asumió la presidencia el 5 de febrero de 1930. Su gestión estuvo marcada por la influencia de Calles y diversos desafíos políticos y sociales, de los cuales destacan los siguientes:</p>

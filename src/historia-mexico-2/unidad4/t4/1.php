@@ -41,11 +41,15 @@ ob_start();
 
   <p>A partir de los señalamientos anteriores habrá que responder cuestionamientos como: <b>¿México es actualmente un país democrático?</b> Para responder a esta pregunta debemos recordar que nuestro país tiene una Constitución: la de 1917 y un marco legal respaldado con instituciones electorales autónomas. Además <b>se ha dado la alternancia en el poder</b> en el año 2000 con la llegada de Vicente Fox Quezada, candidato del PAN y en el año 2018 con la llegada de Andrés Manuel López Obrador del partido Morena, aspecto que evidencia elecciones libres. Sin embargo, en nuestro país persisten problemas que <b>debilitan la democracia</b>, entre ellos el incremento de <b>la violencia e inseguridad, la corrupción e impunidad, la desigualdad social y económica</b>, entre otros, que generan un panorama desalentador y en muchos casos apatía hacia los problemas del país, que se refleja en la poca participación de los jóvenes en procesos de elección.  En este contexto, un reto sería: <b>¿cómo promover la participación ciudadana de los jóvenes, en pro de un país democrático?</b> </p>
 
+        <?php
+          renderVideoIframe('UCYaW3Z3vQg', 'Participación juvenil en procesos políticos');
+        ?>
+
   <?php ob_start(); ?>
-    <p>Te invito ahora a reflexionar sobre la participación juvenil en procesos democráticos.</p>
+    <p>Después de ver el video, responde las siguientes preguntas:</p>
     <?php
     $ActividadContent = ob_get_clean();
-    renderActividad('u4a15', "Participación juvenil en procesos políticos", $ActividadContent);
+    renderActividadH5P('u4a15', "Participación juvenil en procesos políticos", $ActividadContent);
     ?>
 
     

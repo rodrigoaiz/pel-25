@@ -21,10 +21,8 @@ ob_start();
   <p>Para evaluar el aprendizaje contesta el cuestionario:</p>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividadH5P('u1act6', "La Constitución de 1917 e instauración del régimen posrevolucionario", $ActividadContent);
+  renderActividadH5P('u1a10', "La Constitución de 1917 e instauración del régimen posrevolucionario", $ActividadContent);
   ?>
-
-
   
 </section>
 <?php

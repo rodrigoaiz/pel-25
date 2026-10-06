@@ -1,0 +1,89 @@
+{
+  "nombreAsignatura": "Griego I",
+  "asignatura": {
+    "Unidad 1": {
+      "url": "/griego-1/unidad1/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 1",
+      "temas": [
+        {"nombre": "Introducción al estudio de la lengua griega", "url": "/griego-1/unidad1/t1", "paginas": 2},
+        {"nombre": "El alfabeto griego, correspondencia morfofonética y transcripción al latín y al español.", "url": "/griego-1/unidad1/t2", "paginas": 6},
+        {"nombre": "Léxico textual", "url": "/griego-1/unidad1/t3", "paginas": 5},
+        {"nombre": "Evaluación final", "url": "/griego-1/unidad1/t4", "paginas": 1}
+      ]
+    },
+    "Unidad 2": {
+      "url": "/griego-1/unidad2/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 2",
+      "temas": [
+        {"nombre": "Flexión, Morfología y Sintaxis", "url": "/griego-1/unidad2/t1", "paginas": 9},
+        {"nombre": "Morfología y sintaxis", "url": "/griego-1/unidad2/t2", "paginas": 13},
+        {"nombre": "Legado cultural de la Grecia antigua", "url": "/griego-1/unidad2/t3", "paginas": 9}
+      ]
+    },
+     "Unidad 3": {
+      "url": "/griego-1/unidad3/t1/1.php",
+      "publicado": true,
+      "nombre": "Unidad 3",
+      "temas": [
+        {"nombre": "Verbos transitivos en pretérito imperfecto de indicativo de los verbos en omega ω", "url": "/griego-1/unidad3/t1", "paginas": 6},
+        {"nombre": "Declinación de sustantivos de las tres declinaciones", "url": "/griego-1/unidad3/t2", "paginas": 5},
+        {"nombre": "Léxico textual filosófico  ", "url": "/griego-1/unidad3/t3", "paginas": 8}
+      ]
+    }
+  },
+  "actividades": {
+    "u1a1": { "id": "4651", "moduleName": "quiz" },
+    "u1a2": { "id": "4652", "moduleName": "forum" },
+    "u1a3": { "id": "4653", "moduleName": "hvp" },    
+    "u1a4": { "id": "4654", "moduleName": "hvp" },
+    "u1a5": { "id": "4655", "moduleName": "assign" },
+    "u1a6": { "id": "4656", "moduleName": "assign" },
+    "u1a7": { "id": "4658", "moduleName": "hvp" },
+    "u1a8": { "id": "4659", "moduleName": "assign" },
+    "u1a9": { "id": "4660", "moduleName": "assign" },
+    "u1a10": { "id": "4661", "moduleName": "assign" },
+    "u1a11": { "id": "4662", "moduleName": "hvp" },
+    "u1a12": { "id": "4663", "moduleName": "assign" },
+    "u1a13": { "id": "4664", "moduleName": "hvp" },
+    "u1a14": { "id": "4666", "moduleName": "hvp" },
+    "u1a15": { "id": "4667", "moduleName": "assign" },
+    "u1a16": { "id": "4668", "moduleName": "hvp" },
+    "u1a17": { "id": "4671", "moduleName": "hvp" },
+    "u1a18": { "id": "4672", "moduleName": "hvp" },
+    "u1a19": { "id": "4673", "moduleName": "assign" },
+    "u1a20": { "id": "4674", "moduleName": "hvp" },
+    "u1a21": { "id": "4676", "moduleName": "hvp" },
+    "u1a22": { "id": "4677", "moduleName": "quiz" },
+    "u2a1": { "id": "4679", "moduleName": "quiz" },
+    "u2a2": { "id": "4680", "moduleName": "assign" },
+    "u2a3": { "id": "4681", "moduleName": "assign" },       
+    "u2a4": { "id": "4682", "moduleName": "hvp" },
+    "u2a5": { "id": "4683", "moduleName": "assign" },    
+    "u2a6": { "id": "4684", "moduleName": "assign" },    
+    "u2a7": { "id": "4686", "moduleName": "assign" },
+    "u2a8": { "id": "4689", "moduleName": "hvp" },
+    "u2a9": { "id": "4690", "moduleName": "hvp" },
+    "u2a10": { "id": "4691", "moduleName": "hvp" },
+    "u2a11": { "id": "4692", "moduleName": "hvp" },
+    "u2a12": { "id": "4687", "moduleName": "scorm" },
+    "u2a13": { "id": "4688", "moduleName": "assign" },
+    "u2a14": { "id": "4694", "moduleName": "assign" },    
+    "u2a15": { "id": "4696", "moduleName": "hvp" },
+    "u2a16": { "id": "4697", "moduleName": "hvp" },
+    "u2a17": { "id": "4698", "moduleName": "assign" },
+    "u2a18": { "id": "4700", "moduleName": "hvp" },
+    "u2a19": { "id": "4699", "moduleName": "assign" },
+    "u2a20": { "id": "4702", "moduleName": "hvp" }, 
+
+    "u2a22": { "id": "4706", "moduleName": "assign" },    
+    "u2a23": { "id": "4707", "moduleName": "hvp" },    
+    "u2a24": { "id": "4708", "moduleName": "assign" },
+    "u2a25": { "id": "4709", "moduleName": "forum" },
+    "u2a26": { "id": "4710", "moduleName": "assign" },
+    "u2a27": { "id": "4711", "moduleName": "quiz" }
+  }
+}
+
+

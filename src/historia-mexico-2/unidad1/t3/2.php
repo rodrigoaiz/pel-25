@@ -4,6 +4,7 @@ include PATH_INCLUDE . 'TemplatePages.php';
 include PATH_INCLUDE . 'ImagenPie.php';
 include PATH_INCLUDE . 'Videos.php';
 include PATH_INCLUDE . 'ActividadIframe.php';
+include PATH_INCLUDE . 'ActividadH5P.php';
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $menuAsignaturaPath = getMenuAsignaturaPath($urlPath);
 ob_start();
@@ -30,55 +31,14 @@ ob_start();
   </div>
 
 
-  <p>Entre los artículos anticlericales que recuperan lo plasmado en la Constitución de 1857, se encuentra el artículo 130. Para conocer algunos de sus planteamientos revisa lo siguiente:</p>
+  
 
-    <div class="relative my-8 border-l-4 border-azulcla bg-gradient-to-br from-azulcla/5 to-transparent rounded-r-xl overflow-hidden max-w-2xl mx-auto">
-      <div class="absolute top-0 right-0 w-32 h-32 bg-azulcla/5 rounded-full -translate-y-1/2 translate-x-1/2"></div>
-      
-      <div class="relative p-6 space-y-6">
-        <div class="space-y-3">
-          <h4 class="text-lg font-bold text-azulcla flex items-center gap-2">
-            <span class="inline-block w-1.5 h-1.5 rounded-full bg-azulcla"></span>
-            El matrimonio es un contrato civil
-          </h4>
-          <p class="pl-4 text-gray-700 leading-relaxed">Este y los demás actos del estado civil de las personas, son de la exclusiva competencia de los funcionarios y autoridades del orden civil en los términos previstos por las leyes, y tendrán la fuerza y validez que las mismas les atribuyan.</p>
-        </div>
-
-        <div class="h-px bg-gradient-to-r from-azulcla/30 via-azulcla/10 to-transparent"></div>
-
-        <div class="space-y-3">
-          <h4 class="text-lg font-bold text-azulcla flex items-center gap-2">
-            <span class="inline-block w-1.5 h-1.5 rounded-full bg-azulcla"></span>
-            Neutralidad religiosa del gobierno
-          </h4>
-          <p class="pl-4 text-gray-700 leading-relaxed">El Congreso no puede dictar leyes estableciendo o prohibiendo religión cualquiera.</p>
-        </div>
-
-        <div class="h-px bg-gradient-to-r from-azulcla/30 via-azulcla/10 to-transparent"></div>
-
-        <div class="space-y-3">
-          <h4 class="text-lg font-bold text-azulcla flex items-center gap-2">
-            <span class="inline-block w-1.5 h-1.5 rounded-full bg-azulcla"></span>
-            Restricciones en actividades religiosas
-          </h4>
-          <div class="pl-4 space-y-2 text-gray-700 leading-relaxed">
-            <p>Los ministros de los cultos nunca podrán, en reunión pública o privada constituida en junta, ni en actos del culto o de propaganda religiosa, hacer crítica de las leyes fundamentales del país, de las autoridades en particular, o en general del Gobierno; no tendrán voto activo ni pasivo, ni derecho para asociarse con fines políticos.</p>
-            <p>Queda estrictamente prohibida la formación de toda clase de agrupaciones políticas cuyo título tenga alguna palabra o indicación cualquiera que la relacione con alguna confesión religiosa.</p>
-            <p>No podrán celebrarse en los templos reuniones de carácter político.</p>
-          </div>
-        </div>
-
-        <div class="h-px bg-gradient-to-r from-azulcla/30 via-azulcla/10 to-transparent"></div>
-
-        <div class="space-y-3">
-          <h4 class="text-lg font-bold text-azulcla flex items-center gap-2">
-            <span class="inline-block w-1.5 h-1.5 rounded-full bg-azulcla"></span>
-            Regulación de bienes religiosos
-          </h4>
-          <p class="pl-4 text-gray-700 leading-relaxed">Los bienes muebles o inmuebles del clero o de asociaciones religiosas, se regirán para su adquisición, por particulares, conforme al artículo 27 de esta Constitución.</p>
-        </div>
-      </div>
-    </div>
+   <?php ob_start(); ?>
+     <p>Entre los artículos anticlericales que recuperan lo plasmado en la Constitución de 1857, se encuentra el artículo 130. Para conocer algunos de sus planteamientos revisa lo siguiente:</p>
+ <?php
+  $ActividadContent = ob_get_clean();
+  renderActividadH5P('u1a9', "Artículo 130", $ActividadContent);
+  ?>  
 
   <p>En la Constitución Política de los Estados Unidos Mexicanos, la soberanía es un principio fundamental porque garantiza y delimita la soberanía de México en diferentes aspectos, entre ellos: que sea un país independiente, democrático y gobernado por sus ciudadanos. Además, protege su territorio, su sistema de gobierno y sus leyes, de influencias externas y abusos internos.</p>
 
