@@ -96,6 +96,7 @@ module.exports = {
             const relativePath = path.relative(context, absoluteFilename);
             return relativePath.replace(/^src[\\/]/, ''); // Mantiene la estructura de directorios
           },
+          noErrorOnMissing: true, // un clon parcial (sparse) puede no traer ninguna asignatura con audio
         },
         {
           from: 'node_modules/@fontsource-variable/open-sans/files/open-sans-latin*', // Copia solo fuentes latinas de Open Sans
