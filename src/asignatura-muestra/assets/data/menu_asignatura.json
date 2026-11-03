@@ -6,14 +6,19 @@
       "publicado": true,
       "nombre": "Unidad 1",
       "temas": [
-        {"nombre": "La Segunda Revolución Industrial (rmsvlcp)", "url": "/asignatura-muestra/unidad1/t1", "paginas": 0},
-        {"nombre": "La Segunda Revolución Industrial (asiayildirim3244)", "url": "/asignatura-muestra/unidad1/t2", "paginas": 0},
-        {"nombre": "La Segunda Revolución Industrial (brautrrs)", "url": "/asignatura-muestra/unidad1/t3", "paginas": 0},
-        {"nombre": "La Segunda Revolución Industrial (valesc13)", "url": "/asignatura-muestra/unidad1/t4", "paginas": 0},
-        {"nombre": "La Segunda Revolución Industrial (emilianot13)", "url": "/asignatura-muestra/unidad1/t5", "paginas": 0}
+        {"nombre": "La Segunda Revolución Industrial (rmsvlcp)", "url": "/asignatura-muestra/unidad1/t1", "paginas": 1},
+        {"nombre": "La Segunda Revolución Industrial (asiayildirim3244)", "url": "/asignatura-muestra/unidad1/t2", "paginas": 1},
+        {"nombre": "La Segunda Revolución Industrial (brautrrs)", "url": "/asignatura-muestra/unidad1/t3", "paginas": 1},
+        {"nombre": "La Segunda Revolución Industrial (valesc13)", "url": "/asignatura-muestra/unidad1/t4", "paginas": 1},
+        {"nombre": "La Segunda Revolución Industrial (emilianot13)", "url": "/asignatura-muestra/unidad1/t5", "paginas": 1}
       ]
     }
   },
   "actividades": {
+    "u1t1a1": { "id": "0", "moduleName": "quiz" },
+    "u1t2a1": { "id": "0", "moduleName": "quiz" },
+    "u1t3a1": { "id": "0", "moduleName": "quiz" },
+    "u1t4a1": { "id": "0", "moduleName": "quiz" },
+    "u1t5a1": { "id": "0", "moduleName": "quiz" }
   }
 }
