@@ -60,6 +60,7 @@ module.exports = {
             const relativePath = path.relative(context, absoluteFilename);
             return relativePath.replace(/^src[\\/]/, ''); // Elimina 'src/' del path
           },
+          noErrorOnMissing: true, // un clon parcial (sparse) no trae ningún H5P
         },
         {
           from: 'src/**/*.json', // Copia todos los archivos JSON
