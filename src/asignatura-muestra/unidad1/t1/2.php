@@ -19,7 +19,7 @@ ob_start();
       <tr>
         <th>Salud</th>
         <th>Enfermedad</th>
-        <th>Como se representan ambos</th> 
+        <th>¿Cómo se representan ambos?</th> 
       </tr>
     </thead>
     <tbody>

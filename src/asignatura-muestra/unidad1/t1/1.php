@@ -15,7 +15,7 @@ ob_start();
 
 <?php renderVideoIframe('tmonzq0gX5g', 'El ser humano como unidad biopsicosocial - Salud y Adolescencia'); ?>
 
-<?php renderImage('yo-biopsicosocial-bienestar-mental-lifeder-min-1024x768.webp', 'Yo biopsicosocial', 'https://www.lifeder.com/wp-content/uploads/2018/03/yo-biopsicosocial-bienestar-mental-lifeder-min-1024x768.jpg', 'Lifeder'); ?>
+<?php renderImage('yo-biopsicosocial-bienestar-mental-lifeder-min-1024x768.webp', 'Yo biopsicosocial', 'https://www.lifeder.com/yo-biopsicosocial/', 'Lifeder'); ?>
 
 <h3>Entendiendo estos tres conceptos</h3>
 <ul class="ul-disc">
